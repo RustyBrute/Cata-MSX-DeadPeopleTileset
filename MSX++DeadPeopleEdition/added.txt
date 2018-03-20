@@ -1,0 +1,16 @@
+overlay_wielded_410_lever
+410_lever
+гнилые зомби несколько (rot)
+jabberwock_skull
+prussian_blue
+overlay_wielded_spear_stone
+crossbow_makeshift
+mon_dog_zombie_rot - несколько
+mon_zombie_acidic_pk
+overlay_worn_gambeson - изменён
+swat_shield
+novel_crime2
+arcanemap
+bomblet_explosive
+mon_vinebeast_terminal - изменён
+mon_vinebeast - изменён
