@@ -14,3 +14,4 @@ arcanemap
 bomblet_explosive
 mon_vinebeast_terminal - изменён
 mon_vinebeast - изменён
+overlay_wielded_pipe_tobacco - для настоящих джентльменов
