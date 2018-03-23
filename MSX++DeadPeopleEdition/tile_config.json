@@ -1523,6 +1523,12 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "shot_410_slug_reloaded",
+          "fg": 212,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "RPG-7_ammo",
           "fg": 213,
@@ -13133,6 +13139,12 @@
           "bg": 959,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_cooking",
+          "fg": 1030,
+          "bg": 959,
+          "rotates": false
+        },
         {
           "id": "fairy_tales",
           "fg": 1033,
@@ -13259,6 +13271,12 @@
           "bg": 959,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_barter",
+          "fg": 1033,
+          "bg": 959,
+          "rotates": false
+        },
         {
           "id": "textbook_armeast",
           "fg": 1057,
@@ -13294,6 +13312,12 @@
           "bg": 959,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_mechanics",
+          "fg": 1062,
+          "bg": 959,
+          "rotates": false
+        },
         {
           "id": "textbook_weapeast",
           "fg": 1065,
@@ -13302,6 +13326,12 @@
         },
         {
           "id": "textbook_armschina",
+          "fg": 1065,
+          "bg": 959,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_gun",
           "fg": 1065,
           "bg": 959,
           "rotates": false
@@ -13336,6 +13366,12 @@
         },
         {
           "id": "philosophy_book",
+          "fg": 1052,
+          "bg": 959,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_unarmed",
           "fg": 1052,
           "bg": 959,
           "rotates": false
@@ -13412,8 +13448,20 @@
           "bg": 960,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_computer",
+          "fg": 1029,
+          "bg": 960,
+          "rotates": false
+        },
         {
           "id": "textbook_electronics",
+          "fg": 1055,
+          "bg": 960,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_electronics",
           "fg": 1055,
           "bg": 960,
           "rotates": false
@@ -13424,8 +13472,20 @@
           "bg": 960,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_fabrication",
+          "fg": 1032,
+          "bg": 960,
+          "rotates": false
+        },
         {
           "id": "textbook_firstaid",
+          "fg": 1032,
+          "bg": 960,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_firstaid",
           "fg": 1032,
           "bg": 960,
           "rotates": false
@@ -13442,8 +13502,20 @@
           "bg": 960,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_speech",
+          "fg": 1063,
+          "bg": 960,
+          "rotates": false
+        },
         {
           "id": "textbook_survival",
+          "fg": 1020,
+          "bg": 960,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_survival",
           "fg": 1020,
           "bg": 960,
           "rotates": false
@@ -13454,8 +13526,20 @@
           "bg": 960,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_tailor",
+          "fg": 1056,
+          "bg": 960,
+          "rotates": false
+        },
         {
           "id": "textbook_traps",
+          "fg": 1064,
+          "bg": 960,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_traps",
           "fg": 1064,
           "bg": 960,
           "rotates": false
@@ -13474,6 +13558,12 @@
         },
         {
           "id": "textbook_launcher",
+          "fg": 1061,
+          "bg": 960,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_launcher",
           "fg": 1061,
           "bg": 960,
           "rotates": false
@@ -13759,6 +13849,12 @@
           "bg": 962,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_bashing",
+          "fg": 1041,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_brawl",
           "fg": 1798,
@@ -13813,8 +13909,20 @@
           "bg": 962,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_cutting",
+          "fg": 1042,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_dodge",
+          "fg": 1043,
+          "bg": 962,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_dodge",
           "fg": 1043,
           "bg": 962,
           "rotates": false
@@ -13827,6 +13935,12 @@
         },
         {
           "id": "manual_driving",
+          "fg": 1031,
+          "bg": 962,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_driving",
           "fg": 1031,
           "bg": 962,
           "rotates": false
@@ -13909,6 +14023,12 @@
           "bg": 962,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_melee",
+          "fg": 1062,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_muay_thai",
           "fg": 1798,
@@ -13927,8 +14047,20 @@
           "bg": 962,
           "rotates": false
         },
+	    {
+          "id": "encyclopedia_pistol",
+          "fg": 1045,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_rifle",
+          "fg": 1046,
+          "bg": 962,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_rifle",
           "fg": 1046,
           "bg": 962,
           "rotates": false
@@ -13945,8 +14077,20 @@
           "bg": 962,
           "rotates": false
         },
+	    {
+          "id": "encyclopedia_shotgun",
+          "fg": 1047,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_smg",
+          "fg": 1048,
+          "bg": 962,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_smg",
           "fg": 1048,
           "bg": 962,
           "rotates": false
@@ -13969,6 +14113,12 @@
           "bg": 962,
           "rotates": false
         },
+		{
+          "id": "encyclopedia_stabbing",
+          "fg": 1059,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_survival",
           "fg": 1020,
@@ -13977,6 +14127,12 @@
         },
         {
           "id": "manual_swimming",
+          "fg": 1049,
+          "bg": 962,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_swimming",
           "fg": 1049,
           "bg": 962,
           "rotates": false
@@ -14001,6 +14157,12 @@
         },
         {
           "id": "manual_throw",
+          "fg": 1050,
+          "bg": 962,
+          "rotates": false
+        },
+		{
+          "id": "encyclopedia_throw",
           "fg": 1050,
           "bg": 962,
           "rotates": false
@@ -17011,8 +17173,117 @@
         },
         {
           "id": "fd_sludge",
-          "bg": 980,
-          "rotates": false
+		  "fg": 2918,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 2919,
+              "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": 2920,
+              "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": 2921,
+              "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": 2923,
+              "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": 2922,
+              "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 2918,
+              "bg": 972
+            }
+          ]
+        },
+		{
+          "id": "t_sludge",
+		  "fg": 4243,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4244,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": 4245,
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": 4246,
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": 4248,
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": 4247,
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 4243,
+			  "bg": 972
+            }
+          ]
+        },
+		{
+          "id": "t_tar",
+		  "fg": 4249,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4250,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": 4251,
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": 4252,
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": 4254,
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": 4253,
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 4249,
+			  "bg": 972
+            }
+          ]
         },
         {
           "id": "weather_acid_drop",
@@ -22226,7 +22497,71 @@
           "id": "fish_sandwich",
           "fg": 1192
         },
-        {
+		{
+          "id": "sandwich_veggy",
+          "fg": 4261
+        },
+		{
+          "id": "sandwich_t",
+          "fg": 4262
+        },
+		{
+          "id": "sandwich_human",
+          "fg": 4262
+        },
+		{
+          "id": "sandwich_pb",
+          "fg": 4263
+        },
+		{
+          "id": "sandwich_pbj",
+          "fg": 4264
+        },
+		{
+          "id": "sandwich_pbh",
+          "fg": 4265
+        },
+		{
+          "id": "sandwich_pbm",
+          "fg": 4266
+        },
+		{
+          "id": "sloppyjoe",
+          "fg": 4267
+        },
+		{
+          "id": "sandwich_cheese_grilled",
+          "fg": 4268
+        },
+		{
+          "id": "sandwich_deluxe",
+          "fg": 1096
+        },
+		{
+          "id": "sandwich_dudeluxe",
+          "fg": 1096
+        },
+		{
+          "id": "sandwich_cucumber",
+          "fg": 4269
+        },
+		{
+          "id": "sandwich_cheese",
+          "fg": 4269
+        },
+		{
+          "id": "sandwich_jam",
+          "fg": 4270
+        },
+		{
+          "id": "sandwich_honey",
+          "fg": 4265
+        },
+		{
+          "id": "sandwich_sauce",
+          "fg": 4271
+        },
+		{
           "id": "frenchtoast",
           "fg": 1192
         },
@@ -26824,6 +27159,10 @@
         },
 		{
           "id": "bomblet_explosive",
+          "fg": 43
+        },
+		{
+          "id": "bomblet_stun",
           "fg": 44
         },
         {
@@ -30214,6 +30553,11 @@
           "fg": 2575,
           "rotates": false
         },
+		{
+          "id": "bot_manhack_missile",
+          "fg": 4258,
+          "rotates": false
+        },
         {
           "id": "mon_robin",
           "fg": 2577,
@@ -30291,7 +30635,22 @@
         },
         {
           "id": "mon_soulcube",
-          "fg": 2599,
+          "fg": 4257,
+          "rotates": false
+        },
+		{
+          "id": "soulcube_on",
+          "fg": 4256,
+          "rotates": false
+        },
+		{
+          "id": "soulcube_charging",
+          "fg": 4255,
+          "rotates": false
+        },
+		{
+          "id": "broken_soulcube",
+          "fg": 4255,
           "rotates": false
         },
         {
@@ -32878,6 +33237,16 @@
         {
           "id": "t_window_stained_blue",
           "fg": 3430,
+          "rotates": false
+        },        
+		{
+          "id": "t_secretdoor_brick_wall_c",
+          "fg": 4259,
+          "rotates": false
+        },
+		{
+          "id": "t_secretdoor_brick_wall_o",
+          "fg": 4260,
           "rotates": false
         },
         {
@@ -40459,89 +40828,103 @@
           "id": "overlay_male_mutation_CHITIN_FUR",
           "fg": 9748,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_CHITIN_FUR2",
           "fg": 9748,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_CHITIN_FUR3",
           "fg": 9748,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_CHITIN2",
           "fg": 9748,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_CHITIN3",
           "fg": 9748,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_CHLOROMORPH",
           "fg": 9749,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_BARK",
           "fg": 9749,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_PLANTSKIN",
           "fg": 9749,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_SPINES",
           "fg": 9749,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_THICK_SCALES",
           "fg": 9749,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_THORNS",
           "fg": 9749,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_LYNX_FUR",
           "fg": 9750,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_M_SKIN",
           "fg": 9754,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_SCALES",
           "fg": 9752,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_SLEEK_SCALES",
           "fg": 9752,
           "rotates": false
-        },{
+        },
+		{
           "id": "overlay_male_mutation_TROGLO3",
           "fg": 9753,
           "rotates": false
         },
-
-
         {
           "id": "npc_female",
           "fg": 9616,
           "bg": 967
-        },{
+        },
+		{
           "id": "npc_male",
           "fg": 9632,
           "bg": 967
-        },{
+        },
+		{
           "id": "player_female",
           "fg": 9616,
           "bg": 967
-        },{
+        },
+		{
           "id": "player_male",
           "fg": 9632,
           "bg": 967
         },
-
-
-        {
+		{
           "id": "overlay_female_mutation_EYE_BLUE",
           "fg": 9617,
           "rotates": false
@@ -40590,9 +40973,7 @@
           "fg": 9628,
           "rotates": false
         },
-
-        
-        {
+		{
           "id": "overlay_female_mutation_SKIN_PINK",
           "fg": 9633,
           "rotates": false
@@ -40709,10 +41090,20 @@
           "rotates": false
         }
     ]
+    },
+	{
+    "file": "tiles_wide_monsters.png",
+	"sprite_width":160,
+    "sprite_height":128,
+	"sprite_offset_x":-48,
+    "sprite_offset_y":-48,
+    "tiles":
+    [
+		{ "id": "mon_mechaspider_queen", "fg": 11568, "rotates": false },
+		{ "id": "mon_mechaspider", "fg": 11569, "rotates": false },
+		{ "id": "broken_mechaspider", "fg": 11570, "rotates": false }
+    ]
     }
-
-    
-    
     
     
     
