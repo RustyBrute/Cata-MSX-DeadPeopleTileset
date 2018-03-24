@@ -22547,11 +22547,11 @@
         },
 		{
           "id": "sandwich_cheese",
-          "fg": 4269
+          "fg": 4270
         },
 		{
           "id": "sandwich_jam",
-          "fg": 4270
+          "fg": 4271
         },
 		{
           "id": "sandwich_honey",
@@ -22559,7 +22559,11 @@
         },
 		{
           "id": "sandwich_sauce",
-          "fg": 4271
+          "fg": 4272
+        },
+		{
+          "id": "vp_bfg_mounted",
+          "fg": 4273
         },
 		{
           "id": "frenchtoast",
