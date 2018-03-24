@@ -15239,6 +15239,12 @@
           "bg": 967,
           "rotates": false
         },
+		{
+          "id": "mon_headless_dog_thing",
+          "fg": 2506,
+          "bg": 967,
+          "rotates": false
+        },
         {
           "id": "mon_homunculus",
           "fg": 2510,
@@ -15571,8 +15577,7 @@
         },
         {
           "id": "mon_vortex",
-          "fg": 2653,
-          "bg": 967,
+          "fg": 4274,
           "rotates": false
         },
         {
@@ -39792,7 +39797,7 @@
         },
         {
           "id": "mon_thing_spider",
-          "fg": 4212,
+          "fg": 4275,
           "rotates": false
         },
         {
