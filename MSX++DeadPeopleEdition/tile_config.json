@@ -12090,8 +12090,20 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "candle_smoke_lit",
+          "fg": 3466,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "candle",
+          "fg": 3465,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "candle_smoke",
           "fg": 3465,
           "bg": 957,
           "rotates": false
@@ -12897,6 +12909,12 @@
         },
         {
           "id": "lighter",
+          "fg": 3602,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "wearable_lighter",
           "fg": 3602,
           "bg": 957,
           "rotates": false
@@ -15029,6 +15047,12 @@
           "bg": 967,
           "rotates": false
         },
+		{
+          "id": "mon_dog_zombie_rot_worms",
+          "fg": 2415,
+          "bg": 967,
+          "rotates": false
+        },
         {
           "id": "mon_dog_zombie_rot",
           "fg": 2415,
@@ -15234,12 +15258,6 @@
           "rotates": false
         },
         {
-          "id": "mon_headless_dog_thing",
-          "fg": 2506,
-          "bg": 967,
-          "rotates": false
-        },
-		{
           "id": "mon_headless_dog_thing",
           "fg": 2506,
           "bg": 967,
@@ -25515,6 +25533,10 @@
           "id": "broken_mininuke_hack",
           "fg": 1686
         },
+		{
+          "id": "broken_manhack_fire",
+          "fg": 1686
+        },
         {
           "id": "bot_c4_hack",
           "fg": 1686
@@ -27595,6 +27617,21 @@
           "fg": 2083,
           "rotates": false
         },
+		{
+          "id": "bomblet_launcher_double",
+          "fg": 2061,
+          "rotates": false
+        },
+		{
+          "id": "bomblet_launcher_brute",
+          "fg": 2061,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bomblet_launcher_brute",
+          "fg": 2084,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_bomblet_launcher_double",
           "fg": 2084,
@@ -27618,6 +27655,11 @@
         {
           "id": "overlay_wielded_bomblet_launcher_single",
           "fg": 2087,
+          "rotates": false
+        },
+		{
+          "id": "bomblet_launcher_single",
+          "fg": 2061,
           "rotates": false
         },
         {
@@ -30248,6 +30290,26 @@
           "rotates": false
         },
 		{
+          "id": "mastermind_brain",
+          "fg": 4275,
+          "rotates": false
+        },
+		{
+          "id": "triffid_marrow",
+          "fg": 4276,
+          "rotates": false
+        },
+		{
+          "id": "megabear_skull",
+          "fg": 4278,
+          "rotates": false
+        },
+		{
+          "id": "preserved_brain",
+          "fg": 4279,
+          "rotates": false
+        },
+		{
           "id": "410_lever",
           "fg": 4240,
           "rotates": false
@@ -30575,6 +30637,11 @@
         {
           "id": "mon_robot_drone",
           "fg": 2578,
+          "rotates": false
+        },
+		{
+          "id": "broken_robot_drone",
+          "fg": 4277,
           "rotates": false
         },
         {
@@ -35714,6 +35781,11 @@
           "fg": 3964,
           "rotates": true
         },
+		{
+          "id": "tiharturret",
+          "fg": 4108,
+          "rotates": true
+        },
         {
           "id": "vp_atiharturretnc",
           "fg": 3964,
@@ -35732,6 +35804,16 @@
         {
           "id": "vp_avortexaccelerator",
           "fg": 3965,
+          "rotates": true
+        },
+		{
+          "id": "vgen",
+          "fg": 3162,
+          "rotates": true
+        },
+        {
+          "id": "vgen2",
+          "fg": 3162,
           "rotates": true
         },
         {
@@ -38936,6 +39018,11 @@
           "fg": 4106,
           "rotates": true
         },
+		{
+          "id": "ashardgun",
+          "fg": 4106,
+          "rotates": true
+        },
         {
           "id": "vp_l_lmg_223",
           "fg": 4106,
@@ -38963,6 +39050,11 @@
         },
         {
           "id": "vp_shardgun",
+          "fg": 4106,
+          "rotates": true
+        },
+		{
+          "id": "shardgun",
           "fg": 4106,
           "rotates": true
         },
@@ -39006,6 +39098,11 @@
           "fg": 4108,
           "rotates": true
         },
+		{
+          "id": "rslauncher",
+          "fg": 4108,
+          "rotates": true
+        },
         {
           "id": "vp_agattler1nc",
           "fg": 4108,
@@ -39026,13 +39123,28 @@
           "fg": 4109,
           "rotates": true
         },
+		{
+          "id": "nailer",
+          "fg": 4109,
+          "rotates": true
+        },
         {
           "id": "vp_needler",
           "fg": 4109,
           "rotates": true
         },
+		{
+          "id": "needler",
+          "fg": 4109,
+          "rotates": true
+        },
         {
           "id": "vp_slauncher",
+          "fg": 4109,
+          "rotates": true
+        },
+		{
+          "id": "slauncher",
           "fg": 4109,
           "rotates": true
         },
@@ -39178,6 +39290,11 @@
         },
         {
           "id": "vp_lasgunx",
+          "fg": 4115,
+          "rotates": true
+        },
+		{
+          "id": "lasgunx",
           "fg": 4115,
           "rotates": true
         },
@@ -39797,7 +39914,7 @@
         },
         {
           "id": "mon_thing_spider",
-          "fg": 4275,
+          "fg": 4212,
           "rotates": false
         },
         {
@@ -41110,7 +41227,8 @@
     [
 		{ "id": "mon_mechaspider_queen", "fg": 11568, "rotates": false },
 		{ "id": "mon_mechaspider", "fg": 11569, "rotates": false },
-		{ "id": "broken_mechaspider", "fg": 11570, "rotates": false }
+		{ "id": "broken_mechaspider", "fg": 11570, "rotates": false },
+		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false }
     ]
     }
     
