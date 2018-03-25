@@ -19690,7 +19690,7 @@
           "id": "vp_craft_rig",
           "fg": 3101,
           "bg": 1005,
-          "rotates": true,
+          "rotates": false,
           "multitile": true,
           "additional_tiles": [
             {
