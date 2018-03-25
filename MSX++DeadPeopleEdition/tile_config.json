@@ -30801,7 +30801,7 @@
         },
         {
           "id": "mon_treent_green",
-          "fg": 2634,
+          "fg": 5437,
           "rotates": false
         },
         {
@@ -41228,7 +41228,8 @@
 		{ "id": "mon_mechaspider_queen", "fg": 11568, "rotates": false },
 		{ "id": "mon_mechaspider", "fg": 11569, "rotates": false },
 		{ "id": "broken_mechaspider", "fg": 11570, "rotates": false },
-		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false }
+		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false },
+		{ "id": "mon_treent_green", "fg": 11572, "rotates": false }
     ]
     }
     
