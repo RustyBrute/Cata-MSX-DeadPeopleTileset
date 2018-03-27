@@ -5530,6 +5530,11 @@
           "fg": 699,
           "rotates": false
         },
+		{
+          "id": "maid_hat",
+          "fg": 4283,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_makeshift_knapsack",
           "fg": 700,
@@ -14315,6 +14320,12 @@
           "bg": 962,
           "rotates": false
         },
+		{
+          "id": "jewelry_book",
+          "fg": 1054,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "pocket_firearms",
           "fg": 1045,
@@ -15507,9 +15518,9 @@
           "bg": 967,
           "rotates": false
         },
-        {
+		{
           "id": "mon_shia",
-          "fg": 2586,
+          "fg": 4284,
           "bg": 967,
           "rotates": false
         },
@@ -30447,6 +30458,11 @@
 		{
           "id": "fridge_cargo",
           "fg": 4281,
+          "rotates": false
+        },
+		{
+          "id": "food_processor",
+          "fg": 4282,
           "rotates": false
         },
 		{
