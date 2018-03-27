@@ -35,6 +35,11 @@
           "fg": 2,
           "bg": 957
         },
+		{
+          "id": "155mm_frag",
+          "fg": 2,
+          "bg": 957
+        },
         {
           "id": "155mm_shot",
           "fg": 2,
@@ -1525,7 +1530,49 @@
         },
 		{
           "id": "shot_410_slug_reloaded",
-          "fg": 212,
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "shot_410_slug",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "shot_410",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "reloaded_410_shot",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "reloaded_410_birdshot",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "410_birdshot",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "shot_410_hull",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "shot_410_inc",
+          "fg": 10,
           "bg": 957,
           "rotates": false
         },
@@ -8567,6 +8614,17 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "e_tool_chinese",
+          "fg": 3614,
+          "bg": 957,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_e_tool_chinese",
+          "fg": 3682,
+          "rotates": false
+        },
         {
           "id": "gasbomb",
           "fg": 1747,
@@ -8886,6 +8944,12 @@
         },
         {
           "id": "laser_rifle",
+          "fg": 2039,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "bolt_rifle_elec",
           "fg": 2039,
           "bg": 957,
           "rotates": false
@@ -12884,6 +12948,24 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "mil_surp_pack_3",
+          "fg": 3701,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "mil_surp_pack_2",
+          "fg": 3701,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "mil_surp_pack_1",
+          "fg": 3701,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "pet_carrier",
           "fg": 3701,
@@ -13628,6 +13710,12 @@
           "bg": 961,
           "rotates": false
         },
+		{
+          "id": "novel_coa2",
+          "fg": 1033,
+          "bg": 961,
+          "rotates": false
+        },
         {
           "id": "novel_crime",
           "fg": 1051,
@@ -13744,6 +13832,12 @@
         },
         {
           "id": "novel_war",
+          "fg": 1052,
+          "bg": 961,
+          "rotates": false
+        },        
+		{
+          "id": "novel_war2",
           "fg": 1052,
           "bg": 961,
           "rotates": false
@@ -27193,8 +27287,16 @@
           "fg": 43
         },
 		{
+          "id": "bomblet_frag",
+          "fg": 45
+        },
+		{
           "id": "bomblet_stun",
           "fg": 44
+        },
+		{
+          "id": "bomblet_acid",
+          "fg": 41
         },
         {
           "id": "m14ebr",
@@ -27562,6 +27664,11 @@
           "fg": 2080,
           "rotates": false
         },
+		{
+          "id": "overlay_wielded_shotgun_410",
+          "fg": 2080,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_m1a",
           "fg": 2080,
@@ -27822,6 +27929,11 @@
           "fg": 2093,
           "rotates": false
         },
+		{
+          "id": "overlay_wielded_410_revolver",
+          "fg": 2079,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_l_sp_9mm",
           "fg": 2093,
@@ -28077,6 +28189,11 @@
         },
         {
           "id": "overlay_wielded_laser_rifle",
+          "fg": 2112,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bolt_rifle_elec",
           "fg": 2112,
           "rotates": false
         },
@@ -28842,6 +28959,10 @@
           "id": "shotgun_s",
           "fg": 2196
         },
+		{
+          "id": "shotgun_410",
+          "fg": 2196
+        },
         {
           "id": "airspeargun",
           "fg": 2196
@@ -28966,6 +29087,10 @@
           "id": "l_sp_45",
           "fg": 2221
         },
+		{
+          "id": "410_revolver",
+          "fg": 2210
+        },
         {
           "id": "usp_9mm",
           "fg": 2222,
@@ -29089,6 +29214,11 @@
         },
         {
           "id": "m203",
+          "fg": 2246,
+          "rotates": false
+        },
+		{
+          "id": "bomblet_undermod",
           "fg": 2246,
           "rotates": false
         },
@@ -30307,6 +30437,16 @@
 		{
           "id": "preserved_brain",
           "fg": 4279,
+          "rotates": false
+        },
+		{
+          "id": "f_tank_trap",
+          "fg": 4280,
+          "rotates": false
+        },
+		{
+          "id": "fridge_cargo",
+          "fg": 4281,
           "rotates": false
         },
 		{
@@ -35250,6 +35390,11 @@
           "fg": 3864,
           "rotates": false
         },
+		{
+          "id": "goggles_nv_clairvoyance",
+          "fg": 3864,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_goggles_nv_on",
           "fg": 3865,
@@ -38912,6 +39057,11 @@
         },
         {
           "id": "vp_laser_rifle",
+          "fg": 4099,
+          "rotates": true
+        },
+		{
+          "id": "vp_ups_rifle_t",
           "fg": 4099,
           "rotates": true
         },
