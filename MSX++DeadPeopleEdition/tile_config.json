@@ -17474,10 +17474,18 @@
           "bg": 985,
           "rotates": false
         },
-        {
+		{
           "id": "t_pavement",
+          "fg": 985,
           "bg": 985,
-          "rotates": false
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "corner",
+              "fg": [4285, 4286, 4287, 4288]
+            }
+          ]
         },
         {
           "id": "t_pavement_y",
@@ -27014,6 +27022,46 @@
           "id": "needlepistol",
           "fg": 1984
         },
+		{
+          "id": "surv_battery_pistol",
+          "fg": 4289
+        },
+		{
+          "id": "overlay_wielded_surv_battery_pistol",
+          "fg": 4290
+        },
+		{
+          "id": "sur_pnu_lmg",
+          "fg": 4291
+        },
+		{
+          "id": "overlay_wielded_sur_pnu_lmg",
+          "fg": 4292
+        },
+		{
+          "id": "surv_battery_rifle",
+          "fg": 4293
+        },
+		{
+          "id": "overlay_wielded_surv_battery_rifle",
+          "fg": 4294
+        },
+		{
+          "id": "acidbomb_micro",
+          "fg": 4295
+        },
+		{
+          "id": "acidbomb_small",
+          "fg": 4296
+        },
+		{
+          "id": "acidbomb_medium",
+          "fg": 4297
+        },
+		{
+          "id": "acidbomb_large",
+          "fg": 4298
+        },
         {
           "id": "atlatl",
           "fg": 1986,
@@ -27674,6 +27722,10 @@
           "id": "overlay_wielded_shotgun_s",
           "fg": 2080,
           "rotates": false
+        },
+		{
+          "id": "overlay_wielded_410_pipe_shotgun",
+          "fg": 3947
         },
 		{
           "id": "overlay_wielded_shotgun_410",
@@ -28971,6 +29023,10 @@
           "fg": 2196
         },
 		{
+          "id": "410_pipe_shotgun",
+          "fg": 2067
+        },
+		{
           "id": "shotgun_410",
           "fg": 2196
         },
@@ -29322,6 +29378,11 @@
         },
         {
           "id": "belt308_reusable",
+          "fg": 2264,
+          "rotates": false
+        },
+{
+          "id": "belt308_surv",
           "fg": 2264,
           "rotates": false
         },
@@ -35006,6 +35067,16 @@
           "fg": 3768,
           "rotates": false
         },
+		{
+          "id": "summon_dark_wyrm",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
+          "id": "summon_dark_wyrm_on",
+          "fg": 3768,
+          "rotates": false
+        },
         {
           "id": "summon_blank",
           "fg": 3768,
@@ -35633,6 +35704,16 @@
         {
           "id": "overlay_worn_stealth_cloak",
           "fg": 3890,
+          "rotates": false
+        },
+		{
+          "id": "stealth_cloak",
+          "fg": 323,
+          "rotates": false
+        },
+		{
+          "id": "stealth_cloak_f",
+          "fg": 317,
           "rotates": false
         },
         {
