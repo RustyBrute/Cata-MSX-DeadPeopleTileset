@@ -1547,6 +1547,12 @@
           "rotates": false
         },
 		{
+          "id": "shot_410_reloaded",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
           "id": "reloaded_410_shot",
           "fg": 9,
           "bg": 957,
@@ -2096,6 +2102,11 @@
           "fg": 289,
           "rotates": false
         },
+		{
+          "id": "boots_stealth",
+          "fg": 289,
+          "rotates": false
+        },
         {
           "id": "boots_fur",
           "fg": 290,
@@ -2511,6 +2522,10 @@
           "fg": 348
         },
         {
+          "id": "bandolier_bomblet",
+          "fg": 348
+        },
+		{
           "id": "bandolier_shotgun",
           "fg": 348
         },
@@ -4168,6 +4183,11 @@
         },
         {
           "id": "overlay_worn_boots_combat",
+          "fg": 551,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_boots_stealth",
           "fg": 551,
           "rotates": false
         },
@@ -12529,6 +12549,18 @@
         },
         {
           "id": "heavy_flashlight_on",
+          "fg": 3567,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "solar_flashlight",
+          "fg": 3566,
+          "bg": 957,
+          "rotates": false
+        },
+        {
+          "id": "solar_flashlight_on",
           "fg": 3567,
           "bg": 957,
           "rotates": false
@@ -21241,6 +21273,11 @@
           "fg": 1016,
           "rotates": false
         },
+		{
+          "id": "bio_sword",
+          "fg": 1016,
+          "rotates": false
+        },
         {
           "id": "bio_blade_weapon",
           "fg": 1016,
@@ -21498,6 +21535,11 @@
         },
         {
           "id": "bio_razors",
+          "fg": 1016,
+          "rotates": false
+        },
+		{
+          "id": "bio_blade",
           "fg": 1016,
           "rotates": false
         },
@@ -24958,6 +25000,11 @@
           "fg": 1555,
           "rotates": false
         },
+		{
+          "id": "blaze_mag_hbolt",
+          "fg": 3986,
+          "rotates": false
+        },
         {
           "id": "f_rubble",
           "fg": 1556,
@@ -27119,6 +27166,14 @@
           "fg": 2035
         },
 		{
+          "id": "surv_223_mag",
+          "fg": 2245
+        },
+		{
+          "id": "surv_12_mag",
+          "fg": 2245
+        },
+		{
           "id": "hmil_armor",
           "bg": 4303
         },
@@ -27231,6 +27286,76 @@
 		{
           "id": ["overlay_worn_vest_leather_zuicide_short", "overlay_worn_vest_leather_zuicide_short_active"],
           "fg": 4323,
+          "rotates": false
+        },
+		{
+          "id": "elc_bld",
+          "fg": 4324,
+          "rotates": false
+        },
+				{
+          "id": "elc_blds",
+          "fg": 4325,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_elc_bld",
+          "fg": 4326,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_elc_blds",
+          "fg": 4327,
+          "rotates": false
+        },
+		{
+          "id": "cyber_rocket",
+          "fg": 4329,
+          "rotates": false
+        },
+		{
+          "id": "unbio_laser_gun",
+          "fg": 4330,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_unbio_laser_gun",
+          "fg": 4331,
+          "rotates": false
+        },
+		{
+          "id": "gattler",
+          "fg": 4332,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_gattler",
+          "fg": 4333,
+          "rotates": false
+        },
+		{
+          "id": "ups_rifle_crank",
+          "fg": 4336,
+          "rotates": false
+        },
+		{
+          "id": "smoke_machine",
+          "fg": 4337,
+          "rotates": false
+        },
+		{
+          "id": "smoke_machine_unpreped",
+          "fg": 4337,
+          "rotates": false
+        },
+		{
+          "id": "smoke_machine_act",
+          "fg": 4337,
+          "rotates": false
+        },		
+		{
+          "id": "flaming_skull",
+          "fg": 2916,
           "rotates": false
         },
         {
@@ -34592,12 +34717,17 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_elc_bld",
+          "id": "overlay_wielded_unbio_bladed_weapon",
           "fg": 3654,
           "rotates": false
         },
+		{
+          "id": "unbio_bladed_weapon",
+          "fg": 4328,
+          "rotates": false
+        },
         {
-          "id": "overlay_wielded_elc_blds",
+          "id": "!overlay_wielded_elc_blds",
           "fg": 3655,
           "rotates": false
         },
@@ -34761,6 +34891,11 @@
           "fg": 3667,
           "rotates": false
         },
+		{
+          "id": "overlay_wielded_heavy_solar_flashlight",
+          "fg": 3667,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_l-stick",
           "fg": 3667,
@@ -34788,6 +34923,11 @@
         },
         {
           "id": "overlay_wielded_heavy_flashlight_on",
+          "fg": 3668,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_solar_flashlight_on",
           "fg": 3668,
           "rotates": false
         },
