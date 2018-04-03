@@ -10345,7 +10345,19 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "solar_torch",
+          "fg": 3796,
+          "bg": 957,
+          "rotates": false
+        },
         {
+          "id": "solar_torch_done",
+          "fg": 1962,
+          "bg": 957,
+          "rotates": false
+        },
+		{
           "id": "torch_done",
           "fg": 1962,
           "bg": 957,
@@ -10353,6 +10365,12 @@
         },
         {
           "id": "torch_lit",
+          "fg": 3797,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "solar_torch_lit",
           "fg": 3797,
           "bg": 957,
           "rotates": false
@@ -12423,8 +12441,20 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "wear_solar_flashlight",
+          "fg": 3913,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "wearable_light_on",
+          "fg": 3914,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "wear_solar_flashlight_on",
           "fg": 3914,
           "bg": 957,
           "rotates": false
@@ -13505,6 +13535,12 @@
         },
         {
           "id": "holybook_bible3",
+          "fg": 1037,
+          "bg": 959,
+          "rotates": false
+        },
+		{
+          "id": "book_syncretism",
           "fg": 1037,
           "bg": 959,
           "rotates": false
@@ -14596,6 +14632,12 @@
         },
         {
           "id": "mag_melee",
+          "fg": 1062,
+          "bg": 963,
+          "rotates": false
+        },
+		{
+          "id": "manual_surv",
           "fg": 1062,
           "bg": 963,
           "rotates": false
@@ -22037,6 +22079,10 @@
           "id": "denat_alcohol",
           "fg": 1094
         },
+		{
+          "id": "water_smoke",
+          "fg": 1094
+        },
         {
           "id": "blood",
           "fg": 1095,
@@ -24219,6 +24265,18 @@
           "id": "straw_basket",
           "fg": 1419
         },
+		{
+          "id": "milk_curdling",
+          "fg": 1431
+        },
+		{
+          "id": "milk_curdling2",
+          "fg": 1419
+        },
+		{
+          "id": "milk_curdling3",
+          "fg": 1432
+        },
         {
           "id": "gas_chloramine",
           "fg": 1421
@@ -24791,6 +24849,11 @@
         },
         {
           "id": "f_fridge",
+          "fg": 1516,
+          "rotates": false
+        },
+		{
+          "id": "dc_fridge",
           "fg": 1516,
           "rotates": false
         },
@@ -27170,7 +27233,15 @@
           "fg": 2245
         },
 		{
+          "id": "surv_223_mag",
+          "fg": 2245
+        },
+		{
           "id": "surv_12_mag",
+          "fg": 2245
+        },
+		{
+          "id": "surv_45_mag",
           "fg": 2245
         },
 		{
@@ -27192,9 +27263,41 @@
 		{
           "id": "spell_lightningfield",
           "bg": 4306
-        },
+        },		
 		{
           "id": "spell_lightningfield_on",
+          "bg": 4306
+        },
+		{
+          "id": "spell_summonculus",
+          "bg": 4306
+        },
+		{
+          "id": "spell_summonculus_on",
+          "bg": 4306
+        },		
+		{
+          "id": "spell_summonthing",
+          "bg": 4306
+        },
+		{
+          "id": "spell_summonthing_on",
+          "bg": 4306
+        },
+		{
+          "id": "spell_summondog",
+          "bg": 4306
+        },
+		{
+          "id": "spell_summondog_on",
+          "bg": 4306
+        },
+		{
+          "id": "spell_smoke",
+          "bg": 4306
+        },
+		{
+          "id": "spell_smoke_on",
           "bg": 4306
         },
 		{
@@ -27356,6 +27459,96 @@
 		{
           "id": "flaming_skull",
           "fg": 2916,
+          "rotates": false
+        },
+		{
+          "id": "bomblet_vile",
+          "fg": 2916,
+          "rotates": false
+        },
+		{
+          "id": "flesh_blade",
+          "fg": 4338,
+          "rotates": false
+        },
+		{
+          "id": "cangun",
+          "fg": 4339,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_cangun",
+          "fg": 4340,
+          "rotates": false
+        },
+		{
+          "id": "survbow",
+          "fg": 4341,
+          "rotates": false
+        },		
+		{
+          "id": "colt_lightning",
+          "fg": 4342,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_colt_lightning",
+          "fg": 4343,
+          "rotates": false
+        },
+		{
+          "id": "moonstone_fang",
+          "fg": 4344,
+          "rotates": false
+        },
+		{
+          "id": "unbio_sword_weapon",
+          "fg": 4334,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_unbio_sword_weapon",
+          "fg": 4335,
+          "rotates": false
+        },        
+		{
+          "id": "bot_robot_drone",
+          "fg": 4345,
+          "rotates": false
+        },
+		{
+          "id": "parawatch",
+          "fg": 4346,
+          "rotates": false
+        },
+		{
+          "id": "lmil_armor",
+          "fg": 4348,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_lmil_armor",
+          "fg": 4347,
+          "rotates": false
+        },
+		{
+          "id": "mil_armor",
+          "fg": 4349,
+          "rotates": false
+        },
+		{
+          "id": "unbio_claws_weapon",
+          "fg": 4350,
+          "rotates": false
+        },
+		{
+          "id": "bio_flamethrower_gun",
+          "fg": 4351,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bio_flamethrower_gun",
+          "fg": 4352,
           "rotates": false
         },
         {
@@ -27640,6 +27833,10 @@
 		{
           "id": "bomblet_explosive",
           "fg": 43
+        },
+		{
+          "id": "bomblet_fire",
+          "fg": 42
         },
 		{
           "id": "bomblet_frag",
@@ -29704,6 +29901,10 @@
           "id": "belt308",
           "fg": 2264
         },
+		{
+          "id": "surv_belt_308",
+          "fg": 2264
+        },
         {
           "id": "belt40mm",
           "fg": 2265
@@ -30126,6 +30327,10 @@
         },
         {
           "id": "debug_mon",
+          "fg": 2281
+        },
+		{
+          "id": "generic_folded_vehicle",
           "fg": 2281
         },
         {
@@ -34491,8 +34696,18 @@
           "fg": 3642,
           "rotates": false
         },
+		        {
+          "id": "overlay_wielded_solar_torch",
+          "fg": 3642,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_torch_done",
+          "fg": 3642,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_solar_torch_done",
           "fg": 3642,
           "rotates": false
         },
@@ -34503,6 +34718,11 @@
         },
         {
           "id": "overlay_wielded_battletorch_lit",
+          "fg": 3643,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_solar_torch_lit",
           "fg": 3643,
           "rotates": false
         },
@@ -35397,6 +35617,11 @@
           "rotates": false
         },
 		{
+          "id": "summon_kreck_on",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
           "id": "summon_dark_wyrm",
           "fg": 3768,
           "rotates": false
@@ -35411,8 +35636,18 @@
           "fg": 3768,
           "rotates": false
         },
+		{
+          "id": "summon_blank_on",
+          "fg": 3768,
+          "rotates": false
+        },
         {
           "id": "summon_flaming_eye",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
+          "id": "summon_flaming_eye_on",
           "fg": 3768,
           "rotates": false
         },
@@ -35421,8 +35656,18 @@
           "fg": 3768,
           "rotates": false
         },
+		{
+          "id": "summon_hunting_horror_on",
+          "fg": 3768,
+          "rotates": false
+        },
         {
           "id": "summon_flying_polyp",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
+          "id": "summon_flying_polyp_on",
           "fg": 3768,
           "rotates": false
         },
@@ -35431,8 +35676,18 @@
           "fg": 3768,
           "rotates": false
         },
+		{
+          "id": "summon_mi_go_on",
+          "fg": 3768,
+          "rotates": false
+        },
         {
           "id": "summon_yugg",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
+          "id": "summon_yugg_on",
           "fg": 3768,
           "rotates": false
         },
@@ -35441,13 +35696,28 @@
           "fg": 3768,
           "rotates": false
         },
+		{
+          "id": "summon_shoggoth_on",
+          "fg": 3768,
+          "rotates": false
+        },
         {
           "id": "summon_dark_wyrm",
           "fg": 3768,
           "rotates": false
         },
+		{
+          "id": "summon_dark_wyrm_on",
+          "fg": 3768,
+          "rotates": false
+        },
         {
           "id": "summon_jabberwock",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
+          "id": "summon_jabberwock_on",
           "fg": 3768,
           "rotates": false
         },
@@ -36070,8 +36340,18 @@
           "fg": 3893,
           "rotates": false
         },
-        {
+		{
+          "id": "overlay_worn_wear_solar_flashlight",
+          "fg": 3893,
+          "rotates": false
+        },
+		{
           "id": "overlay_worn_wearable_light_on",
+          "fg": 3894,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_wear_solar_flashlight_on",
           "fg": 3894,
           "rotates": false
         },
@@ -39197,6 +39477,11 @@
         },
         {
           "id": "vp_oozle_diesel_tank",
+          "fg": 4057,
+          "rotates": true
+        },
+		{
+          "id": "oozle_box",
           "fg": 4057,
           "rotates": true
         },
