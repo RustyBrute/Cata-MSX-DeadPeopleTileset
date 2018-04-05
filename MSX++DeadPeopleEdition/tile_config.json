@@ -1571,6 +1571,12 @@
           "rotates": false
         },
 		{
+          "id": "410_slug",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+		{
           "id": "shot_410_hull",
           "fg": 9,
           "bg": 957,
@@ -26180,6 +26186,10 @@
           "id": "silver",
           "fg": 1799
         },
+		{
+          "id": "mold_metal",
+          "fg": 1799
+        },
         {
           "id": "material_niter",
           "fg": 1800
@@ -27259,17 +27269,89 @@
 		{
           "id": "hell_laser",
           "bg": 978
-        },
+        },		
+		{
+          "id": "spell_lightning",
+          "bg": 4306
+        },			
+		{
+          "id": "spell_lightning_on",
+          "bg": 4306
+        },	
 		{
           "id": "spell_lightningfield",
           "bg": 4306
-        },		
+        },				
+		{
+          "id": "spell_cloud",
+          "bg": 4306
+        },	
+		{
+          "id": "spell_cloud_on",
+          "bg": 4306
+        },	
+				{
+          "id": "spell_flamearmor_on",
+          "bg": 4306
+        },	
+						{
+          "id": "spell_flamearmor",
+          "bg": 4306
+        },	
+		{
+          "id": "spell_pulse",
+          "bg": 4306
+        },
+				{
+          "id": "spell_lockpick",
+          "bg": 4306
+        },
+						{
+          "id": "spell_lockpick_on",
+          "bg": 4306
+        },
+								{
+          "id": "spell_poisonarmor",
+          "bg": 4306
+        },								
+		{
+          "id": "spell_poisonarmor_on",
+          "bg": 4306
+        },								
+		{
+          "id": "spell_summonskel",
+          "bg": 4306
+        },			
+		{
+          "id": "spell_summonskel_on",
+          "bg": 4306
+        },	
 		{
           "id": "spell_lightningfield_on",
           "bg": 4306
         },
 		{
+          "id": "spell_pulse_on",
+          "bg": 4306
+        },
+				{
+          "id": "spell_summonvortex",
+          "bg": 4306
+        },
+				{
+          "id": "spell_summonvortex_on",
+          "bg": 4306
+        },
+		{
           "id": "spell_summonculus",
+          "bg": 4306
+        },
+				{
+          "id": "spell_heal",
+          "bg": 4306
+        },
+				{
+          "id": "spell_heal_on",
           "bg": 4306
         },
 		{
@@ -27280,12 +27362,28 @@
           "id": "spell_summonthing",
           "bg": 4306
         },
+				{
+          "id": "spell_teleport",
+          "bg": 4306
+        },
+				{
+          "id": "spell_teleport_on",
+          "bg": 4306
+        },
 		{
           "id": "spell_summonthing_on",
           "bg": 4306
         },
 		{
           "id": "spell_summondog",
+          "bg": 4306
+        },
+				{
+          "id": "spell_fireball",
+          "bg": 4306
+        },		
+		{
+          "id": "spell_fireball_on",
           "bg": 4306
         },
 		{
@@ -27296,8 +27394,32 @@
           "id": "spell_smoke",
           "bg": 4306
         },
+				{
+          "id": "spell_plants",
+          "bg": 4306
+        },				
+		{
+          "id": "spell_plants_on",
+          "bg": 4306
+        },
 		{
           "id": "spell_smoke_on",
+          "bg": 4306
+        },
+				{
+          "id": "spell_pacify",
+          "bg": 4306
+        },
+				{
+          "id": "spell_pacify_on",
+          "bg": 4306
+        },
+						{
+          "id": "spell_daylight",
+          "bg": 4306
+        },
+						{
+          "id": "spell_daylight_on",
           "bg": 4306
         },
 		{
@@ -27551,6 +27673,56 @@
           "fg": 4352,
           "rotates": false
         },
+		{
+          "id": "f_hallowed_altar",
+          "fg": 4353,
+          "rotates": false
+        },		
+		{
+          "id": "hallowed_altar",
+          "fg": 4353,
+          "rotates": false
+        },
+		{
+          "id": "badge_bio_weapon",
+          "fg": 4354,
+          "rotates": false
+        },
+		{
+          "id": "flesh_rifle",
+          "fg": 4355,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_flesh_rifle",
+          "fg": 4356,
+          "rotates": false
+        },
+		{
+          "id": "bond_410",
+          "fg": 4357,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bond_410",
+          "fg": 2093,
+          "rotates": false
+        },
+		{
+          "id": "equestria_portal",
+          "fg": 4308,
+          "rotates": false
+        },
+		{
+          "id": "null",
+          "fg": 0,
+          "rotates": false
+        },
+		{
+          "id": "molded_shovel",
+          "fg": 4358,
+          "rotates": false
+        },
         {
           "id": "atlatl",
           "fg": 1986,
@@ -27720,6 +27892,18 @@
           "rotates": false
         },
 		{
+          "id": "45aux",
+          "fg": 2021,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "9mmaux",
+          "fg": 2021,
+          "bg": 957,
+          "rotates": false
+        },
+		{
           "id": "p226_357sig",
           "fg": 2021,
           "rotates": false
@@ -27828,6 +28012,10 @@
         },
 		 {
           "id": "bomblet_launcher_rotary",
+          "fg": 2054
+        },
+		{
+          "id": "scattergun",
           "fg": 2054
         },
 		{
@@ -28315,6 +28503,11 @@
           "fg": 2086,
           "rotates": false
         },
+		{
+          "id": "overlay_wielded_scattergun",
+          "fg": 2086,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_bomblet_launcher_single",
           "fg": 2087,
@@ -28626,7 +28819,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_flesh_rifle",
+          "id": "!overlay_wielded_flesh_rifle",
           "fg": 2100,
           "rotates": false
         },
@@ -31449,6 +31642,11 @@
 		{
           "id": "soulcube_on",
           "fg": 4256,
+          "rotates": false
+        },
+		{
+          "id": "soulcube",
+          "fg": 4255,
           "rotates": false
         },
 		{
@@ -35306,6 +35504,11 @@
           "fg": 3682,
           "rotates": false
         },
+		        {
+          "id": "overlay_wielded_molded_shovel",
+          "fg": 3682,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_primitive_shovel",
           "fg": 3682,
@@ -36211,6 +36414,11 @@
           "fg": 3878,
           "rotates": false
         },
+		{
+          "id": "rebreather",
+          "fg": 3879,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_rebreather",
           "fg": 3879,
@@ -36228,6 +36436,11 @@
         },
         {
           "id": "overlay_worn_rebreather_xl_on",
+          "fg": 3879,
+          "rotates": false
+        },
+		{
+          "id": "rebreather_xl",
           "fg": 3879,
           "rotates": false
         },
@@ -36374,6 +36587,10 @@
         },
         {
           "id": "berserker_drug_act",
+          "fg": 3900
+        },
+		{
+          "id": "megamap",
           "fg": 3900
         },
         {
