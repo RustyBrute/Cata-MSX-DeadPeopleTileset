@@ -1,4 +1,2 @@
-NAME: MSX++DEAD_PEOPLE
-VIEW: MSX++DEAD_PEOPLE
-JSON: tile_config.json
+NAME: MSX++DEAD_PEOPLE: MSX++DEAD_PEOPLE: tile_config.json
 TILESET: tiles.png
