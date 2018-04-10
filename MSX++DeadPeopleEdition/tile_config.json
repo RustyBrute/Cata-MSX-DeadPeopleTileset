@@ -27820,6 +27820,16 @@
           "fg": 4363,
           "rotates": false
         },
+		{
+          "id": "megaarmor_head_1",
+          "fg": 4364,
+          "rotates": false
+        },		
+		{
+          "id": "megaarmor_torso_1",
+          "fg": 4365,
+          "rotates": false
+        },
         {
           "id": "atlatl",
           "fg": 1986,
@@ -42432,7 +42442,8 @@
 		{ "id": "mon_mechaspider", "fg": 11569, "rotates": false },
 		{ "id": "broken_mechaspider", "fg": 11570, "rotates": false },
 		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false },
-		{ "id": "mon_treent_green", "fg": 11572, "rotates": false }
+		{ "id": "mon_treent_green", "fg": 11572, "rotates": false },
+		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false }
     ]
     }
     
