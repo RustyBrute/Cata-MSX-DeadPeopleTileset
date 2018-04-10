@@ -31746,17 +31746,17 @@
         },
         {
           "id": "mon_soulcube",
-          "fg": 4257,
+          "fg": 2599,
           "rotates": false
         },
 		{
           "id": "soulcube_on",
-          "fg": 4255,
+          "fg": 4257,
           "rotates": false
         },
 		{
           "id": "soulcube",
-          "fg": 4256,
+          "fg": 4255,
           "rotates": false
         },
 		{
@@ -31766,7 +31766,7 @@
         },
 		{
           "id": "broken_soulcube",
-          "fg": 4255,
+          "fg": 4256,
           "rotates": false
         },
         {
