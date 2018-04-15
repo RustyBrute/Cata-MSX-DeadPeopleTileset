@@ -18632,6 +18632,18 @@
           "bg": 992,
           "rotates": false
         },
+		{
+          "id": "t_tree_young",
+          "fg": 4370,
+          "bg": 992,
+          "rotates": false
+        },
+				{
+          "id": "t_tree_young_season_autumn",
+          "fg": 4371,
+          "bg": 991,
+          "rotates": false
+        },
         {
           "id": "t_tree_young_season_winter",
           "fg": 4366,
@@ -20605,7 +20617,7 @@
           "bg": 1012
         },
         {
-          "id": "t_tree_young",
+          "id": "!t_tree_young",
           "fg": 3314,
           "bg": 1012,
           "rotates": false
@@ -20617,7 +20629,7 @@
           "rotates": false
         },
         {
-          "id": "t_underbrush",
+          "id": "t_underbrush_season_summer",
           "fg": 3318,
           "bg": 1012,
           "rotates": false
@@ -21073,10 +21085,15 @@
           "fg": 3281,
           "bg": 1012,
           "rotates": false
+        },        {
+          "id": "t_underbrush_season_spring",
+          "fg": 4374,
+          "bg": 1012,
+          "rotates": false
         },
         {
           "id": "t_underbrush_harvested_spring",
-          "fg": 3319,
+          "fg": 4375,
           "bg": 1012,
           "rotates": false
         },
@@ -21086,9 +21103,15 @@
           "bg": 1012,
           "rotates": false
         },
+		        {
+          "id": "t_underbrush_season_autumn",
+          "fg": 4372,
+          "bg": 1012,
+          "rotates": false
+        },
         {
           "id": "t_underbrush_harvested_autumn",
-          "fg": 3319,
+          "fg": 4373,
           "bg": 1012,
           "rotates": false
         },
@@ -41719,7 +41742,7 @@
           "rotates": false
         },
         {
-          "id": "t_tree_young",
+          "id": "t_tree_young_season_summer",
           "fg": 5404,
           "bg": 5402,
           "rotates": false
