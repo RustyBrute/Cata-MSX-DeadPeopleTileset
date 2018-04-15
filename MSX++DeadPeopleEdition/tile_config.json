@@ -20480,6 +20480,39 @@
               "fg": 3087
             }
           ]
+        },        
+		{
+          "id": "t_grass_season_autmn",
+          "fg": 3074,
+          "bg": 1012,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 3075
+            },
+            {
+              "id": "corner",
+              "fg": 3076
+            },
+            {
+              "id": "edge",
+              "fg": 3077
+            },
+            {
+              "id": "end_piece",
+              "fg": 3078
+            },
+            {
+              "id": "t_connection",
+              "fg": 3086
+            },
+            {
+              "id": "unconnected",
+              "fg": 3087
+            }
+          ]
         },
         {
           "id": "t_ladder_down",
