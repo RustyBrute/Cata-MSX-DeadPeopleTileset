@@ -17595,7 +17595,7 @@
           "fg": 985,
           "bg": 985,
           "rotates": false,
-          "multitile": true,
+          "multitile": false,
           "additional_tiles": [
             {
               "id": "corner",
@@ -18634,7 +18634,7 @@
         },
         {
           "id": "t_tree_young_season_winter",
-          "fg": 3315,
+          "fg": 4366,
           "bg": 992,
           "rotates": false
         },
@@ -18870,11 +18870,6 @@
         {
           "id": "t_tree_dead_season_winter",
           "fg": 3294,
-          "bg": 992
-        },
-        {
-          "id": "blob_pit_slime_season_winter",
-          "fg": 2967,
           "bg": 992
         },
         {
@@ -19601,6 +19596,44 @@
               "id": "unconnected",
               "fg": 3124,
               "bg": 995
+            }
+          ]
+        },
+		        {
+          "id": "t_paper_floor",
+          "fg": 3124,
+          "bg": 4369,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 3142,
+              "bg": 4369
+            },
+            {
+              "id": "corner",
+              "fg": 3143,
+              "bg": 4369
+            },
+            {
+              "id": "edge",
+              "fg": 3144,
+              "bg": 4369
+            },
+            {
+              "id": "end_piece",
+              "fg": 3145,
+              "bg": 4369
+            },
+            {
+              "id": "t_connection",
+              "fg": 3146,
+              "bg": 4369
+            },
+            {
+              "id": "unconnected",
+              "fg": 3124,
+              "bg": 4369
             }
           ]
         },
@@ -21138,11 +21171,6 @@
         {
           "id": "t_tree_maple_tapped",
           "fg": 3303,
-          "bg": 1012
-        },
-        {
-          "id": "blob_pit_slime",
-          "fg": 2967,
           "bg": 1012
         },
         {
@@ -23192,6 +23220,10 @@
         },
         {
           "id": "bone_glue",
+          "fg": 1256
+        },
+		        {
+          "id": "wasp_glue",
           "fg": 1256
         },
         {
@@ -27830,6 +27862,32 @@
           "fg": 4365,
           "rotates": false
         },
+				{
+          "id": "t_secretdoor_wall_o",
+          "fg": 3324,
+          "rotates": false
+        },
+						{
+          "id": "t_secretdoor_concrete_wall_o",
+          "fg": 3324,
+          "rotates": false
+        },
+						{
+          "id": "t_secretdoor_bookcase_o",
+          "fg": 3324,
+          "rotates": false
+        },						
+		{
+          "id": "f_wardrobe",
+          "fg": 4367,
+          "rotates": false
+        },
+				{
+          "id": "f_piano",
+          "fg": 4368,
+          "rotates": false
+        },
+		
         {
           "id": "atlatl",
           "fg": 1986,
@@ -33036,11 +33094,21 @@
           "id": "blob_pit",
           "fg": 2967,
           "bg": 3150
-        },
-        {
+        },        
+		        {
           "id": "blob_pit_season_winter",
           "fg": 2967,
-          "bg": 3156
+          "bg": 3150
+        },        
+		{
+          "id": "blob_pit_slime",
+          "fg": 2967,
+          "bg": 1012
+        },
+				{
+          "id": "blob_pit_slime_season_winter",
+          "fg": 2967,
+          "bg": 1012
         },
         {
           "id": "t_bridge",
@@ -33596,6 +33664,11 @@
         {
           "id": "t_rdoor_boarded_damaged",
           "fg": 3177,
+          "rotates": false
+        },
+		{
+          "id": "t_secretdoor_wall_c",
+          "fg": 3192,
           "rotates": false
         },
         {
@@ -40773,6 +40846,16 @@
           "fg": 4151,
           "rotates": true
         },
+		{
+          "id": "vp_turret_mount",
+          "fg": 4151,
+          "rotates": true
+        },
+				{
+          "id": "turret_mount",
+          "fg": 4151,
+          "rotates": true
+        },
         {
           "id": "v_table",
           "fg": 4153,
@@ -41642,7 +41725,7 @@
           "rotates": false
         },
         {
-          "id": "t_tree_young_season_winter",
+          "id": "!t_tree_young_season_winter",
           "fg": 5404,
           "bg": 5403,
           "rotates": false
