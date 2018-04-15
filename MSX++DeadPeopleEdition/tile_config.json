@@ -20190,6 +20190,11 @@
           "fg": 1007,
           "rotates": true
         },
+		        {
+          "id": "bolter",
+          "fg": 1007,
+          "rotates": true
+        },
         {
           "id": "vp_cangun",
           "fg": 1007,
@@ -27541,6 +27546,10 @@
           "id": "M6_shotgun",
           "bg": 4307
         },
+				{
+          "id": "m6_asw",
+          "bg": 4307
+        },
 		{
           "id": ["bot_thing_head","bot_thing_spider"],
           "fg": 1716
@@ -28029,6 +28038,11 @@
         },
         {
           "id": "colt_army",
+          "fg": 1996,
+          "rotates": false
+        },
+		        {
+          "id": "colt_saa",
           "fg": 1996,
           "rotates": false
         },
@@ -29129,6 +29143,7 @@
           "fg": 2109,
           "rotates": false
         },
+
         {
           "id": "overlay_wielded_rebar_rifle",
           "fg": 2109,
@@ -29136,6 +29151,11 @@
         },
         {
           "id": "overlay_wielded_hk_mp5",
+          "fg": 2110,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_wielded_m6_asw",
           "fg": 2110,
           "rotates": false
         },
@@ -29459,6 +29479,11 @@
         },
         {
           "id": "overlay_wielded_colt_army",
+          "fg": 2129,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_colt_saa",
           "fg": 2129,
           "rotates": false
         },
