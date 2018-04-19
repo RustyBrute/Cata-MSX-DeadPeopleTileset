@@ -1552,6 +1552,12 @@
           "bg": 957,
           "rotates": false
         },
+				{
+          "id": "410_scrap",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
 		{
           "id": "shot_410",
           "fg": 9,
@@ -9667,6 +9673,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "raging_judge",
+          "fg": 2166,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "RAM",
           "fg": 1900,
@@ -11257,6 +11269,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "m1991a1_38super",
+          "fg": 2050,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "bagh_nakha",
           "fg": 1638,
@@ -12716,6 +12734,18 @@
         {
           "id": "knife_rambo",
           "fg": 3589,
+          "bg": 957,
+          "rotates": false
+        },
+				        {
+          "id": "makeshift_pistol_bayonet",
+          "fg": 3591,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "makeshift_sword_bayonet",
+          "fg": 3591,
           "bg": 957,
           "rotates": false
         },
@@ -22893,6 +22923,10 @@
 		{
           "id": "sloppyjoe",
           "fg": 4267
+        },		        
+		{
+          "id": "pie_meat",
+          "fg": 4267
         },
 		{
           "id": "sandwich_cheese_grilled",
@@ -24975,6 +25009,16 @@
         },
         {
           "id": "f_fridge",
+          "fg": 1516,
+          "rotates": false
+        },
+		        {
+          "id": "vp_fridge",
+          "fg": 1516,
+          "rotates": false
+        },
+				        {
+          "id": "fridge",
           "fg": 1516,
           "rotates": false
         },
@@ -27917,6 +27961,11 @@
           "fg": 4363,
           "rotates": false
         },
+				{
+          "id": "cvd_machine",
+          "fg": 4363,
+          "rotates": false
+        },	
 		{
           "id": "megaarmor_head_1",
           "fg": 4364,
@@ -27952,7 +28001,66 @@
           "fg": 4368,
           "rotates": false
         },
-		
+						{
+          "id": "blood_m",
+          "fg": 4382,
+          "rotates": false
+        },
+		{
+          "id": "blood_p",
+          "fg": 4383,
+          "rotates": false
+        },								
+		{
+          "id": "bfg_shell_act",
+          "fg": 4384,
+          "rotates": false
+        },		
+		{
+          "id": "hell_plasma_k",
+          "fg": 4385,
+          "rotates": false
+        },
+				{
+          "id": "hell_plasma_b",
+          "fg": 4385,
+          "rotates": false
+        },
+		{
+          "id": "stim",
+          "fg": 4386,
+          "rotates": false
+        },
+						{
+          "id": "hell_plasma_c",
+          "fg": 4387,
+          "rotates": false
+        },						
+		{
+          "id": "megabear_skull_clean",
+          "fg": 4388,
+          "rotates": false
+        },		
+		{
+          "id": "megabear_skull_unclean",
+          "fg": 4389,
+          "rotates": false
+        },
+				{
+          "id": "megabear_skull_picked",
+          "fg": 4389,
+          "rotates": false
+        },				
+		{
+          "id": "helmet_bone_megabear",
+          "fg": 4390,
+          "rotates": false
+        },
+				{
+          "id": "overlay_worn_helmet_bone_megabear",
+          "fg": 4391,
+          "rotates": false
+        },
         {
           "id": "atlatl",
           "fg": 1986,
@@ -28545,6 +28653,11 @@
           "rotates": false
         },
 		        {
+          "id": "overlay_wielded_m1991a1_38super",
+          "fg": 2079,
+          "rotates": false
+        },
+		        {
           "id": "overlay_wielded_af2011a1_38super",
           "fg": 2079,
           "rotates": false
@@ -28561,6 +28674,11 @@
         },
         {
           "id": "overlay_wielded_raging_bull",
+          "fg": 2079,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_raging_judge",
           "fg": 2079,
           "rotates": false
         },
@@ -35668,6 +35786,11 @@
           "fg": 3672,
           "rotates": false
         },
+		        {
+          "id": "overlay_wielded_makeshift_sword_bayonet",
+          "fg": 3672,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_knife_hunting",
           "fg": 3672,
@@ -36353,6 +36476,7 @@
           "id": "porkpie",
           "fg": 3829
         },
+
         {
           "id": "folding_poncho_on",
           "fg": 3830,
@@ -36953,6 +37077,10 @@
           "rotates": false
         },
         {
+          "id": "tr_engine",
+          "fg": 3925
+        },
+		        {
           "id": "tr_engine",
           "fg": 3925
         },
