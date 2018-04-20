@@ -22564,6 +22564,16 @@
           "fg": 1143,
           "rotates": false
         },
+		        {
+          "id": "hot_chocolate",
+          "fg": 1143,
+          "rotates": false
+        },
+				        {
+          "id": "mex_chocolate",
+          "fg": 1143,
+          "rotates": false
+        },
         {
           "id": "coffee_syrup",
           "fg": 1143,
@@ -25977,6 +25987,10 @@
           "id": "bot_manhack",
           "fg": 1686
         },
+		        {
+          "id": "bot_manhack_fire",
+          "fg": 1686
+        },
         {
           "id": "bot_mininuke_hack",
           "fg": 1686
@@ -27856,6 +27870,11 @@
           "fg": 4354,
           "rotates": false
         },
+				{
+          "id": "badge_bio_weapon_apophis",
+          "fg": 4354,
+          "rotates": false
+        },
 		{
           "id": "flesh_rifle",
           "fg": 4355,
@@ -28056,9 +28075,99 @@
           "fg": 4390,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_worn_helmet_bone_megabear",
           "fg": 4391,
+          "rotates": false
+        },
+		{
+          "id": "canbomb",
+          "fg": 4392,
+          "rotates": false
+        },
+		{
+          "id": "canbomb2",
+          "fg": 4392,
+          "rotates": false
+        },
+		{
+          "id": "canbombfire",
+          "fg": 4392,
+          "rotates": false
+        },
+		{
+          "id": "canbombfire2",
+          "fg": 4392,
+          "rotates": false
+        },
+		{
+          "id": "canbombfrag",
+          "fg": 4392,
+          "rotates": false
+        },
+		{
+          "id": "hbolt_fire",
+          "fg": 4393,
+          "rotates": false
+        },
+				{
+          "id": "hbolt_boom2",
+          "fg": 4393,
+          "rotates": false
+        },
+						{
+          "id": "hbolt_boom",
+          "fg": 4393,
+          "rotates": false
+        },	
+		{
+          "id": "hbolt_fire2",
+          "fg": 4393,
+          "rotates": false
+        },		
+		{
+          "id": "hbolt_fire2",
+          "fg": 4393,
+          "rotates": false
+        },
+				{
+          "id": "hbolt_frag",
+          "fg": 4393,
+          "rotates": false
+        },
+						{
+          "id": "lead_ball",
+          "fg": 4394,
+          "rotates": false
+        },
+								{
+          "id": "hbolt_nuke",
+          "fg": 4395,
+          "rotates": false
+        },
+		{
+          "id": "bio_emp_gun",
+          "fg": 4396,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bio_emp_gun",
+          "fg": 4397,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_gloople_act",
+          "fg": 4398,
+          "rotates": false
+        },
+						{
+          "id": "overlay_wielded_bio_ion_gun",
+          "fg": 4399,
+          "rotates": false
+        },
+		{
+          "id": "bio_ion_gun",
+          "fg": 4400,
           "rotates": false
         },
         {
@@ -28080,6 +28189,10 @@
         },
         {
           "id": "biter",
+          "fg": 1988
+        },
+		        {
+          "id": "edgegrow",
           "fg": 1988
         },
         {
@@ -28395,6 +28508,11 @@
           "id": "m14a",
           "fg": 2052,
           "rotates": false
+        },        
+		{
+          "id": "atgm_turret",
+          "fg": 2052,
+          "rotates": false
         },
         {
           "id": "m1a",
@@ -28534,6 +28652,11 @@
         },
         {
           "id": "overlay_wielded_m14a",
+          "fg": 2075,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_atgm_turret",
           "fg": 2075,
           "rotates": false
         },
@@ -31327,6 +31450,7 @@
           "fg": 2416,
           "rotates": false
         },
+		
         {
           "id": "mon_doom_archvile",
           "fg": 2417,
@@ -34822,6 +34946,11 @@
         },
         {
           "id": "cell_phone",
+          "fg": 3471,
+          "rotates": false
+        },
+		        {
+          "id": "cell_phone_flashlight",
           "fg": 3471,
           "rotates": false
         },
@@ -42735,7 +42864,8 @@
 		{ "id": "broken_mechaspider", "fg": 11570, "rotates": false },
 		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false },
 		{ "id": "mon_treent_green", "fg": 11572, "rotates": false },
-		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false }
+		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false },
+		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false }
     ]
     }
     
