@@ -17425,11 +17425,79 @@
         },
         {
           "id": "fd_nuke_gas",
-          "fg": 977
+          "fg": 977,
+		  "rotates": false,
+          "multitile": true,
+		            "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4407,
+              "bg": 974
+            },
+            {
+              "id": "corner",
+              "fg": 4408,
+              "bg": 974
+            },
+            {
+              "id": "edge",
+              "fg": 4409,
+              "bg": 974
+            },
+            {
+              "id": "t_connection",
+              "fg": 4411,
+              "bg": 974
+            },
+            {
+              "id": "end_piece",
+              "fg": 4410,
+              "bg": 974
+            },
+            {
+              "id": "unconnected",
+              "fg": 4412,
+              "bg": 974
+            }
+          ]
         },
         {
           "id": "fd_toxic_gas",
-          "bg": 977
+          "bg": 977,
+		  "rotates": false,
+          "multitile": true,
+		            "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4401,
+              "bg": 974
+            },
+            {
+              "id": "corner",
+              "fg": 4402,
+              "bg": 974
+            },
+            {
+              "id": "edge",
+              "fg": 4403,
+              "bg": 974
+            },
+            {
+              "id": "t_connection",
+              "fg": 4405,
+              "bg": 974
+            },
+            {
+              "id": "end_piece",
+              "fg": 4404,
+              "bg": 974
+            },
+            {
+              "id": "unconnected",
+              "fg": 4406,
+              "bg": 974
+            }
+          ]
         },
         {
           "id": "fd_laser",
@@ -33324,7 +33392,41 @@
         },
         {
           "id": "fd_tear_gas",
-          "bg": 2896
+          "bg": 2896,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 2946,
+              "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": 2947,
+              "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": 2948,
+              "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": 2950,
+              "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": 2949,
+              "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 2951,
+              "bg": 972
+            }
+          ]
         },
         {
           "id": "fd_push_items",
