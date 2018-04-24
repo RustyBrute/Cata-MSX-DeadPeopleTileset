@@ -159,6 +159,12 @@
           "rotates": false
         },
 		{
+          "id": "357",
+          "fg": 18,
+          "bg": 957,
+          "rotates": false
+        },
+				{
           "id": "357sig_fmj",
           "fg": 18,
           "bg": 957,
@@ -7817,6 +7823,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "seed_chili_pepper",
+          "fg": 1329,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "seed_blueberries",
           "fg": 1330,
@@ -9667,6 +9679,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "chloroform_rag",
+          "fg": 3725,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "raging_bull",
           "fg": 2166,
@@ -9829,6 +9847,12 @@
         },
         {
           "id": "rifle_scope",
+          "fg": 2256,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "acog_scope",
           "fg": 2256,
           "bg": 957,
           "rotates": false
@@ -21486,6 +21510,11 @@
           "fg": 1016,
           "rotates": false
         },
+		        {
+          "id": "bio_laser_armgun",
+          "fg": 1016,
+          "rotates": false
+        },
         {
           "id": "bio_ads",
           "fg": 1016,
@@ -21793,6 +21822,16 @@
         },
         {
           "id": "bio_razors",
+          "fg": 1016,
+          "rotates": false
+        },
+		{
+          "id": "bio_flamethrower",
+          "fg": 1016,
+          "rotates": false
+        },
+				{
+          "id": "bio_emp_armgun",
           "fg": 1016,
           "rotates": false
         },
@@ -22933,10 +22972,6 @@
         {
           "id": "dry_hflesh",
           "fg": 1179
-        },
-        {
-          "id": "razorclaw_roe",
-          "fg": 1182
         },
         {
           "id": "eyedrops",
@@ -28237,6 +28272,182 @@
           "id": "bio_ion_gun",
           "fg": 4400,
           "rotates": false
+        },		
+		{
+          "id": "tank_gun_manual",
+          "fg": 4413,
+          "rotates": false
+        },
+				{
+          "id": "tank_gun_auto",
+          "fg": 4413,
+          "rotates": false
+        },
+		{
+          "id": "dobelisk",
+          "fg": 4414,
+          "rotates": false
+        },
+				{
+          "id": "dprism",
+          "fg": 4415,
+          "rotates": false
+        },
+						{
+          "id": "railturret",
+          "fg": 4416,
+          "rotates": false
+        },
+						{
+          "id": "overlay_wielded_railturret",
+          "fg": 4417,
+          "rotates": false
+        },
+								{
+          "id": "spring_plate",
+          "fg": 4418,
+          "rotates": false
+        },
+										{
+          "id": "bot_fungal_boil_egg",
+          "fg": 4419,
+          "rotates": false
+        },
+												{
+          "id": "pokeball",
+          "fg": 4420,
+          "rotates": false
+        },
+		{
+          "id": "tearer",
+          "fg": 4421,
+          "rotates": false
+        },
+		{
+          "id": "vp_tearer",
+          "fg": 4421,
+          "rotates": false
+        },
+				{
+          "id": "triffid_sap_grenade",
+          "fg": 4422,
+          "rotates": false
+        },
+						{
+          "id": "triffid_sap_grenade_act",
+          "fg": 4423,
+          "rotates": false
+        },
+								{
+          "id": "rocket_core",
+          "fg": 4424,
+          "rotates": false
+        },
+								{
+          "id": "rocket_core_act",
+          "fg": 4425,
+          "rotates": false
+        },
+		{
+          "id": "BFG",
+          "fg": 4426,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_BFG",
+          "fg": 4427,
+          "rotates": false
+        },
+				{
+          "id": "bfg_shell",
+          "fg": 4428,
+          "rotates": false
+        },
+						{
+          "id": "breeches",
+          "fg": 4429,
+          "rotates": false
+        },
+								{
+          "id": "overlay_worn_breeches",
+          "fg": 4430,
+          "rotates": false
+        },
+										{
+          "id": "diamond_dental_grill",
+          "fg": 4431,
+          "rotates": false
+        },
+												{
+          "id": "overlay_worn_diamond_dental_grill",
+          "fg": 4432,
+          "rotates": false
+        },
+												{
+          "id": "gold_dental_grill",
+          "fg": 4433,
+          "rotates": false
+        },												
+		{
+          "id": "overlay_worn_gold_dental_grill",
+          "fg": 4434,
+          "rotates": false
+        },
+				{
+          "id": "egg_wasp",
+          "fg": 4435,
+          "rotates": false
+        },
+						{
+          "id": "357_mag_speedloader",
+          "fg": 4436,
+          "rotates": false
+        },
+								{
+          "id": "38_speedloader",
+          "fg": 4436,
+          "rotates": false
+        },        
+		{
+          "id": "razorclaw_roe",
+          "fg": 4437
+        },
+		{
+          "id": "t_dirtmoundfloor",
+          "fg": 4438
+        },		
+		{
+          "id": "powered_earmuffs",
+          "fg": 4439
+        },
+				{
+          "id": "powered_earmuffs_on",
+          "fg": 4439
+        },
+				{
+          "id": "overlay_worn_powered_earmuffs",
+          "fg": 4440
+        },				
+		{
+          "id": "overlay_worn_powered_earmuffs_on",
+          "fg": 4440
+        },
+				{
+          "id": "mana_gem",
+          "fg": 4441
+        },				
+		{
+          "id": "overlay_worn_mana_gem",
+          "fg": 4442
+        },
+		{
+          "id": "moss_relic",
+          "fg": 4443
+        },
+		        {
+          "id": "offering_chalice_used",
+          "fg": 4444,
+          "rotates": false
         },
         {
           "id": "atlatl",
@@ -28978,7 +29189,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_BFG",
+          "id": "!overlay_wielded_BFG",
           "fg": 2081,
           "rotates": false
         },
@@ -30527,6 +30738,10 @@
           "id": "red_dot_sight",
           "fg": 2243
         },
+		        {
+          "id": "offset_sights",
+          "fg": 2243
+        },
         {
           "id": "rail_laser_sight",
           "fg": 2244
@@ -30756,6 +30971,16 @@
           "fg": 2268,
           "rotates": false
         },
+		        {
+          "id": "glock17_17",
+          "fg": 2268,
+          "rotates": false
+        },
+		        {
+          "id": "glock17_22",
+          "fg": 2268,
+          "rotates": false
+        },
         {
           "id": "usp45mag",
           "fg": 2268,
@@ -30904,6 +31129,10 @@
           "id": "saiga10mag",
           "fg": 2270
         },
+		        {
+          "id": "saiga10mag_410",
+          "fg": 2270
+        },
         {
           "id": "m14mag",
           "fg": 2270
@@ -31050,6 +31279,14 @@
         },
         {
           "id": "g3bigmag",
+          "fg": 2278
+        },
+		        {
+          "id": "glock_drum_50rd",
+          "fg": 2278
+        },
+				        {
+          "id": "glock_drum_100rd",
           "fg": 2278
         },
         {
@@ -32314,6 +32551,11 @@
         },
         {
           "id": "mon_turret_shockcannon",
+          "fg": 2646,
+          "rotates": false
+        },
+		        {
+          "id": "bot_turret_shockcannon",
           "fg": 2646,
           "rotates": false
         },
@@ -35452,11 +35694,6 @@
           "rotates": false
         },
         {
-          "id": "offering_chalice_used",
-          "fg": 3637,
-          "rotates": false
-        },
-        {
           "id": "oil_lamp",
           "fg": 3638,
           "rotates": false
@@ -37901,6 +38138,10 @@
           "id": "cargo_rack",
           "fg": 3986
         },
+		        {
+          "id": "blaze_mag_rock",
+          "fg": 3986
+        },
         {
           "id": "vp_gloopledoor",
           "fg": 4053,
@@ -40107,6 +40348,16 @@
         },
         {
           "id": "vp_oozle_amalgam",
+          "fg": 4055,
+          "rotates": false
+        }, 
+		{
+          "id": "oozle_nom",
+          "fg": 4055,
+          "rotates": false
+        },		
+		{
+          "id": "vp_oozle_nom",
           "fg": 4055,
           "rotates": false
         },
