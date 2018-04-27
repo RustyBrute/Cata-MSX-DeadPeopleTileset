@@ -1612,6 +1612,12 @@
           "bg": 957,
           "rotates": false
         },
+				{
+          "id": "410_hull",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
 		{
           "id": "shot_410_inc",
           "fg": 10,
@@ -2279,6 +2285,11 @@
         },
         {
           "id": "briefcase",
+          "fg": 305,
+          "rotates": false
+        },
+		        {
+          "id": "electrolaser_conversion",
           "fg": 305,
           "rotates": false
         },
@@ -3495,6 +3506,12 @@
         },
         {
           "id": "legguard_metal",
+          "fg": 467,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "legguard_lightplate",
           "fg": 467,
           "bg": 957,
           "rotates": false
@@ -5488,6 +5505,11 @@
         },
         {
           "id": "overlay_worn_legguard_metal",
+          "fg": 689,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_worn_legguard_lightplate",
           "fg": 689,
           "rotates": false
         },
@@ -7734,11 +7756,17 @@
           "rotates": false
         },
 		{
+          "id": "45lc_casing",
+          "fg": 1612,
+          "bg": 957,
+          "rotates": false
+        },	
+		{
           "id": "357sig_casing",
           "fg": 1612,
           "bg": 957,
           "rotates": false
-        },		
+        },			
 		{
           "id": "357_mag_casing",
           "fg": 1612,
@@ -9894,6 +9922,12 @@
         },
         {
           "id": "rm88_battle_rifle",
+          "fg": 2183,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "surv_full_308",
           "fg": 2183,
           "bg": 957,
           "rotates": false
@@ -12144,7 +12178,19 @@
           "rotates": false
         },
         {
+          "id": "cavalry_sabre_fake",
+          "fg": 3496,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
           "id": "cutlass",
+          "fg": 1721,
+          "bg": 957,
+          "rotates": false
+        },
+				        {
+          "id": "cavalry_sabre",
           "fg": 1721,
           "bg": 957,
           "rotates": false
@@ -22282,6 +22328,11 @@
           "fg": 1094,
           "rotates": false
         },
+		{
+          "id": "lye",
+          "fg": 1094,
+          "rotates": false
+        },		        
         {
           "id": "disinfectant",
           "fg": 1094,
@@ -22682,6 +22733,11 @@
         {
           "id": "coffee_bean",
           "fg": 1142
+        },
+		        {
+          "id": "protein_shake_fortified",
+          "fg": 1143,
+          "rotates": false
         },
         {
           "id": "choc_drink",
@@ -23135,6 +23191,11 @@
           "fg": 1194,
           "rotates": false
         },
+		        {
+          "id": "fresh_fries_big",
+          "fg": 1194,
+          "rotates": false
+        },
         {
           "id": "fresh_fries",
           "fg": 1194
@@ -23447,8 +23508,12 @@
           "id": "bone_glue",
           "fg": 1256
         },
-		        {
+		{
           "id": "wasp_glue",
+          "fg": 1256
+        },
+		{
+          "id": "wasp_glue_super",
           "fg": 1256
         },
         {
@@ -23589,6 +23654,16 @@
         },
         {
           "id": "mutagen_elfa",
+          "fg": 1273,
+          "rotates": false
+        },
+		        {
+          "id": "iv_mutagen_elfa",
+          "fg": 1273,
+          "rotates": false
+        },		        
+		{
+          "id": "fighter_sting_juice",
           "fg": 1273,
           "rotates": false
         },
@@ -23810,6 +23885,16 @@
         },
         {
           "id": "purifier",
+          "fg": 1308,
+          "rotates": false
+        },
+		        {
+          "id": "iv_purifier",
+          "fg": 1308,
+          "rotates": false
+        },
+				{
+          "id": "dr_stem_cell",
           "fg": 1308,
           "rotates": false
         },
@@ -27556,6 +27641,10 @@
           "id": "surv_45_mag",
           "fg": 2245
         },
+				{
+          "id": "surv_22_mag",
+          "fg": 2245
+        },
 		{
           "id": "hmil_armor",
           "bg": 4303
@@ -28523,6 +28612,46 @@
           "id": "soulbomb_on",
           "fg": 4449,
           "rotates": false
+        },
+		{
+          "id": "hell_plasma",
+          "fg": 4449,
+          "rotates": false
+        },	
+		{
+          "id": "hell_laser_napalm",
+          "fg": 4449,
+          "rotates": false
+        },		
+		{
+          "id": "hell_laser_gun_queen",
+          "fg": 4449,
+          "rotates": false
+        },		
+		{
+          "id": "TANK",
+          "fg": 4449,
+          "rotates": false
+        },			
+		{
+          "id": "upstest",
+          "fg": 4449,
+          "rotates": false
+        },		
+		{
+          "id": "fake_razor",
+          "fg": 4449,
+          "rotates": false
+        },	
+		{
+          "id": "clairvoyance_plus_rod",
+          "fg": 4449,
+          "rotates": false
+        },	
+		{
+          "id": "fire",
+          "fg": 4449,
+          "rotates": false
         },		
 		{
           "id": "manhack_firebomb_act",
@@ -28588,22 +28717,22 @@
           "fg": 4460,
           "rotates": false
         },
-				{
+		{
           "id": "jar_spider_steak_pickled",
           "fg": 4461,
           "rotates": false
         },
-						{
+		{
           "id": "spider_steak_pickled",
           "fg": 4461,
           "rotates": false
         },
-								{
+		{
           "id": "spider_steak_soup",
           "fg": 4462,
           "rotates": false
         },
-										{
+		{
           "id": "spider_steak_sandwich",
           "fg": 4463,
           "rotates": false
@@ -28611,6 +28740,156 @@
 		{
           "id": "parabracelets",
           "fg": 4464,
+          "rotates": false
+        },
+				{
+          "id": "ravioli",
+          "fg": 4465,
+          "rotates": false
+        },
+						{
+          "id": "mask_h20survivorxl",
+          "fg": 4466,
+          "rotates": false
+        },
+		{
+          "id": "mask_h20survivorxl_on",
+          "fg": 4466,
+          "rotates": false
+        },	
+		{
+          "id": "mask_h20survivor",
+          "fg": 4466,
+          "rotates": false
+        },			
+		{
+          "id": "mask_h20survivor_on",
+          "fg": 4466,
+          "rotates": false
+        },				
+		{
+          "id": "triffid_sap",
+          "fg": 4467,
+          "rotates": false
+        },
+		{
+          "id": "shockcannon_ups",
+          "fg": 4468,
+          "rotates": false
+        },
+		{
+          "id": "ups_rifle",
+          "fg": 4469,
+          "rotates": false
+        },				
+		{
+          "id": "pipe_solid_spear",
+          "fg": 4470,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_pipe_solid_spear",
+          "fg": 4471,
+          "rotates": false
+        },
+		{
+          "id": "brute_shot_mag",
+          "fg": 4472,
+          "rotates": false
+        },
+		{
+          "id": "bone_flute",
+          "fg": 4473,
+          "rotates": false
+        },	
+		{
+          "id": "ash",
+          "fg": 4474,
+          "rotates": false
+        },			
+		{
+          "id": "homebrew_antiseptic",
+          "fg": 4475,
+          "rotates": false
+        },	
+		{
+          "id": "mushroom_cooked",
+          "fg": 4476,
+          "rotates": false
+        },		
+		{
+          "id": "soup_cullenskink",
+          "fg": 4477,
+          "rotates": false
+        },				
+		{
+          "id": "aux_pressurized_tank",
+          "fg": 4478,
+          "rotates": false
+        },	
+		{
+          "id": "pie_veggy",
+          "fg": 4479,
+          "rotates": false
+        },	
+		{
+          "id": "pie",
+          "fg": 4479,
+          "rotates": false
+        },			
+		{
+          "id": "spaghetti_cooked",
+          "fg": 4480,
+          "rotates": false
+        },				
+		{
+          "id": "spaghetti_bolognese",
+          "fg": 4481,
+          "rotates": false
+        },			
+		{
+          "id": "spaghetti_human",
+          "fg": 4482,
+          "rotates": false
+        },		
+		{
+          "id": "spaghetti_pesto",
+          "fg": 4483,
+          "rotates": false
+        },						
+		{
+          "id": "manhack_firebomb",
+          "fg": 4484,
+          "rotates": false
+        },	
+				{
+          "id": "quesadilla_cheese",
+          "fg": 4485,
+          "rotates": false
+        },					
+		{
+          "id": "teslagun",
+          "fg": 4486,
+          "rotates": false
+        },			
+		{
+          "id": "overlay_wielded_teslagun",
+          "fg": 4487,
+          "rotates": false
+        },	
+		{
+          "id": "pretzels",
+          "fg": 4488,
+          "rotates": false
+        },
+		{
+          "id": "1st_aid_survivor",
+          "fg": 4489,
+          "rotates": false
+        },		
+		{
+          "id": "chem_carbide",
+          "fg": 4490,
           "rotates": false
         },
 		{
@@ -30263,6 +30542,11 @@
         },
         {
           "id": "overlay_wielded_rm88_battle_rifle",
+          "fg": 2139,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_surv_full_308",
           "fg": 2139,
           "rotates": false
         },
@@ -35672,6 +35956,11 @@
           "fg": 3559,
           "rotates": false
         },
+		{
+          "id": "handflare_act",
+          "fg": 3559,
+          "rotates": false
+        },
         {
           "id": "handflare_lit",
           "fg": 3560,
@@ -36113,6 +36402,11 @@
           "fg": 3650,
           "rotates": false
         },
+		{
+          "id": "overlay_wielded_bone_flute",
+          "fg": 3650,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_cs_lajatang_off",
           "fg": 3651,
@@ -36128,6 +36422,11 @@
           "fg": 3652,
           "rotates": false
         },
+		        {
+          "id": "overlay_cavalry_sabre",
+          "fg": 3652,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_cutlass_fake",
           "fg": 3652,
@@ -36135,6 +36434,11 @@
         },
         {
           "id": "overlay_wielded_cutlass_inferior",
+          "fg": 3652,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_cavalry_sabre_fake",
           "fg": 3652,
           "rotates": false
         },
@@ -37622,8 +37926,17 @@
           "fg": 3902,
           "rotates": false
         },
+		        {
+          "id": "patchwork_scarf",
+          "fg": 3902,
+          "rotates": false
+        },
         {
           "id": "scarf_loose",
+          "fg": 3902
+        },
+		        {
+          "id": "patchwork_scarf_loose",
           "fg": 3902
         },
         {
@@ -41506,6 +41819,30 @@
         },
         {
           "id": "vp_reinforced_solar_panel",
+          "fg": 4125,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 4126
+            }
+          ]
+        },
+		        {
+          "id": "vp_solar_array",
+          "fg": 4125,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 4126
+            }
+          ]
+        },
+		{
+          "id": "solar_array",
           "fg": 4125,
           "rotates": true,
           "multitile": true,
