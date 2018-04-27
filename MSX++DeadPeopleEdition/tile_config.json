@@ -4934,6 +4934,11 @@
           "fg": 617,
           "rotates": false
         },
+		        {
+          "id": "overlay_worn_eclipse_glasses",
+          "fg": 617,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_greatcoat",
           "fg": 618,
@@ -7733,6 +7738,12 @@
           "fg": 1612,
           "bg": 957,
           "rotates": false
+        },		
+		{
+          "id": "357_mag_casing",
+          "fg": 1612,
+          "bg": 957,
+          "rotates": false
         },
         {
           "id": "8mm_bootleg_jsp",
@@ -8402,6 +8413,12 @@
         },
         {
           "id": "circsaw_blade",
+          "fg": 1711,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "ripdisk",
           "fg": 1711,
           "bg": 957,
           "rotates": false
@@ -27286,6 +27303,10 @@
           "id": "m_fishspear",
           "fg": 1931
         },
+		        {
+          "id": "hbolt_wood",
+          "fg": 1933
+        },
         {
           "id": "fishspear",
           "fg": 1933
@@ -28282,6 +28303,11 @@
           "id": "tank_gun_auto",
           "fg": 4413,
           "rotates": false
+        },				
+		{
+          "id": "bomblet_launcher_chickenbot",
+          "fg": 4413,
+          "rotates": false
         },
 		{
           "id": "dobelisk",
@@ -28293,27 +28319,27 @@
           "fg": 4415,
           "rotates": false
         },
-						{
+		{
           "id": "railturret",
           "fg": 4416,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_wielded_railturret",
           "fg": 4417,
           "rotates": false
         },
-								{
+		{
           "id": "spring_plate",
           "fg": 4418,
           "rotates": false
         },
-										{
+		{
           "id": "bot_fungal_boil_egg",
           "fg": 4419,
           "rotates": false
         },
-												{
+		{
           "id": "pokeball",
           "fg": 4420,
           "rotates": false
@@ -28378,12 +28404,12 @@
           "fg": 4431,
           "rotates": false
         },
-												{
+		{
           "id": "overlay_worn_diamond_dental_grill",
           "fg": 4432,
           "rotates": false
         },
-												{
+		{
           "id": "gold_dental_grill",
           "fg": 4433,
           "rotates": false
@@ -28393,17 +28419,17 @@
           "fg": 4434,
           "rotates": false
         },
-				{
+		{
           "id": "egg_wasp",
           "fg": 4435,
           "rotates": false
         },
-						{
+		{
           "id": "357_mag_speedloader",
           "fg": 4436,
           "rotates": false
         },
-								{
+		{
           "id": "38_speedloader",
           "fg": 4436,
           "rotates": false
@@ -28448,8 +28474,146 @@
           "id": "offering_chalice_used",
           "fg": 4444,
           "rotates": false
+        },		        
+		{
+          "id": "eclipse_glasses",
+          "fg": 4445,
+          "rotates": false
+        },
+				{
+          "id": "rebar_plate",
+          "fg": 4446,
+          "rotates": false
+        },
+						{
+          "id": "blaze_mag_bolt",
+          "fg": 4447,
+          "rotates": false
+        },
+								{
+          "id": "blaze_mag_flintlock",
+          "fg": 4447,
+          "rotates": false
+        },									
+		{
+          "id": "blaze_mag_disk",
+          "fg": 4447,
+          "rotates": false
+        },			{
+          "id": "blaze_mag_nail",
+          "fg": 4447,
+          "rotates": false
+        },								
+		{
+          "id": "locket_lucy",
+          "fg": 4448,
+          "rotates": false
+        },
+		{
+          "id": "soulbomb",
+          "fg": 4449,
+          "rotates": false
+        },
+				{
+          "id": "hell_ball",
+          "fg": 4449,
+          "rotates": false
+        },	
+		{
+          "id": "soulbomb_on",
+          "fg": 4449,
+          "rotates": false
+        },		
+		{
+          "id": "manhack_firebomb_act",
+          "fg": 4450,
+          "rotates": false
+        },
+				{
+          "id": "triffid_sap_thrown",
+          "fg": 4451,
+          "rotates": false
+        },				
+		{
+          "id": "ref_lighter_string",
+          "fg": 4452,
+          "rotates": false
+        },
+				{
+          "id": "overlay_worn_ref_lighter_string",
+          "fg": 4453,
+          "rotates": false
+        },
+		{
+          "id": "towel_soiled",
+          "fg": 4454,
+          "rotates": false
+        },{
+          "id": "rebreather",
+          "fg": 4455,
+          "rotates": false
+        },
+		{
+          "id": "rebreather_on",
+          "fg": 4455,
+          "rotates": false
         },
         {
+          "id": "overlay_worn_rebreather",
+          "fg": 4456,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_rebreather_on",
+          "fg": 4456,
+          "rotates": false
+        },
+		        {
+          "id": "spider_brain",
+          "fg": 4457,
+          "rotates": false
+        },		       
+		{
+          "id": "spider_steak",
+          "fg": 4458,
+          "rotates": false
+        },		
+		{
+          "id": "spider_steak_cooked",
+          "fg": 4459,
+          "rotates": false
+        },		
+		{
+          "id": "spider_steak_fried",
+          "fg": 4460,
+          "rotates": false
+        },
+				{
+          "id": "jar_spider_steak_pickled",
+          "fg": 4461,
+          "rotates": false
+        },
+						{
+          "id": "spider_steak_pickled",
+          "fg": 4461,
+          "rotates": false
+        },
+								{
+          "id": "spider_steak_soup",
+          "fg": 4462,
+          "rotates": false
+        },
+										{
+          "id": "spider_steak_sandwich",
+          "fg": 4463,
+          "rotates": false
+        },		
+		{
+          "id": "parabracelets",
+          "fg": 4464,
+          "rotates": false
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
@@ -37285,21 +37449,6 @@
           "fg": 3878,
           "rotates": false
         },
-		{
-          "id": "rebreather",
-          "fg": 3879,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_rebreather",
-          "fg": 3879,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_rebreather_on",
-          "fg": 3879,
-          "rotates": false
-        },
         {
           "id": "overlay_worn_rebreather_xl",
           "fg": 3879,
@@ -43218,7 +43367,8 @@
 		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false },
 		{ "id": "mon_treent_green", "fg": 11572, "rotates": false },
 		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false },
-		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false }
+		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false },
+		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false }
     ]
     }
     
