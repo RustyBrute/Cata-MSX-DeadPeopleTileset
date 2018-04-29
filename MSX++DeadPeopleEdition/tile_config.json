@@ -1547,6 +1547,12 @@
           "rotates": false
         },
 		{
+          "id": "reloaded_410_slug",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },
+				{
           "id": "shot_410_slug_reloaded",
           "fg": 9,
           "bg": 957,
@@ -8107,6 +8113,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "inter_bayonet",
+          "fg": 3776,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "bio_dis_acid",
           "fg": 1016,
@@ -9785,7 +9797,19 @@
           "rotates": false
         },
 		{
+          "id": "fr_9mm",
+          "fg": 2250,
+          "bg": 957,
+          "rotates": false
+        },
+		{
           "id": "fr_45",
+          "fg": 2250,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "fr_223",
           "fg": 2250,
           "bg": 957,
           "rotates": false
@@ -13515,6 +13539,12 @@
         },
         {
           "id": "holybook_kojiki",
+          "fg": 1033,
+          "bg": 959,
+          "rotates": false
+        },
+		        {
+          "id": "holybook_havamal",
           "fg": 1033,
           "bg": 959,
           "rotates": false
@@ -17502,6 +17532,7 @@
             }
           ]
         },
+
         {
           "id": "fd_fungal_haze",
           "bg": 976
@@ -22412,7 +22443,7 @@
           "rotates": false
         },
 		        {
-          "id": ["iv_mutagen_lupine", "iv_mutagen_ursine", "iv_mutagen_feline", "iv_mutagen_beast"],
+          "id": ["iv_mutagen_lupine", "iv_mutagen_ursine", "iv_mutagen_feline", "iv_mutagen_beast", "iv_mutagen_chimera"],
           "fg": 1095,
           "rotates": false
         },
@@ -23682,6 +23713,11 @@
           "fg": 1273,
           "rotates": false
         },
+		{
+          "id": "iv_mutagen_insect",
+          "fg": 1273,
+          "rotates": false
+        },
         {
           "id": "mutagen_lizard",
           "fg": 1273,
@@ -23694,6 +23730,11 @@
         },
         {
           "id": "mutagen_medical",
+          "fg": 1273,
+          "rotates": false
+        },
+		        {
+          "id": "iv_mutagen_medical",
           "fg": 1273,
           "rotates": false
         },
@@ -23724,6 +23765,11 @@
         },
         {
           "id": "mutagen_troglobite",
+          "fg": 1273,
+          "rotates": false
+        },        
+		{
+          "id": "iv_mutagen_troglobite",
           "fg": 1273,
           "rotates": false
         },
@@ -24416,6 +24462,11 @@
           "fg": 1382,
           "rotates": false
         },
+		        {
+          "id": "pepto",
+          "fg": 1382,
+          "rotates": false
+        },
         {
           "id": "flask_yeast",
           "fg": 1738,
@@ -24623,6 +24674,11 @@
         },
         {
           "id": "keg",
+          "fg": 1418,
+          "rotates": false
+        },
+		        {
+          "id": "keg_steel",
           "fg": 1418,
           "rotates": false
         },
@@ -28627,9 +28683,29 @@
           "id": "hell_laser_gun_queen",
           "fg": 4449,
           "rotates": false
-        },		
+        },				
+		{
+          "id": "toolset",
+          "fg": 4449,
+          "rotates": false
+        },	
 		{
           "id": "TANK",
+          "fg": 4449,
+          "rotates": false
+        },	
+				{
+          "id": "fake_goggles",
+          "fg": 4449,
+          "rotates": false
+        },	
+						{
+          "id": "acid_spit",
+          "fg": 4449,
+          "rotates": false
+        },	
+		{
+          "id": "apparatus",
           "fg": 4449,
           "rotates": false
         },			
@@ -28652,7 +28728,7 @@
           "id": "fire",
           "fg": 4449,
           "rotates": false
-        },		
+        },			
 		{
           "id": "manhack_firebomb_act",
           "fg": 4450,
@@ -28777,6 +28853,11 @@
           "fg": 4468,
           "rotates": false
         },
+				{
+          "id": "shockcannon",
+          "fg": 4468,
+          "rotates": false
+        },
 		{
           "id": "ups_rifle",
           "fg": 4469,
@@ -28891,6 +28972,160 @@
           "id": "chem_carbide",
           "fg": 4490,
           "rotates": false
+        },
+				{
+          "id": "chilidogs",
+          "fg": 4491,
+          "rotates": false
+        },
+						{
+          "id": "chilidogs_human",
+          "fg": 4491,
+          "rotates": false
+        },
+		{
+          "id": "chem_chromium_oxide",
+          "fg": 4492,
+          "rotates": false
+        },		
+		{
+          "id": "bomblet_casing",
+          "fg": 4493,
+          "rotates": false
+        },
+				{
+          "id": "bomblet_casing",
+          "fg": 4493,
+          "rotates": false
+        },
+				{
+          "id": "molotov_micro",
+          "fg": 4494,
+          "rotates": false
+        },				
+		{
+          "id": "molotov_micro_lit",
+          "fg": 4495,
+          "rotates": false
+        },		
+		{
+          "id": "testcomest",
+          "fg": 4496,
+          "rotates": false
+        },
+				{
+          "id": "hbolt_metal",
+          "fg": 4497,
+          "rotates": false
+        },				
+		{
+          "id": "cattlefodder",
+          "fg": 4498,
+          "rotates": false
+        },
+				{
+          "id": "crown_golden",
+          "fg": 4499,
+          "rotates": false
+        },
+				{
+          "id": "overlay_worn_crown_golden",
+          "fg": 4500,
+          "rotates": false
+        },				{
+          "id": "crown_golden_survivor",
+          "fg": 4499,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_crown_golden_survivor",
+          "fg": 4500,
+          "rotates": false
+        },
+				{
+          "id": "mask_ski",
+          "fg": 4501,
+          "rotates": false
+        },
+						{
+          "id": "mask_ski_loose",
+          "fg": 4501,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_mask_ski",
+          "fg": 4502,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_mask_ski_loose",
+          "fg": 4503,
+          "rotates": false
+        },
+				{
+          "id": "foil_alum",
+          "fg": 4504,
+          "rotates": false
+        },			
+		{
+          "id": "vortexcannon",
+          "fg": 4505,
+          "rotates": false
+        },				
+		{
+          "id": "overlay_wielded_vortexcannon",
+          "fg": 4506,
+          "rotates": false
+        },
+				{
+          "id": "pressurized_tank",
+          "fg": 4507,
+          "rotates": false
+        },				
+		{
+          "id": "onion_rings",
+          "fg": 4508,
+          "rotates": false
+        },		
+		{
+          "id": "sweetbread",
+          "fg": 4509,
+          "rotates": false
+        },		
+		{
+          "id": "rebreather_filter",
+          "fg": 4510,
+          "rotates": false
+        },
+				{
+          "id": "chain_link",
+          "fg": 4511,
+          "rotates": false
+        },
+						{
+          "id": "pork_beans",
+          "fg": 4512,
+          "rotates": false
+        },
+		{
+          "id": "bomblet_vile_act",
+          "bg": 975
+        },
+				{
+          "id": "sugar_fried",
+          "bg": 4513
+        },
+						{
+          "id": "case_violin",
+          "bg": 4514
+        },		
+		{
+          "id": "overlay_worn_case_violin",
+          "bg": 4515
+        },		
+		{
+          "id": "overlay_wielded_case_violin",
+          "bg": 4515
         },
 		{
           "id": "atlatl",
@@ -30101,6 +30336,16 @@
           "fg": 2109,
           "rotates": false
         },
+		        {
+          "id": "overlay_wielded_shockcannon",
+          "fg": 2109,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_wielded_shockcannon_ups",
+          "fg": 2109,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_heavy_rail_rifle",
           "fg": 2109,
@@ -30302,6 +30547,11 @@
         },
         {
           "id": "overlay_wielded_smg_38",
+          "fg": 2123,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_surv_full_45",
           "fg": 2123,
           "rotates": false
         },
@@ -30581,7 +30831,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_shockcannon",
+          "id": "!overlay_wielded_shockcannon",
           "fg": 2143,
           "rotates": false
         },
@@ -31006,6 +31256,10 @@
         },
         {
           "id": "smg_45",
+          "fg": 2203
+        },        
+		{
+          "id": "surv_full_45",
           "fg": 2203
         },
         {
@@ -37714,12 +37968,12 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_mask_ski",
+          "id": "!overlay_worn_mask_ski",
           "fg": 3873,
           "rotates": false
         },
         {
-          "id": "overlay_worn_mask_ski_loose",
+          "id": "!overlay_worn_mask_ski_loose",
           "fg": 3874,
           "rotates": false
         },
@@ -42020,6 +42274,11 @@
         },
         {
           "id": "vp_turretframe",
+          "fg": 4151,
+          "rotates": true
+        },
+		        {
+          "id": "turretframe",
           "fg": 4151,
           "rotates": true
         },
