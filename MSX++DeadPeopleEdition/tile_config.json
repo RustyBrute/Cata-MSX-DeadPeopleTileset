@@ -32245,7 +32245,7 @@
         },
         {
           "id": "mon_bear_mega_baby",
-          "fg": 2330,
+          "fg": 2329,
           "rotates": false
         },
         {
@@ -43989,7 +43989,11 @@
 		{ "id": "mon_treent_green", "fg": 11572, "rotates": false },
 		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false },
 		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false },
-		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false }
+		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false },
+		{ "id": "mon_bear_mega", "fg": 11576, "rotates": false },
+		{ "id": "mon_bear_mega_mating", "fg": 11577, "rotates": false },
+		{ "id": "mon_bear_mega_kid", "fg": 11578, "rotates": false },
+		{ "id": "mon_zombie_bear_mega", "fg": 11579, "rotates": false }
     ]
     }
     
