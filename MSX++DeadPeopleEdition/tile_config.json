@@ -23668,6 +23668,11 @@
           "fg": 1273,
           "rotates": false
         },
+		        {
+          "id": "iv_mutagen_bird",
+          "fg": 1273,
+          "rotates": false
+        },
         {
           "id": "mutagen_cattle",
           "fg": 1273,
@@ -28693,6 +28698,11 @@
           "id": "TANK",
           "fg": 4449,
           "rotates": false
+        },			
+		{
+          "id": "muscle",
+          "fg": 4449,
+          "rotates": false
         },	
 				{
           "id": "fake_goggles",
@@ -29126,6 +29136,16 @@
 		{
           "id": "overlay_wielded_case_violin",
           "bg": 4515
+        },
+				{
+          "id": "pipe_solid",
+          "fg": 4516,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_pipe_solid",
+          "fg": 4517,
+          "rotates": false
         },
 		{
           "id": "atlatl",
@@ -38019,6 +38039,11 @@
         },
 		{
           "id": "rebreather_xl",
+          "fg": 3879,
+          "rotates": false
+        },
+				{
+          "id": "rebreather_xl_on",
           "fg": 3879,
           "rotates": false
         },
