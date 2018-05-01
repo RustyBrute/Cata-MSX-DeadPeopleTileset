@@ -29147,6 +29147,10 @@
           "fg": 4517,
           "rotates": false
         },
+				{
+          "id": "generic_folded_vehicle",
+          "fg": 4518
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -32047,10 +32051,6 @@
         },
         {
           "id": "debug_mon",
-          "fg": 2281
-        },
-		{
-          "id": "generic_folded_vehicle",
           "fg": 2281
         },
         {
