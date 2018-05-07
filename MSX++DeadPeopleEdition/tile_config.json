@@ -43488,7 +43488,7 @@
 		        {
           "id": "t_tree_fungal_season_winter",
           "fg": 5422,
-          "bg": 4545,
+          "bg": 5438,
           "rotates": false
         },
         {
@@ -43499,8 +43499,8 @@
         },
 		        {
           "id": "t_marloss_tree_season_winter",
-          "fg": 5438,
-          "bg": 0,
+          "fg": 5423,
+          "bg": 5438,
           "rotates": false
         },
         {
