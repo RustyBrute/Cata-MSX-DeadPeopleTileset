@@ -1914,6 +1914,11 @@
           "fg": 255,
           "bg": 957
         },
+		        {
+          "id": "armguard_larmor_mod",
+          "fg": 255,
+          "bg": 957
+        },
         {
           "id": "armguard_chitin",
           "fg": 255
@@ -3977,6 +3982,11 @@
         },
         {
           "id": "overlay_worn_armguard_larmor",
+          "fg": 518,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_armguard_larmor_mod",
           "fg": 518,
           "rotates": false
         },
@@ -15119,7 +15129,78 @@
         {
           "id": "t_fungus",
           "bg": 966,
-          "rotates": false
+		  "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4534,
+              "bg": 974
+            },
+            {
+              "id": "corner",
+              "fg": 4535,
+              "bg": 974
+            },
+            {
+              "id": "edge",
+              "fg": 4536,
+              "bg": 974
+            },
+            {
+              "id": "t_connection",
+              "fg": 4538,
+              "bg": 974
+            },
+            {
+              "id": "end_piece",
+              "fg": 4537,
+              "bg": 974
+            },
+            {
+              "id": "unconnected",
+              "fg": 4539,
+              "bg": 974
+            }
+          ]
+        },        
+		{
+          "id": "t_fungus_season_winter",
+          "bg": 966,
+		  "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4540,
+              "bg": 974
+            },
+            {
+              "id": "corner",
+              "fg": 4541,
+              "bg": 974
+            },
+            {
+              "id": "edge",
+              "fg": 4542,
+              "bg": 974
+            },
+            {
+              "id": "t_connection",
+              "fg": 4544,
+              "bg": 974
+            },
+            {
+              "id": "end_piece",
+              "fg": 4543,
+              "bg": 974
+            },
+            {
+              "id": "unconnected",
+              "fg": 4545,
+              "bg": 974
+            }
+          ]
         },
         {
           "id": "t_fungus_mound",
@@ -15136,25 +15217,49 @@
         {
           "id": "t_shrub_fungal",
           "fg": 3244,
-          "bg": 966,
+          "bg": 4539,
+          "rotates": false
+        },
+		{
+          "id": "t_shrub_fungal_season_winter",
+          "fg": 3244,
+          "bg": 4545,
           "rotates": false
         },
         {
           "id": "t_tree_fungal",
           "fg": 3295,
-          "bg": 966,
+          "bg": 4539,
+          "rotates": false
+        },
+		        {
+          "id": "t_tree_fungal_season_winter",
+          "fg": 3295,
+          "bg": 4545,
           "rotates": false
         },
         {
           "id": "t_tree_fungal_young",
           "fg": 3296,
-          "bg": 966,
+          "bg": 4539,
+          "rotates": false
+        },
+		        {
+          "id": "t_tree_fungal_young_season_winter",
+          "fg": 3296,
+          "bg": 4545,
           "rotates": false
         },
         {
           "id": "t_marloss_tree",
           "fg": 3119,
           "bg": 966,
+          "rotates": false
+        },
+		        {
+          "id": "t_marloss_tree_season_winter",
+          "fg": 3119,
+          "bg": 4545,
           "rotates": false
         },
         {
@@ -17531,11 +17636,44 @@
               "bg": 974
             }
           ]
-        },
-
-        {
+        },        
+		{
           "id": "fd_fungal_haze",
-          "bg": 976
+          "bg": 4407,
+		  "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4528,
+              "bg": 974
+            },
+            {
+              "id": "corner",
+              "fg": 4529,
+              "bg": 974
+            },
+            {
+              "id": "edge",
+              "fg": 4530,
+              "bg": 974
+            },
+            {
+              "id": "t_connection",
+              "fg": 4532,
+              "bg": 974
+            },
+            {
+              "id": "end_piece",
+              "fg": 4531,
+              "bg": 974
+            },
+            {
+              "id": "unconnected",
+              "fg": 4533,
+              "bg": 974
+            }
+          ]
         },
         {
           "id": "fd_gas_vent",
@@ -28083,12 +28221,22 @@
           "id": "unbio_sword_weapon",
           "fg": 4334,
           "rotates": false
-        },		
+        },	
+		{
+          "id": "bio_sword_weapon",
+          "fg": 4334,
+          "rotates": false
+        },			
 		{
           "id": "overlay_wielded_unbio_sword_weapon",
           "fg": 4335,
           "rotates": false
-        },        
+        },     
+		{
+          "id": "overlay_wielded_bio_sword_weapon",
+          "fg": 4335,
+          "rotates": false
+        },   		
 		{
           "id": "bot_robot_drone",
           "fg": 4345,
@@ -28456,6 +28604,11 @@
         },				
 		{
           "id": "bomblet_launcher_chickenbot",
+          "fg": 4413,
+          "rotates": false
+        },
+				{
+          "id": "30mm_autocannon",
           "fg": 4413,
           "rotates": false
         },
@@ -29151,11 +29304,54 @@
           "id": "generic_folded_vehicle",
           "fg": 4518
         },
+						{
+          "id": "flintlock_ammo_mine",
+          "fg": 4519
+        },
+								{
+          "id": "laser_lmg",
+          "fg": 4520
+        },
+		{
+          "id": "overlay_wielded_laser_lmg",
+          "fg": 4521
+        },		
+		{
+          "id": "m1911ds",
+          "fg": 4522,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_m1911ds",
+          "fg": 4523,
+          "rotates": false
+        },
+						{
+          "id": "survbowstored",
+          "fg": 4524,
+          "rotates": false
+        },						
+		{
+          "id": "high_density_capacitor",
+          "fg": 4525,
+          "rotates": false
+        },
+				{
+          "id": "cuirass_lightplate",
+          "fg": 4526,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_cuirass_lightplate",
+          "fg": 4527,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
         },
+		
         {
           "id": "back_holster",
           "fg": 1986
@@ -43286,13 +43482,25 @@
         {
           "id": "t_tree_fungal",
           "fg": 5422,
-          "bg": 5424,
+          "bg": 4540,
+          "rotates": false
+        },
+		        {
+          "id": "t_tree_fungal_season_winter",
+          "fg": 5422,
+          "bg": 4545,
           "rotates": false
         },
         {
           "id": "t_marloss_tree",
           "fg": 5423,
           "bg": 5424,
+          "rotates": false
+        },
+		        {
+          "id": "t_marloss_tree_season_winter",
+          "fg": 5438,
+          "bg": 0,
           "rotates": false
         },
         {
