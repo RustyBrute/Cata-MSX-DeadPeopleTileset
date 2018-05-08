@@ -176,6 +176,12 @@
           "bg": 957,
           "rotates": false
         },
+				{
+          "id": "357_P",
+          "fg": 18,
+          "bg": 957,
+          "rotates": false
+        },
 		{
           "id": "357sig_jhp",
           "fg": 21,
@@ -8147,6 +8153,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "bio_chest_gun",
+          "fg": 1016,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "bio_eye_enhancer",
           "fg": 1017,
@@ -10662,6 +10674,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "sac_purse",
+          "fg": 1431,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "wax",
           "fg": 1374,
@@ -10839,6 +10857,12 @@
         {
           "id": "hops",
           "fg": 1215,
+          "bg": 957,
+          "rotates": false
+        },       
+		{
+          "id": "sarcophagus_access_code",
+          "fg": 1021,
           "bg": 957,
           "rotates": false
         },
@@ -13469,6 +13493,12 @@
           "bg": 959,
           "rotates": false
         },
+		        {
+          "id": "encyclopedia_archery",
+          "fg": 1022,
+          "bg": 959,
+          "rotates": false
+        },
         {
           "id": "book_icef",
           "fg": 1024,
@@ -15227,13 +15257,13 @@
           "rotates": false
         },
         {
-          "id": "t_tree_fungal",
+          "id": "!t_tree_fungal",
           "fg": 3295,
           "bg": 4539,
           "rotates": false
         },
 		        {
-          "id": "t_tree_fungal_season_winter",
+          "id": "!t_tree_fungal_season_winter",
           "fg": 3295,
           "bg": 4545,
           "rotates": false
@@ -15247,7 +15277,7 @@
 		        {
           "id": "t_tree_fungal_young_season_winter",
           "fg": 3296,
-          "bg": 4545,
+          "bg": 4540,
           "rotates": false
         },
         {
@@ -23821,6 +23851,11 @@
           "fg": 1273,
           "rotates": false
         },
+		        {
+          "id": "iv_mutagen_cephalopod",
+          "fg": 1273,
+          "rotates": false
+        },
         {
           "id": "mutagen_chimera",
           "fg": 1273,
@@ -23863,6 +23898,11 @@
         },
         {
           "id": "mutagen_lizard",
+          "fg": 1273,
+          "rotates": false
+        },
+		        {
+          "id": "iv_mutagen_lizard",
           "fg": 1273,
           "rotates": false
         },
@@ -24946,6 +24986,11 @@
         },
         {
           "id": "overlay_worn_waterskin",
+          "fg": 1429,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_sac_purse",
           "fg": 1429,
           "rotates": false
         },
@@ -29346,9 +29391,88 @@
           "fg": 4527,
           "rotates": false
         },
+								{
+          "id": "shockcannon_plut",
+          "fg": 4546,
+          "rotates": false
+        },
+										{
+          "id": "overlay_wielded_shockcannon_plut",
+          "fg": 4547,
+          "rotates": false
+        },
+		{
+          "id": "oozle_pod",
+          "fg": 4548,
+          "rotates": false
+        },
+				{
+          "id": "vp_oozle_pod",
+          "fg": 4548,
+          "rotates": false
+        },
+		{
+          "id": "link_sheet",
+          "fg": 4549,
+          "rotates": false
+        },		
+		{
+          "id": "spear_pipe",
+          "fg": 4550,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_spear_pipe",
+          "fg": 4551,
+          "rotates": false
+        },
+				{
+          "id": "washing_machine",
+          "fg": 4552,
+          "rotates": false
+        },
+		{
+          "id": "t_iron_fence",
+          "fg": 4553,
+		  "bg": 988,
+          "rotates": false
+        },
+		{
+          "id": "t_iron_fence_posts",
+          "fg": 4554,
+		  "bg": 988,
+          "rotates": false
+        },
+				{
+          "id": "t_iron_gate_l",
+          "fg": 4555,
+		  "bg": 988,
+          "rotates": false
+        },
+						{
+          "id": "t_iron_gate_c",
+          "fg": 4556,
+		  "bg": 988,
+          "rotates": false
+        },						{
+          "id": "t_iron_gate_o",
+          "fg": 4557,
+		  "bg": 988,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
+          "rotates": false
+        },				
+		{
+          "id": "bomblet_archvile",
+          "fg": 2916,
+          "rotates": false
+        },
+				{
+          "id": "bomblet_archvile_act",
+          "fg": 2916,
           "rotates": false
         },
 		
@@ -29432,6 +29556,10 @@
         },
         {
           "id": "aux_flamer",
+          "fg": 1994
+        },
+		        {
+          "id": "aux_flamer_diesel",
           "fg": 1994
         },
         {
@@ -43482,12 +43610,12 @@
         {
           "id": "t_tree_fungal",
           "fg": 5422,
-          "bg": 4540,
+          "bg": 5424,
           "rotates": false
         },
 		        {
           "id": "t_tree_fungal_season_winter",
-          "fg": 5422,
+          "fg": 5440,
           "bg": 5438,
           "rotates": false
         },
@@ -43499,10 +43627,11 @@
         },
 		        {
           "id": "t_marloss_tree_season_winter",
-          "fg": 5423,
+          "fg": 5441,
           "bg": 5438,
           "rotates": false
         },
+		
         {
           "id": "t_tree_birch",
           "fg": 5425,
