@@ -44332,6 +44332,171 @@
 		{ "id": "mon_bear_mega_kid", "fg": 11578, "rotates": false },
 		{ "id": "mon_zombie_bear_mega", "fg": 11579, "rotates": false }
     ]
+    }, 
+	{
+    "file": "expan2.png",
+    "sprite_offset_y":-16,
+    "tiles":
+    [
+        {
+          "id": ["overlay_worn_bowhat", "overlay_worn_porkpie", "overlay_worn_tophat"],
+          "fg": 11610,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_worn_firehelmet", "overlay_worn_hat_hard_hooded"],
+          "fg": 11611,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_hat_hard",
+          "fg": 11612,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_miner_hat",
+          "fg": 11613,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_miner_hat_on",
+          "fg": 11614,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_hat_sombrero",
+          "fg": 11615,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_pickelhaube",
+          "fg": 11616,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_worn_straw_hat", "overlay_worn_10gal_hat"],
+          "fg": 11617,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_straw_fedora",
+          "fg": 11618,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_fedora",
+          "fg": 11619,
+          "rotates": false
+        },
+        {
+          "id": ["overlay_effect_evil", "overlay_effect_attention", "overlay_effect_teleglow"],
+          "fg": 11620
+        },
+        {
+          "id": "overlay_effect_cold",
+          "fg": 11621
+        },
+        {
+          "id": "overlay_effect_hot",
+          "fg": 11622
+        },
+        {
+          "id": "overlay_effect_downed",
+          "fg": 11623
+        },
+        {
+          "id": "overlay_effect_grabbed",
+          "fg": 11624
+        },
+        {
+          "id": ["overlay_effect_winded", "overlay_effect_asthma"],
+          "fg": 11625
+        },
+        {
+          "id": "overlay_effect_stunned",
+          "fg": 11626
+        },
+        {
+          "id": ["overlay_effect_foodpoison", "overlay_effect_nausea"],
+          "fg": 11627
+        },
+        {
+          "id": "overlay_effect_frostbite",
+          "fg": 11628
+        },
+        {
+          "id": "overlay_effect_blisters",
+          "fg": 11629
+        },
+        {
+          "id": "overlay_effect_poison",
+          "fg": 11630
+        },
+        {
+          "id": "overlay_effect_badpoison",
+          "fg": 11631
+        },
+        {
+          "id": "overlay_effect_paralyzepoison",
+          "fg": 11632
+        },
+        {
+          "id": "overlay_effect_common_cold",
+          "fg": 11633
+        },
+        {
+          "id": ["overlay_effect_flu", "overlay_effect_Influenza"],
+          "fg": 11634
+        },
+        {
+          "id": "overlay_effect_spores",
+          "fg": 11635
+        },
+        {
+          "id": "overlay_effect_fungus",
+          "fg": 11636
+        },
+        {
+          "id": "overlay_effect_visuals",
+          "fg": 11637
+        },
+        {
+          "id": ["overlay_effect_deaf", "overlay_effect_earphones"],
+          "fg": 11638
+        },
+        {
+          "id": "overlay_effect_onfire",
+          "fg": 11639
+        },
+        {
+          "id": "overlay_effect_sleep",
+          "fg": 11640
+        },
+        {
+          "id": "overlay_effect_docile",
+          "fg": 11641
+        },
+        {
+          "id": "overlay_effect_pet",
+          "fg": 11642
+        },
+        {
+          "id": "overlay_effect_pacified",
+          "fg": 11643
+        },
+        {
+          "id": "overlay_effect_shrieking",
+          "fg": 11644
+        },
+        {
+          "id": "overlay_effect_milked",
+          "fg": 11645
+        },
+        {
+          "id": "overlay_effect_haslight",
+          "fg": 11646
+        }
+    ]
     }
     
     
