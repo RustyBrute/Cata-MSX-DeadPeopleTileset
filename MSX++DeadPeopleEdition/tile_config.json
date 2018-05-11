@@ -20874,7 +20874,7 @@
           "id": "t_grass",
           "fg": 3074,
           "bg": 1012,
-          "rotates": false,
+          "rotates": true,
           "multitile": true,
           "additional_tiles": [
             {
@@ -29431,34 +29431,101 @@
           "fg": 4552,
           "rotates": false
         },
-		{
-          "id": "t_iron_fence",
-          "fg": 4553,
-		  "bg": 988,
-          "rotates": false
-        },
-		{
-          "id": "t_iron_fence_posts",
-          "fg": 4554,
-		  "bg": 988,
-          "rotates": false
-        },
-				{
+						{
           "id": "t_iron_gate_l",
-          "fg": 4555,
+          "fg": 4553,
 		  "bg": 988,
           "rotates": false
         },
 						{
           "id": "t_iron_gate_c",
-          "fg": 4556,
+          "fg": 4554,
 		  "bg": 988,
           "rotates": false
         },						{
           "id": "t_iron_gate_o",
-          "fg": 4557,
+          "fg": 4555,
 		  "bg": 988,
           "rotates": false
+        },
+		{
+          "id": "t_iron_fence",
+          "fg": 4557,
+		  "bg": 988,      
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "fg": [ 4556, 4557],
+	          "bg": 988,		  
+              "id": "edge"
+            },
+            {
+              "fg": 4558,
+			  "bg": 988,
+              "id": "center"
+            },
+            {
+              "fg": [ 4559, 4560, 4561, 4562 ],
+			  "bg": 988,
+              "id": "corner"
+            },
+            {
+              "fg": [ 4556, 4557, 4556, 4557],
+			  "bg": 988,
+              "id": "end_piece"
+            },
+            {
+              "fg": [ 4563, 4564, 4565, 4566],
+			  "bg": 5225,
+              "id": "t_connection"
+            },
+            {
+              "fg": 4557,
+			  "bg": 988,
+              "id": "unconnected"
+            }
+          ]	  
+		  },
+		{
+          "id": "t_iron_fence_posts",
+          "fg": 4567,
+		  "bg": 988,
+          "rotates": true,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "fg": [ 4567],
+	          "bg": 988,		  
+              "id": "edge"
+            },
+            {
+              "fg": 4567,
+			  "bg": 988,
+              "id": "center"
+            },
+            {
+              "fg": [ 4559, 4560, 4561, 4562 ],
+			  "bg": 988,
+              "id": "corner"
+            },
+            {
+              "fg": [ 4567, 4567, 4567, 4567],
+			  "bg": 988,
+              "id": "end_piece"
+            },
+            {
+              "fg": [ 4567, 4567, 4567, 4567],
+			  "bg": 5225,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 4568, 4567],
+			  "bg": 988,
+              "id": "unconnected",
+			  "rotates": true
+            }
+          ]	  
         },
 		{
           "id": "atlatl",
