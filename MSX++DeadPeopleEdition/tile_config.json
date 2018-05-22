@@ -29566,7 +29566,7 @@
 	{ "id": "maid_mess_kit", "fg": 3772, "rotates": false },
 	{ "id": "summon_alchemic_golem", "fg": 1222, "rotates": false },
 	{ "id": "blob_gohan", "fg": 157, "rotates": false },
-	{ "id": ["assassins_throwing_dagger", "makeshift_throwing_knife"], "fg": 239, "rotates": false }
+	{ "id": ["assassins_throwing_dagger", "makeshift_throwing_knife"], "fg": 239, "rotates": false },
 		{ 
 		"id": ["mon_shoggoth_maid", "mini_shoggoth", "res_shoggoth"],
 		"fg": 4569, 
