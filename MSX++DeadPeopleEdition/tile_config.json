@@ -29572,6 +29572,11 @@
 		"fg": 4569, 
 		"rotates": false 
 		},
+				{ 
+		"id": "mon_shoggoth_maid",
+		"fg": 4574, 
+		"rotates": false 
+		},
 		{ 
 		"id": ["mon_little_maid", "little_maid_human_smoked", "little_maid_human_smoked_fin", "little_maid_fish_smoked_fin", "little_maid_R18", "little_maid_R18_tane", "little_maid_R18_milk", "little_maid_R18_milk2", "little_maid_meat_smoked", "little_maid_meat_smoked_fin", "little_maid_fish_smoked", "mini_little_maid", "res_little_maid"],
 		"fg": 4570, 
