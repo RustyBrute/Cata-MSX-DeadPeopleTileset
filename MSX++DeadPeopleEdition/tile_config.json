@@ -16139,7 +16139,11 @@
         },
         {
           "id": "mon_zombie",
-          "fg": 2666,
+          "fg": [
+            { "weight":3, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668}
+            ],
           "bg": 967,
           "rotates": false
         },
@@ -16151,7 +16155,11 @@
         },
         {
           "id": "mon_zombie_child",
-          "fg": 2685,
+          "fg": [
+            { "weight":3, "sprite":2685},
+            { "weight":3, "sprite":2686},
+			{ "weight":3, "sprite":2687}
+            ],
           "bg": 967,
           "rotates": false
         },
@@ -16181,7 +16189,11 @@
         },
         {
           "id": "mon_zombie_fat",
-          "fg": 2707,
+          "fg": [
+            { "weight":3, "sprite":2707},
+            { "weight":3, "sprite":2708},
+			{ "weight":3, "sprite":2709}
+            ],
           "bg": 967,
           "rotates": false
         },
@@ -16283,7 +16295,11 @@
         },
         {
           "id": "mon_zombie_tough",
-          "fg": 2764,
+          "fg": [
+            { "weight":3, "sprite":2764},
+            { "weight":3, "sprite":2765},
+			{ "weight":3, "sprite":2766}
+            ],
           "bg": 967,
           "rotates": false
         },
@@ -25963,7 +25979,34 @@
         {
           "id": "f_wreckage",
           "fg": 1602,
-          "rotates": false
+          "rotates": false,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 4579
+            },
+            {
+              "id": "corner",
+              "fg": 4580
+            },
+            {
+              "id": "edge",
+              "fg": 4581
+            },
+            {
+              "id": "end_piece",
+              "fg": 4581
+            },
+            {
+              "id": "t_connection",
+              "fg": 4582
+            },
+            {
+              "id": "unconnected",
+              "fg": [{ "weight":1, "sprite":4584}, { "weight":1, "sprite":4585}]
+            }
+          ]
         },
         {
           "id": "120mm_casing",
@@ -33788,12 +33831,20 @@
         },
         {
           "id": "mon_zombie_2",
-          "fg": 2667,
+          "fg": [
+            { "weight":3, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668}
+            ],
           "rotates": false
         },
         {
           "id": "mon_zombie_3",
-          "fg": 2668,
+          "fg": [
+            { "weight":3, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668}
+            ],
           "rotates": false
         },
         {
@@ -33833,17 +33884,27 @@
         },
         {
           "id": "mon_zombie_child_2",
-          "fg": 2686,
+          "fg": [
+            { "weight":2, "sprite":2685},
+            { "weight":1, "sprite":2686},
+			{ "weight":3, "sprite":2687}
+            ],
           "rotates": false
         },
         {
           "id": "mon_zombie_child_3",
-          "fg": 2687,
+          "fg": [
+            { "weight":2, "sprite":2685},
+            { "weight":3, "sprite":2686},
+			{ "weight":1, "sprite":2687}
+            ],
           "rotates": false
         },
         {
           "id": "mon_zombie_child_pk",
-          "fg": 2688,
+          "fg": [
+            { "weight":1, "sprite":2688}
+            ],
           "rotates": false
         },
         {
@@ -33903,12 +33964,20 @@
         },
         {
           "id": "mon_zombie_fat_2",
-          "fg": 2708,
+          "fg": [
+            { "weight":3, "sprite":2707},
+            { "weight":3, "sprite":2708},
+			{ "weight":3, "sprite":2709}
+            ],
           "rotates": false
         },
         {
           "id": "mon_zombie_fat_3",
-          "fg": 2709,
+          "fg": [
+            { "weight":3, "sprite":2707},
+            { "weight":3, "sprite":2708},
+			{ "weight":3, "sprite":2709}
+            ],
           "rotates": false
         },
         {
@@ -34046,12 +34115,20 @@
         },
         {
           "id": "mon_zombie_tough_2",
-          "fg": 2765,
+          "fg": [
+            { "weight":3, "sprite":2764},
+            { "weight":3, "sprite":2765},
+			{ "weight":3, "sprite":2766}
+            ],
           "rotates": false
         },
         {
           "id": "mon_zombie_tough_3",
-          "fg": 2766,
+          "fg": [
+            { "weight":3, "sprite":2764},
+            { "weight":3, "sprite":2765},
+			{ "weight":3, "sprite":2766}
+            ],
           "rotates": false
         },
         {
@@ -43916,6 +43993,11 @@
           "fg": 5462,
           "rotates": false
         },
+		{
+          "id": "mon_nakedmolerat_giant",
+          "fg": 5463,
+          "rotates": false
+        },
 
 	{ "id": "L dinos", "fg": 0, "rotates": false },
 	{ "id": "mon_spinosaurus",			"fg": 5464, "rotates": false },
@@ -44266,16 +44348,305 @@
           "id": "npc_male",
           "fg": 9632,
           "bg": 967
+        },		{
+          "id": "overlay_male_mutation_forehair1black",
+          "fg": 9796,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair1brown",
+          "fg": 9797,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair1blond",
+          "fg": 9798,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair1gray",
+          "fg": 9799,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair1white",
+          "fg": 9800,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair2black",
+          "fg": 9801,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair2brown",
+          "fg": 9802,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair2blond",
+          "fg": 9803,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair2gray",
+          "fg": 9804,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_forehair2white",
+          "fg": 9805,
+          "rotates": false
+        },
+				{
+          "id": "overlay_male_mutation_hair1black",
+          "fg": 9808,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair1brown",
+          "fg": 9809,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair1blond",
+          "fg": 9810,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair1gray",
+          "fg": 9811,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair1white",
+          "fg": 9812,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair2black",
+          "fg": 9813,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair2brown",
+          "fg": 9814,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair2blond",
+          "fg": 9815,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair2gray",
+          "fg": 9816,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair2white",
+          "fg": 9817,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair3black",
+          "fg": 9818,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair3brown",
+          "fg": 9819,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair3blond",
+          "fg": 9820,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair3gray",
+          "fg": 9821,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_hair3white",
+          "fg": 9822,
+          "rotates": false
+        },
+				{
+          "id": "overlay_female_mutation_forehair1black",
+          "fg": 9828,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair1brown",
+          "fg": 9829,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair1blond",
+          "fg": 9830,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair1gray",
+          "fg": 9831,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair1white",
+          "fg": 9832,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair2black",
+          "fg": 9833,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair2brown",
+          "fg": 9834,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair2blond",
+          "fg": 9835,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair2gray",
+          "fg": 9836,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_forehair2white",
+          "fg": 9837,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair1black",
+          "fg": 9840,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair1brown",
+          "fg": 9841,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair1blond",
+          "fg": 9842,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair1gray",
+          "fg": 9843,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair1white",
+          "fg": 9844,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair2black",
+          "fg": 9845,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair2brown",
+          "fg": 9846,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair2blond",
+          "fg": 9847,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair2gray",
+          "fg": 9848,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair2white",
+          "fg": 9849,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair3black",
+          "fg": 9850,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair3brown",
+          "fg": 9851,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair3blond",
+          "fg": 9852,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair3gray",
+          "fg": 9853,
+          "rotates": false
+        },
+		{
+          "id": "overlay_female_mutation_hair3white",
+          "fg": 9854,
+          "rotates": false
         },
 		{
           "id": "player_female",
           "fg": 9616,
           "bg": 967
         },
+		        {
+          "id": "overlay_female_mutation_skin1",
+          "fg": 9824,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_skin2",
+          "fg": 9825,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_skin3",
+          "fg": 9826,
+          "rotates": false
+        },
+        {
+          "id": "overlay_female_mutation_skin4",
+          "fg": 9827,
+          "rotates": false
+        },
 		{
           "id": "player_male",
           "fg": 9632,
           "bg": 967
+        },
+				{
+          "id": "overlay_male_mutation_skin1",
+          "fg": 9792,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_skin2",
+          "fg": 9793,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_skin3",
+          "fg": 9794,
+          "rotates": false
+        },
+		{
+          "id": "overlay_male_mutation_skin4",
+          "fg": 9795,
+          "rotates": false
         },
 		{
           "id": "overlay_female_mutation_EYE_BLUE",
