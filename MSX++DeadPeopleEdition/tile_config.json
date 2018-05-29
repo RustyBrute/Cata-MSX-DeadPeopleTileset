@@ -25456,7 +25456,7 @@
         {
           "id": "f_file_cabinet",
           "fg": 1511,
-          "rotates": true
+          "rotates": false
         },
         {
           "id": "f_locker",
