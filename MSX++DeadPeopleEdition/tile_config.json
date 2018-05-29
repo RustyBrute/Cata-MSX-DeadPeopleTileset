@@ -45001,9 +45001,28 @@
           "fg": 11646
         }
     ]
-    }
-    
-    
-    
+	},
+	{
+    "file": "tiles-monster-variants.png",
+    "tiles":
+    [        
+        {
+          "id": "mon_zombie",
+          "fg": [
+            { "weight":2, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668},            
+			{ "weight":3, "sprite":11652},
+            { "weight":2, "sprite":11653},
+			{ "weight":3, "sprite":11654},            
+			{ "weight":2, "sprite":11655},
+            { "weight":3, "sprite":11656},
+			{ "weight":3, "sprite":11657}
+            ],
+          "bg": 967,
+          "rotates": false
+        } 
+  ]
+  }
   ]
 }
