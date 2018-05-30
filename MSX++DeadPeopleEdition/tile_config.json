@@ -45005,19 +45005,138 @@
 	{
     "file": "tiles-monster-variants.png",
     "tiles":
-    [        
+    [   
+        {
+          "id": "mon_zombie_tough",
+          "fg": [
+            { "weight":3, "sprite":2764},
+            { "weight":3, "sprite":2765},
+			{ "weight":3, "sprite":2766},
+			{ "weight":3, "sprite":11668},
+			{ "weight":3, "sprite":11669},
+            { "weight":2, "sprite":11670},
+			{ "weight":1, "sprite":11671},           
+			{ "weight":1, "sprite":11672},
+			{ "weight":1, "sprite":11673},			
+			{ "weight":1, "sprite":11674},           
+			{ "weight":1, "sprite":11675},
+			{ "weight":1, "sprite":11676}
+            ],
+          "bg": 967,
+          "rotates": false
+        },	        
+		{
+          "id": "mon_zombie_tough_2",
+          "fg": [
+            { "weight":3, "sprite":2764},
+            { "weight":3, "sprite":2765},
+			{ "weight":3, "sprite":2766},
+			{ "weight":3, "sprite":11668},
+			{ "weight":3, "sprite":11669},
+            { "weight":2, "sprite":11670},
+			{ "weight":1, "sprite":11671},           
+			{ "weight":1, "sprite":11672},
+			{ "weight":1, "sprite":11673},			
+			{ "weight":1, "sprite":11674},           
+			{ "weight":1, "sprite":11675},
+			{ "weight":1, "sprite":11676}
+            ],
+          "bg": 967,
+          "rotates": false
+        },	        
+		{
+          "id": "mon_zombie_tough_3",
+          "fg": [
+            { "weight":3, "sprite":2764},
+            { "weight":3, "sprite":2765},
+			{ "weight":3, "sprite":2766},
+			{ "weight":3, "sprite":11668},
+			{ "weight":3, "sprite":11669},
+            { "weight":2, "sprite":11670},
+			{ "weight":1, "sprite":11671},           
+			{ "weight":1, "sprite":11672},
+			{ "weight":1, "sprite":11673},			
+			{ "weight":1, "sprite":11674},           
+			{ "weight":1, "sprite":11675},
+			{ "weight":1, "sprite":11676}
+            ],
+          "bg": 967,
+          "rotates": false
+        },	
         {
           "id": "mon_zombie",
           "fg": [
             { "weight":2, "sprite":2666},
-            { "weight":3, "sprite":2667},
-			{ "weight":3, "sprite":2668},            
+            { "weight":2, "sprite":2667},
+			{ "weight":2, "sprite":2668},            
 			{ "weight":3, "sprite":11652},
             { "weight":2, "sprite":11653},
 			{ "weight":3, "sprite":11654},            
 			{ "weight":2, "sprite":11655},
             { "weight":3, "sprite":11656},
-			{ "weight":3, "sprite":11657}
+			{ "weight":3, "sprite":11657},
+			{ "weight":3, "sprite":11658},
+            { "weight":3, "sprite":11659},
+			{ "weight":2, "sprite":11660},            
+			{ "weight":1, "sprite":11661},
+            { "weight":3, "sprite":11662},
+			{ "weight":3, "sprite":11663},			
+			{ "weight":3, "sprite":11664},            
+			{ "weight":3, "sprite":11665},
+            { "weight":1, "sprite":11666},
+			{ "weight":1, "sprite":11667}
+            ],
+          "bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_zombie_2",
+          "fg": [
+            { "weight":2, "sprite":2666},
+            { "weight":2, "sprite":2667},
+			{ "weight":2, "sprite":2668},            
+			{ "weight":3, "sprite":11652},
+            { "weight":2, "sprite":11653},
+			{ "weight":3, "sprite":11654},            
+			{ "weight":2, "sprite":11655},
+            { "weight":3, "sprite":11656},
+			{ "weight":3, "sprite":11657},
+			{ "weight":3, "sprite":11658},
+            { "weight":3, "sprite":11659},
+			{ "weight":2, "sprite":11660},            
+			{ "weight":1, "sprite":11661},
+            { "weight":3, "sprite":11662},
+			{ "weight":3, "sprite":11663},			
+			{ "weight":3, "sprite":11664},            
+			{ "weight":3, "sprite":11665},
+            { "weight":1, "sprite":11666},
+			{ "weight":1, "sprite":11667}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_3",
+          "fg": [
+            { "weight":2, "sprite":2666},
+            { "weight":2, "sprite":2667},
+			{ "weight":2, "sprite":2668},            
+			{ "weight":3, "sprite":11652},
+            { "weight":2, "sprite":11653},
+			{ "weight":3, "sprite":11654},            
+			{ "weight":2, "sprite":11655},
+            { "weight":3, "sprite":11656},
+			{ "weight":3, "sprite":11657},
+			{ "weight":3, "sprite":11658},
+            { "weight":3, "sprite":11659},
+			{ "weight":2, "sprite":11660},            
+			{ "weight":1, "sprite":11661},
+            { "weight":3, "sprite":11662},
+			{ "weight":3, "sprite":11663},			
+			{ "weight":3, "sprite":11664},            
+			{ "weight":3, "sprite":11665},
+            { "weight":1, "sprite":11666},
+			{ "weight":1, "sprite":11667}
             ],
           "bg": 967,
           "rotates": false
