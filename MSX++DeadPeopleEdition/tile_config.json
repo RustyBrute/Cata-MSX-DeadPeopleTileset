@@ -45062,7 +45062,67 @@
             ],
           "bg": 967,
           "rotates": false
-        },	
+        },	        
+		{
+          "id": "mon_zombie_fat",
+          "fg": [
+            { "weight":3, "sprite":2707},
+            { "weight":3, "sprite":2708},
+			{ "weight":1, "sprite":2709},
+			{ "weight":3, "sprite":11684},			
+			{ "weight":3, "sprite":11685},			
+			{ "weight":3, "sprite":11686},           
+			{ "weight":1, "sprite":11687},
+			{ "weight":1, "sprite":11688},			
+			{ "weight":3, "sprite":11689},			
+			{ "weight":3, "sprite":11690},			
+			{ "weight":3, "sprite":11691},           
+			{ "weight":2, "sprite":11692},
+			{ "weight":1, "sprite":11693}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_fat_2",
+          "fg": [
+            { "weight":3, "sprite":2707},
+            { "weight":3, "sprite":2708},
+			{ "weight":1, "sprite":2709},
+			{ "weight":3, "sprite":11684},			
+			{ "weight":3, "sprite":11685},			
+			{ "weight":3, "sprite":11686},           
+			{ "weight":1, "sprite":11687},
+			{ "weight":1, "sprite":11688},			
+			{ "weight":3, "sprite":11689},			
+			{ "weight":3, "sprite":11690},			
+			{ "weight":3, "sprite":11691},           
+			{ "weight":2, "sprite":11692},
+			{ "weight":1, "sprite":11693}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_fat_3",
+          "fg": [
+            { "weight":3, "sprite":2707},
+            { "weight":3, "sprite":2708},
+			{ "weight":1, "sprite":2709},
+			{ "weight":3, "sprite":11684},			
+			{ "weight":3, "sprite":11685},			
+			{ "weight":3, "sprite":11686},           
+			{ "weight":1, "sprite":11687},
+			{ "weight":1, "sprite":11688},			
+			{ "weight":3, "sprite":11689},			
+			{ "weight":3, "sprite":11690},			
+			{ "weight":3, "sprite":11691},           
+			{ "weight":2, "sprite":11692},
+			{ "weight":1, "sprite":11693}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
         {
           "id": "mon_zombie",
           "fg": [
