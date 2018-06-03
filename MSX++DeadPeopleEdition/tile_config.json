@@ -29636,6 +29636,137 @@
 	{ "id": "jokyu_fuku",
 	"fg": 4573, 
 	"rotates": false },
+		{ "id": "!t_dirt",
+	"fg": [
+            { "weight":30, "sprite":1012},
+            { "weight":1, "sprite":4592},
+            { "weight":1, "sprite":4593},
+            { "weight":1, "sprite":4594},
+			{ "weight":1, "sprite":4595},            
+			{ "weight":1, "sprite":4596},
+			{ "weight":1, "sprite":4597}
+            ], 
+	"rotates": true },
+{
+          "id": "t_grass",
+          "fg": 4586,
+          "bg": 5225,
+          "multitile": true,
+          "additional_tiles": [
+
+            {
+              "fg": 4586,
+			  "bg": 5225,
+              "id": "center"
+            },
+            {
+              "fg": 4587,
+			  "bg": 5225,
+              "id": "corner"
+            },
+            {
+              "fg": 4588,
+			  "bg": 5225,
+              "id": "end_piece"
+            },
+			            {
+              "fg": 4590,
+	          "bg": 5225,		  
+              "id": "edge"
+            },
+            {
+              "fg": 4589,
+			  "bg": 5225,
+              "id": "t_connection"
+            },
+            {
+              "fg": 4591,
+			  "bg": 5225,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": true		  
+        },  
+		{
+          "id": "t_grass_season_summer",
+          "fg": 4592,
+          "bg": 5225,
+          "multitile": true,
+          "additional_tiles": [
+
+            {
+              "fg": 4592,
+			  "bg": 5225,
+              "id": "center"
+            },
+            {
+              "fg": 4593,
+			  "bg": 5225,
+              "id": "corner"
+            },
+            {
+              "fg": 4594,
+			  "bg": 5225,
+              "id": "end_piece"
+            },            
+			{
+              "fg": 4595,
+			  "bg": 5225,
+              "id": "t_connection"
+            },
+			            {
+              "fg": 4596,
+	          "bg": 5225,		  
+              "id": "edge"
+            },
+            {
+              "fg": 4597,
+			  "bg": 5225,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": true		  
+        },    		
+		{
+          "id": "t_grass_season_autumn",
+          "fg": 4598,
+          "bg": 5225,
+          "multitile": true,
+          "additional_tiles": [
+
+            {
+              "fg": 4598,
+			  "bg": 5225,
+              "id": "center"
+            },
+            {
+              "fg": 4599,
+			  "bg": 5225,
+              "id": "corner"
+            },
+            {
+              "fg": 4600,
+			  "bg": 5225,
+              "id": "end_piece"
+            },            
+			{
+              "fg": 4601,
+			  "bg": 5225,
+              "id": "t_connection"
+            },
+			            {
+              "fg": 4602,
+	          "bg": 5225,		  
+              "id": "edge"
+            },
+            {
+              "fg": 4603,
+			  "bg": 5225,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": true		  
+        },        
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -35443,32 +35574,38 @@
         {
           "id": "t_slime_season_winter",
           "fg": 3250,
-          "bg": 3085,
+          "bg": 992,
           "multitile": true,
           "additional_tiles": [
             {
               "id": "unconnected",
-              "fg": 3250
+              "fg": 3250,
+			  "bg": 992
             },
             {
               "id": "center",
-              "fg": 3251
+              "fg": 3251,
+			  "bg": 992
             },
             {
               "id": "corner",
-              "fg": 3252
+              "fg": 3252,
+			  "bg": 992
             },
             {
               "id": "edge",
-              "fg": 3253
+              "fg": 3253,
+			  "bg": 992
             },
             {
               "id": "end_piece",
-              "fg": 3254
+              "fg": 3254,
+			  "bg": 992
             },
             {
               "id": "t_connection",
-              "fg": 3255
+              "fg": 3255,
+			  "bg": 992
             }
           ]
         },
