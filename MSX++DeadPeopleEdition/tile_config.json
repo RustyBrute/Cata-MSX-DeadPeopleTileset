@@ -25715,13 +25715,25 @@
         },
         {
           "id": "f_rubble",
-          "fg": 1556,
-          "rotates": false
+          "fg": [
+            { "weight":1, "sprite":1556},
+            { "weight":2, "sprite":4604},
+			{ "weight":3, "sprite":4605},            
+			{ "weight":4, "sprite":4606},
+			{ "weight":5, "sprite":4607}
+			],
+			"rotates": false
         },
         {
           "id": "f_rubble_rock",
-          "fg": 1557,
-          "rotates": false
+          "fg": [
+            { "weight":1, "sprite":1557},
+            { "weight":2, "sprite":4604},
+			{ "weight":3, "sprite":4605},            
+			{ "weight":4, "sprite":4606},
+			{ "weight":5, "sprite":4607}
+			],
+			"rotates": false
         },
         {
           "id": "f_safe_c",
@@ -29766,7 +29778,67 @@
             }
           ],
           "rotates": true		  
-        },        
+        },		
+		{
+          "id": "mon_bandit_looter",
+          "fg": 4608,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_m1911",
+          "fg": 4609,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_glock",
+          "fg": 4610,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_melee",
+          "fg": 4611,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_raider",
+          "fg": 4612,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_rifle",
+          "fg": 4613,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_scrapper",
+          "fg": 4614,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_shotgun",
+          "fg": 4615,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_smg",
+          "fg": 4616,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_alpha",
+          "fg": 4617,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_super_psycho",
+          "fg": 4618,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_super_snipe",
+          "fg": 4619,
+          "rotates": false
+        },  				      
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -45360,6 +45432,120 @@
 			{ "weight":1, "sprite":11693}
             ],
           "bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_looter",
+          "fg": [
+		    { "weight":1, "sprite":4608},
+			{ "weight":1, "sprite":11700},
+			{ "weight":1, "sprite":11701},
+			{ "weight":1, "sprite":11702},
+			{ "weight":1, "sprite":11703}
+            ],
+			"bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_bandit_m1911",
+          "fg": [
+		    { "weight":1, "sprite":4609},
+			{ "weight":1, "sprite":11716}
+            ],
+			"bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_bandit_glock",
+          "fg": [
+		    { "weight":1, "sprite":4610},
+			{ "weight":1, "sprite":11732}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_melee",
+          "fg": [
+		    { "weight":1, "sprite":4611},
+			{ "weight":1, "sprite":11748},
+			{ "weight":1, "sprite":11749}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_raider",
+          "fg": [
+		    { "weight":1, "sprite":4612},
+			{ "weight":1, "sprite":11764},
+			{ "weight":1, "sprite":11765}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_rifle",
+          "fg": [
+		    { "weight":1, "sprite":4613},
+			{ "weight":1, "sprite":11780}
+            ],
+			"bg": 967,
+          "rotates": false
+        },			
+		{
+          "id": "mon_bandit_scrapper",
+          "fg": [
+		    { "weight":1, "sprite":4614},
+			{ "weight":1, "sprite":11796},
+			{ "weight":1, "sprite":11797}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_shotgun",
+          "fg": [
+		    { "weight":1, "sprite":4615},
+			{ "weight":1, "sprite":11812}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_smg",
+          "fg": [
+		    { "weight":1, "sprite":4616},
+			{ "weight":1, "sprite":11828}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_alpha",
+          "fg": [
+		    { "weight":1, "sprite":4617},
+			{ "weight":1, "sprite":11844}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_super_psycho",
+          "fg": [
+		    { "weight":1, "sprite":4618},
+			{ "weight":1, "sprite":11860}
+            ],
+			"bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bandit_super_snipe",
+          "fg": [
+		    { "weight":1, "sprite":4619},
+			{ "weight":1, "sprite":11876}
+            ],
+			"bg": 967,
           "rotates": false
         },
         {
