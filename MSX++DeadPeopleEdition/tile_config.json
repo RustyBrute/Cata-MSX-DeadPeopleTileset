@@ -951,10 +951,6 @@
           "fg": 124
         },
         {
-          "id": "napalm",
-          "fg": 124
-        },
-        {
           "id": "chem_hexamine",
           "fg": 125,
           "bg": 957
@@ -29888,7 +29884,17 @@
           "id": "mon_chicken_chick",
           "fg": 4629,
           "rotates": false
-        },
+        },        
+		{
+          "id": "mon_ant_acid_kwama",
+          "fg": 4630,
+          "rotates": false
+        },  
+				{
+          "id": "mon_ant_acid_terminal",
+          "fg": 4631,
+          "rotates": false
+        },  
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -45195,7 +45201,8 @@
 		{ "id": "mon_bear_mega", "fg": 11576, "rotates": false },
 		{ "id": "mon_bear_mega_mating", "fg": 11577, "rotates": false },
 		{ "id": "mon_bear_mega_kid", "fg": 11578, "rotates": false },
-		{ "id": "mon_zombie_bear_mega", "fg": 11579, "rotates": false }
+		{ "id": "mon_zombie_bear_mega", "fg": 11579, "rotates": false },
+		{ "id": "mon_ant_acid_ultralisk", "fg": 11580, "rotates": false }
     ]
     }, 
 	{
