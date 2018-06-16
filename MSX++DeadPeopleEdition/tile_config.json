@@ -29838,7 +29838,57 @@
           "id": "mon_bandit_super_snipe",
           "fg": 4619,
           "rotates": false
-        },  				      
+        },  	
+				{
+          "id": "mon_zombie_flamer",
+          "fg": 4620,
+          "rotates": false
+        },  	
+		{
+          "id": "mon_hologram",
+          "fg": 4621,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_holo_cloak",
+          "fg": 4622,
+          "rotates": false
+        },
+		{
+          "id": "holo_cloak",
+          "fg": 4623,
+          "rotates": false
+        },			
+		{
+          "id": "anvil_bronze",
+          "fg": 4624,
+          "rotates": false
+        },	        
+		{
+          "id": "mon_skittering_plague",
+          "fg": 4625,
+          "rotates": false
+        },
+		{
+          "id": "mon_plague_nymph",
+          "fg": 4626,
+          "rotates": false
+        },			
+		{
+          "id": "mon_plague_vector",
+          "fg": 4627,
+          "rotates": false
+        },		
+		{
+          "id": "mon_triffid_sprig",
+          "fg": 4628,
+          "rotates": false
+        },		
+		{
+          "id": "mon_chicken_chick",
+          "fg": 4629,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
