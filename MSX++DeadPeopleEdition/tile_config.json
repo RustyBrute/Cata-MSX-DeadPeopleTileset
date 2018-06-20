@@ -2532,7 +2532,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_kevlar",
+          "id": ["overlay_worn_kevlar", "overlay_worn_kevlar_tee"],
           "fg": 342,
           "rotates": false
         },
@@ -6539,7 +6539,7 @@
           "rotates": false
         },
 		{
-          "id": "swat_shield",
+          "id": ["swat_shield", "swat_shield_act"],
           "fg": 803,
           "rotates": false
         },
@@ -10031,7 +10031,7 @@
           "rotates": false
         },
         {
-          "id": "rope_30",
+          "id": ["rope_30", "rope_makeshift_30"],
           "fg": 1909,
           "bg": 957,
           "rotates": false
@@ -27286,7 +27286,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_q_staff",
+          "id": ["overlay_wielded_q_staff", "overlay_wielded_l_staff"],
           "fg": 1850,
           "rotates": false
         },
@@ -27668,7 +27668,7 @@
           "fg": 1904
         },
         {
-          "id": "reinforced_solar_panel_v2",
+          "id": ["reinforced_solar_panel_v2", "solar_array2r"],
           "fg": 1905
         },
         {
@@ -28141,7 +28141,7 @@
           "fg": 1716
         },
 		{
-          "id": ["bot_tripod", "bot_acidic_pk", "bot_grabber", "bot_blind", "bot_hollow", "bot_shady", "bot_fungal_boil", "bot_spider_trapdoor_giant_guardian", "bot_spider_trapdoor_giant", "bot_trapdoor_s", "bot_spider_web_omega", "bot_spider_web_s", "bot_rat"],
+          "id": ["bot_tripod", "bot_ant_acid_ultralisk", "bot_acidic_pk", "bot_grabber", "bot_blind", "bot_hollow", "bot_shady", "bot_fungal_boil", "bot_spider_trapdoor_giant_guardian", "bot_spider_trapdoor_giant", "bot_trapdoor_s", "bot_spider_web_omega", "bot_spider_web_s", "bot_rat"],
           "fg": 2653
         },
 		{
@@ -30104,6 +30104,151 @@
           "fg": 4664
         },
 		{
+          "id": "minion_dormant",
+          "fg": 4665
+        },
+		{
+          "id": "blob_dormant",
+          "fg": 4666
+        },
+		{
+          "id": "diamondnova",
+          "fg": 4667
+        },				
+		{
+          "id": "overlay_wielded_diamondnova",
+          "fg": 4668
+        },		
+		{
+          "id": "vortexrifle",
+          "fg": 4669
+        },				
+		{
+          "id": "overlay_wielded_vortexrifle",
+          "fg": 4670
+        },		
+		{
+          "id": ["bfeedfuel", "gloople_act"],
+          "fg": 4671
+        },		
+		{
+          "id": "oozle_act",
+          "fg": 4672
+        },
+		{
+          "id": "gray_act",
+          "fg": 4673
+        },
+				{
+          "id": ["vp_gloopletread", "vp_graytread", "vp_oozletread"],
+          "fg": 4149,
+          "rotates": true
+        },
+				{
+          "id": ["gloopletread", "graytread", "oozletread"],
+          "fg": 4149
+        },
+		{
+          "id": ["antidote_badpoison", "antidote_posion"],
+          "fg": 4674
+        },		
+		{
+          "id": "stamina_vial",
+          "fg": 4675,
+          "rotates": false
+        }, 		
+		{
+          "id": "bomblet_chickenbot",
+          "fg": 4676,
+          "rotates": false
+        },	
+		{
+          "id": "bomblet_chickenbot_act",
+          "fg": 4677,
+          "rotates": false
+        },			
+		{
+          "id": ["turtleneck", "turtleneck_rolled"],
+          "fg": 4678,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_turtleneck_rolled",
+          "fg": 4679,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_worn_turtleneck",
+          "fg": 4680,
+          "rotates": false
+        },			
+		{
+          "id": "sac_empty",
+          "fg": 4681,
+          "rotates": false
+        },			
+		{
+          "id": "sac_treated",
+          "fg": 4682,
+          "rotates": false
+        },		
+		{
+          "id": "spess_chunk",
+          "fg": 4683,
+          "rotates": false
+        },		
+		{
+          "id": "fertilizer_chelated",
+          "fg": 4684,
+          "rotates": false
+        },			
+		{
+          "id": "kevlar_tee",
+          "fg": 4685,
+          "rotates": false
+        },		
+		{
+          "id": "vpower",
+          "fg": 4686,
+          "rotates": false
+        },			
+		{
+          "id": "battleship",
+          "fg": 4687,
+          "rotates": false
+        },		
+		{
+          "id": "cards",
+          "fg": 4688,
+          "rotates": false
+        },		
+		{
+          "id": "cards_magic",
+          "fg": 4689,
+          "rotates": false
+        },		
+		{
+          "id": "l_staff",
+          "fg": 4690,
+          "rotates": false
+        },		
+		{
+          "id": "clue",
+          "fg": 4691,
+          "rotates": false
+        },		
+		{
+          "id": "control_chip",
+          "fg": 4692,
+          "rotates": false
+        },		
+		{
+          "id": "pictionary",
+          "fg": 4693,
+          "rotates": false
+        },
+		
+		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
@@ -31785,6 +31930,11 @@
           "id": "overlay_wielded_rm51_assault_rifle",
           "fg": 2139,
           "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_surv_full_762",
+          "fg": 2139,
+          "rotates": false
         },
         {
           "id": "overlay_wielded_rm88_battle_rifle",
@@ -32092,6 +32242,11 @@
         },
         {
           "id": "rm51_assault_rifle",
+          "fg": 2181,
+          "rotates": false
+        },
+		        {
+          "id": "surv_full_762",
           "fg": 2181,
           "rotates": false
         },
@@ -38448,6 +38603,11 @@
           "rotates": false
         },
 		{
+          "id": "bomblet_archdemon",
+          "fg": 3768,
+          "rotates": false
+        },
+		{
           "id": "summon_kreck_on",
           "fg": 3768,
           "rotates": false
@@ -44164,7 +44324,68 @@
     "sprite_offset_x":-16,
     "sprite_offset_y":-48,
     "tiles":
-    [
+    [        
+		{
+          "id": "overlay_wielded_pike",
+          "fg": 5398,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_pike_assembly2_vo",
+          "fg": 5398,
+          "rotates": false
+        },
+        {
+          "id": "t_stairs_down",
+          "fg": 5396,
+          "rotates": false
+        },
+        {
+          "id": "t_stairs_up",
+          "fg": 5397,
+          "rotates": false
+        },
+		        {
+          "id": "f_boulder_large",
+          "fg": 5439,
+          "rotates": false
+        },
+		{
+          "id": "vp_solar_array",
+          "fg": 5442,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 5443
+            }
+          ]
+        },
+        {
+          "id": "vp_solar_array2",
+          "fg": 5444,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 5445
+            }
+          ]
+        },
+        {
+          "id": "vp_solar_array2r",
+          "fg": 5444,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 5445
+            }
+          ]
+        },
         {
           "id": "t_tree",
           "fg": 5400,
@@ -44608,11 +44829,7 @@
     { "id": "overlay_male_worn_blob_ball_vo",	"fg": 10887, "rotates": false },
     { "id": "overlay_female_worn_blob_ball_vo",	"fg": 10886, "rotates": false },
 
-        {
-          "id": "overlay_wielded_pike_assembly2_vo",
-          "fg": 10896,
-          "rotates": false
-        },
+
         {
           "id": "overlay_wielded_spear_assembly2_vo",
           "fg": 10897,
