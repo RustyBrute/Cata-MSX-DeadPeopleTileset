@@ -1679,6 +1679,10 @@
           "fg": 3568,
           "bg": 220
         },
+		        {
+          "id": "rope_makeshift_6",
+          "fg": 3568
+        },
         {
           "id": "light_snare_kit",
           "fg": 3568,
@@ -2587,6 +2591,10 @@
         },
 		{
           "id": "bandolier_shotgun",
+          "fg": 348
+        },
+				{
+          "id": "magbandolier",
           "fg": 348
         },
         {
@@ -9699,7 +9707,7 @@
           "fg": 1305,
           "bg": 957,
           "rotates": false
-        },
+        },        
         {
           "id": "prozac",
           "fg": 1306,
@@ -9940,6 +9948,12 @@
         },
 		        {
           "id": "acog_scope",
+          "fg": 2256,
+          "bg": 957,
+          "rotates": false
+        },
+				        {
+          "id": "riv_scope",
           "fg": 2256,
           "bg": 957,
           "rotates": false
@@ -10320,7 +10334,7 @@
           "rotates": false
         },
         {
-          "id": "suppressor",
+          "id": ["suppressor", "riv_suppressor"],
           "fg": 2257,
           "bg": 957,
           "rotates": false
@@ -13301,6 +13315,12 @@
         },
         {
           "id": "smoxygen_tank",
+          "fg": 3756,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "oxygen",
           "fg": 3756,
           "bg": 957,
           "rotates": false
@@ -23806,10 +23826,6 @@
           "fg": 1269
         },
         {
-          "id": "mushroom_morel",
-          "fg": 1269
-        },
-        {
           "id": "mushroom_magic",
           "fg": 1270,
           "rotates": false
@@ -23945,11 +23961,6 @@
         },
         {
           "id": "mutagen_rat",
-          "fg": 1273,
-          "rotates": false
-        },
-        {
-          "id": "mutagen_slime",
           "fg": 1273,
           "rotates": false
         },
@@ -24831,7 +24842,7 @@
           "rotates": false
         },
         {
-          "id": "offal",
+          "id": ["offal", "offal_canned", "offal_pickled"],
           "fg": 1412
         },
         {
@@ -25065,6 +25076,10 @@
         },
         {
           "id": "v12_combustion",
+          "fg": 1440
+        },
+		        {
+          "id": "v12_diesel",
           "fg": 1440
         },
         {
@@ -26207,6 +26222,11 @@
           "id": "amplifier",
           "fg": 1630,
           "rotates": false
+        },
+		        {
+          "id": "bot_antimateriel",
+          "fg": 1631,
+          "bg": 2644
         },
         {
           "id": "bot_laserturret",
@@ -28958,8 +28978,28 @@
           "fg": 4449,
           "rotates": false
         },	
+		{
+          "id": "reach_bow",
+          "fg": 4449,
+          "rotates": false
+        },
+		{
+          "id": "boulder_anvil",
+          "fg": 4449,
+          "rotates": false
+        },
 						{
           "id": "acid_spit",
+          "fg": 4449,
+          "rotates": false
+        },							
+		{
+          "id": "testflames",
+          "fg": 4449,
+          "rotates": false
+        },	
+		{
+          "id": "money",
           "fg": 4449,
           "rotates": false
         },	
@@ -29353,6 +29393,21 @@
         },		
 		{
           "id": "rebreather_filter",
+          "fg": 4510,
+          "rotates": false
+        },			
+		{
+          "id": "gasfilter_l",
+          "fg": 4510,
+          "rotates": false
+        },	
+		{
+          "id": "gasfilter_m",
+          "fg": 4510,
+          "rotates": false
+        },		
+		{
+          "id": "gasfilter_s",
           "fg": 4510,
           "rotates": false
         },
@@ -29896,10 +29951,168 @@
           "rotates": false
         },  
 		{
+          "id": ["3006_clip", "762x39_clip", "762R_clip"],
+          "fg": 4632,
+          "rotates": false
+        }, 		
+		{
+          "id": ["rm4504", "rm4502"],
+          "fg": 4633,
+          "rotates": false
+        }, 
+		        {
+          "id": ["mutagen_slime", "iv_mutagen_slime"],
+          "fg": 4634,
+          "rotates": false
+        },				        
+		{
+          "id": "cargo_lock",
+          "fg": 4635,
+          "rotates": false
+        },
+		{
+          "id": "acidchitin_plate",
+          "fg": 4636,
+          "rotates": false
+        },		
+		{
+          "id": "vehicle_dashboard",
+          "fg": 4637,
+          "rotates": false
+        },
+				{
+          "id": "pickles_ferment",
+          "fg": 4638,
+          "rotates": false
+        },				
+		{
+          "id": "jar_pickles_pickled",
+          "fg": 4639,
+          "rotates": false
+        },		
+		{
+          "id": "armguard_lightplate",
+          "fg": 4640,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_armguard_lightplate",
+          "fg": 4641,
+          "rotates": false
+        },		        
+		{
+          "id": "armguard_acidchitin",
+          "fg": 4642
+        },
+				        {
+          "id": "overlay_worn_armguard_acidchitin",
+          "fg": 4643,
+          "rotates": false
+        },		
+		{
+          "id": "armor_acidchitin",
+          "fg": 4644
+        },
+		{
+          "id": "overlay_worn_armor_acidchitin",
+          "fg": 4645,
+          "rotates": false
+        },		
+		{
+          "id": "pie_maple",
+          "fg": 4646,
+          "rotates": false
+        },		
+		{
+          "id": "pie_human",
+          "fg": 4647,
+          "rotates": false
+        },					
+		{
+          "id": "detergent",
+          "fg": 4648,
+          "bg": 957,
+          "rotates": false
+        },		
+		{
+          "id": "boots_acidchitin",
+          "fg": 4649
+        },		
+		{
+          "id": "overlay_worn_boots_acidchitin",
+          "fg": 4650,
+          "rotates": false
+        },		
+		{
+          "id": "gauntlets_acidchitin",
+          "fg": 4651
+        },		
+		{
+          "id": "overlay_worn_gauntlets_acidchitin",
+          "fg": 4652,
+          "rotates": false
+        },
+				{
+          "id": ["taco", "tiotaco"],
+          "fg": 4653
+        },
+				{
+          "id": "kilt_leather",
+          "fg": 4654
+        },		
+		{
+          "id": "overlay_worn_kilt_leather",
+          "fg": 4655,
+          "rotates": false
+        },				
+		{
+          "id": "flotation_vest_ms",
+          "fg": 4656
+        },		
+		{
+          "id": "overlay_worn_flotation_vest_ms",
+          "fg": 4657,
+          "rotates": false
+        },		
+		{
+          "id": "helmet_acidchitin",
+          "fg": 4658
+        },		
+		{
+          "id": "overlay_worn_helmet_acidchitin",
+          "fg": 4659,
+          "rotates": false
+        },
+		        {
+          "id": "mushroom_morel",
+          "fg": 4660
+        },		        
+		{
+          "id": "morel_cooked",
+          "fg": 4661
+        },
+				{
+          "id": "morel_fried",
+          "fg": 4662
+        },				
+		{
+          "id": "napalm",
+          "fg": 4663
+        },
+				{
+          "id": "acidchitin_piece",
+          "fg": 4664
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
-        },				
+        },	
+        {
+          "id": "pseuso_bio_picklock",
+          "fg": 0,
+          "rotates": false
+        },		
 		{
           "id": "bomblet_archvile",
           "fg": 2916,
@@ -32217,6 +32430,10 @@
         },
         {
           "id": "pistol_scope",
+          "fg": 2242
+        },
+		        {
+          "id": "tele_sight_pistol",
           "fg": 2242
         },
         {
@@ -39344,7 +39561,7 @@
           "fg": 3966
         },
         {
-          "id": "folding_basket",
+          "id": ["folding_basket", "bike_basket"],
           "fg": 3966
         },
         {
@@ -45539,7 +45756,8 @@
           "fg": [
 		    { "weight":1, "sprite":4612},
 			{ "weight":1, "sprite":11764},
-			{ "weight":1, "sprite":11765}
+			{ "weight":1, "sprite":11765},
+			{ "weight":1, "sprite":11766}
             ],
 			"bg": 967,
           "rotates": false
@@ -45548,7 +45766,9 @@
           "id": "mon_bandit_rifle",
           "fg": [
 		    { "weight":1, "sprite":4613},
-			{ "weight":1, "sprite":11780}
+			{ "weight":1, "sprite":11780},			
+			{ "weight":1, "sprite":11781},
+			{ "weight":1, "sprite":11782}
             ],
 			"bg": 967,
           "rotates": false
