@@ -164,6 +164,18 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "reloaded_357",
+          "fg": 18,
+          "bg": 957,
+          "rotates": false
+        },			
+		{
+          "id": "reloaded_357_P",
+          "fg": 18,
+          "bg": 957,
+          "rotates": false
+        },
 				{
           "id": "357sig_fmj",
           "fg": 18,
@@ -1553,6 +1565,18 @@
           "fg": 9,
           "bg": 957,
           "rotates": false
+        },		
+		{
+          "id": "shot_410_flechette",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
+        },		
+		{
+          "id": "shot_410_flechette_reloaded",
+          "fg": 9,
+          "bg": 957,
+          "rotates": false
         },
 				{
           "id": "shot_410_slug_reloaded",
@@ -1632,6 +1656,12 @@
           "bg": 957,
           "rotates": false
         },
+				{
+          "id": "shot_410_inc_reloaded",
+          "fg": 10,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "RPG-7_ammo",
           "fg": 213,
@@ -1660,7 +1690,7 @@
           "bg": 957
         },
         {
-          "id": "shaft_metal",
+          "id": ["shaft_metal", "auto_case"],
           "fg": 218,
           "rotates": false
         },
@@ -1716,6 +1746,12 @@
         },
         {
           "id": "shot_beanbag",
+          "fg": 224,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "reloaded_shot_beanbag",
           "fg": 224,
           "bg": 957,
           "rotates": false
@@ -3648,6 +3684,10 @@
         },
         {
           "id": "leather_pouch",
+          "fg": 481
+        },
+		{
+          "id": "flintlock_pouch",
           "fg": 481
         },
         {
@@ -9912,7 +9952,7 @@
         },
         {
           "id": "retool_46",
-          "fg": 2253,
+          "fg": 2252,
           "bg": 957,
           "rotates": false
         },
@@ -10049,7 +10089,7 @@
           "rotates": false
         },
         {
-          "id": "saiga_12",
+          "id": ["saiga_12", "saiga_410"],
           "fg": 2190,
           "bg": 957,
           "rotates": false
@@ -10286,7 +10326,7 @@
           "rotates": false
         },
         {
-          "id": "spear_wood",
+          "id": ["spear_wood", "harpoon"],
           "fg": 1933,
           "bg": 957,
           "rotates": false
@@ -11186,6 +11226,11 @@
           "fg": 2251,
           "bg": 957
         },
+		        {
+          "id": "retool_410",
+          "fg": 2253,
+          "bg": 957
+        },
         {
           "id": "retool_654",
           "fg": 2251,
@@ -11395,7 +11440,7 @@
           "rotates": false
         },
         {
-          "id": "deagle_44",
+          "id": ["deagle_44", "e1776"],
           "fg": 2005,
           "bg": 957,
           "rotates": false
@@ -13368,7 +13413,7 @@
           "rotates": false
         },
         {
-          "id": "hobo_stove",
+          "id": ["hobo_stove", "can_forge"],
           "fg": 3569,
           "bg": 957,
           "rotates": false
@@ -17818,7 +17863,7 @@
           ]
         },
         {
-          "id": "fd_laser",
+          "id": ["fd_laser", "hell_laser", "hell_laser_queen"],
           "bg": 978
         },
         {
@@ -22451,7 +22496,7 @@
           "rotates": false
         },
         {
-          "id": "bandages",
+          "id": ["bandages", "bandages_survivor"],
           "fg": 1086,
           "rotates": false
         },
@@ -23724,7 +23769,7 @@
           "fg": 1254
         },
         {
-          "id": "cotton_ball",
+          "id": ["cotton_ball", "disincotton_ball"],
           "fg": 1255
         },
         {
@@ -25036,6 +25081,10 @@
           "id": "overlay_worn_leather_pouch",
           "fg": 1429,
           "rotates": false
+        },
+				{
+          "id": "overlay_worn_flintlock_pouch",
+          "fg": 1429
         },
         {
           "id": "overlay_worn_stomach_sealed",
@@ -27650,6 +27699,11 @@
           "fg": 1889,
           "rotates": false
         },
+		{
+          "id": "molded_pot",
+          "fg": 1889,
+          "rotates": false
+        },
         {
           "id": "clay_pot",
           "fg": 1890
@@ -27969,7 +28023,7 @@
           "bg": 4304
         },
 		{
-          "id": "flaming_ball",
+          "id": ["flaming_ball", "hell_napalm"],
           "bg": 4305
         },
 		{
@@ -28714,6 +28768,11 @@
           "rotates": false
         },
 				{
+          "id": "howitzer_gun",
+          "fg": 4413,
+          "rotates": false
+        },					
+		{
           "id": "tank_gun_auto",
           "fg": 4413,
           "rotates": false
@@ -28993,6 +29052,16 @@
           "fg": 4449,
           "rotates": false
         },							
+		{
+          "id": "hell_launcher",
+          "fg": 4449,
+          "rotates": false
+        },							
+		{
+          "id": "hell_laser_gun",
+          "fg": 4449,
+          "rotates": false
+        },						
 		{
           "id": "testflames",
           "fg": 4449,
@@ -29373,6 +29442,16 @@
         },				
 		{
           "id": "overlay_wielded_vortexcannon",
+          "fg": 4506,
+          "rotates": false
+        },		
+		{
+          "id": ["vortexaccelerator", "vortexbolter"],
+          "fg": 4505,
+          "rotates": false
+        },				
+		{
+          "id": ["overlay_wielded_vortexaccelerator", "overlay_wielded_vortexbolter"],
           "fg": 4506,
           "rotates": false
         },
@@ -30246,8 +30325,293 @@
           "id": "pictionary",
           "fg": 4693,
           "rotates": false
+        },		
+		{
+          "id": "trident_copper",
+          "fg": 4694,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_trident_copper",
+          "fg": 4695,
+          "rotates": false
         },
-		
+				{
+          "id": "gelrazor",
+          "fg": 4696,
+          "rotates": false
+        },				
+		{
+          "id": "overlay_wielded_gelrazor",
+          "fg": 4697,
+          "rotates": false
+        },		
+		{
+          "id": ["cutter", "ripper"],
+          "fg": 4698,
+          "rotates": false
+        },		
+		{
+          "id": ["overlay_wielded_cutter", "overlay_wielded_ripper"],
+          "fg": 4699,
+          "rotates": false
+        },		
+		{
+          "id": "meteoric_talisman",
+          "fg": 4700,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_meteoric_talisman",
+          "fg": 4701,
+          "rotates": false
+        },
+		{
+          "id": "diamondlance",
+          "fg": 4702,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_diamondlance",
+          "fg": 4703,
+          "rotates": false
+        },		
+		{
+          "id": "molded_axe",
+          "fg": 4704,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_molded_axe",
+          "fg": 4705,
+          "rotates": false
+        },
+		{
+          "id": ["hair_dye", "hair_dye_bald", "hair_dye_blonde", "hair_dye_brown", "hair_dye_red", "hair_dye_black", "hair_dye_white", "hair_dye_pink", "hair_dye_white", "hair_dye_red"],
+          "fg": 4706,
+          "rotates": false
+        },		
+		{
+          "id": "jade_wreath",
+          "fg": 4707,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_jade_wreath",
+          "fg": 4708,
+          "rotates": false
+        },		
+		{
+          "id": "lasgun",
+          "fg": 4709,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_lasgun",
+          "fg": 4710,
+          "rotates": false
+        },		
+		{
+          "id": "e1776",
+          "fg": 4711,
+          "rotates": false
+        },		
+		{
+          "id": "scorpion",
+          "fg": 4712,
+          "rotates": false
+        },		
+		{
+          "id": "boom_flamer",
+          "fg": 4713,
+          "rotates": false
+        },
+		{
+          "id": "satchel_eternity",
+          "fg": 4714,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_satchel_eternity",
+          "fg": 4715,
+          "rotates": false
+        },		
+		{
+          "id": "solar_crude_firestarter",
+          "fg": 4716,
+          "rotates": false
+        },		
+		{
+          "id": "monopoly",
+          "fg": 4717,
+          "rotates": false
+        },		
+		{
+          "id": "bio_laser_minigun",
+          "fg": 4718,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bio_laser_minigun",
+          "fg": 4719,
+          "rotates": false
+        },		
+		{
+          "id": "disinrag",
+          "fg": 4720,
+          "rotates": false
+        },   		
+		{
+          "id": "lighting_hidden",
+          "fg": 4721,
+          "rotates": false
+        },     
+        {
+          "id": "lighting_boomered_dark",
+          "fg": 2960,
+          "rotates": false
+        },
+		        {
+          "id": "lighting_boomered_dark",
+          "fg": 2960,
+          "rotates": false
+        },
+        {
+          "id": "lighting_boomered_light",
+          "fg": 2961,
+          "rotates": false
+        },
+        {
+          "id": "!lighting_lowlight_dark",
+          "fg": 2962,
+          "rotates": false
+        },
+        {
+          "id": "lighting_lowlight_light",
+          "fg": 2963,
+          "rotates": false
+        },
+        {
+          "id": "lighting_boomered_light",
+           "fg": [
+            { "weight":9, "sprite":4721},
+            { "weight":2, "sprite":4722},
+			{ "weight":2, "sprite":4723},            
+			{ "weight":3, "sprite":4724},
+            { "weight":2, "sprite":4725},
+			{ "weight":3, "sprite":4726},            
+			{ "weight":2, "sprite":4727},
+            { "weight":3, "sprite":4728},
+			{ "weight":3, "sprite":4729},
+			{ "weight":3, "sprite":4730},
+            { "weight":3, "sprite":4731},
+			{ "weight":2, "sprite":4732},            
+			{ "weight":1, "sprite":4733},
+            { "weight":3, "sprite":4734},
+			{ "weight":3, "sprite":4735}
+            ],
+          "rotates": false
+        },
+        {
+          "id": "lighting_lowlight_dark",
+           "fg": [
+            { "weight":9, "sprite":4721},
+            { "weight":2, "sprite":4722},
+			{ "weight":2, "sprite":4723},            
+			{ "weight":3, "sprite":4724},
+            { "weight":2, "sprite":4725},
+			{ "weight":3, "sprite":4726},            
+			{ "weight":2, "sprite":4727},
+            { "weight":3, "sprite":4728},
+			{ "weight":3, "sprite":4729},
+			{ "weight":3, "sprite":4730},
+            { "weight":3, "sprite":4731},
+			{ "weight":2, "sprite":4732},            
+			{ "weight":1, "sprite":4733},
+            { "weight":3, "sprite":4734},
+			{ "weight":3, "sprite":4735}
+            ],
+          "rotates": false
+        },
+        {
+          "id": "lighting_lowlight_light",
+          "fg": 2963,
+          "rotates": false
+        },        
+		{
+          "id": "lighting_hidden",
+          "fg": [
+            { "weight":9, "sprite":4721},
+            { "weight":2, "sprite":4722},
+			{ "weight":2, "sprite":4723},            
+			{ "weight":3, "sprite":4724},
+            { "weight":2, "sprite":4725},
+			{ "weight":3, "sprite":4726},            
+			{ "weight":2, "sprite":4727},
+            { "weight":3, "sprite":4728},
+			{ "weight":3, "sprite":4729},
+			{ "weight":3, "sprite":4730},
+            { "weight":3, "sprite":4731},
+			{ "weight":2, "sprite":4732},            
+			{ "weight":1, "sprite":4733},
+            { "weight":3, "sprite":4734},
+			{ "weight":3, "sprite":4735}
+            ],
+          "bg": 0,
+          "rotates": true,
+          "multitile": false
+        },		        
+		{
+          "id": "f_autodoc_couch",
+          "fg": 4736,
+          "rotates": true
+        }, 
+		        {
+          "id": "f_autodoc",
+          "fg": 4737,
+          "rotates": false
+        },
+		{
+          "id": "beam_scatterer",
+          "fg": 4738,
+          "rotates": false
+        }, 		
+		{
+          "id": ["chime_scrap", "chime_scrap_act"],
+          "fg": 4739,
+          "rotates": false
+        },		
+		{
+          "id": "survbowpack",
+          "fg": 4740,
+          "rotates": false
+        },		
+		{
+          "id": "pallet_lifter",
+          "fg": 4741,
+          "rotates": false
+        },
+				        {
+          "id": "surv_sniper",
+          "fg": 4742
+        },
+				        {
+          "id": "overlay_wielded_surv_sniper",
+          "fg": 4743,
+          "rotates": false
+        },				        {
+          "id": "staff_druidic",
+          "fg": 4744
+        },
+				        {
+          "id": "overlay_wielded_staff_druidic",
+          "fg": 4745,
+          "rotates": false
+        },
+		{
+          "id": "orb_veil",
+          "fg": 4746
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -30864,7 +31228,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_deagle_44",
+          "id": ["overlay_wielded_deagle_44", "overlay_wielded_e1776"],
           "fg": 2079,
           "rotates": false
         },
@@ -31453,7 +31817,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_saiga_12",
+          "id": ["overlay_wielded_saiga_12", "overlay_wielded_saiga_410"],
           "fg": 2107,
           "rotates": false
         },
@@ -32591,6 +32955,10 @@
           "id": "tele_sight_pistol",
           "fg": 2242
         },
+		{
+          "id": "tele_sight",
+          "fg": 2242
+        },
         {
           "id": "red_dot_sight",
           "fg": 2243
@@ -32600,13 +32968,13 @@
           "fg": 2243
         },
         {
-          "id": "rail_laser_sight",
+          "id": ["rail_laser_sight", "surv_laser_sight"],
           "fg": 2244
         },
         {
           "id": "lwfeed",
           "fg": 2245
-        },
+        },		
 		{
           "id": "surv_762_mag",
           "fg": 2245
@@ -32728,6 +33096,10 @@
         },
 		{
           "id": "surv_belt_308",
+          "fg": 2264
+        },
+				{
+          "id": "surv_belt_762",
           "fg": 2264
         },
         {
@@ -32872,6 +33244,10 @@
           "id": "survivor9mm_mag",
           "fg": 2268,
           "rotates": false
+        },
+		{
+          "id": "surv_9mm_mag",
+          "fg": 2268
         },
         {
           "id": "lw12mag",
@@ -35625,26 +36001,6 @@
           "rotates": false
         },
         {
-          "id": "lighting_boomered_dark",
-          "fg": 2960,
-          "rotates": false
-        },
-        {
-          "id": "lighting_boomered_light",
-          "fg": 2961,
-          "rotates": false
-        },
-        {
-          "id": "lighting_lowlight_dark",
-          "fg": 2962,
-          "rotates": false
-        },
-        {
-          "id": "lighting_lowlight_light",
-          "fg": 2963,
-          "rotates": false
-        },
-        {
           "id": "blob_pit",
           "fg": 2967,
           "bg": 3150
@@ -37430,7 +37786,7 @@
           "bg": 3568
         },
         {
-          "id": "hobo_stove_on",
+          "id": ["hobo_stove_on", "can_forge_on"],
           "fg": 3569
         },
         {
@@ -43297,7 +43653,7 @@
           ]
         },
 		{
-          "id": "solar_array",
+          "id": ["solar_array", "solar_array2"],
           "fg": 4125,
           "rotates": true,
           "multitile": true,
