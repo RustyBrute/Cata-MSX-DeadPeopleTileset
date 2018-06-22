@@ -9133,7 +9133,7 @@
           "rotates": false
         },
         {
-          "id": "laser_rifle",
+          "id": ["laser_rifle", "arc_laser_rifle", "laser_sniper"],
           "fg": 2039,
           "bg": 957,
           "rotates": false
@@ -9876,6 +9876,24 @@
         },
 		{
           "id": "fr_223",
+          "fg": 2250,
+          "bg": 957,
+          "rotates": false
+        },		
+		{
+          "id": "fr_12",
+          "fg": 2250,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "fr_308",
+          "fg": 2250,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "fr_22",
           "fg": 2250,
           "bg": 957,
           "rotates": false
@@ -17280,7 +17298,7 @@
           "rotates": false
         },
         {
-          "id": "t_null",
+          "id": ["t_null", "t_sliding_wall_o"],
           "fg": 972,
           "rotates": false
         },
@@ -18001,7 +18019,7 @@
           "rotates": false
         },
         {
-          "id": "weather_snowflake",
+          "id": "weather_snowflake_season_winter",
           "bg": 984,
           "rotates": false
         },
@@ -18483,7 +18501,7 @@
           "rotates": false
         },
         {
-          "id": "t_brick_wall",
+          "id": ["t_brick_wall", "t_secretdoor_brick_wall_c", "t_sliding_brick_wall_c"],
           "fg": 2972,
           "bg": 986,
           "multitile": true,
@@ -19064,7 +19082,7 @@
           "bg": 992
         },
         {
-          "id": "t_pit_shallow_season_winter",
+          "id": ["t_pit_shallow_season_winter", "t_pit_foxhole_season_winter"],
           "fg": 3158,
           "bg": 992
         },
@@ -19224,7 +19242,7 @@
           "bg": 992
         },
         {
-          "id": "t_fence_wire_season_winter",
+          "id": ["t_fence_wire_season_winter", "t_improvised_fence_season_winter"],
           "fg": 3053,
           "bg": 992
         },
@@ -19414,7 +19432,7 @@
           "rotates": false
         },
         {
-          "id": "t_concrete_wall",
+          "id": ["t_concrete_wall", "t_secretdoor_concrete_wall_c", "t_sliding_concrete_wall_c"],
           "fg": 2999,
           "bg": 993,
           "rotates": false,
@@ -19483,7 +19501,7 @@
           "rotates": false
         },
         {
-          "id": "t_gates_mech_control",
+          "id": ["t_gates_mech_control", "t_outs_bridge_control", "t_ins_bridge_control"],
           "fg": 3071,
           "bg": 993,
           "rotates": false
@@ -19998,7 +20016,7 @@
           "bg": 993
         },
         {
-          "id": "t_machinery_light",
+          "id": ["t_machinery_light", "t_milking_machine"],
           "fg": 3114,
           "bg": 993,
           "rotates": false
@@ -20469,7 +20487,7 @@
           ]
         },
         {
-          "id": "vp_floodlight",
+          "id": ["vp_floodlight", "vp_xfloodlight"],
           "fg": 4021,
           "bg": 1005,
           "rotates": true,
@@ -20662,7 +20680,7 @@
           "rotates": true
         },
         {
-          "id": "vp_watercannon",
+          "id": ["vp_watercannon", "vp_awatercannon"],
           "fg": 1007,
           "rotates": true,
           "multitile": true,
@@ -20930,7 +20948,7 @@
           "rotates": false
         },
         {
-          "id": "t_fence_wire",
+          "id": ["t_fence_wire", "t_improvised_fence"],
           "fg": 3053,
           "bg": 1012,
           "rotates": false
@@ -21032,7 +21050,7 @@
           "rotates": false
         },
         {
-          "id": "t_pit_shallow",
+          "id": ["t_pit_shallow", "t_pit_foxhole"],
           "fg": 3157,
           "bg": 1012,
           "rotates": false
@@ -21134,7 +21152,7 @@
           "rotates": false
         },
         {
-          "id": "t_wall",
+          "id": ["t_wall", "t_secretdoor_onetime", "t_secretdoor_wall_c", "t_sliding_wall_c"],
           "fg": 3324,
           "bg": 1012,
           "rotates": false,
@@ -22610,7 +22628,7 @@
           "rotates": false
         },		        
         {
-          "id": "disinfectant",
+          "id": ["disinfectant", "disinfectant_survivor"],
           "fg": 1094,
           "rotates": false
         },
@@ -25241,7 +25259,7 @@
           "rotates": false
         },
         {
-          "id": "f_bookcase",
+          "id": ["f_bookcase", "t_secretdoor_bookcase_c", "t_sliding_bookcase_c", "t_decoy_bookcase", "t_sliding_bookcase_control", "t_sliding_wall_control"],
           "fg": 1464,
           "rotates": false
         },
@@ -25423,7 +25441,7 @@
           "id": "f_dumpster",
           "fg": 1499,
           "rotates": false,
-          "multitile": true,
+          "multitile": false,
           "additional_tiles": [
             {
               "id": "unconnected",
@@ -25936,7 +25954,7 @@
           "rotates": false
         },
         {
-          "id": "f_statue",
+          "id": ["f_statue", "t_sliding_brick_wall_control"],
           "fg": 1583,
           "rotates": false
         },
@@ -27986,8 +28004,16 @@
           "id": "surv_full_22",
           "fg": 2203
         },
+				{
+          "id": "surv_full_12",
+          "fg": 2203
+        },
 		{
           "id": "overlay_wielded_surv_full_22",
+          "fg": 2123
+        },
+				{
+          "id": "overlay_wielded_surv_full_12",
           "fg": 2123
         },
 		{
@@ -28012,6 +28038,14 @@
         },
 				{
           "id": "surv_22_mag",
+          "fg": 2245
+        },		
+		{
+          "id": "surv_308_mag",
+          "fg": 2245
+        },
+				{
+          "id": "surv_223_mag",
           "fg": 2245
         },
 		{
@@ -28776,7 +28810,12 @@
           "id": "tank_gun_auto",
           "fg": 4413,
           "rotates": false
-        },				
+        },
+		{
+          "id": "tank_gun_rws",
+          "fg": 4413,
+          "rotates": false
+        },		
 		{
           "id": "bomblet_launcher_chickenbot",
           "fg": 4413,
@@ -29212,7 +29251,7 @@
           "rotates": false
         },				
 		{
-          "id": "triffid_sap",
+          "id": ["triffid_sap", "resin_pine"],
           "fg": 4467,
           "rotates": false
         },
@@ -29372,7 +29411,7 @@
           "rotates": false
         },				
 		{
-          "id": "molotov_micro_lit",
+          "id": "molotov_micro_act",
           "fg": 4495,
           "rotates": false
         },		
@@ -30387,7 +30426,7 @@
           "rotates": false
         },
 		{
-          "id": ["hair_dye", "hair_dye_bald", "hair_dye_blonde", "hair_dye_brown", "hair_dye_red", "hair_dye_black", "hair_dye_white", "hair_dye_pink", "hair_dye_white", "hair_dye_red"],
+          "id": ["hair_dye", "hair_dye_bald", "hair_dye_blonde", "hair_dye_brown", "hair_dye_red", "hair_dye_black", "hair_dye_white", "hair_dye_pink", "hair_dye_white", "hair_dye_red", "hair_dye_gray"],
           "fg": 4706,
           "rotates": false
         },		
@@ -30402,12 +30441,12 @@
           "rotates": false
         },		
 		{
-          "id": "lasgun",
+          "id": ["lasgun", "lasgunp"],
           "fg": 4709,
           "rotates": false
         },		
 		{
-          "id": "overlay_wielded_lasgun",
+          "id": ["overlay_wielded_lasgun", "overlay_wielded_lasgunp"],
           "fg": 4710,
           "rotates": false
         },		
@@ -30608,9 +30647,119 @@
           "fg": 4745,
           "rotates": false
         },
+
 		{
           "id": "orb_veil",
           "fg": 4746
+        },		
+		{
+          "id": "light_carb",
+          "fg": 4747
+        },
+				        {
+          "id": "overlay_wielded_light_carb",
+          "fg": 4748,
+          "rotates": false
+        },			
+		{
+          "id": "unbio_chain_lightning",
+          "fg": 4747
+        },
+				        {
+          "id": "overlay_wielded_unbio_chain_lightning",
+          "fg": 4748,
+          "rotates": false
+        },				       
+		{
+          "id": "royal_jelly_sap",
+          "fg": 4749,
+          "rotates": false
+        },		
+		{
+          "id": "g_warhammer",
+          "fg": 4750,
+          "rotates": false
+        },		
+		{
+          "id": "g_warhammer40k",
+          "fg": 4751,
+          "rotates": false
+        },		
+		{
+          "id": "dnd",
+          "fg": 4752,
+          "rotates": false
+        },		
+		{
+          "id": "catan",
+          "fg": 4753,
+          "rotates": false
+        },		{
+          "id": "chess",
+          "fg": 4754,
+          "rotates": false
+        },		
+		{
+          "id": "checkers",
+          "fg": 4755,
+          "rotates": false
+        },		{
+          "id": "4pronged_stick",
+          "fg": 4756,
+          "rotates": false
+        },		{
+          "id": "overlay_wielded_4pronged_stick",
+          "fg": 4757,
+          "rotates": false
+        },
+		{
+          "id": "longmace_stone",
+          "fg": 4758,
+          "rotates": false
+        },		{
+          "id": "overlay_wielded_longmace_stone",
+          "fg": 4759,
+          "rotates": false
+        },		
+		{
+          "id": "c_staff",
+          "fg": 4760,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_c_staff",
+          "fg": 4761,
+          "rotates": false
+        },		
+		{
+          "id": "molded_knife",
+          "fg": 4762,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_molded_knife",
+          "fg": 4763,
+          "rotates": false
+        },		
+		{
+          "id": "molded_saw",
+          "fg": 4764,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_molded_saw",
+          "fg": 4765,
+          "rotates": false
+        },
+				{
+          "id": "surcan",
+          "fg": 4766,
+          "rotates": false
+        },
+		{
+          "id": "weather_snowflake",
+          "bg": 4767,
+          "rotates": false
         },
 		{
           "id": "atlatl",
@@ -30887,6 +31036,14 @@
           "id": "l_lmg_223",
           "fg": 2035
         },
+		        {
+          "id": "surv_lmg_308",
+          "fg": 2035
+        },		        
+		{
+          "id": "surv_lmg_762",
+          "fg": 2035
+        },
         {
           "id": "huge_crossbow",
           "fg": 2036,
@@ -30949,7 +31106,7 @@
           "fg": 45
         },
 		{
-          "id": "bomblet_stun",
+          "id": ["bomblet_stun", "bomblet_stun_act"],
           "fg": 44
         },
 		{
@@ -31571,6 +31728,11 @@
           "fg": 2091,
           "rotates": false
         },
+		{
+          "id": "overlay_wielded_surv_full_223",
+          "fg": 2091,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_chemical_thrower",
           "fg": 2092,
@@ -31896,7 +32058,7 @@
           "fg": 2111
         },
         {
-          "id": "overlay_wielded_laser_rifle",
+          "id": ["overlay_wielded_laser_rifle", "overlay_wielded_arc_laser_rifle", "overlay_wielded_laser_sniper"],
           "fg": 2112,
           "rotates": false
         },
@@ -31962,6 +32124,16 @@
         },
         {
           "id": "overlay_wielded_l_lmg_223",
+          "fg": 2116,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_wielded_surv_lmg_308",
+          "fg": 2116,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_surv_lmg_762",
           "fg": 2116,
           "rotates": false
         },
@@ -32784,6 +32956,10 @@
         {
           "id": "surv_carbine_223",
           "fg": 2203
+        },        
+		{
+          "id": "surv_full_223",
+          "fg": 2203
         },
         {
           "id": "sparkie",
@@ -32887,7 +33063,7 @@
           "fg": 2228
         },
         {
-          "id": "adjustable_stock",
+          "id": ["adjustable_stock", "lmg_handle"],
           "fg": 2230,
           "rotates": false
         },
@@ -33100,6 +33276,10 @@
         },
 				{
           "id": "surv_belt_762",
+          "fg": 2264
+        },
+		{
+          "id": "surv_belt_223",
           "fg": 2264
         },
         {
@@ -33498,7 +33678,7 @@
           "rotates": false
         },
         {
-          "id": "mp5bigmag",
+          "id": ["mp5bigmag", "e1776mag"],
           "fg": 2278,
           "rotates": false
         },
@@ -36119,7 +36299,7 @@
           "fg": 3005
         },
         {
-          "id": "t_console_broken",
+          "id": ["t_console_broken", "t_sliding_concrete_wall_control"],
           "fg": 3006,
           "rotates": false
         },
@@ -36273,7 +36453,7 @@
           "rotates": false
         },
         {
-          "id": "f_standing_tank",
+          "id": ["f_standing_tank", "t_bulk_tank"],
           "fg": 3068
         },
 		{
@@ -36288,7 +36468,7 @@
           "rotates": false
         },
         {
-          "id": "t_gates_control_concrete",
+          "id": ["t_gates_control_concrete", "t_reinforced_glass_control", "t_containment_control"],
           "fg": 3070,
           "rotates": false
         },
@@ -36588,7 +36768,7 @@
           "rotates": false
         },
         {
-          "id": "t_rock",
+          "id": ["t_rock", "t_border_rock"],
           "fg": 3192,
           "rotates": false,
           "multitile": true,
@@ -36626,7 +36806,7 @@
           "rotates": false
         },
         {
-          "id": "t_switch_even",
+          "id": ["t_switch_even", "t_jaildoor_control"],
           "fg": 3277,
           "bg": 3192,
           "rotates": false
@@ -39943,6 +40123,11 @@
           "fg": 3960,
           "rotates": true
         },
+				{
+          "id": ["vp_cutter", "vp_cutternc", "vp_mcutter"],
+          "fg": 3960,
+          "rotates": true
+        },
         {
           "id": "vp_aisle_horizontal",
           "fg": 3961,
@@ -40033,12 +40218,7 @@
           "rotates": true
         },
 		{
-          "id": "vgen",
-          "fg": 3162,
-          "rotates": true
-        },
-        {
-          "id": "vgen2",
+          "id": ["vgen", "vgen2", "vp_vgen", "vp_vgen2"],
           "fg": 3162,
           "rotates": true
         },
