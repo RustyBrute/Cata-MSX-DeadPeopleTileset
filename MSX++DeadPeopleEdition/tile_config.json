@@ -30914,6 +30914,11 @@
           "rotates": false
         },	
 		{
+          "id": ["overlay_wielded_feces_manure", "overlay_wielded_feces_cow"],
+          "fg": 4798,
+          "rotates": false
+        },	
+		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
