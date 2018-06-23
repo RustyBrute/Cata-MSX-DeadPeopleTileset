@@ -30760,7 +30760,159 @@
           "id": "weather_snowflake",
           "bg": 4767,
           "rotates": false
+        },		
+		{
+          "id": "mon_grouse_chick",
+          "fg": 4768,
+          "rotates": false
+        },		
+		{
+          "id": "mon_crow_chick",
+          "fg": 4769,
+          "rotates": false
+        },	
+		{
+          "id": "mon_turkey_chick",
+          "fg": 4770,
+          "rotates": false
+        },			
+		{
+          "id": "mon_pheasant_chick",
+          "fg": 4771,
+          "rotates": false
+        },	
+		{
+          "id": "mon_cockatrice_chick",
+          "fg": 4772,
+          "rotates": false
         },
+				{
+          "id": "mon_duck_chick",
+          "fg": 4773,
+          "rotates": false
+        },				
+		{
+          "id": "mon_goose_canadian_chick",
+          "fg": 4774,
+          "rotates": false
+        },		
+		{
+          "id": "mon_bear_cub",
+          "fg": 4775,
+          "rotates": false
+        },		
+		{
+          "id": "mon_cockatrice",
+          "fg": 4776,
+          "rotates": false
+        },
+				{
+          "id": "mon_pheasant",
+          "fg": 4777,
+          "rotates": false
+        },				
+		{
+          "id": "mon_grouse",
+          "fg": 4778,
+          "rotates": false
+        },		
+		{
+          "id": "mon_goose_canadian",
+          "fg": 4779,
+          "rotates": false
+        },		
+		{
+          "id": "mon_biollante_sprout",
+          "fg": 4780,
+          "rotates": false
+        },		
+		{
+          "id": "mon_biollante_sprig",
+          "fg": 4781,
+          "rotates": false
+        },		
+		{
+          "id": "feces_manure",
+          "fg": 4782,
+          "rotates": false
+        },
+				{
+          "id": "feces_roach",
+          "fg": 4783,
+          "rotates": false
+        },
+				{
+          "id": "feces_bird",
+          "bg": 4784,
+          "rotates": false
+        },
+				{
+          "id": "feces_cow",
+          "fg": 4785,
+          "rotates": false
+        },
+						{
+          "id": "egg_chicken",
+          "fg": [
+            { "weight":1, "sprite":1182},
+            { "weight":1, "sprite":4786}
+            ],
+          "rotates": false
+        },				
+		{
+          "id": "egg_grouse",
+          "fg": 4787,
+          "rotates": false
+        },
+				{
+          "id": "egg_crow",
+          "fg": 4788,
+          "rotates": false
+        },
+						{
+          "id": "egg_duck",
+          "fg": 4789,
+          "rotates": false
+        },						
+		{
+          "id": "egg_goose_canadian",
+          "fg": 4790,
+          "rotates": false
+        },		
+		{
+          "id": "egg_turkey",
+          "fg": 4791,
+          "rotates": false
+        },		
+		{
+          "id": "egg_pheasant",
+          "fg": 4792,
+          "rotates": false
+        },		
+		{
+          "id": "egg_cockatrice",
+          "fg": 4793,
+          "rotates": false
+        },		
+		{
+          "id": ["egg_roach", "egg_roach_plague"],
+          "fg": 4794,
+          "rotates": false
+        },
+				{
+          "id": "egg_locust",
+          "fg": 4795,
+          "rotates": false
+        },					
+		{
+          "id": "mon_locust",
+          "fg": 4796,
+          "rotates": false
+        },					{
+          "id": "mon_locust_nymph",
+          "fg": 4797,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
