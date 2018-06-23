@@ -19105,12 +19105,6 @@
           "fg": 2970,
           "bg": 992
         },
-        {
-          "id": "t_underbrush_season_winter",
-          "fg": 3321,
-          "bg": 992,
-          "rotates": false
-        },
 		{
           "id": "t_tree_young",
           "fg": 4370,
@@ -19339,14 +19333,68 @@
           "rotates": false
         },
         {
-          "id": "t_underbrush_harvested_winter",
-          "fg": 3320,
+          "id": "t_tree_birch_season_winter",
+          "fg": 3290,
+          "bg": 992,
+          "rotates": false
+        },        
+		{
+          "id": "t_underbrush",
+          "fg": 3318,
+          "bg": 1012,
+          "rotates": false
+        },
+		{
+          "id": "t_underbrush_season_winter",
+          "fg": 3321,
           "bg": 992,
           "rotates": false
         },
         {
-          "id": "t_tree_birch_season_winter",
-          "fg": 3290,
+          "id": "t_underbrush_harvested_spring",
+          "fg": 3319,
+          "bg": 1012,
+          "rotates": false
+        },
+        {
+          "id": "t_underbrush_harvested_summer",
+          "fg": 3319,
+          "bg": 1012,
+          "rotates": false
+        },
+        {
+          "id": "t_underbrush_harvested_autumn",
+          "fg": 3319,
+          "bg": 1012,
+          "rotates": false
+        },        
+		{
+          "id": "t_underbrush_harvested_spring_season_winter",
+          "fg": 3319,
+          "bg": 992,
+          "rotates": false
+        },
+        {
+          "id": "t_underbrush_harvested_summer_season_winter",
+          "fg": 3319,
+          "bg": 992,
+          "rotates": false
+        },
+        {
+          "id": "t_underbrush_harvested_autumn_season_winter",
+          "fg": 3319,
+          "bg": 992,
+          "rotates": false
+        },
+		{
+          "id": "t_underbrush_harvested_winter",
+          "fg": 3319,
+          "bg": 1012,
+          "rotates": false
+        },
+				{
+          "id": "t_underbrush_harvested_winter_season_winter",
+          "fg": 3319,
           "bg": 992,
           "rotates": false
         },
@@ -21146,12 +21194,6 @@
           "rotates": false
         },
         {
-          "id": "t_underbrush_season_summer",
-          "fg": 3318,
-          "bg": 1012,
-          "rotates": false
-        },
-        {
           "id": ["t_wall", "t_secretdoor_onetime", "t_secretdoor_wall_c", "t_sliding_wall_c"],
           "fg": 3324,
           "bg": 1012,
@@ -21600,35 +21642,6 @@
         {
           "id": "t_tarptent",
           "fg": 3281,
-          "bg": 1012,
-          "rotates": false
-        },        {
-          "id": "t_underbrush_season_spring",
-          "fg": 4374,
-          "bg": 1012,
-          "rotates": false
-        },
-        {
-          "id": "t_underbrush_harvested_spring",
-          "fg": 4375,
-          "bg": 1012,
-          "rotates": false
-        },
-        {
-          "id": "t_underbrush_harvested_summer",
-          "fg": 3319,
-          "bg": 1012,
-          "rotates": false
-        },
-		        {
-          "id": "t_underbrush_season_autumn",
-          "fg": 4372,
-          "bg": 1012,
-          "rotates": false
-        },
-        {
-          "id": "t_underbrush_harvested_autumn",
-          "fg": 4373,
           "bg": 1012,
           "rotates": false
         },
