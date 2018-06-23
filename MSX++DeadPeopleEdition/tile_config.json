@@ -1072,7 +1072,7 @@
           "rotates": false
         },
         {
-          "id": "it_battery_mount",
+          "id": ["it_battery_mount", "vp_storage_battery_mount"],
           "fg": 139
         },
         {
@@ -7795,7 +7795,7 @@
           "rotates": false
         },
         {
-          "id": "wristwatch",
+          "id": ["wristwatch", "vp_vehicle_clock"],
           "fg": 955,
           "rotates": false
         },
@@ -8028,9 +8028,21 @@
           "fg": 1626,
           "bg": 957,
           "rotates": false
+        },		
+		{
+          "id": "vp_alternator_car",
+          "fg": 1626,
+          "bg": 957,
+          "rotates": true
         },
         {
           "id": "alternator_motorbike",
+          "fg": 1627,
+          "bg": 957,
+          "rotates": false
+        },        
+		{
+          "id": "vp_alternator_motorbike",
           "fg": 1627,
           "bg": 957,
           "rotates": false
@@ -8040,9 +8052,15 @@
           "fg": 1628,
           "bg": 957,
           "rotates": false
+        },        
+		{
+          "id": "vp_alternator_truck",
+          "fg": 1628,
+          "bg": 957,
+          "rotates": false
         },
         {
-          "id": "generator_7500w",
+          "id": ["generator_7500w", "vp_generator_7500w"],
           "fg": 1628,
           "bg": 957,
           "rotates": false
@@ -8993,6 +9011,24 @@
           "fg": 1437,
           "bg": 957,
           "rotates": false
+        },				
+		{
+          "id": "vp_foot_pedals",
+          "fg": 1742,
+          "bg": 957,
+          "rotates": true
+        },	
+		{
+          "id": "vp_engine_vtwin",
+          "fg": 1438,
+          "bg": 957,
+          "rotates": true
+        },	
+		{
+          "id": "vp_engine_inline4",
+          "fg": 1437,
+          "bg": 957,
+          "rotates": true
         },
         {
           "id": "i_staff",
@@ -9366,7 +9402,7 @@
           "rotates": false
         },
         {
-          "id": "metal_tank",
+          "id": ["metal_tank", "vp_harpoonrack", "vp_sballistarack", "vp_stonerack", "vp_tank", "vp_wballistarack"],
           "fg": 1420,
           "bg": 957,
           "rotates": false
@@ -9420,7 +9456,7 @@
           "rotates": false
         },
         {
-          "id": "minireactor",
+          "id": ["minireactor", "vp_minireactor"],
           "fg": 3623,
           "bg": 957,
           "rotates": false
@@ -9462,7 +9498,7 @@
           "rotates": false
         },
         {
-          "id": "muffler",
+          "id": ["muffler", "vp_muffler"],
           "fg": 1819,
           "bg": 957,
           "rotates": false
@@ -9737,7 +9773,7 @@
           "rotates": false
         },
         {
-          "id": "processor",
+          "id": ["processor", "vp_vehicle_alarm"],
           "fg": 1894,
           "bg": 957,
           "rotates": false
@@ -10279,7 +10315,7 @@
           "rotates": false
         },
         {
-          "id": "small_storage_battery",
+          "id": ["small_storage_battery", "vp_small_storage_battery"],
           "fg": 2276,
           "bg": 957,
           "rotates": false
@@ -10376,6 +10412,12 @@
         {
           "id": "still",
           "fg": 3765,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": ["storage_battery", "vp_storage_battery", "vp_storage_battery_removable"],
+          "fg": 2276,
           "bg": 957,
           "rotates": false
         },
@@ -10654,7 +10696,7 @@
           "rotates": false
         },
         {
-          "id": "usb_drive",
+          "id": ["usb_drive", "software","software_useless", "software_hacking", "software_medical", "software_math", "software_blood_data"],
           "fg": 1965,
           "bg": 957,
           "rotates": false
@@ -10708,7 +10750,7 @@
           "rotates": false
         },
         {
-          "id": "vehicle_controls",
+          "id": ["vehicle_controls", "vp_controls", "vp_drive_by_wire_controls"],
           "fg": 1966,
           "bg": 957,
           "rotates": false
@@ -10905,7 +10947,7 @@
           "rotates": false
         },
         {
-          "id": "stereo",
+          "id": ["stereo", "vp_stereo"],
           "fg": 1942,
           "bg": 957,
           "rotates": false
@@ -11510,6 +11552,12 @@
           "fg": 2276,
           "bg": 957,
           "rotates": false
+        },        
+		{
+          "id": "vp_battery_motorbike",
+          "fg": 2276,
+          "bg": 957,
+          "rotates": false
         },
         {
           "id": "battery_truck",
@@ -11697,7 +11745,7 @@
           "bg": 957
         },
         {
-          "id": "motor_small",
+          "id": ["motor_small", "vp_door_motor", "vp_engine_electric_small"],
           "fg": 1813,
           "bg": 957
         },
@@ -11846,7 +11894,7 @@
           "rotates": false
         },
         {
-          "id": "water_faucet",
+          "id": ["water_faucet", "vp_water_faucet"],
           "fg": 1972,
           "bg": 957,
           "rotates": false
@@ -12182,6 +12230,12 @@
           "fg": 1634,
           "bg": 957,
           "rotates": false
+        },		
+		{
+          "id": "vp_atomic_lamp",
+          "fg": 1634,
+          "bg": 957,
+          "rotates": true
         },
         {
           "id": "atomic_light_off",
@@ -12194,6 +12248,18 @@
           "fg": 1636,
           "bg": 957,
           "rotates": false
+        },				
+		{
+          "id": "vp_battery_car",
+          "fg": 2276,
+          "bg": 957,
+          "rotates": true
+        },
+		{
+          "id": "vp_atomic_light",
+          "fg": 1636,
+          "bg": 957,
+          "rotates": true
         },
         {
           "id": "tanning_hide",
@@ -12566,7 +12632,7 @@
           "rotates": false
         },
         {
-          "id": "metal_tank_little",
+          "id": ["metal_tank_little", "vp_tank_little"],
           "fg": 1421,
           "bg": 957
         },
@@ -12595,7 +12661,7 @@
           "rotates": false
         },
         {
-          "id": "wooden_barrel",
+          "id": ["wooden_barrel", "vp_tank_barrel"],
           "fg": 1433,
           "bg": 957,
           "rotates": false
@@ -12928,7 +12994,7 @@
           "rotates": false
         },
         {
-          "id": "jumper_cable",
+          "id": ["jumper_cable", "vp_jumper_cable", "vp_jumper_cable_debug", "vp_jumper_cable_heavy"],
           "fg": 3582,
           "bg": 957,
           "rotates": false
@@ -17132,7 +17198,7 @@
           "rotates": false
         },
         {
-          "id": "fd_acid",
+          "id": ["fd_acid", "chem_nitric_acid"],
           "fg": 2856,
           "rotates": false,
           "multitile": true,
@@ -18024,7 +18090,7 @@
           "rotates": false
         },
         {
-          "id": "motor_enhanced",
+          "id": ["motor_enhanced", "vp_engine_electric_enhanced", "motor_large", "vp_engine_electric_large", "vp_engine_electric"],
           "fg": 1812,
           "bg": 984
         },
@@ -20483,7 +20549,8 @@
             {
               "id": "broken",
               "fg": 3987,
-              "bg": 4134
+              "bg": 4134,
+			  "rotates": true
             }
           ]
         },
@@ -20497,7 +20564,8 @@
             {
               "id": "broken",
               "fg": 3987,
-              "bg": 4134
+              "bg": 4134,
+			  "rotates": true
             }
           ]
         },
@@ -20706,6 +20774,12 @@
         },
         {
           "id": "vp_crane_medium",
+          "fg": 3991,
+          "bg": 1006,
+          "rotates": false
+        },
+		        {
+          "id": "vp_crane_tiny",
           "fg": 3991,
           "bg": 1006,
           "rotates": false
@@ -24940,12 +25014,12 @@
           "fg": 1414
         },
         {
-          "id": "jerrycan",
+          "id": ["jerrycan", "vp_tank_small"],
           "fg": 1415,
           "rotates": false
         },
         {
-          "id": "jerrycan_big",
+          "id": ["jerrycan_big", "vp_tank_medium"],
           "fg": 1416,
           "rotates": false
         },
@@ -25145,6 +25219,11 @@
         {
           "id": "i6_diesel",
           "fg": 1439
+        },		
+		{
+          "id": ["vp_diesel_engine_i6", "vp_diesel_engine_v6", "vp_engine_v6"],
+          "fg": 1439,
+          "rotates": true
         },
         {
           "id": "v6_diesel",
@@ -25153,6 +25232,23 @@
         {
           "id": "v8_diesel",
           "fg": 1440
+        },		
+		{
+          "id": ["vp_diesel_engine_v12", "vp_engine_v12", "vp_engine_v8", "vp_diesel_engine_v8"],
+          "fg": 1440,
+          "rotates": true
+        },
+				{
+          "id": "vp_engine_1cyl",
+          "fg": 1435,
+          "bg": 957,
+          "rotates": true
+        },		
+		{
+          "id": "vp_engine_1cyl_small",
+          "fg": 1436,
+          "bg": 957,
+          "rotates": true
         },
         {
           "id": "v12_combustion",
@@ -25514,6 +25610,11 @@
         },
         {
           "id": "f_fema_groundsheet",
+          "fg": 1510,
+          "rotates": false
+        },		
+		{
+          "id": "vp_roof_cloth",
           "fg": 1510,
           "rotates": false
         },
@@ -26755,7 +26856,7 @@
           "rotates": false
         },
         {
-          "id": "car_headlight",
+          "id": ["car_headlight", "vp_headlight", "vp_headlight_reinforced"],
           "fg": 1739
         },
         {
@@ -26822,7 +26923,7 @@
           "rotates": false
         },
         {
-          "id": "hand_rims",
+          "id": ["hand_rims", "vp_hand_rims"],
           "fg": 1760
         },
         {
@@ -27003,7 +27104,7 @@
           "rotates": false
         },
         {
-          "id": "mirror",
+          "id": ["mirror", "vp_inboard_mirror"],
           "fg": 1806,
           "rotates": false
         },
@@ -27880,6 +27981,10 @@
         },
         {
           "id": "beeper",
+          "fg": 1965
+        },        
+		{
+          "id": "vp_beeper",
           "fg": 1965
         },
         {
@@ -30097,7 +30202,7 @@
           "rotates": false
         },				        
 		{
-          "id": "cargo_lock",
+          "id": ["cargo_lock", "vp_cargo_lock"],
           "fg": 4635,
           "rotates": false
         },
@@ -30107,7 +30212,7 @@
           "rotates": false
         },		
 		{
-          "id": "vehicle_dashboard",
+          "id": ["vp_dashboard", "vehicle_dashboard", "vp_controls_electronic"],
           "fg": 4637,
           "rotates": false
         },
@@ -30932,12 +31037,176 @@
           "rotates": false
         },	
 		{
+          "id": "egg_fish",
+          "fg": 4799,
+          "rotates": false
+        },
+		{
+          "id": "glass_tinted",
+          "fg": 4800,
+          "rotates": false
+        },			
+		{
+          "id": "fd_bees",
+          "fg": 4801,
+          "rotates": false
+        },	        
+		{
+          "id": "vp_hdstowboard_horizontal",
+          "fg": 4802,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4802
+            }
+          ]
+        },	        {
+          "id": "vp_hdstowboard_vertical",
+          "fg": 4803,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4803
+            }
+          ]
+        },
+        {
+          "id": "vp_hdstowboard_ne",
+          "fg": 4804,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4804
+            }
+          ]
+        },
+        {
+          "id": "vp_hdstowboard_nw",
+          "fg": 4805,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4805
+            }
+          ]
+        },
+        {
+          "id": "vp_hdstowboard_se",
+          "fg": 4806,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4806
+            }
+          ]
+        },
+        {
+          "id": "vp_hdstowboard_sw",
+          "fg": 4807,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4807
+            }
+          ]
+        },	        
+		{
+          "id": "vp_stowboard_ne",
+          "fg": 4808,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4808
+            }
+          ]
+        },
+        {
+          "id": "vp_stowboard_nw",
+          "fg": 4809,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4809
+            }
+          ]
+        },
+        {
+          "id": "vp_stowboard_se",
+          "fg": 4810,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4810
+            }
+          ]
+        },
+        {
+          "id": "vp_stowboard_sw",
+          "fg": 4811,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4811
+            }
+          ]
+        },		
+		{
+          "id": ["vp_seatbelt", "overlay_worn_seatbelt", "overlay_worn_vp_seatbelt", "overlay_wielded_seatbelt", "overlay_wielded_vp_seatbelt", "vp_seatbelt_heavyduty", "vp_gloople_belt", "vp_gray_belt", "vp_oozle_belt"],
+          "fg": 4812,
+          "rotates": true
+        },		
+		{
+          "id": "mon_cow_calf",
+          "fg": 4813,
+          "rotates": false
+        },			
+		{
+          "id": "mon_pig_piglet",
+          "fg": 4814,
+          "rotates": false
+        },			
+		{
+          "id": "mon_sheep_lamb",
+          "fg": 4815,
+          "rotates": false
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
         },	
         {
-          "id": "pseuso_bio_picklock",
+          "id": ["pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate"],
           "fg": 0,
           "rotates": false
         },		
@@ -33812,7 +34081,7 @@
           "rotates": true
         },
         {
-          "id": "medium_storage_battery",
+          "id": ["medium_storage_battery", "vp_medium_storage_battery"],
           "fg": 2276
         },
         {
@@ -36459,6 +36728,11 @@
           "fg": 3005,
           "rotates": false
         },
+				{
+          "id": "vp_cam_control",
+          "fg": 3005,
+          "rotates": true
+        },
         {
           "id": "t_elevator_control",
           "fg": 3005,
@@ -36491,6 +36765,11 @@
           "id": "t_curtains",
           "fg": 3012,
           "rotates": false
+        },		
+		{
+          "id": ["vp_aisle_curtain", "vp_v_curtain"],
+          "fg": 3012,
+          "rotates": true
         },
         {
           "id": "t_dock",
@@ -37917,7 +38196,7 @@
           "rotates": false
         },
         {
-          "id": "veh_tracker",
+          "id": ["veh_tracker", "vp_tracker"],
           "fg": 3483,
           "rotates": false
         },
@@ -38144,7 +38423,7 @@
           "fg": 3569
         },
         {
-          "id": "horn_bicycle",
+          "id": ["horn_bicycle", "vp_horn_bicycle", "vp_horn_big", "vp_horn_car"],
           "fg": 3571,
           "rotates": false
         },
@@ -39479,7 +39758,7 @@
           "fg": 3787
         },
         {
-          "id": "c4",
+          "id": ["c4", "oxyacetylene"],
           "fg": 3793
         },
         {
@@ -44582,7 +44861,7 @@
           "rotates": false
         },
 		{
-          "id": "mon_deer_small",
+          "id": ["mon_deer_small", "mon_deer_fawn"],
           "fg": 4218,
           "rotates": false
         },
