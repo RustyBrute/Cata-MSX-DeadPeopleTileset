@@ -30726,7 +30726,7 @@
 		        {
           "id": "f_autodoc",
           "fg": 4737,
-          "rotates": false
+          "rotates": true
         },
 		{
           "id": "beam_scatterer",
@@ -31198,6 +31198,11 @@
 		{
           "id": "mon_sheep_lamb",
           "fg": 4815,
+          "rotates": false
+        },		
+		{
+          "id": "anesthesia",
+          "fg": 4816,
           "rotates": false
         },
 		{
