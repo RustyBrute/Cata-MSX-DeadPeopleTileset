@@ -19071,7 +19071,7 @@
           "additional_tiles": [
             {
               "id": "center",
-              "fg": 3412
+              "fg": 3416
             },
             {
               "id": "corner",
@@ -21470,7 +21470,7 @@
             },
             {
               "id": "t_connection",
-              "fg": 3416
+              "fg": 3412
             },
             {
               "id": "unconnected",
