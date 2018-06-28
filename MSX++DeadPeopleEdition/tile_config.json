@@ -18514,6 +18514,45 @@
             }
           ]
         },
+		        {
+          "id": "t_chainfence",
+          "fg": 2987,
+          "bg": 985,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "corner",
+              "fg": 2988,
+              "bg": 985
+            },
+            {
+              "id": "edge",
+              "fg": 2989,
+              "bg": 985
+            },
+            {
+              "id": "t_connection",
+              "fg": 2991,
+              "bg": 985
+            },
+            {
+              "id": "center",
+              "fg": 2987,
+              "bg": 985
+            },
+            {
+              "id": "unconnected",
+              "fg": 2992,
+              "bg": 985
+            },
+            {
+              "id": "end_piece",
+              "fg": 2990,
+              "bg": 985
+            }
+          ]
+        },
         {
           "id": "t_chainfence_v",
           "fg": 2987,
@@ -19316,6 +19355,11 @@
           "fg": 3051,
           "bg": 992
         },
+		        {
+          "id": "t_fence_season_winter",
+          "fg": 3052,
+          "bg": 992
+        },
         {
           "id": "t_fence_v_season_winter",
           "fg": 3052,
@@ -19635,6 +19679,45 @@
               "id": "center",
               "fg": 3167,
               "bg": 985
+            }
+          ]
+        },
+		        {
+          "id": "t_railing",
+          "fg": 3168,
+          "bg": 993,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 3168,
+              "bg": 993
+            },
+            {
+              "id": "corner",
+              "fg": 3169,
+              "bg": 993
+            },
+            {
+              "id": "edge",
+              "fg": 3170,
+              "bg": 993
+            },
+            {
+              "id": "t_connection",
+              "fg": 3172,
+              "bg": 993
+            },
+            {
+              "id": "end_piece",
+              "fg": 3171,
+              "bg": 993
+            },
+            {
+              "id": "unconnected",
+              "fg": 3173,
+              "bg": 993
             }
           ]
         },
@@ -21050,6 +21133,11 @@
           "fg": 3049,
           "bg": 1012,
           "rotates": false
+        },
+		        {
+          "id": "t_fence",
+          "fg": 3052,
+          "bg": 1012
         },
         {
           "id": "t_fence_v",
