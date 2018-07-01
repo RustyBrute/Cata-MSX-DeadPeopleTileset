@@ -15533,12 +15533,6 @@
           "rotates": false
         },
         {
-          "id": "mon_bobcat",
-          "fg": 2355,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_boomer",
           "fg": 2356,
           "bg": 967,
@@ -15583,12 +15577,6 @@
         {
           "id": "mon_chickenbot",
           "fg": 2374,
-          "bg": 967,
-          "rotates": false
-        },
-        {
-          "id": "mon_chipmunk",
-          "fg": 2375,
           "bg": 967,
           "rotates": false
         },
@@ -15677,12 +15665,6 @@
           "rotates": false
         },
         {
-          "id": "mon_dog",
-          "fg": 2408,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_dog_skeleton",
           "fg": 2410,
           "bg": 967,
@@ -15699,37 +15681,7 @@
           "fg": 2413,
           "bg": 967,
           "rotates": false
-        },
-		{
-          "id": "mon_dog_zombie_rot_worms",
-          "fg": 2415,
-          "bg": 967,
-          "rotates": false
-        },
-        {
-          "id": "mon_dog_zombie_rot",
-          "fg": 2415,
-          "bg": 967,
-          "rotates": false
-        },
-	    {
-          "id": "mon_dog_zombie_rot_pain",
-          "fg": 2415,
-          "bg": 967,
-          "rotates": false
-        },
-	    {
-          "id": "mon_dog_zombie_rot_fly",
-          "fg": 2415,
-          "bg": 967,
-          "rotates": false
-        },
-		{
-          "id": "mon_dog_zombie_rot_worm",
-          "fg": 2415,
-          "bg": 967,
-          "rotates": false
-        },
+        },        
         {
           "id": "mon_dragonfly_giant",
           "fg": 2426,
@@ -15769,12 +15721,6 @@
         {
           "id": "mon_fly",
           "fg": 2458,
-          "bg": 967,
-          "rotates": false
-        },
-        {
-          "id": "mon_fox_gray",
-          "fg": 2463,
           "bg": 967,
           "rotates": false
         },
@@ -15863,12 +15809,6 @@
           "rotates": false
         },
         {
-          "id": "mon_groundhog",
-          "fg": 2375,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_halfworm",
           "fg": 2501,
           "bg": 967,
@@ -15953,12 +15893,6 @@
           "rotates": false
         },
         {
-          "id": "mon_lemming",
-          "fg": 2375,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_manhack",
           "fg": 2531,
           "bg": 967,
@@ -15967,12 +15901,6 @@
         {
           "id": "mon_mi_go",
           "fg": 2542,
-          "bg": 967,
-          "rotates": false
-        },
-        {
-          "id": "mon_mink",
-          "fg": 2375,
           "bg": 967,
           "rotates": false
         },
@@ -15997,12 +15925,6 @@
         {
           "id": "mon_one_eye",
           "fg": 2556,
-          "bg": 967,
-          "rotates": false
-        },
-        {
-          "id": "mon_otter",
-          "fg": 2375,
           "bg": 967,
           "rotates": false
         },
@@ -16258,12 +16180,6 @@
           "rotates": false
         },
         {
-          "id": "mon_weasel",
-          "fg": 2375,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_wolf",
           "fg": 2657,
           "bg": 967,
@@ -16396,12 +16312,6 @@
           "rotates": false
         },
         {
-          "id": "mon_zombie_rot",
-          "fg": 2738,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_zombie_scientist",
           "fg": 2586,
           "bg": 967,
@@ -16523,23 +16433,43 @@
         },
         {
           "id": "mon_irradiated_wanderer_1",
-          "fg": 2519,
+          "fg": [
+		    { "weight":1, "sprite":2519},
+			{ "weight":1, "sprite":2520},			
+			{ "weight":1, "sprite":2521},
+			{ "weight":1, "sprite":2522}
+            ],
           "bg": 967
         },
         {
           "id": "mon_irradiated_wanderer_2",
-          "fg": 2520,
+          "fg": [
+		    { "weight":1, "sprite":2519},
+			{ "weight":1, "sprite":2520},			
+			{ "weight":1, "sprite":2521},
+			{ "weight":1, "sprite":2522}
+            ],
           "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_irradiated_wanderer_3",
-          "fg": 2521,
+          "fg": [
+		    { "weight":1, "sprite":2519},
+			{ "weight":1, "sprite":2520},			
+			{ "weight":1, "sprite":2521},
+			{ "weight":1, "sprite":2522}
+            ],
           "bg": 967
         },
         {
           "id": "mon_irradiated_wanderer_4",
-          "fg": 2522,
+          "fg": [
+		    { "weight":1, "sprite":2519},
+			{ "weight":1, "sprite":2520},			
+			{ "weight":1, "sprite":2521},
+			{ "weight":1, "sprite":2522}
+            ],
           "bg": 967
         },
         {
@@ -27543,7 +27473,7 @@
           "rotates": false
         },
         {
-          "id": ["overlay_wielded_q_staff", "overlay_wielded_l_staff"],
+          "id": ["overlay_wielded_q_staff", "overlay_wielded_l_staff", "overlay_wielded_stick_long"],
           "fg": 1850,
           "rotates": false
         },
@@ -30529,10 +30459,11 @@
           "rotates": false
         },		
 		{
-          "id": "l_staff",
+          "id": ["l_staff", "stick_long"],
           "fg": 4690,
           "rotates": false
-        },		
+        },	
+		
 		{
           "id": "clue",
           "fg": 4691,
@@ -31399,84 +31330,72 @@
 			],
 			"rotates": true
         },
-		        {
-          "id": "f_rubble",
-          "fg": [
-            { "weight":1, "sprite":1556},
-            { "weight":10, "sprite":4604},
-			{ "weight":100, "sprite":4605},            
-			{ "weight":1000, "sprite":4606},
-			{ "weight":10000, "sprite":4607}
-			],
-			"multitile": true,
-          "additional_tiles": [
-
-            {
-              "fg": 4848,
-              "id": "center"
-            },
-            {
-              "fg": 4849,
-              "id": "corner"
-            },
-            {
-              "fg": 4850,
-              "id": "end_piece"
-            },
-			            {
-              "fg": 4852,		  
-              "id": "edge"
-            },
-            {
-              "fg": 4851,
-              "id": "t_connection"
-            },
-            {
-              "fg": 4853,
-              "id": "unconnected"
-            }
-          ],
-          "rotates": true		  
-        },  
-		        {
-          "id": "f_rubble_rock",
-          "fg": [
-            { "weight":1, "sprite":1556},
-            { "weight":10, "sprite":4604},
-			{ "weight":100, "sprite":4605},            
-			{ "weight":1000, "sprite":4606},
-			{ "weight":10000, "sprite":4607}
-			],
-			"multitile": true,
-          "additional_tiles": [
-
-            {
-              "fg": 4854,
-              "id": "center"
-            },
-            {
-              "fg": 4855,
-              "id": "corner"
-            },
-            {
-              "fg": 4856,
-              "id": "end_piece"
-            },
-			            {
-              "fg": 4858,		  
-              "id": "edge"
-            },
-            {
-              "fg": 4857,
-              "id": "t_connection"
-            },
-            {
-              "fg": 4859,
-              "id": "unconnected"
-            }
-          ],
-          "rotates": true		  
+		{
+          "id": "mon_zombie_rot",
+          "fg": 2738,
+          "bg": 967,
+          "rotates": false
+        },	        
+		{
+          "id": "mon_zombie_rot_pk",
+          "fg": 2739,
+          "rotates": false
+        },			
+		{
+          "id": "mon_zombie_rot_worms",
+          "fg": 4848,
+          "rotates": false
+        },			
+		{
+          "id": "mon_zombie_rot_pk_worms",
+          "fg": 4849,
+          "rotates": false
         },
+		{
+          "id": "mon_zombie_rot_flu",
+          "fg": 4850,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_rot_pk_flu",
+          "fg": 4851,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_rot_pain",
+          "fg": 4852,
+          "rotates": false
+        },	
+		{
+          "id": "mon_zombie_rot_pk_pain",
+          "fg": 4853,
+          "rotates": false
+        },	
+		{
+          "id": "mon_dog_zombie_rot",
+          "fg": 2415,
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_zombie_rot_worms",
+          "fg": 4854,
+          "bg": 967,
+          "rotates": false
+        },	    
+		{
+          "id": "mon_dog_zombie_rot_fly",
+          "fg": 4855,
+          "bg": 967,
+          "rotates": false
+        },
+	    {
+          "id": "mon_dog_zombie_rot_pain",
+          "fg": 4856,
+          "bg": 967,
+          "rotates": false
+        },
+
         {
           "id": "t_rock_floor",
           "bg":
@@ -31539,7 +31458,7 @@
           "rotates": false
         },		
 		{
-          "id": "fd_fire",
+          "id": "!fd_fire",
           "fg":		  [
             { "weight":100, "sprite":4870},
             { "weight":10, "sprite":4871},
@@ -31549,6 +31468,74 @@
 			],
           "rotates": false
         },
+		{
+          "id": "mon_weasel",
+          "fg": 2375,
+          "bg": 967,
+          "rotates": false
+        },        
+		{
+          "id": "mon_chipmunk",
+          "fg": 4875,
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_groundhog",
+          "fg": 4876,
+          "bg": 967,
+          "rotates": false
+        },        
+		{
+          "id": "mon_lemming",
+          "fg": 4877,
+          "bg": 0,
+          "rotates": false
+        },        
+		{
+          "id": "mon_mink",
+          "fg": 4878,
+          "bg": 967,
+          "rotates": false
+        },        
+		{
+          "id": "mon_otter",
+          "fg": 4879,
+          "bg": 967,
+          "rotates": false
+        },          
+		{
+          "id": "mon_fox_gray",
+          "fg": 4880,
+          "bg": 967,
+          "rotates": false
+        },         
+		{
+          "id": "mon_bobcat",
+          "fg": 4881,
+          "bg": 967,
+          "rotates": false
+        }, 		
+		{
+          "id": ["solarpack", "q_solarpack"],
+          "fg": 4586,
+          "rotates": false
+        },		
+				{
+          "id": ["solarpack_on", "q_solarpack_on"],
+          "fg": 4587,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_worn_solarpack", "overlay_worn_q_solarpack"],
+          "fg": 4588,
+          "rotates": false
+        },			
+		{
+          "id": ["overlay_worn_solarpack_on", "overlay_worn_q_solarpack_on"],
+          "fg": 4589,
+          "rotates": false
+        },	     
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -34941,10 +34928,17 @@
           "id": "mon_dionaea_sprout",
           "fg": 2407,
           "rotates": false
+        },        
+		{
+          "id": "mon_dog",
+          "fg": 2408,
+          "bg": 967,
+          "rotates": false
         },
         {
           "id": "mon_dog_large",
           "fg": 2409,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36012,42 +36006,7 @@
           "id": "mon_zombie_radbag",
           "fg": 2737,
           "rotates": false
-        },
-        {
-          "id": "mon_zombie_rot_pk",
-          "fg": 2739,
-          "rotates": false
-        },
-		{
-          "id": "mon_zombie_rot_flu",
-          "fg": 2739,
-          "rotates": false
-        },
-		{
-          "id": "mon_zombie_rot_pk_flu",
-          "fg": 2739,
-          "rotates": false
-        },
-		{
-          "id": "mon_zombie_rot_worms",
-          "fg": 2739,
-          "rotates": false
-        },
-		{
-          "id": "mon_zombie_rot_pk_worms",
-          "fg": 2739,
-          "rotates": false
-        },
-		{
-          "id": "mon_zombie_rot_pain",
-          "fg": 2739,
-          "rotates": false
-        },
-		{
-          "id": "mon_zombie_rot_pk_pain",
-          "fg": 2739,
-          "rotates": false
-        },
+        },        
         {
           "id": "mon_zombie_runner_pk",
           "fg": 2741,
