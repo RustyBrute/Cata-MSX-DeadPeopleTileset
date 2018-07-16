@@ -8483,7 +8483,7 @@
           "rotates": false
         },
         {
-          "id": "char_kiln",
+          "id": ["char_kiln", "kiln", "kilnrig"],
           "fg": 1706,
           "bg": 957,
           "rotates": false
@@ -12053,7 +12053,7 @@
           "bg": 957
         },
         {
-          "id": "boiled_egg",
+          "id": ["boiled_egg", "pickled_egg"],
           "fg": 1100,
           "bg": 957,
           "rotates": false
@@ -22629,7 +22629,7 @@
           "rotates": false
         },
         {
-          "id": ["bandages", "bandages_survivor"],
+          "id": ["bandages", "bandages_survivor", "bandages_makeshift", "bandages_makeshift_bleached", "bandages_makeshift_boiled"],
           "fg": 1086,
           "rotates": false
         },
@@ -31535,7 +31535,132 @@
           "id": ["overlay_worn_solarpack_on", "overlay_worn_q_solarpack_on"],
           "fg": 4589,
           "rotates": false
-        },	     
+        },	 
+		{
+          "id": ["knife_folding"],
+          "fg": 4590,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_wielded_knife_folding"],
+          "fg": 4591,
+          "rotates": false
+        },
+		{
+          "id": ["bandages", "bandages_makeshift_bleached"],
+          "fg": 4592,
+          "rotates": false
+        },	
+		{
+          "id": ["birdfood"],
+          "fg": 4593,
+          "rotates": false
+        },				
+		{
+          "id": ["eggs_ferment"],
+          "fg": 4594,
+          "rotates": false
+        },			
+		{
+          "id": ["jar_eggs_pickled"],
+          "fg": 4595,
+          "rotates": false
+        },		
+				{
+          "id": ["bundle_rag"],
+          "fg": 4596,
+          "rotates": false
+        },	
+				{
+          "id": ["bundle_wool"],
+          "fg": 4597,
+          "rotates": false
+        },	
+				{
+          "id": ["bundle_leather"],
+          "fg": 4598,
+          "rotates": false
+        },					
+		{
+          "id": ["garlic_clove"],
+          "fg": 4599,
+          "rotates": false
+        },	
+						{
+          "id": ["hide_bag"],
+          "fg": 4600,
+          "rotates": false
+        },					
+		{
+          "id": ["hide_tainted_bag"],
+          "fg": 4601,
+          "rotates": false
+        },	
+								{
+          "id": ["overlay_worn_hide_bag", "overlay_wielded_hide_bag"],
+          "fg": 4602,
+          "rotates": false
+        },					
+		{
+          "id": ["overlay_worn_hide_tainted_bag", "overlay_wielded_hide_tainted_bag"],
+          "fg": 4603,
+          "rotates": false
+        },	
+				{
+          "id": ["electrolysis_kit"],
+          "fg": 4604,
+          "rotates": false
+        },					
+		{
+          "id": ["v_rockwheel_item"],
+          "fg": 4605,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_skeleton"],
+          "fg": 4606,
+          "rotates": false
+        },
+		{
+          "id": ["mon_dog_skeleton"],
+          "fg": 4607,
+          "rotates": false
+        },
+				{
+          "id": ["tr_firewood_source"],
+          "fg": 4882,
+          "rotates": false
+        },
+		{
+          "id": ["vp_hddoor", "vp_hddoor_opaque", "vp_hddoor_trunk"],
+          "fg": 4883,
+          "rotates": true,  
+          "multitile": true,		  
+		  "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4883
+            },
+            {
+              "id": "open",
+              "fg": 4884
+            }
+          ]
+        },
+		{
+          "id": ["vp_rockwheel"],
+          "fg": 4885,
+          "rotates": true,  
+          "multitile": true,		  
+		  "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 4885
+            }
+          ]
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -36073,716 +36198,6 @@
             { "weight":3, "sprite":2765},
 			{ "weight":3, "sprite":2766}
             ],
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_AMORPHOUS",
-          "fg": 2770,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_SLIMY",
-          "fg": 2770,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_BIRD_EYE",
-          "fg": 2771,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CEPH_EYES",
-          "fg": 2772,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHITIN",
-          "fg": 2773,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHITIN_FUR",
-          "fg": 2773,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHITIN_FUR2",
-          "fg": 2773,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHITIN_FUR3",
-          "fg": 2773,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHITIN2",
-          "fg": 2773,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHITIN3",
-          "fg": 2773,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_CHLOROMORPH",
-          "fg": 2774,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_BARK",
-          "fg": 2774,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_PLANTSKIN",
-          "fg": 2774,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_SPINES",
-          "fg": 2774,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_THICK_SCALES",
-          "fg": 2774,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_THORNS",
-          "fg": 2774,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_ELFAEYES",
-          "fg": 2775,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_FEATHERS",
-          "fg": 2776,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_QUILLS",
-          "fg": 2776,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_FEL_EYE",
-          "fg": 2777,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_LEAVES",
-          "fg": 2778,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_LIGHTFUR",
-          "fg": 2779,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_FUR",
-          "fg": 2779,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_LUPINE_FUR",
-          "fg": 2780,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_LYNX_FUR",
-          "fg": 2781,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_M_SKIN",
-          "fg": 2782,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_SCALES",
-          "fg": 2783,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_SLEEK_SCALES",
-          "fg": 2783,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_SUNBURN",
-          "fg": 2784,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_TROGLO2",
-          "fg": 2784,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_ALBINO",
-          "fg": 2784,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_PALE",
-          "fg": 2784,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_TROGLO3",
-          "fg": 2785,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_VISCOUS",
-          "fg": 2786,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_AMORPHOUS",
-          "fg": 2787,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_SLIMY",
-          "fg": 2787,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_BIRD_EYE",
-          "fg": 2788,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CEPH_EYES",
-          "fg": 2789,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHITIN",
-          "fg": 2790,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHITIN_FUR",
-          "fg": 2790,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHITIN_FUR2",
-          "fg": 2790,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHITIN_FUR3",
-          "fg": 2790,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHITIN2",
-          "fg": 2790,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHITIN3",
-          "fg": 2790,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_CHLOROMORPH",
-          "fg": 2791,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_BARK",
-          "fg": 2791,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_PLANTSKIN",
-          "fg": 2791,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_SPINES",
-          "fg": 2791,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_THICK_SCALES",
-          "fg": 2791,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_THORNS",
-          "fg": 2791,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_ELFAEYES",
-          "fg": 2792,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_FEATHERS",
-          "fg": 2793,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_QUILLS",
-          "fg": 2793,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_FEL_EYE",
-          "fg": 2794,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_LEAVES",
-          "fg": 2795,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_LIGHTFUR",
-          "fg": 2796,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_FUR",
-          "fg": 2796,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_LUPINE_FUR",
-          "fg": 2797,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_LYNX_FUR",
-          "fg": 2798,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_M_SKIN",
-          "fg": 2799,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_SCALES",
-          "fg": 2800,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_SLEEK_SCALES",
-          "fg": 2800,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_SUNBURN",
-          "fg": 2801,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_TROGLO2",
-          "fg": 2801,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_ALBINO",
-          "fg": 2801,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_PALE",
-          "fg": 2801,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_TROGLO3",
-          "fg": 2802,
-          "rotates": false
-        },
-        {
-          "id": "overlay_male_mutation_VISCOUS",
-          "fg": 2803,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ADDICTIVE",
-          "fg": 2804,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_BEAUTIFUL",
-          "fg": 2804,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_BEAUTIFUL2",
-          "fg": 2804,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_BEAUTIFUL3",
-          "fg": 2804,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ALCMET",
-          "fg": 2805,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ANTENNAE",
-          "fg": 2806,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ANTLERS",
-          "fg": 2807,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ARACHNID_ARMS",
-          "fg": 2808,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ARACHNID_ARMS_OK",
-          "fg": 2808,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ARM_TENTACLES",
-          "fg": 2809,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ARM_TENTACLES_4",
-          "fg": 2810,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ARM_TENTACLES_8",
-          "fg": 2811,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_BEAK",
-          "fg": 2812,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_BEAK_HUM",
-          "fg": 2812,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_BEAK_PECK",
-          "fg": 2812,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_CANINE_EARS",
-          "fg": 2813,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_LUPINE_EARS",
-          "fg": 2813,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_CENOBITE",
-          "fg": 2814,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_CLOAK",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_HS",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_LS",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_MIND_CONTROL",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_NIGHTVISION",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_NODMG",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_NOSCENT",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_NOTEMP",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_DEBUG_SILENT",
-          "fg": 2815,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ELFA_EARS",
-          "fg": 2816,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_FELINE_EARS",
-          "fg": 2817,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_fur_cat_ears",
-          "fg": 2817,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_leather_cat_ears",
-          "fg": 2817,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_FLOWERS",
-          "fg": 2818,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_HORNS",
-          "fg": 2819,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_HORNS_POINTED",
-          "fg": 2819,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_HORNS_CURLED",
-          "fg": 2820,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_INSECT_ARMS",
-          "fg": 2821,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_INSECT_ARMS_OK",
-          "fg": 2821,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_LEG_TENTACLES",
-          "fg": 2822,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MANDIBLES",
-          "fg": 2823,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MUZZLE_BEAR",
-          "fg": 2823,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MUZZLE",
-          "fg": 2823,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MOUTH_FLAPS",
-          "fg": 2824,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MOUTH_TENTACLES",
-          "fg": 2825,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MUZZLE_LONG",
-          "fg": 2826,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_MUZZLE_RAT",
-          "fg": 2827,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_M_BLOOM",
-          "fg": 2828,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_PAWS_LARGE",
-          "fg": 2829,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ROOTS2",
-          "fg": 2830,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_ROOTS3",
-          "fg": 2830,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_SABER_TEETH",
-          "fg": 2831,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_SORES",
-          "fg": 2832,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_SPOTS",
-          "fg": 2832,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_CATTLE",
-          "fg": 2833,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_FLUFFY",
-          "fg": 2834,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_CLUB",
-          "fg": 2834,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_RAPTOR",
-          "fg": 2835,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_RAT",
-          "fg": 2836,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_STING",
-          "fg": 2837,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_STUB",
-          "fg": 2838,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_THICK",
-          "fg": 2838,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_LONG",
-          "fg": 2838,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_TAIL_FIN",
-          "fg": 2838,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_THRESH_ALPHA",
-          "fg": 2839,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_URSINE_EARS",
-          "fg": 2840,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_VINES1",
-          "fg": 2841,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_VINES2",
-          "fg": 2842,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_VINES3",
-          "fg": 2842,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WHISKERS",
-          "fg": 2843,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WHISKERS_RAT",
-          "fg": 2843,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WINGS_BAT",
-          "fg": 2844,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WINGS_BIRD",
-          "fg": 2845,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WINGS_BUTTERFLY",
-          "fg": 2846,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WINGS_INSECT",
-          "fg": 2847,
-          "rotates": false
-        },
-        {
-          "id": "overlay_mutation_WINGS_STUB",
-          "fg": 2848,
           "rotates": false
         },
         {
@@ -46324,820 +45739,512 @@
         }
       ]
     },
-
-  
-  
-  
-
-  
-  
-  
-  
-   {
-    "file": "tiles_bn_m.png",
+    {
+    "file": "tiles_character_customization.png",
     "tiles":
     [
     { "id": "tiles.png+tiles_jpmods.png=10880", "fg": 0, "rotates": false },
     { "id": "start @ =5472", "fg": 0, "rotates": false },
-    { "id": "- 1312", "fg": 0, "rotates": false },
+    { "id": "- 1312", "fg": 0, "rotates": false },		
 
-    { "id": "overlay_worn_surv_suit_no_mask",	"fg": 10880, "rotates": false },
-    { "id": "overlay_worn_surv_armor_suit_no_mask",	"fg": 10881, "rotates": false },
+    { "id": "old!overlay_worn_surv_suit_no_mask",	"fg": 10880, "rotates": false },
+    { "id": "old!overlay_worn_surv_armor_suit_no_mask",	"fg": 10881, "rotates": false },
 
-    { "id": "overlay_male_worn_blob_armor_vo",	"fg": 10885, "rotates": false },
-    { "id": "overlay_female_worn_blob_armor_vo",	"fg": 10884, "rotates": false },
+    { "id": "old!overlay_male_worn_blob_armor_vo",	"fg": 10885, "rotates": false },
+    { "id": "old!overlay_female_worn_blob_armor_vo",	"fg": 10884, "rotates": false },
 
-    { "id": "overlay_male_worn_blob_armor_on_vo",	"fg": 10883, "rotates": false },
-    { "id": "overlay_female_worn_blob_armor_on_vo",	"fg": 10882, "rotates": false },
+    { "id": "old!overlay_male_worn_blob_armor_on_vo",	"fg": 10883, "rotates": false },
+    { "id": "old!overlay_female_worn_blob_armor_on_vo",	"fg": 10882, "rotates": false },
 
-    { "id": "overlay_male_worn_blob_ball_vo",	"fg": 10887, "rotates": false },
-    { "id": "overlay_female_worn_blob_ball_vo",	"fg": 10886, "rotates": false },
+    { "id": "old!overlay_male_worn_blob_ball_vo",	"fg": 10887, "rotates": false },
+    { "id": "old!overlay_female_worn_blob_ball_vo",	"fg": 10886, "rotates": false },
 
 
         {
-          "id": "overlay_wielded_spear_assembly2_vo",
+          "id": "old!overlay_wielded_spear_assembly2_vo",
           "fg": 10897,
           "rotates": false
         },
 		{
-          "id": "overlay_female_mutation_LIGHT_FRECKLES",
+          "id": "old!overlay_female_mutation_LIGHT_FRECKLES",
           "fg": 10898,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_LIGHT_FRECKLES",
+          "id": "old!overlay_male_mutation_LIGHT_FRECKLES",
           "fg": 10899,
           "rotates": false
         },		
 		{
-          "id": "overlay_female_mutation_DENSE_FRECKLES",
+          "id": "old!overlay_female_mutation_DENSE_FRECKLES",
           "fg": 10900,
           "rotates": false
         },
         {
-          "id": "overlay_male_mutation_DENSE_FRECKLES",
+          "id": "old!overlay_male_mutation_DENSE_FRECKLES",
           "fg": 10901,
           "rotates": false
         },
-        {
-          "id": "overlay_male_mutation_AMORPHOUS",
-          "fg": 9601,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_AMORPHOUS",
-          "fg": 9600,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_SLIMY",
-          "fg": 9601,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SLIMY",
-          "fg": 9600,
-          "rotates": false
-        },{
-          "id": "overlay_mutation_SABER_TEETH",
-          "fg": 9602,
-          "rotates": false
-        },
-        
+		{ "id": "overlay_female_mutation_AMORPHOUS", "fg": 902770, "rotates": false },
+        { "id": "overlay_female_mutation_BIRD_EYE", "fg": 902771, "rotates": false },
+        { "id": "overlay_female_mutation_CEPH_EYES", "fg": 902772, "rotates": false },
+        { "id": "overlay_female_mutation_CHITIN", "fg": 902773, "rotates": false },
+        { "id": "overlay_female_mutation_CHITIN_FUR", "fg": 902773, "rotates": false },
+        { "id": "overlay_female_mutation_CHITIN_FUR2", "fg": 902773, "rotates": false },
+        { "id": "overlay_female_mutation_CHITIN_FUR3", "fg": 902773, "rotates": false },
+        { "id": "overlay_female_mutation_CHITIN2", "fg": 902773, "rotates": false },
+        { "id": "overlay_female_mutation_CHITIN3", "fg": 902773, "rotates": false },
+        { "id": "overlay_female_mutation_CHLOROMORPH", "fg": 902774, "rotates": false },
+        { "id": "overlay_female_mutation_BARK", "fg": 902774, "rotates": false },
+        { "id": "overlay_female_mutation_PLANTSKIN", "fg": 902774, "rotates": false },
+        { "id": "overlay_female_mutation_SPINES", "fg": 902774, "rotates": false },
+        { "id": "overlay_female_mutation_THICK_SCALES", "fg": 902774, "rotates": false },
+        { "id": "overlay_female_mutation_THORNS", "fg": 902774, "rotates": false },
+        { "id": "overlay_female_mutation_ELFAEYES", "fg": 902775, "rotates": false },
+        { "id": "overlay_female_mutation_FEATHERS", "fg": 902776, "rotates": false },
+        { "id": "overlay_female_mutation_QUILLS", "fg": 902776, "rotates": false },
+        { "id": "overlay_female_mutation_FEL_EYE", "fg": 902777, "rotates": false },
+        { "id": "overlay_female_mutation_LEAVES", "fg": 902778, "rotates": false },
+        { "id": "overlay_female_mutation_LIGHTFUR", "fg": 902779, "rotates": false },
+        { "id": "overlay_female_mutation_FUR", "fg": 902779, "rotates": false },
+		{ "id": "overlay_female_mutation_LUPINE_FUR", "fg": 902780, "rotates": false },
+        { "id": "overlay_female_mutation_LYNX_FUR", "fg": 902781, "rotates": false },
+        { "id": "overlay_female_mutation_M_SKIN", "fg": 902782, "rotates": false },
+        { "id": "overlay_female_mutation_SCALES", "fg": 902783, "rotates": false },
+        { "id": "overlay_female_mutation_SLEEK_SCALES", "fg": 902783, "rotates": false },
+        { "id": "overlay_female_mutation_SUNBURN", "fg": 902784, "rotates": false },
+        { "id": "overlay_female_mutation_TROGLO2", "fg": 902784, "rotates": false },
+        { "id": "overlay_female_mutation_TROGLO3", "fg": 902785, "rotates": false },
+        { "id": "overlay_female_mutation_VISCOUS", "fg": 902786, "rotates": false },
 
-        {
-          "id": "overlay_female_mutation_BIRD_EYE",
-          "fg": 9604,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CEPH_EYES",
-          "fg": 9605,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CHITIN",
-          "fg": 9606,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CHITIN_FUR",
-          "fg": 9606,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CHITIN_FUR2",
-          "fg": 9606,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CHITIN_FUR3",
-          "fg": 9606,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CHITIN2",
-          "fg": 9606,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_CHITIN3",
-          "fg": 9606,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_ELFAEYES",
-          "fg": 9625,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_ELFAEYES",
-          "fg": 9626,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_FEL_EYE",
-          "fg": 9608,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_LEAVES_TEMP",
-          "fg": 9609,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_LYNX_FUR",
-          "fg": 9610,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SCALES",
-          "fg": 9611,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SLEEK_SCALES",
-          "fg": 9611,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_VISCOUS",
-          "fg": 9612,
-          "rotates": false
-        },
+        { "id": "overlay_male_mutation_BIRD_EYE", "fg": 902788, "rotates": false },
+        { "id": "overlay_male_mutation_CEPH_EYES", "fg": 902789, "rotates": false },
+        { "id": "overlay_male_mutation_CHITIN", "fg": 902790, "rotates": false },
+        { "id": "overlay_male_mutation_CHITIN_FUR", "fg": 902790, "rotates": false },
+        { "id": "overlay_male_mutation_CHITIN_FUR2", "fg": 902790, "rotates": false },
+        { "id": "overlay_male_mutation_CHITIN_FUR3", "fg": 902790, "rotates": false },
+        { "id": "overlay_male_mutation_CHITIN2", "fg": 902790, "rotates": false },
+        { "id": "overlay_male_mutation_CHITIN3", "fg": 902790, "rotates": false },
+        { "id": "overlay_male_mutation_CHLOROMORPH", "fg": 902791, "rotates": false },
+        { "id": "overlay_male_mutation_BARK", "fg": 902791,  "rotates": false },
+        { "id": "overlay_male_mutation_PLANTSKIN", "fg": 902791, "rotates": false },
+        { "id": "overlay_male_mutation_SPINES", "fg": 902791, "rotates": false },
+        { "id": "overlay_male_mutation_THICK_SCALES", "fg": 902791, "rotates": false },
+        { "id": "overlay_male_mutation_THORNS", "fg": 902791, "rotates": false },
+        { "id": "overlay_male_mutation_ELFAEYES", "fg": 902792, "rotates": false },
+        { "id": "overlay_male_mutation_FEATHERS", "fg": 902793, "rotates": false },
+        { "id": "overlay_male_mutation_QUILLS", "fg": 902793, "rotates": false },
+        { "id": "overlay_male_mutation_FEL_EYE", "fg": 902794, "rotates": false },
+        { "id": "overlay_male_mutation_LEAVES", "fg": 902795, "rotates": false },
+        { "id": "overlay_male_mutation_LIGHTFUR", "fg": 902796, "rotates": false },
+        { "id": "overlay_male_mutation_FUR", "fg": 902796, "rotates": false },
+        { "id": "overlay_male_mutation_LUPINE_FUR", "fg": 902797, "rotates": false },
+        { "id": "overlay_male_mutation_LYNX_FUR", "fg": 2798, "rotates": false },
+        { "id": "overlay_male_mutation_M_SKIN", "fg": 2799, "rotates": false },
+        { "id": "overlay_male_mutation_SCALES", "fg": 2800, "rotates": false },
+        { "id": "overlay_male_mutation_SLEEK_SCALES", "fg": 2800, "rotates": false },
+        { "id": "overlay_male_mutation_SUNBURN", "fg": 2801, "rotates": false },
+        { "id": "overlay_male_mutation_TROGLO2", "fg": 2801, "rotates": false },
+        { "id": "overlay_male_mutation_TROGLO3", "fg": 2802, "rotates": false },
+        { "id": "overlay_male_mutation_VISCOUS", "fg": 2803, "rotates": false },
+        { "id": "overlay_mutation_ADDICTIVE", "fg": 2804, "rotates": false },
+        { "id": "overlay_mutation_BEAUTIFUL", "fg": 2804, "rotates": false },
+        { "id": "overlay_mutation_BEAUTIFUL2", "fg": 2804, "rotates": false },
+        { "id": "overlay_mutation_BEAUTIFUL3", "fg": 2804, "rotates": false },
+        { "id": "overlay_mutation_ALCMET", "fg": 2805, "rotates": false },
+        { "id": "overlay_mutation_ANTENNAE", "fg": 2806, "rotates": false },
+        { "id": "overlay_mutation_ANTLERS", "fg": 2807, "rotates": false },
+        { "id": "overlay_mutation_ARACHNID_ARMS", "fg": 2808, "rotates": false },
+        { "id": "overlay_mutation_ARACHNID_ARMS_OK", "fg": 2808, "rotates": false },
+        { "id": "overlay_mutation_ARM_TENTACLES", "fg": 2809, "rotates": false },
+        { "id": "overlay_mutation_ARM_TENTACLES_4", "fg": 2810, "rotates": false },
+        { "id": "overlay_mutation_ARM_TENTACLES_8", "fg": 2811, "rotates": false },
+        { "id": "overlay_mutation_BEAK", "fg": 2812, "rotates": false },
+        { "id": "overlay_mutation_BEAK_HUM", "fg": 2812, "rotates": false },
+        { "id": "overlay_mutation_BEAK_PECK", "fg": 2812, "rotates": false },
+        { "id": "overlay_mutation_CANINE_EARS","fg": 2813, "rotates": false },
+        { "id": "overlay_mutation_LUPINE_EARS", "fg": 2813, "rotates": false },
+        { "id": "overlay_mutation_CENOBITE", "fg": 2814, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_CLOAK", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_HS", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_LS", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_MIND_CONTROL", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NODMG", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NOSCENT", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NOTEMP", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_SILENT", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_ELFA_EARS", "fg": 2816, "rotates": false },
+        { "id": "overlay_mutation_FELINE_EARS",  "fg": 2817, "rotates": false },
+        { "id": "overlay_worn_fur_cat_ears",  "fg": 2817,  "rotates": false },
+        { "id": "overlay_worn_leather_cat_ears", "fg": 2817,  "rotates": false },
+        { "id": "overlay_mutation_FLOWERS",  "fg": 2818, "rotates": false },
+        { "id": "overlay_mutation_HORNS", "fg": 2819, "rotates": false },
+        { "id": "overlay_mutation_HORNS_POINTED", "fg": 2819, "rotates": false },
+        { "id": "overlay_mutation_HORNS_CURLED", "fg": 2820, "rotates": false },
+        { "id": "overlay_mutation_INSECT_ARMS", "fg": 2821, "rotates": false },
+        { "id": "overlay_mutation_INSECT_ARMS_OK", "fg": 2821, "rotates": false },
+        { "id": "overlay_mutation_LEG_TENTACLES", "fg": 2822, "rotates": false },
+        { "id": "overlay_mutation_MANDIBLES", "fg": 2823, "rotates": false},
+        { "id": "overlay_mutation_MUZZLE_BEAR", "fg": 2823, "rotates": false },
+        { "id": "overlay_mutation_MUZZLE", "fg": 2823, "rotates": false },
+        { "id": "overlay_mutation_MOUTH_FLAPS", "fg": 2824, "rotates": false },
+        { "id": "overlay_mutation_MOUTH_TENTACLES", "fg": 2825, "rotates": false },
+        { "id": "overlay_mutation_MUZZLE_LONG", "fg": 2826, "rotates": false },
+        { "id": "overlay_mutation_MUZZLE_RAT", "fg": 2827, "rotates": false },
+        { "id": "overlay_mutation_M_BLOOM", "fg": 2828, "rotates": false },
+        { "id": "overlay_mutation_PAWS_LARGE", "fg": 2829, "rotates": false },
+        { "id": "overlay_mutation_ROOTS2", "fg": 2830, "rotates": false },
+        { "id": "overlay_mutation_ROOTS3", "fg": 2830, "rotates": false },
+        { "id": "overlay_mutation_SABER_TEETH", "fg": 2831, "rotates": false },
+        { "id": "overlay_mutation_SORES", "fg": 2832, "rotates": false },
+        { "id": "overlay_mutation_SPOTS", "fg": 2832, "rotates": false },
+        { "id": "overlay_mutation_TAIL_CATTLE", "fg": 2833, "rotates": false },
+        { "id": "overlay_mutation_TAIL_FLUFFY", "fg": 2834, "rotates": false },
+        { "id": "overlay_mutation_TAIL_CLUB", "fg": 2834, "rotates": false },
+        { "id": "overlay_mutation_TAIL_RAPTOR", "fg": 2835, "rotates": false },
+        { "id": "overlay_mutation_TAIL_RAT", "fg": 2836, "rotates": false },
+        { "id": "overlay_mutation_TAIL_STING", "fg": 2837, "rotates": false },
+        { "id": "overlay_mutation_TAIL_STUB", "fg": 2838, "rotates": false },
+        { "id": "overlay_mutation_TAIL_THICK", "fg": 2838, "rotates": false },
+        { "id": "overlay_mutation_TAIL_LONG", "fg": 2838, "rotates": false },
+        { "id": "overlay_mutation_TAIL_FIN", "fg": 2838, "rotates": false },
+        { "id": "overlay_mutation_THRESH_ALPHA", "fg": 2839, "rotates": false },
+        { "id": "overlay_mutation_URSINE_EARS", "fg": 2840, "rotates": false },
+        { "id": "overlay_mutation_VINES1", "fg": 2841, "rotates": false },
+        { "id": "overlay_mutation_VINES2", "fg": 2842, "rotates": false },
+        { "id": "overlay_mutation_VINES3", "fg": 2842, "rotates": false },
+        { "id": "overlay_mutation_WHISKERS", "fg": 2843, "rotates": false },
+        { "id": "overlay_mutation_WHISKERS_RAT", "fg": 2843, "rotates": false },
+        { "id": "overlay_mutation_WINGS_BAT", "fg": 2844, "rotates": false },
+        { "id": "overlay_mutation_WINGS_BIRD", "fg": 2845, "rotates": false },
+        { "id": "overlay_mutation_WINGS_BUTTERFLY", "fg": 2846, "rotates": false },
+        { "id": "overlay_mutation_WINGS_INSECT", "fg": 2847, "rotates": false },
+        { "id": "overlay_mutation_WINGS_STUB", "fg": 2848, "rotates": false },
+		
+        { "id": "overlay_male_mutation_AMORPHOUS", "fg": 99601, "rotates": false },
+		{ "id": "overlay_female_mutation_AMORPHOUS", "fg": 99600, "rotates": false },
+		{ "id": "overlay_male_mutation_SLIMY", "fg": 99601, "rotates": false },
+		{ "id": "overlay_female_mutation_SLIMY", "fg": 99600, "rotates": false },
+		{ "id": "overlay_mutation_SABER_TEETH", "fg": 99602, "rotates": false },
+		{ "id": "overlay_female_mutation_BIRD_EYE", "fg": 99604, "rotates": false },
+		{ "id": "overlay_female_mutation_CEPH_EYES", "fg": 99605, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN", "fg": 99606, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN_FUR", "fg": 99606, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN_FUR2", "fg": 99606, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN_FUR3", "fg": 99606, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN2", "fg": 99606, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN3", "fg": 99606, "rotates": false },
+		{ "id": "overlay_female_mutation_ELFAEYES", "fg": 99625, "rotates": false },
+		{ "id": "overlay_male_mutation_ELFAEYES", "fg": 99626, "rotates": false },
+		{ "id": "overlay_female_mutation_FEL_EYE", "fg": 99608, "rotates": false },
+		{ "id": "overlay_female_mutation_LEAVES_TEMP", "fg": 99609, "rotates": false},
+		{ "id": "overlay_female_mutation_LYNX_FUR", "fg": 99610, "rotates": false },
+		{ "id": "overlay_female_mutation_SCALES", "fg": 99611, "rotates": false },
+		{ "id": "overlay_female_mutation_SLEEK_SCALES", "fg": 99611, "rotates": false },
+		{ "id": "overlay_female_mutation_VISCOUS", "fg": 99612, "rotates": false },
+        { "id": "overlay_female_mutation_CHLOROMORPH", "fg": 99744, "rotates": false },
+		{ "id": "overlay_female_mutation_BARK", "fg": 99744, "rotates": false },
+		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 99744, "rotates": false },
+		{ "id": "overlay_female_mutation_SPINES", "fg": 99744, "rotates": false},
+		{ "id": "overlay_female_mutation_THICK_SCALES", "fg": 99744, "rotates": false },
+		{ "id": "overlay_female_mutation_THORNS", "fg": 99744, "rotates": false },
+		{ "id": "overlay_female_mutation_M_SKIN", "fg": 99747, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN", "fg": 99748, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN_FUR", "fg": 99748, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN_FUR2", "fg": 99748, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN_FUR3", "fg": 99748, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN2", "fg": 99748, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN3", "fg": 99748, "rotates": false },
+		{ "id": "overlay_male_mutation_CHLOROMORPH", "fg": 99749, "rotates": false },
+		{ "id": "overlay_male_mutation_BARK", "fg": 90749, "rotates": false },
+		{ "id": "overlay_male_mutation_PLANTSKIN", "fg": 90749, "rotates": false },
+		{ "id": "overlay_male_mutation_SPINES", "fg": 90749, "rotates": false },
+		{ "id": "overlay_male_mutation_THICK_SCALES", "fg": 90749, "rotates": false },
+		{ "id": "overlay_male_mutation_THORNS", "fg": 90749, "rotates": false },
+		{ "id": "overlay_male_mutation_LYNX_FUR", "fg": 90750, "rotates": false },
+		{ "id": "overlay_male_mutation_M_SKIN", "fg": 90754, "rotates": false },
+		{ "id": "overlay_male_mutation_SCALES", "fg": 90752, "rotates": false },
+		{ "id": "overlay_male_mutation_SLEEK_SCALES", "fg": 90752, "rotates": false },
+		{ "id": "overlay_male_mutation_TROGLO3", "fg": 90753, "rotates": false },
+		{ "id": "player_female", "fg": 9568, "bg": 967 },
+		{ "id": "player_male", "fg": 9569, "bg": 967 },        
+		{ "id": "npc_female", "fg": 9570, "bg": 967 },
+		{ "id": "npc_male", "fg": 9571, "bg": 967 },	
+		
+		{ "id": "overlay_female_mutation_skin1", "fg": 9574, "rotates": false },
+        { "id": "overlay_female_mutation_skin2", "fg": 9578, "rotates": false },
+        { "id": "overlay_female_mutation_skin3", "fg": 9580, "rotates": false },
+        { "id": "overlay_female_mutation_skin4", "fg": 9582, "rotates": false },
+		{ "id": "overlay_male_mutation_skin1", "fg": 9575, "rotates": false },
+		{ "id": "overlay_male_mutation_skin2", "fg": 9579, "rotates": false },
+		{ "id": "overlay_male_mutation_skin3", "fg": 9581, "rotates": false },
+		{ "id": "overlay_male_mutation_skin4", "fg": 9583, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_PALE", "fg": 9572, "rotates": false },
+		{ "id": "overlay_male_mutation_PALE", "fg": 9573, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_LIGHT", "fg": 9574, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_LIGHT", "fg": 9575, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_MEDIUM", "fg": 9576, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_MEDIUM", "fg": 9577, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_TAN", "fg": 9578, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_TAN", "fg": 9579, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_DARK", "fg": 9580, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_DARK", "fg": 9581, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_PINK", "fg": 9582, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_PINK", "fg": 9583, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_ALBINO", "fg": 9582, "rotates": false },
+		{ "id": "overlay_male_mutation_ALBINO", "fg": 9583, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_EYE_BLUE", "fg": 9584, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_BLUE", "fg": 9585, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_GRAY", "fg": 9586, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_GRAY", "fg": 9587, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_BROWN", "fg": 9588, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_BROWN", "fg": 9589, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_GREEN", "fg": 9590, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_GREEN", "fg": 9591, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_RED", "fg": 9592, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_RED", "fg": 9593, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_YELLOW", "fg": 9594, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_YELLOW", "fg": 9595, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_HAIR_BLONDE", "fg": 9600, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_BLONDE", "fg": 9601, "rotates": false },
+		{ "id": "overlay_female_mutation_HAIR_RED", "fg": 9602, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_RED", "fg": 9603, "rotates": false },	
+		{ "id": "overlay_female_mutation_HAIR_BROWN", "fg": 9604, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_BROWN", "fg": 9605, "rotates": false },
+		{ "id": "overlay_female_mutation_HAIR_BLACK", "fg": 9606, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_BLACK", "fg": 9607, "rotates": false },
+		{ "id": "overlay_female_mutation_HAIR_WHITE", "fg": 9608, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_WHITE", "fg": 9609, "rotates": false },
+		{ "id": "overlay_female_mutation_HAIR_GRAY", "fg": 9610, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_GRAY", "fg": 9611, "rotates": false },
+		{ "id": "overlay_female_mutation_HAIR_PINK", "fg": 9612, "rotates": false },
+		{ "id": "overlay_male_mutation_HAIR_PINK", "fg": 9613, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair2blond", "fg": 9616, "rotates": false },
+		{ "id": "overlay_male_mutation_hair2blond", "fg": 9617, "rotates": false },
+		{ "id": "overlay_female_mutation_hair2red", "fg": 9618, "rotates": false },		
+		{ "id": "overlay_male_mutation_hair2red", "fg": 9619, "rotates": false },
+		{ "id": "overlay_female_mutation_hair2brown", "fg": 9620, "rotates": false },		
+		{ "id": "overlay_male_mutation_hair2brown", "fg": 9621, "rotates": false },
+		{ "id": "overlay_female_mutation_hair2black", "fg": 9622, "rotates": false },		
+		{ "id": "overlay_male_mutation_hair2black", "fg": 9623, "rotates": false },
+		{ "id": "overlay_female_mutation_hair2white", "fg": 9624, "rotates": false },		
+		{ "id": "overlay_male_mutation_hair2white", "fg": 9625, "rotates": false },
+		{ "id": "overlay_female_mutation_hair2gray", "fg": 9626, "rotates": false },	
+		{ "id": "overlay_male_mutation_hair2gray", "fg": 9627, "rotates": false },
+		{ "id": "overlay_female_mutation_hair2pink", "fg": 9628, "rotates": false },
+		{ "id": "overlay_male_mutation_hair2pink", "fg": 9629, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair3blond", "fg": 9632, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3blond", "fg": 9633, "rotates": false },
+		{ "id": "overlay_female_mutation_hair3red", "fg": 9634, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3red", "fg": 9635, "rotates": false },
+		{ "id": "overlay_female_mutation_hair3brown", "fg": 9636, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3brown", "fg": 9637, "rotates": false },
+		{ "id": "overlay_female_mutation_hair3black", "fg": 9638, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3black", "fg": 9639, "rotates": false },
+		{ "id": "overlay_female_mutation_hair3white", "fg": 9640, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3white", "fg": 9641, "rotates": false },
+		{ "id": "overlay_female_mutation_hair3gray", "fg": 9642, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3gray", "fg": 9643, "rotates": false },		
+		{ "id": "overlay_female_mutation_hair3pink", "fg": 9644, "rotates": false },
+		{ "id": "overlay_male_mutation_hair3pink", "fg": 9645, "rotates": false },
+		
+		{ "id": "overlay_mutation_hair4blond", "fg": 9648, "rotates": false },		
+		{ "id": "overlay_mutation_hair4red", "fg": 9649, "rotates": false },		
+		{ "id": "overlay_mutation_hair4brown", "fg": 9650, "rotates": false },		
+		{ "id": "overlay_mutation_hair4black", "fg": 9651, "rotates": false },		
+		{ "id": "overlay_mutation_hair4white", "fg": 9652, "rotates": false },		
+		{ "id": "overlay_mutation_hair4gray", "fg": 9653, "rotates": false },
+		{ "id": "overlay_mutation_hair4pink", "fg": 9654, "rotates": false },
+		
+		{ "id": "overlay_mutation_hair5blond", "fg": 9655, "rotates": false },
+		{ "id": "overlay_mutation_hair5red", "fg": 9656, "rotates": false },
+		{ "id": "overlay_mutation_hair5brown", "fg": 9657, "rotates": false },
+		{ "id": "overlay_mutation_hair5black", "fg": 9658, "rotates": false },
+		{ "id": "overlay_mutation_hair5white", "fg": 9659, "rotates": false },
+		{ "id": "overlay_mutation_hair5gray", "fg": 9660, "rotates": false },
+		{ "id": "overlay_mutation_hair5pink", "fg": 9661, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair6blond", "fg": 9664, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6blond", "fg": 9665, "rotates": false },
+		{ "id": "overlay_female_mutation_hair6red", "fg": 9666, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6red", "fg": 9667, "rotates": false },
+		{ "id": "overlay_female_mutation_hair6brown", "fg": 9668, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6brown", "fg": 9669, "rotates": false },
+		{ "id": "overlay_female_mutation_hair6black", "fg": 9670, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6black", "fg": 9671, "rotates": false },
+		{ "id": "overlay_female_mutation_hair6white", "fg": 9672, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6white", "fg": 9673, "rotates": false },
+		{ "id": "overlay_female_mutation_hair6gray", "fg": 9674, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6gray", "fg": 9675, "rotates": false },		
+		{ "id": "overlay_female_mutation_hair6pink", "fg": 9676, "rotates": false },
+		{ "id": "overlay_male_mutation_hair6pink", "fg": 9677, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair7blond", "fg": 9680, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7blond", "fg": 9681, "rotates": false },
+		{ "id": "overlay_female_mutation_hair7red", "fg": 9682, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7red", "fg": 9683, "rotates": false },
+		{ "id": "overlay_female_mutation_hair7brown", "fg": 9684, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7brown", "fg": 9685, "rotates": false },
+		{ "id": "overlay_female_mutation_hair7black", "fg": 9686, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7black", "fg": 9687, "rotates": false },
+		{ "id": "overlay_female_mutation_hair7white", "fg": 9688, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7white", "fg": 9689, "rotates": false },
+		{ "id": "overlay_female_mutation_hair7gray", "fg": 9690, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7gray", "fg": 9691, "rotates": false },		
+		{ "id": "overlay_female_mutation_hair7pink", "fg": 9692, "rotates": false },
+		{ "id": "overlay_male_mutation_hair7pink", "fg": 9693, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair8blond", "fg": 9696, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8blond", "fg": 9697, "rotates": false },
+		{ "id": "overlay_female_mutation_hair8red", "fg": 9698, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8red", "fg": 9699, "rotates": false },
+		{ "id": "overlay_female_mutation_hair8brown", "fg": 9700, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8brown", "fg": 9701, "rotates": false },
+		{ "id": "overlay_female_mutation_hair8black", "fg": 9702, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8black", "fg": 9703, "rotates": false },
+		{ "id": "overlay_female_mutation_hair8white", "fg": 9704, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8white", "fg": 9705, "rotates": false },
+		{ "id": "overlay_female_mutation_hair8gray", "fg": 9706, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8gray", "fg": 9707, "rotates": false },		
+		{ "id": "overlay_female_mutation_hair8pink", "fg": 9708, "rotates": false },
+		{ "id": "overlay_male_mutation_hair8pink", "fg": 9709, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair9blond", "fg": 9712, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9blond", "fg": 9713, "rotates": false },
+		{ "id": "overlay_female_mutation_hair9red", "fg": 9714, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9red", "fg": 9715, "rotates": false },
+		{ "id": "overlay_female_mutation_hair9brown", "fg": 9716, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9brown", "fg": 9717, "rotates": false },
+		{ "id": "overlay_female_mutation_hair9black", "fg": 9718, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9black", "fg": 9719, "rotates": false },
+		{ "id": "overlay_female_mutation_hair9white", "fg": 9720, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9white", "fg": 9721, "rotates": false },
+		{ "id": "overlay_female_mutation_hair9gray", "fg": 9722, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9gray", "fg": 9723, "rotates": false },		
+		{ "id": "overlay_female_mutation_hair9pink", "fg": 9724, "rotates": false },
+		{ "id": "overlay_male_mutation_hair9pink", "fg": 9725, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_hair10blond", "fg": 9728, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10blond", "fg": 9729, "rotates": false },
+		{ "id": "overlay_female_mutation_hair10red", "fg": 9730, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10red", "fg": 9731, "rotates": false },
+		{ "id": "overlay_female_mutation_hair10brown", "fg": 9732, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10brown", "fg": 9733, "rotates": false },
+		{ "id": "overlay_female_mutation_hair10black", "fg": 9734, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10black", "fg": 9735, "rotates": false },
+		{ "id": "overlay_female_mutation_hair10white", "fg": 9736, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10white", "fg": 9737, "rotates": false },
+		{ "id": "overlay_female_mutation_hair10gray", "fg": 9738, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10gray", "fg": 9739, "rotates": false },		
+		{ "id": "overlay_female_mutation_hair10pink", "fg": 9740, "rotates": false },
+		{ "id": "overlay_male_mutation_hair10pink", "fg": 9741, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair1blond", "fg": 999830, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1blond", "fg": 9825, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1red", "fg": 999790, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1red", "fg": 9827, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1brown", "fg": 999829, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1brown", "fg": 9829, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1black", "fg": 999828, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1black", "fg": 9831, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1white", "fg": 999832, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1white", "fg": 9833, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1gray", "fg": 999831, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1gray", "fg": 9835, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1pink", "fg": 999838, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair1pink", "fg": 9837, "rotates": false },
 
-        
-        {
-          "id": "overlay_female_mutation_CHLOROMORPH",
-          "fg": 9744,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_BARK",
-          "fg": 9744,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_PLANTSKIN",
-          "fg": 9744,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SPINES",
-          "fg": 9744,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_THICK_SCALES",
-          "fg": 9744,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_THORNS",
-          "fg": 9744,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_M_SKIN",
-          "fg": 9747,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_CHITIN",
-          "fg": 9748,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_CHITIN_FUR",
-          "fg": 9748,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_CHITIN_FUR2",
-          "fg": 9748,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_CHITIN_FUR3",
-          "fg": 9748,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_CHITIN2",
-          "fg": 9748,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_CHITIN3",
-          "fg": 9748,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_CHLOROMORPH",
-          "fg": 9749,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_BARK",
-          "fg": 9749,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_PLANTSKIN",
-          "fg": 9749,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_SPINES",
-          "fg": 9749,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_THICK_SCALES",
-          "fg": 9749,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_THORNS",
-          "fg": 9749,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_LYNX_FUR",
-          "fg": 9750,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_M_SKIN",
-          "fg": 9754,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_SCALES",
-          "fg": 9752,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_SLEEK_SCALES",
-          "fg": 9752,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_TROGLO3",
-          "fg": 9753,
-          "rotates": false
-        },
-        {
-          "id": "npc_female",
-          "fg": 9616,
-          "bg": 967
-        },
-		{
-          "id": "npc_male",
-          "fg": 9632,
-          "bg": 967
-        },		{
-          "id": "overlay_male_mutation_forehair1black",
-          "fg": 9796,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair1brown",
-          "fg": 9797,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair1blond",
-          "fg": 9798,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair1gray",
-          "fg": 9799,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair1white",
-          "fg": 9800,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2black",
-          "fg": 9801,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2brown",
-          "fg": 9802,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2blond",
-          "fg": 9803,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2gray",
-          "fg": 9804,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2white",
-          "fg": 9805,
-          "rotates": false
-        },
-				{
-          "id": "overlay_male_mutation_hair1black",
-          "fg": 9808,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair1brown",
-          "fg": 9809,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair1blond",
-          "fg": 9810,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair1gray",
-          "fg": 9811,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair1white",
-          "fg": 9812,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2black",
-          "fg": 9813,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2brown",
-          "fg": 9814,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2blond",
-          "fg": 9815,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2gray",
-          "fg": 9816,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2white",
-          "fg": 9817,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3black",
-          "fg": 9818,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3brown",
-          "fg": 9819,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3blond",
-          "fg": 9820,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3gray",
-          "fg": 9821,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3white",
-          "fg": 9822,
-          "rotates": false
-        },
-				{
-          "id": "overlay_female_mutation_forehair1black",
-          "fg": 9828,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair1brown",
-          "fg": 9829,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair1blond",
-          "fg": 9830,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair1gray",
-          "fg": 9831,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair1white",
-          "fg": 9832,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2black",
-          "fg": 9833,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2brown",
-          "fg": 9834,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2blond",
-          "fg": 9835,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2gray",
-          "fg": 9836,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2white",
-          "fg": 9837,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair1black",
-          "fg": 9840,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair1brown",
-          "fg": 9841,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair1blond",
-          "fg": 9842,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair1gray",
-          "fg": 9843,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair1white",
-          "fg": 9844,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair2black",
-          "fg": 9845,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair2brown",
-          "fg": 9846,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair2blond",
-          "fg": 9847,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair2gray",
-          "fg": 9848,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair2white",
-          "fg": 9849,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3black",
-          "fg": 9850,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3brown",
-          "fg": 9851,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3blond",
-          "fg": 9852,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3gray",
-          "fg": 9853,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3white",
-          "fg": 9854,
-          "rotates": false
-        },
-		{
-          "id": "player_female",
-          "fg": 9616,
-          "bg": 967
-        },
-		        {
-          "id": "overlay_female_mutation_skin1",
-          "fg": 9824,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_skin2",
-          "fg": 9825,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_skin3",
-          "fg": 9826,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_skin4",
-          "fg": 9827,
-          "rotates": false
-        },
-		{
-          "id": "player_male",
-          "fg": 9632,
-          "bg": 967
-        },
-				{
-          "id": "overlay_male_mutation_skin1",
-          "fg": 9792,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_skin2",
-          "fg": 9793,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_skin3",
-          "fg": 9794,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_skin4",
-          "fg": 9795,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_EYE_BLUE",
-          "fg": 9617,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_EYE_BLUE",
-          "fg": 9618,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_EYE_BROWN",
-          "fg": 9619,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_EYE_BROWN",
-          "fg": 9620,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_EYE_GRAY",
-          "fg": 9621,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_EYE_GRAY",
-          "fg": 9622,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_EYE_RED",
-          "fg": 9623,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_EYE_RED",
-          "fg": 9624,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_EYE_GREEN",
-          "fg": 9625,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_EYE_GREEN",
-          "fg": 9626,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_EYE_YELLOW",
-          "fg": 9627,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_EYE_YELLOW",
-          "fg": 9628,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_SKIN_PINK",
-          "fg": 9633,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_SKIN_PINK",
-          "fg": 9634,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SKIN_LIGHT",
-          "fg": 9635,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_SKIN_LIGHT",
-          "fg": 9636,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SKIN_TAN",
-          "fg": 9637,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_SKIN_TAN",
-          "fg": 9638,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SKIN_DARK",
-          "fg": 9639,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_SKIN_DARK",
-          "fg": 9640,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_SKIN_MEDIUM",
-          "fg": 9641,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_SKIN_MEDIUM",
-          "fg": 9642,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_PALE",
-          "fg": 9643,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_PALE",
-          "fg": 9644,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_ALBINO",
-          "fg": 9643,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_ALBINO",
-          "fg": 9644,
-          "rotates": false
-        },
-        {
-          "id": "overlay_female_mutation_HAIR_BLONDE",
-          "fg": 9648,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_HAIR_BLONDE",
-          "fg": 9658,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_HAIR_RED",
-          "fg": 9664,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_hair2red",
-          "fg": 9666,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3red",
-          "fg": 9668,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair1red",
-          "fg": 9790,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2red",
-          "fg": 9791,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_HAIR_RED",
-          "fg": 9659,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2red",
-          "fg": 9723,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3red",
-          "fg": 9739,
-          "rotates": false
-        },		
-		{
-          "id": "overlay_male_mutation_forehair1red",
-          "fg": 9715,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2red",
-          "fg": 9718,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_HAIR_BROWN",
-          "fg": 9672,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_HAIR_BROWN",
-          "fg": 9656,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_HAIR_BLACK",
-          "fg": 9688,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_HAIR_BLACK",
-          "fg": 9657,
-          "rotates": false
-        },{
-          "id": "overlay_female_mutation_HAIR_WHITE",
-          "fg": 9704,
-          "rotates": false
-        },{
-          "id": "overlay_male_mutation_HAIR_WHITE",
-          "fg": 9661,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_HAIR_GRAY",
-          "fg": 9680,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_HAIR_GRAY",
-          "fg": 9660,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_HAIR_PINK",
-          "fg": 9696,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair2pink",
-          "fg": 9698,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_hair3pink",
-          "fg": 9742,
-          "rotates": false
-        },						
-		{
-          "id": "overlay_female_mutation_forehair1pink",
-          "fg": 9838,
-          "rotates": false
-        },
-		{
-          "id": "overlay_female_mutation_forehair2pink",
-          "fg": 9839,
-          "rotates": false
-        },
-				{
-          "id": "overlay_male_mutation_forehair1pink",
-          "fg": 9788,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_forehair2pink",
-          "fg": 9789,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_HAIR_PINK",
-          "fg": 9662,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair2pink",
-          "fg": 9735,
-          "rotates": false
-        },
-		{
-          "id": "overlay_male_mutation_hair3pink",
-          "fg": 9742,
-          "rotates": false
-        }
+		{ "id": "overlay_female_mutation_forehair2blond", "fg": 999835, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2blond", "fg": 9841, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2red", "fg": 999791, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2red", "fg": 9843, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2brown", "fg": 999834, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2brown", "fg": 9845, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2black", "fg": 999833, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2black", "fg": 9847, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2white", "fg": 999837, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2white", "fg": 9849, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2gray", "fg": 999836, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2gray", "fg": 9851, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2pink", "fg": 999839, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair2pink", "fg": 9853, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_LIGHT_FRECKLES", "fg": 10016, "rotates": false },
+        { "id": "overlay_male_mutation_LIGHT_FRECKLES", "fg": 10017, "rotates": false },		
+		{ "id": "overlay_female_mutation_DENSE_FRECKLES", "fg": 10018, "rotates": false },
+        { "id": "overlay_male_mutation_DENSE_FRECKLES", "fg": 10019, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_SKIN_ROUGH", "fg": 10020, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_ROUGH", "fg": 10021, "rotates": false },
+	    
+		{ "id": "overlay_female_mutation_SLIMY", "fg": 10022, "rotates": false },
+		{ "id": "overlay_male_mutation_SLIMY", "fg": 10023, "rotates": false },	
+		    
+		{ "id": "overlay_mutation_BEE", "fg": 10024, "rotates": false },
+		{ "id": "overlay_mutation_MUTE", "fg": 10025, "rotates": false },
+		
+		{ "id": ["overlay_mutation_DEBUG_NIGHTVISION", "overlay_DEBUG_CLOAK", "overlay_mutation_DEBUG_LS", "overlay_mutation_DEBUG_NOSCENT", "overlay_mutation_DEBUG_SILENT", "overlay_mutation_DEBUG_NOTEMP", "overlay_mutation_DEBUG_NODMG", "overlay_mutation_DEBUG_HS", "overlay_mutation_DEBUG_CBM_SLOTS", "overlay_mutation_DEBUG_MIND_CONTROL", "overlay_mutation_DEBUG_STORAGE"], "fg": 10026, "rotates": false },
+		
+		{ "id": "overlay_mutation_NPC_BRANDY", "fg": 10027, "rotates": false },
+		{ "id": "overlay_mutation_NPC_RUM", "fg": 10028, "rotates": false },
+		{ "id": "overlay_mutation_NPC_WHISKEY", "fg": 10029, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_SCALES", "fg": 10032, "rotates": false },
+		{ "id": "overlay_male_mutation_SCALES", "fg": 10033, "rotates": false },	
+		{ "id": "overlay_female_mutation_SLEEK_SCALES", "fg": 10034, "rotates": false },
+		{ "id": "overlay_male_mutation_SLEEK_SCALES", "fg": 10035, "rotates": false },
+		{ "id": "overlay_female_mutation_THICK_SCALES", "fg": 10036, "rotates": false },
+		{ "id": "overlay_male_mutation_THICK_SCALES", "fg": 10037, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_EYEBULGE", "fg": 10044, "rotates": false },
+		{ "id": "overlay_male_mutation_EYEBULGE", "fg": 10045, "rotates": false },	
+		{ "id": "overlay_female_mutation_CEPH_EYES", "fg": 10046, "rotates": false },
+		{ "id": "overlay_male_mutation_CEPH_EYES", "fg": 10047, "rotates": false },
+		{ "id": "overlay_female_mutation_ELFAEYES", "fg": 10048, "rotates": false },
+		{ "id": "overlay_male_mutation_ELFAEYES", "fg": 10049, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_FEL_EYE", "fg": 10050, "rotates": false },
+		{ "id": "overlay_male_mutation_FEL_EYE", "fg": 10051, "rotates": false },
+		{ "id": "overlay_female_mutation_LIZ_EYE", "fg": 10052, "rotates": false },
+		{ "id": "overlay_male_mutation_LIZ_EYE", "fg": 10053, "rotates": false },		
+	
+		
+		{ "id": "overlay_mutation_FANGS", "fg": 10054, "rotates": false },
+		{ "id": "overlay_mutation_SABER_TEETH", "fg": 10055, "rotates": false },
+		{ "id": "overlay_mutation_INCISORS", "fg": 10056, "rotates": false },
+		{ "id": "overlay_mutation_MEMBRANE", "fg": 10057, "rotates": false },	
+		{ "id": "overlay_mutation_GILLS", "fg": 10058, "rotates": false },
+		{ "id": "overlay_mutation_GILLS_CEPH", "fg": 10059, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_M_SKIN", "fg": 10060, "rotates": false },
+		{ "id": "overlay_male_mutation_M_SKIN", "fg": 10061, "rotates": false },
+		{ "id": "overlay_female_mutation_M_SKIN2", "fg": 10062, "rotates": false },
+		{ "id": "overlay_male_mutation_M_SKIN2", "fg": 10063, "rotates": false },
+		
+				{ "id": "overlay_female_mutation_FEATHERS", "fg": 10064, "rotates": false },
+		{ "id": "overlay_male_mutation_FEATHERS", "fg": 10065, "rotates": false },
+						{ "id": "overlay_female_mutation_DOWN", "fg": 10066, "rotates": false },
+		{ "id": "overlay_male_mutation_DOWN", "fg": 10067, "rotates": false },
+		{ "id": "overlay_female_mutation_LIGHTFUR", "fg": 10068, "rotates": false },
+		{ "id": "overlay_male_mutation_LIGHTFUR", "fg": 10069, "rotates": false },
+				{ "id": "overlay_female_mutation_FUR", "fg": 10070, "rotates": false },
+		{ "id": "overlay_male_mutation_FUR", "fg": 10071, "rotates": false },
+		{ "id": "overlay_female_mutation_URSINE_FUR", "fg": 10072, "rotates": false },
+		{ "id": "overlay_male_mutation_URSINE_FUR", "fg": 10073, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
+		{ "id": "overlay_male_mutation_PLANTSKIN", "fg": 10039, "rotates": false },
+		{ "id": "overlay_female_mutation_BARK", "fg": 10040, "rotates": false },
+		{ "id": "overlay_male_mutation_BARK", "fg": 10041, "rotates": false },
+		{ "id": "overlay_mutation_LEAVES", "fg": 10042, "rotates": false },
+		{ "id": "overlay_mutation_FLOWERS", "fg": 10043, "rotates": false }
     ]
     },
 	{
@@ -47162,7 +46269,8 @@
 		{ "id": "mon_zombie_bear_mega", "fg": 11579, "rotates": false },
 		{ "id": "mon_ant_acid_ultralisk", "fg": 11580, "rotates": false },
 		{ "id": "broken_tankbot", "fg": 11581, "rotates": false },
-		{ "id": "mon_albino_penguin", "fg": 11582, "rotates": false }
+		{ "id": "mon_albino_penguin", "fg": 11582, "rotates": false },
+		{ "id": "mon_skeleton_hulk", "fg": 11583, "rotates": false }
     ]
     }, 
 	{
