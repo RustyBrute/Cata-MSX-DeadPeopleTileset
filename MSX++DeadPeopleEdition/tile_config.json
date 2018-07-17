@@ -8483,7 +8483,7 @@
           "rotates": false
         },
         {
-          "id": ["char_kiln", "kiln", "kilnrig"],
+          "id": ["char_kiln", "kiln", "kilnrig", "vp_veh_kiln"],
           "fg": 1706,
           "bg": 957,
           "rotates": false
@@ -21324,7 +21324,7 @@
           ]
 		 },
 		  {
-          "id": "t_railroad_track",
+          "id": ["t_railroad_track", "t_railroad_track_h", "t_railroad_track_v", "t_railroad_track_d", "t_railroad_track_d1", "t_railroad_track_d2"],
           "fg": 4228,
           "bg": 1012,
           "rotates": false,
@@ -21357,7 +21357,7 @@
           ]
         },
 		{
-          "id": "t_railroad_tie",
+          "id": ["t_railroad_tie", "t_railroad_tie_d", "t_railroad_tie_v", "t_railroad_tie_h"],
           "fg": 4230,
           "rotates": false,
           "multitile": true,
@@ -21389,7 +21389,7 @@
           ]
         },
 		{
-          "id": "t_railroad_track_on_tie",
+          "id": ["t_railroad_track_on_tie", "t_railroad_track_d_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_h_on_tie"],
           "fg": 4231,
           "rotates": false,
           "multitile": true,
@@ -27925,7 +27925,7 @@
         },
         {
           "id": "stick",
-          "fg": 1943,
+          "fg": 4690,
           "rotates": false
         },
         {
@@ -30463,7 +30463,11 @@
           "fg": 4690,
           "rotates": false
         },	
-		
+				{
+          "id": "stick_long",
+          "fg": 1943,
+          "rotates": false
+        },	
 		{
           "id": "clue",
           "fg": 4691,
@@ -31660,7 +31664,12 @@
               "bg": 4885
             }
           ]
-        },
+        },		
+		{
+          "id": "chicken_cage",
+          "fg": 4886,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -46237,10 +46246,48 @@
 				{ "id": "overlay_female_mutation_FUR", "fg": 10070, "rotates": false },
 		{ "id": "overlay_male_mutation_FUR", "fg": 10071, "rotates": false },
 		{ "id": "overlay_female_mutation_URSINE_FUR", "fg": 10072, "rotates": false },
-		{ "id": "overlay_male_mutation_URSINE_FUR", "fg": 10073, "rotates": false },
+		{ "id": "overlay_male_mutation_URSINE_FUR", "fg": 10073, "rotates": false },		
+		{ "id": "overlay_female_mutation_LUPINE_FUR", "fg": 10074, "rotates": false },
+		{ "id": "overlay_male_mutation_LUPINE_FUR", "fg": 10075, "rotates": false },
+				{ "id": "overlay_female_mutation_FELINE_FUR", "fg": 10076, "rotates": false },
+		{ "id": "overlay_male_mutation_FELINE_FUR", "fg": 10077, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_SPINES", "fg": 10078, "rotates": false },
+		{ "id": "overlay_male_mutation_SPINES", "fg": 10079, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_CHITIN", "fg": 10080, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN", "fg": 10081, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN2", "fg": 10082, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN2", "fg": 10083, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN3", "fg": 10084, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN3", "fg": 10085, "rotates": false },
+		
+				{ "id": "overlay_female_mutation_CHITIN_FUR", "fg": 10086, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN_FUR", "fg": 10087, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN_FUR2", "fg": 10088, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN_FUR2", "fg": 10089, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_THORNS", "fg": 10090, "rotates": false },
+		{ "id": "overlay_male_mutation_THORNS", "fg": 10091, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_TROGLO", "fg": 10092, "rotates": false },
+		{ "id": "overlay_male_mutation_TROGLO", "fg": 10093, "rotates": false },
+		{ "id": "overlay_female_mutation_TROGLO2", "fg": 10094, "rotates": false },
+		{ "id": "overlay_male_mutation_TROGLO2", "fg": 10095, "rotates": false },
+		{ "id": "overlay_female_mutation_TROGLO3", "fg": 10096, "rotates": false },
+		{ "id": "overlay_male_mutation_TROGLO3", "fg": 10097, "rotates": false },
+		
+				{ "id": "overlay_female_mutation_LYNX_FUR", "fg": 10098, "rotates": false },
+		{ "id": "overlay_male_mutation_LYNX_FUR", "fg": 10099, "rotates": false },
+		
+		        { "id": "overlay_mutation_TAIL_LONG", "fg": 10100, "rotates": false },
+				
+        { "id": "overlay_mutation_WHISKERS", "fg": 10101, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		{ "id": "overlay_male_mutation_PLANTSKIN", "fg": 10039, "rotates": false },
+		{ "id": "overlay_female_mutation_CHLOROMORPH", "fg": 10038, "rotates": false },
+		{ "id": "overlay_male_mutation_CHLOROMORPH", "fg": 10039, "rotates": false },
 		{ "id": "overlay_female_mutation_BARK", "fg": 10040, "rotates": false },
 		{ "id": "overlay_male_mutation_BARK", "fg": 10041, "rotates": false },
 		{ "id": "overlay_mutation_LEAVES", "fg": 10042, "rotates": false },
