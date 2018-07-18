@@ -25262,18 +25262,18 @@
           "fg": 1440
         },		
 		{
-          "id": ["vp_diesel_engine_v12", "vp_engine_v12", "vp_engine_v8", "vp_diesel_engine_v8"],
+          "id": ["vp_diesel_engine_v12", "vp_engine_v12", "vp_engine_v8", "vp_diesel_engine_v8", "engine_block_massive", "engine_block_large"],
           "fg": 1440,
           "rotates": true
         },
 				{
-          "id": "vp_engine_1cyl",
+          "id": ["vp_engine_1cyl", "engine_block_medium"],
           "fg": 1435,
           "bg": 957,
           "rotates": true
         },		
 		{
-          "id": "vp_engine_1cyl_small",
+          "id": ["vp_engine_1cyl_small", "engine_block_tiny", "engine_block_small"],
           "fg": 1436,
           "bg": 957,
           "rotates": true
@@ -46284,13 +46284,20 @@
 				
         { "id": "overlay_mutation_WHISKERS", "fg": 10101, "rotates": false },
 		
+		{ "id": "overlay_mutation_BEAK_PECK", "fg": 10102, "rotates": false },
+		{ "id": "overlay_mutation_BEAK_HUM", "fg": 10103, "rotates": false },
+
+		
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		{ "id": "overlay_male_mutation_PLANTSKIN", "fg": 10039, "rotates": false },
 		{ "id": "overlay_female_mutation_CHLOROMORPH", "fg": 10038, "rotates": false },
 		{ "id": "overlay_male_mutation_CHLOROMORPH", "fg": 10039, "rotates": false },
 		{ "id": "overlay_female_mutation_BARK", "fg": 10040, "rotates": false },
 		{ "id": "overlay_male_mutation_BARK", "fg": 10041, "rotates": false },
-		{ "id": "overlay_mutation_LEAVES", "fg": 10042, "rotates": false },
+		{ "id": "overlay_male_mutation_LEAVES", "fg": 10042, "rotates": false },
+		{ "id": "overlay_female_mutation_LEAVES", "fg": 10042, "rotates": false },
+				{ "id": "overlay_male_mutation_LEAVES_TEMP", "fg": 10042, "rotates": false },
+		{ "id": "overlay_female_mutation_LEAVES_TEMP", "fg": 10042, "rotates": false },
 		{ "id": "overlay_mutation_FLOWERS", "fg": 10043, "rotates": false }
     ]
     },
