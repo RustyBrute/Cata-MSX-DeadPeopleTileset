@@ -8121,7 +8121,7 @@
           "rotates": false
         },
         {
-          "id": "barrel_big",
+          "id": ["barrel_big", "lead_barrel_big", "lead_barrel_heavy_duty"],
           "fg": 2233,
           "bg": 957,
           "rotates": false
@@ -8139,7 +8139,7 @@
           "rotates": false
         },
         {
-          "id": "barrel_small",
+          "id": ["barrel_small", "lead_barrel_small"],
           "fg": 2236,
           "bg": 957,
           "rotates": false
@@ -8257,7 +8257,7 @@
           "rotates": false
         },
         {
-          "id": "bipod",
+          "id": ["bipod", "lead_bipod"],
           "fg": 2237,
           "bg": 957,
           "rotates": false
@@ -8889,7 +8889,7 @@
           "rotates": false
         },
         {
-          "id": "grip",
+          "id": ["grip", "lead_grip"],
           "fg": 2241,
           "bg": 957,
           "rotates": false
@@ -8954,7 +8954,7 @@
           "rotates": false
         },
         {
-          "id": "holo_sight",
+          "id": ["holo_sight", "lead_holo_sight"],
           "fg": 2242,
           "bg": 957,
           "rotates": false
@@ -9176,7 +9176,7 @@
           "rotates": false
         },
         {
-          "id": "laser_sight",
+          "id": ["laser_sight", "lead_laser_sight"], 
           "fg": 2244,
           "bg": 957,
           "rotates": false
@@ -10030,13 +10030,13 @@
           "rotates": false
         },
         {
-          "id": "rifle_scope",
+          "id": ["rifle_scope", "lead_rifle_scope"],
           "fg": 2256,
           "bg": 957,
           "rotates": false
         },
 		        {
-          "id": ["acog_scope", "bow_scope"],
+          "id": ["lead_acog_scope", "acog_scope", "bow_scope"],
           "fg": 2256,
           "bg": 957,
           "rotates": false
@@ -29206,7 +29206,7 @@
           "rotates": false
         },
 		{
-          "id": "boulder_anvil",
+          "id": ["boulder_anvil", "boulder_anvil_leveled"],
           "fg": 4449,
           "rotates": false
         },
@@ -31671,6 +31671,138 @@
           "rotates": false
         },	
 		{
+          "id": "f_piano",
+          "fg": 4887,
+          "rotates": false
+        },		
+		{
+          "id": "f_anvil_stone",
+          "fg": 4888,
+          "rotates": false
+        },
+		{
+          "id": "t_rock_hematite",
+          "fg": 4889,
+		  "bg": 3192,
+          "rotates": false
+        },
+				{
+          "id": "t_rock_galena",
+          "fg": 4890,
+		  "bg": 3192,
+          "rotates": false
+        },
+						{
+          "id": "t_rock_cassiterite",
+          "fg": 4891,
+		  "bg": 3192,
+          "rotates": false
+        },
+								{
+          "id": "t_rock_aluminum",
+          "fg": 4892,
+		  "bg": 3192,
+          "rotates": false
+        },								
+		{
+          "id": "t_rock_gold",
+          "fg": 4893,
+		  "bg": 3192,
+          "rotates": false
+        },
+				{
+          "id": "t_rock_silver",
+          "fg": 4894,
+		  "bg": 3192,
+          "rotates": false
+        },				
+		{
+          "id": "t_rock_copper",
+          "fg": 4895,
+		  "bg": 3192,
+          "rotates": false
+        },
+				{
+          "id": "t_rock_brimstone",
+          "fg": 4896,
+		  "bg": 3192,
+          "rotates": false
+        },				
+		{
+          "id": "t_rock_niter",
+          "fg": 4897,
+		  "bg": 3192,
+          "rotates": false
+        },
+				{
+          "id": "t_rock_halite",
+          "fg": 4898,
+		  "bg": 3192,
+          "rotates": false
+        },			
+		{
+          "id": "t_rock_coal",
+          "fg": 4899,
+		  "bg": 3192,
+          "rotates": false
+        },
+		{
+          "id": "chunk_gold",
+          "fg": 4900,
+          "rotates": false
+        },			
+		{
+          "id": "chunk_silver",
+          "fg": 4901,
+          "rotates": false
+        },			
+		{
+          "id": "chunk_copper",
+          "fg": 4902,
+          "rotates": false
+        },			
+		{
+          "id": "chunk_galena",
+          "fg": 4902,
+          "rotates": false
+        },			
+		{
+          "id": "chunk_aluminum",
+          "fg": 4903,
+          "rotates": false
+        },			
+		{
+          "id": "chunk_cassiterite",
+          "fg": 4904,
+          "rotates": false
+        },		
+		{
+          "id": "chunk_hematite",
+          "fg": 4905,
+          "rotates": false
+        },	
+		{
+          "id": "pickaxe_bone",
+          "fg": 4906,
+          "rotates": false
+        },
+		{
+          "id": "pickaxe_copper",
+          "fg": 4907,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_pickaxe_bone",
+          "fg": 4908,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_pickaxe_copper",
+          "fg": 4909,
+          "rotates": false
+        },
+		
+		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
@@ -32061,7 +32193,7 @@
           "fg": 2058
         },
         {
-          "id": "m320_mod",
+          "id": ["m320_mod", "lead_glm"],
           "fg": 2058
         },
         {
@@ -34017,7 +34149,7 @@
           "fg": 2232
         },
         {
-          "id": "stabilizer",
+          "id": ["stabilizer", "lead_stabilizer"],
           "fg": 2232
         },
         {
@@ -34049,7 +34181,7 @@
           "fg": 2242
         },
         {
-          "id": "red_dot_sight",
+          "id": ["red_dot_sight", "lead_red_dot_sight"],
           "fg": 2243
         },
 		        {
@@ -39265,7 +39397,7 @@
           "fg": 3752
         },
         {
-          "id": "masterkey",
+          "id": ["masterkey", "lead_u_shotgun"],
           "fg": 3752
         },
         {
@@ -46155,35 +46287,155 @@
 		{ "id": "overlay_female_mutation_hair10pink", "fg": 9740, "rotates": false },
 		{ "id": "overlay_male_mutation_hair10pink", "fg": 9741, "rotates": false },
 		
-		{ "id": "overlay_female_mutation_forehair1blond", "fg": 999830, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1blond", "fg": 9824, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1blond", "fg": 9825, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair1red", "fg": 999790, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1red", "fg": 9826, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1red", "fg": 9827, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair1brown", "fg": 999829, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1brown", "fg": 9828, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1brown", "fg": 9829, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair1black", "fg": 999828, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1black", "fg": 9830, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1black", "fg": 9831, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair1white", "fg": 999832, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1white", "fg": 9832, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1white", "fg": 9833, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair1gray", "fg": 999831, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1gray", "fg": 9834, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1gray", "fg": 9835, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair1pink", "fg": 999838, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair1pink", "fg": 9836, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair1pink", "fg": 9837, "rotates": false },
 
-		{ "id": "overlay_female_mutation_forehair2blond", "fg": 999835, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2blond", "fg": 9840, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2blond", "fg": 9841, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair2red", "fg": 999791, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2red", "fg": 9842, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2red", "fg": 9843, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair2brown", "fg": 999834, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2brown", "fg": 9844, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2brown", "fg": 9845, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair2black", "fg": 999833, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2black", "fg": 9846, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2black", "fg": 9847, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair2white", "fg": 999837, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2white", "fg": 9848, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2white", "fg": 9849, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair2gray", "fg": 999836, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2gray", "fg": 9850, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2gray", "fg": 9851, "rotates": false },
-		{ "id": "overlay_female_mutation_forehair2pink", "fg": 999839, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair2pink", "fg": 9852, "rotates": false },
 		{ "id": "overlay_male_mutation_forehair2pink", "fg": 9853, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair3blond", "fg": 9856, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3blond", "fg": 9857, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair3red", "fg": 9858, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3red", "fg": 9859, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair3brown", "fg": 9860, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3brown", "fg": 9861, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair3black", "fg": 9862, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3black", "fg": 9863, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair3white", "fg": 9864, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3white", "fg": 9867, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair3gray", "fg": 9866, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3gray", "fg": 9867, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair3pink", "fg": 9868, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair3pink", "fg": 9869, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair4blond", "fg": 9872, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4blond", "fg": 9873, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair4red", "fg": 9874, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4red", "fg": 9875, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair4brown", "fg": 9876, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4brown", "fg": 9877, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair4black", "fg": 9878, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4black", "fg": 9879, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair4white", "fg": 9880, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4white", "fg": 9881, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair4gray", "fg": 9882, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4gray", "fg": 9883, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair4pink", "fg": 9884, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair4pink", "fg": 9885, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair5blond", "fg": 9888, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5blond", "fg": 9889, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair5red", "fg": 9890, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5red", "fg": 9891, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair5brown", "fg": 9892, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5brown", "fg": 9893, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair5black", "fg": 9894, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5black", "fg": 9895, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair5white", "fg": 9896, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5white", "fg": 9897, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair5gray", "fg": 9898, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5gray", "fg": 9899, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair5pink", "fg": 9900, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair5pink", "fg": 9901, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair6blond", "fg": 9904, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6blond", "fg": 9905, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair6red", "fg": 9906, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6red", "fg": 9907, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair6brown", "fg": 9908, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6brown", "fg": 9909, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair6black", "fg": 9910, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6black", "fg": 9911, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair6white", "fg": 9912, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6white", "fg": 9913, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair6gray", "fg": 9914, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6gray", "fg": 9915, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair6pink", "fg": 9916, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair6pink", "fg": 9917, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair7blond", "fg": 9920, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7blond", "fg": 9921, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair7red", "fg": 9922, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7red", "fg": 9923, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair7brown", "fg": 9924, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7brown", "fg": 9925, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair7black", "fg": 9926, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7black", "fg": 9927, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair7white", "fg": 9928, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7white", "fg": 9929, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair7gray", "fg": 9930, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7gray", "fg": 9931, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair7pink", "fg": 9932, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair7pink", "fg": 9933, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair8blond", "fg": 9936, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8blond", "fg": 9937, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair8red", "fg": 9938, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8red", "fg": 9939, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair8brown", "fg": 9940, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8brown", "fg": 9941, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair8black", "fg": 9942, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8black", "fg": 9943, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair8white", "fg": 9944, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8white", "fg": 9945, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair8gray", "fg": 9946, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8gray", "fg": 9947, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair8pink", "fg": 9948, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair8pink", "fg": 9949, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair9blond", "fg": 9952, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9blond", "fg": 9953, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair9red", "fg": 9954, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9red", "fg": 9955, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair9brown", "fg": 9956, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9brown", "fg": 9957, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair9black", "fg": 9958, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9black", "fg": 9959, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair9white", "fg": 9960, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9white", "fg": 9961, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair9gray", "fg": 9962, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9gray", "fg": 9963, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair9pink", "fg": 9964, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair9pink", "fg": 9965, "rotates": false },
+		
+		{ "id": "overlay_female_mutation_forehair10blond", "fg": 9968, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10blond", "fg": 9969, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair10red", "fg": 9970, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10red", "fg": 9971, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair10brown", "fg": 9972, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10brown", "fg": 9973, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair10black", "fg": 9974, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10black", "fg": 9975, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair10white", "fg": 9976, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10white", "fg": 9977, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair10gray", "fg": 9978, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10gray", "fg": 9979, "rotates": false },
+		{ "id": "overlay_female_mutation_forehair10pink", "fg": 9980, "rotates": false },
+		{ "id": "overlay_male_mutation_forehair10pink", "fg": 9981, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_LIGHT_FRECKLES", "fg": 10016, "rotates": false },
         { "id": "overlay_male_mutation_LIGHT_FRECKLES", "fg": 10017, "rotates": false },		
@@ -47299,7 +47551,7 @@
           "rotates": false		  
         },		
 		{
-          "id": "!fd_fire",
+          "id": "fd_slime",
           "fg": 17028,
           "bg": 0,
           "multitile": true,
