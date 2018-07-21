@@ -3324,7 +3324,7 @@
           "rotates": false
         },
         {
-          "id": "bootstrap",
+          "id": ["bootstrap", "spearsling"],
           "fg": 434
         },
         {
@@ -31763,45 +31763,74 @@
         },			
 		{
           "id": "chunk_galena",
-          "fg": 4902,
-          "rotates": false
-        },			
-		{
-          "id": "chunk_aluminum",
           "fg": 4903,
           "rotates": false
         },			
 		{
-          "id": "chunk_cassiterite",
+          "id": "chunk_aluminum",
           "fg": 4904,
+          "rotates": false
+        },			
+		{
+          "id": "chunk_cassiterite",
+          "fg": 4905,
           "rotates": false
         },		
 		{
           "id": "chunk_hematite",
-          "fg": 4905,
+          "fg": 4906,
           "rotates": false
         },	
 		{
           "id": "pickaxe_bone",
-          "fg": 4906,
+          "fg": 4907,
           "rotates": false
         },
 		{
           "id": "pickaxe_copper",
-          "fg": 4907,
+          "fg": 4908,
           "rotates": false
         },
 				{
           "id": "overlay_wielded_pickaxe_bone",
-          "fg": 4908,
+          "fg": 4909,
           "rotates": false
         },
 		{
           "id": "overlay_wielded_pickaxe_copper",
-          "fg": 4909,
+          "fg": 4910,
           "rotates": false
         },
-		
+				{
+          "id": "spearsling",
+          "fg": 4911,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_spearsling",
+          "fg": 4912,
+          "rotates": false
+        },
+		{
+          "id": "f_boulder_anvil",
+          "fg": 4913,
+          "rotates": false
+        },
+		{
+          "id": "f_bog_iron",
+          "fg": 4914,
+          "rotates": false
+        },
+		{
+          "id": "spear_homemade_halfpike",
+          "fg": 4915,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_spear_homemade_halfpike",
+          "fg": 4916,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
