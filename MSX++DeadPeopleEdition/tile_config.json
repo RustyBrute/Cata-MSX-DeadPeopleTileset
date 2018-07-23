@@ -159,7 +159,7 @@
           "rotates": false
         },
 		{
-          "id": "357",
+          "id": ["357", "357_mag", "357_magn"],
           "fg": 18,
           "bg": 957,
           "rotates": false
@@ -445,7 +445,7 @@
           "rotates": false
         },
         {
-          "id": "50bmg",
+          "id": ["50bmg", "50bmg_HEIAP"],
           "fg": 56,
           "bg": 957,
           "rotates": false
@@ -534,7 +534,7 @@
           "fg": 68
         },
         {
-          "id": "762_25",
+          "id": ["762_25", "762_38R", "763_25g"],
           "fg": 69,
           "bg": 957,
           "rotates": false
@@ -612,7 +612,7 @@
           "rotates": false
         },
         {
-          "id": "8mm_civilian",
+          "id": ["8mm_civilian", "3030_win"],
           "fg": 80,
           "bg": 957,
           "rotates": false
@@ -7811,7 +7811,7 @@
           "rotates": false
         },
         {
-          "id": "38_casing",
+          "id": ["38_casing", "3030_casing"],
           "fg": 1612,
           "bg": 957,
           "rotates": false
@@ -7823,7 +7823,7 @@
           "rotates": false
         },	
 		{
-          "id": "357sig_casing",
+          "id": ["357sig_casing", "357_casing"],
           "fg": 1612,
           "bg": 957,
           "rotates": false
@@ -11188,7 +11188,7 @@
           "rotates": false
         },
         {
-          "id": "m240",
+          "id": ["m240", "ameli"],
           "fg": 2055,
           "bg": 957
         },
@@ -11507,7 +11507,7 @@
           "rotates": false
         },
         {
-          "id": "m1911",
+          "id": ["m1911", "amthard"],
           "fg": 2050,
           "bg": 957,
           "rotates": false
@@ -26348,7 +26348,7 @@
           "rotates": false
         },
         {
-          "id": "762_casing",
+          "id": ["762_casing", "762_38R_casing"],
           "fg": 1622,
           "rotates": false
         },
@@ -28149,7 +28149,7 @@
           "fg": 2245
         },
 		{
-          "id": "surv_223_mag",
+          "id": ["308ak74mag25", "308betacmag", "308r5mag", "308steyrmag10", "308steyrmag5", "308x_14mag50"],
           "fg": 2245
         },
 		{
@@ -28165,7 +28165,7 @@
           "fg": 2245
         },		
 		{
-          "id": "surv_308_mag",
+          "id": ["surv_308_mag", "300r4mag"],
           "fg": 2245
         },
 				{
@@ -30182,7 +30182,7 @@
           "rotates": false
         },  
 		{
-          "id": ["3006_clip", "762x39_clip", "762R_clip"],
+          "id": ["3006_clip", "762x39_clip", "762R_clip", "763x25G_clip"],
           "fg": 4632,
           "rotates": false
         }, 		
@@ -31831,6 +31831,47 @@
           "fg": 4916,
           "rotates": false
         },
+				{
+          "id": "464spx",
+          "fg": 4917,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_464spx",
+          "fg": 4918,
+          "rotates": false
+        },
+		{
+          "id": "apc9",
+          "fg": 4919,
+          "rotates": false
+        },
+		{
+          "id": "ar57",
+          "fg": 4920,
+          "rotates": false
+        },
+				{
+          "id": "hs_semi",
+          "fg": 4921,
+          "rotates": false
+        },				
+		{
+          "id": "browning_hp",
+          "fg": 4922,
+          "rotates": false
+        },  
+		{
+          "id": "overlay_wielded_browning_hp",
+          "fg": 2074,
+          "rotates": false
+        }, 		
+		{
+          "id": "overlay_wielded_flaregun",
+          "fg": 4923,
+          "rotates": false
+        },
+		
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -32300,17 +32341,12 @@
           "fg": 2073
         },
         {
-          "id": "overlay_wielded_2_shot_special",
+          "id": ["overlay_wielded_2_shot_special", "overlay_wielded_hs_semi"],
           "fg": 2074,
           "rotates": false
         },
         {
           "id": "overlay_wielded_coilgun",
-          "fg": 2074,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_flaregun",
           "fg": 2074,
           "rotates": false
         },
@@ -32425,7 +32461,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_arx160",
+          "id": ["overlay_wielded_arx160", "overlay_wielded_ar57"],
           "fg": 2078,
           "rotates": false
         },
@@ -32460,7 +32496,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_m1911",
+          "id": ["overlay_wielded_m1911", "overlay_wielded_amthard", "overlay_wielded_browning_hp"],
           "fg": 2079,
           "rotates": false
         },
@@ -32854,7 +32890,7 @@
           "rotates": false
         },
 		{
-          "id": ["overlay_wielded_410_revolver", "overlay_wielded_model_10_revolver"],
+          "id": ["overlay_wielded_410_revolver", "overlay_wielded_model_10_revolver", "overlay_wielded_sw_686"],
           "fg": 2079,
           "rotates": false
         },
@@ -33105,7 +33141,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_hk_ump45",
+          "id": ["overlay_wielded_hk_ump45", "overlay_wielded_apc9"],
           "fg": 2110,
           "rotates": false
         },
@@ -33238,7 +33274,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_m240",
+          "id": ["overlay_wielded_m240", "overlay_wielded_ameli"],
           "fg": 2119,
           "rotates": false
         },
@@ -33518,7 +33554,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_win70",
+          "id": ["overlay_wielded_win70", "overlay_wielded_henry"],
           "fg": 2137,
           "rotates": false
         },
@@ -34089,7 +34125,7 @@
           "fg": 2221
         },
 		{
-          "id": ["410_revolver", "model_10_revolver"],
+          "id": ["410_revolver", "model_10_revolver", "sw_686"],
           "fg": 2210
         },
         {
@@ -34116,7 +34152,7 @@
           "fg": 2227
         },
         {
-          "id": "win70",
+          "id": ["win70", "henry"],
           "fg": 2228,
           "rotates": false
         },
@@ -34514,7 +34550,7 @@
           "rotates": false
         },
         {
-          "id": "8x40_10_mag",
+          "id": ["8x40_10_mag", "9mmbetacmag", "9mmcbjmag"],
           "fg": 2268,
           "rotates": false
         },
@@ -34600,11 +34636,11 @@
           "rotates": false
         },
         {
-          "id": "ruger1022mag",
+          "id": ["ruger1022mag", "22mag"],
           "fg": 2269
         },
         {
-          "id": "lw223mag",
+          "id": ["lw223mag", "223r5mag"],
           "fg": 2270,
           "rotates": false
         },
@@ -34730,7 +34766,7 @@
           "rotates": false
         },
         {
-          "id": "survivor223mag",
+          "id": ["survivor223mag", "223ak74mag10", "223ak74mag30", "223ak74mag35", "transmag"],
           "fg": 2277,
           "rotates": false
         },
@@ -46605,7 +46641,8 @@
 		{ "id": "mon_ant_acid_ultralisk", "fg": 11580, "rotates": false },
 		{ "id": "broken_tankbot", "fg": 11581, "rotates": false },
 		{ "id": "mon_albino_penguin", "fg": 11582, "rotates": false },
-		{ "id": "mon_skeleton_hulk", "fg": 11583, "rotates": false }
+		{ "id": "mon_skeleton_hulk", "fg": 11583, "rotates": false },
+		{ "id": "mon_revenant", "fg": 11584, "rotates": false }
     ]
     }, 
 	{
@@ -47129,6 +47166,95 @@
 			{ "weight":1, "sprite":11925},
 			{ "weight":1, "sprite":11926},
 			{ "weight":1, "sprite":11927}
+            ],
+          "bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_broken_cyborg",
+          "fg": [
+            { "weight":1, "sprite":2362},
+            { "weight":1, "sprite":11940}, 
+			{ "weight":1, "sprite":11941},
+			{ "weight":1, "sprite":11942},
+			{ "weight":1, "sprite":11943},
+			{ "weight":1, "sprite":11944},
+			{ "weight":1, "sprite":11945}
+            ],
+          "bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_zombie_child",
+          "fg": [
+            { "weight":3, "sprite":2685},
+            { "weight":3, "sprite":2686},
+			{ "weight":3, "sprite":2687},
+			{ "weight":3, "sprite":11956},
+            { "weight":3, "sprite":11957},
+			{ "weight":3, "sprite":11958},
+			{ "weight":3, "sprite":11959},
+            { "weight":3, "sprite":11960},
+			{ "weight":3, "sprite":11961},
+			{ "weight":3, "sprite":11962}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_child_2",
+          "fg": [
+            { "weight":3, "sprite":2685},
+            { "weight":3, "sprite":2686},
+			{ "weight":3, "sprite":2687},
+			{ "weight":3, "sprite":11956},
+            { "weight":3, "sprite":11957},
+			{ "weight":3, "sprite":11958},
+			{ "weight":3, "sprite":11959},
+            { "weight":3, "sprite":11960},
+			{ "weight":3, "sprite":11961},
+			{ "weight":3, "sprite":11962}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_child_3",
+          "fg": [
+            { "weight":3, "sprite":2685},
+            { "weight":3, "sprite":2686},
+			{ "weight":3, "sprite":2687},
+			{ "weight":3, "sprite":11956},
+            { "weight":3, "sprite":11957},
+			{ "weight":3, "sprite":11958},
+			{ "weight":3, "sprite":11959},
+            { "weight":3, "sprite":11960},
+			{ "weight":3, "sprite":11961},
+			{ "weight":3, "sprite":11962}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_child_pk",
+          "fg": [
+            { "weight":3, "sprite":2688},
+			{ "weight":3, "sprite":11972},
+			{ "weight":3, "sprite":11973}
+            ],
+          "bg": 967,
+          "rotates": false
+        },        
+		{
+          "id": "mon_zombie_survivor",
+          "fg": [
+            { "weight":3, "sprite":2760},
+			{ "weight":3, "sprite":11988},
+			{ "weight":3, "sprite":11989},
+			{ "weight":3, "sprite":11990},
+			{ "weight":3, "sprite":11991},
+			{ "weight":3, "sprite":11992},
+			{ "weight":3, "sprite":11993}
             ],
           "bg": 967,
           "rotates": false
