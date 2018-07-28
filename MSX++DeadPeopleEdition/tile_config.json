@@ -28265,7 +28265,7 @@
           "bg": 4306
         },
 				{
-          "id": "spell_heal",
+          "id": ["spell_heal", "spell_strength_on", "spell_strength", "spell_insight_on", "spell_insight", "spell_free_action_on", "spell_free_action", "spell_cleric_on", "spell_cleric", "spell_clarity_on", "spell_clarity"],
           "bg": 4306
         },
 				{
@@ -31871,7 +31871,26 @@
           "fg": 4923,
           "rotates": false
         },
-		
+				{
+          "id": ["livestock_carrier", "vp_livestock_carrier"],
+          "fg": 4924,
+          "rotates": false
+        },
+						{
+          "id": "monster_tear",
+          "fg": 4925,
+          "rotates": false
+        },						
+		{
+          "id": "shadow_gem",
+          "fg": 4926,
+          "rotates": false
+        },
+								{
+          "id": "stinger_flute",
+          "fg": 4927,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
