@@ -14957,9 +14957,15 @@
           "rotates": false
         },
         {
-          "id": "mag_firstaid",
+          "id": ["mag_firstaid", "booklet_firstaid"],
           "fg": 1032,
           "bg": 963,
+          "rotates": false
+        },
+		{
+          "id": "booklet_firstaid",
+          "fg": 1032,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -22749,7 +22755,7 @@
           "rotates": false
         },		        
         {
-          "id": ["disinfectant", "disinfectant_survivor"],
+          "id": ["disinfectant", "disinfectant_survivor", "disinfectant_makeshift"],
           "fg": 1094,
           "rotates": false
         },
