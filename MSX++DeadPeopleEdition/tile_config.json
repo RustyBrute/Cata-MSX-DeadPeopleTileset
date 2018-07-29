@@ -9456,6 +9456,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "t_nuclear_reactor",
+          "fg": 3623,
+          "bg": 3121,
+          "rotates": false
+        },
         {
           "id": "mintpatties",
           "fg": 1265,
@@ -10417,7 +10423,7 @@
           "rotates": false
         },
         {
-          "id": "storage_battery",
+          "id": ["storage_battery", "hd_battery"],
           "fg": 2276,
           "bg": 957,
           "rotates": false
@@ -13978,7 +13984,7 @@
           "rotates": false
         },
         {
-          "id": "textbook_chemistry",
+          "id": ["textbook_chemistry", "textbook_atomic"],
           "fg": 1030,
           "bg": 960,
           "rotates": false
@@ -22343,7 +22349,7 @@
           "rotates": false
         },
         {
-          "id": "bio_solar",
+          "id": ["bio_solar", "bn_bio_solar"],
           "fg": 1016,
           "rotates": false
         },
@@ -24023,7 +24029,7 @@
           "rotates": false
         },
         {
-          "id": ["mutagen", "iv_mutagen_alpha", "iv_mutagen_spider", "iv_mutagen_cattle",  "iv_mutagen_rat",  "iv_mutagen",  "iv_mutagen_fish",  "iv_mutagen_raptor", "mutagen_eye_blue", "mutagen_eye_brown", "mutagen_eye_gray", "mutagen_eye_red", "mutagen_eye_green", "mutagen_eye_yellow", "mutagen_skin_pink", "mutagen_skin_light", "mutagen_skin_tan", "mutagen_skin_dark", "mutagen_skin_medium", "mutagen_skin_pale", "mutagen_hair_blonde", "mutagen_hair_red", "mutagen_hair_brown", "mutagen_hair_black", "mutagen_hair_white", "mutagen_hair_pink", "mutagen_hair_gray", "mutagen_hair_bald"],
+          "id": ["mutagen", "iv_mutagen_alpha", "iv_mutagen_spider", "iv_mutagen_cattle",  "iv_mutagen_rat",  "iv_mutagen",  "iv_mutagen_fish",  "iv_mutagen_raptor", "mutagen_eye_blue", "mutagen_eye_brown", "mutagen_eye_gray", "mutagen_eye_red", "mutagen_eye_green", "mutagen_eye_yellow", "mutagen_skin_pink", "mutagen_skin_light", "mutagen_skin_tan", "mutagen_skin_dark", "mutagen_skin_medium", "mutagen_skin_pale", "mutagen_hair_blonde", "mutagen_hair_red", "mutagen_hair_brown", "mutagen_hair_black", "mutagen_hair_white", "mutagen_hair_pink", "mutagen_hair_gray", "mutagen_hair_bald", "mutagen_hair_bald", "iv_mutagenM", "iv_mutagen_alphaM", "iv_mutagen_beastM", "iv_mutagen_birdM", "iv_mutagen_cattleM", "iv_mutagen_cephalopodM", "iv_mutagen_chimeraM", "iv_mutagen_elfaM", "iv_mutagen_felineM", "iv_mutagen_fishM", "iv_mutagen_insectM", "iv_mutagen_lizardM", "iv_mutagen_lupineM", "iv_mutagen_medicalM", "iv_mutagen_plantM", "iv_mutagen_raptorM", "iv_mutagen_ratM", "iv_mutagen_slimeM", "iv_mutagen_spiderM", "iv_mutagen_tortoise", "iv_mutagen_troglobiteM", "iv_mutagen_ursineM", "iv_purifierM"],
           "fg": 1273,
           "rotates": false
         },
@@ -31961,17 +31967,17 @@
           "fg": 4941,
           "rotates": false
         },
-				{
+		{
           "id": "iridescent_plate",
           "fg": 4942,
           "rotates": false
         },
-						{
+		{
           "id": "monster_fang",
           "fg": 4943,
           "rotates": false
         },
-								{
+		{
           "id": "vortex_shard",
           "fg": 4944,
           "rotates": false
@@ -31979,6 +31985,31 @@
 		{
           "id": "wyrmskin_piece",
           "fg": 4945,
+          "rotates": false
+        },
+				{
+          "id": "hazardous_waste_drum",
+          "fg": 4946,
+          "rotates": false
+        },		
+		{
+          "id": "nuclear_waste",
+          "fg": 4947,
+          "rotates": false
+        },
+		{
+          "id": "nuclear_fuel",
+          "fg": 4948,
+          "rotates": false
+        },
+				{
+          "id": "laser_rifle_cheap",
+          "fg": 4949,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_laser_rifle_cheap",
+          "fg": 4950,
           "rotates": false
         },
 		{
