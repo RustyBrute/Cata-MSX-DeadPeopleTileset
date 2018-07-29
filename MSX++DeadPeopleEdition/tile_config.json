@@ -31872,9 +31872,9 @@
           "rotates": false
         },
 				{
-          "id": ["livestock_carrier", "vp_livestock_carrier"],
+          "id": ["livestock_carrier", "vp_livestock_stall"],
           "fg": 4924,
-          "rotates": false
+          "rotates": true
         },
 						{
           "id": "monster_tear",
@@ -31886,9 +31886,64 @@
           "fg": 4926,
           "rotates": false
         },
-								{
+		{
           "id": "stinger_flute",
           "fg": 4927,
+          "rotates": false
+        },
+		{
+          "id": "triffid_queen_flower",
+          "fg": 4928,
+          "rotates": false
+        },
+		{
+          "id": "triffid_garland",
+          "fg": 4929,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_triffid_garland",
+          "fg": 4930,
+          "rotates": false
+        },
+				{
+          "id": "amulet_exotic",
+          "fg": 4931,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_amulet_exotic",
+          "fg": 4932,
+          "rotates": false
+        },
+						{
+          "id": "brooch_iridescent",
+          "fg": 4933,
+          "rotates": false
+        },		
+		{
+          "id": "bone_twisted",
+          "fg": 4934,
+          "rotates": false
+        },
+				{
+          "id": "charm_bone",
+          "fg": 4935,
+          "rotates": false
+        },
+						{
+          "id": "graboid_fang",
+          "fg": 4936,
+          "rotates": false
+        },
+		{
+          "id": ["totem_strength", "totem_plants", "totem_lightning", "totem_invis", "totem_insight", "totem_heal", "totem_free_action", "totem_flamearmor", "totem_elecresist", "totem_confusion", "totem_cleric", "totem_clarity", "totem_clairvoyance", "totem_agile", "totem_acidspray"],
+          "fg": 4937,
+          "rotates": false
+        },
+								{
+          "id": "blob_gem",
+          "fg": 4938,
           "rotates": false
         },
 		{
