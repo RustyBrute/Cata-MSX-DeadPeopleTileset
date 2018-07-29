@@ -31941,9 +31941,44 @@
           "fg": 4937,
           "rotates": false
         },
-								{
+		{
           "id": "blob_gem",
           "fg": 4938,
+          "rotates": false
+        },
+		{
+          "id": "dermatik_sting",
+          "fg": 4939,
+          "rotates": false
+        },
+		{
+          "id": "engraved_stone",
+          "fg": 4940,
+          "rotates": false
+        },		
+		{
+          "id": "gracken_knuckles",
+          "fg": 4941,
+          "rotates": false
+        },
+				{
+          "id": "iridescent_plate",
+          "fg": 4942,
+          "rotates": false
+        },
+						{
+          "id": "monster_fang",
+          "fg": 4943,
+          "rotates": false
+        },
+								{
+          "id": "vortex_shard",
+          "fg": 4944,
+          "rotates": false
+        },		
+		{
+          "id": "wyrmskin_piece",
+          "fg": 4945,
           "rotates": false
         },
 		{
