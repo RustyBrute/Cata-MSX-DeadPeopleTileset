@@ -19742,7 +19742,7 @@
           ]
         },
         {
-          "id": "t_recycler",
+          "id": ["t_recycler", "f_recycle_bin"],
           "fg": 3181,
           "bg": 993,
           "rotates": false
@@ -32031,6 +32031,15 @@
 				{
           "id": "mon_turret_bmg",
           "fg": 4953,
+		  "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "f_target",
+		  "fg": [
+            { "weight":1, "sprite":4954},
+            { "weight":2, "sprite":4955}
+            ],
 		  "bg": 967,
           "rotates": false
         },	
@@ -47936,6 +47945,46 @@
             {
               "fg": 17043,
 			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },	
+		{
+		  "id": "f_rubble_landfill",
+          "fg": 17044,
+          "bg": 16884,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17044,
+		      "bg": 16884,
+              "id": "center"
+            },
+			{
+              "fg": [ 17045, 17046, 17047, 17048 ],
+			  "bg": [ 16885, 16886, 16887, 16888 ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17049, 17050, 17051, 17052],
+			  "bg": [ 16889, 16890, 16891, 16892],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17053, 17054],
+	          "bg": [ 16893, 16894],		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17055, 17056, 17057, 17058],
+			  "bg": 0,
+              "id": "end_piece"
+            },
+
+            {
+              "fg": 17059,
+			  "bg": 16899,
               "id": "unconnected"
             }
           ],
