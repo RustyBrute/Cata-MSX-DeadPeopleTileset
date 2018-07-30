@@ -8073,7 +8073,7 @@
           "rotates": false
         },
         {
-          "id": "antibiotics",
+          "id": ["antibiotics", "weak_antibiotic"],
           "fg": 1073,
           "bg": 957,
           "rotates": false
@@ -8752,7 +8752,7 @@
           "rotates": false
         },
         {
-          "id": "flour",
+          "id": ["flour", "rice_flour"],
           "fg": 1193,
           "bg": 957,
           "rotates": false
@@ -8782,7 +8782,7 @@
           "rotates": false
         },
         {
-          "id": "fruit_pancakes",
+          "id": ["fruit_pancakes", "gffruit_pancakes", "gflffruit_pancakes", "lffruit_pancakes"],
           "fg": 1197,
           "bg": 957,
           "rotates": false
@@ -9086,7 +9086,7 @@
           "rotates": false
         },
         {
-          "id": "johnnycake",
+          "id": ["johnnycake", "gfjohnnycake"],
           "fg": 1243,
           "bg": 957,
           "rotates": false
@@ -22727,7 +22727,7 @@
           "fg": 1091
         },
         {
-          "id": "biscuit",
+          "id": ["biscuit", "gfbiscuit"],
           "fg": 1092,
           "rotates": false
         },
@@ -22838,7 +22838,7 @@
           "rotates": false
         },
         {
-          "id": "blt",
+          "id": ["blt", "gfblt"],
           "fg": 1096,
           "rotates": false
         },
@@ -22990,7 +22990,7 @@
           "rotates": false
         },
         {
-          "id": "choc_pancakes",
+          "id": ["choc_pancakes", "gfchoc_pancakes"],
           "fg": 1112
         },
         {
@@ -23014,7 +23014,7 @@
           "fg": 1117
         },
         {
-          "id": "can_coconut",
+          "id": ["can_coconut", "coconut_water", "jar_cream_coconut"],
           "fg": 1120,
           "rotates": false
         },
@@ -23110,7 +23110,7 @@
           "fg": 1132
         },
         {
-          "id": "cheeseburger",
+          "id": ["cheeseburger", "gfcheeseburger"],
           "fg": 1135,
           "rotates": false
         },
@@ -23296,7 +23296,7 @@
           "rotates": false
         },
         {
-          "id": "milk",
+          "id": ["milk", "rice_milk"],
           "fg": 1153,
           "rotates": false
         },
@@ -23496,15 +23496,15 @@
           "fg": 1191
         },
         {
-          "id": "fish_sandwich",
+          "id": ["fish_sandwich", "gffish_sandwich"],
           "fg": 1192
         },
 		{
-          "id": "sandwich_veggy",
+          "id": ["sandwich_veggy", "gfsandwich_veggy"],
           "fg": 4261
         },
 		{
-          "id": "sandwich_t",
+          "id": ["sandwich_t", "gfsandwich_t"],
           "fg": 4262
         },
 		{
@@ -23512,35 +23512,35 @@
           "fg": 4262
         },
 		{
-          "id": "sandwich_pb",
+          "id": ["sandwich_pb", "gfsandwich_pb"],
           "fg": 4263
         },
 		{
-          "id": "sandwich_pbj",
+          "id": ["sandwich_pbj", "gfsandwich_pbj"],
           "fg": 4264
         },
 		{
-          "id": "sandwich_pbh",
+          "id": ["sandwich_pbh", "gfsandwich_pbh"],
           "fg": 4265
         },
 		{
-          "id": "sandwich_pbm",
+          "id": ["sandwich_pbm", "gfsandwich_pbm"],
           "fg": 4266
         },
 		{
-          "id": "sloppyjoe",
+          "id": ["sloppyjoe", "gfsloppyjoe"],
           "fg": 4267
         },		        
 		{
-          "id": "pie_meat",
+          "id": ["pie_meat", "gfpie_meat"],
           "fg": 4267
         },
 		{
-          "id": "sandwich_cheese_grilled",
+          "id": ["sandwich_cheese_grilled", "gfsandwich_cheese_grilled"],
           "fg": 4268
         },
 		{
-          "id": "sandwich_deluxe",
+          "id": ["sandwich_deluxe", "gfsandwich_deluxe"],
           "fg": 1096
         },
 		{
@@ -23548,23 +23548,23 @@
           "fg": 1096
         },
 		{
-          "id": "sandwich_cucumber",
+          "id": ["sandwich_cucumber", "gfsandwich_cucumber"],
           "fg": 4269
         },
 		{
-          "id": "sandwich_cheese",
+          "id": ["sandwich_cheese", "gfsandwich_cheese"],
           "fg": 4270
         },
 		{
-          "id": "sandwich_jam",
+          "id": ["sandwich_jam", "gfsandwich_jam"],
           "fg": 4271
         },
 		{
-          "id": "sandwich_honey",
+          "id": ["sandwich_honey", "gfsandwich_honey"],
           "fg": 4265
         },
 		{
-          "id": "sandwich_sauce",
+          "id": ["sandwich_sauce", "gfsandwich_sauce"],
           "fg": 4272
         },
 		{
@@ -23572,7 +23572,7 @@
           "fg": 4273
         },
 		{
-          "id": "frenchtoast",
+          "id": ["frenchtoast", "gffrenchtoast", "gflffrenchtoast"],
           "fg": 1192
         },
         {
@@ -23665,7 +23665,7 @@
           "rotates": false
         },
         {
-          "id": "hamburger",
+          "id": ["hamburger", "gfhamburger"],
           "fg": 1205,
           "rotates": false
         },
@@ -23699,7 +23699,7 @@
           "rotates": false
         },
         {
-          "id": "hickory_nut_ambrosia",
+          "id": ["hickory_nut_ambrosia", "lfhickory_nut_ambrosia"],
           "fg": 1213,
           "rotates": false
         },
@@ -24254,7 +24254,7 @@
           "rotates": false
         },
         {
-          "id": "granola",
+          "id": ["granola", "gfgranola"],
           "fg": 1283
         },
         {
@@ -24300,16 +24300,16 @@
           "rotates": false
         },
         {
-          "id": "pizza_cheese",
+          "id": ["pizza_cheese", "gfpizza_cheese"],
           "fg": 1296
         },
         {
-          "id": "pizza_meat",
+          "id": ["pizza_meat", "gfpizza_meat"], 
           "fg": 1297,
           "rotates": false
         },
         {
-          "id": "pizza_veggy",
+          "id": ["pizza_veggy", "gfpizza_veggy"],
           "fg": 1298,
           "rotates": false
         },
@@ -24791,15 +24791,15 @@
           "fg": 1373
         },
         {
-          "id": "choc_waffles",
+          "id": ["choc_waffles", "gfchoc_waffles"],
           "fg": 1374
         },
         {
-          "id": "fruit_waffles",
+          "id": ["fruit_waffles", "gffruit_waffles", "gflffruit_waffles"],
           "fg": 1374
         },
         {
-          "id": "waffles",
+          "id": ["waffles", "gfwaffles", "gflfwaffles", "lfwaffles"],
           "fg": 1374
         },
         {
@@ -29452,12 +29452,12 @@
           "rotates": false
         },	
 		{
-          "id": "pie_veggy",
+          "id": ["pie_veggy", "gfpie_veggy"],
           "fg": 4479,
           "rotates": false
         },	
 		{
-          "id": "pie",
+          "id": ["pie", "gfpie"],
           "fg": 4479,
           "rotates": false
         },			
@@ -29641,7 +29641,7 @@
           "rotates": false
         },		
 		{
-          "id": "sweetbread",
+          "id": ["sweetbread", "gfsweetbread"],
           "fg": 4509,
           "rotates": false
         },		
@@ -30262,7 +30262,7 @@
           "rotates": false
         },		
 		{
-          "id": "pie_maple",
+          "id": ["pie_maple", "gfpie_maple"],
           "fg": 4646,
           "rotates": false
         },		
@@ -32018,6 +32018,22 @@
           "fg": 4950,
           "rotates": false
         },
+		{
+          "id": ["pebble_hopper", "bb_hopper", "bolt_hopper", "cannister_rack"],
+          "fg": 4951,
+          "rotates": false
+        },	
+		{
+          "id": "aperture_potato",
+          "fg": 4952,
+          "rotates": false
+        },	
+				{
+          "id": "mon_turret_bmg",
+          "fg": 4953,
+		  "bg": 967,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -36224,7 +36240,7 @@
           "rotates": false
         },
         {
-          "id": "mon_turret_bmg",
+          "id": "!mon_turret_bmg",
           "fg": 2644
         },
         {
@@ -39535,7 +39551,7 @@
           "rotates": false
         },
         {
-          "id": "scroll_sun",
+          "id": ["scroll_sun", "scroll_spell_acidspray", "scroll_spell_agile", "scroll_spell_clairvoyance",  "scroll_spell_clarity",  "scroll_spell_cleric",  "scroll_spell_confusion", "scroll_spell_elecresist",  "scroll_spell_flame_armor",  "scroll_spell_free_action",  "scroll_spell_heal",  "scroll_spell_insight",  "scroll_spell_invis",  "scroll_spell_lightning",  "scroll_spell_might",  "scroll_spell_plants"],
           "fg": 3740,
           "rotates": false
         },
@@ -39565,7 +39581,7 @@
           "rotates": false
         },
         {
-          "id": "scroll_sun_on",
+          "id": ["scroll_sun_on", "scroll_spell_acidspray_on", "scroll_spell_agile_on",  "scroll_spell_clairvoyance_on", "scroll_spell_clarity_on",  "scroll_spell_cleric_on", "scroll_spell_confusion_on",  "scroll_spell_elecresist_on",  "scroll_spell_flame_armor_on",  "scroll_spell_free_action_on",  "scroll_spell_heal_on",  "scroll_spell_insight_on",  "scroll_spell_invis_on",  "scroll_spell_lightning_on",  "scroll_spell_might_on", "scroll_spell_plants_on"],
           "fg": 3741,
           "rotates": false
         },
@@ -47401,6 +47417,40 @@
 			{ "weight":3, "sprite":11991},
 			{ "weight":3, "sprite":11992},
 			{ "weight":3, "sprite":11993}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_screecher",
+          "fg": [
+            { "weight":3, "sprite":2748},
+			{ "weight":3, "sprite":12004},
+			{ "weight":3, "sprite":12005},
+			{ "weight":3, "sprite":12006},
+			{ "weight":3, "sprite":12007}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_shrieker",
+          "fg": [
+            { "weight":3, "sprite":2752},
+			{ "weight":3, "sprite":12020},
+			{ "weight":3, "sprite":12021},
+			{ "weight":3, "sprite":12022}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_shriekling",
+          "fg": [
+            { "weight":3, "sprite":2753},
+			{ "weight":3, "sprite":12036},
+			{ "weight":3, "sprite":12037},
+			{ "weight":3, "sprite":12038}
             ],
           "bg": 967,
           "rotates": false
