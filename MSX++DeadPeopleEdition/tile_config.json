@@ -9750,7 +9750,7 @@
           "rotates": false
         },
         {
-          "id": "power_supply",
+          "id": ["power_supply", "electronics_controls"],
           "fg": 1893,
           "bg": 957,
           "rotates": false
@@ -24326,7 +24326,7 @@
           "fg": 1307
         },
         {
-          "id": "purifier",
+          "id": ["purifier", "purifierM"],
           "fg": 1308,
           "rotates": false
         },
@@ -28038,7 +28038,7 @@
           "fg": 1971
         },
         {
-          "id": "acr",
+          "id": ["acr", "acr1"],
           "fg": 1977,
           "rotates": false
         },
@@ -32042,14 +32042,26 @@
             ],
 		  "bg": 967,
           "rotates": false
+        },
+		{
+          "id": "t_rootcellar",
+          "fg": 4956,
+		  "bg": 1012,
+          "rotates": false
         },	
+		{
+          "id": "f_woodchips",
+          "fg": 4957,
+		  "bg": 0,
+          "rotates": false
+        },			
 		{
           "id": "atlatl",
           "fg": 1986,
           "rotates": false
         },	
         {
-          "id": ["pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate"],
+          "id": ["pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
           "fg": 0,
           "rotates": false
         },		
@@ -32542,7 +32554,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_acr",
+          "id": ["overlay_wielded_acr", "overlay_wielded_acr1"],
           "fg": 2075,
           "rotates": false
         },
