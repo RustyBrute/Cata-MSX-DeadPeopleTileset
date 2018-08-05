@@ -48048,6 +48048,123 @@
             }
           ],
           "rotates": false		  
+        },		
+		{
+		  "id": "t_root_wall",
+          "fg": 17060,
+          "bg": 16884,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17060,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ], 
+              "id": "center"
+            },
+			{
+              "fg": [ 17061, 17062, 17063, 17064 ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+			{ "weight":30, "sprite":4833},
+			{ "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ], 
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17065, 17066, 17067, 17068],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ], 
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17069, 17070],
+	          "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ], 		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17071, 17072, 17073, 17074],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ], 
+              "id": "end_piece"
+            },
+            {
+              "fg": 17075,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ], 
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
         }
   ]
   }
