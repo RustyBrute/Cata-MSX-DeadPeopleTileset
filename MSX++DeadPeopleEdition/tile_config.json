@@ -32054,6 +32054,48 @@
           "fg": 4957,
 		  "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "kubotan",
+          "fg": 4958,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "ore_bogiron",
+          "fg": 4959,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "paintball",
+          "fg": 4960,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "paintballgun",
+          "fg": 4961,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_paintballgun",
+          "fg": 4962,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "pockknife1",
+          "fg": 4963,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_pockknife1",
+          "fg": 4964,
+		  "bg": 0,
+          "rotates": false
         },			
 		{
           "id": "atlatl",
@@ -32221,7 +32263,7 @@
           "rotates": false
         },
         {
-          "id": "fn_fal",
+          "id": ["fn_fal", "fn571"],
           "fg": 2015,
           "rotates": false
         },
@@ -32649,7 +32691,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_fn_fal",
+          "id": ["overlay_wielded_fn_fal", "overlay_wielded_fn571"],
           "fg": 2078,
           "rotates": false
         },
@@ -45952,6 +45994,11 @@
           "id": "t_leanto_season_winter",
           "fg": 5435,
           "bg": 5403,
+          "rotates": false
+        },
+		        {
+          "id": "mon_treent",
+          "fg": 5447,
           "rotates": false
         },
         {
