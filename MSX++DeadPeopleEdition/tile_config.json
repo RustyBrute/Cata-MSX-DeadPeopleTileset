@@ -48165,6 +48165,45 @@
             }
           ],
           "rotates": false		  
+        },		
+		{
+		  "id": "t_root_wall_season_winter",
+          "fg": 17076,
+          "bg": 992,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17076,
+		      "bg": 992,
+              "id": "center"
+            },
+			{
+              "fg": [ 17077, 17078, 17079, 17080 ],
+			  "bg": 992,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17081, 17082, 17083, 17084],
+		      "bg": 992,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17085, 17086],
+              "bg": 992,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17087, 17088, 17089, 17090],
+              "bg": 992,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17091,
+			  "bg": 992,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
         }
   ]
   }
