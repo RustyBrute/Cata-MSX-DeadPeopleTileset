@@ -32096,7 +32096,25 @@
           "fg": 4964,
 		  "bg": 0,
           "rotates": false
-        },			
+        },
+		{
+          "id": "t_door_glass_frosted_c",
+          "fg": 4965,
+		  "bg": 993,
+          "rotates": false
+        },	
+		{
+          "id": "t_door_glass_frosted_o",
+          "fg": 4966,
+		  "bg": 993,
+          "rotates": false
+        },		
+		{
+          "id": "panacea",
+          "fg": 4967,
+		  "bg": 0,
+          "rotates": false
+        },				
 		{
           "id": "atlatl",
           "fg": 1986,
