@@ -47313,7 +47313,12 @@
 		    { "weight":1, "sprite":2717},
 			{ "weight":1, "sprite":11892},
 			{ "weight":1, "sprite":11893},
-			{ "weight":1, "sprite":11894}
+			{ "weight":1, "sprite":11894},			
+			{ "weight":1, "sprite":11895},
+			{ "weight":1, "sprite":11896},
+			{ "weight":1, "sprite":11897},
+			{ "weight":1, "sprite":11898},
+			{ "weight":1, "sprite":11899}
             ],
           "bg": 967,
           "rotates": false
@@ -47444,7 +47449,14 @@
 			{ "weight":3, "sprite":11959},
             { "weight":3, "sprite":11960},
 			{ "weight":3, "sprite":11961},
-			{ "weight":3, "sprite":11962}
+			{ "weight":3, "sprite":11962},
+			{ "weight":3, "sprite":11963},
+            { "weight":3, "sprite":11964},
+			{ "weight":3, "sprite":11965},
+			{ "weight":3, "sprite":11966},
+            { "weight":3, "sprite":11967},
+			{ "weight":3, "sprite":11968},
+			{ "weight":3, "sprite":11969}
             ],
           "bg": 967,
           "rotates": false
