@@ -4968,7 +4968,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_glove_jackson",
+          "id": ["overlay_worn_glove_jackson", "overlay_worn_gloves_golf"],
           "fg": 614,
           "rotates": false
         },
@@ -6294,7 +6294,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_sneakers",
+          "id": ["overlay_worn_sneakers", "overlay_worn_golf_shoes"],
           "fg": 779,
           "rotates": false
         },
@@ -32180,7 +32180,43 @@
           "fg": 4978,
 		  "bg": 0,
           "rotates": false
+        },	
+						{
+          "id": "golf_tee",
+          "fg": 4979,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "gloves_golf",
+          "fg": 4980,
+          "rotates": false
         },			
+		{
+          "id": "golf_bag",
+          "fg": 4981,
+          "rotates": false
+        },	
+		{
+          "id": "golf_shoes",
+          "fg": 4982,
+          "rotates": false
+        },	
+		{
+          "id": "hat_golf",
+          "fg": 4983,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_worn_golf_bag",
+          "fg": 4984,
+          "rotates": false
+        },
+				{
+          "id": "overlay_worn_hat_golf",
+          "fg": 4985,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
