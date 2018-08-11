@@ -32114,7 +32114,19 @@
           "fg": 4967,
 		  "bg": 0,
           "rotates": false
-        },				
+        },		
+		{
+          "id": "t_thconc_floor_olight",
+          "fg": 4968,
+		  "bg": 4968,
+          "rotates": false
+        },		
+		{
+          "id": "t_golf_hole",
+          "fg": 4969,
+		  "bg": 1012,
+          "rotates": false
+        },			
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -47720,7 +47732,7 @@
           "rotates": true		  
         },		
 		{
-          "id": "t_grass",
+          "id": ["t_grass", "t_grass_long"],
           "fg": 16884,
           "bg": 1012,
           "multitile": true,
@@ -47800,7 +47812,7 @@
           "rotates": true		  
         },		
 		{
-          "id": "t_grass_season_autumn",
+          "id": ["t_grass_season_autumn", "t_grass_dead"],
           "fg": 16916,
           "bg": 1012,
           "multitile": true,
@@ -48230,6 +48242,45 @@
             {
               "fg": 17091,
 			  "bg": 992,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+				{
+		  "id": "t_grass_golf",
+          "fg": 17092,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17092,
+		      "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [ 17093, 17094, 17095, 17096 ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17097, 17098, 17099, 17100],
+		      "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17101, 17102],
+              "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17103, 17104, 17105, 17106],
+              "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17107,
+			  "bg": 1012,
               "id": "unconnected"
             }
           ],
