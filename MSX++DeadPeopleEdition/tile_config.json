@@ -32126,7 +32126,25 @@
           "fg": 4969,
 		  "bg": 1012,
           "rotates": false
-        },			
+        },	
+		{
+          "id": "f_stool",
+          "fg": 4970,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "f_rack_coat",
+          "fg": 4971,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_mailbox",
+          "fg": 4972,
+		  "bg": 0,
+          "rotates": false
+        },		
 		{
           "id": "atlatl",
           "fg": 1986,
