@@ -17227,7 +17227,7 @@
           "rotates": false
         },
         {
-          "id": "fd_smoke",
+          "id": ["fd_smoke", "fd_smoke_vent"],
           "fg": 2945,
           "bg": 972,
           "rotates": false,
@@ -32145,6 +32145,42 @@
 		  "bg": 0,
           "rotates": false
         },		
+				{
+          "id": "basket_laundry",
+          "fg": 4973,
+		  "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "feces_dog",
+          "fg": 4974,
+		  "bg": 0,
+          "rotates": false
+        },					
+		{
+          "id": "M24",
+          "fg": 4975,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_wielded_M24",
+          "fg": 4976,
+		  "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "cheek_pad",
+          "fg": 4977,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "golf_ball",
+          "fg": 4978,
+		  "bg": 0,
+          "rotates": false
+        },			
 		{
           "id": "atlatl",
           "fg": 1986,
