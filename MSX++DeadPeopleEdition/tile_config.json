@@ -19532,11 +19532,6 @@
           "rotates": false
         },
         {
-          "id": "t_concrete",
-          "fg": 993,
-          "rotates": false
-        },
-        {
           "id": ["t_concrete_wall", "t_secretdoor_concrete_wall_c", "t_sliding_concrete_wall_c"],
           "fg": 2999,
           "bg": 993,
@@ -19883,67 +19878,67 @@
         {
           "id": "t_oil_circ_brkr_l",
           "fg": 3132,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_sai_box_damaged",
           "fg": 3213,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_switchgear_l",
           "fg": 3275,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_switchgear_s",
           "fg": 3276,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_oil_circ_brkr_s",
           "fg": 3133,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_lgtn_arrest",
           "fg": 3108,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_station_disc",
           "fg": 3261,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_current_trans",
           "fg": 3011,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_potential_trans",
           "fg": 3165,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_support_s",
           "fg": 3265,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
           "id": "t_support_l",
           "fg": 3264,
-          "bg": 993,
+          "bg": 5013,
           "rotates": false
         },
         {
@@ -32219,7 +32214,10 @@
         },
 						{
           "id": "mon_dog",
-          "fg": 4986,
+          "fg": [
+            { "weight":3, "sprite":4986},
+            { "weight":3, "sprite":2408}
+            ],
           "rotates": false
         },
 								{
@@ -32335,6 +32333,26 @@
 		{
           "id": "mon_dog_auscattle_pup",
           "fg": 5009,
+          "rotates": false
+        },
+		{
+          "id": "t_thconc_floor",
+          "fg": 5010,
+          "rotates": false
+        },
+        {
+          "id": "t_concrete_floor",
+          "fg": 5011,
+          "rotates": false
+        },
+        {
+          "id": "t_strconc_floor",
+          "fg": 5012,
+          "rotates": false
+        },
+		        {
+          "id": "t_concrete",
+          "fg": 5013,
           "rotates": false
         },
 		{
