@@ -32111,12 +32111,6 @@
           "rotates": false
         },		
 		{
-          "id": "t_thconc_floor_olight",
-          "fg": 4968,
-		  "bg": 4968,
-          "rotates": false
-        },		
-		{
           "id": "t_golf_hole",
           "fg": 4969,
 		  "bg": 1012,
@@ -32340,6 +32334,12 @@
           "fg": 5010,
           "rotates": false
         },
+				{
+          "id": "t_thconc_floor_olight",
+          "fg": 4968,
+		  "bg": 5010,
+          "rotates": false
+        },		
         {
           "id": "t_concrete_floor",
           "fg": 5011,
