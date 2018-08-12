@@ -32287,6 +32287,56 @@
           "fg": 4999,
           "rotates": false
         },
+								{
+          "id": "mon_dog_dachshund",
+          "fg": 5000,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_dachshund_pup",
+          "fg": 5001,
+          "rotates": false
+        },
+										{
+          "id": "mon_dog_gshepherd",
+          "fg": 5002,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_gshepherd_pup",
+          "fg": 5003,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_gpyrenees",
+          "fg": 5004,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_gpyrenees_pup",
+          "fg": 5005,
+          "rotates": false
+        },
+				{
+          "id": "mon_dog_rottweiler",
+          "fg": 5006,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_rottweiler_pup",
+          "fg": 5007,
+          "rotates": false
+        },
+						{
+          "id": "mon_dog_auscattle",
+          "fg": 5008,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_auscattle_pup",
+          "fg": 5009,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
