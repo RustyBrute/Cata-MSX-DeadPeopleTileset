@@ -19245,7 +19245,7 @@
           ]
         },
         {
-          "id": "t_grass_season_winter",
+          "id": ["t_grass_season_winter", "t_grass_golf_season_winter", "t_grass_long_season_winter", "t_grass_dead_season_winter"],
           "fg": 3079,
           "bg": 992,
           "rotates": false,
@@ -32217,6 +32217,76 @@
           "fg": 4985,
           "rotates": false
         },
+						{
+          "id": "mon_dog",
+          "fg": 4986,
+          "rotates": false
+        },
+								{
+          "id": "mon_dog_pup",
+          "fg": 4987,
+          "rotates": false
+        },
+								{
+          "id": "mon_dog_bull",
+          "fg": 4988,
+          "rotates": false
+        },
+								{
+          "id": "mon_dog_bull_pup",
+          "fg": 4989,
+          "rotates": false
+        },
+										{
+          "id": "mon_dog_pitbullmix",
+          "fg": 4990,
+          "rotates": false
+        },
+								{
+          "id": "mon_dog_pitbullmix_pup",
+          "fg": 4991,
+          "rotates": false
+        },
+												{
+          "id": "mon_dog_beagle",
+          "fg": 4992,
+          "rotates": false
+        },
+								{
+          "id": "mon_dog_beagle_pup",
+          "fg": 4993,
+          "rotates": false
+        },												
+		{
+          "id": "mon_dog_bcollie",
+          "fg": 4994,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_bcollie_pup",
+          "fg": 4995,
+          "rotates": false
+        },
+				{
+          "id": "mon_dog_boxer",
+          "fg": 4996,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_boxer_pup",
+          "fg": 4997,
+          "rotates": false
+        },
+						{
+          "id": "mon_dog_chihuahua",
+          "fg": 4998,
+          "rotates": false
+        },
+		{
+          "id": "mon_dog_chihuahua_pup",
+          "fg": 4999,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -35606,7 +35676,7 @@
           "rotates": false
         },        
 		{
-          "id": "mon_dog",
+          "id": "!mon_dog",
           "fg": 2408,
           "bg": 967,
           "rotates": false
