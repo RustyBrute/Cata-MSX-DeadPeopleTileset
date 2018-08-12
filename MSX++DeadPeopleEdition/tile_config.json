@@ -47130,7 +47130,8 @@
 		{ "id": "broken_tankbot", "fg": 11581, "rotates": false },
 		{ "id": "mon_albino_penguin", "fg": 11582, "rotates": false },
 		{ "id": "mon_skeleton_hulk", "fg": 11583, "rotates": false },
-		{ "id": "mon_revenant", "fg": 11584, "rotates": false }
+		{ "id": "mon_revenant", "fg": 11584, "rotates": false },
+		{ "id": "mon_chickenbot", "fg": 11585, "rotates": false }
     ]
     }, 
 	{
