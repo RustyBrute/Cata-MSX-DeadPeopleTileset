@@ -10984,19 +10984,19 @@
           "rotates": false
         },
         {
-          "id": "note_sanguine",
+          "id": ["note_sanguine", "note_sanguine_tenet"],
           "fg": 1021,
           "bg": 957,
           "rotates": false
         },
         {
-          "id": "note_chalice",
+          "id": ["note_chalice", "note_chalice_tenet"],
           "fg": 1021,
           "bg": 957,
           "rotates": false
         },
         {
-          "id": "note_flame",
+          "id": ["note_flame", "note_flame_tenet"],
           "fg": 1021,
           "bg": 957,
           "rotates": false
