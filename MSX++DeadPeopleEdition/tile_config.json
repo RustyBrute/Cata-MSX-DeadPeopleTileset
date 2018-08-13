@@ -24277,7 +24277,7 @@
           "fg": 1290
         },
         {
-          "id": "pemmican",
+          "id": ["pemmican", "hflesh_pemmican"],
           "fg": 1291
         },
         {
@@ -32350,13 +32350,29 @@
           "fg": 5012,
           "rotates": false
         },
-		        {
+		{
           "id": "t_concrete",
           "fg": 5013,
           "rotates": false
         },
 		{
-          "id": "atlatl",
+          "id": "dnd_handbook",
+          "fg": 5014,
+          "rotates": false
+        },
+		{
+          "id": ["vp_animal_compartment", "animal_locker"],
+          "fg": 4924,
+		  "bg": 3962,
+          "rotates": false
+        },
+		{
+          "id": "leaf_spring",
+          "fg": 5015,
+          "rotates": false
+        },
+		{
+          "id": "atlatl", 
           "fg": 1986,
           "rotates": false
         },	
@@ -48476,7 +48492,7 @@
           ],
           "rotates": false		  
         },
-				{
+		{
 		  "id": "t_grass_golf",
           "fg": 17092,
           "bg": 1012,
@@ -48509,6 +48525,162 @@
             },
             {
               "fg": 17107,
+			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },		
+		{
+		  "id": "t_paper",
+          "fg": 17108,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17108,
+		      "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [ 17109, 17110, 17111, 17112 ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17113, 17114, 17115, 17116],
+		      "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17117, 17118],
+              "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17119, 17120, 17121, 17122],
+              "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17123,
+			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },		
+		{
+		  "id": "t_paper_floor",
+          "fg": 17124,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17124,
+		      "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [ 17125, 17126, 17127, 17128 ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17129, 17130, 17131, 17132],
+		      "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17133, 17134],
+              "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17135, 17136, 17137, 17138],
+              "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17139,
+			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": "t_floor",
+          "fg": 17140,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17140,
+		      "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [ 17141, 17142, 17143, 17144 ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17145, 17146, 17147, 17148],
+		      "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17149, 17150],
+              "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17151, 17152, 17153, 17154],
+              "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17155,
+			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },		
+		{
+		  "id": "t_floor_primitive",
+          "fg": 17156,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17156,
+		      "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [ 17157, 17158, 17159, 17160 ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17161, 17162, 17163, 17164],
+		      "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17165, 17166],
+              "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17167, 17168, 17169, 17170],
+              "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17171,
 			  "bg": 1012,
               "id": "unconnected"
             }
