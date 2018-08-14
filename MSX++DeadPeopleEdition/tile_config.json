@@ -19150,7 +19150,15 @@
         },
         {
           "id": "t_dirt_season_winter",
-          "fg": 992
+		  "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ]
         },
         {
           "id": "t_barndoor_season_winter",
@@ -32423,6 +32431,16 @@
 		  "bg": 0,
           "rotates": false
         },	
+				        {
+          "id": "t_elevator_control",
+          "fg": 5026,
+          "rotates": false
+        },
+        {
+          "id": "t_elevator_control_off",
+          "fg": 5027,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
@@ -37224,7 +37242,7 @@
           "rotates": true
         },
         {
-          "id": "t_elevator_control",
+          "id": "!t_elevator_control",
           "fg": 3005,
           "rotates": false
         },
@@ -37237,8 +37255,13 @@
           "fg": 3006,
           "rotates": false
         },
+		        {
+          "id": "!t_elevator_control",
+          "fg": 3005,
+          "rotates": false
+        },
         {
-          "id": "t_elevator_control_off",
+          "id": "!t_elevator_control_off",
           "fg": 3006,
           "rotates": false
         },
@@ -37355,7 +37378,7 @@
         },
         {
           "id": "t_elevator",
-          "fg": 3045,
+		  "fg": 3121,
           "rotates": false
         },
         {
@@ -48787,6 +48810,45 @@
             {
               "fg": 17171,
 			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+				{
+		  "id": "t_elevator",
+          "fg": 17171,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17172,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17173, 17174, 17175, 17176 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17177, 17178, 17179, 17180],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17181, 17182],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17183, 17184, 17185, 17186],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17187,
+			  "bg": 0,
               "id": "unconnected"
             }
           ],
