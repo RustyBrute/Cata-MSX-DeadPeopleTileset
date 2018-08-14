@@ -32371,6 +32371,41 @@
           "fg": 5015,
           "rotates": false
         },
+				{
+          "id": "mon_insect_saddler",
+          "fg": 5016,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_saddler_brood",
+          "fg": 5017,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_saddler_baby",
+          "fg": 5018,
+          "rotates": false
+        },
+				{
+          "id": ["frostie_hull","frostie_wheel"],
+          "fg": 5019,
+          "rotates": false
+        },		
+		{
+          "id": "spouterqueen", 
+          "fg": 5020,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_spouterqueen", 
+          "fg": 5021,
+          "rotates": false
+        },	
+								        {
+          "id": "t_dock",
+          "fg": 5022,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
@@ -37210,10 +37245,10 @@
           "rotates": true
         },
         {
-          "id": "t_dock",
+          "id": "!t_dock",
           "fg": 3022,
           "rotates": false,
-          "multitile": true,
+          "multitile": false,
           "additional_tiles": [
             {
               "id": "center",
@@ -37241,6 +37276,7 @@
             }
           ]
         },
+
         {
           "id": "t_door_boarded",
           "fg": 3029,
