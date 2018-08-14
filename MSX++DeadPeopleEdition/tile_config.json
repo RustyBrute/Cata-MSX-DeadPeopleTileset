@@ -32406,15 +32406,21 @@
           "fg": 5022,
           "rotates": false
         },
-				{
+		{
           "id": "tobacco_raw",
           "fg": 5023,
           "rotates": false
         },
-				{
+		{
           "id": "t_golf_hole_season_winter",
           "fg": 5024,
 		  "bg": 992,
+          "rotates": false
+        },	
+		{
+          "id": "coffee_pod",
+          "fg": 5025,
+		  "bg": 0,
           "rotates": false
         },	
 		{
@@ -46288,19 +46294,25 @@
           "bg": 5403
         },
         {
-          "id": "t_tree_willow",
+          "id": ["t_tree_willow", "t_tree_coffee_season_summer", "t_tree_coffee"],
           "fg": 5432,
           "bg": 5402,
           "rotates": false
         },
         {
-          "id": ["t_tree_willow_harvested", "t_tree_willow_harvested_season_winter"],
+          "id": ["t_tree_willow_harvested", "t_tree_coffee_harvested"],
           "fg": 5433,
           "bg": 5402,
           "rotates": false
         },
+		        {
+          "id": ["t_tree_willow_harvested_season_winter"],
+          "fg": 5433,
+          "bg": 5403,
+          "rotates": false
+        },
         {
-          "id": "t_tree_willow_season_winter",
+          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter", "t_tree_coffee"],
           "fg": 5434,
           "bg": 5403,
           "rotates": false
@@ -46317,7 +46329,13 @@
           "bg": 5403,
           "rotates": false
         },
-		        {
+		{
+          "id": "t_tree_coffee_season_autumn",
+          "fg": 5446,
+		  "bg": 5402,
+          "rotates": false
+        },
+		{
           "id": "mon_treent",
           "fg": 5447,
           "rotates": false
