@@ -32411,6 +32411,12 @@
           "fg": 5023,
           "rotates": false
         },
+				{
+          "id": "t_golf_hole_season_winter",
+          "fg": 5024,
+		  "bg": 992,
+          "rotates": false
+        },	
 		{
           "id": "atlatl", 
           "fg": 1986,
