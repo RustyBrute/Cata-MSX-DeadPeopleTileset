@@ -2600,7 +2600,7 @@
           "rotates": false
         },
         {
-          "id": "duffelbag",
+          "id": ["duffelbag", "javelin_bag"],
           "fg": 347,
           "rotates": false
         },
@@ -6483,7 +6483,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_duffelbag",
+          "id": ["overlay_worn_duffelbag", "overlay_worn_javelin_bag"],
           "fg": 794,
           "rotates": false
         },
@@ -7912,7 +7912,7 @@
           "rotates": false
         },
         {
-          "id": "seed_barley",
+          "id": ["seed_barley", "seed_tobacco"],
           "fg": 1329,
           "bg": 957,
           "rotates": false
@@ -26355,7 +26355,7 @@
           "rotates": false
         },
         {
-          "id": ["762_casing", "762_38R_casing"],
+          "id": ["762_casing", "762_38R_casing", "762_51_casing"],
           "fg": 1622,
           "rotates": false
         },
@@ -32401,9 +32401,14 @@
           "fg": 5021,
           "rotates": false
         },	
-								        {
+		{
           "id": "t_dock",
           "fg": 5022,
+          "rotates": false
+        },
+				{
+          "id": "tobacco_raw",
+          "fg": 5023,
           "rotates": false
         },
 		{
@@ -48367,6 +48372,46 @@
             {
               "fg": 17059,
 			  "bg": 16899,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },			
+		{
+		  "id": "f_rubble_landfill_season_winter",
+          "fg": 17044,
+          "bg": 992,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17044,
+		      "bg": 992,
+              "id": "center"
+            },
+			{
+              "fg": [ 17045, 17046, 17047, 17048 ],
+			  "bg": 992,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17049, 17050, 17051, 17052],
+			  "bg": 992,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17053, 17054],
+	          "bg": 992,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17055, 17056, 17057, 17058],
+			  "bg": 992,
+              "id": "end_piece"
+            },
+
+            {
+              "fg": 17059,
+			  "bg": 992,
               "id": "unconnected"
             }
           ],
