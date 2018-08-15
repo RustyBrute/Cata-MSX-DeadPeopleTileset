@@ -46335,7 +46335,7 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter", "t_tree_coffee"],
+          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter"],
           "fg": 5434,
           "bg": 5403,
           "rotates": false
