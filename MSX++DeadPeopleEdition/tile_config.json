@@ -6417,6 +6417,11 @@
           "fg": 789,
           "rotates": false
         },
+		        {
+          "id": ["overlay_wielded_tourist_table", "overlay_wielded_metal_butcher_rack"],
+          "fg": 789,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_suitcase_m",
           "fg": 789,
@@ -7368,7 +7373,7 @@
           "rotates": false
         },
         {
-          "id": "suitcase_l",
+          "id": ["suitcase_l", "tourist_table", "metal_butcher_rack"],
           "fg": 907,
           "bg": 957
         },
@@ -32459,6 +32464,21 @@
 		        {
           "id": "overlay_worn_fitover_sunglasses",
           "fg": 5031,
+          "rotates": false
+        },
+		{
+          "id": "f_tourist_table",
+          "fg": 5032,
+          "rotates": false
+        },
+		{
+          "id": "f_metal_butcher_rack",
+          "fg": 5033,
+          "rotates": false
+        },
+				{
+          "id": "f_butcher_rack",
+          "fg": 5034,
           "rotates": false
         },
 
