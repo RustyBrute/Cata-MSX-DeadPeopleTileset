@@ -9427,7 +9427,7 @@
           "rotates": false
         },
         {
-          "id": "minifridge",
+          "id": ["minifridge", "minifreezer"],
           "fg": 1805,
           "bg": 957,
           "rotates": false
@@ -25738,7 +25738,7 @@
           "rotates": false
         },
         {
-          "id": "vp_minifridge",
+          "id": ["vp_minifridge", "vp_minifreezer"],
           "fg": 1516,
           "rotates": false,
           "multitile": true,
