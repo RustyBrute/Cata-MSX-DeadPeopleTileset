@@ -32481,7 +32481,23 @@
           "fg": 5034,
           "rotates": false
         },
-
+						{
+          "id": "t_railroad_crossing_signal",
+          "fg": 5035,
+		  "bg": 1012,
+          "rotates": false
+        },			
+		{
+          "id": "t_railroad_crossing_signal_season_winter",
+          "fg": 5035,
+		  		  "bg": 992,
+          "rotates": false
+        },						
+		{
+          "id": "t_buffer_stop",
+          "fg": 5036,
+          "rotates": true
+        },		
 		{
           "id": "atlatl", 
           "fg": 1986,
