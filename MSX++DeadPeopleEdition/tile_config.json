@@ -6443,11 +6443,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_iggaak",
-          "fg": 791,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_survbowpack",
           "fg": 792,
           "rotates": false
@@ -32441,6 +32436,32 @@
           "fg": 5027,
           "rotates": false
         },
+				{
+          "id": "!fancy_sunglasses",
+          "fg": 5028,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_worn_iggaak",
+          "fg": 5028,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_fancy_sunglasses",
+          "fg": 5029,
+          "rotates": false
+        },
+		        {
+          "id": "fitover_sunglasses",
+          "fg": 5030,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_fitover_sunglasses",
+          "fg": 5031,
+          "rotates": false
+        },
+
 		{
           "id": "atlatl", 
           "fg": 1986,
