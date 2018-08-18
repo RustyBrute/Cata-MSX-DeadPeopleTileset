@@ -49048,13 +49048,13 @@
 		},
         {
         "id": "bloody_chainsaw_on",
-        "fg": 22053,
+        "fg": 3473,
         "bg": 957,
         "rotates": false
         },
         {
         "id": "bloody_chainsaw_off",
-        "fg": 22052,
+        "fg": 3472,
         "bg": 957,
         "rotates": false
         },
