@@ -32503,7 +32503,7 @@
           "fg": 1986,
           "rotates": false
         },	
-        {
+		{
           "id": ["pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
           "fg": 0,
           "rotates": false
@@ -48912,6 +48912,161 @@
           "rotates": false		  
         }
   ]
-  }
+  },
+{
+	"file": "xfiles.png",
+	"tiles": [
+		{
+		"id": "mon_pink_mist",
+		"fg": 22052,
+		"rotates": false
+		},
+		{
+		"id": "mon_entomber",
+		"fg": 22054,
+		"rotates": false
+		},
+		{
+		"id": "mon_bloodbeast",
+		"fg": 22053,
+		"rotates": false
+		},
+		{
+		"id": "mon_worm_mass",
+		"fg": 22061,
+		"rotates": false
+		},
+		{
+		"id": "mon_bloodworm",
+		"fg": 22062,
+		"rotates": false
+		},
+		{
+		"id": "mon_grey_grunt",
+		"fg": 22055,
+		"rotates": false
+		},
+		{
+		"id": "mon_alien_turret",
+		"fg": 22056,
+		"rotates": false
+		},
+		{
+		"id": "mon_loch_ness_monster",
+		"fg": 22057,
+		"rotates": false
+		},
+		{
+		"id": "mon_jersey_devil",
+		"fg": 22059,
+		"rotates": false
+		},
+		{
+		"id": "mon_mothman",
+		"fg": 22058,
+		"rotates": false
+		},
+		{
+		"id": "grey_handgun",
+		"fg": 22068,
+		"rotates": false
+		},
+		{
+		"id": "mon_robo_sentinel",
+		"fg": 22064,
+		"rotates": false
+		},
+		{
+		"id": "mon_floating_head",
+		"fg": 22065,
+		"rotates": false
+		},
+		{
+		"id": "mon_reptilian",
+		"fg": 22070,
+		"rotates": false
+		},
+		{
+		"id": "mon_lake_lurker",
+		"fg": 22071,
+		"rotates": false
+		},
+		{
+		"id": "mon_cia_security",
+		"fg": 22072,
+		"rotates": false
+		},
+		{
+		"id": "mon_cia_security",
+		"fg": 22072,
+		"rotates": false
+		},
+		{
+		"id": "mon_cia_hazmat",
+		"fg": 22073,
+		"rotates": false
+		},
+		{
+		"id": "mon_woods_thing",
+		"fg": 22074,
+		"rotates": false
+		},
+		{
+		"id": "mon_man_spider",
+		"fg": 22075,
+		"rotates": false
+		},
+		{
+		"id": "grey_instrument",
+		"fg": 22077,
+		"rotates": false
+		},
+		{
+		"id": "bone_violin",
+		"fg": 22078,
+		"rotates": false
+		},
+		{
+		"id": "golden_hand",
+		"fg": 22079,
+		"rotates": false
+		},
+		{
+		"id": "crystal_eyeball",
+		"fg": 22080,
+		"rotates": false
+		},
+		{
+		"id": "glass_spider",
+		"fg": 22081,
+		"rotates": false
+		},
+		{
+		"id": "grey_ammo",
+		"fg": 22082,
+		"rotates": false
+		},
+        {
+        "id": "bloody_chainsaw_on",
+        "fg": 22053,
+        "bg": 957,
+        "rotates": false
+        },
+        {
+        "id": "bloody_chainsaw_off",
+        "fg": 22052,
+        "bg": 957,
+        "rotates": false
+        },
+        {
+          "id": "glowing_lighter",
+          "fg": 3602,
+          "bg": 957,
+          "rotates": false
+        }
+	]
+	}
+	]
+	}
   ]
 }
