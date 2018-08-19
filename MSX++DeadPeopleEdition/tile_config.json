@@ -21404,7 +21404,7 @@
           ]
         },
 		{
-          "id": ["t_railroad_track_on_tie", "t_railroad_track_d_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_h_on_tie"],
+          "id": ["t_railroad_track_on_tie", "t_railroad_track_d_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_h_on_tie", "t_railroad_tie_d1", "t_railroad_tie_d2"],
           "fg": 4231,
           "rotates": false,
           "multitile": true,
@@ -23909,7 +23909,7 @@
           "fg": 1253
         },
         {
-          "id": "mannwurstgravy",
+          "id": ["mannwurstgravy", "mannwurst_raw"],
           "fg": 1253
         },
         {
@@ -24410,7 +24410,7 @@
           "fg": 1325
         },
         {
-          "id": "sausagegravy",
+          "id": ["sausagegravy", "sausage_raw"],
           "fg": 1325
         },
         {
@@ -32498,6 +32498,45 @@
           "fg": 5036,
           "rotates": true
         },		
+		        {
+          "id": "f_smoking_rack_active",
+          "fg": 5037,
+          "rotates": false
+        },		      
+		{
+          "id": "fake_smoke_plume",
+          "fg": 5038,
+          "rotates": false
+        },
+				{
+          "id": "sausage_wasteland_raw",
+          "fg": 5039,
+          "rotates": false
+        },
+				{
+          "id": "t_crossbuck_metal",
+          "fg": 5040,
+		  "bg": 1012,
+          "rotates": false
+        },
+				{
+          "id": "t_crossbuck_wood",
+          "fg": 5041,
+		  "bg": 1012,
+          "rotates": false
+        },
+						{
+          "id": "t_crossbuck_metal_season_winter",
+          "fg": 5040,
+		  "bg": 992,
+          "rotates": false
+        },
+				{
+          "id": "t_crossbuck_wood_season_winter",
+          "fg": 5041,
+		  "bg": 992,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
