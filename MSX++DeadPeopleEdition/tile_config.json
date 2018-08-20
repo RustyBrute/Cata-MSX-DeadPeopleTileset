@@ -21584,7 +21584,7 @@
           "bg": 1012
         },
         {
-          "id": "t_tree_plum",
+          "id": "!t_tree_plum",
           "fg": 3283,
           "bg": 1012
         },
@@ -21839,12 +21839,12 @@
           "bg": 1012
         },
         {
-          "id": "t_tree_apricot_season_autumn",
+          "id": "t_tree_apricot_season_summer",
           "fg": 3286,
           "bg": 1012
         },
         {
-          "id": "t_tree_plum_season_autumn",
+          "id": "!t_tree_plum_season_autumn",
           "fg": 3308,
           "bg": 1012
         },
@@ -46208,6 +46208,12 @@
           "bg": 5402,
           "rotates": false
         },
+		        {
+          "id": ["t_tree_apricot", "t_tree_plum"],
+          "fg": 5407,
+          "bg": 5402,
+          "rotates": false
+        },
         {
           "id": "t_tree_season_autumn",
           "fg": 5436,
@@ -46249,6 +46255,11 @@
           "fg": 5407,
           "bg": 5402
         },
+		        {
+          "id": "t_tree_apricot_season_summer",
+          "fg": 5412,
+          "bg": 5402
+        },
         {
           "id": "t_tree_cherry_season_summer",
           "fg": 5408,
@@ -46270,12 +46281,12 @@
           "bg": 5402
         },
         {
-          "id": "t_tree_apricot_season_autumn",
+          "id": "t_tree_apricot_season_summer",
           "fg": 5412,
           "bg": 5402
         },
         {
-          "id": "t_tree_plum_season_autumn",
+          "id": "t_tree_plum_season_summer",
           "fg": 5413,
           "bg": 5402
         },
@@ -46416,6 +46427,18 @@
           "id": ["t_tree_willow", "t_tree_coffee_season_summer", "t_tree_coffee"],
           "fg": 5432,
           "bg": 5402,
+          "rotates": false
+        },
+		 {
+          "id": "t_stump",
+          "fg": 5445,
+          "bg": 5402,
+          "rotates": false
+        },
+				 {
+          "id": "t_stump_season_winter",
+          "fg": 5445,
+          "bg": 5403,
           "rotates": false
         },
         {
