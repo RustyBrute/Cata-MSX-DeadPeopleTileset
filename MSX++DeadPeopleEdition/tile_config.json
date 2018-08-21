@@ -20987,7 +20987,7 @@
         {
           "id": "f_firering",
           "fg": 3940,
-          "bg": 1012,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -32535,6 +32535,30 @@
           "id": "t_crossbuck_wood_season_winter",
           "fg": 5041,
 		  "bg": 992,
+          "rotates": false
+        },
+		{
+          "id": "f_leather_tarp",
+          "fg": 5042,
+		  "bg": 0,
+          "rotates": false
+        },						
+		{
+          "id": "f_fiber_mat",
+          "fg": 5043,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "leather_tarp",
+          "fg": 5044,
+		  "bg": 0,
+          "rotates": false
+        },						
+		{
+          "id": "fiber_mat",
+          "fg": 5045,
+		  "bg": 0,
           "rotates": false
         },
 		{
@@ -46454,7 +46478,7 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter"],
+          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter", "t_tree_coffee_season_winter"],
           "fg": 5434,
           "bg": 5403,
           "rotates": false
