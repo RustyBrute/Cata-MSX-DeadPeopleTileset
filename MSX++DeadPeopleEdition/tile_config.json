@@ -32561,9 +32561,16 @@
 		  "bg": 0,
           "rotates": false
         },
+				{
+          "id": "mon_zombie_military_pilot",
+          "fg": 5046,
+		  "bg": 967,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
+		  
           "rotates": false
         },	
 		{
@@ -40084,7 +40091,7 @@
           "rotates": false
         },
         {
-          "id": ["scroll_sun", "scroll_spell_acidspray", "scroll_spell_agile", "scroll_spell_clairvoyance",  "scroll_spell_clarity",  "scroll_spell_cleric",  "scroll_spell_confusion", "scroll_spell_elecresist",  "scroll_spell_flame_armor",  "scroll_spell_free_action",  "scroll_spell_heal",  "scroll_spell_insight",  "scroll_spell_invis",  "scroll_spell_lightning",  "scroll_spell_might",  "scroll_spell_plants"],
+          "id": ["scroll_sun", "scroll_spell_acidspray", "scroll_spell_agile", "scroll_spell_clairvoyance",  "scroll_spell_clarity",  "scroll_spell_cleric",  "scroll_spell_confusion", "scroll_spell_elecresist",  "scroll_spell_flame_armor",  "scroll_spell_free_action",  "scroll_spell_heal",  "scroll_spell_insight",  "scroll_spell_invis",  "scroll_spell_lightning",  "scroll_spell_might",  "scroll_spell_plants", "spell_bugs"],
           "fg": 3740,
           "rotates": false
         },
@@ -40114,7 +40121,7 @@
           "rotates": false
         },
         {
-          "id": ["scroll_sun_on", "scroll_spell_acidspray_on", "scroll_spell_agile_on",  "scroll_spell_clairvoyance_on", "scroll_spell_clarity_on",  "scroll_spell_cleric_on", "scroll_spell_confusion_on",  "scroll_spell_elecresist_on",  "scroll_spell_flame_armor_on",  "scroll_spell_free_action_on",  "scroll_spell_heal_on",  "scroll_spell_insight_on",  "scroll_spell_invis_on",  "scroll_spell_lightning_on",  "scroll_spell_might_on", "scroll_spell_plants_on"],
+          "id": ["scroll_sun_on", "scroll_spell_acidspray_on", "scroll_spell_agile_on",  "scroll_spell_clairvoyance_on", "scroll_spell_clarity_on",  "scroll_spell_cleric_on", "scroll_spell_confusion_on",  "scroll_spell_elecresist_on",  "scroll_spell_flame_armor_on",  "scroll_spell_free_action_on",  "scroll_spell_heal_on",  "scroll_spell_insight_on",  "scroll_spell_invis_on",  "scroll_spell_lightning_on",  "scroll_spell_might_on", "scroll_spell_plants_on", "spell_bugs_on"],
           "fg": 3741,
           "rotates": false
         },
