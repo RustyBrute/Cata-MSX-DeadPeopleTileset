@@ -2073,7 +2073,7 @@
           "rotates": false
         },
         {
-          "id": "arm_splint",
+          "id": ["arm_splint", "arm_xlsplint"],
           "fg": 271,
           "bg": 957,
           "rotates": false
@@ -3574,7 +3574,7 @@
           "rotates": false
         },
         {
-          "id": "leg_splint",
+          "id": ["leg_splint", "leg_xlsplint"],
           "fg": 468,
           "bg": 957
         },
@@ -32567,10 +32567,34 @@
 		  "bg": 967,
           "rotates": false
         },
+						{
+          "id": "mon_zombie_nullfield",
+          "fg": 5047,
+		  "bg": 967,
+          "rotates": false
+        },
+						{
+          "id": "jabberwock_heart",
+          "fg": 5048,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "jabberwock_heart_desiccated",
+          "fg": 5049,
+		  "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "mutagen_jabberblood",
+          "fg": 5050,
+		  "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
-		  
+		  "bg": 0,
           "rotates": false
         },	
 		{
