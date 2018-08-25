@@ -49028,6 +49028,84 @@
             }
           ],
           "rotates": false		  
+        },
+						{
+		  "id": "fd_blood",
+          "fg": 17188,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17188,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17189, 17190, 17191, 17192 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17193, 17194, 17195, 17196],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17197, 17198],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17199, 17200, 17201, 17202],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17203,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },						
+		{
+		  "id": "fd_gibs_flesh",
+          "fg": 17204,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17204,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17205, 17206, 17207, 17208 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17209, 17210, 17211, 17212],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17213, 17214],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17215, 17216, 17217, 17218],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17219,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
         }
   ]
   },
