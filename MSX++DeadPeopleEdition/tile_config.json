@@ -32615,12 +32615,67 @@
 		  "bg": 0,
           "rotates": false
         },
+				{
+          "id": ["t_hive_young", "t_hive_recovering", "t_hive_regrowing"],
+          "fg": 5055,
+		  "bg": 1012,
+          "rotates": false
+        },	
+						{
+          "id": "t_hive_young_season_winter", 
+          "fg": 5055,
+		  "bg": 992,
+          "rotates": false
+        },	
+						{
+          "id": "beehive_empty", 
+          "fg": 5055,
+		  "bg": 0,
+          "rotates": false
+        },	
+								{
+          "id": "armwrap_fur",
+          "fg": 5056,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_armwrap_fur",
+          "fg": 5058,
+		  "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "armwrap_leather",
+          "fg": 5057,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_armwrap_leather",
+          "fg": 5059,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["t_hive_growing", "t_hive_recovering"],
+          "fg": 5060,
+		  "bg": 1012,
+          "rotates": false
+        },	
+				{
+          "id": "t_hive_ready",
+          "fg": 5061,
+		  "bg": 1012,
+          "rotates": false
+        },	
 		{
           "id": "atlatl", 
           "fg": 1986,
 		  "bg": 0,
           "rotates": false
         },	
+		
 		{
           "id": ["pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
           "fg": 0,
@@ -49131,6 +49186,162 @@
             },
             {
               "fg": 17219,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": "!t_hive_regrowing",
+          "fg": 17220,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17220,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17221, 17222, 17223, 17224 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17225, 17226, 17227, 17228],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17229, 17230],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17231, 17232, 17233, 17234],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17235,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": "!t_hive_young",
+          "fg": 17236,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17236,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17237, 17238, 17239, 17240 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17241, 17242, 17243, 17244],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17245, 17246],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17247, 17248, 17249, 17250],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17251,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": "!t_hive_ready",
+          "fg": 17252,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17252,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17253, 17254, 17255, 17256 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17257, 17258, 17259, 17260],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17261, 17262],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17263, 17264, 17265, 17266],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17267,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": ["!t_hive_recovering", "!t_hive_growing"],
+          "fg": 17268,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17268,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17269, 17270, 17271, 17272 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17273, 17274, 17275, 17276],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17277, 17278],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17279, 17280, 17281, 17282],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17283,
 			  "bg": 0,
               "id": "unconnected"
             }
