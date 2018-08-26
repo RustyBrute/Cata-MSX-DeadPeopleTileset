@@ -32585,9 +32585,33 @@
 		  "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "mutagen_jabberblood",
           "fg": 5050,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "woodgreatbow",
+          "fg": 5051,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_wielded_woodgreatbow",
+          "fg": 5052,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "compgreatbow",
+          "fg": 5053,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_wielded_compgreatbow",
+          "fg": 5054,
 		  "bg": 0,
           "rotates": false
         },
@@ -46434,7 +46458,7 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_birch_harvested", "t_tree_birch_harvested_season_winter"],
+          "id": "t_tree_birch_harvested",
           "fg": 5426,
           "bg": 5402,
           "rotates": false
@@ -46442,6 +46466,12 @@
         {
           "id": "t_tree_birch_season_winter",
           "fg": 5427,
+          "bg": 5403,
+          "rotates": false
+        },
+		        {
+          "id": "t_tree_birch_harvested_season_winter",
+          "fg": 5426,
           "bg": 5403,
           "rotates": false
         },
