@@ -32676,6 +32676,85 @@
           "rotates": false
         },	
 		{
+          "id": "f_mushroom_seed",
+          "fg": 5063,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_mushroom_seedling",
+          "fg": 5064,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_mushroom_mature",
+          "fg": 5065,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_mushroom_mature_harvest",
+          "fg": 5066,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_shrub_blueberry",
+          "fg": 5067,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_shrub_blueberry_harvest",
+          "fg": 5068,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": ["f_shrub_blackberry", "f_shrub_raspberry"],
+          "fg": 5069,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_shrub_blackberry_harvest",
+          "fg": 5070,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "f_shrub_raspberry_harvest",
+          "fg": 5071,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_shrub_strawberry_harvest",
+          "fg": 5072,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "f_shrub_strawberry",
+          "fg": 5073,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_shrub_cranberry",
+          "fg": 5074,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "f_shrub_cranberry_harvest",
+          "fg": 5075,
+		  "bg": 0,
+          "rotates": false
+        },			
+		
+		{
           "id": "atlatl", 
           "fg": 1986,
 		  "bg": 0,
