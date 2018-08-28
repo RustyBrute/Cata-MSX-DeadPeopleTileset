@@ -13313,7 +13313,7 @@
           "rotates": false
         },
         {
-          "id": "sugar_beet",
+          "id": ["sugar_beet", "seed_sugar_beet_raw"],
           "fg": 1353,
           "bg": 957,
           "rotates": false
@@ -13687,7 +13687,7 @@
           "rotates": false
         },
         {
-          "id": "fairy_tales",
+          "id": ["fairy_tales", "manual_dodge_kid"],
           "fg": 1033,
           "bg": 959,
           "rotates": false
@@ -23094,7 +23094,7 @@
           "fg": 1128
         },
         {
-          "id": "carrot",
+          "id": ["carrot", "seed_carrot_raw"],
           "fg": 1129,
           "rotates": false
         },
@@ -23766,7 +23766,7 @@
           "rotates": false
         },
         {
-          "id": "onion",
+          "id": ["onion", "seed_onion_raw"],
           "fg": 1230,
           "rotates": false
         },
@@ -24435,7 +24435,7 @@
           "fg": 1329
         },
         {
-          "id": "seed_potato_raw",
+          "id": "seed_potato",
           "fg": 1329
         },
         {
@@ -32667,6 +32667,12 @@
           "id": "t_hive_ready",
           "fg": 5061,
 		  "bg": 1012,
+          "rotates": false
+        },	
+						{
+          "id": "seed_potato_raw",
+          "fg": 5062,
+		  "bg": 0,
           "rotates": false
         },	
 		{
