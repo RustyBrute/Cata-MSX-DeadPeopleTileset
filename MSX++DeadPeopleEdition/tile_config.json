@@ -19415,6 +19415,12 @@
           "bg": 992,
           "rotates": false
         },
+				{
+          "id": "t_underbrush_season_autumn",
+          "fg": 4372,
+          "bg": 1012,
+          "rotates": false
+        },
         {
           "id": "t_underbrush_harvested_spring",
           "fg": 3319,
@@ -19429,7 +19435,7 @@
         },
         {
           "id": "t_underbrush_harvested_autumn",
-          "fg": 3319,
+          "fg": 4373,
           "bg": 1012,
           "rotates": false
         },        
