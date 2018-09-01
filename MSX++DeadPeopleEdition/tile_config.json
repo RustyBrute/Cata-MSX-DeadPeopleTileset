@@ -13545,7 +13545,7 @@
           "rotates": false
         },
         {
-          "id": "tinderbox_on",
+          "id": ["tinderbox_on", "ebook_scanner"],
           "fg": 3790,
           "bg": 957,
           "rotates": false
@@ -23028,7 +23028,7 @@
           "rotates": false
         },
         {
-          "id": "brew_milk_curdled",
+          "id": ["brew_milk_curdled", "icecream", "icecream_custard", "gelato"],
           "fg": 1120
         },
         {
@@ -23305,7 +23305,7 @@
           "rotates": false
         },
         {
-          "id": ["milk", "rice_milk"],
+          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood"],
           "fg": 1153,
           "rotates": false
         },
@@ -23857,7 +23857,7 @@
           "rotates": false
         },
         {
-          "id": "jam_strawberries",
+          "id": ["jam_strawberries", "icecream_sorbet"],
           "fg": 1241,
           "rotates": false
         },
@@ -24863,7 +24863,7 @@
           "fg": 1379
         },
         {
-          "id": "yoghurt",
+          "id": ["yoghurt", "icecream_yogurt"],
           "fg": 1382,
           "rotates": false
         },
@@ -32758,8 +32758,37 @@
           "fg": 5075,
 		  "bg": 0,
           "rotates": false
+        },	
+				{
+          "id": "icecream_fruit",
+          "fg": 5076,
+		  "bg": 0,
+          "rotates": false
         },			
-		
+		{
+          "id": "icecream_candy",
+          "fg": 5077,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "plastic_bucket",
+          "fg": 5078,
+		  "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "styrofoam_cup",
+          "fg": 5079,
+		  "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "motor_micro",
+          "fg": 5080,
+		  "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
