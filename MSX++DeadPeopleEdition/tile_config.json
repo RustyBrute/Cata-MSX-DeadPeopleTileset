@@ -1966,7 +1966,7 @@
           "fg": 255
         },
         {
-          "id": "armguard_metal",
+          "id": ["armguard_metal", "cddaxp_bracer"],
           "fg": 256,
           "bg": 957,
           "rotates": false
@@ -2947,7 +2947,7 @@
           "fg": 383
         },
         {
-          "id": "overlay_worn_armguard_metal",
+          "id": ["overlay_worn_armguard_metal", "overlay_worn_cddaxp_bracer"],
           "fg": 383,
           "rotates": false
         },
@@ -23028,7 +23028,7 @@
           "rotates": false
         },
         {
-          "id": ["brew_milk_curdled", "icecream", "icecream_custard", "gelato"],
+          "id": ["brew_milk_curdled", "icecream", "icecream_custard", "icecream_gelato", "icecream_artificial"],
           "fg": 1120
         },
         {
@@ -32783,14 +32783,223 @@
 		  "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "motor_micro",
           "fg": 5080,
 		  "bg": 0,
           "rotates": false
         },
+				{
+          "id": "cddaxp_shuriken",
+          "fg": 5081,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_dshuriken",
+          "fg": 5082,
+		  "bg": 0,
+          "rotates": false
+        },		
 		{
-          "id": "atlatl", 
+          "id": "cddaxp_cshuriken",
+          "fg": 5083,
+		  "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "cddaxp_envmask",
+          "fg": 5084,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_envmask",
+          "fg": 5085,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "cddaxp_srtrenchcoat",
+          "fg": 5086,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_srtrenchcoat",
+          "fg": 5087,
+		  "bg": 0,
+          "rotates": false
+        },										
+		{
+          "id": "cddaxp_rcpants",
+          "fg": 5088,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_rcpants",
+          "fg": 5089,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_retshield",
+          "fg": 5090,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_retshield",
+          "fg": 5091,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_survsrtrenchcoat",
+          "fg": 5092,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_survsrtrenchcoat",
+          "fg": 5093,
+		  "bg": 0,
+          "rotates": false
+        },	
+								{
+          "id": "cddaxp_survrcpants",
+          "fg": 5094,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_survrcpants",
+          "fg": 5095,
+		  "bg": 0,
+          "rotates": false
+        },	
+										{
+          "id": "cddaxp_rillepack",
+          "fg": 5096,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_rillepack",
+          "fg": 5097,
+		  "bg": 0,
+          "rotates": false
+        },
+												{
+          "id": "cddaxp_lamessrtrenchcoat",
+          "fg": 5098,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamessrtrenchcoat",
+          "fg": 5099,
+		  "bg": 0,
+          "rotates": false
+        },												{
+          "id": "cddaxp_lamesrcpants",
+          "fg": 5100,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamesrcpants",
+          "fg": 5101,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "cddaxp_longshirt",
+          "fg": 5102,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_longshirt",
+          "fg": 5103,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_srbshirt",
+          "fg": 5104,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_srbshirt",
+          "fg": 5105,
+		  "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "cddaxp_srshirt",
+          "fg": 5106,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_srshirt",
+          "fg": 5107,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_lamessbtrenchcoat",
+          "fg": 5108,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamessbtrenchcoat",
+          "fg": 5109,
+		  "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "cddaxp_lamesbcpants",
+          "fg": 5110,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamesbcpants",
+          "fg": 5111,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_lamessctrenchcoat",
+          "fg": 5112,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamessctrenchcoat",
+          "fg": 5113,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_lamesccpants",
+          "fg": 5114,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamesccpants",
+          "fg": 5115,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
           "rotates": false
@@ -33067,7 +33276,7 @@
           "fg": 2035
         },
 		        {
-          "id": "surv_lmg_308",
+          "id": ["surv_lmg_308", "kawaii_308AM"],
           "fg": 2035
         },		        
 		{
