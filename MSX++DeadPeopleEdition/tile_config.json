@@ -29250,6 +29250,11 @@
           "fg": 4449,
           "rotates": false
         },	
+				{
+          "id": ["arc_laser_rifle_monster", "laser_lmg_monster", "laser_sniper_monster", "v29_monster"],
+          "fg": 4449,
+          "rotates": false
+        },	
 		{
           "id": "apparatus",
           "fg": 4449,
