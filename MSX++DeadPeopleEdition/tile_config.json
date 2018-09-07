@@ -24038,7 +24038,7 @@
           "rotates": false
         },
         {
-          "id": ["mutagen", "mutagen_mouse", "iv_mutagen_mouse","iv_mutagen_alpha", "iv_mutagen_spider", "iv_mutagen_cattle",  "iv_mutagen_rat",  "iv_mutagen",  "iv_mutagen_fish",  "iv_mutagen_raptor", "mutagen_eye_blue", "mutagen_eye_brown", "mutagen_eye_gray", "mutagen_eye_red", "mutagen_eye_green", "mutagen_eye_yellow", "mutagen_skin_pink", "mutagen_skin_light", "mutagen_skin_tan", "mutagen_skin_dark", "mutagen_skin_medium", "mutagen_skin_pale", "mutagen_hair_blonde", "mutagen_hair_red", "mutagen_hair_brown", "mutagen_hair_black", "mutagen_hair_white", "mutagen_hair_pink", "mutagen_hair_gray", "mutagen_hair_bald", "mutagen_hair_bald", "iv_mutagenM", "iv_mutagen_alphaM", "iv_mutagen_beastM", "iv_mutagen_birdM", "iv_mutagen_cattleM", "iv_mutagen_cephalopodM", "iv_mutagen_chimeraM", "iv_mutagen_elfaM", "iv_mutagen_felineM", "iv_mutagen_fishM", "iv_mutagen_insectM", "iv_mutagen_lizardM", "iv_mutagen_lupineM", "iv_mutagen_medicalM", "iv_mutagen_plantM", "iv_mutagen_raptorM", "iv_mutagen_ratM", "iv_mutagen_slimeM", "iv_mutagen_spiderM", "iv_mutagen_tortoise", "iv_mutagen_troglobiteM", "iv_mutagen_ursineM", "iv_purifierM", "mutagen_tortoise", "mutagenM", "mutagen_alphaM", "mutagen_beastM", "mutagen_birdM", "mutagen_cattleM", "mutagen_cephalopodM", "mutagen_chimeraM", "mutagen_elfaM", "mutagen_felineM", "mutagen_fishM", "mutagen_insectM", "mutagen_lizardM", "mutagen_lupineM", "mutagen_medicalM", "mutagen_plantM", "mutagen_raptorM", "mutagen_ratM", "mutagen_slimeM", "mutagen_spiderM", "mutagen_tortoise", "mutagen_troglobiteM", "mutagen_ursineM"],
+          "id": ["mutagen", "cddaxp_asteroid", "mutagen_mouse", "iv_mutagen_mouse","iv_mutagen_alpha", "iv_mutagen_spider", "iv_mutagen_cattle",  "iv_mutagen_rat",  "iv_mutagen",  "iv_mutagen_fish",  "iv_mutagen_raptor", "mutagen_eye_blue", "mutagen_eye_brown", "mutagen_eye_gray", "mutagen_eye_red", "mutagen_eye_green", "mutagen_eye_yellow", "mutagen_skin_pink", "mutagen_skin_light", "mutagen_skin_tan", "mutagen_skin_dark", "mutagen_skin_medium", "mutagen_skin_pale", "mutagen_hair_blonde", "mutagen_hair_red", "mutagen_hair_brown", "mutagen_hair_black", "mutagen_hair_white", "mutagen_hair_pink", "mutagen_hair_gray", "mutagen_hair_bald", "mutagen_hair_bald", "iv_mutagenM", "iv_mutagen_alphaM", "iv_mutagen_beastM", "iv_mutagen_birdM", "iv_mutagen_cattleM", "iv_mutagen_cephalopodM", "iv_mutagen_chimeraM", "iv_mutagen_elfaM", "iv_mutagen_felineM", "iv_mutagen_fishM", "iv_mutagen_insectM", "iv_mutagen_lizardM", "iv_mutagen_lupineM", "iv_mutagen_medicalM", "iv_mutagen_plantM", "iv_mutagen_raptorM", "iv_mutagen_ratM", "iv_mutagen_slimeM", "iv_mutagen_spiderM", "iv_mutagen_tortoise", "iv_mutagen_troglobiteM", "iv_mutagen_ursineM", "iv_purifierM", "mutagen_tortoise", "mutagenM", "mutagen_alphaM", "mutagen_beastM", "mutagen_birdM", "mutagen_cattleM", "mutagen_cephalopodM", "mutagen_chimeraM", "mutagen_elfaM", "mutagen_felineM", "mutagen_fishM", "mutagen_insectM", "mutagen_lizardM", "mutagen_lupineM", "mutagen_medicalM", "mutagen_plantM", "mutagen_raptorM", "mutagen_ratM", "mutagen_slimeM", "mutagen_spiderM", "mutagen_tortoise", "mutagen_troglobiteM", "mutagen_ursineM"],
 		            "fg": 1273,
           "rotates": false
         },
@@ -32950,50 +32950,62 @@
           "rotates": false
         },
 				{
-          "id": "cddaxp_lamessbtrenchcoat",
+          "id": "cddaxp_srcshirt",
           "fg": 5108,
 		  "bg": 0,
           "rotates": false
         },	
 				{
-          "id": "overlay_worn_cddaxp_lamessbtrenchcoat",
+          "id": "overlay_worn_cddaxp_srcshirt",
           "fg": 5109,
 		  "bg": 0,
           "rotates": false
-        },				
-		{
-          "id": "cddaxp_lamesbcpants",
+        },
+				{
+          "id": "cddaxp_lamessbtrenchcoat",
           "fg": 5110,
 		  "bg": 0,
           "rotates": false
         },	
 				{
-          "id": "overlay_worn_cddaxp_lamesbcpants",
+          "id": "overlay_worn_cddaxp_lamessbtrenchcoat",
           "fg": 5111,
 		  "bg": 0,
           "rotates": false
-        },
-				{
-          "id": "cddaxp_lamessctrenchcoat",
+        },				
+		{
+          "id": "cddaxp_lamesbcpants",
           "fg": 5112,
 		  "bg": 0,
           "rotates": false
         },	
 				{
-          "id": "overlay_worn_cddaxp_lamessctrenchcoat",
+          "id": "overlay_worn_cddaxp_lamesbcpants",
           "fg": 5113,
 		  "bg": 0,
           "rotates": false
         },
-						{
-          "id": "cddaxp_lamesccpants",
+				{
+          "id": "cddaxp_lamessctrenchcoat",
           "fg": 5114,
 		  "bg": 0,
           "rotates": false
         },	
 				{
-          "id": "overlay_worn_cddaxp_lamesccpants",
+          "id": "overlay_worn_cddaxp_lamessctrenchcoat",
           "fg": 5115,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_lamesccpants",
+          "fg": 5116,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_cddaxp_lamesccpants",
+          "fg": 5117,
 		  "bg": 0,
           "rotates": false
         },
@@ -33132,12 +33144,133 @@
           "bg": 5130,
           "rotates": false
         },
+		        {
+          "id": "fuel_bunker",
+          "fg": 5132,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "vp_fuel_bunker",
+          "fg": 5132,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "steam_triple_medium",
+          "fg": 5133,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "vp_steam_triple_medium",
+          "fg": 5133,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "steam_watts_small",
+          "fg": 5134,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "vp_engine_steam_makeshift",
+          "fg": 5134,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "steam_triple_small",
+          "fg": 5135,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "vp_engine_steam_small",
+          "fg": 5135,
+          "bg": 0,
+          "rotates": false
+        },
 		{
+          "id": "cddaxp_hlamesstrenchcoat",
+          "fg": 5136,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_hlamesstrenchcoat",
+          "fg": 5137,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_hlamescpants",
+          "fg": 5138,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_hlamescpants",
+          "fg": 5139,
+          "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "cddaxp_fbackholster",
+          "fg": 5140,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_fbackholster",
+          "fg": 5141,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_bplamesstrenchcoat",
+          "fg": 5142,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_bplamesstrenchcoat",
+          "fg": 5143,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_bplamescpants",
+          "fg": 5144,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_bplamescpants",
+          "fg": 5145,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_mrhbar",
+          "fg": 5146,
+		  "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "cddaxp_carbonfiber",
+          "fg": 5147,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
           "rotates": false
         },	
+
 		
 		{
           "id": ["bio_shock_absorber", "pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
