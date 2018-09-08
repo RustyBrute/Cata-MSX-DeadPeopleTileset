@@ -33443,7 +33443,73 @@
           "bg": 0,
           "rotates": false
         },	
+						{
+          "id": "cddaxp_bfclosed",
+          "fg": 5176,
+		  "bg": 0,
+          "rotates": false
+        },	
 				{
+          "id": "cddaxp_kusarigama",
+          "fg": 5177,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_cddaxp_kusarigama",
+          "fg": 5178,
+          "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "cddaxp_happo",
+          "fg": 5179,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_happo_lit",
+          "fg": 5180,
+          "bg": 0,
+          "rotates": false
+        },							
+		{
+          "id": "cddaxp_argoogles",
+          "fg": 5181,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_argoogles",
+          "fg": 5182,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_patablet",
+          "fg": 5183,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_patablet_on",
+          "fg": 5184,
+          "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "cddaxp_tbomb",
+          "fg": 5185,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_tbomb_act",
+          "fg": 5186,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
@@ -40289,7 +40355,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_knife_steak",
+          "id": ["overlay_wielded_knife_steak", "overlay_wielded_cddaxp_bfopen"],
           "fg": 3648,
           "rotates": false
         },
@@ -41219,7 +41285,7 @@
           "rotates": false
         },
         {
-          "id": "diveknife",
+          "id": ["diveknife", "cddaxp_bfopen"],
           "fg": 3775
         },
         {
@@ -50525,8 +50591,6 @@
 		{ "id": "overlay_wielded_kawaii_crystal_tr_prot",			"fg": 22343, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_spear_steel",				"fg": 22344, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_death_scythe",				"fg": 22345, "rotates": false }
-	]
-	}
 	]
 	}
   ]
