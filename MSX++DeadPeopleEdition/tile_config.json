@@ -33346,7 +33346,103 @@
           "fg": 5161,
           "bg": 0,
           "rotates": false
+        },				
+		{
+          "id": "cddaxp_artclocloak",
+          "fg": 5162,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_artclocloak",
+          "fg": 5164,
+          "bg": 0,
+          "rotates": false
         },
+						{
+          "id": "cddaxp_artclocloak_on",
+          "fg": 5163,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_artclocloak_on",
+          "fg": 5165,
+          "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": ["cddaxp_artesosk", "cddaxp_artesosk_on"],
+          "fg": 5166,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["overlay_worn_cddaxp_artesosk", "overlay_worn_cddaxp_artesosk_on"],
+          "fg": 5167,
+          "bg": 0,
+          "rotates": false
+        },
+										{
+          "id": ["cddaxp_artesosk", "cddaxp_artesosk_on"],
+          "fg": 5166,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["overlay_worn_cddaxp_artesosk", "overlay_worn_cddaxp_artesosk_on"],
+          "fg": 5167,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_artgloves",
+          "fg": 5168,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_artgloves",
+          "fg": 5169,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_artgloves_on",
+          "fg": 5170,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_artgloves_on",
+          "fg": 5171,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_survrbelt",
+          "fg": 5172,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_cddaxp_survrbelt",
+          "fg": 5173,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["cddaxp_mtsuit", "cddaxp_mtsuit_on"],
+          "fg": 5174,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["overlay_worn_cddaxp_mtsuit", "overlay_worn_cddaxp_mtsuit_on"],
+          "fg": 5175,
+          "bg": 0,
+          "rotates": false
+        },	
 				{
           "id": "atlatl",
           "fg": 1986,
