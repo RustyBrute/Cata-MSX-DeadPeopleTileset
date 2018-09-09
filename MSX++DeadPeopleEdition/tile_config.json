@@ -9667,7 +9667,7 @@
         },
         {
           "id": "pistol_bayonet",
-          "fg": 1790,
+          "fg": 3776,
           "bg": 957,
           "rotates": false
         },
@@ -12227,7 +12227,7 @@
           "rotates": false
         },
         {
-          "id": "atomic_lamp",
+          "id": ["atomic_lamp", "cddaxp_ialamp"],
           "fg": 1634,
           "bg": 957,
           "rotates": false
@@ -31482,17 +31482,6 @@
           "rotates": false
         },		
 		{
-          "id": "!fd_fire",
-          "fg":		  [
-            { "weight":100, "sprite":4870},
-            { "weight":10, "sprite":4871},
-			{ "weight":10, "sprite":4872},
-			{ "weight":10, "sprite":4873},
-			{ "weight":10, "sprite":4874}
-			],
-          "rotates": false
-        },
-		{
           "id": "mon_weasel",
           "fg": 2375,
           "bg": 967,
@@ -33163,7 +33152,7 @@
           "rotates": false
         },
 				        {
-          "id": ["vp_steam_triple_medium", "engine_steam_medium"],
+          "id": ["vp_steam_triple_medium", "vp_engine_steam_medium"],
           "fg": 5133,
           "bg": 0,
           "rotates": false
@@ -33506,6 +33495,114 @@
 		{
           "id": "cddaxp_tbomb_act",
           "fg": 5186,
+          "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "cddaxp_vptmeats",
+          "fg": 5187,
+          "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "purifier_smart_shot",
+          "fg": 5188,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "cddaxp_ckatana",
+          "fg": 5189,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_cddaxp_ckatana",
+          "fg": 5190,
+          "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "cddaxp_cmachete",
+          "fg": 5191,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_cddaxp_cmachete",
+          "fg": 5192,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_cknife",
+          "fg": 5193,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_cddaxp_cknife",
+          "fg": 5194,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "cddaxp_ckukri",
+          "fg": 5195,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_cddaxp_ckukri",
+          "fg": 5196,
+          "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "cddaxp_crapier",
+          "fg": 5197,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_cddaxp_crapier",
+          "fg": 5198,
+          "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "cddaxp_cbroadsword",
+          "fg": 5199,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_cddaxp_cbroadsword",
+          "fg": 4870,
+          "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "cddaxp_czweihander",
+          "fg": 4871,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_cddaxp_czweihander",
+          "fg": 4872,
+          "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "cddaxp_cwakizashi",
+          "fg": 4873,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_cddaxp_cwakizashi",
+          "fg": 4874,
           "bg": 0,
           "rotates": false
         },	
@@ -38961,7 +39058,7 @@
         },
 		{
           "id": "t_sand",
-          "fg": 3020,
+          "fg": 3215,
           "rotates": false
         },
 		{
@@ -50569,7 +50666,7 @@
     },
 
 	{
-		"file": "13_tiles_kawaiimaidmod_64x48-22340-22365.png",
+		"file": "13_tiles_kawaiimaidmod_64x48-22340-22364.png",
 		"sprite_width":64,
 		"sprite_height":48,
 		"sprite_offset_x":-16,
@@ -50591,6 +50688,72 @@
 		{ "id": "overlay_wielded_kawaii_crystal_tr_prot",			"fg": 22343, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_spear_steel",				"fg": 22344, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_death_scythe",				"fg": 22345, "rotates": false }
+	]
+	},
+	{
+		"file": "14_tiles2_32x32_22365-27564.png",
+		"tiles":
+	[
+		{
+          "id": "cddaxp_cnodachi",
+          "fg": 22365,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_cddaxp_cnodachi",
+          "fg": 22366,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "cddaxp_dkusarigama",
+          "fg": 22367,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_cddaxp_dkusarigama",
+          "fg": 22368,
+          "bg": 0,
+          "rotates": false
+        },							
+		{
+          "id": "cddaxp_ckusarigama",
+          "fg": 22369,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_cddaxp_ckusarigama",
+          "fg": 22370,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_cbayonet",
+          "fg": 22371,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_cpistolbayonet",
+          "fg": 22372,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "cddaxp_cswordbayonet",
+          "fg": 22373,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "atlatl",
+          "fg": 1986,
+		  "bg": 0,
+          "rotates": false
+        }			
 	]
 	}
   ]
