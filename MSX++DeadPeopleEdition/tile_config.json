@@ -50748,6 +50748,211 @@
           "bg": 0,
           "rotates": false
         },
+						{
+          "id": "f_flower_tulip",
+          "fg": 22374,
+          "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "f_flower_spurge",
+          "fg": 22375,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_hydrangea",
+          "fg": 22376,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_hydrangea_harvested",
+          "fg": 22377,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_rose",
+          "fg": 22378,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_rose_harvested",
+          "fg": 22379,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_grape",
+          "fg": 22380,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_grape_harvested",
+          "fg": 22381,
+          "bg": 1012,
+          "rotates": false
+        },
+				{
+          "id": "t_shrub_raspberry",
+          "fg": 22382,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_raspberry_harvested",
+          "fg": 22383,
+          "bg": 1012,
+          "rotates": false
+        },			
+		{
+          "id": "t_shrub_huckleberry",
+          "fg": 22384,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_huckleberry_harvested",
+          "fg": 22385,
+          "bg": 1012,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_blackberry",
+          "fg": 22386,
+          "bg": 1012,
+          "rotates": false
+        },		
+				{
+          "id": "t_shrub_blackberry_harvested",
+          "fg": 22387,
+          "bg": 1012,
+          "rotates": false
+        },
+				{
+          "id": "t_tree_elderberry",
+          "fg": 22388,
+          "bg": 1012,
+          "rotates": false
+        },				
+		{
+          "id": "t_tree_elderberry_harvested",
+          "fg": 22389,
+          "bg": 1012,
+          "rotates": false
+        },
+						{
+          "id": "t_tree_mulberry",
+          "fg": 22390,
+          "bg": 1012,
+          "rotates": false
+        },				
+		{
+          "id": "t_tree_mulberry_harvested",
+          "fg": 22391,
+          "bg": 1012,
+          "rotates": false
+        },
+				{
+          "id": "t_shrub_hydrangea_season_winter",
+          "fg": 22392,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_hydrangea_harvested_season_winter",
+          "fg": 22392,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_rose_season_winter",
+          "fg": 22393,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_rose_harvested_season_winter",
+          "fg": 22393,
+          "bg": 992,
+          "rotates": false
+        },
+								{
+          "id": "t_shrub_grape_season_winter",
+          "fg": 22394,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_grape_harvested_season_winter",
+          "fg": 22394,
+          "bg": 992,
+          "rotates": false
+        },
+										{
+          "id": "t_shrub_raspberry_season_winter",
+          "fg": 22395,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_raspberry_harvested_season_winter",
+          "fg": 22395,
+          "bg": 992,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_huckleberry_season_winter",
+          "fg": 22396,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_huckleberry_harvested_season_winter",
+          "fg": 22396,
+          "bg": 992,
+          "rotates": false
+        },		
+		{
+          "id": "t_shrub_blackberry_season_winter",
+          "fg": 22396,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_shrub_blackberry_harvested_season_winter",
+          "fg": 22396,
+          "bg": 992,
+          "rotates": false
+        },
+				{
+          "id": "t_tree_elderberry_season_winter",
+          "fg": 22397,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_tree_elderberry_harvested_season_winter",
+          "fg": 22397,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_tree_mulberry_season_winter",
+          "fg": 22398,
+          "bg": 992,
+          "rotates": false
+        },
+						{
+          "id": "t_tree_mulberry_harvested_season_winter",
+          "fg": 22398,
+          "bg": 992,
+          "rotates": false
+        },
+
 		{
           "id": "atlatl",
           "fg": 1986,
