@@ -8199,7 +8199,7 @@
           "rotates": false
         },
         {
-          "id": "bio_dis_shock",
+          "id": ["bio_dis_shock", "bio_syringe", "bio_weight"],
           "fg": 1016,
           "bg": 957,
           "rotates": false
@@ -10697,7 +10697,7 @@
           "rotates": false
         },
         {
-          "id": ["usb_drive", "software","software_useless", "software_hacking", "software_medical", "software_math", "software_blood_data"],
+          "id": ["usb_drive", "software","software_useless", "software_hacking", "software_medical", "software_math", "software_blood_data", "software_lab_data", "software_train_data"],
           "fg": 1965,
           "bg": 957,
           "rotates": false
@@ -50951,7 +50951,80 @@
           "fg": 22398,
           "bg": 992,
           "rotates": false
+        },				
+		{
+          "id": "clay_pot_flower",
+          "fg": 22399,
+          "bg": 0,
+          "rotates": false
         },
+				{
+          "id": "plastic_pot_flower",
+          "fg": 22400,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "grenadebandolier",
+          "fg": 22401,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_worn_grenadebandolier",
+          "fg": 22402,
+          "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "v_airjack_item",
+          "fg": 22403,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "v_motorcycle_kickstand_item",
+          "fg": 22404,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "elderberries",
+          "fg": 22405,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "irradiated_elderberries",
+          "fg": 22406,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "huckleberries",
+          "fg": 22407,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "irradiated_huckleberries",
+          "fg": 22408,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "mulberries",
+          "fg": 22409,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "irradiated_mulberries",
+          "fg": 22410,
+          "bg": 0,
+          "rotates": false
+        },
+
 
 		{
           "id": "atlatl",
