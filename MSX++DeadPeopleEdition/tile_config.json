@@ -50767,7 +50767,7 @@
           "rotates": false
         },		
 		{
-          "id": "t_shrub_hydrangea_harvested",
+          "id": ["t_shrub_hydrangea_harvested", "t_shrub_hydrangea_season_spring", "t_shrub_hydrangea_season_summer"],
           "fg": 22377,
           "bg": 1012,
           "rotates": false
@@ -50779,7 +50779,7 @@
           "rotates": false
         },		
 		{
-          "id": "t_shrub_rose_harvested",
+          "id": ["t_shrub_rose_harvested", "t_shrub_rose_season_spring", "t_shrub_rose_season_summer"],
           "fg": 22379,
           "bg": 1012,
           "rotates": false
@@ -51024,8 +51024,96 @@
           "bg": 0,
           "rotates": false
         },
-
-
+								{
+          "id": "hydrangea_bud",
+          "fg": 22411,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "hydrangea_flower",
+          "fg": 22412,
+          "bg": 0,
+          "rotates": false
+        },							
+		{
+          "id": "rose_hips",
+          "fg": 22413,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "irradiated_rose_hips",
+          "fg": 22414,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "rose_bud",
+          "fg": 22415,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "rose_flower",
+          "fg": 22416,
+          "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "seed_elderberries",
+          "fg": 22417,
+          "bg": 0,
+          "rotates": false
+        },							
+		{
+          "id": "seed_grapes",
+          "fg": 22418,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "seed_huckleberries",
+          "fg": 22419,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "seed_mulberries",
+          "fg": 22420,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "seed_rose",
+          "fg": 22421,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "spurge_bud",
+          "fg": 22422,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "spurge_flower",
+          "fg": 22423,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "tulip_bud",
+          "fg": 22424,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "tulip_flower",
+          "fg": 22425,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
