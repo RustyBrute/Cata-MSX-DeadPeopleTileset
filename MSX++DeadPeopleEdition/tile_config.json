@@ -6841,10 +6841,6 @@
           "rotates": false
         },
         {
-          "id": "wolfsuit",
-          "fg": 834
-        },
-        {
           "id": "overlay_worn_wsurvivor_suit",
           "fg": 835,
           "rotates": false
@@ -51239,6 +51235,10 @@
           "fg": 22446,
           "bg": 0,
           "rotates": false
+        },
+		        {
+          "id": "wolfsuit",
+          "fg": 22447
         },
 		{
           "id": "atlatl",
