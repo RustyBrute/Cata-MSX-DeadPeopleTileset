@@ -26279,7 +26279,7 @@
           "rotates": false
         },
         {
-          "id": "300_casing",
+          "id": ["300_casing", ".300_casing", ".303_casing"],
           "fg": 1608,
           "rotates": false
         },
@@ -26372,7 +26372,7 @@
           "fg": 1622
         },
         {
-          "id": "9mm_casing",
+          "id": ["9mm_casing", ".380_casing"],
           "fg": 1623,
           "rotates": false
         },
@@ -36306,7 +36306,7 @@
           "fg": 2268
         },
         {
-          "id": "m1911mag",
+          "id": ["m1911mag", "460mag", "460mag2"],
           "fg": 2268
         },
         {
@@ -51189,6 +51189,54 @@
 						{
           "id": "overlay_worn_survivor_lightplate",
           "fg": 22438,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": [".300", "reloaded_.300", "reloaded_.3002", ".3002"],
+          "fg": 22439,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": [".303", "reloaded_.303", "reloaded_303_match"],
+          "fg": 22440,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": ".30810mag",
+          "fg": 22441,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": ".30820mag",
+          "fg": 22442,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "reloaded_308_match",
+          "fg": 22443,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ".380",
+          "fg": 22444,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ".460",
+          "fg": 22445,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "reloaded_.460",
+          "fg": 22446,
           "bg": 0,
           "rotates": false
         },
