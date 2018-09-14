@@ -35941,10 +35941,6 @@
           "fg": 2232
         },
         {
-          "id": "muzzle_brake",
-          "fg": 2232
-        },
-        {
           "id": ["stabilizer", "lead_stabilizer"],
           "fg": 2232
         },
@@ -40154,12 +40150,12 @@
           "rotates": false
         },
         {
-          "id": "tr_landmine_buried",
+          "id": "!tr_landmine_buried",
           "fg": 3598,
           "rotates": false
         },
         {
-          "id": "tr_landmine_buried_season_winter",
+          "id": "!tr_landmine_buried_season_winter",
           "fg": 3598,
 		  "rotates": false
         },
@@ -42083,6 +42079,16 @@
           "id": "towel",
           "fg": 3910,
           "rotates": false
+        },
+		        {
+          "id": "tr_landmine_buried",
+          "fg": 3916,
+          "rotates": false
+        },
+        {
+          "id": "tr_landmine_buried_season_winter",
+          "fg": 3917,
+		  "rotates": false
         },
         {
           "id": "tr_blade",
@@ -50151,6 +50157,279 @@
             }
           ],
           "rotates": false		  
+        },		
+		{
+		  "id": "t_pit_foxhole",
+          "fg": 17220,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17220,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17221, 17222, 17223, 17224 ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17225, 17226, 17227, 17228],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17229, 17230],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17231, 17232, 17233, 17234],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17235,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": "t_pit_foxhole_season_winter",
+          "fg": 17220,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17220,
+		      "bg": 992
+              "id": "center"
+            },
+			{
+              "fg": [ 17221, 17222, 17223, 17224 ],
+			  "bg": 992
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17225, 17226, 17227, 17228],
+		      "bg": 992
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17229, 17230],
+              "bg": 992		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17231, 17232, 17233, 17234],
+              "bg": 992
+              "id": "end_piece"
+            },
+            {
+              "fg": 17235,
+			  "bg": 992
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+				{
+		  "id": ["!t_pit", "!tr_pit"],
+          "fg": 17236,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17236,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17237, 17238, 17239, 17240 ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17241, 17242, 17243, 17244],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17245, 17246],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17247, 17248, 17249, 17250],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17251,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
         },
 		{
 		  "id": "!t_hive_regrowing",
@@ -51239,7 +51518,16 @@
 		        {
           "id": "wolfsuit",
           "fg": 22447
+        },		
+		{
+          "id": "tr_landmine",
+          "fg": 22448,          
+          "rotates": false
         },
+		        {
+          "id": ["muzzle_brake", "460_muzzle_brake"],
+          "fg": 2232
+        },		
 		{
           "id": "atlatl",
           "fg": 1986,
