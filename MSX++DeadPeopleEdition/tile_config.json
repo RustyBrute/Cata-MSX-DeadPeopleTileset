@@ -51120,6 +51120,78 @@
           "bg": 0,
           "rotates": false
         },
+						{
+          "id": "armor_alloyplate",
+          "fg": 22427,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_armor_alloyplate",
+          "fg": 22428,
+          "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "armored_pack",
+          "fg": 22429,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_armored_pack",
+          "fg": 22430,
+          "bg": 0,
+          "rotates": false
+        },
+										{
+          "id": "environmental_skinsuit",
+          "fg": 22431,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_environmental_skinsuit",
+          "fg": 22432,
+          "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "survivor_skinsuit",
+          "fg": 22433,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_survivor_skinsuit",
+          "fg": 22434,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "survivor_alloyplate",
+          "fg": 22435,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_survivor_alloyplate",
+          "fg": 22436,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "survivor_lightplate",
+          "fg": 22437,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "overlay_worn_survivor_lightplate",
+          "fg": 22438,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
