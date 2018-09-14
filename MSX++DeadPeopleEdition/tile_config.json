@@ -51114,6 +51114,12 @@
           "bg": 0,
           "rotates": false
         },
+						{
+          "id": "f_candle_barrier",
+          "fg": 22426,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
