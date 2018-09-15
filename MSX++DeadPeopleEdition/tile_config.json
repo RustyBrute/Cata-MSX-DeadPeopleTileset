@@ -26321,7 +26321,7 @@
           "rotates": false
         },
         {
-          "id": ["762_casing", "762_38R_casing", "762_51_casing"],
+          "id": ["762_casing", "762_38R_casing", "762_51_casing", "8mm_casing"],
           "fg": 1622,
           "rotates": false
         },
@@ -51505,7 +51505,31 @@
 		{
           "id": "thermos",
           "fg": 22453
+        },		
+		{
+          "id": "40sawmag",
+          "fg": 22454
+        },			
+		{
+          "id": "50api",
+          "fg": 22455
         },	
+				{
+          "id": "7.62x54Rmag",
+          "fg": 22456
+        },	
+				{
+          "id": "7.62x54Rmag2",
+          "fg": 22457
+        },	
+						{
+          "id": "762_54R_incendiary",
+          "fg": 22458
+        },						
+		{
+          "id": ["8mmMauser", "Match_7.92mm", "reloaded_7.92mm"],
+          "fg": 22459
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
