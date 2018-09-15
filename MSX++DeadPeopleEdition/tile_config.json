@@ -9974,47 +9974,29 @@
           "rotates": false
         },
         {
-          "id": "retool_22",
+          "id": ["retool_22", "retool_545"],
           "fg": 2251,
           "bg": 957,
           "rotates": false
         },
         {
           "id": "retool_223",
-          "fg": 2251,
+          "fg": 2252,
           "bg": 957
         },
         {
-          "id": "retool_308",
-          "fg": 2251,
+          "id": ["retool_308", "retool_654"],
+          "fg": 2253,
           "bg": 957
         },
         {
-          "id": "retool_45",
-          "fg": 2252,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "retool_flaregun",
-          "fg": 2252,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "retool_46",
-          "fg": 2252,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "retool_57",
+          "id": ["retool_45", "retool_46", "retool_57", "retool_9mm", "460_conversion", "retool_357", "retool_38", "retool_40", "retool_460"],
           "fg": 2254,
           "bg": 957,
           "rotates": false
         },
         {
-          "id": "retool_9mm",
+          "id": "retool_flaregun",
           "fg": 2255,
           "bg": 957,
           "rotates": false
@@ -11277,26 +11259,6 @@
           "fg": 2229,
           "bg": 957,
           "rotates": false
-        },
-        {
-          "id": "retool_545",
-          "fg": 2251,
-          "bg": 957
-        },
-		        {
-          "id": "retool_410",
-          "fg": 2253,
-          "bg": 957
-        },
-        {
-          "id": "retool_654",
-          "fg": 2251,
-          "bg": 957
-        },
-        {
-          "id": "retool_762",
-          "fg": 2251,
-          "bg": 957
         },
         {
           "id": "emas",
@@ -51526,8 +51488,20 @@
         },
 		        {
           "id": ["muzzle_brake", "460_muzzle_brake"],
-          "fg": 2232
+          "fg": 22449
         },		
+		{
+          "id": "retool_410",
+          "fg": 22450
+        },	
+				{
+          "id": ["retool_762", "retool_545x39"],
+          "fg": 22451
+        },	
+						{
+          "id": "retool_mauser",
+          "fg": 22452
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
