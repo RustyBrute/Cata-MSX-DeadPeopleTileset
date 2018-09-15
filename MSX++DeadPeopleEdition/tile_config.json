@@ -51501,6 +51501,10 @@
 						{
           "id": "retool_mauser",
           "fg": 22452
+        },							
+		{
+          "id": "thermos",
+          "fg": 22453
         },	
 		{
           "id": "atlatl",
