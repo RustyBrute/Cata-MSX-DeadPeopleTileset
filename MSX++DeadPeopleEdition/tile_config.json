@@ -29895,17 +29895,12 @@
 	{ "id": ["assassins_throwing_dagger", "makeshift_throwing_knife"], "fg": 239, "rotates": false },
 		{ 
 		"id": ["mon_shoggoth_maid", "mini_shoggoth", "res_shoggoth"],
-		"fg": 4569, 
-		"rotates": false 
-		},
-				{ 
-		"id": "mon_shoggoth_maid",
-		"fg": 4574, 
+		"fg": 4577, 
 		"rotates": false 
 		},
 		{ 
 		"id": ["mon_little_maid", "little_maid_human_smoked", "little_maid_human_smoked_fin", "little_maid_fish_smoked_fin", "little_maid_R18", "little_maid_R18_tane", "little_maid_R18_milk", "little_maid_R18_milk2", "little_maid_meat_smoked", "little_maid_meat_smoked_fin", "little_maid_fish_smoked", "mini_little_maid", "res_little_maid"],
-		"fg": 4570, 
+		"fg": 4578, 
 		"rotates": false 
 		},
 				{ 
@@ -33564,6 +33559,26 @@
           "bg": 0,
           "rotates": false
         },	
+		        {
+          "id": "petticoat",
+          "fg": 495,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_bio_scalpel",
+          "fg": 1872,
+          "rotates": false
+        },
+        {
+          "id": ["maid_cap","cat_maid_cap"],
+          "fg": 4283,
+          "rotates": false
+        },
+		{
+          "id": "maid_point",
+          "bg": 978,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
