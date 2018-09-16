@@ -50892,7 +50892,10 @@
 		{ "id": "overlay_wielded_kawaii_knife_steak_twin",	"fg": 22252, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_sword_steel",		"fg": 22253, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_crowbar_lance",		"fg": 22254, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_amts_eve",			"fg": 22255, "rotates": false }
+		{ "id": "overlay_wielded_kawaii_amts_eve",			"fg": 22255, "rotates": false },
+		
+		{ "id": "overlay_worn_kawaii_maid_hardcase_mini",	"fg": 22261, "rotates": false },
+		{ "id": "overlay_worn_kawaii_maid_hardcase_slim",	"fg": 22262, "rotates": false }
 	]
 	},
     
