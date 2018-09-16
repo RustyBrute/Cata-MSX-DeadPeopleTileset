@@ -5935,11 +5935,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_pants_leather",
-          "fg": 733,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_pants_fur",
           "fg": 733,
           "rotates": false
@@ -31372,6 +31367,12 @@
           "bg": 967,
           "rotates": false
         },
+			    {
+          "id": "overlay_worn_pants_leather",
+          "fg": 4857,
+          "bg": 967,
+          "rotates": false
+        },
 
         {
           "id": "t_rock_floor",
@@ -39032,7 +39033,7 @@
         },
 		{
           "id": "t_sand_season_winter",
-          "fg": 3021,
+          "fg": 992,
           "rotates": false
         },
         {
@@ -47264,7 +47265,7 @@
           "rotates": false
         },
         {
-          "id": "t_tree_season_autumn",
+          "id": ["t_tree_season_autumn", "t_tree_oak_harvested"],
           "fg": 5436,
           "bg": 5402,
           "rotates": false
@@ -47458,12 +47459,6 @@
           "rotates": false
         },
         {
-          "id": "t_tree_maple_season_winter",
-          "fg": 5430,
-          "bg": 5403,
-          "rotates": false
-        },
-        {
           "id": "t_tree_maple_tapped",
           "fg": 5429,
           "bg": 5402
@@ -47482,6 +47477,24 @@
           "id": ["t_tree_willow", "t_tree_coffee_season_summer", "t_tree_coffee"],
           "fg": 5432,
           "bg": 5402,
+          "rotates": false
+        },        
+		{
+          "id": "t_tree_maple_season_winter",
+          "fg": 5443,
+          "bg": 5403,
+          "rotates": false
+        },
+				 {
+          "id": "t_tree_oak_harvested",
+          "fg": 5444,
+          "bg": 5402,
+          "rotates": false
+        },
+						 {
+          "id": "t_tree_oak_harvested_season_winter",
+          "fg": 5444,
+          "bg": 5403,
           "rotates": false
         },
 		 {
@@ -49268,7 +49281,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["t_grass", "t_grass_long"],
+          "id": ["t_grass", "t_grass_long", "t_grass_golf"],
           "fg": 16884,
           "bg": 1012,
           "multitile": true,
@@ -49308,7 +49321,7 @@
           "rotates": true		  
         },		
 		{
-          "id": "t_grass_season_summer",
+          "id": ["t_grass_season_summer", "t_grass_golf_season_summer"],
           "fg": 16900,
           "bg": 1012,
           "multitile": true,
@@ -49348,7 +49361,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["t_grass_season_autumn", "t_grass_dead"],
+          "id": ["t_grass_season_autumn", "t_grass_golf_season_autumn"],
           "fg": 16916,
           "bg": 1012,
           "multitile": true,
@@ -49824,7 +49837,7 @@
           "rotates": false		  
         },
 		{
-		  "id": "t_grass_golf",
+		  "id": "!t_grass_golf",
           "fg": 17092,
           "bg": 1012,
           "multitile": true,
@@ -50292,7 +50305,7 @@
           "rotates": false		  
         },
 				{
-		  "id": ["!t_pit", "!tr_pit"],
+		  "id": ["t_grass_dead"],
           "fg": 17236,
           "bg": 0,
           "multitile": true,
@@ -50409,156 +50422,364 @@
           "rotates": false		  
         },
 		{
-		  "id": "!t_hive_regrowing",
-          "fg": 17220,
-          "bg": 0,
-          "multitile": true,
-          "additional_tiles": [            
-		    {
-              "fg": 17220,
-		      "bg": 0,
-              "id": "center"
-            },
-			{
-              "fg": [ 17221, 17222, 17223, 17224 ],
-			  "bg": 0,
-              "id": "corner"
-            },            
-			{
-              "fg": [ 17225, 17226, 17227, 17228],
-		      "bg": 0,
-              "id": "t_connection"
-            },
-            {
-              "fg": [ 17229, 17230],
-              "bg": 0,		  
-              "id": "edge"
-            },
-            {
-              "fg": [ 17231, 17232, 17233, 17234],
-              "bg": 0,
-              "id": "end_piece"
-            },
-            {
-              "fg": 17235,
-			  "bg": 0,
-              "id": "unconnected"
-            }
-          ],
-          "rotates": false		  
-        },
-		{
-		  "id": "!t_hive_young",
-          "fg": 17236,
-          "bg": 0,
-          "multitile": true,
-          "additional_tiles": [            
-		    {
-              "fg": 17236,
-		      "bg": 0,
-              "id": "center"
-            },
-			{
-              "fg": [ 17237, 17238, 17239, 17240 ],
-			  "bg": 0,
-              "id": "corner"
-            },            
-			{
-              "fg": [ 17241, 17242, 17243, 17244],
-		      "bg": 0,
-              "id": "t_connection"
-            },
-            {
-              "fg": [ 17245, 17246],
-              "bg": 0,		  
-              "id": "edge"
-            },
-            {
-              "fg": [ 17247, 17248, 17249, 17250],
-              "bg": 0,
-              "id": "end_piece"
-            },
-            {
-              "fg": 17251,
-			  "bg": 0,
-              "id": "unconnected"
-            }
-          ],
-          "rotates": false		  
-        },
-		{
-		  "id": "!t_hive_ready",
+		  "id": "t_grass_long",
           "fg": 17252,
-          "bg": 0,
+          "bg": 1012,
           "multitile": true,
           "additional_tiles": [            
 		    {
               "fg": 17252,
-		      "bg": 0,
+		     "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "center"
             },
 			{
               "fg": [ 17253, 17254, 17255, 17256 ],
-			  "bg": 0,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "corner"
             },            
 			{
               "fg": [ 17257, 17258, 17259, 17260],
-		      "bg": 0,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "t_connection"
             },
             {
               "fg": [ 17261, 17262],
-              "bg": 0,		  
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],		  
               "id": "edge"
             },
             {
               "fg": [ 17263, 17264, 17265, 17266],
-              "bg": 0,
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "end_piece"
             },
             {
               "fg": 17267,
-			  "bg": 0,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "unconnected"
             }
           ],
           "rotates": false		  
         },
 		{
-		  "id": ["!t_hive_recovering", "!t_hive_growing"],
+		  "id": ["t_grass_long_season_summer"],
           "fg": 17268,
-          "bg": 0,
+          "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
           "multitile": true,
           "additional_tiles": [            
 		    {
               "fg": 17268,
-		      "bg": 0,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "center"
             },
 			{
               "fg": [ 17269, 17270, 17271, 17272 ],
-			  "bg": 0,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "corner"
             },            
 			{
               "fg": [ 17273, 17274, 17275, 17276],
-		      "bg": 0,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "t_connection"
             },
             {
               "fg": [ 17277, 17278],
-              "bg": 0,		  
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],		  
               "id": "edge"
             },
             {
               "fg": [ 17279, 17280, 17281, 17282],
-              "bg": 0,
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "end_piece"
             },
             {
               "fg": 17283,
-			  "bg": 0,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },		
+		{
+		  "id": ["t_grass_long_season_autumn"],
+          "fg": 17284,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17284,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17285, 17286, 17287, 17288 ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17289, 17290, 17291, 17292],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17293, 17294],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17295, 17296, 17297, 17298],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17299,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "unconnected"
             }
           ],
