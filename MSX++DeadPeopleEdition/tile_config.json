@@ -10675,7 +10675,7 @@
           "rotates": false
         },
         {
-          "id": ["usb_drive", "software","software_useless", "software_hacking", "software_medical", "software_math", "software_blood_data", "software_lab_data", "software_train_data"],
+          "id": ["usb_drive", "software","software_useless", "software_hacking", "software_medical", "software_math", "software_blood_data", "software_lab_data", "software_train_data", "Software_BioCo_Civilian_Designs", "Software_BioCo_Experimental_Designs", "Software_BioCo_Medical_Designs", "Software_BioCo_Military_Designs"],
           "fg": 1965,
           "bg": 957,
           "rotates": false
@@ -51625,6 +51625,19 @@
           "id": "overlay_wielded_ak12ussr",
           "fg": 22480
         },
+								{
+          "id": ["f_BioCo_Assembly_Machine", "BioCo_Assembly_Machine", "BioCo_Assembly_Machine_USE"],
+          "fg": 22481
+        },
+										{
+          "id": "Autonmous_Machine_Parts",
+          "fg": 22482
+        },		
+		{
+          "id": "BioCo_AutoDoc_Core",
+          "fg": 22483
+        },
+		
 		{
           "id": "atlatl",
           "fg": 1986,
