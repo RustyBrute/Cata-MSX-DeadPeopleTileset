@@ -28004,7 +28004,7 @@
           "rotates": false
         },
         {
-          "id": "ak47",
+          "id": ["ak47", "akm"],
           "fg": 1978,
           "rotates": false
         },
@@ -34104,7 +34104,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_ak47",
+          "id": ["overlay_wielded_ak47", "overlay_wielded_akm"],
           "fg": 2076,
           "rotates": false
         },
@@ -51544,6 +51544,86 @@
 		{
           "id": ["8mmMauser", "Match_7.92mm", "reloaded_7.92mm"],
           "fg": 22459
+        },
+				{
+          "id": "9r51",
+          "fg": 22460
+        },
+						{
+          "id": "9x4",
+          "fg": 22461
+        },
+						{
+          "id": "Enfield17",
+          "fg": 22462
+        },
+						{
+          "id": "overlay_wielded_Enfield17",
+          "fg": 22463
+        },						
+		{
+          "id": "G98",
+          "fg": 22464
+        },
+						{
+          "id": "overlay_wielded_G98",
+          "fg": 22465
+        },		
+		{
+          "id": "SMLEMK4",
+          "fg": 22466
+        },
+						{
+          "id": "overlay_wielded_SMLEMK4",
+          "fg": 22467
+        },
+				{
+          "id": "Type24",
+          "fg": 22468
+        },
+						{
+          "id": "overlay_wielded_Type24",
+          "fg": 22469
+        },
+						{
+          "id": "ak101",
+          "fg": 22470
+        },
+						{
+          "id": "overlay_wielded_ak101",
+          "fg": 22471
+        },				
+		{
+          "id": "ak102",
+          "fg": 22472
+        },
+						{
+          "id": "overlay_wielded_ak102",
+          "fg": 22473
+        },		
+		{
+          "id": "ak104",
+          "fg": 22474
+        },
+						{
+          "id": "overlay_wielded_ak104",
+          "fg": 22475
+        },		
+		{
+          "id": "ak12",
+          "fg": 22477
+        },
+						{
+          "id": "overlay_wielded_ak12",
+          "fg": 22478
+        },		
+		{
+          "id": "ak12ussr",
+          "fg": 22479
+        },
+						{
+          "id": "overlay_wielded_ak12ussr",
+          "fg": 22480
         },
 		{
           "id": "atlatl",
