@@ -16925,7 +16925,7 @@
           "rotates": true
         },
         {
-          "id": "fd_blood",
+          "id": "!fd_blood",
           "bg": 971,
           "rotates": false,
           "multitile": true,
@@ -51860,8 +51860,25 @@
 		{
           "id": "BioCo_AutoDoc_Core",
           "fg": 22483
+        },			
+				{
+          "id": "mon_zombie_skeltal",
+          "fg": 22484,
+		  "bg": 967,
+          "rotates": false
         },
-		
+						{
+          "id": "mon_zombie_skeltal_minion",
+          "fg": 22485,
+		  "bg": 967,
+          "rotates": false
+        },				
+		{
+          "id": "sporeos",
+          "fg": 22486,
+		  "bg": 0,
+          "rotates": false
+        },		
 		{
           "id": "atlatl",
           "fg": 1986,
