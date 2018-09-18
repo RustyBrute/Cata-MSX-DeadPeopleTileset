@@ -51982,6 +51982,14 @@
 		  "bg": 0,
           "rotates": false
         },	
+				{
+          "id": "backpack_giant",
+          "fg": 22491
+        },
+						{
+          "id": "overlay_worn_backpack_giant",
+          "fg": 22492
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
