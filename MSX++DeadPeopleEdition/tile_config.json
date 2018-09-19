@@ -23284,7 +23284,7 @@
           "fg": 1154
         },
         {
-          "id": "cooking_oil",
+          "id": ["cooking_oil", "oil_garlic"],
           "fg": 1156,
           "rotates": false
         },
@@ -51990,8 +51990,52 @@
           "id": "overlay_worn_backpack_giant",
           "fg": 22492
         },
+						{
+          "id": "canteen_birchbark",
+          "fg": 22493
+        },
+								{
+          "id": "jar_clay",
+          "fg": 22494
+        },
+						{
+          "id": "jar_clay_sealed",
+          "fg": 22495
+        },
+						{
+          "id": "legwrap_fur",
+          "fg": 22496
+        },
+						{
+          "id": "overlay_worn_legwrap_fur",
+          "fg": 22497
+        },
+						{
+          "id": "legwrap_leather",
+          "fg": 22498
+        },
+						{
+          "id": "overlay_worn_legwrap_leather",
+          "fg": 22499
+        },
+								{
+          "id": "log_frame_item",
+          "fg": 22500
+        },
+										{
+          "id": "log_canoe_item",
+          "fg": 22501
+        },
+								{
+          "id": "pack_basket",
+          "fg": 22502
+        },
+						{
+          "id": "overlay_worn_pack_basket",
+          "fg": 22503
+        },
 		{
-          "id": "atlatl",
+          "id": "atlatl", 
           "fg": 1986,
 		  "bg": 0,
           "rotates": false
