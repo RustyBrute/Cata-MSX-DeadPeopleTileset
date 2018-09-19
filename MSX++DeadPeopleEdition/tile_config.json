@@ -48401,8 +48401,8 @@
 		{ "id": "overlay_mutation_SKIN_LIGHT_JP", "fg": 10273, "rotates": false },
 		{ "id": "overlay_mutation_SKIN_MEDIUM_JP", "fg": 10274, "rotates": false },
 		{ "id": "overlay_mutation_SKIN_TAN_JP", "fg": 10275, "rotates": false },
-		{ "id": "overlay_mutation_EYES_DARK_JP", "fg": 10276, "rotates": false },
-		{ "id": "overlay_mutation_PINK_JP", "fg": 10277, "rotates": false },
+		{ "id": "overlay_mutation_SKIN_DARK_JP", "fg": 10276, "rotates": false },
+		{ "id": "overlay_mutation_SKIN_PINK_JP", "fg": 10277, "rotates": false },
 
 		{ "id": "overlay_mutation_EYE_BLUE_JP", "fg": 10288, "rotates": false },
 		{ "id": "overlay_mutation_EYE_BROWN_JP", "fg": 10289, "rotates": false },
