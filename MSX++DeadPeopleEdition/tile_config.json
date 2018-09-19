@@ -9256,7 +9256,7 @@
           "rotates": false
         },
         {
-          "id": "mace",
+          "id": ["mace", "mace_fake", "mace_inferior"],
           "fg": 1795,
           "bg": 957,
           "rotates": false
@@ -9472,7 +9472,7 @@
           "rotates": false
         },
         {
-          "id": "morningstar",
+          "id": ["morningstar", "morningstar_fake", "morningstar_inferior"],
           "fg": 1811,
           "bg": 957,
           "rotates": false
@@ -9549,6 +9549,12 @@
           "bg": 957,
           "rotates": false
         },
+		        {
+          "id": "nodachi_inferior",
+          "fg": 3634,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "noodles_fast",
           "fg": 1280,
@@ -9615,7 +9621,7 @@
           "rotates": false
         },
         {
-          "id": "pike",
+          "id": ["pike", "pike_fake", "pike_inferior"],
           "fg": 1877,
           "bg": 957,
           "rotates": false
@@ -10212,7 +10218,7 @@
           "rotates": false
         },
         {
-          "id": "sheet_metal",
+          "id": ["sheet_metal", "sheet_metal_small"],
           "fg": 1916,
           "bg": 957,
           "rotates": false
@@ -10498,7 +10504,7 @@
           "rotates": false
         },
         {
-          "id": "tanto",
+          "id": ["tanto", "tanto_fake", "tanto_inferior"],
           "fg": 3783,
           "bg": 957,
           "rotates": false
@@ -27246,7 +27252,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_bokken",
+          "id": ["overlay_wielded_bokken", "overlay_wielded_bokken_fake", "overlay_wielded_bokken_inferior"],
           "fg": 1832,
           "rotates": false
         },
@@ -27496,7 +27502,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_mace",
+          "id": ["overlay_wielded_mace", "overlay_wielded_mace_fake", "overlay_wielded_mace_inferior"],
           "fg": 1855,
           "rotates": false
         },
@@ -27526,7 +27532,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_morningstar",
+          "id": ["overlay_wielded_morningstar", "overlay_wielded_morningstar_fake", "overlay_wielded_morningstar_inferior"],
           "fg": 1858,
           "rotates": false
         },
@@ -27789,7 +27795,7 @@
           "rotates": false
         },
         {
-          "id": "bokken",
+          "id": ["bokken", "bokken_fake", "bokken_inferior"],
           "fg": 1887
         },
         {
@@ -40866,6 +40872,11 @@
           "fg": 3678,
           "rotates": false
         },
+		        {
+          "id": "overlay_wielded_nodachi_inferior",
+          "fg": 3678,
+          "rotates": false
+        },
         {
           "id": "overlay_wielded_primitive_axe",
           "fg": 3679,
@@ -40962,7 +40973,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_tanto",
+          "id": ["overlay_wielded_tanto", "overlay_wielded_tanto_fake", "overlay_wielded_tanto_inferior"],
           "fg": 3688,
           "rotates": false
         },
@@ -47228,7 +47239,7 @@
           ]
         },
 		{
-          "id": "overlay_wielded_pike",
+          "id": ["overlay_wielded_pike", "overlay_wielded_pike_fake", "overlay_wielded_pike_inferior"],
           "fg": 5398,
           "rotates": false
         },        
