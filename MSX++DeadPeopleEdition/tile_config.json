@@ -20765,7 +20765,7 @@
           "rotates": true
         },
         {
-          "id": "vp_crane_medium",
+          "id": ["vp_crane_medium", "vp_crane_medium_internal"],
           "fg": 3991,
           "bg": 1006,
           "rotates": false
@@ -33593,7 +33593,7 @@
           "rotates": false
         },	
 		{
-          "id": ["bio_shock_absorber", "pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
+          "id": ["bio_shock_absorber", "pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "candle_barrier_aftermath", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
           "fg": 0,
           "rotates": false
         },		
@@ -47312,7 +47312,7 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_apple_harvested", "t_tree_apricot_harvested", "t_tree_cherry_harvested", "t_tree_peach_harvested", "t_tree_pear_harvested", "t_tree_plum_harvested", "t_tree_apple", "t_tree_apricot", "t_tree_cherry", "t_tree_peach", "t_tree_pear", "t_tree_plum"],
+          "id": ["t_tree_apple_harvested", "t_tree_apple_cut", "t_tree_apricot_harvested", "t_tree_apricot_cut", "t_tree_cherry_harvested", "t_tree_cherry_cut","t_tree_peach_harvested", "t_tree_peach_cut", "t_tree_pear_harvested", "t_tree_pear_cut", "t_tree_plum_harvested", "t_tree_plum_cut", "t_tree_apple", "t_tree_apricot", "t_tree_cherry", "t_tree_peach", "t_tree_pear", "t_tree_plum"],
           "fg": 5407,
           "bg": 5402
         },
@@ -47352,7 +47352,7 @@
           "bg": 5402
         },
         {
-          "id": ["t_tree_apple_harvested_season_winter", "t_tree_apricot_harvested_season_winter", "t_tree_cherry_harvested_season_winter", "t_tree_peach_harvested_season_winter", "t_tree_pear_harvested_season_winter", "t_tree_plum_harvested_season_winter", "t_tree_apple_season_winter", "t_tree_apricot_season_winter", "t_tree_cherry_season_winter", "t_tree_peach_season_winter", "t_tree_pear_season_winter", "t_tree_plum_season_winter"],
+          "id": ["t_tree_apple_harvested_season_winter", "t_tree_apple_cut_season_winter", "t_tree_apricot_harvested_season_winter", "t_tree_apricot_cut_season_winter", "t_tree_cherry_harvested_season_winter", "t_tree_cherry_cut_season_winter", "t_tree_peach_harvested_season_winter", "t_tree_peach_cut_season_winter", "t_tree_pear_harvested_season_winter", "t_tree_pear_cut_season_winter", "t_tree_plum_harvested_season_winter", "t_tree_plum_cut_season_winter", "t_tree_apple_season_winter", "t_tree_apricot_season_winter", "t_tree_cherry_season_winter", "t_tree_peach_season_winter", "t_tree_pear_season_winter", "t_tree_plum_season_winter"],
           "fg": 5414,
           "bg": 5403
         },
@@ -47521,7 +47521,7 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_willow_harvested", "t_tree_coffee_harvested"],
+          "id": ["t_tree_willow_harvested", "t_tree_coffee_harvested", "t_tree_coffee_cut"],
           "fg": 5433,
           "bg": 5402,
           "rotates": false
@@ -47533,7 +47533,7 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter", "t_tree_coffee_season_winter"],
+          "id": ["t_tree_willow_season_winter", "t_tree_coffee_harvested_season_winter", "t_tree_coffee_cut_season_winter", "t_tree_coffee_season_winter"],
           "fg": 5434,
           "bg": 5403,
           "rotates": false
@@ -50874,6 +50874,45 @@
             }
           ],
           "rotates": false		  
+        },
+				{
+		  "id": "f_makeshiftfence",
+          "fg": 17300,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17300,
+		      "bg": 0,
+              "id": "center"
+            },
+			{
+              "fg": [ 17301, 17302, 17303, 17304 ],
+			  "bg": 0,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17305, 17306, 17307, 17308],
+		      "bg": 0,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17309, 17310],
+              "bg": 0,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17311, 17312, 17313, 17314],
+              "bg": 0,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17315,
+			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
         }
   ]
   },
@@ -51543,13 +51582,13 @@
           "rotates": false
         },				
 		{
-          "id": "v_airjack_item",
+          "id": ["v_airjack_item", "vp_air_jack"],
           "fg": 22403,
           "bg": 0,
           "rotates": false
         },
 				{
-          "id": "v_motorcycle_kickstand_item",
+          "id": ["v_motorcycle_kickstand_item", "vp_motorcycle_kickstand"],
           "fg": 22404,
           "bg": 0,
           "rotates": false
@@ -52030,7 +52069,7 @@
           "fg": 22499
         },
 								{
-          "id": "log_frame_item",
+          "id": ["makeshift_sled_frame_item" , "vp_makeshift_sled_frame_part"],
           "fg": 22500
         },
 										{
@@ -52069,6 +52108,77 @@
           "id": "overlay_worn_sheath_birchbark",
           "fg": 22509
         },
+				{
+          "id": ["makeshift_sled_basket_item", "vp_makeshift_sled_basket_part", "makeshift_sled_item"],
+          "fg": 22510,
+          "bg": 957,
+          "rotates": true
+        },
+						{
+          "id": ["makeshift_sled_runners_item", "vp_makeshift_sled_runner_part"],
+          "fg": 22511,
+          "bg": 957,
+          "rotates": true
+        },
+								{
+          "id": ["log_frame_item", "vp_log_frame_part"],
+          "fg": 22512,
+          "bg": 957,
+          "rotates": true
+        },	
+		{
+          "id": ["teabag_bark", "teabag_beebalm", "teabag_dandelion"],
+          "fg": 22513
+        },	
+		{
+          "id": ["teabag_herbal", "teabag_pine"],
+          "fg": 22514
+        },		
+										{
+          "id": "backpack_fur",
+          "fg": 22515
+        },
+						{
+          "id": "overlay_worn_backpack_fur",
+          "fg": 22516
+        },	
+						{
+          "id": "f_wooden_rollmat",
+          "fg": 22517
+        },	
+						{
+          "id": "wooden_rollmat",
+          "fg": 22518
+        },							
+		{
+          "id": ["tr_birch_funnel", "birch_funnel"],
+          "fg": 22519
+        },	
+		{
+          "id": "birch_water_jug",
+          "fg": 22520
+        },	
+		{
+          "id": "dog_whistle_prim",
+          "fg": 22521
+        },		
+		{
+          "id": "fish_trap_primitive",
+          "fg": 22522
+        },		
+		{
+          "id": "flint_hand_drill",
+          "fg": 22523
+        },	
+		{
+          "id": "intestines_processed",
+          "fg": 22524
+        },		
+				{
+          "id": "large_intestines_processed",
+          "fg": 22525
+        },	
+		
 		{
           "id": "atlatl", 
           "fg": 1986,
