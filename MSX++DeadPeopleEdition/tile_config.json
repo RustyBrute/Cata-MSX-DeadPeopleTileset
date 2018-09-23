@@ -48393,6 +48393,13 @@
 		
 		{ "id": "overlay_mutation_BEAK_PECK", "fg": 10102, "rotates": false },
 		{ "id": "overlay_mutation_BEAK_HUM", "fg": 10103, "rotates": false },
+		
+		{ "id": "overlay_mutation_CLAWS", "fg": 10104, "rotates": false },
+		{ "id": "overlay_mutation_CLAWS_RETRACT", "fg": 10104, "rotates": false },
+				{ "id": "overlay_mutation_CLAWS_TENTACLE", "fg": 10104, "rotates": false },
+		{ "id": "overlay_mutation_CLAWS_ST", "fg": 10105, "rotates": false },
+				{ "id": "overlay_mutation_SHELL", "fg": 10106, "rotates": false },
+				{ "id": "overlay_mutation_SHELL2", "fg": 10107, "rotates": false },
 
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
