@@ -47850,7 +47850,7 @@
         { "id": "overlay_mutation_ALCMET", "fg": 2805, "rotates": false },
         { "id": "overlay_mutation_ANTENNAE", "fg": 2806, "rotates": false },
         { "id": "overlay_mutation_ANTLERS", "fg": 2807, "rotates": false },
-        { "id": "overlay_mutation_ARACHNID_ARMS", "fg": 2808, "rotates": false },
+        { "id": "!overlay_mutation_ARACHNID_ARMS", "fg": 2808, "rotates": false },
         { "id": "overlay_mutation_ARACHNID_ARMS_OK", "fg": 2808, "rotates": false },
         { "id": "overlay_mutation_ARM_TENTACLES", "fg": 2809, "rotates": false },
         { "id": "overlay_mutation_ARM_TENTACLES_4", "fg": 2810, "rotates": false },
@@ -48400,6 +48400,10 @@
 		{ "id": "overlay_mutation_CLAWS_ST", "fg": 10105, "rotates": false },
 				{ "id": "overlay_mutation_SHELL", "fg": 10106, "rotates": false },
 				{ "id": "overlay_mutation_SHELL2", "fg": 10107, "rotates": false },
+				
+				
+				{ "id": "overlay_mutation_INSECT_ARMS", "fg": 10108, "rotates": false },
+				{ "id": "overlay_mutation_ARACHNID_ARMS", "fg": 10109, "rotates": false },
 
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
@@ -50916,6 +50920,84 @@
             {
               "fg": 17315,
 			  "bg": 0,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },				
+		{
+		  "id": "t_fence",
+          "fg": 17316,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17316,
+		      "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [ 17317, 17318, 17319, 17320 ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17321, 17322, 17323, 17324],
+		      "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17325, 17326],
+              "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17327, 17328, 17329, 17330],
+              "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17331,
+			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+				{
+		  "id": "t_fence_season_winter",
+          "fg": 17316,
+          "bg": 992,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17316,
+		      "bg": 992,
+              "id": "center"
+            },
+			{
+              "fg": [ 17317, 17318, 17319, 17320 ],
+			  "bg": 992,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17321, 17322, 17323, 17324],
+		      "bg": 992,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17325, 17326],
+              "bg": 992,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17327, 17328, 17329, 17330],
+              "bg": 992,
+              "id": "end_piece"
+            },
+            {
+              "fg": 17331,
+			  "bg": 992,
               "id": "unconnected"
             }
           ],
