@@ -29188,7 +29188,17 @@
           "id": "acid_spit",
           "fg": 4449,
           "rotates": false
-        },							
+        },	
+								{
+          "id": "monster_fire_fake",
+          "fg": 4449,
+          "rotates": false
+        },	
+										{
+          "id": "monster_lightning_fake",
+          "fg": 4449,
+          "rotates": false
+        },	
 		{
           "id": "hell_launcher",
           "fg": 4449,
@@ -41544,14 +41554,6 @@
           "rotates": false
         },
         {
-          "id": "scarf_long_loose",
-          "fg": 3841
-        },
-        {
-          "id": "scarf_long",
-          "fg": 3841
-        },
-        {
           "id": "mask_fsurvivor",
           "fg": 3843
         },
@@ -41749,26 +41751,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_scarf_fur_long",
-          "fg": 3868,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_scarf_fur_long_loose",
-          "fg": 3868,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_long_patchwork_scarf",
-          "fg": 3869,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_long_patchwork_scarf_loose",
-          "fg": 3869,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_scarf_long",
           "fg": 3869,
           "rotates": false
@@ -41913,27 +41895,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_scarf_fur",
-          "fg": 3887,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_scarf_fur_loose",
-          "fg": 3887,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_scarf_loose",
-          "fg": 3888,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_patchwork_scarf",
-          "fg": 3888,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_patchwork_scarf_loose",
           "fg": 3888,
           "rotates": false
         },
@@ -42026,19 +41988,11 @@
           "fg": 3902,
           "rotates": false
         },
-		        {
-          "id": "patchwork_scarf",
-          "fg": 3902,
-          "rotates": false
-        },
         {
           "id": "scarf_loose",
           "fg": 3902
         },
-		        {
-          "id": "patchwork_scarf_loose",
-          "fg": 3902
-        },
+
         {
           "id": "scarf_fur_long",
           "fg": 3903,
@@ -52267,7 +52221,72 @@
           "id": "large_intestines_processed",
           "fg": 22525
         },	
-		
+						{
+          "id": "bike_rack",
+          "fg": 22526
+        },	
+								{
+          "id": "vp_bike_rack",
+          "fg": 22526,
+		  "rotates": true
+        },	
+		        {
+          "id": "overlay_worn_scarf_fur",
+          "fg": 22527,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_scarf_fur_loose",
+          "fg": 22527,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_scarf_fur_long",
+          "fg": 22528,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_scarf_fur_long_loose",
+          "fg": 22528,
+          "rotates": false
+        },
+		        {
+          "id": "scarf_long_loose",
+          "fg": 22529
+        },
+        {
+          "id": "scarf_long",
+          "fg": 22529
+        },
+				        {
+          "id": "patchwork_scarf",
+          "fg": 22530,
+          "rotates": false
+        },
+				        {
+          "id": "patchwork_scarf_loose",
+          "fg": 22530
+        },
+		        {
+          "id": "overlay_worn_patchwork_scarf",
+          "fg": 22531,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_patchwork_scarf_loose",
+          "fg": 22531,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_long_patchwork_scarf",
+          "fg": 22532,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_long_patchwork_scarf_loose",
+          "fg": 22532,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
