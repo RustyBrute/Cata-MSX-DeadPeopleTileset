@@ -10188,7 +10188,7 @@
           "rotates": false
         },
         {
-          "id": "scythe_war",
+          "id": ["scythe_war", "scythe_war_upgraded", "scythe_war_perfected"],
           "fg": 3743,
           "bg": 957,
           "rotates": false
@@ -40923,7 +40923,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_scythe_war",
+          "id": ["overlay_wielded_scythe_war", "overlay_wielded_scythe_war_upgraded", "overlay_wielded_scythe_war_perfected"],
           "fg": 3681,
           "rotates": false
         },
@@ -52287,6 +52287,142 @@
           "fg": 22532,
           "rotates": false
         },
+				        {
+          "id": "grimrobe",
+          "fg": 22549,
+          "rotates": false
+        },   	 				      
+		{
+          "id": "manual_shinigami",
+          "fg": 22548,
+          "rotates": false
+        },		
+		        {
+          "id": "grimrobe",
+          "fg": 22549,
+          "rotates": false
+        },        
+		{
+          "id": "overlay_worn_grimrobe",
+          "fg": 22550,
+          "rotates": false
+        },
+						        {
+          "id": "scythe_bone",
+          "fg": 22551,
+          "rotates": false
+        },
+								        {
+          "id": "overlay_wielded_scythe_bone",
+          "fg": 22552,
+          "rotates": false
+        },
+								        {
+          "id": "scythe_diamond",
+          "fg": 22553,
+          "rotates": false
+        },
+								        {
+          "id": "overlay_wielded_scythe_diamond",
+          "fg": 22554,
+          "rotates": false
+        },
+										        {
+          "id": "scythe_fire_on",
+          "fg": 22555,
+          "rotates": false
+        },
+								        {
+          "id": "overlay_wielded_scythe_fire_on",
+          "fg": 22556,
+          "rotates": false
+        },												        
+		{
+          "id": "scythe_ornate",
+          "fg": 22557,
+          "rotates": false
+        },
+								        {
+          "id": "overlay_wielded_scythe_ornate",
+          "fg": 22558,
+          "rotates": false
+        },				
+		{
+          "id": "scythe_relic",
+          "fg": 22559,
+          "rotates": false
+        },
+								        {
+          "id": "overlay_wielded_scythe_relic",
+          "fg": 22560,
+          "rotates": false
+        },	
+		{
+          "id": "relicscythes_book",
+          "fg": 22561,
+          "rotates": false
+        },  
+				        {
+          "id": "basicscythes_book",
+          "fg": 22562,
+          "rotates": false
+        },  	
+		{
+          "id": "scythe_fire_off",
+          "fg": 22563,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_scythe_fire_off",
+          "fg": 22564,
+          "rotates": false
+        },	
+				{
+          "id": "blank_dummy",
+          "fg": 22573,
+          "rotates": false
+        },	
+						{
+          "id": "guy_dummy",
+          "fg": 22574,
+          "rotates": false
+        },	
+		{
+          "id": "gal_dummy",
+          "fg": 22575,
+          "rotates": false
+        },
+		{
+          "id": "fancy_guy_dummy",
+          "fg": 22576,
+          "rotates": false
+        },
+				{
+          "id": "fancy_gal_dummy",
+          "fg": 22577,
+          "rotates": false
+        },
+				{
+          "id": "sport_guy_dummy",
+          "fg": 22578,
+          "rotates": false
+        },
+				{
+          "id": "sport_gal_dummy",
+          "fg": 22579,
+          "rotates": false
+        },
+						{
+          "id": "volleyball",
+          "fg": 22580,
+          "rotates": false
+        },
+				{
+          "id": "volleyball_buddy",
+          "fg": 22581,
+          "rotates": false
+        },
+
 		{
           "id": "atlatl", 
           "fg": 1986,
