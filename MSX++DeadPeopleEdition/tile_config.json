@@ -19173,7 +19173,7 @@
           "bg": 992
         },
 		        {
-          "id": "t_grass_season_autumn",
+          "id": "!t_grass_season_autumn",
           "fg": 4376,
           "bg": 992,
           "rotates": false,
@@ -21085,7 +21085,7 @@
           "rotates": false
         },
         {
-          "id": "t_grass",
+          "id": "!t_grass",
           "fg": 3074,
           "bg": 1012,
           "rotates": true,
@@ -21433,7 +21433,7 @@
           ]
         },
         {
-          "id": "t_water_sh",
+          "id": "!t_water_sh",
           "fg": 3412,
           "bg": 1012,
           "rotates": false,
@@ -29926,7 +29926,7 @@
 	"fg": 4573, 
 	"rotates": false },
 {
-          "id": "t_grass",
+          "id": "!t_grass",
           "fg": 4586,
           "bg": 1012,
           "multitile": true,
@@ -29966,7 +29966,7 @@
           "rotates": true		  
         },  
 		{
-          "id": "t_grass_season_summer",
+          "id": "!t_grass_season_summer",
           "fg": 4592,
           "bg": 1012,
           "multitile": true,
@@ -30006,7 +30006,7 @@
           "rotates": true		  
         },    		
 		{
-          "id": "t_grass_season_autumn",
+          "id": "!t_grass_season_autumn",
           "fg": 4598,
           "bg": 1012,
           "multitile": true,
@@ -32005,7 +32005,7 @@
           "id": "f_target",
 		  "fg": [
             { "weight":1, "sprite":4954},
-            { "weight":2, "sprite":4955}
+            { "weight":1, "sprite":4955}
             ],
 		  "bg": 967,
           "rotates": false
@@ -49182,79 +49182,99 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 16852,
+              "fg": [
+			{ "weight":30, "sprite":16852},
+            { "weight":30, "sprite":27613},
+            { "weight":30, "sprite":27614},
+            { "weight":30, "sprite":27615},
+			{ "weight":30, "sprite":27616},            
+			{ "weight":30, "sprite":27617},
+            { "weight":30, "sprite":27618},
+            { "weight":30, "sprite":27619},
+			{ "weight":30, "sprite":27620}
+			],
 			  "bg": 1012,
               "id": "center"
             },
 			{
-              "fg": [ 16853, 16854, 16855, 16856 ],
+              "fg": [
+			{ "weight":30, "sprite":16853},
+            { "weight":30, "sprite":27621},
+            { "weight":30, "sprite":27622},
+            { "weight":30, "sprite":27623},
+			{ "weight":30, "sprite":27624},            
+			{ "weight":30, "sprite":27625},
+            { "weight":30, "sprite":27626},
+            { "weight":30, "sprite":27627},
+			{ "weight":30, "sprite":27628}
+			],
 			  "bg": 1012,
               "id": "corner"
             },            
 			{
-              "fg": [ 16857, 16858, 16859, 16860],
+              "fg": [
+			{ "weight":30, "sprite":16854},
+            { "weight":30, "sprite":27629},
+            { "weight":30, "sprite":27630},
+            { "weight":30, "sprite":27631},
+			{ "weight":30, "sprite":27632},            
+			{ "weight":30, "sprite":27633},
+            { "weight":30, "sprite":27634},
+            { "weight":30, "sprite":27635},
+			{ "weight":30, "sprite":27636}
+			],
 			  "bg": 1012,
               "id": "t_connection"
             },
             {
-              "fg": [ 16861, 16862],
+              "fg": [
+			{ "weight":30, "sprite":16855},
+            { "weight":30, "sprite":27637},
+            { "weight":30, "sprite":27638},
+            { "weight":30, "sprite":27639},
+			{ "weight":30, "sprite":27640},            
+			{ "weight":30, "sprite":27641},
+            { "weight":30, "sprite":27642},
+            { "weight":30, "sprite":27643},
+			{ "weight":30, "sprite":27644}
+			],
 	          "bg": 1012,		  
               "id": "edge"
             },
             {
-              "fg": [ 16863, 16864, 16865, 16866],
+              "fg": [
+			{ "weight":30, "sprite":16856},
+            { "weight":30, "sprite":27645},
+            { "weight":30, "sprite":27646},
+            { "weight":30, "sprite":27647},
+			{ "weight":30, "sprite":27648},            
+			{ "weight":30, "sprite":27649},
+            { "weight":30, "sprite":27650},
+            { "weight":30, "sprite":27651},
+			{ "weight":30, "sprite":27652}
+			],
 			  "bg": 1012,
               "id": "end_piece"
             },
 
             {
-              "fg": 16867,
+              "fg": [
+			{ "weight":30, "sprite":16857},
+            { "weight":30, "sprite":27653},
+            { "weight":30, "sprite":27654},
+            { "weight":30, "sprite":27655},
+			{ "weight":30, "sprite":27656},            
+			{ "weight":30, "sprite":27657},
+            { "weight":30, "sprite":27658},
+            { "weight":30, "sprite":27659},
+			{ "weight":30, "sprite":27660}
+			],
 			  "bg": 1012,
               "id": "unconnected"
             }
           ],
           "rotates": true		  
-        },        
-		{
-          "id": ["t_water_dp", "t_water_dp"],
-          "fg": 16868,
-          "bg": 1012,
-          "multitile": true,
-          "additional_tiles": [            
-		    {
-              "fg": 16868,
-			  "bg": 1012,
-              "id": "center"
-            },
-			{
-              "fg": [ 16869, 16870, 16871, 16872 ],
-			  "bg": 1012,
-              "id": "corner"
-            },            
-			{
-              "fg": [ 16873, 16874, 16875, 16876],
-			  "bg": 1012,
-              "id": "t_connection"
-            },
-            {
-              "fg": [ 16877, 16878],
-	          "bg": 1012,		  
-              "id": "edge"
-            },
-            {
-              "fg": [ 16879, 16880, 16881, 16882],
-			  "bg": 1012,
-              "id": "end_piece"
-            },
-
-            {
-              "fg": 16883,
-			  "bg": 1012,
-              "id": "unconnected"
-            }
-          ],
-          "rotates": true		  
-        },	        
+        },           
 		{
           "id": ["t_water_sh_season_winter", "t_swater_sh_season_winter"],
           "fg": 16852,
@@ -49262,73 +49282,292 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 16852,
+              "fg":  [
+			{ "weight":30, "sprite":16852},
+            { "weight":30, "sprite":27613},
+            { "weight":30, "sprite":27614},
+            { "weight":30, "sprite":27615},
+			{ "weight":30, "sprite":27616},            
+			{ "weight":30, "sprite":27617},
+            { "weight":30, "sprite":27618},
+            { "weight":30, "sprite":27619},
+			{ "weight":30, "sprite":27620}
+			],
 			  "bg": 992,
               "id": "center"
             },
 			{
-              "fg": [ 16853, 16854, 16855, 16856 ],
+              "fg": [
+			{ "weight":30, "sprite":16853},
+            { "weight":30, "sprite":27621},
+            { "weight":30, "sprite":27622},
+            { "weight":30, "sprite":27623},
+			{ "weight":30, "sprite":27624},            
+			{ "weight":30, "sprite":27625},
+            { "weight":30, "sprite":27626},
+            { "weight":30, "sprite":27627},
+			{ "weight":30, "sprite":27628}
+			],
 			  "bg": 992,
               "id": "corner"
             },            
 			{
-              "fg": [ 16857, 16858, 16859, 16860],
+              "fg": [
+			{ "weight":30, "sprite":16854},
+            { "weight":30, "sprite":27629},
+            { "weight":30, "sprite":27630},
+            { "weight":30, "sprite":27631},
+			{ "weight":30, "sprite":27632},            
+			{ "weight":30, "sprite":27633},
+            { "weight":30, "sprite":27634},
+            { "weight":30, "sprite":27635},
+			{ "weight":30, "sprite":27636}
+			],
 			  "bg": 992,
               "id": "t_connection"
             },
             {
-              "fg": [ 16861, 16862],
+              "fg": [
+			{ "weight":30, "sprite":16855},
+            { "weight":30, "sprite":27637},
+            { "weight":30, "sprite":27638},
+            { "weight":30, "sprite":27639},
+			{ "weight":30, "sprite":27640},            
+			{ "weight":30, "sprite":27641},
+            { "weight":30, "sprite":27642},
+            { "weight":30, "sprite":27643},
+			{ "weight":30, "sprite":27644}
+			],
 	          "bg": 992,		  
               "id": "edge"
             },
             {
-              "fg": [ 16863, 16864, 16865, 16866],
+              "fg": [
+			{ "weight":30, "sprite":16856},
+            { "weight":30, "sprite":27645},
+            { "weight":30, "sprite":27646},
+            { "weight":30, "sprite":27647},
+			{ "weight":30, "sprite":27648},            
+			{ "weight":30, "sprite":27649},
+            { "weight":30, "sprite":27650},
+            { "weight":30, "sprite":27651},
+			{ "weight":30, "sprite":27652}
+			],
 			  "bg": 992,
               "id": "end_piece"
             },
 
             {
-              "fg": 16867,
+              "fg": [
+			{ "weight":30, "sprite":16857},
+            { "weight":30, "sprite":27653},
+            { "weight":30, "sprite":27654},
+            { "weight":30, "sprite":27655},
+			{ "weight":30, "sprite":27656},            
+			{ "weight":30, "sprite":27657},
+            { "weight":30, "sprite":27658},
+            { "weight":30, "sprite":27659},
+			{ "weight":30, "sprite":27660}
+			],
 			  "bg": 992,
               "id": "unconnected"
             }
           ],
           "rotates": true		  
-        },        
+        },
 		{
-          "id": ["t_water_dp_season_winter", "t_water_dp_season_winter"],
+          "id": ["t_water_dp", "t_swater_dp"],
+          "fg": 16858,
+          "bg": 1012,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": [
+            { "weight":30, "sprite":16858},
+            { "weight":30, "sprite":27565},
+            { "weight":30, "sprite":27566},
+            { "weight":30, "sprite":27567},
+			{ "weight":30, "sprite":27568},
+			{ "weight":30, "sprite":27569},
+            { "weight":30, "sprite":27570},
+            { "weight":30, "sprite":27571},
+			{ "weight":30, "sprite":27572}
+            ], 
+			  "bg": 1012,
+              "id": "center"
+            },
+			{
+              "fg": [
+            { "weight":30, "sprite":16859},
+            { "weight":30, "sprite":27573},
+            { "weight":30, "sprite":27574},
+            { "weight":30, "sprite":27575},
+			{ "weight":30, "sprite":27576},            
+			{ "weight":30, "sprite":27577},
+            { "weight":30, "sprite":27578},
+            { "weight":30, "sprite":27579},
+			{ "weight":30, "sprite":27580}
+            ],
+			  "bg": 1012,
+              "id": "corner"
+            },            
+			{
+              "fg": [
+			{ "weight":30, "sprite":16860},
+            { "weight":30, "sprite":27581},
+            { "weight":30, "sprite":27582},
+            { "weight":30, "sprite":27583},
+			{ "weight":30, "sprite":27584},            
+			{ "weight":30, "sprite":27585},
+            { "weight":30, "sprite":27586},
+            { "weight":30, "sprite":27587},
+			{ "weight":30, "sprite":27588}
+			],
+			  "bg": 1012,
+              "id": "t_connection"
+            },
+            {
+              "fg": [
+			{ "weight":30, "sprite":16861},
+            { "weight":30, "sprite":27589},
+            { "weight":30, "sprite":27590},
+            { "weight":30, "sprite":27591},
+			{ "weight":30, "sprite":27592},            
+			{ "weight":30, "sprite":27593},
+            { "weight":30, "sprite":27594},
+            { "weight":30, "sprite":27595},
+			{ "weight":30, "sprite":27596}
+			],
+	          "bg": 1012,		  
+              "id": "edge"
+            },
+            {
+              "fg": [
+			{ "weight":30, "sprite":16862},
+            { "weight":30, "sprite":27597},
+            { "weight":30, "sprite":27598},
+            { "weight":30, "sprite":27599},
+			{ "weight":30, "sprite":27600},            
+			{ "weight":30, "sprite":27601},
+            { "weight":30, "sprite":27602},
+            { "weight":30, "sprite":27603},
+			{ "weight":30, "sprite":27604}
+			],
+			  "bg": 1012,
+              "id": "end_piece"
+            },
+            {
+              "fg": [
+			{ "weight":30, "sprite":16863},
+            { "weight":30, "sprite":27605},
+            { "weight":30, "sprite":27606},
+            { "weight":30, "sprite":27607},
+			{ "weight":30, "sprite":27608},            
+			{ "weight":30, "sprite":27609},
+            { "weight":30, "sprite":27610},
+            { "weight":30, "sprite":27611},
+			{ "weight":30, "sprite":27612}
+			],
+			  "bg": 1012,
+              "id": "unconnected"
+            }
+          ],
+          "rotates": true		  
+        },	     
+		{
+          "id": ["t_water_dp_season_winter", "t_swater_dp_season_winter"],
           "fg": 16868,
           "bg": 992,
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 16868,
+              "fg": [
+            { "weight":30, "sprite":16858},
+            { "weight":30, "sprite":27565},
+            { "weight":30, "sprite":27566},
+            { "weight":30, "sprite":27567},
+			{ "weight":30, "sprite":27568},
+			{ "weight":30, "sprite":27569},
+            { "weight":30, "sprite":27570},
+            { "weight":30, "sprite":27571},
+			{ "weight":30, "sprite":27572}
+            ],
 			  "bg": 992,
               "id": "center"
             },
 			{
-              "fg": [ 16869, 16870, 16871, 16872 ],
+              "fg": [
+            { "weight":30, "sprite":16859},
+            { "weight":30, "sprite":27573},
+            { "weight":30, "sprite":27574},
+            { "weight":30, "sprite":27575},
+			{ "weight":30, "sprite":27576},            
+			{ "weight":30, "sprite":27577},
+            { "weight":30, "sprite":27578},
+            { "weight":30, "sprite":27579},
+			{ "weight":30, "sprite":27580}
+            ],
 			  "bg": 992,
               "id": "corner"
             },            
 			{
-              "fg": [ 16873, 16874, 16875, 16876],
+              "fg": [
+			{ "weight":30, "sprite":16860},
+            { "weight":30, "sprite":27581},
+            { "weight":30, "sprite":27582},
+            { "weight":30, "sprite":27583},
+			{ "weight":30, "sprite":27584},            
+			{ "weight":30, "sprite":27585},
+            { "weight":30, "sprite":27586},
+            { "weight":30, "sprite":27587},
+			{ "weight":30, "sprite":27588}
+			],
 			  "bg": 992,
               "id": "t_connection"
             },
             {
-              "fg": [ 16877, 16878],
+              "fg": [
+			{ "weight":30, "sprite":16861},
+            { "weight":30, "sprite":27589},
+            { "weight":30, "sprite":27590},
+            { "weight":30, "sprite":27591},
+			{ "weight":30, "sprite":27592},            
+			{ "weight":30, "sprite":27593},
+            { "weight":30, "sprite":27594},
+            { "weight":30, "sprite":27595},
+			{ "weight":30, "sprite":27596}
+			],
 	          "bg": 992,		  
               "id": "edge"
             },
             {
-              "fg": [ 16879, 16880, 16881, 16882],
+              "fg": [
+			{ "weight":30, "sprite":16862},
+            { "weight":30, "sprite":27597},
+            { "weight":30, "sprite":27598},
+            { "weight":30, "sprite":27599},
+			{ "weight":30, "sprite":27600},            
+			{ "weight":30, "sprite":27601},
+            { "weight":30, "sprite":27602},
+            { "weight":30, "sprite":27603},
+			{ "weight":30, "sprite":27604}
+			],
 			  "bg": 992,
               "id": "end_piece"
             },
 
             {
-              "fg": 16883,
+              "fg": [
+			{ "weight":30, "sprite":16863},
+            { "weight":30, "sprite":27605},
+            { "weight":30, "sprite":27606},
+            { "weight":30, "sprite":27607},
+			{ "weight":30, "sprite":27608},            
+			{ "weight":30, "sprite":27609},
+            { "weight":30, "sprite":27610},
+            { "weight":30, "sprite":27611},
+			{ "weight":30, "sprite":27612}
+			],
 			  "bg": 992,
               "id": "unconnected"
             }
@@ -49336,7 +49575,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["t_grass", "t_grass_long", "t_grass_golf"],
+          "id": ["!t_grass", "!t_grass_long", "t_grass_golf"],
           "fg": 16884,
           "bg": 1012,
           "multitile": true,
@@ -49376,7 +49615,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["t_grass_season_summer", "t_grass_golf_season_summer"],
+          "id": ["!t_grass_season_summer", "t_grass_golf_season_summer"],
           "fg": 16900,
           "bg": 1012,
           "multitile": true,
@@ -49416,7 +49655,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["t_grass_season_autumn", "t_grass_golf_season_autumn"],
+          "id": ["!t_grass_season_autumn", "t_grass_golf_season_autumn"],
           "fg": 16916,
           "bg": 1012,
           "multitile": true,
@@ -50594,7 +50833,7 @@
           "rotates": false		  
         },
 		{
-		  "id": ["t_grass_long_season_summer"],
+		  "id": ["!t_grass_long_season_summer"],
           "fg": 17268,
           "bg": [
             { "weight":40, "sprite":1012},
@@ -50724,7 +50963,7 @@
           "rotates": false		  
         },		
 		{
-		  "id": ["t_grass_long_season_autumn"],
+		  "id": ["!t_grass_long_season_autumn"],
           "fg": 17284,
           "bg": 0,
           "multitile": true,
@@ -52429,6 +52668,52 @@
 		  "bg": 0,
           "rotates": false
         }			
+	]
+	},
+	{
+		"file": "15_tiles-connected_variants_32x32_27565-32764.png",
+		"tiles":
+	[
+		{
+          "id": "atlatl", 
+          "fg": 1986,
+		  "bg": 0,
+          "rotates": false
+        }	
+	]
+	},
+	{
+		"file": "16_tiles_grass_test.png",
+		"sprite_width":50,
+        "sprite_height":64,
+        "sprite_offset_x":-13,
+        "sprite_offset_y":-32,
+		"tiles":
+	[
+		{
+          "id": "t_grass_long",
+          "fg": [
+            { "weight":3, "sprite":32765}
+            ],
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "t_grass_tall",
+          "fg": [
+            { "weight":3, "sprite":32766}
+            ],
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "t_grass",
+          "fg": [
+            { "weight":3, "sprite":32767}
+            ],
+          "bg": 0,
+          "rotates": false
+        }
 	]
 	}
   ]
