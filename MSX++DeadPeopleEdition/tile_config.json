@@ -19143,7 +19143,7 @@
           "rotates": false
         },
         {
-          "id": "t_shrub_season_winter",
+          "id": ["t_shrub_season_winter", "t_shrub_peanut_season_winter", "t_shrub_peanut_harvested_season_winter"],
           "fg": 3245,
           "bg": 992
         },
@@ -19173,7 +19173,7 @@
           "bg": 992
         },
 		        {
-          "id": "!t_grass_season_autumn",
+          "id": "t_grass_season_autumn",
           "fg": 4376,
           "bg": 992,
           "rotates": false,
@@ -21085,7 +21085,7 @@
           "rotates": false
         },
         {
-          "id": "!t_grass",
+          "id": "t_grass",
           "fg": 3074,
           "bg": 1012,
           "rotates": true,
@@ -29926,7 +29926,7 @@
 	"fg": 4573, 
 	"rotates": false },
 {
-          "id": "!t_grass",
+          "id": "t_grass",
           "fg": 4586,
           "bg": 1012,
           "multitile": true,
@@ -29966,7 +29966,7 @@
           "rotates": true		  
         },  
 		{
-          "id": "!t_grass_season_summer",
+          "id": "t_grass_season_summer",
           "fg": 4592,
           "bg": 1012,
           "multitile": true,
@@ -30006,7 +30006,7 @@
           "rotates": true		  
         },    		
 		{
-          "id": "!t_grass_season_autumn",
+          "id": "t_grass_season_autumn",
           "fg": 4598,
           "bg": 1012,
           "multitile": true,
@@ -47218,7 +47218,7 @@
           "rotates": false
         },
         {
-          "id": "t_tree",
+          "id": ["t_tree", "t_tree_pecan"],
           "fg": 5400,
           "bg": 5402,
           "rotates": false
@@ -47230,13 +47230,13 @@
           "rotates": false
         },
         {
-          "id": ["t_tree_season_autumn", "t_tree_oak_harvested"],
+          "id": ["t_tree_season_autumn", "t_tree_oak_harvested", "t_tree_pecan_harvested"],
           "fg": 5436,
           "bg": 5402,
           "rotates": false
         },
         {
-          "id": "t_tree_season_winter",
+          "id": ["t_tree_season_winter", "t_tree_pecan_season_winter"],
           "fg": 5405,
           "bg": 5403,
           "rotates": false
@@ -47451,13 +47451,13 @@
           "rotates": false
         },
 				 {
-          "id": "t_tree_oak_harvested",
+          "id": ["t_tree_oak_harvested", "t_tree_harvested", "t_tree_pecan_harvested"],
           "fg": 5444,
           "bg": 5402,
           "rotates": false
         },
 						 {
-          "id": "t_tree_oak_harvested_season_winter",
+          "id": ["t_tree_oak_harvested_season_winter", "t_tree_harvested_season_winter", "t_tree_pecan_harvested_season_winter"],
           "fg": 5444,
           "bg": 5403,
           "rotates": false
@@ -47835,7 +47835,7 @@
         { "id": "overlay_mutation_INSECT_ARMS", "fg": 2821, "rotates": false },
         { "id": "overlay_mutation_INSECT_ARMS_OK", "fg": 2821, "rotates": false },
         { "id": "overlay_mutation_LEG_TENTACLES", "fg": 2822, "rotates": false },
-        { "id": "overlay_mutation_MANDIBLES", "fg": 2823, "rotates": false},
+        
         { "id": "overlay_mutation_MUZZLE_BEAR", "fg": 2823, "rotates": false },
         { "id": "overlay_mutation_MUZZLE", "fg": 2823, "rotates": false },
         { "id": "overlay_mutation_MOUTH_FLAPS", "fg": 2824, "rotates": false },
@@ -48358,6 +48358,10 @@
 				
 				{ "id": "overlay_mutation_INSECT_ARMS", "fg": 10108, "rotates": false },
 				{ "id": "overlay_mutation_ARACHNID_ARMS", "fg": 10109, "rotates": false },
+				
+				{ "id": "overlay_mutation_MANDIBLES", "fg": 10110, "rotates": false},
+				
+				{ "id": "overlay_mutation_MOUSE_EARS", "fg": 10111, "rotates": false},
 
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
@@ -48914,25 +48918,33 @@
         {
           "id": "mon_zombie",
           "fg": [
-            { "weight":2, "sprite":2666},
-            { "weight":2, "sprite":2667},
-			{ "weight":2, "sprite":2668},            
+            { "weight":3, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668},            
 			{ "weight":3, "sprite":11652},
-            { "weight":2, "sprite":11653},
+            { "weight":3, "sprite":11653},
 			{ "weight":3, "sprite":11654},            
-			{ "weight":2, "sprite":11655},
+			{ "weight":3, "sprite":11655},
             { "weight":3, "sprite":11656},
 			{ "weight":3, "sprite":11657},
 			{ "weight":3, "sprite":11658},
             { "weight":3, "sprite":11659},
-			{ "weight":2, "sprite":11660},            
+			{ "weight":1, "sprite":11660},            
 			{ "weight":1, "sprite":11661},
             { "weight":3, "sprite":11662},
 			{ "weight":3, "sprite":11663},			
 			{ "weight":3, "sprite":11664},            
 			{ "weight":3, "sprite":11665},
-            { "weight":1, "sprite":11666},
-			{ "weight":1, "sprite":11667}
+            { "weight":3, "sprite":11666},
+			{ "weight":3, "sprite":11667},
+			{ "weight":3, "sprite":12084},
+			{ "weight":3, "sprite":12085},
+			{ "weight":3, "sprite":12086},
+			{ "weight":3, "sprite":12087},			
+			{ "weight":3, "sprite":12088},
+			{ "weight":3, "sprite":12089},
+			{ "weight":3, "sprite":12090},
+			{ "weight":3, "sprite":12091}
             ],
           "bg": 967,
           "rotates": false
@@ -48940,25 +48952,33 @@
 		{
           "id": "mon_zombie_2",
           "fg": [
-            { "weight":2, "sprite":2666},
-            { "weight":2, "sprite":2667},
-			{ "weight":2, "sprite":2668},            
+            { "weight":3, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668},            
 			{ "weight":3, "sprite":11652},
-            { "weight":2, "sprite":11653},
+            { "weight":3, "sprite":11653},
 			{ "weight":3, "sprite":11654},            
-			{ "weight":2, "sprite":11655},
+			{ "weight":3, "sprite":11655},
             { "weight":3, "sprite":11656},
 			{ "weight":3, "sprite":11657},
 			{ "weight":3, "sprite":11658},
             { "weight":3, "sprite":11659},
-			{ "weight":2, "sprite":11660},            
+			{ "weight":1, "sprite":11660},            
 			{ "weight":1, "sprite":11661},
             { "weight":3, "sprite":11662},
 			{ "weight":3, "sprite":11663},			
 			{ "weight":3, "sprite":11664},            
 			{ "weight":3, "sprite":11665},
-            { "weight":1, "sprite":11666},
-			{ "weight":1, "sprite":11667}
+            { "weight":3, "sprite":11666},
+			{ "weight":3, "sprite":11667},
+			{ "weight":3, "sprite":12084},
+			{ "weight":3, "sprite":12085},
+			{ "weight":3, "sprite":12086},
+			{ "weight":3, "sprite":12087},			
+			{ "weight":3, "sprite":12088},
+			{ "weight":3, "sprite":12089},
+			{ "weight":3, "sprite":12090},
+			{ "weight":3, "sprite":12091}
             ],
           "bg": 967,
           "rotates": false
@@ -48966,25 +48986,33 @@
 		{
           "id": "mon_zombie_3",
           "fg": [
-            { "weight":2, "sprite":2666},
-            { "weight":2, "sprite":2667},
-			{ "weight":2, "sprite":2668},            
+            { "weight":3, "sprite":2666},
+            { "weight":3, "sprite":2667},
+			{ "weight":3, "sprite":2668},            
 			{ "weight":3, "sprite":11652},
-            { "weight":2, "sprite":11653},
+            { "weight":3, "sprite":11653},
 			{ "weight":3, "sprite":11654},            
-			{ "weight":2, "sprite":11655},
+			{ "weight":3, "sprite":11655},
             { "weight":3, "sprite":11656},
 			{ "weight":3, "sprite":11657},
 			{ "weight":3, "sprite":11658},
             { "weight":3, "sprite":11659},
-			{ "weight":2, "sprite":11660},            
+			{ "weight":1, "sprite":11660},            
 			{ "weight":1, "sprite":11661},
             { "weight":3, "sprite":11662},
 			{ "weight":3, "sprite":11663},			
 			{ "weight":3, "sprite":11664},            
 			{ "weight":3, "sprite":11665},
-            { "weight":1, "sprite":11666},
-			{ "weight":1, "sprite":11667}
+            { "weight":3, "sprite":11666},
+			{ "weight":3, "sprite":11667},
+			{ "weight":3, "sprite":12084},
+			{ "weight":3, "sprite":12085},
+			{ "weight":3, "sprite":12086},
+			{ "weight":3, "sprite":12087},			
+			{ "weight":3, "sprite":12088},
+			{ "weight":3, "sprite":12089},
+			{ "weight":3, "sprite":12090},
+			{ "weight":3, "sprite":12091}
             ],
           "bg": 967,
           "rotates": false
@@ -49575,7 +49603,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["!t_grass", "!t_grass_long", "t_grass_golf"],
+          "id": ["t_grass", "t_grass_long", "t_grass_golf"],
           "fg": 16884,
           "bg": 1012,
           "multitile": true,
@@ -49615,7 +49643,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["!t_grass_season_summer", "t_grass_golf_season_summer"],
+          "id": ["t_grass_season_summer", "t_grass_golf_season_summer"],
           "fg": 16900,
           "bg": 1012,
           "multitile": true,
@@ -49655,7 +49683,7 @@
           "rotates": true		  
         },		
 		{
-          "id": ["!t_grass_season_autumn", "t_grass_golf_season_autumn"],
+          "id": ["t_grass_season_autumn", "t_grass_golf_season_autumn"],
           "fg": 16916,
           "bg": 1012,
           "multitile": true,
@@ -50131,7 +50159,7 @@
           "rotates": false		  
         },
 		{
-		  "id": "!t_grass_golf",
+		  "id": "t_grass_golf",
           "fg": 17092,
           "bg": 1012,
           "multitile": true,
@@ -50833,7 +50861,7 @@
           "rotates": false		  
         },
 		{
-		  "id": ["!t_grass_long_season_summer"],
+		  "id": ["t_grass_long_season_summer"],
           "fg": 17268,
           "bg": [
             { "weight":40, "sprite":1012},
@@ -50963,7 +50991,7 @@
           "rotates": false		  
         },		
 		{
-		  "id": ["!t_grass_long_season_autumn"],
+		  "id": ["t_grass_long_season_autumn"],
           "fg": 17284,
           "bg": 0,
           "multitile": true,
@@ -52661,7 +52689,75 @@
           "fg": 22581,
           "rotates": false
         },
-
+				{
+          "id": "f_lily",
+          "fg": 22587,
+          "rotates": false
+        },
+						{
+          "id": "f_black_eyed_susan",
+          "fg": 22588,
+          "rotates": false
+        },
+						{
+          "id": "f_lotus",
+          "fg": 22589,
+          "rotates": false
+        },
+						{
+          "id": "f_lilypad",
+          "fg": 22590,
+          "rotates": false
+        },
+								{
+          "id": "f_sunflower",
+          "fg": 22591,
+          "rotates": false
+        },
+								{
+          "id": "t_shrub_peanut",
+          "fg": 22592,
+		  			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+          "rotates": false
+        },
+								{
+          "id": "t_shrub_peanut_harvested",
+          "fg": 22593,
+		  			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+          "rotates": false
+        },		
+		{
+          "id": "bottle_twoliter", 
+          "fg": 22594,
+		  "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
@@ -52680,40 +52776,6 @@
 		  "bg": 0,
           "rotates": false
         }	
-	]
-	},
-	{
-		"file": "16_tiles_grass_test.png",
-		"sprite_width":50,
-        "sprite_height":64,
-        "sprite_offset_x":-13,
-        "sprite_offset_y":-32,
-		"tiles":
-	[
-		{
-          "id": "t_grass_long",
-          "fg": [
-            { "weight":3, "sprite":32765}
-            ],
-          "bg": 0,
-          "rotates": false
-        },		
-		{
-          "id": "t_grass_tall",
-          "fg": [
-            { "weight":3, "sprite":32766}
-            ],
-          "bg": 0,
-          "rotates": false
-        },		
-		{
-          "id": "t_grass",
-          "fg": [
-            { "weight":3, "sprite":32767}
-            ],
-          "bg": 0,
-          "rotates": false
-        }
 	]
 	}
   ]
