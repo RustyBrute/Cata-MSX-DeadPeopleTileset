@@ -5,8 +5,8 @@ Designed to be used with mod for character customization https://drive.google.co
 Install mods to change interface.
 
 
-DeadPeople_Chesthole - interface from Chesthole Tileset
+DeadPeople_Chesthole - GUI from Chesthole Tileset
 
-DeadPeople_Xotto - interface from Xotto Tileset
+DeadPeople_Xotto - GUI from Xotto Tileset
 
-DeadPeople_Hybrid - mixed interface
+DeadPeople_Hybrid - mixed GUI
