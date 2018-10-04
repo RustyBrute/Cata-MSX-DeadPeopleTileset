@@ -7,6 +7,6 @@ Install mods to change interface.
 
 DeadPeople_Chesthole - interface from Chesthole Tileset
 
-DeadPeople_Xotto - interface from Chesthole Tileset
+DeadPeople_Xotto - interface from Xotto Tileset
 
 DeadPeople_Hybrid - mixed interface
