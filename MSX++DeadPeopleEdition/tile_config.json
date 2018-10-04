@@ -48410,8 +48410,8 @@
 		{ "id": "overlay_mutation_hair1orangejp", "fg": 10327, "rotates": false },
 		{ "id": "overlay_mutation_hair1bluejp", "fg": 10328, "rotates": false },
 		{ "id": "overlay_mutation_hair1greenjp", "fg": 10329, "rotates": false },
-		{ "id": "overlay_mutation_hair1aquajp", "fg": 10430, "rotates": false },
-		{ "id": "overlay_mutation_hair1purplejp", "fg": 10431, "rotates": false },
+		{ "id": "overlay_mutation_hair1aquajp", "fg": 10330, "rotates": false },
+		{ "id": "overlay_mutation_hair1purplejp", "fg": 10331, "rotates": false },
 		
 		{ "id": "overlay_male_mutation_MCHEST_SKULL_WHITE", "fg": 10368, "rotates": false },
 		{ "id": "overlay_male_mutation_MCHEST_SKULL_BLACK", "fg": 10369, "rotates": false },
