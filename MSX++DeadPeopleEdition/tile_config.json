@@ -52776,6 +52776,94 @@
 		  "bg": 967,
           "rotates": false
         },
+				{
+          "id": "hecu_helmet",
+          "fg": 22597
+        },
+		{
+          "id": "hecu_gasmask_on",
+          "fg": 22598
+        },
+		{
+          "id": "hecu_gasmask",
+          "fg": 22614
+        },
+		{
+          "id": "hecu_jacket",
+          "fg": 22599
+        },
+		{
+          "id": "pcv",
+          "fg": 22600
+        },
+		{
+          "id": "pcv_on",
+          "fg": 22616
+        },
+		{
+          "id": "hecu_backpack",
+          "fg": 22601
+        },
+		{
+          "id": "hecu_pants",
+          "fg": 22602
+        },
+		{
+          "id": "hecu_boots",
+          "fg": 22603
+        },
+		{
+          "id": "hecu_gloves",
+          "fg": 22604
+        },
+		{
+          "id": "overlay_worn_hecu_helmet",
+          "fg": 22605
+        },
+		{
+          "id": "overlay_worn_hecu_gasmask",
+          "fg": 22606
+        },
+		{
+          "id": "overlay_worn_hecu_gasmask_on",
+          "fg": 22613
+        },
+		{
+          "id": "overlay_worn_hecu_jacket",
+          "fg": 22607
+        },
+		{
+          "id": "overlay_worn_pcv",
+          "fg": 22608
+        },
+		{
+          "id": "overlay_worn_pcv_on",
+          "fg": 22615
+        },
+		{
+          "id": "overlay_worn_hecu_backpack",
+          "fg": 22609
+        },
+		{
+          "id": "overlay_worn_hecu_pants",
+          "fg": 22610
+        },
+		{
+          "id": "overlay_worn_hecu_boots",
+          "fg": 22611
+        },
+		{
+          "id": "overlay_worn_hecu_gloves",
+          "fg": 22612
+        },
+				{
+          "id": "badge_military",
+          "fg": 22617
+        },
+		{
+          "id": "overlay_worn_badge_military",
+          "fg": 22618
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
