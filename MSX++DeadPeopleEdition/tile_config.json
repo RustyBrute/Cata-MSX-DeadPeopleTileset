@@ -52758,6 +52758,24 @@
 		  "bg": 0,
           "rotates": false
         },
+				{
+          "id": "magnesium_tablet", 
+          "fg": 22595,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "garden_gnome",
+          "fg": 22596,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+		  "id": "f_gnome", 
+          "fg": 22596,
+		  "bg": 967,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
