@@ -52863,6 +52863,14 @@
 		{
           "id": "overlay_worn_badge_military",
           "fg": 22618
+        },	
+		{
+          "id": "jackolantern",
+          "fg": 22619
+        },
+		{
+          "id": "jackolantern_lit",
+          "fg": 22620
         },
 		{
           "id": "atlatl", 
@@ -52882,6 +52890,256 @@
 		  "bg": 0,
           "rotates": false
         }	
+	]
+	},
+		{
+		"file": "16_tiles_trees_64x80_32765-33165.png",
+		    "sprite_width":64,
+    "sprite_height":80,
+    "sprite_offset_x":-16,
+    "sprite_offset_y":-48,
+		"tiles":
+	[
+		{
+          "id": "t_tree_season_spring", 
+          "fg": 32765,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_season_summer", 
+          "fg": 32766,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_season_autumn", 
+          "fg": 32767,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_season_winter", 
+          "fg": 32768,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_harvested_season_spring", 
+          "fg": 32769,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_harvested_season_summer", 
+          "fg": 32770,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_harvested_season_autumn", 
+          "fg": 32771,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_harvested_season_winter", 
+          "fg": 32772,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_blackjack_season_spring", 
+          "fg": 32773,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_blackjack_season_summer", 
+          "fg": 32774,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_blackjack_season_autumn", 
+          "fg": 32775,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_blackjack_season_winter", 
+          "fg": 32776,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_dead_season_spring", 
+          "fg": 32777,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_dead_season_summer", 
+          "fg": 32778,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_dead_season_autumn", 
+          "fg": 32779,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_dead_season_winter", 
+          "fg": 32780,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_walnut_season_spring", 
+          "fg": 32781,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_walnut_season_summer", 
+          "fg": 32782,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_walnut_season_autumn", 
+          "fg": 32783,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_walnut_season_winter", 
+          "fg": 32784,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_walnut_harvested_season_spring", 
+          "fg": 32785,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_walnut_harvested_season_summer", 
+          "fg": 32786,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_walnut_harvested_season_autumn", 
+          "fg": 32787,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_walnut_harvested_season_winter", 
+          "fg": 32788,
+		  "bg": 5403,
+          "rotates": false
+        },		
+		{
+          "id": "t_tree_chestnut_season_spring", 
+          "fg": 32789,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_season_summer", 
+          "fg": 32790,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_season_autumn", 
+          "fg": 32791,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_season_winter", 
+          "fg": 32792,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_chestnut_harvested_season_spring", 
+          "fg": 32793,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_harvested_season_summer", 
+          "fg": 32794,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_harvested_season_autumn", 
+          "fg": 32795,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_harvested_season_winter", 
+          "fg": 32796,
+		  "bg": 5403,
+          "rotates": false
+        },		
+		{
+          "id": "t_tree_beech_season_spring", 
+          "fg": 32797,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_beech_season_summer", 
+          "fg": 32798,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_beech_season_autumn", 
+          "fg": 32799,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_beech_season_winter", 
+          "fg": 32800,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_beech_harvested_season_spring", 
+          "fg": 32801,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_beech_harvested_season_summer", 
+          "fg": 32802,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_beech_harvested_season_autumn", 
+          "fg": 32803,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_beech_harvested_season_winter", 
+          "fg": 32804,
+		  "bg": 5403,
+          "rotates": false
+        }
 	]
 	}
   ]
