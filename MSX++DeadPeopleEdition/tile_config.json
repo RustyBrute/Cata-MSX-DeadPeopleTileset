@@ -52863,14 +52863,78 @@
 		{
           "id": "overlay_worn_badge_military",
           "fg": 22618
-        },	
-		{
-          "id": "jackolantern",
+        },
+				{
+          "id": "m110",
           "fg": 22619
+        },			
+		{
+          "id": "overlay_wielded_m110",
+          "fg": 22620
+        },
+						{
+          "id": "fn_fnp",
+          "fg": 22621
+        },			
+		{
+          "id": "overlay_wielded_fn_fnp",
+          "fg": 22622
+        },
+				{
+          "id": "fnfnp9mag",
+          "fg": 22623
+        },
+								{
+          "id": "cz_bren",
+          "fg": 22624
+        },			
+		{
+          "id": "overlay_wielded_cz_bren",
+          "fg": 22625
+        },
+										{
+          "id": "auto_assault12",
+          "fg": 22626
+        },			
+		{
+          "id": "overlay_wielded_auto_assault12",
+          "fg": 22627
         },
 		{
-          "id": "jackolantern_lit",
-          "fg": 22620
+          "id": ["auto30mag", "spas30mag"],
+          "fg": 22628
+        },			
+		{
+          "id": ["auto10mag", "spas10mag"],
+          "fg": 22629
+        },
+		{
+          "id": "fg42",
+          "fg": 22630
+        },			
+		{
+          "id": "overlay_wielded_fg42",
+          "fg": 22631
+        },
+												{
+          "id": "jamisonmag/fg42mag",
+          "fg": 22632
+        },
+														{
+          "id": "px4_stormsub",
+          "fg": 22633
+        },			
+		{
+          "id": "overlay_wielded_px4_stormsub",
+          "fg": 22634
+        },
+																{
+          "id": "spas15",
+          "fg": 22635
+        },			
+		{
+          "id": "overlay_wielded_spas15",
+          "fg": 22636
         },
 		{
           "id": "atlatl", 
