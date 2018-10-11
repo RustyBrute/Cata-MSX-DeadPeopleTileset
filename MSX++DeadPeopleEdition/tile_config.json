@@ -5093,10 +5093,6 @@
           "rotates": false
         },
         {
-          "id": "hat_noise_cancelling",
-          "fg": 629
-        },
-        {
           "id": "overlay_worn_hat_sombrero",
           "fg": 630,
           "rotates": false
@@ -53339,6 +53335,10 @@
 				{
           "id": "p227mag",
           "fg": 22646
+        },
+		        {
+          "id": "hat_noise_cancelling",
+          "fg": 22647
         },
 		{
           "id": "atlatl", 
