@@ -11999,11 +11999,6 @@
           "bg": 957
         },
         {
-          "id": "acorns_cooked",
-          "fg": 1069,
-          "bg": 957
-        },
-        {
           "id": "acorns",
           "fg": 1069,
           "bg": 957
@@ -47888,7 +47883,7 @@
 		{ "id": "overlay_female_mutation_LYNX_FUR", "fg": 99610, "rotates": false },
 		{ "id": "overlay_female_mutation_SCALES", "fg": 99611, "rotates": false },
 		{ "id": "overlay_female_mutation_SLEEK_SCALES", "fg": 99611, "rotates": false },
-		{ "id": "overlay_female_mutation_VISCOUS", "fg": 99612, "rotates": false },
+		{ "id": "!overlay_female_mutation_VISCOUS", "fg": 99612, "rotates": false },
         { "id": "overlay_female_mutation_CHLOROMORPH", "fg": 99744, "rotates": false },
 		{ "id": "overlay_female_mutation_BARK", "fg": 99744, "rotates": false },
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 99744, "rotates": false },
@@ -48358,6 +48353,9 @@
 				{ "id": "overlay_mutation_MANDIBLES", "fg": 10110, "rotates": false},
 				
 				{ "id": "overlay_mutation_MOUSE_EARS", "fg": 10111, "rotates": false},
+				
+				{ "id": "overlay_female_mutation_VISCOUS", "fg": 10112, "rotates": false },
+				{ "id": "overlay_male_mutation_VISCOUS", "fg": 10113, "rotates": false },
 
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
@@ -51583,6 +51581,494 @@
             }
           ],
           "rotates": false		  
+        },
+				{
+		  "id": ["t_woodchips"],
+          "fg": 17380,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17380,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17381, 17382, 17383, 17384 ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17385, 17386, 17387, 17388],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17389, 17390],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17391, 17392, 17393, 17394],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17395,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": ["t_woodchips_season_winter"],
+          "fg": 17380,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17380,
+		      "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17381, 17382, 17383, 17384 ],
+			  "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17385, 17386, 17387, 17388],
+		      "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17389, 17390],
+              "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17391, 17392, 17393, 17394],
+              "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17395,
+			  "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "unconnected"
+            }
+          ],
+          "rotates": false		  
+        },
+		{
+		  "id": ["t_moss"],
+          "fg": 17396,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17396,
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17397, 17398, 17399, 17400 ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17401, 17402, 17403, 17404],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17405, 17406],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],	  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17407, 17408, 17409, 17410],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 173411,
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "unconnected"
+            }
+          ],
+		  
+          "rotates": false		  
+        },
+		{
+		  "id": ["t_moss_season_winter"],
+          "fg": 17396,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+		      "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],	  
+              "id": "edge"
+            },
+            {
+              "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+			  "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
+              "id": "unconnected"
+            }
+          ],
+		  
+          "rotates": false		  
         }
   ]
   },
@@ -53340,6 +53826,35 @@
           "id": "hat_noise_cancelling",
           "fg": 22647
         },
+		 {
+          "id": "acorn_roasted",
+          "fg": 22648
+        },
+		        {
+          "id": "acorns_cooked",
+          "fg": 22649
+        },
+						{
+          "id": "almond_unshelled",
+          "fg": 22651
+        },
+				 {
+          "id": "almond",
+          "fg": 22650
+        },
+		        {
+          "id": "almond_roasted",
+          "fg": 22652
+        },	
+		        {
+          "id": "beech_nuts",
+          "fg": 22653
+        },		
+		{
+          "id": "cashews",
+          "fg": 22654
+        },	
+
 		{
           "id": "atlatl", 
           "fg": 1986,
