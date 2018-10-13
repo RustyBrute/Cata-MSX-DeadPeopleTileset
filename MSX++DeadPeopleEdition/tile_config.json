@@ -47356,7 +47356,7 @@
         {
           "id": "t_tree_fungal",
           "fg": 5422,
-          "bg": 5424,
+          "bg": 5437,
           "rotates": false
         },
 		        {
@@ -47368,7 +47368,7 @@
         {
           "id": "t_marloss_tree",
           "fg": 5423,
-          "bg": 5424,
+          "bg": 5437,
           "rotates": false
         },
 		        {
@@ -47581,6 +47581,17 @@
           "fg": 5463,
           "rotates": false
         },
+		{
+          "id": "mon_oni",
+          "fg": 5417,
+          "rotates": false
+        },
+		{
+          "id": "mon_kappabot",
+          "fg": 5424,
+          "rotates": false
+        },
+		
 
 	{ "id": "L dinos", "fg": 0, "rotates": false },
 	{ "id": "mon_spinosaurus",			"fg": 5464, "rotates": false },
@@ -53893,7 +53904,84 @@
         },				{
           "id": "overlay_worn_coat_faux_fur",
           "fg": 22665
-        },
+        },		
+		{
+		"id": ["mon_tengu"],
+          "fg": 22666,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_tengu_monk"],
+          "fg": 22667,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_nekomata"],
+          "fg": 22668,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kappa"],
+          "fg": 22669,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kappa_engineer"],
+          "fg": 22670,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["broken_kappabot"],
+          "fg": 22671,
+		  "bg": 967,
+          "rotates": false
+		},
+		{
+		"id": ["nekomata_tails"],
+          "fg": 22672,
+          "rotates": false
+		},
+		{
+		"id": ["mon_kamaitachi"],
+			"fg": 22673,
+			"bg": 967,
+			"rotates": false
+		},
+		{
+		"id": ["koji"],
+			"fg": 22674,
+			"rotates": false
+		},
+		{
+		"id": ["sake_koji_rice"],
+			"fg": 22675,
+			"rotates": false
+		},
+		{
+		  "id": ["sake_filtered"],
+		  "fg" : 22676,
+		  "rotates": false
+		},
+		{
+		  "id": ["sake_unfiltered"],
+		  "fg" : 22677,
+		  "rotates" : false
+		},
+		{
+		  "id": ["brew_sake"],
+		  "fg" : 22677,
+		  "rotates" : false
+		},
+		{
+		  "id": ["brew_sake_koji"],
+		  "fg": 22678,
+		  "rotates": false
+		}
 		{
           "id": "atlatl", 
           "fg": 1986,
