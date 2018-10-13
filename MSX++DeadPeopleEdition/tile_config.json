@@ -47368,7 +47368,7 @@
         {
           "id": "t_marloss_tree",
           "fg": 5423,
-          "bg": 5437,
+          "bg": 5424,
           "rotates": false
         },
 		        {
@@ -47512,7 +47512,7 @@
           "rotates": false
         },
         {
-          "id": "mon_chickenbot",
+          "id": "mon_oni",
           "fg": 5449,
           "rotates": false
         },
@@ -47582,13 +47582,8 @@
           "rotates": false
         },
 		{
-          "id": "mon_oni",
-          "fg": 5417,
-          "rotates": false
-        },
-		{
           "id": "mon_kappabot",
-          "fg": 5424,
+          "fg": 5442,
           "rotates": false
         },
 		
@@ -53981,7 +53976,7 @@
 		  "id": ["brew_sake_koji"],
 		  "fg": 22678,
 		  "rotates": false
-		}
+		},
 		{
           "id": "atlatl", 
           "fg": 1986,
