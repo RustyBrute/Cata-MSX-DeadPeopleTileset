@@ -53853,8 +53853,47 @@
 		{
           "id": "cashews",
           "fg": 22654
-        },	
-
+        },		
+		{
+          "id": "smart_phone",
+          "fg": 22655
+        },		
+		{
+          "id": "smart_phone_flashlight",
+          "fg": 22656
+        },
+				{
+          "id": "faux_fur",
+          "fg": 22657
+        },
+						{
+          "id": "faux_fur_cat_ears",
+          "fg": 22658
+        },				{
+          "id": "overlay_worn_faux_fur_cat_ears",
+          "fg": 22659
+        },
+								{
+          "id": "faux_fur_cat_tail",
+          "fg": 22660
+        },				{
+          "id": "overlay_worn_faux_fur_cat_tail",
+          "fg": 22661
+        },
+								{
+          "id": "faux_fur_collar",
+          "fg": 22662
+        },				{
+          "id": "overlay_worn_faux_fur_collar",
+          "fg": 22663
+        },
+										{
+          "id": "coat_faux_fur",
+          "fg": 22664
+        },				{
+          "id": "overlay_worn_coat_faux_fur",
+          "fg": 22665
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
