@@ -2458,12 +2458,12 @@
         },
         {
           "id": "cloak_fur",
-          "fg": 324,
+          "fg": 325,
           "bg": 957
         },
         {
           "id": "cloak_leather",
-          "fg": 325,
+          "fg": 324,
           "bg": 957
         },
         {
@@ -5438,10 +5438,6 @@
           "rotates": false
         },
         {
-          "id": "jedi_cloak",
-          "fg": 675
-        },
-        {
           "id": "overlay_worn_jerrypack",
           "fg": 676,
           "rotates": false
@@ -6062,16 +6058,6 @@
         {
           "id": "overlay_worn_quiver_large_birchbark",
           "fg": 751,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_robe",
-          "fg": 752,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_cloak_fur",
-          "fg": 752,
           "rotates": false
         },
         {
@@ -54001,7 +53987,21 @@
 		  "id": ["chestnut_roasted"],
 		  "fg": 22683,
 		  "rotates": false
-		},
+		},        
+		{
+          "id": "overlay_worn_robe",
+          "fg": 22684,
+          "rotates": false
+        },
+		        {
+          "id": "jedi_cloak",
+          "fg": 22685
+        },
+		        {
+          "id": "overlay_worn_cloak_fur",
+          "fg": 22686,
+          "rotates": false
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
@@ -54295,50 +54295,290 @@
           "rotates": false
         },
 		{
-          "id": "t_tree_chestnut_season_spring", 
+          "id": "t_tree_pecan_season_spring", 
           "fg": 32809,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_season_summer", 
+          "id": "t_tree_pecan_season_summer", 
           "fg": 32810,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_season_autumn", 
+          "id": "t_tree_pecan_season_autumn", 
           "fg": 32811,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_season_winter", 
-          "fg": 32813,
+          "id": "t_tree_pecan_season_winter", 
+          "fg": 32812,
 		  "bg": 5403,
           "rotates": false
         },
 		{
-          "id": "t_tree_chestnut_harvested_season_spring", 
+          "id": "t_tree_pecan_harvested_season_spring", 
+          "fg": 32813,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pecan_harvested_season_summer", 
           "fg": 32814,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_harvested_season_summer", 
+          "id": "t_tree_pecan_harvested_season_autumn", 
           "fg": 32815,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_harvested_season_autumn", 
+          "id": "t_tree_pecan_harvested_season_winter", 
           "fg": 32816,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_hazelnut_season_spring", 
+          "fg": 32817,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_harvested_season_winter", 
-          "fg": 32817,
+          "id": "t_tree_hazelnut_season_summer", 
+          "fg": 32818,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_hazelnut_season_autumn", 
+          "fg": 32819,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_hazelnut_season_winter", 
+          "fg": 32820,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_hazelnut_harvested_season_spring", 
+          "fg": 32821,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_hazelnut_harvested_season_summer", 
+          "fg": 32822,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_hazelnut_harvested_season_autumn", 
+          "fg": 32823,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_hazelnut_harvested_season_winter", 
+          "fg": 32824,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_almond_season_spring", 
+          "fg": 32825,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_almond_season_summer", 
+          "fg": 32826,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_almond_season_autumn", 
+          "fg": 32827,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_almond_season_winter", 
+          "fg": 32828,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_almond_harvested_season_spring", 
+          "fg": 32829,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_almond_harvested_season_summer", 
+          "fg": 32830,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_almond_harvested_season_autumn", 
+          "fg": 32831,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_almond_harvested_season_winter", 
+          "fg": 32832,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_pistachio_season_spring", 
+          "fg": 32833,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pistachio_season_summer", 
+          "fg": 32834,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pistachio_season_autumn", 
+          "fg": 32835,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pistachio_season_winter", 
+          "fg": 32836,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_pistachio_harvested_season_spring", 
+          "fg": 32837,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pistachio_harvested_season_summer", 
+          "fg": 32838,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pistachio_harvested_season_autumn", 
+          "fg": 32839,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_pistachio_harvested_season_winter", 
+          "fg": 32840,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_mulberry_season_spring", 
+          "fg": 32841,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_season_summer", 
+          "fg": 32842,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_season_autumn", 
+          "fg": 32843,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_season_winter", 
+          "fg": 32844,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_mulberry_harvested_season_spring", 
+          "fg": 32845,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_harvested_season_summer", 
+          "fg": 32846,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_harvested_season_autumn", 
+          "fg": 32847,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_harvested_season_winter", 
+          "fg": 32848,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_elderberry_season_spring", 
+          "fg": 32850,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elderberry_season_summer", 
+          "fg": 32851,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elderberry_season_autumn", 
+          "fg": 32852,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elderberry_season_winter", 
+          "fg": 32853,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_elderberry_harvested_season_spring", 
+          "fg": 32854,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elderberry_harvested_season_summer", 
+          "fg": 32856,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elderberry_harvested_season_autumn", 
+          "fg": 32857,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_mulberry_harvested_season_winter", 
+          "fg": 32858,
 		  "bg": 5403,
           "rotates": false
         }
