@@ -53977,6 +53977,31 @@
 		  "fg": 22678,
 		  "rotates": false
 		},
+				{
+		  "id": ["black_eyed_susan_bud"],
+		  "fg" : 22679,
+		  "rotates" : false
+		},
+		{
+		  "id": ["black_eyed_susan_flower"],
+		  "fg" : 22680,
+		  "rotates" : false
+		},
+		{
+		  "id": ["chestnut"],
+		  "fg": 22681,
+		  "rotates": false
+		},	
+		{
+		  "id": ["chestnut_unshelled"],
+		  "fg" : 22682,
+		  "rotates" : false
+		},
+		{
+		  "id": ["chestnut_roasted"],
+		  "fg": 22683,
+		  "rotates": false
+		},
 		{
           "id": "atlatl", 
           "fg": 1986,
@@ -54266,6 +54291,54 @@
 		{
           "id": "t_tree_dead_season_winter", 
           "fg": 32808,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_chestnut_season_spring", 
+          "fg": 32809,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_season_summer", 
+          "fg": 32810,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_season_autumn", 
+          "fg": 32811,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_season_winter", 
+          "fg": 32813,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_chestnut_harvested_season_spring", 
+          "fg": 32814,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_harvested_season_summer", 
+          "fg": 32815,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_harvested_season_autumn", 
+          "fg": 32816,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_chestnut_harvested_season_winter", 
+          "fg": 32817,
 		  "bg": 5403,
           "rotates": false
         }
