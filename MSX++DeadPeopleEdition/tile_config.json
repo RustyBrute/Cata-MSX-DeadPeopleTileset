@@ -54037,7 +54037,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_season_summer", 
+          "id": ["t_tree_season_summer", "t_tree"], 
           "fg": 32766,
 		  "bg": 5402,
           "rotates": false
@@ -54061,7 +54061,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_harvested_season_summer", 
+          "id": ["t_tree_harvested_season_summer", "t_tree_harvested"], 
           "fg": 32770,
 		  "bg": 5402,
           "rotates": false
@@ -54085,7 +54085,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_blackjack_season_summer", 
+          "id": ["t_tree_blackjack_season_summer", "t_tree_blackjack"], 
           "fg": 32774,
 		  "bg": 5402,
           "rotates": false
@@ -54109,7 +54109,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_blackjack_harvested_season_summer", 
+          "id": ["t_tree_blackjack_harvested_season_summer", "t_tree_blackjack_harvested"], 
           "fg": 32778,
 		  "bg": 5402,
           "rotates": false
@@ -54133,7 +54133,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_walnut_season_summer", 
+          "id": ["t_tree_walnut_season_summer", "t_tree_walnut"], 
           "fg": 32782,
 		  "bg": 5402,
           "rotates": false
@@ -54157,7 +54157,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_walnut_harvested_season_summer", 
+          "id": ["t_tree_walnut_harvested_season_summer", "t_tree_walnut_harvested"], 
           "fg": 32786,
 		  "bg": 5402,
           "rotates": false
@@ -54181,7 +54181,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_season_summer", 
+          "id": ["t_tree_chestnut_season_summer", "t_tree_chestnut"], 
           "fg": 32790,
 		  "bg": 5402,
           "rotates": false
@@ -54205,7 +54205,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_chestnut_harvested_season_summer", 
+          "id": ["t_tree_chestnut_harvested_season_summer", "t_tree_chestnut_harvested"], 
           "fg": 32794,
 		  "bg": 5402,
           "rotates": false
@@ -54229,7 +54229,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_beech_season_summer", 
+          "id": ["t_tree_beech_season_summer", "t_tree_beech"], 
           "fg": 32798,
 		  "bg": 5402,
           "rotates": false
@@ -54253,7 +54253,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_beech_harvested_season_summer", 
+          "id": ["t_tree_beech_harvested_season_summer", "t_tree_beech_harvested"], 
           "fg": 32802,
 		  "bg": 5402,
           "rotates": false
@@ -54277,7 +54277,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_dead_season_summer", 
+          "id": ["t_tree_dead_season_summer", "t_tree_dead_season_summer"], 
           "fg": 32806,
 		  "bg": 5402,
           "rotates": false
@@ -54301,7 +54301,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_pecan_season_summer", 
+          "id": ["t_tree_pecan_season_summer", "t_tree_pecan"], 
           "fg": 32810,
 		  "bg": 5402,
           "rotates": false
@@ -54325,7 +54325,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_pecan_harvested_season_summer", 
+          "id": ["t_tree_pecan_harvested_season_summer", "t_tree_pecan_harvested"], 
           "fg": 32814,
 		  "bg": 5402,
           "rotates": false
@@ -54349,7 +54349,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_hazelnut_season_summer", 
+          "id": ["t_tree_hazelnut_season_summer", "t_tree_hazelnut"], 
           "fg": 32818,
 		  "bg": 5402,
           "rotates": false
@@ -54373,7 +54373,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_hazelnut_harvested_season_summer", 
+          "id": ["t_tree_hazelnut_harvested_season_summer", "t_tree_hazelnut_harvested"], 
           "fg": 32822,
 		  "bg": 5402,
           "rotates": false
@@ -54397,7 +54397,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_almond_season_summer", 
+          "id": ["t_tree_almond_season_summer", "t_tree_almond"], 
           "fg": 32826,
 		  "bg": 5402,
           "rotates": false
@@ -54421,7 +54421,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_almond_harvested_season_summer", 
+          "id": ["t_tree_almond_harvested_season_summer", "t_tree_almond_harvested"], 
           "fg": 32830,
 		  "bg": 5402,
           "rotates": false
@@ -54445,7 +54445,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_pistachio_season_summer", 
+          "id": ["t_tree_pistachio_season_summer", "t_tree_pistachio"], 
           "fg": 32834,
 		  "bg": 5402,
           "rotates": false
@@ -54469,7 +54469,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_pistachio_harvested_season_summer", 
+          "id": ["t_tree_pistachio_harvested_season_summer", "t_tree_pistachio_harvested"], 
           "fg": 32838,
 		  "bg": 5402,
           "rotates": false
@@ -54493,7 +54493,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_mulberry_season_summer", 
+          "id": ["t_tree_mulberry_season_summer", "t_tree_mulberry"], 
           "fg": 32842,
 		  "bg": 5402,
           "rotates": false
@@ -54517,7 +54517,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_mulberry_harvested_season_summer", 
+          "id": ["t_tree_mulberry_harvested_season_summer", "t_tree_mulberry_harvested"], 
           "fg": 32846,
 		  "bg": 5402,
           "rotates": false
@@ -54541,7 +54541,7 @@
           "rotates": false
         },			
 		{
-          "id": "t_tree_elderberry_season_summer", 
+          "id": ["t_tree_elderberry_season_summer", "t_tree_elderberry"], 
           "fg": 32851,
 		  "bg": 5402,
           "rotates": false
@@ -54559,13 +54559,13 @@
           "rotates": false
         },
 		{
-          "id": "t_tree_elderberry_harvested_season_spring", 
+          "id": ["t_tree_elderberry_harvested_season_spring"], 
           "fg": 32854,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_elderberry_harvested_season_summer", 
+          "id": ["t_tree_elderberry_harvested_season_summer", "t_tree_elderberry"], 
           "fg": 32856,
 		  "bg": 5402,
           "rotates": false
