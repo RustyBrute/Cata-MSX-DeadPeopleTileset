@@ -47794,7 +47794,7 @@
         { "id": "overlay_male_mutation_TROGLO2", "fg": 2801, "rotates": false },
         { "id": "overlay_male_mutation_TROGLO3", "fg": 2802, "rotates": false },
         { "id": "overlay_male_mutation_VISCOUS", "fg": 2803, "rotates": false },
-        { "id": "overlay_mutation_ADDICTIVE", "fg": 2804, "rotates": false },
+        { "id": "!overlay_mutation_ADDICTIVE", "fg": 2804, "rotates": false },
         { "id": "overlay_mutation_BEAUTIFUL", "fg": 2804, "rotates": false },
         { "id": "overlay_mutation_BEAUTIFUL2", "fg": 2804, "rotates": false },
         { "id": "overlay_mutation_BEAUTIFUL3", "fg": 2804, "rotates": false },
