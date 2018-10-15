@@ -51863,7 +51863,7 @@
               "id": "end_piece"
             },
             {
-              "fg": 173411,
+              "fg": 17411,
 			  "bg": [
             { "weight":40, "sprite":1012},
             { "weight":30, "sprite":4833},
@@ -52044,6 +52044,40 @@
             { "weight":1, "sprite":4842},
             { "weight":1, "sprite":4843}
             ],
+              "id": "unconnected"
+            }
+          ],
+		  
+          "rotates": false		  
+        },
+		{
+		  "id": ["fd_electricity"],
+          "fg": 17412,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17412,
+              "id": "center"
+            },
+			{
+              "fg": [ 17413, 17414, 17415, 17416 ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17417, 17418, 17419, 17420],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17421, 17422],  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17423, 17424, 17425, 17426],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17427,
               "id": "unconnected"
             }
           ],
