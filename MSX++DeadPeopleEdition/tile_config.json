@@ -12443,18 +12443,6 @@
           "rotates": false
         },
         {
-          "id": "chainsaw_on",
-          "fg": 3473,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "chainsaw_off",
-          "fg": 3472,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "carver_on",
           "fg": 3468,
           "bg": 957,
@@ -47342,7 +47330,7 @@
         {
           "id": "t_tree_fungal",
           "fg": 5422,
-          "bg": 5437,
+          "bg": 5424,
           "rotates": false
         },
 		        {
@@ -52440,7 +52428,12 @@
 		{ "id": "overlay_wielded_kawaii_crystal_tr",				"fg": 22343, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_crystal_tr_prot",			"fg": 22343, "rotates": false },
 		{ "id": "overlay_wielded_kawaii_spear_steel",				"fg": 22344, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_death_scythe",				"fg": 22345, "rotates": false }
+		{ "id": "overlay_wielded_kawaii_death_scythe",				"fg": 22345, "rotates": false },
+		
+		{ "id": "overlay_wielded_cs_lajatang_off",				"fg": 22346, "rotates": false },
+		{ "id": "overlay_wielded_cs_lajatang_on",			"fg": 22347, "rotates": false },
+		{ "id": "overlay_wielded_ecs_lajatang_off",				"fg": 22348, "rotates": false },
+		{ "id": "overlay_wielded_ecs_lajatang_on",				"fg": 22349, "rotates": false }
 	]
 	},
 	{
@@ -54002,8 +53995,128 @@
           "fg": 22686,
           "rotates": false
         },
+		        {
+          "id": "chainsaw_off",
+          "fg": 22687,
+          "rotates": false
+        },
 		{
-          "id": "atlatl", 
+          "id": "chainsaw_on",
+          "fg": 22688,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_chainsaw_off",
+          "fg": 22689,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_chainsaw_on",
+          "fg": 22690,
+          "rotates": false
+        },
+				        {
+          "id": "chainsaw_off",
+          "fg": 22687,
+          "rotates": false
+        },
+		{
+          "id": "chainsaw_on",
+          "fg": 22688,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_chainsaw_off",
+          "fg": 22689,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_chainsaw_on",
+          "fg": 22690,
+          "rotates": false
+        },
+						        {
+          "id": "combatsaw_off",
+          "fg": 22691,
+          "rotates": false
+        },
+		{
+          "id": "combatsaw_on",
+          "fg": 22692,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_combatsaw_off",
+          "fg": 22693,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_combatsaw_on",
+          "fg": 22694,
+          "rotates": false
+        },
+						        {
+          "id": "elec_chainsaw_off",
+          "fg": 22695,
+          "rotates": false
+        },
+		{
+          "id": "elec_chainsaw_on",
+          "fg": 22696,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_elec_chainsaw_off",
+          "fg": 22697,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_elec_chainsaw_on",
+          "fg": 22698,
+          "rotates": false
+        },
+						        {
+          "id": "e_combatsaw_off",
+          "fg": 22699,
+          "rotates": false
+        },
+		{
+          "id": "e_combatsaw_on",
+          "fg": 22700,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_e_combatsaw_off",
+          "fg": 22701,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_e_combatsaw_on",
+          "fg": 22702,
+          "rotates": false
+        },
+								        {
+          "id": "cs_lajatang_off",
+          "fg": 22703,
+          "rotates": false
+        },
+		{
+          "id": "cs_lajatang_on",
+          "fg": 22704,
+          "rotates": false
+        },
+										        {
+          "id": "ecs_lajatang_off",
+          "fg": 22705,
+          "rotates": false
+        },
+		{
+          "id": "ecs_lajatang_on",
+          "fg": 22706,
+          "rotates": false
+        },
+		{
+          "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
           "rotates": false 
@@ -54536,49 +54649,97 @@
         },
 		{
           "id": "t_tree_elderberry_season_spring", 
-          "fg": 32850,
+          "fg": 32849,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
           "id": ["t_tree_elderberry_season_summer", "t_tree_elderberry"], 
-          "fg": 32851,
+          "fg": 32850,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
           "id": "t_tree_elderberry_season_autumn", 
-          "fg": 32852,
+          "fg": 32851,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
           "id": "t_tree_elderberry_season_winter", 
-          "fg": 32853,
+          "fg": 32852,
 		  "bg": 5403,
           "rotates": false
         },
 		{
           "id": ["t_tree_elderberry_harvested_season_spring"], 
-          "fg": 32854,
+          "fg": 32853,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
           "id": ["t_tree_elderberry_harvested_season_summer", "t_tree_elderberry"], 
-          "fg": 32856,
+          "fg": 32854,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
           "id": "t_tree_elderberry_harvested_season_autumn", 
+          "fg": 32855,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elderberry_harvested_season_winter", 
+          "fg": 32856,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_cottonwood_season_spring", 
           "fg": 32857,
 		  "bg": 5402,
           "rotates": false
         },			
 		{
-          "id": "t_tree_mulberry_harvested_season_winter", 
+          "id": ["t_tree_cottonwood_season_summer", "t_tree_cottonwood"], 
           "fg": 32858,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_cottonwood_season_autumn", 
+          "fg": 32859,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_cottonwood_season_winter", 
+          "fg": 32860,
+		  "bg": 5403,
+          "rotates": false
+        },
+		{
+          "id": ["t_tree_elm_season_spring"], 
+          "fg": 32861,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": ["t_tree_elm_season_summer", "t_tree_elm"], 
+          "fg": 32862,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elm_season_autumn", 
+          "fg": 32863,
+		  "bg": 5402,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_elm_season_winter", 
+          "fg": 32864,
 		  "bg": 5403,
           "rotates": false
         }
