@@ -12443,18 +12443,6 @@
           "rotates": false
         },
         {
-          "id": "carver_on",
-          "fg": 3468,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "carver_off",
-          "fg": 3468,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "canister_goo",
           "fg": 3467,
           "bg": 957,
@@ -12765,18 +12753,6 @@
         {
           "id": "elec_hairtrimmer",
           "fg": 3505,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "elec_chainsaw_on",
-          "fg": 3473,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "elec_chainsaw_off",
-          "fg": 3472,
           "bg": 957,
           "rotates": false
         },
@@ -40408,46 +40384,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_chainsaw_on",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_chainsaw_off",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_combatsaw_off",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_combatsaw_on",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_trimmer_off",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_trimmer_on",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_elec_chainsaw_off",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_elec_chainsaw_on",
-          "fg": 3649,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_blowgun",
           "fg": 3650,
           "rotates": false
@@ -52218,18 +52154,29 @@
 		"id": "grey_ammo",
 		"fg": 22082,
 		"rotates": false
-		},
+		}, 
+		{
+        "id": "bloody_chainsaw_off",
+        "fg": 3472,
+        "bg": 957,
+        "rotates": false
+        },
         {
         "id": "bloody_chainsaw_on",
         "fg": 3473,
         "bg": 957,
         "rotates": false
         },
+
+		{
+          "id": "overlay_wielded_bloody_chainsaw_off",
+          "fg": 3649,
+          "rotates": false
+        },
         {
-        "id": "bloody_chainsaw_off",
-        "fg": 3472,
-        "bg": 957,
-        "rotates": false
+          "id": "overlay_wielded_bloody_chainsaw_on",
+          "fg": 3468,
+          "rotates": false
         },
         {
           "id": "glowing_lighter",
@@ -54148,7 +54095,126 @@
           "id": "ecs_lajatang_on",
           "fg": 22706,
           "rotates": false
+        },     
+		{
+          "id": "carver_off",
+          "fg": 22707,
+          "bg": 957,
+          "rotates": false
         },
+		{
+          "id": "carver_on",
+          "fg": 22708,
+          "bg": 957,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_carver_off",
+          "fg": 22709,
+          "bg": 957,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_carver_on",
+          "fg": 22710,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_trimmer_off",
+          "fg": 22711,
+          "bg": 957,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_trimmer_on",
+          "fg": 22712,
+          "bg": 957,
+          "rotates": false
+        },
+				{
+          "id": "t_shrub_lilac",
+          "fg": 22713,
+          "bg": 1012,
+          "rotates": false
+        },
+		        {
+          "id": "t_shrub_lilac_harvested",
+          "fg": 22714,
+          "bg": 1012,
+          "rotates": false
+        },	
+		{
+          "id": ["t_shrub_lilac_season_winter", "t_shrub_lilac_harvested_season_winter"],
+          "fg": 22715,
+          "bg": 992,
+          "rotates": false
+        },		       
+		{
+          "id": "motor_tiny",
+          "fg": 22716,
+          "rotates": false
+        },	
+				{
+          "id": "pot_canning",
+          "fg": 22717,
+          "rotates": false
+        },	
+						{
+          "id": "pot_xlhelmet",
+          "fg": 22718,
+          "rotates": false
+        },				
+		{
+          "id": "overlay_worn_pot_xlhelmet",
+          "fg": 22719,
+          "rotates": false
+        },	
+				{
+          "id": "hazelnut",
+          "fg": 22720,
+          "rotates": false
+        },	
+		{
+          "id": "hazelnut_unshelled",
+          "fg": 22721,
+          "rotates": false
+        },	
+		{
+          "id": "hazelnut_roasted",
+          "fg": 22722,
+          "rotates": false
+        },			
+		{
+          "id": "walnut",
+          "fg": 22723,
+          "rotates": false
+        },	
+		{
+          "id": "walnut_unshelled",
+          "fg": 22724,
+          "rotates": false
+        },	
+		{
+          "id": "walnut_roasted",
+          "fg": 22725,
+          "rotates": false
+        },			
+		{
+          "id": "pistachio",
+          "fg": 22726,
+          "rotates": false
+        },	
+		{
+          "id": "pistachio_unshelled",
+          "fg": 22727,
+          "rotates": false
+        },	
+		{
+          "id": "pistachio_roasted",
+          "fg": 22728,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
