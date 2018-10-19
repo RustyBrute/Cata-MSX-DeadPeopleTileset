@@ -8082,12 +8082,6 @@
           "rotates": false
         },
         {
-          "id": "atomic_coffeepot",
-          "fg": 1633,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "ax",
           "fg": 3440,
           "bg": 957,
@@ -54215,6 +54209,12 @@
           "fg": 22728,
           "rotates": false
         },	
+		        {
+          "id": "atomic_coffeepot",
+          "fg": 22729,
+          "bg": 957,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
