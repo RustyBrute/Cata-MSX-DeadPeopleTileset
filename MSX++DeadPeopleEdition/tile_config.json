@@ -52013,6 +52013,93 @@
           ],
 		  
           "rotates": false		  
+        }, 
+		{
+		  "id": ["t_grass_tall_season_winter", "t_grass_long_season_winter"],
+          "fg": 17428,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17428,
+		      "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "center"
+            },
+			{
+              "fg": [ 17429, 17430, 17431, 17432 ],
+			  "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17433, 17434, 17435, 17436],
+		      "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17437, 17438],
+              "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],	  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17439, 17440, 17441, 17442],
+              "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17443,
+			  "bg": [
+            { "weight":3, "sprite":992},
+			{ "weight":3, "sprite":3080},
+			{ "weight":3, "sprite":3081},
+			{ "weight":3, "sprite":3082},
+			{ "weight":3, "sprite":3083},
+			{ "weight":3, "sprite":3084},
+			{ "weight":3, "sprite":3085}
+            ],
+              "id": "unconnected"
+            }
+          ],          
+		  "rotates": false		  
         }
   ]
   },
