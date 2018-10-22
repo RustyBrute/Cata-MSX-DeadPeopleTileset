@@ -17937,7 +17937,7 @@
         },
         {
           "id": "sheet_metal_lit",
-          "fg": 984,
+          "fg": 0,
           "bg": 1916
         },
         {
@@ -21233,7 +21233,7 @@
           ]
 		 },
 		  {
-          "id": ["t_railroad_track", "t_railroad_track_h", "t_railroad_track_v", "t_railroad_track_d", "t_railroad_track_d1", "t_railroad_track_d2"],
+          "id": ["!t_railroad_track", "!t_railroad_track_h", "!t_railroad_track_v", "!t_railroad_track_d", "!t_railroad_track_d1", "!t_railroad_track_d2"],
           "fg": 4228,
           "bg": 1012,
           "rotates": false,
@@ -21266,7 +21266,7 @@
           ]
         },
 		{
-          "id": ["t_railroad_tie", "t_railroad_tie_d", "t_railroad_tie_v", "t_railroad_tie_h"],
+          "id": ["!t_railroad_tie", "!t_railroad_tie_d", "!t_railroad_tie_v", "!t_railroad_tie_h"],
           "fg": 4230,
           "rotates": false,
           "multitile": true,
@@ -21298,7 +21298,7 @@
           ]
         },
 		{
-          "id": ["t_railroad_track_on_tie", "t_railroad_track_d_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_h_on_tie", "t_railroad_tie_d1", "t_railroad_tie_d2"],
+          "id": ["!t_railroad_track_on_tie", "!t_railroad_track_d_on_tie", "!t_railroad_track_v_on_tie", "!t_railroad_track_v_on_tie", "!t_railroad_track_h_on_tie", "!t_railroad_tie_d1", "!t_railroad_tie_d2"],
           "fg": 4231,
           "rotates": false,
           "multitile": true,
@@ -21328,12 +21328,6 @@
               "fg": 4231
             }
           ]
-        },
-				{
-          "id": "t_railroad_rubble",
-          "fg": 3324,
-          "bg": 1012,
-          "rotates": false
         },
         {
           "id": "t_wall_wood_line",
@@ -24171,7 +24165,7 @@
           "fg": 1286
         },
         {
-          "id": "peanutbutter",
+          "id": ["peanutbutter", "peanutbutter_imitation"],
           "fg": 1290
         },
         {
@@ -31337,6 +31331,9 @@
           "bg":
 		    [
             { "weight":1111, "sprite":985},
+			{ "weight":111, "sprite":27661},
+			{ "weight":111, "sprite":27662},
+			{ "weight":111, "sprite":27663},
             { "weight":1, "sprite":4860},
 			{ "weight":1, "sprite":4861},
 			{ "weight":1, "sprite":4862},
@@ -32911,123 +32908,6 @@
           "bg": 992,
           "rotates": false
         },        
-		{
-          "id": ["t_railroad_track", "t_railroad_track_h", "t_railroad_track_v", "t_railroad_track_d", "t_railroad_track_d1", "t_railroad_track_d2"],
-          "fg": 5121,
-          "bg": 5131,
-          "rotates": false,
-          "multitile": true,
-          "additional_tiles": [
-            {
-              "id": "center",
-              "fg": 5120,
-              "bg": 5131
-            },
-            {
-              "id": "corner",
-              "fg": 5123,
-              "bg": 5131
-            },
-            {
-              "id": "edge",
-              "fg": 5121,
-              "bg": 5131
-            },
-            {
-              "id": "end_piece",
-              "fg": 5121,
-              "bg": 5131
-            },
-            {
-              "id": "t_connection",
-              "fg": 5122,
-              "bg": 5131
-            },
-            {
-              "id": "unconnected",
-              "fg": 5120,
-              "bg": 5131
-            }
-          ]
-        },
-        {
-          "id": ["t_railroad_tie", "t_railroad_tie_d", "t_railroad_tie_v", "t_railroad_tie_h"],
-          "fg": 5126,
-          "bg": 5131,
-          "rotates": false,
-          "multitile": true,
-          "additional_tiles": [
-            {
-              "id": "center",
-              "fg": 5126,
-              "bg": 5131
-            },
-            {
-              "id": "corner",
-              "fg": 5129,
-              "bg": 5131
-            },
-            {
-              "id": "edge",
-              "fg": 5127,
-              "bg": 5131
-            },
-            {
-              "id": "end_piece",
-              "fg": 5127,
-              "bg": 5131
-            },
-            {
-              "id": "t_connection",
-              "fg": 5128,
-              "bg": 5131
-            },
-            {
-              "id": "unconnected",
-              "fg": 5126,
-              "bg": 5131
-            }
-          ]
-        },
-        {
-          "id": ["t_railroad_track_on_tie", "t_railroad_track_d_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_h_on_tie", "t_railroad_tie_d1", "t_railroad_tie_d2"],
-          "fg": 5124,
-          "bg": 5131,
-          "rotates": false,
-          "multitile": true,
-          "additional_tiles": [
-            {
-              "id": "center",
-              "fg": 5124,
-              "bg": 5131
-            },
-            {
-              "id": "corner",
-              "fg": 5124,
-              "bg": 5131
-            },
-            {
-              "id": "edge",
-              "fg": 5124,
-              "bg": 5131
-            },
-            {
-              "id": "end_piece",
-              "fg": 5124,
-              "bg": 5131
-            },
-            {
-              "id": "t_connection",
-              "fg": 5125,
-              "bg": 5131
-            },
-            {
-              "id": "unconnected",
-              "fg": 5124,
-              "bg": 5131
-            }
-          ]
-        },
         {
           "id": "t_railroad_rubble",
           "fg": 5131,
@@ -52096,6 +51976,122 @@
             }
           ],          
 		  "rotates": false		  
+        },		
+		{
+          "id": ["t_railroad_track", "t_railroad_track_h", "t_railroad_track_v", "t_railroad_track_d", "t_railroad_track_d1", "t_railroad_track_d2"],
+          "fg": 17444,
+          "bg": 5131,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17444,
+              "bg": 5131
+            },
+            {
+              "id": "corner",
+              "fg": [ 17445, 17446, 17447, 17448 ],
+              "bg": 5131
+            },
+            {
+              "id": "edge",
+              "fg": [ 17449, 17450, 17451, 17452 ],
+              "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": 17453,
+              "bg": 5131
+            },
+			            {
+              "id": "end_piece",
+              "fg": [ 17455, 17456, 17457, 17458 ],
+              "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 17444,
+              "bg": 5131
+            }
+          ]
+        },      {
+          "id": ["t_railroad_tie", "t_railroad_tie_d", "t_railroad_tie_v", "t_railroad_tie_h"],
+          "fg": 17460,
+          "bg": 5131,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17460,
+              "bg": 5131
+            },
+            {
+              "id": "corner",
+              "fg": 17461,
+              "bg": 5131
+            },
+            {
+              "id": "edge",
+              "fg": 17465,
+              "bg": 5131
+            },
+            {
+              "id": "end_piece",
+              "fg": 17465,
+              "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": 17469,
+              "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 0,
+              "bg": 5131
+            }
+          ]
+        },
+        {
+          "id": ["t_railroad_track_on_tie", "t_railroad_track_d_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_v_on_tie", "t_railroad_track_h_on_tie", "t_railroad_tie_d1", "t_railroad_tie_d2"],
+          "fg": 17476,
+          "bg": 22733,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17476,
+              "bg": 5131
+            },
+            {
+              "id": "corner",
+              "fg": 17476,
+              "bg": 5131
+            },
+            {
+              "id": "edge",
+              "fg": [ 17481, 17482, 17483, 17484 ],
+              "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": 17485,
+              "bg": 5131
+            },
+			            {
+              "id": "end_piece",
+              "fg": [ 17487, 17488, 17489, 17490 ],
+              "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 17476,
+              "bg": 5131
+            }
+          ]
         }
   ]
   },
@@ -54301,7 +54297,68 @@
 		        {
           "id": "inj_iron",
           "fg": 22730
+        },	
+		{
+          "id": "lilac_bud",
+          "fg": 22731,
+          "bg": 957,
+          "rotates": false
         },
+		        {
+          "id": "lilac_flower",
+          "fg": 22732
+        },	
+		{
+          "id": "lily_flower",
+          "fg": 22733
+        },		
+        {
+          "id": "lily_bud",
+          "fg": 22734
+        },			
+		{
+          "id": "lotus_flower",
+          "fg": 22735
+        },		
+        {
+          "id": "lotus_bud",
+          "fg": 22736
+        },	    
+				{
+          "id": "peanut",
+          "fg": 22737
+        },		
+        {
+          "id": "peanut_unshelled",
+          "fg": 22738
+        },	
+						{
+          "id": "pecan",
+          "fg": 22739
+        },		
+        {
+          "id": "pecan_unshelled",
+          "fg": 22740
+        },				
+		{
+          "id": "pecan_roasted",
+          "fg": 22741
+        },	
+		{
+          "id": "sunflower",
+          "fg": 22742
+        },		
+		{
+          "id": "vp_ram_chitin",
+          "fg": 22743,
+		  "rotates": true
+        },	
+		{
+          "id": "vp_ram_acidchitin",
+          "fg": 22744,
+		  "rotates": true
+        },			
+
 		{
           "id": "atlatl",
           "fg": 1986,
