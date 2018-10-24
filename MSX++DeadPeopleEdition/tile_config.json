@@ -16051,13 +16051,13 @@
           "rotates": false
         },
         {
-          "id": "mon_turret",
+          "id": ["mon_turret", "mon_turret_9mm"],
           "fg": 2643,
           "bg": 967,
           "rotates": false
         },
         {
-          "id": "mon_turret_rifle",
+          "id": ["mon_turret_rifle", "mon_milturret_556"],
           "fg": 2644,
           "bg": 967,
           "rotates": false
@@ -31924,7 +31924,7 @@
           "rotates": false
         },	
 				{
-          "id": "mon_turret_bmg",
+          "id": ["mon_turret_bmg", "mon_milturret_50bmg"],
           "fg": 4953,
 		  "bg": 967,
           "rotates": false
@@ -54357,8 +54357,141 @@
           "id": "vp_ram_acidchitin",
           "fg": 22744,
 		  "rotates": true
+        },		
+		{
+          "id": "vp_black_box",
+          "fg": 22745,
+		  "rotates": true
+        },	
+		{
+          "id": "vp_engine_electric_tiny",
+          "fg": 22746,
+		  "rotates": true
         },			
-
+		{
+          "id": ["bonemeal_tablet", "flavored_bonemeal_tablet"],
+          "fg": 22747
+        },			
+		{
+          "id": "mon_turret_gnome",
+          "fg": 22748,
+		  "rotates": true
+        },		
+		{
+          "id": "bot_turret_gnome",
+          "fg": 22749,
+		  "rotates": true
+        },	
+		{
+          "id": "broken_turret_gnome",
+          "fg": 22750,
+		  "rotates": true
+        },	
+				{
+          "id": ["broken_turret_9mm", "broken_turret"],
+          "fg": 22751,
+		  "rotates": true
+        },	
+						{
+          "id": ["bot_turret_9mm", "bot_turret"],
+          "fg": 22752,
+		  "rotates": true
+        },			
+		{
+          "id": "mon_turret_shot",
+          "fg": 22753,
+		  "rotates": true
+        },
+		{
+          "id": "broken_turret_shot",
+          "fg": 22754,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_turret_shot",
+          "fg": 22755,
+		  "rotates": true
+        },
+				{
+          "id": "mon_turret_teargas",
+          "fg": 22756,
+		  "rotates": true
+        },
+		{
+          "id": "broken_turret_teargas",
+          "fg": 22757,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_turret_teargas",
+          "fg": 22758,
+		  "rotates": true
+        },				
+		{
+          "id": "mon_turret_beanbag",
+          "fg": 22759,
+		  "rotates": true
+        },
+		{
+          "id": "broken_turret_beanbag",
+          "fg": 22760,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_turret_beanbag",
+          "fg": 22761,
+		  "rotates": true
+        },
+				{
+          "id": ["broken_turret_rifle", "broken_milturret_556"],
+          "fg": 22762,
+		  "rotates": true
+        },			
+		{
+          "id": ["bot_rifleturret", "bot_milturret_556"],
+          "fg": 22763,
+		  "rotates": true
+        },
+				{
+          "id": "mon_milturret_308",
+          "fg": 22765,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milturret_308",
+          "fg": 22766,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milturret_308",
+          "fg": 22767,
+		  "rotates": true
+        },				
+		{
+          "id": ["broken_turret_bmg", "broken_milturret_50bmg"],
+          "fg": 22768,
+		  "rotates": true
+        },			
+		{
+          "id": ["bot_antimateriel", "bot_milturret_50bmg"],
+          "fg": 22769,
+		  "rotates": true
+        },				
+		{
+          "id": "mon_milturret_8x40mm",
+          "fg": 22770,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milturret_8x40mm",
+          "fg": 22771,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milturret_8x40mm",
+          "fg": 22772,
+		  "rotates": true
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
