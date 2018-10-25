@@ -31314,7 +31314,12 @@
           "bg": 967,
           "rotates": false
         },
-
+			    {
+          "id": "overlay_wielded_mjolnir_replica",
+          "fg": 4858,
+          "bg": 0,
+          "rotates": false
+        },
         {
           "id": "t_rock_floor",
           "bg":
