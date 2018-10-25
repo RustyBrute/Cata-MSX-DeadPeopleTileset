@@ -15793,7 +15793,7 @@
           "rotates": false
         },
         {
-          "id": "mon_laserturret",
+          "id": ["mon_laserturret", "mon_advturret_laser"],
           "fg": 2526,
           "bg": 967,
           "rotates": false
@@ -54492,6 +54492,101 @@
           "fg": 22772,
 		  "rotates": true
         },	
+				{
+          "id": "bodypillow",
+          "fg": 22773,
+		  "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_bodypillow",
+          "fg": 22774,
+		  "rotates": true
+        },	
+				{
+          "id": "mon_milturret_needle",
+          "fg": 22775,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milturret_needle",
+          "fg": 22776,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milturret_needle",
+          "fg": 22777,
+		  "rotates": true
+        },
+						{
+          "id": "mon_milturret_40mm",
+          "fg": 22778,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milturret_40mm",
+          "fg": 22779,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milturret_40mm",
+          "fg": 22780,
+		  "rotates": true
+        },
+								{
+          "id": "mon_milturret_flame",
+          "fg": 22781,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milturret_flame",
+          "fg": 22782,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milturret_flame",
+          "fg": 22783,
+		  "rotates": true
+        },
+				{
+          "id": ["broken_laserturret", "broken_advturret_laser"],
+          "fg": 22784,
+		  "rotates": true
+        },			
+		{
+          "id": ["bot_laserturret", "bot_advturret_laser"],
+          "fg": 22785,
+		  "rotates": true
+        },
+										{
+          "id": "mon_advturret_acid",
+          "fg": 22786,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advturret_acid",
+          "fg": 22787,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advturret_acid",
+          "fg": 22788,
+		  "rotates": true
+        },										
+		{
+          "id": "mon_advturret_plasma",
+          "fg": 22789,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advturret_plasma",
+          "fg": 22790,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advturret_plasma",
+          "fg": 22791,
+		  "rotates": true
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
