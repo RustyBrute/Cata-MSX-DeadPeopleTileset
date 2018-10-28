@@ -1854,6 +1854,11 @@
           "fg": 238,
           "bg": 957
         },
+		      {
+          "id": "overlay_wielded_throwing_axe",
+          "fg": 4378,
+          "bg": 0
+        },
         {
           "id": "throwing_knife",
           "fg": 239
@@ -19107,6 +19112,7 @@
           "fg": 3104,
           "bg": 992
         },
+		
 		        {
           "id": "t_grass_season_autumn",
           "fg": 4376,
@@ -19323,7 +19329,7 @@
         },
         {
           "id": "t_underbrush_harvested_autumn",
-          "fg": 4373,
+          "fg": 4374,
           "bg": 1012,
           "rotates": false
         },        
@@ -54493,6 +54499,51 @@
 		{
           "id": "bot_advturret_plasma",
           "fg": 22791,
+		  "rotates": true
+        },
+				{
+          "id": "mon_advturret_rail",
+          "fg": 22792,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advturret_rail",
+          "fg": 22793,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advturret_rail",
+          "fg": 22794,
+		  "rotates": true
+        },				
+		{
+          "id": "mon_advturret_lightning",
+          "fg": 22795,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advturret_lightning",
+          "fg": 22796,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advturret_lightning",
+          "fg": 22797,
+		  "rotates": true
+        },		
+		{
+          "id": "mon_advturret_emp",
+          "fg": 22798,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advturret_emp",
+          "fg": 22799,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advturret_emp",
+          "fg": 22800,
 		  "rotates": true
         },
 		{
