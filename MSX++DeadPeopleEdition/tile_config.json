@@ -16259,12 +16259,6 @@
           "rotates": false
         },
         {
-          "id": "mon_zombie_swimmer",
-          "fg": 2761,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_zombie_tough",
           "fg": [
             { "weight":3, "sprite":2764},
@@ -37926,9 +37920,21 @@
           "fg": 2755,
           "rotates": false
         },
+		        {
+          "id": "mon_zombie_swimmer",
+          "fg": [
+            { "weight":3, "sprite":2761},
+            { "weight":3, "sprite":2762}
+            ],
+          "bg": 967,
+          "rotates": false
+        },
         {
           "id": "mon_zombie_swimmer_pk",
-          "fg": 2762,
+          "fg": [
+            { "weight":3, "sprite":2761},
+            { "weight":3, "sprite":2762}
+            ],
           "rotates": false
         },
         {
@@ -54544,6 +54550,126 @@
 		{
           "id": "bot_advturret_emp",
           "fg": 22800,
+		  "rotates": true
+        },
+				{
+          "id": "mon_turret_disarmed",
+          "fg": 22801,
+		  "rotates": true
+        },
+		{
+          "id": "broken_turret_disarmed",
+          "fg": 22802,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_turret_disarmed",
+          "fg": 22801,
+		  "rotates": true
+        },
+						{
+          "id": "mon_milturret_disarmed",
+          "fg": 22803,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milturret_disarmed",
+          "fg": 22804,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milturret_disarmed",
+          "fg": 22803,
+		  "rotates": true
+        },
+								{
+          "id": "mon_advturret_disarmed",
+          "fg": 22805,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advturret_disarmed",
+          "fg": 22806,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advturret_disarmed",
+          "fg": 22805,
+		  "rotates": true
+        },
+		{
+          "id": "mon_turret_water",
+          "fg": 22807,
+		  "rotates": true
+        },
+		{
+          "id": "broken_turret_water",
+          "fg": 22808,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_turret_water",
+          "fg": 22809,
+		  "rotates": true
+        },
+		{
+          "id": "mon_craftbuddy",
+          "fg": 22810,
+		  "rotates": true
+        },
+		{
+          "id": "broken_craftbuddy",
+          "fg": 22811,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_craftbuddy",
+          "fg": 22812,
+		  "rotates": true
+        },
+				{
+          "id": ["mon_autoarmor_basic", "mon_autoarmor_base"],
+          "fg": 22813,
+		  "rotates": true
+        },
+		{
+          "id": "broken_autoarmor_basic",
+          "fg": 22814,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_autoarmor_basic",
+          "fg": 22815,
+		  "rotates": true
+        },
+						{
+          "id": "mon_autoarmor_heavy",
+          "fg": 22816,
+		  "rotates": true
+        },
+		{
+          "id": "broken_autoarmor_heavy",
+          "fg": 22817,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_autoarmor_heavy",
+          "fg": 22818,
+		  "rotates": true
+        },
+		{
+          "id": "mon_autoarmor_light",
+          "fg": 22819,
+		  "rotates": true
+        },
+		{
+          "id": "broken_autoarmor_light",
+          "fg": 22820,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_autoarmor_light",
+          "fg": 22821,
 		  "rotates": true
         },
 		{
