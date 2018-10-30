@@ -9040,12 +9040,6 @@
           "rotates": false
         },
         {
-          "id": "jackhammer",
-          "fg": 3579,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "jacqueshammer",
           "fg": 1658,
           "bg": 957,
@@ -12744,10 +12738,28 @@
           "bg": 957,
           "rotates": false
         },
+		
         {
           "id": "elec_jackhammer",
           "fg": 3579,
           "bg": 957
+        },
+		{
+          "id": "overlay_wielded_elec_jackhammer",
+          "fg": 4379,
+          "bg": 0
+        },
+		        {
+          "id": "jackhammer",
+          "fg": 4380,
+          "bg": 957,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_wielded_jackhammer",
+          "fg": 4381,
+          "bg": 957,
+          "rotates": false
         },
         {
           "id": "elec_hairtrimmer",
@@ -54670,6 +54682,141 @@
 		{
           "id": "bot_autoarmor_light",
           "fg": 22821,
+		  "rotates": true
+        },
+				{
+          "id": "mon_light_hack",
+          "fg": 22822,
+		  "rotates": true
+        },
+		{
+          "id": "broken_light_hack",
+          "fg": 22823,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_light_hack",
+          "fg": 22824,
+		  "rotates": true
+        },
+						{
+          "id": "mon_distract_hack",
+          "fg": 22825,
+		  "rotates": true
+        },
+		{
+          "id": "broken_distract_hack",
+          "fg": 22826,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_distract_hack",
+          "fg": 22827,
+		  "rotates": true
+        },
+								{
+          "id": "mon_arson_hack",
+          "fg": 22829,
+		  "rotates": true
+        },
+		{
+          "id": "broken_arson_hack",
+          "fg": 22830,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_arson_hack",
+          "fg": 22831,
+		  "rotates": true
+        },
+										{
+          "id": "mon_spore_hack",
+          "fg": 22832,
+		  "rotates": true
+        },
+		{
+          "id": "broken_spore_hack",
+          "fg": 22833,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_spore_hack",
+          "fg": 22834,
+		  "rotates": true
+        },
+		{
+          "id": "mon_eyebot_heater",
+          "fg": 22835,
+		  "rotates": true
+        },
+		{
+          "id": "broken_eyebot_heater",
+          "fg": 22836,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_eyebot_heater",
+          "fg": 22837,
+		  "rotates": true
+        },
+				{
+          "id": "mon_eyebot_furnace",
+          "fg": 22838,
+		  "rotates": true
+        },
+		{
+          "id": "broken_eyebot_furnace",
+          "fg": 22839,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_eyebot_furnace",
+          "fg": 22840,
+		  "rotates": true
+        },
+						{
+          "id": "mon_eyebot_burn",
+          "fg": 22841,
+		  "rotates": true
+        },
+		{
+          "id": "broken_eyebot_burn",
+          "fg": 22842,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_eyebot_burn",
+          "fg": 22843,
+		  "rotates": true
+        },
+								{
+          "id": "mon_utilibot",
+          "fg": 22845,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot",
+          "fg": 22846,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot",
+          "fg": 22847,
+		  "rotates": true
+        },						
+		{
+          "id": "mon_utilibot_butler",
+          "fg": 22848,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_butler",
+          "fg": 22849,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_butler",
+          "fg": 22850,
 		  "rotates": true
         },
 		{
