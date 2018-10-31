@@ -54792,6 +54792,7 @@
 								{
           "id": "mon_utilibot",
           "fg": 22845,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54807,6 +54808,7 @@
 		{
           "id": "mon_utilibot_butler",
           "fg": 22848,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54817,6 +54819,214 @@
 		{
           "id": "bot_utilibot_butler",
           "fg": 22850,
+		  "rotates": true
+        },
+				{
+          "id": "mon_utilibot_const",
+          "fg": 22851,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_const",
+          "fg": 22852,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_const",
+          "fg": 22853,
+		  "rotates": true
+        },
+						{
+          "id": "mon_utilibot_fire",
+          "fg": 22854,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_fire",
+          "fg": 22855,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_fire",
+          "fg": 22856,
+		  "rotates": true
+        },
+								{
+          "id": "mon_utilibot_blob",
+          "fg": 22857,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_blob",
+          "fg": 22858,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_blob",
+          "fg": 22859,
+		  "rotates": true
+        },
+								{
+          "id": "mon_utilibot_slimespring",
+          "fg": 22861,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_slimespring",
+          "fg": 22862,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_slimespring",
+          "fg": 22863,
+		  "rotates": true
+        },
+										{
+          "id": "mon_utilibot_digester",
+          "fg": 22864,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_digester",
+          "fg": 22865,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_digester",
+          "fg": 22866,
+		  "rotates": true
+        },
+												{
+          "id": "mon_utilibot_beehive",
+          "fg": 22867,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_utilibot_beehive",
+          "fg": 22868,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_utilibot_beehive",
+          "fg": 22869,
+		  "rotates": true
+        },
+		{
+          "id": "mon_medibot",
+          "fg": 22870,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_medibot",
+          "fg": 22871,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_medibot",
+          "fg": 22872,
+		  "rotates": true
+        },
+				{
+          "id": "mon_medibot_assassin",
+          "fg": 22873,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_medibot_assassin",
+          "fg": 22874,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_medibot_assassin",
+          "fg": 22875,
+		  "rotates": true
+        },
+						{
+          "id": "mon_medibot_elixir",
+          "fg": 22877,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_medibot_elixir",
+          "fg": 22878,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_medibot_elixir",
+          "fg": 22879,
+		  "rotates": true
+        },
+		{
+          "id": "mon_medibot_party",
+          "fg": 22880,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_medibot_party",
+          "fg": 22881,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_medibot_party",
+          "fg": 22882,
+		  "rotates": true
+        },		
+		{
+          "id": "mon_skitterbot_rat",
+          "fg": 22883,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_skitterbot_rat",
+          "fg": 22884,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_skitterbot_rat",
+          "fg": 22885,
+		  "rotates": true
+        },		
+		{
+          "id": "mon_skitterbot_grab",
+          "fg": 22886,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_skitterbot_grab",
+          "fg": 22887,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_skitterbot_grab",
+          "fg": 22888,
+		  "rotates": true
+        },
+				{
+          "id": "mon_skitterbot_hunter",
+          "fg": 22889,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_skitterbot_hunter",
+          "fg": 22890,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_skitterbot_hunter",
+          "fg": 22891,
 		  "rotates": true
         },
 		{
