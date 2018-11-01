@@ -16698,7 +16698,7 @@
         {
           "id": "mon_zombie_shady",
           "fg": 2749,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -32924,7 +32924,37 @@
           "fg": 5119,
           "bg": 992,
           "rotates": false
-        },        
+        },    
+		        {
+          "id": "sleeping_bag_roll",
+          "fg": 5120,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "sleeping_bag_fur_roll",
+          "fg": 5121,
+          "bg": 0,
+          "rotates": false
+        },  	
+		        {
+          "id": "overlay_worn_sleeping_bag_roll",
+          "fg": 5122,
+          "bg": 0,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_worn_sleeping_bag_fur_roll",
+          "fg": 5123,
+          "bg": 0,
+          "rotates": false
+        },  
+				        {
+          "id": "overlay_worn_sleeping_bag_fur",
+          "fg": 5124,
+          "bg": 0,
+          "rotates": false
+        },  		
         {
           "id": "t_railroad_rubble",
           "fg": 5131,
@@ -52024,6 +52054,73 @@
               "bg": 5131
             }
           ]
+        },
+		{
+		  "id": ["t_cave_moss"],
+          "fg": 17492,
+          "bg": 0,
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17492,
+		      "bg": 		    [
+            { "weight":100, "sprite":4844}
+			],
+              "id": "center"
+            },
+			{
+              "fg": [ 17493, 17494, 17495, 17496 ],
+			  "bg": 		    [
+            { "weight":100, "sprite":4844},
+            { "weight":10, "sprite":4845},
+			{ "weight":10, "sprite":4846},
+			{ "weight":10, "sprite":4847}
+			],
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17497, 17498, 17499, 17500],
+		      "bg": 		    [
+            { "weight":100, "sprite":4844},
+            { "weight":10, "sprite":4845},
+			{ "weight":10, "sprite":4846},
+			{ "weight":10, "sprite":4847}
+			],
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17501, 17502],
+              "bg": 		    [
+            { "weight":100, "sprite":4844},
+            { "weight":10, "sprite":4845},
+			{ "weight":10, "sprite":4846},
+			{ "weight":10, "sprite":4847}
+			],  
+              "id": "edge"
+            },
+            {
+              "fg": [ 17503, 17504, 17505, 17506],
+              "bg": 		    [
+            { "weight":100, "sprite":4844},
+            { "weight":10, "sprite":4845},
+			{ "weight":10, "sprite":4846},
+			{ "weight":10, "sprite":4847}
+			],
+              "id": "end_piece"
+            },
+            {
+              "fg": 17507,
+			  "bg": 		    [
+            { "weight":100, "sprite":4844},
+            { "weight":10, "sprite":4845},
+			{ "weight":10, "sprite":4846},
+			{ "weight":10, "sprite":4847}
+			],
+              "id": "unconnected"
+            }
+          ],
+		  
+          "rotates": false		  
         }
   ]
   },
@@ -55029,6 +55126,237 @@
           "fg": 22891,
 		  "rotates": true
         },
+				{
+          "id": "broken_broken_cyborg",
+          "fg": 22892,
+		  "rotates": true
+        },	
+						{
+          "id": "mon_cyborg_necro",
+          "fg": 22893,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_cyborg_necro",
+          "fg": 22894,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_cyborg_necro",
+          "fg": 22895,
+		  "rotates": true
+        },
+								{
+          "id": ["mon_secubot", "mon_defbot_9mm"],
+          "fg": 22896,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": ["broken_secubot", "broken_defbot_9mm"],
+          "fg": 22897,
+		  "rotates": true
+        },			
+		{
+          "id": ["bot_secubot", "bot_defbot_9mm"],
+          "fg": 22898,
+		  "rotates": true
+        },
+		{
+          "id": ["mon_riotbot", "mon_copbot", "mon_defbot_riotcontrol"],
+          "fg": 22899,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": ["broken_riotbot", "broken_copbot", "broken_defbot_riotcontrol"],
+          "fg": 22900,
+		  "rotates": true
+        },			
+		{
+          "id": ["bot_riotbot", "bot_copbot", "bot_defbot_riotcontrol"],
+          "fg": 22901,
+		  "rotates": true
+        },
+				{
+          "id": "mon_defbot_shot",
+          "fg": 22902,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_defbot_shot",
+          "fg": 22903,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_defbot_shot",
+          "fg": 22904,
+		  "rotates": true
+        },
+						{
+          "id": "mon_defbot_cowboy",
+          "fg": 22905,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_defbot_cowboy",
+          "fg": 22906,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_defbot_cowboy",
+          "fg": 22907,
+		  "rotates": true
+        },
+								{
+          "id": "mon_defbot_samurai",
+          "fg": 22909,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_defbot_samurai",
+          "fg": 22910,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_defbot_samurai",
+          "fg": 22911,
+		  "rotates": true
+        },					
+		{
+          "id": "mon_defbot_paladin",
+          "fg": 22912,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_defbot_paladin",
+          "fg": 22913,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_defbot_paladin",
+          "fg": 22914,
+		  "rotates": true
+        },
+		{
+            "id": "t_shrub_helmet_plump",
+            "fg": 22915,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": "t_shrub_helmet_plump_harvested",
+            "fg": 22916,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_pod_sweet_season_autumn", "t_shrub_pod_sweet_season_winter" ],
+            "fg": 22917,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_pod_sweet", "t_shrub_pod_sweet_season_spring", "t_shrub_pod_sweet_season_summer" ],
+            "fg": 22918,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": "t_shrub_pod_sweet_harvested",
+            "fg": 22919,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_wheat_cave_season_summer", "t_shrub_wheat_cave_season_autumn" ],
+            "fg": 22920,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_wheat_cave", "t_shrub_wheat_cave_season_spring", "t_shrub_wheat_cave_season_winter" ],
+            "fg": 22921,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": "t_shrub_wheat_cave_harvested",
+            "fg": 22922,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_tails_pig_season_summer", "t_shrub_tails_pig_season_autumn" ],
+            "fg": 22923,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_tails_pig", "t_shrub_tails_pig_season_spring", "t_shrub_tails_pig_season_winter" ],
+            "fg": 22924,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": "t_shrub_tails_pig_harvested",
+            "fg": 22925,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": "t_shrub_bush_quarry_season_winter",
+            "fg": 22926,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "t_shrub_bush_quarry", "t_shrub_bush_quarry_season_spring", "t_shrub_bush_quarry_season_summer", "t_shrub_bush_quarry_season_autumn" ],
+            "fg": 22927,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": "t_shrub_bush_quarry_harvested",
+            "fg": 22928,
+            "bg": 4844,
+            "rotates": false
+          },
+          {
+            "id": [ "caveyot_helmet_plump", "caveyot_helmet_plump_cooked" ],
+            "fg": 22929,
+            "bg": 0,
+            "rotates": false
+          },
+          {
+            "id": "caveyot_pod_sweet",
+            "fg": 22930,
+            "bg": 0,
+            "rotates": false
+          },
+          {
+            "id": "caveyot_wheat_cave",
+            "fg": 22931,
+            "bg": 0,
+            "rotates": false
+          },
+          {
+            "id": "caveyot_tails_pig",
+            "fg": 22932,
+            "bg": 0,
+            "rotates": false
+          },
+          {
+            "id": ["caveyot_bush_quarry", "caveyot_bush_quarry_cooked"],
+            "fg": 22933,
+            "bg": 0,
+            "rotates": false
+          },
 		{
           "id": "atlatl",
           "fg": 1986,
