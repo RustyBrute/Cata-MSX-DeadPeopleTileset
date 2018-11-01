@@ -3459,10 +3459,6 @@
           "rotates": false
         },
         {
-          "id": "drivebelt_makeshift",
-          "fg": 451
-        },
-        {
           "id": "judo_belt_green",
           "fg": 452,
           "rotates": false
@@ -32954,7 +32950,15 @@
           "fg": 5124,
           "bg": 0,
           "rotates": false
-        },  		
+        },  
+       {
+          "id": "drivebelt",
+          "fg": 5125
+        },			
+        {
+          "id": "drivebelt_makeshift",
+          "fg": 5126
+        },		
         {
           "id": "t_railroad_rubble",
           "fg": 5131,
