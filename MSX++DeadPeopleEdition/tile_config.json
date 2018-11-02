@@ -34856,11 +34856,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_m1918",
-          "fg": 2119,
-          "rotates": false
-        },
-        {
           "id": ["overlay_wielded_m240", "overlay_wielded_ameli"],
           "fg": 2119,
           "rotates": false
@@ -54485,6 +54480,11 @@
           "fg": 22763,
 		  "rotates": true
         },
+		        {
+          "id": "overlay_wielded_m1918",
+          "fg": 22764,
+          "rotates": false
+        },
 				{
           "id": "mon_milturret_308",
           "fg": 22765,
@@ -55361,6 +55361,310 @@
             "bg": 0,
             "rotates": false
           },
+		  		{
+          "id": "mon_milbot_trainer",
+          "fg": 22934,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_trainer",
+          "fg": 22935,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_trainer",
+          "fg": 22936,
+		  "rotates": true
+        },
+				  		{
+          "id": "mon_milbot_556",
+          "fg": 22937,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_556",
+          "fg": 22938,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_556",
+          "fg": 22939,
+		  "rotates": true
+        },
+		{
+          "id": "mon_milbot_308",
+          "fg": 22941,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_308",
+          "fg": 22942,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_308",
+          "fg": 22943,
+		  "rotates": true
+        },
+				  		{
+          "id": "mon_milbot_50bmg",
+          "fg": 22944,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_50bmg",
+          "fg": 22945,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_50bmg",
+          "fg": 22946,
+		  "rotates": true
+        },
+						  		{
+          "id": "mon_milbot_8x40mm",
+          "fg": 22947,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_8x40mm",
+          "fg": 22948,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_8x40mm",
+          "fg": 22949,
+		  "rotates": true
+        },
+								  		{
+          "id": "mon_milbot_needle",
+          "fg": 22950,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_needle",
+          "fg": 22951,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_needle",
+          "fg": 22952,
+		  "rotates": true
+        },
+								  		{
+          "id": "mon_milbot_40mm",
+          "fg": 22953,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_40mm",
+          "fg": 22954,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_40mm",
+          "fg": 22955,
+		  "rotates": true
+        },
+								  		{
+          "id": "mon_milbot_flame",
+          "fg": 22957,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_flame",
+          "fg": 22958,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_flame",
+          "fg": 22959,
+		  "rotates": true
+        },								
+  		{
+          "id": "mon_milbot_gaurdian",
+          "fg": 22960,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_gaurdian",
+          "fg": 22961,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_gaurdian",
+          "fg": 22962,
+		  "rotates": true
+        },
+								  		{
+          "id": "mon_milbot_deluxe",
+          "fg": 22963,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_deluxe",
+          "fg": 22964,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_deluxe",
+          "fg": 22965,
+		  "rotates": true
+        },
+		  		{
+          "id": "mon_milbot_protector",
+          "fg": 22966,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_protector",
+          "fg": 22967,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_protector",
+          "fg": 22968,
+		  "rotates": true
+        },
+								  		{
+          "id": "mon_milbot_defender",
+          "fg": 22969,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_milbot_defender",
+          "fg": 22970,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_milbot_defender",
+          "fg": 22971,
+		  "rotates": true
+        },
+		{
+          "id": "mon_advbot_laser",
+          "fg": 22973,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advbot_laser",
+          "fg": 22974,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_laser",
+          "fg": 22975,
+		  "rotates": true
+        },
+				{
+          "id": "mon_advbot_plasma",
+          "fg": 22976,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advbot_plasma",
+          "fg": 22977,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_plasma",
+          "fg": 22978,
+		  "rotates": true
+        },
+		{
+          "id": "mon_advbot_rail",
+          "fg": 22979,
+		  "bg": 967,
+		  "rotates": true
+        },
+				{
+          "id": "broken_advbot_rail",
+          "fg": 22980,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_rail",
+          "fg": 22981,
+		  "rotates": true
+        },
+				{
+          "id": "mon_advbot_lightning",
+          "fg": 22982,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advbot_lightning",
+          "fg": 22983,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_lightning",
+          "fg": 22984,
+		  "rotates": true
+        },
+						{
+          "id": "mon_advbot_emp",
+          "fg": 22985,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advbot_emp",
+          "fg": 22986,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_emp",
+          "fg": 22987,
+		  "rotates": true
+        },
+						{
+          "id": "mon_advbot_glitter",
+          "fg": 22989,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advbot_glitter",
+          "fg": 22990,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_glitter",
+          "fg": 22991,
+		  "rotates": true
+        },
+						{
+          "id": "mon_advbot_bitter",
+          "fg": 22992,
+		  "bg": 967,
+		  "rotates": true
+        },
+		{
+          "id": "broken_advbot_bitter",
+          "fg": 22993,
+		  "rotates": true
+        },			
+		{
+          "id": "bot_advbot_bitter",
+          "fg": 22994,
+		  "rotates": true
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
