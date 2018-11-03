@@ -54890,6 +54890,11 @@
           "fg": 22843,
 		  "rotates": true
         },
+				{
+          "id": "helmet_riot_raised",
+          "fg": 22844,
+		  "rotates": true
+        },
 								{
           "id": "mon_utilibot",
           "fg": 22845,
@@ -54968,6 +54973,11 @@
 		{
           "id": "bot_utilibot_blob",
           "fg": 22859,
+		  "rotates": true
+        },
+				{
+          "id": "overlay_worn_helmet_riot_raised",
+          "fg": 22860,
 		  "rotates": true
         },
 								{
