@@ -12325,12 +12325,6 @@
           "rotates": false
         },
         {
-          "id": "crucible",
-          "fg": 3493,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "creepy_doll",
           "fg": 3491,
           "bg": 957,
@@ -25064,11 +25058,6 @@
         },
         {
           "id": "overlay_wielded_tool_rdx_charge_act",
-          "fg": 1425,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_crucible",
           "fg": 1425,
           "rotates": false
         },
@@ -39740,10 +39729,7 @@
           "fg": 3488,
           "rotates": false
         },
-        {
-          "id": "crucible_clay",
-          "fg": 3493
-        },
+
 		{
           "id": "clay_boiled",
           "bg": 1713
@@ -55684,6 +55670,26 @@
           "id": "bot_advbot_bitter",
           "fg": 22994,
 		  "rotates": true
+        },
+		        {
+          "id": "crucible",
+          "fg": 22995,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_crucible",
+          "fg": 22996,
+          "rotates": false
+        },
+		{
+          "id": "crucible_clay",
+          "fg": 22997
+        },
+		{
+          "id": "overlay_wielded_crucible_clay",
+          "fg": 22998,
+          "rotates": false
         },
 		{
           "id": "atlatl",
