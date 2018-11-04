@@ -50491,7 +50491,12 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 17252,
+              "fg": [
+            { "weight":30, "sprite":17252},
+            { "weight":30, "sprite":27664},
+			{ "weight":30, "sprite":27665},
+			{ "weight":30, "sprite":27666}
+			],
 		     "bg": [
             { "weight":40, "sprite":1012},
             { "weight":30, "sprite":4833},
@@ -50581,7 +50586,12 @@
               "id": "end_piece"
             },
             {
-              "fg": 17267,
+              "fg": [
+            { "weight":30, "sprite":17267},
+            { "weight":30, "sprite":27667},
+			{ "weight":30, "sprite":27668},
+			{ "weight":30, "sprite":27669}
+			],
 			  "bg": [
             { "weight":40, "sprite":1012},
             { "weight":30, "sprite":4833},
