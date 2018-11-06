@@ -2122,18 +2122,6 @@
           "rotates": false
         },
         {
-          "id": "thermal_mask",
-          "fg": 278,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "thermal_mask_on",
-          "fg": 278,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "bandana",
           "fg": 279,
           "rotates": false
@@ -5109,11 +5097,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_dance_shoes",
-          "fg": 632,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_dress_shoes_air",
           "fg": 632,
           "rotates": false
@@ -5753,34 +5736,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_mask_rioter",
-          "fg": 711,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_keffiyeh",
-          "fg": 711,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_thermal_mask",
-          "fg": 711,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_thermal_mask_on",
-          "fg": 711,
-          "rotates": false
-        },
-        {
-          "id": "keffiyeh",
-          "fg": 711
-        },
-        {
-          "id": "mask_rioter",
-          "fg": 711
-        },
-        {
           "id": "overlay_worn_mask_wsurvivor",
           "fg": 712,
           "rotates": false
@@ -6167,11 +6122,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_dress_shoes",
-          "fg": 766,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_shoes_bowling",
           "fg": 767,
           "rotates": false
@@ -6373,20 +6323,6 @@
         },
         {
           "id": "overlay_worn_suit",
-          "fg": 788,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_wool_suit",
-          "fg": 788,
-          "rotates": false
-        },
-        {
-          "id": "wool_suit",
-          "fg": 788
-        },
-        {
-          "id": "overlay_worn_tux",
           "fg": 788,
           "rotates": false
         },
@@ -52116,6 +52052,46 @@
           ],
 		  
           "rotates": false		  
+        },
+		{
+		  "id": ["f_bathtub"],
+          "fg": 17508,
+          
+          "multitile": true,
+          "additional_tiles": [            
+		    {
+              "fg": 17508,
+		      
+              "id": "center"
+            },
+			{
+              "fg": [ 17509, 17510, 17511, 17512 ],
+			  
+              "id": "corner"
+            },            
+			{
+              "fg": [ 17513, 17514, 17515, 17516],
+		      
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 17517, 17518],
+                
+              "id": "edge"
+            },
+            {
+              "fg": [ 17519, 17520, 17521, 17522],
+              
+              "id": "end_piece"
+            },
+            {
+              "fg": 17523,
+			  
+              "id": "unconnected"
+            }
+          ],
+		  
+          "rotates": false		  
         }
   ]
   },
@@ -55056,6 +55032,11 @@
           "fg": 22875,
 		  "rotates": true
         },
+		        {
+          "id": "overlay_worn_dance_shoes",
+          "fg": 22876,
+          "rotates": false
+        },
 						{
           "id": "mon_medibot_elixir",
           "fg": 22877,
@@ -55220,6 +55201,11 @@
           "id": "bot_defbot_cowboy",
           "fg": 22907,
 		  "rotates": true
+        },
+		        {
+          "id": "overlay_worn_dress_shoes",
+          "fg": 22908,
+          "rotates": false
         },
 								{
           "id": "mon_defbot_samurai",
@@ -55399,6 +55385,11 @@
           "fg": 22939,
 		  "rotates": true
         },
+		        {
+          "id": "overlay_worn_tux",
+          "fg": 22940,
+          "rotates": false
+        },
 		{
           "id": "mon_milbot_308",
           "fg": 22941,
@@ -55479,7 +55470,11 @@
           "fg": 22955,
 		  "rotates": true
         },
-								  		{
+		        {
+          "id": "wool_suit",
+          "fg": 22956
+        },
+		{
           "id": "mon_milbot_flame",
           "fg": 22957,
 		  "bg": 967,
@@ -55553,12 +55548,18 @@
           "id": "broken_milbot_defender",
           "fg": 22970,
 		  "rotates": true
-        },			
+        },	
+
 		{
           "id": "bot_milbot_defender",
           "fg": 22971,
 		  "rotates": true
         },
+		 {
+          "id": "overlay_worn_wool_suit",
+          "fg": 22972,
+          "rotates": false
+        },		
 		{
           "id": "mon_advbot_laser",
           "fg": 22973,
@@ -55689,6 +55690,64 @@
 		{
           "id": "overlay_wielded_crucible_clay",
           "fg": 22998,
+          "rotates": false
+        },
+				{
+          "id": "coin_quarter",
+          "fg": 22999
+        },
+		{
+          "id": "magic_8_ball",
+          "fg": 23000,
+          "rotates": false
+        },
+		        {
+          "id": "mask_rioter",
+          "fg": 23001
+        },
+		{
+          "id": "overlay_worn_mask_rioter",
+          "fg": 23002,
+          "rotates": false
+        },
+				        {
+          "id": "keffiyeh",
+          "fg": 23003
+        },
+        {
+          "id": "overlay_worn_keffiyeh",
+          "fg": 23004,
+          "rotates": false
+        },
+				        {
+          "id": "thermal_mask",
+          "fg": 23005,
+          "bg": 957,
+          "rotates": false
+        },
+        {
+          "id": "thermal_mask_on",
+          "fg": 23005,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_thermal_mask",
+          "fg": 23006,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_thermal_mask_on",
+          "fg": 23006,
+          "rotates": false
+        },
+						        {
+          "id": "duster_faux_fur",
+          "fg": 23007
+        },
+        {
+          "id": "overlay_worn_duster_faux_fur",
+          "fg": 23008,
           "rotates": false
         },
 		{
