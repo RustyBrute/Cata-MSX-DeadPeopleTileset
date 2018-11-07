@@ -11570,12 +11570,6 @@
           "rotates": false
         },
         {
-          "id": "longsword_fake",
-          "fg": 1793,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "material_aluminium_ingot",
           "fg": 1799,
           "bg": 957
@@ -12951,18 +12945,6 @@
         {
           "id": "jerky",
           "fg": 1242,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "longsword",
-          "fg": 1793,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "longsword_inferior",
-          "fg": 3606,
           "bg": 957,
           "rotates": false
         },
@@ -40789,21 +40771,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_longsword",
-          "fg": 3695,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_longsword_fake",
-          "fg": 3695,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_longsword_inferior",
-          "fg": 3695,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_zweihander_inferior",
           "fg": 3695,
           "rotates": false
@@ -47607,18 +47574,18 @@
 		{ "id": "!overlay_female_mutation_ALBINO", "fg": 9582, "rotates": false },
 		{ "id": "!overlay_male_mutation_ALBINO", "fg": 9583, "rotates": false },
 		
-		{ "id": "overlay_female_mutation_EYE_BLUE", "fg": 9584, "rotates": false },
-		{ "id": "overlay_male_mutation_EYE_BLUE", "fg": 9585, "rotates": false },
-		{ "id": "overlay_female_mutation_EYE_GRAY", "fg": 9586, "rotates": false },
-		{ "id": "overlay_male_mutation_EYE_GRAY", "fg": 9587, "rotates": false },
-		{ "id": "overlay_female_mutation_EYE_BROWN", "fg": 9588, "rotates": false },
-		{ "id": "overlay_male_mutation_EYE_BROWN", "fg": 9589, "rotates": false },
-		{ "id": "overlay_female_mutation_EYE_GREEN", "fg": 9590, "rotates": false },
-		{ "id": "overlay_male_mutation_EYE_GREEN", "fg": 9591, "rotates": false },
-		{ "id": "overlay_female_mutation_EYE_RED", "fg": 9592, "rotates": false },
-		{ "id": "overlay_male_mutation_EYE_RED", "fg": 9593, "rotates": false },
-		{ "id": "overlay_female_mutation_EYE_YELLOW", "fg": 9594, "rotates": false },
-		{ "id": "overlay_male_mutation_EYE_YELLOW", "fg": 9595, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_BLUE", "fg": 9588, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_BLUE", "fg": 9589, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_GRAY", "fg": 9590, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_GRAY", "fg": 9591, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_BROWN", "fg": 9592, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_BROWN", "fg": 9593, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_GREEN", "fg": 9594, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_GREEN", "fg": 9595, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_RED", "fg": 9596, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_RED", "fg": 9597, "rotates": false },
+		{ "id": "overlay_female_mutation_EYE_YELLOW", "fg": 9598, "rotates": false },
+		{ "id": "overlay_male_mutation_EYE_YELLOW", "fg": 9599, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_HAIR_BLONDE", "fg": 9600, "rotates": false },
 		{ "id": "overlay_male_mutation_HAIR_BLONDE", "fg": 9601, "rotates": false },
@@ -55748,6 +55715,39 @@
         {
           "id": "overlay_worn_duster_faux_fur",
           "fg": 23008,
+          "rotates": false
+        },
+				{
+          "id": "longsword_fake",
+          "fg": 23009,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_longsword_fake",
+          "fg": 23010,
+          "rotates": false
+        },
+		        {
+          "id": "longsword",
+          "fg": 23011,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_longsword",
+          "fg": 23012,
+          "rotates": false
+        },
+        {
+          "id": "longsword_inferior",
+          "fg": 23013,
+          "bg": 957,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_longsword_inferior",
+          "fg": 23014,
           "rotates": false
         },
 		{
