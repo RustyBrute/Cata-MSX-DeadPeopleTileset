@@ -1,11 +1,12 @@
-Huge tileset based on work by Xotto, but heavily edited and expanded. Frequent updates with main game additions, mod support.
+Tileset based on work by Xotto, but heavily edited and expanded. 
+Frequent updates with main game additions, mod support.
+
 
 Designed to be used with mod for character customization https://github.com/Zetsukaze/Zets-Hair-Extensions
 
 
 
-Install mods to change interface.
-
+Install mods to change interface. Theese mods can be plugged in in mid game also, no errors will happen.
 
 DeadPeople_Chesthole - GUI from Chesthole Tileset
 
