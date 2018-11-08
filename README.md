@@ -1,6 +1,7 @@
 Tileset based on work by Xotto, but heavily edited and expanded. 
 Frequent updates with main game additions, mod support.
 
+------------------------------------------------------------------------------------------------------------------
 
 Designed to be used with mod for character customization https://github.com/Zetsukaze/Zets-Hair-Extensions
 
