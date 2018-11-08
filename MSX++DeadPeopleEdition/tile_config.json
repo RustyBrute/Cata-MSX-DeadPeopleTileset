@@ -2740,11 +2740,7 @@
           "bg": 957,
           "rotates": false
         },
-        {
-          "id": "flip_flops",
-          "fg": 360,
-          "rotates": false
-        },
+
         {
           "id": "leathersandals",
           "fg": 360,
@@ -2763,10 +2759,7 @@
           "id": "geta",
           "fg": 360
         },
-        {
-          "id": "slippers",
-          "fg": 360
-        },
+
         {
           "id": "flotation_vest",
           "fg": 361,
@@ -2777,11 +2770,6 @@
           "id": "football_armor",
           "fg": 362,
           "rotates": false
-        },
-        {
-          "id": "footrags",
-          "fg": 363,
-          "bg": 957
         },
         {
           "id": "sockmitts",
@@ -3680,10 +3668,6 @@
           "fg": 481
         },
         {
-          "id": "ragpouch",
-          "fg": 481
-        },
-        {
           "id": "mask_bal",
           "fg": 482,
           "bg": 957,
@@ -4133,16 +4117,6 @@
         },
         {
           "id": "overlay_worn_backpack",
-          "fg": 531,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_backpack_leather",
-          "fg": 531,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_survivor_pack",
           "fg": 531,
           "rotates": false
         },
@@ -4712,11 +4686,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_flip_flops",
-          "fg": 601,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_leathersandals",
           "fg": 601,
           "rotates": false
@@ -4729,11 +4698,6 @@
         {
           "id": "overlay_worn_football_armor",
           "fg": 602,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_footrags",
-          "fg": 603,
           "rotates": false
         },
         {
@@ -5496,41 +5460,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_judo_belt_black",
-          "fg": 687,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_judo_belt_blue",
-          "fg": 687,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_judo_belt_brown",
-          "fg": 687,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_judo_belt_green",
-          "fg": 687,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_judo_belt_orange",
-          "fg": 687,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_judo_belt_white",
-          "fg": 687,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_judo_belt_yellow",
-          "fg": 687,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_obi_gi",
           "fg": 687,
           "rotates": false
@@ -6212,11 +6141,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_slippers",
-          "fg": 778,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_geta",
           "fg": 778,
           "rotates": false
@@ -6553,11 +6477,6 @@
         },
         {
           "id": "overlay_worn_thawb",
-          "fg": 813,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_subsuit_xl",
           "fg": 813,
           "rotates": false
         },
@@ -7571,10 +7490,6 @@
           "id": "sleeveless_tunic",
           "fg": 940,
           "rotates": false
-        },
-        {
-          "id": "subsuit_xl",
-          "fg": 940
         },
         {
           "id": "tux",
@@ -8596,18 +8511,6 @@
           "rotates": false
         },
         {
-          "id": "firekatana_off",
-          "fg": 3518,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "firekatana_on",
-          "fg": 3519,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "firemachete_off",
           "fg": 3520,
           "bg": 957,
@@ -8986,24 +8889,6 @@
         {
           "id": ["johnnycake", "gfjohnnycake"],
           "fg": 1243,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "katana",
-          "fg": 3583,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "katana_fake",
-          "fg": 3583,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "katana_inferior",
-          "fg": 3583,
           "bg": 957,
           "rotates": false
         },
@@ -12361,12 +12246,6 @@
           "bg": 957,
           "rotates": false
         },
-        {
-          "id": "candle_lit",
-          "fg": 3466,
-          "bg": 957,
-          "rotates": false
-        },
 		{
           "id": "candle_smoke_lit",
           "fg": 3466,
@@ -12376,6 +12255,12 @@
         {
           "id": "candle",
           "fg": 3465,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "candle_lit",
+          "fg": 3466,
           "bg": 957,
           "rotates": false
         },
@@ -40321,21 +40206,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_firekatana_off",
-          "fg": 3658,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_katana",
-          "fg": 3658,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_katana_fake",
-          "fg": 3658,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_wakizashi",
           "fg": 3658,
           "rotates": false
@@ -40361,11 +40231,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_katana_inferior",
-          "fg": 3658,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_scimitar_inferior",
           "fg": 3658,
           "rotates": false
@@ -40373,11 +40238,6 @@
         {
           "id": "overlay_wielded_wakizashi_inferior",
           "fg": 3658,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_firekatana_on",
-          "fg": 3659,
           "rotates": false
         },
         {
@@ -55748,6 +55608,176 @@
         {
           "id": "overlay_wielded_longsword_inferior",
           "fg": 23014,
+          "rotates": false
+        },
+		        {
+          "id": "katana",
+          "fg": 23015,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_katana",
+          "fg": 23016,
+          "rotates": false
+        },
+        {
+          "id": "katana_fake",
+          "fg": 23017,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_katana_fake",
+          "fg": 23018,
+          "rotates": false
+        },
+        {
+          "id": "katana_inferior",
+          "fg": 23019,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_katana_inferior",
+          "fg": 23020,
+          "rotates": false
+        },
+		        {
+          "id": "firekatana_off",
+          "fg": 23021,
+          "bg": 957,
+          "rotates": false
+        },   
+		{
+          "id": "overlay_wielded_firekatana_off",
+          "fg": 23022,
+          "rotates": false
+        },
+        {
+          "id": "firekatana_on",
+          "fg": 23023,
+          "bg": 957,
+          "rotates": false
+        },		
+
+        {
+          "id": "overlay_wielded_firekatana_on",
+          "fg": 23024,
+          "rotates": false
+        },
+		{
+          "id": "subsuit_xl",
+          "fg": 23025
+        },
+        {
+          "id": "overlay_worn_subsuit_xl",
+          "fg": 23026,
+          "rotates": false
+        },
+				{
+          "id": "footrags",
+          "fg": 23027,
+          "bg": 957
+        },
+        {
+          "id": "overlay_worn_footrags",
+          "fg": 23028,
+          "rotates": false
+        },
+				        {
+          "id": "flip_flops",
+          "fg": 23029,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_flip_flops",
+          "fg": 23030,
+          "rotates": false
+        },
+		        {
+          "id": "ragpouch",
+          "fg": 23031
+        },
+				        {
+          "id": "overlay_worn_ragpouch",
+          "fg": 23032
+        },
+				        {
+          "id": "slippers",
+          "fg": 23033
+        },
+        {
+          "id": "overlay_worn_slippers",
+          "fg": 23034,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_candle",
+          "fg": 23035,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_candle_lit",
+          "fg": 23036,
+          "bg": 957,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_worn_mouthpiece",
+          "fg": 23037,
+          "bg": 957,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_judo_belt_black",
+          "fg": 23038,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_judo_belt_blue",
+          "fg": 23039,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_judo_belt_brown",
+          "fg": 23040,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_judo_belt_green",
+          "fg": 23041,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_judo_belt_orange",
+          "fg": 23042,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_judo_belt_white",
+          "fg": 23043,
+          "rotates": false
+        },
+        {
+          "id": "overlay_worn_judo_belt_yellow",
+          "fg": 23044,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_backpack_leather",
+          "fg": 23045,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_worn_backpack_leather",
+          "fg": 23045,
+          "rotates": false
+        },
+		 {
+          "id": "overlay_worn_survivor_pack",
+          "fg": 23046,
           "rotates": false
         },
 		{
