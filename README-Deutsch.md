@@ -17,7 +17,7 @@ https://nofile.io/f/4nn0f6BPOzC/Whaleys+Tattoos.zip
 
 ------------------------------------------------------------------------------------------------------------------
 
-Du kannst auch Teile des Interface individualisieren. Kopiere dafür die im Unterordner des Feldbilder-Satzes 'mods' enthaltenen Anpassungen im eigentlichen Spielordner 'mods'. Diese Mods können auch mitten im Spiel eingebaut werden, ohne das irgendwelche Fehler auftreten.
+Du kannst auch Teile des Interfaces individualisieren. Kopiere dafür die im Unterordner des Feldbilder-Satzes 'mods' enthaltenen Anpassungen in den eigentlichen Spielordner 'mods'. Diese Mods können auch mitten im Spiel eingebaut werden und das ohne irgendwelche Fehler zu verursachen.
 
 
 DeadPeople_Chesthole - GUI aus dem Chesthole Tileset
