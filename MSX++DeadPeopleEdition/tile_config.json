@@ -2756,11 +2756,6 @@
           "fg": 360
         },
         {
-          "id": "geta",
-          "fg": 360
-        },
-
-        {
           "id": "flotation_vest",
           "fg": 361,
           "bg": 957,
@@ -3137,17 +3132,9 @@
           "rotates": false
         },
         {
-          "id": "kufi",
-          "fg": 411
-        },
-        {
           "id": "hat_newsboy",
           "fg": 412,
           "bg": 957
-        },
-        {
-          "id": "kippah",
-          "fg": 412
         },
         {
           "id": "hat_sombrero",
@@ -3384,10 +3371,6 @@
           "rotates": false
         },
         {
-          "id": "technician_shirt_blue",
-          "fg": 444
-        },
-        {
           "id": "technician_shirt_ltblue",
           "fg": 444
         },
@@ -3474,10 +3457,6 @@
           "id": "judo_gi",
           "fg": 457,
           "bg": 957
-        },
-        {
-          "id": "kariginu",
-          "fg": 457
         },
         {
           "id": "keikogi",
@@ -3618,10 +3597,6 @@
           "id": "longshirt",
           "fg": 476,
           "rotates": false
-        },
-        {
-          "id": "kittel",
-          "fg": 476
         },
         {
           "id": "long_underpants",
@@ -4220,15 +4195,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_bondage_mask",
-          "fg": 544,
-          "rotates": false
-        },
-        {
-          "id": "bondage_mask",
-          "fg": 544
-        },
-        {
           "id": "overlay_worn_bondage_suit",
           "fg": 545,
           "rotates": false
@@ -4432,10 +4398,6 @@
           "id": "overlay_worn_cassock",
           "fg": 570,
           "rotates": false
-        },
-        {
-          "id": "cassock",
-          "fg": 570
         },
         {
           "id": "overlay_worn_chainmail_arms",
@@ -5444,15 +5406,6 @@
           "id": "overlay_worn_kufi",
           "fg": 686,
           "rotates": false
-        },
-        {
-          "id": "overlay_worn_eboshi",
-          "fg": 686,
-          "rotates": false
-        },
-        {
-          "id": "eboshi",
-          "fg": 686
         },
         {
           "id": "overlay_worn_leather_belt",
@@ -7476,10 +7429,6 @@
           "id": "tunic",
           "fg": 939,
           "bg": 957
-        },
-        {
-          "id": "thawb",
-          "fg": 939
         },
         {
           "id": "tunic_rag",
@@ -40161,11 +40110,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_makeshift_knife",
-          "fg": 3653,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_copper_knife",
           "fg": 3653,
           "rotates": false
@@ -40670,10 +40614,6 @@
         {
           "id": "carding_paddles",
           "fg": 3715
-        },
-        {
-          "id": "makeshift_knife",
-          "fg": 3717
         },
         {
           "id": "two_way_radio",
@@ -47980,6 +47920,11 @@
     "sprite_offset_y":-16,
     "tiles":
     [
+			{
+          "id": "overlay_worn_eboshi",
+          "fg": 11609,
+          "rotates": false
+        },
         {
           "id": ["overlay_worn_bowhat", "overlay_worn_porkpie", "overlay_worn_tophat"],
           "fg": 11610,
@@ -55778,6 +55723,65 @@
 		 {
           "id": "overlay_worn_survivor_pack",
           "fg": 23046,
+          "rotates": false
+        },
+				        {
+          "id": "makeshift_knife",
+          "fg": 23047
+        },
+        {
+          "id": "overlay_wielded_makeshift_knife",
+          "fg": 23048,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_throwing_knife",
+          "fg": 23049
+        },
+		        {
+          "id": "cassock",
+          "fg": 23050
+        },
+		        {
+          "id": "geta",
+          "fg": 23051
+        },
+        {
+          "id": "eboshi",
+          "fg": 23052
+        },
+		        {
+          "id": "kariginu",
+          "fg": 23053
+        },
+		{
+          "id": "thawb",
+          "fg": 23054
+        },
+		        {
+          "id": "kufi",
+          "fg": 23055
+        },
+		        {
+          "id": "kippah",
+          "fg": 23056
+        },
+		        {
+          "id": "kittel",
+          "fg": 23057
+        },
+        {
+          "id": ["bondage_mask", "bondage_mask_zipped"],
+          "fg": 23058
+        },
+				        {
+          "id": "overlay_worn_bondage_mask",
+          "fg": 544,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_bondage_mask_zipped",
+          "fg": 23059,
           "rotates": false
         },
 		{
