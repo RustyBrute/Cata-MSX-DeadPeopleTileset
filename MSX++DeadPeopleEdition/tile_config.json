@@ -12545,12 +12545,6 @@
           "rotates": false
         },
         {
-          "id": "bullet_crossbow",
-          "fg": 1992,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "crowbar",
           "fg": 3492,
           "bg": 957,
@@ -33338,11 +33332,6 @@
           "rotates": false
         },
         {
-          "id": "crossbow",
-          "fg": 2001,
-          "rotates": false
-        },
-        {
           "id": "savage_111f",
           "fg": 2003
         },
@@ -33354,11 +33343,6 @@
         {
           "id": "emp_gun",
           "fg": 2006
-        },
-        {
-          "id": "ethereal_crossbow",
-          "fg": 2007,
-          "rotates": false
         },
         {
           "id": "fn57",
@@ -33428,11 +33412,7 @@
           "fg": 2024,
           "rotates": false
         },
-        {
-          "id": "hand_crossbow",
-          "fg": 2025,
-          "rotates": false
-        },
+
         {
           "id": "hk_g3",
           "fg": 2028,
@@ -33482,12 +33462,7 @@
 		{
           "id": "surv_lmg_762",
           "fg": 2035
-        },
-        {
-          "id": "huge_crossbow",
-          "fg": 2036,
-          "rotates": false
-        },
+        },			
         {
           "id": "l_enforcer_45",
           "fg": 2042
@@ -34143,16 +34118,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_bullet_crossbow",
-          "fg": 2090,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_huge_crossbow",
-          "fg": 2090,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_calico",
           "fg": 2091,
           "rotates": false
@@ -34323,16 +34288,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_crossbow",
-          "fg": 2096,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_ethereal_crossbow",
-          "fg": 2096,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_cx4",
           "fg": 2097,
           "rotates": false
@@ -34392,11 +34347,7 @@
           "fg": 2103,
           "rotates": false
         },
-        {
-          "id": "overlay_wielded_hand_crossbow",
-          "fg": 2104,
-          "rotates": false
-        },
+				       
         {
           "id": "overlay_wielded_hand_of_armok",
           "fg": 2105,
@@ -34827,11 +34778,6 @@
           "rotates": false
         },
         {
-          "id": ["overlay_wielded_rep_crossbow", "overlay_wielded_compcrossbow","overlay_wielded_compositecrossbow"],
-          "fg": 2133,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_rm103a_pistol",
           "fg": 2134,
           "rotates": false
@@ -35137,15 +35083,6 @@
           "id": "remington_870",
           "fg": 2172,
           "rotates": false
-        },
-        {
-          "id": ["rep_crossbow", "compcrossbow", "compositecrossbow"],
-          "fg": 2173,
-          "rotates": false
-        },
-        {
-          "id": "gun_crossbow",
-          "fg": 2173
         },
         {
           "id": "rifle_22",
@@ -36900,17 +36837,7 @@
           "id": "overlay_wielded_410_lever",
           "fg": 4241,
           "rotates": false
-        },
-		{
-          "id": "crossbow_makeshift",
-          "fg": 2001,
-          "rotates": false
-        },		
-		{
-          "id": "overlay_wielded_crossbow_makeshift",
-          "fg": 2096,
-          "rotates": false
-        },
+        },	
         {
           "id": "mon_frog",
           "fg": 2464,
@@ -41718,7 +41645,7 @@
           "id": ["vp_cutter", "vp_cutternc", "vp_mcutter"],
           "fg": 3960,
           "rotates": true
-        },		
+        },							
 		{
           "id": ["vp_repeatingcrossbow", "vp_repeatingcrossbownc"],
           "fg": 3960,
@@ -55784,6 +55711,102 @@
           "fg": 23059,
           "rotates": false
         },
+		{
+          "id": "crossbow",
+          "fg": 2001,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_crossbow",
+          "fg": 2096,
+          "rotates": false
+        },
+		{
+          "id": "crossbow_makeshift",
+          "fg": 23060,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_wielded_crossbow_makeshift",
+          "fg": 23061,
+          "rotates": false
+        },
+        {
+          "id": "ethereal_crossbow",
+          "fg": 2007,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_ethereal_crossbow",
+          "fg": 23062,
+          "rotates": false
+        },
+				        {
+          "id": "hand_crossbow",
+          "fg": 2025,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_hand_crossbow",
+          "fg": 2104,
+          "rotates": false
+        },
+		        {
+          "id": "bullet_crossbow",
+          "fg": 1992,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bullet_crossbow",
+          "fg": 23063,
+          "rotates": false
+        },
+		        {
+          "id": "gun_crossbow",
+          "fg": 23064
+        },
+        {
+          "id": "huge_crossbow",
+          "fg": 2036,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_huge_crossbow",
+          "fg": 2090,
+          "rotates": false
+        },
+		        {
+          "id": "compcrossbow",
+          "fg": 23065,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_compcrossbow",
+          "fg": 23066,
+          "rotates": false
+        },
+				        {
+          "id": "compositecrossbow",
+          "fg": 23067,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_compositecrossbow",
+          "fg": 23068,
+          "rotates": false
+        },
+        {
+          "id": ["rep_crossbow"],
+          "fg": 2173,
+          "rotates": false
+        },
+		        {
+          "id": ["overlay_wielded_rep_crossbow"],
+          "fg": 2133,
+          "rotates": false
+        },
+
 		{
           "id": "atlatl",
           "fg": 1986,
