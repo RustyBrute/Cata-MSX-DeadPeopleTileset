@@ -11159,12 +11159,6 @@
           "rotates": false
         },
         {
-          "id": "revenant_crown",
-          "fg": 3896,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "robe_shadow",
           "fg": 3898,
           "bg": 957,
@@ -11173,18 +11167,6 @@
         {
           "id": "robe_shadow_on",
           "fg": 3899,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "somen_clairvoyance",
-          "fg": 3905,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "somen_clairvoyance_on",
-          "fg": 3906,
           "bg": 957,
           "rotates": false
         },
@@ -26763,16 +26745,6 @@
           "rotates": false
         },
         {
-          "id": "hexenhammer_active",
-          "fg": 1807,
-          "rotates": false
-        },
-        {
-          "id": "hexenhammer",
-          "fg": 1808,
-          "rotates": false
-        },
-        {
           "id": "money_bundle",
           "fg": 1810,
           "rotates": false
@@ -27102,16 +27074,6 @@
         },
         {
           "id": "overlay_wielded_hammer_sledge",
-          "fg": 1849,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_hexenhammer",
-          "fg": 1849,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_hexenhammer_active",
           "fg": 1849,
           "rotates": false
         },
@@ -32700,6 +32662,11 @@
           "id": "drivebelt_makeshift",
           "fg": 5126
         },		
+		        {
+          "id": "overlay_worn_robe_shadow_on",
+          "fg": 5127,
+          "rotates": false
+        },
         {
           "id": "t_railroad_rubble",
           "fg": 5131,
@@ -41301,6 +41268,12 @@
           "fg": 3879,
           "rotates": false
         },
+		        {
+          "id": "revenant_crown",
+          "fg": 3896,
+          "bg": 957,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_revenant_crown",
           "fg": 3880,
@@ -41317,11 +41290,6 @@
         },
         {
           "id": "overlay_worn_robe_shadow",
-          "fg": 3882,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_robe_shadow_on",
           "fg": 3882,
           "rotates": false
         },
@@ -41350,6 +41318,18 @@
           "fg": 3888,
           "rotates": false
         },
+		{
+          "id": "somen_clairvoyance",
+          "fg": 3905,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "somen_clairvoyance_on",
+          "fg": 3906,
+          "bg": 0,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_somen_clairvoyance",
           "fg": 3889,
@@ -41357,7 +41337,7 @@
         },
         {
           "id": "overlay_worn_somen_clairvoyance_on",
-          "fg": 3889,
+          "fg": 3606,
           "rotates": false
         },
         {
@@ -55862,7 +55842,31 @@
           "fg": 23078,
           "rotates": false
         },
-
+		{
+          "id": "hexenhammer",
+          "fg": 23079,
+          "rotates": false
+        },
+		{
+          "id": "hexenhammer_active",
+          "fg": 23080,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_hexenhammer",
+          "fg": 23081,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_hexenhammer_active",
+          "fg": 23082,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_gauntlets_necro",
+          "fg": 23083,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
