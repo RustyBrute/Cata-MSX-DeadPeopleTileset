@@ -47283,6 +47283,8 @@
 		{ "id": "overlay_male_mutation_SKIN_DARK", "fg": 9581, "rotates": false },
 		{ "id": "overlay_female_mutation_SKIN_PINK", "fg": 9582, "rotates": false },
 		{ "id": "overlay_male_mutation_SKIN_PINK", "fg": 9583, "rotates": false },
+		{ "id": "overlay_female_mutation_SKIN_YELLOW", "fg": 9584, "rotates": false },
+		{ "id": "overlay_male_mutation_SKIN_YELLOW", "fg": 9585, "rotates": false },
 		
 		{ "id": "!overlay_female_mutation_ALBINO", "fg": 9582, "rotates": false },
 		{ "id": "!overlay_male_mutation_ALBINO", "fg": 9583, "rotates": false },
