@@ -14759,6 +14759,12 @@
           "bg": 963,
           "rotates": false
         },
+		        {
+          "id": "recipe_fauxfur",
+          "fg": 1021,
+          "bg": 963,
+          "rotates": false
+        },
         {
           "id": "recipe_arrows",
           "fg": 1021,
@@ -55804,6 +55810,56 @@
 		        {
           "id": ["overlay_wielded_rep_crossbow"],
           "fg": 2133,
+          "rotates": false
+        },
+		        {
+          "id": ["hat_faux_fur"],
+          "fg": 23069,
+          "rotates": false
+        },
+		        {
+          "id": ["overlay_wielded_hat_faux_fur"],
+          "fg": 23070,
+          "rotates": false
+        },		
+        {
+          "id": ["pants_faux_fur"],
+          "fg": 23071,
+          "rotates": false
+        },
+		        {
+          "id": ["overlay_wielded_pants_faux_fur"],
+          "fg": 23072,
+          "rotates": false
+        },
+		        {
+          "id": ["trenchcoat_faux_fur"],
+          "fg": 23073,
+          "rotates": false
+        },
+		        {
+          "id": ["overlay_wielded_trenchcoat_faux_fur"],
+          "fg": 23074,
+          "rotates": false
+        },		
+        {
+          "id": ["sleeveless_duster_faux_fur"],
+          "fg": 23075,
+          "rotates": false
+        },
+		        {
+          "id": ["overlay_wielded_sleeveless_duster_faux_fur"],
+          "fg": 23076,
+          "rotates": false
+        },      
+		{
+          "id": ["sleeveless_trenchcoat_faux_fur"],
+          "fg": 23077,
+          "rotates": false
+        },
+		        {
+          "id": ["overlay_wielded_sleeveless_trenchcoat_faux_fur"],
+          "fg": 23078,
           "rotates": false
         },
 
