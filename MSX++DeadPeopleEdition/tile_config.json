@@ -4863,11 +4863,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_gloves_wool",
-          "fg": 614,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_gloves_wraps",
           "fg": 614,
           "rotates": false
@@ -6460,11 +6455,6 @@
         },
         {
           "id": "overlay_worn_trenchcoat_fur",
-          "fg": 817,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_trenchcoat_leather",
           "fg": 817,
           "rotates": false
         },
@@ -34751,11 +34741,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_rm103a_pistol",
-          "fg": 2134,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_rm99_pistol",
           "fg": 2134,
           "rotates": false
@@ -55869,6 +55854,21 @@
           "fg": 23083,
           "rotates": false
         },
+		        {
+          "id": "overlay_worn_trenchcoat_leather",
+          "fg": 23084,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_gloves_wool",
+          "fg": 23085,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_wielded_rm103a_pistol",
+          "fg": 23086,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -56497,6 +56497,18 @@
 		  "bg": 5403,
           "rotates": false
         }
+	]
+	},	
+	{
+		"file": "17_top_hats_32x32.png",
+		"sprite_offset_y":-16,
+		"tiles":
+	[
+	        {
+          "id": "overlay_worn_hat_chef",
+          "fg": 33165,
+          "rotates": false
+        }	
 	]
 	}
   ]
