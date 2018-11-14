@@ -55879,7 +55879,31 @@
           "fg": 23088,
           "rotates": false
         },
-		
+						{
+          "id": "mon_insect_abominableleech",
+          "fg": 23089,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_acidicleech",
+          "fg": 23090,
+          "rotates": false
+        },
+				{
+          "id": "mon_insect_bigleech",
+          "fg": 23091,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_bloatedleech",
+          "fg": 23092,
+          "rotates": false
+        },
+				{
+          "id": "mon_insect_devourerleech",
+          "fg": 23093,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
