@@ -55870,6 +55870,17 @@
           "rotates": false
         },
 		{
+          "id": "mon_insect_leech",
+          "fg": 23087,
+          "rotates": false
+        },
+				{
+          "id": "mon_insect_hugeleech",
+          "fg": 23088,
+          "rotates": false
+        },
+		
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
