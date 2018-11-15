@@ -15124,7 +15124,7 @@
         {
           "id": "mon_bat",
           "fg": 2326,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -33159,7 +33159,7 @@
 		{
           "id": "atlatl",
           "fg": 1986,
-		  "bg": 0,
+		  "bg": 967,
           "rotates": false
         },	
 		{
@@ -47812,7 +47812,9 @@
 		{ "id": "mon_skeleton_hulk", "fg": 11583, "rotates": false },
 		{ "id": "mon_revenant", "fg": 11584, "rotates": false },
 		{ "id": "mon_chickenbot", "fg": 11585, "rotates": false },
-		{ "id": "broken_chickenbot", "fg": 11586, "rotates": false }
+		{ "id": "broken_chickenbot", "fg": 11586, "rotates": false },
+		{ "id": "mon_zombie_bonetitan", "fg": 11587, "rotates": false }
+		
     ]
     }, 
 	{
@@ -55902,6 +55904,98 @@
 				{
           "id": "mon_insect_devourerleech",
           "fg": 23093,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_bloodsurgeleech",
+          "fg": 23094,
+          "rotates": false
+        },
+				{
+          "id": "mon_insect_dreadfulleech",
+          "fg": 23095,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_eyedleech",
+          "fg": 23096,
+          "rotates": false
+        },
+				{
+          "id": "mon_insect_sharpshooterleech",
+          "fg": 23097,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_spikyleech",
+          "fg": 23098,
+          "rotates": false
+        },
+				{
+          "id": "mon_insect_vampireleech",
+          "fg": 23099,
+          "rotates": false
+        },
+		{
+          "id": "mon_insect_venomleech",
+          "fg": 23100,
+          "rotates": false
+        },
+				{
+          "id": "mon_vampbat",
+          "fg": 23101,
+          "rotates": false
+        },
+		{
+          "id": "mon_bigvampbat",
+          "fg": 23102,
+          "rotates": false
+        },
+				{
+          "id": "mon_feralvampbat",
+          "fg": 23103,
+          "rotates": false
+        },
+						{
+          "id": "mon_zombie_bonewraith",
+          "fg": 23104,
+		   "bg": 967,
+          "rotates": false
+        },
+								{
+          "id": "mon_zombie_bloodcompact",
+          "fg": 23105,
+		   "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_blooddefused",
+          "fg": 23106,
+		   "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_bloodinfused",
+          "fg": 23107,
+		   "bg": 967,
+          "rotates": false
+        },
+						{
+          "id": "mon_zombie_shapeshifter",
+          "fg": 23108,
+		   "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_shifter",
+          "fg": 23109,
+		   "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_succumbvampire",
+          "fg": 23110,
+		   "bg": 967,
           "rotates": false
         },
 		{
