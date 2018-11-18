@@ -56164,6 +56164,36 @@
           "rotates": false
         },
 		{
+          "id": "apple_sugar",
+          "fg": 23114,
+		   "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "veggy_salted",
+          "fg": 23115,
+		   "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "hflesh_salted",
+          "fg": 23116,
+		   "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "meat_salted",
+          "fg": 23117,
+		   "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "plastic_bag_vac",
+          "fg": 23118,
+		   "bg": 0,
+          "rotates": false
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
