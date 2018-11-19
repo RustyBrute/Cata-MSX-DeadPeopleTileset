@@ -2237,18 +2237,10 @@
           "fg": 294,
           "rotates": false
         },
-        {
+		        {
           "id": "boots_steel",
           "fg": 295,
           "rotates": false
-        },
-        {
-          "id": "boots_larmor",
-          "fg": 295
-        },
-        {
-          "id": "boots_plate",
-          "fg": 295
         },
         {
           "id": "boots_survivor",
@@ -2306,11 +2298,6 @@
         {
           "id": "boy_shorts",
           "fg": 303,
-          "rotates": false
-        },
-        {
-          "id": "bra",
-          "fg": 304,
           "rotates": false
         },
         {
@@ -2660,11 +2647,6 @@
           "fg": 351
         },
         {
-          "id": "overlay_worn_entry_suit",
-          "fg": 351,
-          "rotates": false
-        },
-        {
           "id": "fancy_sunglasses",
           "fg": 352,
           "bg": 957,
@@ -2906,14 +2888,6 @@
           "rotates": false
         },
         {
-          "id": "glove_jackson",
-          "fg": 381
-        },
-        {
-          "id": "long_glove_white",
-          "fg": 381
-        },
-        {
           "id": "gloves_medical",
           "fg": 382,
           "rotates": false
@@ -2931,14 +2905,6 @@
           "id": "gloves_rubber",
           "fg": 384,
           "rotates": false
-        },
-        {
-          "id": "gloves_fsurvivor",
-          "fg": 384
-        },
-        {
-          "id": "nomex_gloves",
-          "fg": 384
         },
         {
           "id": "gloves_tactical",
@@ -3960,15 +3926,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_anbc_suit",
-          "fg": 517,
-          "rotates": false
-        },
-        {
-          "id": "anbc_suit",
-          "fg": 517
-        },
-        {
           "id": "overlay_worn_hazmat_suit",
           "fg": 517,
           "rotates": false
@@ -4245,11 +4202,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_boots_plate",
-          "fg": 553,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_boots_survivor",
           "fg": 553,
           "rotates": false
@@ -4261,11 +4213,6 @@
         },
         {
           "id": "overlay_worn_boots_fur",
-          "fg": 553,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_boots_larmor",
           "fg": 553,
           "rotates": false
         },
@@ -4347,11 +4294,6 @@
         {
           "id": "overlay_worn_boy_shorts",
           "fg": 561,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_bra",
-          "fg": 562,
           "rotates": false
         },
         {
@@ -4743,11 +4685,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_gloves_fsurvivor",
-          "fg": 611,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_gloves_rubber",
           "fg": 611,
           "rotates": false
@@ -4759,11 +4696,6 @@
         },
         {
           "id": "overlay_worn_mittens",
-          "fg": 611,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_nomex_gloves",
           "fg": 611,
           "rotates": false
         },
@@ -4853,11 +4785,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_gloves_medical",
-          "fg": 614,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_gloves_plate",
           "fg": 614,
           "rotates": false
@@ -4878,7 +4805,7 @@
           "rotates": false
         },
         {
-          "id": ["overlay_worn_glove_jackson", "overlay_worn_gloves_golf"],
+          "id": "overlay_worn_gloves_golf",
           "fg": 614,
           "rotates": false
         },
@@ -5722,16 +5649,6 @@
         {
           "id": "overlay_worn_optical_cloak",
           "fg": 727,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_cloak_wool",
-          "fg": 727,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_panties",
-          "fg": 728,
           "rotates": false
         },
         {
@@ -6624,11 +6541,6 @@
         {
           "id": "wsurvivor_suit",
           "fg": 835
-        },
-        {
-          "id": "panties",
-          "fg": 836,
-          "rotates": false
         },
         {
           "id": "bikini_bottom",
@@ -56191,6 +56103,109 @@
           "id": "plastic_bag_vac",
           "fg": 23118,
 		   "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_cloak_wool",
+          "fg": 23119,
+          "rotates": false
+        },       
+		{
+          "id": "boots_larmor",
+          "fg": 23120
+        },
+		        {
+          "id": "overlay_worn_boots_larmor",
+          "fg": 23121,
+          "rotates": false
+        },
+		        {
+          "id": "boots_plate",
+          "fg": 23122
+        },
+		        {
+          "id": "overlay_worn_boots_plate",
+          "fg": 23123,
+          "rotates": false
+        },
+		        {
+          "id": "panties",
+          "fg": 23124,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_female_worn_panties",
+          "fg": 23125,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_male_worn_panties",
+          "fg": 23126,
+          "rotates": false
+        },
+		        {
+          "id": "bra",
+          "fg": 23127,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_female_worn_bra",
+          "fg": 23128,
+          "rotates": false
+        },
+		 {
+          "id": "overlay_male_worn_bra",
+          "fg": 23129,
+          "rotates": false
+        },
+		        {
+          "id": "nomex_gloves",
+          "fg": 23130
+        },
+		        {
+          "id": "overlay_worn_nomex_gloves",
+          "fg": 23131,
+          "rotates": false
+        },
+		        {
+          "id": "gloves_fsurvivor",
+          "fg": 23132
+        },
+		        {
+          "id": "overlay_worn_gloves_fsurvivor",
+          "fg": 23133,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_gloves_medical",
+          "fg": 23134,
+          "rotates": false
+        },
+		{
+          "id": "long_glove_white",
+          "fg": 23135
+        },
+		        {
+          "id": "glove_jackson",
+          "fg": 23136
+        },
+		 {
+          "id": "overlay_worn_glove_jackson",
+          "fg": 23137,
+          "rotates": false
+        },
+				        {
+          "id": "anbc_suit",
+          "fg": 23138
+        },
+        {
+          "id": "overlay_worn_anbc_suit",
+          "fg": 23139,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_entry_suit",
+          "fg": 23140,
           "rotates": false
         },
 		{
