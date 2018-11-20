@@ -56208,6 +56208,70 @@
           "fg": 23140,
           "rotates": false
         },
+		        {
+          "id": "ai_core_blank",
+          "fg": 23141
+        },
+		        {
+          "id": "ai_core",
+          "fg": 23142
+        },
+				        {
+          "id": "nanite_core_1",
+          "fg": 23143
+        },
+		        {
+          "id": "nanite_core_2",
+          "fg": 23144
+        },
+				        {
+          "id": "nanite_core_3",
+          "fg": 23145
+        },
+		        {
+          "id": "nanite_core_4",
+          "fg": 23146
+        },
+		  {
+          "id": "nanite_guide",
+          "fg": 23147
+        },
+				  {
+          "id": "nano_storage",
+          "fg": 23148
+        },
+				{
+          "id": "overlay_worn_nano_storage",
+          "fg": 23149,
+          "rotates": false
+        },
+		{
+          "id": "nanosuit",
+          "fg": 23150
+        },
+						{
+          "id": "overlay_worn_nanosuit",
+          "fg": 23151,
+          "rotates": false
+        },
+				{
+          "id": "nano_container",
+          "fg": 23152
+        },
+						{
+          "id": "overlay_worn_nano_container",
+          "fg": 23153,
+          "rotates": false
+        },
+						{
+          "id": "nano_shredder",
+          "fg": 23154
+        },
+						{
+          "id": "overlay_wielded_nano_shredder",
+          "fg": 23155,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
