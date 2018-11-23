@@ -5651,6 +5651,11 @@
           "fg": 727,
           "rotates": false
         },
+		        {
+          "id": "overlay_worn_optical_cloak_on",
+          "fg": 7276,
+          "rotates": false
+        },
         {
           "id": "overlay_worn_thong",
           "fg": 728,
@@ -16619,7 +16624,7 @@
         {
           "id": "explosion",
           "bg": 972,
-          "rotates": true,
+          "rotates": false,
           "multitile": true,
           "additional_tiles": [
             {
@@ -16657,75 +16662,75 @@
         {
           "id": "explosion_medium",
           "bg": 972,
-          "rotates": true,
+          "rotates": false,
           "multitile": true,
           "additional_tiles": [
             {
               "id": "unconnected",
-              "fg": 23113,
+              "fg": 23156,
               "bg": 972
             },
             {
               "id": "center",
-              "fg": 23113,
+              "fg": 23156,
               "bg": 972
             },
             {
               "id": "corner",
-              "fg": 23113,
+              "fg": 23156,
               "bg": 972
             },
             {
               "id": "edge",
-              "fg": 23113,
+              "fg": 23156,
               "bg": 972
             },
             {
               "id": "t_connection",
-              "fg": 23113,
+              "fg": 23156,
               "bg": 972
             },
             {
               "id": "end_piece",
-              "fg": 23113,
+              "fg": 23156,
               "bg": 972
             }
           ]
         },
         {
           "id": "explosion_weak",
-          "bg": 23113,
-          "rotates": false,
+          "bg": 23157,
+          "rotates": true,
           "multitile": true,
           "additional_tiles": [
             {
               "id": "unconnected",
-              "fg": 23113,
+              "fg": 23157,
               "bg": 972
             },
             {
               "id": "center",
-              "fg": 23113,
+              "fg": 23157,
               "bg": 972
             },
             {
               "id": "corner",
-              "fg": 23113,
+              "fg": 23157,
               "bg": 972
             },
             {
               "id": "edge",
-              "fg": 23113,
+              "fg": 23157,
               "bg": 972
             },
             {
               "id": "t_connection",
-              "fg": 23113,
+              "fg": 23157,
               "bg": 972
             },
             {
               "id": "end_piece",
-              "fg": 23113,
+              "fg": 23157,
               "bg": 972
             }
           ]
@@ -27900,6 +27905,10 @@
         },
 						{
           "id": "spell_daylight_on",
+          "bg": 4306
+        },
+								{
+          "id": ["spell_dampening", "spell_dampening_on", "spell_frostarmor", "spell_frostarmor_on", "spell_shadowsnakes", "spell_shadowsnakes_on", "spell_summonfiend", "spell_summonfiend_on", "spell_summonjabberwock", "spell_summonjabberwock_on", "spell_summonwyrm", "spell_summonwyrm_on", "spell_summonyugg", "spell_summonyugg_on"],
           "bg": 4306
         },
 		{
@@ -56272,6 +56281,65 @@
           "fg": 23155,
           "rotates": false
         },
+		{
+          "id": "draconic_heart",
+          "fg": 23158
+        },
+				{
+          "id": "draconic_heart_mutator",
+          "fg": 23159
+        },
+						{
+          "id": "essence_pure",
+          "fg": 23160
+        },
+				{
+          "id": "meteoric_talisman_on",
+          "fg": 23161,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_meteoric_talisman_on",
+          "fg": 23162,
+          "rotates": false
+        },	
+		{
+          "id": "atomic_flamethrower",
+          "fg": 23163,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_atomic_flamethrower",
+          "fg": 23164,
+          "rotates": false
+        },
+				{
+          "id": "atomic_earthquake_generator",
+          "fg": 23165,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_atomic_earthquake_generator",
+          "fg": 23166,
+          "rotates": false
+        },
+						{
+          "id": "atomic_entity_scanner",
+          "fg": 23167,
+          "rotates": false
+        },	
+								{
+          "id": "t_hidden_door_c",
+          "fg": 23168,
+		            "bg": 987,
+          "rotates": false
+        },	
+										{
+          "id": "t_hidden_door_o",
+          "fg": 23169,
+		            "bg": 987,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
