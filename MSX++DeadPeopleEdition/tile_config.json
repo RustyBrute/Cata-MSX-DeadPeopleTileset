@@ -37482,59 +37482,73 @@
         {
           "id": "mon_zombie_fiend_shocker",
           "fg": 2712,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_gasbag_pk",
           "fg": 2716,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_hollow_pk",
           "fg": 2723,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_hulk_pk",
           "fg": 2725,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_lord",
           "fg": 2728,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_master_pk",
-          "fg": 2731
+          "fg": 2731,
+		  "bg": 967,
+		   "rotates": false
         },
         {
           "id": "mon_zombie_necro_pk",
-          "fg": 2733
+          "fg": 2733,
+		  		  "bg": 967,
+		   "rotates": false
         },
         {
           "id": "mon_zombie_pk",
           "fg": 2735,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_radbag",
           "fg": 2737,
+		  "bg": 967,
           "rotates": false
         },        
         {
           "id": "mon_zombie_runner_pk",
           "fg": 2741,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_scales",
           "fg": 2742,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_scorched_master",
           "fg": 2744,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37545,11 +37559,13 @@
         {
           "id": "mon_zombie_scorched_pk",
           "fg": 2746,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_scorched_shocker",
           "fg": 2747,
+		  "bg": 967,
           "rotates": false
         },
         {
