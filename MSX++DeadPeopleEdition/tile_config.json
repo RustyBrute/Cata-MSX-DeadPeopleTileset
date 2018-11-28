@@ -15119,7 +15119,7 @@
         {
           "id": "mon_centipede_giant",
           "fg": 2369,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
