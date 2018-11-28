@@ -21934,7 +21934,7 @@
           "rotates": false
         },
         {
-          "id": "bio_shock",
+          "id": ["bio_shock", "bio_shock_absorber"],
           "fg": 1016,
           "rotates": false
         },
@@ -23454,19 +23454,15 @@
         },
         {
           "id": "lasagne",
-          "fg": 1246
+          "fg": 1250
         },
         {
           "id": "lasagne_cooked",
-          "fg": 1246
+          "fg": 1247
         },
         {
           "id": "lasagne_raw",
           "fg": 1247
-        },
-        {
-          "id": "luigilasagne",
-          "fg": 1250
         },
         {
           "id": "jar_fish_canned",
@@ -40477,10 +40473,6 @@
           "rotates": false
         },
         {
-          "id": "multitool",
-          "fg": 3710
-        },
-        {
           "id": "carding_paddles",
           "fg": 3715
         },
@@ -51809,32 +51801,110 @@
           "additional_tiles": [            
 		    {
               "fg": 17540,
-		      
+		                    "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "center"
             },
 			{
               "fg": [ 17541, 17542, 17543, 17544 ],
-			  
+			                "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "corner"
             },            
 			{
               "fg": [ 17545, 17546, 17547, 17548],
-		      
+		                    "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "t_connection"
             },
             {
               "fg": [ 17549, 17550],
-                
+                              "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "edge"
             },
             {
               "fg": [ 17551, 17552, 17553, 17554],
-              
+                            "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "end_piece"
             },
             {
               "fg": 17555,
-			  
+			                "bg": [
+            { "weight":40, "sprite":1012},
+            { "weight":30, "sprite":4833},
+            { "weight":30, "sprite":4834},
+            { "weight":30, "sprite":4835},
+            { "weight":1, "sprite":4836},
+            { "weight":1, "sprite":4837},
+            { "weight":1, "sprite":4838},
+            { "weight":1, "sprite":4839},
+            { "weight":1, "sprite":4840},
+            { "weight":1, "sprite":4841},
+            { "weight":1, "sprite":4842},
+            { "weight":1, "sprite":4843}
+            ],
               "id": "unconnected"
             }
           ],
@@ -56340,6 +56410,306 @@
 		            "bg": 987,
           "rotates": false
         },	
+		        {
+          "id": "multitool",
+          "fg": 23170
+        },
+				        {
+          "id": "programming_laptop",
+          "fg": 23171
+        },		     
+		{
+          "id": "3d_resin",
+          "fg": 23172
+        },
+		{
+          "id": "3d_resin_metal",
+          "fg": 23173
+        },		       
+		{
+          "id": "3d_resin_electronic",
+          "fg": 23174
+        },
+		{
+          "id": "metal_nanopowder",
+          "fg": 23175
+        },		      
+		{
+          "id": "nanofactory_exp",
+          "fg": 23176
+        },
+				        {
+          "id": "nanofactory_1",
+          "fg": 23177
+        },		     
+		{
+          "id": "nanofactory_2",
+          "fg": 23178
+        },
+		{
+          "id": "nano_ammo_fab",
+          "fg": 23179
+        },		       
+		{
+          "id": "nanite_power_cell",
+          "fg": 23180
+        },
+		{
+          "id": "nano_programmer_1",
+          "fg": 23181
+        },
+				{
+          "id": "nano_programmer_2",
+          "fg": 23181
+        },
+				{
+          "id": "nanofactory_3",
+          "fg": 23182
+        },
+				{
+          "id": "nanofactory_4",
+          "fg": 23182
+        },
+				{
+          "id": "nano_blade",
+          "fg": 23183
+        },		       
+		{
+          "id": "overlay_wielded_nano_blade",
+          "fg": 23184
+        },		
+		{
+          "id": "nano_dagger",
+          "fg": 23185
+        },		       
+		{
+          "id": "overlay_wielded_nano_dagger",
+          "fg": 23186
+        },
+				{
+          "id": "nano_spear",
+          "fg": 23187
+        },		       
+		{
+          "id": "overlay_wielded_nano_spear",
+          "fg": 23188
+        },
+		{
+          "id": "mre_accessory",
+          "fg": 23189
+        },
+				 {
+          "id": "mre_asianbeef",
+          "fg": 23190
+        },
+						 {
+          "id": "mre_asianbeef_box",
+          "fg": 23191
+        },
+						 {
+          "id": "mre_bbqbeef",
+          "fg": 23192
+        },
+						 {
+          "id": "mre_bbqbeef_box",
+          "fg": 23193
+        },
+								 {
+          "id": "mre_beefstew",
+          "fg": 23194
+        },
+						 {
+          "id": "mre_beefstew_box",
+          "fg": 23195
+        },
+		        {
+          "id": "luigilasagne",
+          "fg": 23196
+        },		
+		{
+          "id": "lung",
+          "fg": 23197
+        },
+						 {
+          "id": "lung_cooked",
+          "fg": 23198
+        },
+						 {
+          "id": "kidney",
+          "fg": 23199
+        },
+						 {
+          "id": "kidney_cooked",
+          "fg": 23200
+        },
+								 {
+          "id": "liver",
+          "fg": 23201
+        },
+						 {
+          "id": "liver_cooked",
+          "fg": 23202
+        },
+		        {
+          "id": "brain",
+          "fg": 23203
+        },  
+		{
+          "id": "brain_cooked",
+          "fg": 23204
+        },
+				        {
+          "id": "sweetbread",
+          "fg": 23205
+        },  
+		{
+          "id": "sweetbread_cooked",
+          "fg": 23206
+        },
+						        {
+          "id": "mre_beeftaco",
+          "fg": 23207
+        },  
+		{
+          "id": "mre_beeftaco_box",
+          "fg": 23208
+        },
+								        {
+          "id": "mre_cheesetort",
+          "fg": 23209
+        },  
+		{
+          "id": "mre_cheesetort_box",
+          "fg": 23210
+        },
+										        {
+          "id": "mre_chickenburritobowl",
+          "fg": 23211
+        },  
+		{
+          "id": "mre_chickenburritobowl_box",
+          "fg": 23212
+        },
+										        {
+          "id": "mre_chickennoodle",
+          "fg": 23213
+        },  
+		{
+          "id": "mre_chickennoodle_box",
+          "fg": 23214
+        },						     
+		{
+          "id": "mre_chickenpesto",
+          "fg": 23215
+        },  
+		{
+          "id": "mre_chickenpesto_box",
+          "fg": 23216
+        },
+		{
+          "id": "mre_chilibeans",
+          "fg": 23217
+        },  
+		{
+          "id": "mre_chilibeans_box",
+          "fg": 23218
+        },
+		{
+          "id": "mre_chilimac",
+          "fg": 23219
+        },  
+		{
+          "id": "mre_chilimac_box",
+          "fg": 23220
+        },
+		{
+          "id": "mre_dessert",
+          "fg": 23221
+        },  			
+		{
+          "id": "mre_hashbrownbacon",
+          "fg": 23222
+        },  
+		{
+          "id": "mre_hashbrownbacon_box",
+          "fg": 23223
+        },
+								          {
+          "id": "mre_hotdog",
+          "fg": 23224
+        },
+										        {
+          "id": "mre_lemontuna",
+          "fg": 23225
+        },  
+		{
+          "id": "mre_lemontuna_box",
+          "fg": 23226
+        },
+										        {
+          "id": "mre_macaronimarinara",
+          "fg": 23227
+        },  
+		{
+          "id": "mre_macaronimarinara_box",
+          "fg": 23228
+        },						     
+		{
+          "id": "mre_maplesausage",
+          "fg": 23229
+        },  
+		{
+          "id": "mre_maplesausage_box",
+          "fg": 23230
+        },
+		{
+          "id": "mre_meatball",
+          "fg": 23231
+        },  
+		{
+          "id": "mre_meatball_box",
+          "fg": 23232
+        },
+		{
+          "id": "mre_mexicanchickenstew",
+          "fg": 23233
+        },  
+		{
+          "id": "mre_mexicanchickenstew_box",
+          "fg": 23234
+        },										
+        {
+          "id": "mre_mushroomfettuccine",
+          "fg": 23235
+        },  
+		{
+          "id": "mre_mushroomfettuccine_box",
+          "fg": 23236
+        },
+										        {
+          "id": "mre_pepperjackbeef",
+          "fg": 23237
+        },  
+		{
+          "id": "mre_pepperjackbeef_box",
+          "fg": 23238
+        },						     
+		{
+          "id": "mre_southwestbeef",
+          "fg": 23239
+        },  
+		{
+          "id": "mre_southwestbeef_box",
+          "fg": 23240
+        },
+		{
+          "id": "mre_spaghetti",
+          "fg": 23241
+        },  
+		{
+          "id": "mre_spaghetti_box",
+          "fg": 23242
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
