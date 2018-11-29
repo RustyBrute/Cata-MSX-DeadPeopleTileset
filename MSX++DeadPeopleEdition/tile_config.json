@@ -49268,7 +49268,14 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 17044,
+             "fg": [
+			{ "weight":1, "sprite":27673},
+            { "weight":1, "sprite":17044},
+            { "weight":1, "sprite":27670},
+			{ "weight":1, "sprite":27671},
+			{ "weight":1, "sprite":27672},			
+			{ "weight":1, "sprite":27672}
+			],
 		      "bg": 16884,
               "id": "center"
             },
