@@ -2827,10 +2827,6 @@
           "rotates": false
         },
         {
-          "id": "glasses_bifocal",
-          "fg": 375
-        },
-        {
           "id": "glasses_eye",
           "fg": 375
         },
@@ -2839,10 +2835,6 @@
           "fg": 376,
           "bg": 957,
           "rotates": false
-        },
-        {
-          "id": "survivor_goggles",
-          "fg": 376
         },
         {
           "id": "gloves_fingerless",
@@ -4645,11 +4637,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_glasses_bifocal",
-          "fg": 606,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_glasses_reading",
           "fg": 606,
           "rotates": false
@@ -4830,32 +4817,12 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_goggles_ski",
-          "fg": 616,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_survivor_goggles",
-          "fg": 616,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_glasses_bal",
-          "fg": 616,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_goggles_swim",
           "fg": 616,
           "rotates": false
         },
         {
           "id": "overlay_worn_goggles_welding",
-          "fg": 617,
-          "rotates": false
-        },
-		        {
-          "id": "overlay_worn_eclipse_glasses",
           "fg": 617,
           "rotates": false
         },
@@ -41106,18 +41073,8 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_goggles_nv_clairvoyance",
-          "fg": 3864,
-          "rotates": false
-        },
-		{
-          "id": "goggles_nv_clairvoyance",
-          "fg": 3864,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_goggles_nv_on",
-          "fg": 3865,
+          "fg": 3864,
           "rotates": false
         },
         {
@@ -56733,6 +56690,50 @@
           "id": "mre_spaghetti_box",
           "fg": 23242
         },
+		        {
+          "id": "overlay_worn_goggles_ski",
+          "fg": 23243,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_glasses_bal",
+          "fg": 23244,
+          "rotates": false
+        },
+				        {
+          "id": "survivor_goggles",
+          "fg": 23245
+        },
+		        {
+          "id": "overlay_worn_survivor_goggles",
+          "fg": 23246,
+          "rotates": false
+        },
+		        {
+          "id": "glasses_bifocal",
+          "fg": 23247
+        },
+        {
+          "id": "overlay_worn_glasses_bifocal",
+          "fg": 23248,
+          "rotates": false
+        },
+				        {
+          "id": "overlay_worn_eclipse_glasses",
+          "fg": 23249,
+          "rotates": false
+        },
+				{
+          "id": "goggles_nv_clairvoyance",
+          "fg": 23250,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_goggles_nv_clairvoyance",
+          "fg": 23251,
+          "rotates": false
+        },
+
 		{
           "id": "atlatl",
           "fg": 1986,
