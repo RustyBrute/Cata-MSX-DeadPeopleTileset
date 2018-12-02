@@ -56733,7 +56733,56 @@
           "fg": 23251,
           "rotates": false
         },
-
+				{
+          "id": "canned_liver",
+          "fg": 23252,
+          "rotates": false
+        },
+						{
+          "id": "deviled_kidney",
+          "fg": 23253,
+          "rotates": false
+        },
+		{
+          "id": "foie_gras",
+          "fg": 23254,
+          "rotates": false
+        },
+				{
+          "id": "fried_brain",
+          "fg": 23255,
+          "rotates": false
+        },
+						{
+          "id": "fried_livers",
+          "fg": 23256,
+          "rotates": false
+        },
+								{
+          "id": "fried_tripe",
+          "fg": 23257,
+          "rotates": false
+        },
+										{
+          "id": "grilled_sweetbread",
+          "fg": 23258,
+          "rotates": false
+        },	
+		{
+          "id": "humble_pie",
+          "fg": 23259,
+          "rotates": false
+        },		
+		{
+          "id": "leverpostej",
+          "fg": 23260,
+          "rotates": false
+        },
+				{
+          "id": "liver_onion",
+          "fg": 23261,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
