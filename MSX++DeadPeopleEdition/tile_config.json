@@ -12154,7 +12154,7 @@
         },
         {
           "id": ["metal_tank_little", "vp_tank_little"],
-          "fg": 1421,
+          "fg": 1420,
           "bg": 957
         },
         {
@@ -56781,6 +56781,91 @@
 				{
           "id": "liver_onion",
           "fg": 23261,
+          "rotates": false
+        },
+						{
+          "id": "metal_tank",
+          "fg": 23262,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_metal_tank",
+          "fg": 23263,
+          "rotates": false
+        },
+								{
+          "id": "bio_nanite_spawned",
+          "fg": 23264,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bio_nanite_spawned",
+          "fg": 23265,
+          "rotates": false
+        },					
+		{
+          "id": "bio_nanite_spawning",
+          "fg": 23266,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bio_nanite_spawning",
+          "fg": 23267,
+          "rotates": false
+        },
+				{
+          "id": "bio_nanites",
+          "fg": 23268,
+          "rotates": false
+        },
+		{
+          "id": "xl_bio_nanites",
+          "fg": 23269,
+          "rotates": false
+        },
+						{
+          "id": "nanite_cluster",
+          "fg": 23270,
+          "rotates": false
+        },
+		{
+          "id": "xl_nanite_cluster",
+          "fg": 23271,
+          "rotates": false
+        },
+				{
+          "id": "xl_nanite_ai",
+          "fg": 23272,
+          "rotates": false
+        },
+						{
+          "id": "nano_shield",
+          "fg": 23273,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_nano_shield",
+          "fg": 23274,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_nano_shield",
+          "fg": 23274,
+          "rotates": false
+        },
+								{
+          "id": "nano_shield_active",
+          "fg": 23275,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_worn_nano_shield_active",
+          "fg": 23276,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_nano_shield_active",
+          "fg": 23276,
           "rotates": false
         },
 		{
