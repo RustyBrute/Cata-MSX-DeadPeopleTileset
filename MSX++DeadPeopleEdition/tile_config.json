@@ -56868,6 +56868,101 @@
           "fg": 23276,
           "rotates": false
         },
+						{
+          "id": "nanite_blade",
+          "fg": 23277,
+          "rotates": false
+        },
+								{
+          "id": "nanite_wire",
+          "fg": 23278,
+          "rotates": false
+        },
+										{
+          "id": "nanite_deathcloud",
+          "fg": 23279,
+          "rotates": false
+        },
+												{
+          "id": "nano_crawler",
+          "fg": 23280,
+          "rotates": false
+        },
+														{
+          "id": "nanotech_generator",
+          "fg": 23281,
+          "rotates": false
+        },
+																{
+          "id": "nanotech_battery",
+          "fg": 23282,
+          "rotates": false
+        },
+																		{
+          "id": "tr_practice_target",
+          "fg": 23283,
+          "rotates": false
+        },
+																				{
+          "id": "note_soa_mission",
+          "fg": 23284,
+          "rotates": false
+        },
+																				{
+          "id": "note_starry_missive",
+          "fg": 23285,
+          "rotates": false
+        },
+																						{
+          "id": "evil_invitation",
+          "fg": 23286,
+          "rotates": false
+        },
+										{
+          "id": "flesh_knife",
+          "fg": 23287,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_flesh_knife",
+          "fg": 23288,
+          "rotates": false
+        },	
+												{
+          "id": "flesh_blade",
+          "fg": 23289,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_flesh_blade",
+          "fg": 23290,
+          "rotates": false
+        },	
+														{
+          "id": "flesh_blade_on",
+          "fg": 23291,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_flesh_blade_on",
+          "fg": 23292,
+          "rotates": false
+        },
+		{
+          "id": "flesh_weapon_kit",
+          "fg": 23293,
+          "rotates": false
+        },		
+		{
+          "id": "flesh_pistol",
+          "fg": 23294,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_flesh_pistol",
+          "fg": 23295,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
