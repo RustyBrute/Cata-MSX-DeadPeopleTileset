@@ -49003,21 +49003,7 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": [
-            { "weight":300, "sprite":992},
-			{ "weight":300, "sprite":3080},
-			{ "weight":300, "sprite":3081},
-			{ "weight":300, "sprite":3082},
-			{ "weight":300, "sprite":3083},
-			{ "weight":300, "sprite":3084},
-			{ "weight":300, "sprite":3085},
-			{ "weight":10, "sprite":23303},
-			{ "weight":10, "sprite":23304},
-			{ "weight":10, "sprite":23305},
-			{ "weight":10, "sprite":23306},
-			{ "weight":10, "sprite":23307},
-			{ "weight":10, "sprite":23308}
-            ],
+              "fg": 16884,
 			  "bg": 1012,
               "id": "center"
             },
