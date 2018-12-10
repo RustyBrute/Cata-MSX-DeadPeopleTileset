@@ -14874,32 +14874,32 @@
             {
               "id": "center",
               "fg": 4540,
-              "bg": 974
+              "bg": 992
             },
             {
               "id": "corner",
               "fg": 4541,
-              "bg": 974
+              "bg": 992
             },
             {
               "id": "edge",
               "fg": 4542,
-              "bg": 974
+              "bg": 992
             },
             {
               "id": "t_connection",
               "fg": 4544,
-              "bg": 974
+              "bg": 992
             },
             {
               "id": "end_piece",
               "fg": 4543,
-              "bg": 974
+              "bg": 992
             },
             {
               "id": "unconnected",
               "fg": 4545,
-              "bg": 974
+              "bg": 992
             }
           ]
         },
@@ -14924,7 +14924,7 @@
 		{
           "id": "t_shrub_fungal_season_winter",
           "fg": 3244,
-          "bg": 4545,
+          "bg": 3493,
           "rotates": false
         },
         {
@@ -14948,7 +14948,7 @@
 		        {
           "id": "t_tree_fungal_young_season_winter",
           "fg": 3296,
-          "bg": 4540,
+          "bg": 3493,
           "rotates": false
         },
         {
@@ -14960,7 +14960,7 @@
 		        {
           "id": "t_marloss_tree_season_winter",
           "fg": 3119,
-          "bg": 4545,
+          "bg": 3493,
           "rotates": false
         },
         {
@@ -18703,13 +18703,19 @@
         {
           "id": "t_dirt_season_winter",
 		  "fg": [
-            { "weight":3, "sprite":992},
-			{ "weight":3, "sprite":3080},
-			{ "weight":3, "sprite":3081},
-			{ "weight":3, "sprite":3082},
-			{ "weight":3, "sprite":3083},
-			{ "weight":3, "sprite":3084},
-			{ "weight":3, "sprite":3085}
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":1, "sprite":23303},
+			{ "weight":1, "sprite":23304},
+			{ "weight":1, "sprite":23305},
+			{ "weight":1, "sprite":23306},
+			{ "weight":1, "sprite":23307},
+			{ "weight":1, "sprite":23308}
             ]
         },
         {
@@ -18814,27 +18820,111 @@
           "additional_tiles": [
             {
               "id": "center",
-              "fg": 3080
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ]
             },
             {
               "id": "corner",
-              "fg": 3081
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ]
             },
             {
               "id": "edge",
-              "fg": 3082
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ]
             },
             {
               "id": "end_piece",
-              "fg": 3083
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ]
             },
             {
               "id": "t_connection",
-              "fg": 3084
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ]
             },
             {
               "id": "unconnected",
-              "fg": 3085
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ]
             }
           ]
         },
@@ -37830,11 +37920,13 @@
         },
 		{
           "id": "t_clay_season_winter",
-          "fg": 2997
+          "fg": 2997,
+		  "bg": 992
         },
         {
           "id": "t_claymound_season_winter",
-          "fg": 2997
+          "fg": 2997,
+		  "bg": 992
         },
         {
           "id": "!t_column",
@@ -38513,7 +38605,13 @@
         {
           "id": "t_sandmound",
           "fg": 3218,
+		  "bg": 1012,
           "rotates": false
+        },
+		        {
+          "id": "t_sandmound_season_winter",
+          "fg": 3021,
+          "bg": 992
         },
         {
           "id": "t_wall_w",
@@ -48905,7 +49003,21 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 16884,
+              "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ],
 			  "bg": 1012,
               "id": "center"
             },
@@ -56961,6 +57073,41 @@
 		{
           "id": "overlay_wielded_flesh_pistol",
           "fg": 23295,
+          "rotates": false
+        },
+				{
+          "id": "sourdough_bread",
+          "fg": 23296,
+          "rotates": false
+        },
+						{
+          "id": "sourdough_young",
+          "fg": 23297,
+          "rotates": false
+        },
+		{
+          "id": "sourdough_starter",
+          "fg": 23298,
+          "rotates": false
+        },	
+		{
+          "id": "sourdough_split",
+          "fg": 23299,
+          "rotates": false
+        },
+				{
+          "id": "ether",
+          "fg": 23300,
+          "rotates": false
+        },
+						{
+          "id": "mag_porn",
+          "fg": 23301,
+          "rotates": false
+        },
+								{
+          "id": "trailmap",
+          "fg": 23302,
           "rotates": false
         },
 		{
