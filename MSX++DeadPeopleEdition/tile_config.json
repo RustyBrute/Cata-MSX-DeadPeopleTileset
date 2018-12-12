@@ -14915,6 +14915,12 @@
           "bg": 966,
           "rotates": false
         },
+		{
+          "id": "t_marloss_season_winter",
+          "fg": 3118,
+          "bg": 3493,
+          "rotates": false
+        },
         {
           "id": "t_shrub_fungal",
           "fg": 3244,
