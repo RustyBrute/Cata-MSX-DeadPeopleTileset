@@ -25838,38 +25838,6 @@
           "rotates": false
         },
         {
-          "id": "f_wreckage",
-          "fg": 1602,
-          "rotates": false,
-		  "multitile": true,
-          "additional_tiles": [
-            {
-              "id": "center",
-              "fg": 4579
-            },
-            {
-              "id": "corner",
-              "fg": 4580
-            },
-            {
-              "id": "edge",
-              "fg": 4581
-            },
-            {
-              "id": "end_piece",
-              "fg": 4581
-            },
-            {
-              "id": "t_connection",
-              "fg": 4582
-            },
-            {
-              "id": "unconnected",
-              "fg": [{ "weight":1, "sprite":4584}, { "weight":1, "sprite":4585}]
-            }
-          ]
-        },
-        {
           "id": "120mm_casing",
           "fg": 1603,
           "rotates": false
@@ -51994,7 +51962,39 @@
           ],
 		  
           "rotates": false		  
-        }
+        },
+		{
+          "id": "f_wreckage",
+          "fg": 17556,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17556
+            },
+            {
+              "id": "corner",
+              "fg": [17557, 17558, 17559, 17560]
+            },
+            {
+              "id": "t_connection",
+              "fg": [17561, 17562, 17563, 17564]
+            },
+            {
+              "id": "edge",
+              "fg": [17565, 17566]
+            },
+            {
+              "id": "end_piece",
+              "fg": [17567, 17568, 17569, 17570]
+            },
+            {
+              "id": "unconnected",
+              "fg": 17571
+            }
+			],
+			"rotates": false
+			}
   ]
   },
 {
