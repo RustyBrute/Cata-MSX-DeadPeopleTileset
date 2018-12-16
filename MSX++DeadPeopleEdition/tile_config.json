@@ -57117,6 +57117,41 @@
           "fg": 23310,
           "rotates": false
         },
+																{
+          "id": "corpse_mon_zombie",
+          "fg": 23311,
+          "rotates": false
+        },
+																		{
+          "id": "corpse_mon_mi_go",
+          "fg": 23312,
+          "rotates": false
+        },   
+		{
+          "id": "corpse_mon_fungaloid",
+          "fg": 23313,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_fat",
+          "fg": 23314,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_zombie_tough",
+          "fg": 23315,
+          "rotates": false
+        },
+								{
+          "id": "corpse_mon_zombie_child",
+          "fg": 23316,
+          "rotates": false
+        },
+										{
+          "id": "corpse_mon_sewer_rat",
+          "fg": 23317,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
