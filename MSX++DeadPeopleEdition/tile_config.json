@@ -31033,7 +31033,7 @@
 			{ "weight":10, "sprite":4846},
 			{ "weight":10, "sprite":4847}
 			],
-          "rotates": false
+          "rotates": true
         },				
 		{
           "id": "t_pavement",
@@ -57150,6 +57150,111 @@
 										{
           "id": "corpse_mon_sewer_rat",
           "fg": 23317,
+          "rotates": false
+        },
+												{
+          "id": "corpse_mon_zombie_acidic",
+          "fg": 23318,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_shady",
+          "fg": 23319,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_scientist",
+          "fg": 23320,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_zombie_grabber",
+          "fg": 23321,
+          "rotates": false
+        },
+								{
+          "id": "corpse_mon_zombie_grappler",
+          "fg": 23322,
+          "rotates": false
+        },
+										{
+          "id": "corpse_mon_zombie_rot",
+          "fg": 23323,
+          "rotates": false
+        },
+												{
+          "id": "corpse_mon_zombie_shrieker",
+          "fg": 23324,
+          "rotates": false
+        },
+														{
+          "id": "corpse_mon_zombie_crawler",
+          "fg": 23325,
+          "rotates": false
+        },
+																{
+          "id": "corpse_mon_zombie_hazmat",
+          "fg": 23326,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_fireman",
+          "fg": 23327,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_dog_skeleton",
+          "fg": 23328,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_zombie_technician",
+          "fg": 23329,
+          "rotates": false
+        },
+										{
+          "id": "corpse_mon_zombie_swimmer",
+          "fg": 23330,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_brute",
+          "fg": 23331,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_runner",
+          "fg": 23332,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_zombie_anklebiter",
+          "fg": 23333,
+          "rotates": false
+        },
+								{
+          "id": "corpse_mon_skeleton",
+          "fg": 23334,
+          "rotates": false
+        },
+										{
+          "id": "corpse_mon_zombie_spitter",
+          "fg": 23335,
+          "rotates": false
+        },
+												{
+          "id": "corpse_mon_zombie_soldier",
+          "fg": 23336,
+          "rotates": false
+        },
+														{
+          "id": "corpse_mon_zombie_cop",
+          "fg": 23337,
+          "rotates": false
+        },
+																{
+          "id": "corpse_mon_zombie_electric",
+          "fg": 23338,
           "rotates": false
         },
 		{
