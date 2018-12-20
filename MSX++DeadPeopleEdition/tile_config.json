@@ -57111,7 +57111,31 @@
           "id": "t_rock_floor_no_roof",
           "fg": 23353,
           "rotates": false
+        },		
+		{
+          "id": "porkpie",
+          "fg": 23354,
+          "rotates": false
+        },     
+		{
+          "id": "overlay_worn_hat_knit",
+          "fg": 23355,
+          "rotates": false
         },
+		{
+          "id": "vp_travois",
+          "fg": 23356,
+          "bg": 0,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 3987,
+              "bg": 23356
+            }
+          ]
+        },       
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -58471,7 +58495,32 @@
           "id": "overlay_worn_hat_chef",
           "fg": 33165,
           "rotates": false
-        }	
+        },   
+		{
+          "id": "overlay_worn_bowhat",
+          "fg": 33166,
+          "rotates": false
+        },   
+		{
+          "id": "overlay_worn_10gal_hat",
+          "fg": 33167,
+          "rotates": false
+        },   
+		{
+          "id": "overlay_worn_porkpie",
+          "fg": 33168,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_tinfoil_hat",
+          "fg": 33169,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_firehelmet",
+          "fg": 33170,
+          "rotates": false
+        }
 	]
 	}
   ]
