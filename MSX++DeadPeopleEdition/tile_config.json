@@ -15092,7 +15092,7 @@
         {
           "id": "mon_centipede_giant",
           "fg": 2369,
-          "bg": 0,
+          "bg": 967,
           "rotates": false
         },
         {
@@ -15152,7 +15152,7 @@
         {
           "id": "mon_creeper_hub",
           "fg": 2388,
-          "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -15494,7 +15494,6 @@
         {
           "id": "mon_sewer_fish",
           "fg": 2580,
-          "bg": 967,
           "rotates": false
         },
         {
@@ -16302,7 +16301,7 @@
         {
           "id": "mon_zombie_shady",
           "fg": 2749,
-          "bg": 0,
+          "bg": 967,
           "rotates": false
         },
         {
@@ -16350,7 +16349,7 @@
         {
           "id": "mon_spider_cellar_giant",
           "fg": 2600,
-          "bg": 0,
+          "bg": 967,
           "rotates": false
         },
         {
@@ -29482,68 +29481,234 @@
             }
           ]	  
         },
-			{ "id": ["overlay_worn_survivor_maid_dress", "maid_dress_french", "overlay_worn_jokyu_fuku"], "fg": 698, "rotates": false }, 
-	{ "id": ["vorpal_kitchen_knife", "vorpal_kitchen_knife_on"], "fg": 3591, "rotates": false },
-	{ "id": ["overlay_wielded_vorpal_kitchen_knife", "overlay_wielded_vorpal_kitchen_knife_on" ], "fg": 3648, "rotates": false },
-	{ "id": ["slaying_pan", "slaying_pan_on" ], "fg": 1874, "rotates": false },
-	{ "id": ["overlay_wielded_slaying_pan", "overlay_wielded_slaying_pan_on" ], "fg": 1860, "rotates": false },
-	{ "id": "brutal_broom", "fg": 1693, "rotates": false },
-	{ "id": "overlay_wielded_brutal_broom", "fg": 1834, "rotates": false },
-	{ "id": "spiked_whip", "fg": 1694, "rotates": false },
-	{ "id": "overlay_wielded_spiked_whip", "fg": 1835, "rotates": false },
-	{ "id": "shikomi_kasa", "fg": 1964, "rotates": false },
-	{ "id": "overlay_wielded_shikomi_kasa", "fg": 1870, "rotates": false },
-	{ "id": "shikomi_kasa_draw", "fg": 3583, "rotates": false },
-	{ "id": "overlay_wielded_shikomi_kasa_draw", "fg": 3658, "rotates": false },
-	{ "id": "shikomi_stick", "fg": 1697, "rotates": false },
-	{ "id": "overlay_wielded_shikomi_stick", "fg": 1838, "rotates": false },
-	{ "id": ["shikomi_stick_draw", "destruction_otama", "otama_act"], "fg": 3583, "rotates": false },
-	{ "id": ["overlay_wielded_shikomi_stick_draw", "overlay_wielded_destruction_otama", "overlay_wielded_otama_act"], "fg": 3658, "rotates": false },
-	{ "id": "maid_claw", "fg": 1016, "rotates": false },
-	{ "id": "overlay_wielded_maid_claw", "fg": 1831, "rotates": false },
-	{ "id": "battle_mop", "fg": 3627, "rotates": false },
-	{ "id": "overlay_wielded_battle_mop", "fg": 3677, "rotates": false },
-	{ "id": "book_shoggoth", "fg": 1039, "rotates": false },
-	{ "id": "leather_cat_tail_biv", "fg": 463, "rotates": false },
-	{ "id": "overlay_worn_leather_cat_tail_biv", "fg": 604, "rotates": false },
-	{ "id": "fur_cat_tail_biv", "fg": 369, "rotates": false },
-	{ "id": "overlay_worn_fur_cat_tail_biv", "fg": 604, "rotates": false },
-	{ "id": "blob_cat_tail_biv", "fg": 463, "rotates": false },
-	{ "id": "overlay_worn_blob_cat_tail_biv", "fg": 604, "rotates": false },	
-	{ "id": "man_carrier", "fg": 910, "rotates": false },
-	{ "id": "overlay_worn_man_carrier", "fg": 794, "rotates": false },
-	{ "id": "meat_shoggoth", "fg": 1258, "rotates": false },
-	{ "id": ["flask_shoggoth", "shoggoth_maid"], "fg": 1738, "rotates": false },
-	{ "id": "flask_shoggoth", "fg": 1738, "rotates": false },
-	{ "id": "maid_master_child", "fg": 2685, "rotates": false },
-	{ "id": ["master_doll", "maid_bell", "master_doll_vibe_off", "master_doll_vibe_on"], "fg": 2685, "rotates": false },
-	{ "id": ["summon_little_maid", "recall_ration"], "fg": 3740, "rotates": false },
-	{ "id": "maid_mess_kit", "fg": 3772, "rotates": false },
-	{ "id": "summon_alchemic_golem", "fg": 1222, "rotates": false },
-	{ "id": "blob_gohan", "fg": 157, "rotates": false },
-	{ "id": ["assassins_throwing_dagger", "makeshift_throwing_knife"], "fg": 239, "rotates": false },
 		{ 
-		"id": ["mon_shoggoth_maid", "mini_shoggoth", "res_shoggoth"],
-		"fg": 4577, 
-		"rotates": false 
+		 "id": ["overlay_worn_survivor_maid_dress", "maid_dress_french", "overlay_worn_jokyu_fuku"], 
+		 "fg": 698, 
+		 "rotates": false 
+		}, 
+	    { 
+		 "id": ["vorpal_kitchen_knife", "vorpal_kitchen_knife_on"], 
+		 "fg": 3591, 
+		 "rotates": false 
+		},
+	    { 
+	     "id": ["overlay_wielded_vorpal_kitchen_knife", "overlay_wielded_vorpal_kitchen_knife_on" ], 
+	     "fg": 3648, 
+		 "rotates": false 
+		},
+	    { 
+	     "id": ["slaying_pan", "slaying_pan_on" ], 
+		 "fg": 1874, 
+		 "rotates": false 
+		},
+	    { 
+	     "id": ["overlay_wielded_slaying_pan", "overlay_wielded_slaying_pan_on" ], 
+	     "fg": 1860, 
+		 "rotates": false 
+		},
+	    { 
+	     "id": "brutal_broom", 
+		 "fg": 1693, 
+		 "rotates": false 
+		},
+	    { 
+	     "id": "overlay_wielded_brutal_broom", 
+	     "fg": 1834, 
+		 "rotates": false 
+	    },
+	    { 
+		 "id": "spiked_whip", 
+		 "fg": 1694, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_wielded_spiked_whip", 
+		 "fg": 1835, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "shikomi_kasa", 
+		 "fg": 1964, 
+		 "rotates": false 
+		},
+	    { 
+ 		 "id": "overlay_wielded_shikomi_kasa", 
+		 "fg": 1870, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "shikomi_kasa_draw", 
+		 "fg": 3583, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_wielded_shikomi_kasa_draw", 
+		 "fg": 3658, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "shikomi_stick", 
+		 "fg": 1697, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_wielded_shikomi_stick", 
+		 "fg": 1838, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["shikomi_stick_draw", "destruction_otama", "otama_act"], 
+		 "fg": 3583, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["overlay_wielded_shikomi_stick_draw", "overlay_wielded_destruction_otama", "overlay_wielded_otama_act"], 
+		 "fg": 3658, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "maid_claw", 
+		 "fg": 1016, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_wielded_maid_claw", 
+		 "fg": 1831, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "battle_mop", 
+		 "fg": 3627, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_wielded_battle_mop", 
+		 "fg": 3677, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "book_shoggoth", 
+		 "fg": 1039, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "leather_cat_tail_biv", 
+		 "fg": 463, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_worn_leather_cat_tail_biv", 
+		 "fg": 604, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "fur_cat_tail_biv", 
+		 "fg": 369, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_worn_fur_cat_tail_biv", 
+		 "fg": 604, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "blob_cat_tail_biv", 
+		 "fg": 463, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_worn_blob_cat_tail_biv", 
+		 "fg": 604, 
+		 "rotates": false 
+		},	
+	    { 
+		 "id": "man_carrier", 
+		 "fg": 910, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "overlay_worn_man_carrier", 
+		 "fg": 794, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "meat_shoggoth", 
+		 "fg": 1258, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["flask_shoggoth", "shoggoth_maid"], 
+		 "fg": 1738, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "flask_shoggoth", 
+		 "fg": 1738, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "maid_master_child", 
+		 "fg": 2685, 
+		 "bg": 967, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["master_doll", "maid_bell", "master_doll_vibe_off", "master_doll_vibe_on"], 
+		 "fg": 2685, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["summon_little_maid", "recall_ration"], 
+		 "fg": 3740, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "maid_mess_kit", 
+		 "fg": 3772, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "summon_alchemic_golem", 
+		 "fg": 1222, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "blob_gohan", 
+		 "fg": 157, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["assassins_throwing_dagger", "makeshift_throwing_knife"], 
+		 "fg": 239, 
+		 "rotates": false 
 		},
 		{ 
-		"id": ["mon_little_maid", "little_maid_human_smoked", "little_maid_human_smoked_fin", "little_maid_fish_smoked_fin", "little_maid_R18", "little_maid_R18_tane", "little_maid_R18_milk", "little_maid_R18_milk2", "little_maid_meat_smoked", "little_maid_meat_smoked_fin", "little_maid_fish_smoked", "mini_little_maid", "res_little_maid"],
-		"fg": 4578, 
-		"rotates": false 
+		 "id": ["mon_shoggoth_maid", "mini_shoggoth", "res_shoggoth"],
+		 "fg": 4577, 
+		 "rotates": false 
 		},
-				{ 
-		"id": "mon_alchemic_golem",
-		"fg": 4571, 
-		"rotates": false 
+		{ 
+		 "id": ["mon_little_maid", "little_maid_human_smoked", "little_maid_human_smoked_fin", "little_maid_fish_smoked_fin", "little_maid_R18", "little_maid_R18_tane", "little_maid_R18_milk", "little_maid_R18_milk2", "little_maid_meat_smoked", "little_maid_meat_smoked_fin", "little_maid_fish_smoked", "mini_little_maid", "res_little_maid"],
+		 "fg": 4578, 
+		 "rotates": false 
 		},
-	{ "id": ["survivor_maid_dress",	"maid_dress_french"],
-	"fg": 4572, 
-	"rotates": false },
-	{ "id": "jokyu_fuku",
-	"fg": 4573, 
-	"rotates": false },
-{
+		{ 
+		 "id": "mon_alchemic_golem",
+		 "fg": 4571, 
+		 "bg": 967,
+		 "rotates": false 
+		},
+	    { 
+		 "id": ["survivor_maid_dress",	"maid_dress_french"],
+	     "fg": 4572, 
+	     "rotates": false 
+		},
+	    { 
+		 "id": "jokyu_fuku",
+	     "fg": 4573, 
+	     "rotates": false 
+		},
+        {
           "id": "t_grass",
           "fg": 4586,
           "bg": 1012,
@@ -29666,66 +29831,79 @@
 		{
           "id": "mon_bandit_looter",
           "fg": 4608,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_m1911",
           "fg": 4609,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_glock",
           "fg": 4610,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_melee",
           "fg": 4611,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_raider",
           "fg": 4612,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_rifle",
           "fg": 4613,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_scrapper",
           "fg": 4614,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_shotgun",
           "fg": 4615,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_smg",
           "fg": 4616,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_alpha",
           "fg": 4617,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_super_psycho",
           "fg": 4618,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_bandit_super_snipe",
           "fg": 4619,
+		  "bg": 967,
           "rotates": false
         },  	
 				{
           "id": "mon_zombie_flamer",
           "fg": 4620,
+		  "bg": 967,
           "rotates": false
         },  	
 		{
@@ -29751,36 +29929,43 @@
 		{
           "id": "mon_skittering_plague",
           "fg": 4625,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_plague_nymph",
           "fg": 4626,
+		  "bg": 967,
           "rotates": false
         },			
 		{
           "id": "mon_plague_vector",
           "fg": 4627,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_triffid_sprig",
           "fg": 4628,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_chicken_chick",
           "fg": 4629,
+		  "bg": 967,
           "rotates": false
         },        
 		{
           "id": "mon_ant_acid_kwama",
           "fg": 4630,
+		  "bg": 967,
           "rotates": false
         },  
-				{
+		{
           "id": "mon_ant_acid_terminal",
           "fg": 4631,
+		  "bg": 967,
           "rotates": false
         },  
 		{
@@ -29793,7 +29978,7 @@
           "fg": 4633,
           "rotates": false
         }, 
-		        {
+		{
           "id": ["mutagen_slime", "iv_mutagen_slime"],
           "fg": 4634,
           "rotates": false
@@ -29813,7 +29998,7 @@
           "fg": 4637,
           "rotates": false
         },
-				{
+		{
           "id": "pickles_ferment",
           "fg": 4638,
           "rotates": false
@@ -29837,7 +30022,7 @@
           "id": "armguard_acidchitin",
           "fg": 4642
         },
-				        {
+	    {
           "id": "overlay_worn_armguard_acidchitin",
           "fg": 4643,
           "rotates": false
@@ -29885,11 +30070,11 @@
           "fg": 4652,
           "rotates": false
         },
-				{
+		{
           "id": ["taco", "tiotaco"],
           "fg": 4653
         },
-				{
+		{
           "id": "kilt_leather",
           "fg": 4654
         },		
@@ -29916,7 +30101,7 @@
           "fg": 4659,
           "rotates": false
         },
-		        {
+		{
           "id": "mushroom_morel",
           "fg": 4660
         },		        
@@ -29924,7 +30109,7 @@
           "id": "morel_cooked",
           "fg": 4661
         },
-				{
+		{
           "id": "morel_fried",
           "fg": 4662
         },				
@@ -29932,7 +30117,7 @@
           "id": "napalm",
           "fg": 4663
         },
-				{
+		{
           "id": "acidchitin_piece",
           "fg": 4664
         },
@@ -29972,12 +30157,12 @@
           "id": "gray_act",
           "fg": 4673
         },
-				{
+		{
           "id": ["vp_gloopletread", "vp_graytread", "vp_oozletread"],
           "fg": 4149,
           "rotates": true
         },
-				{
+		{
           "id": ["gloopletread", "graytread", "oozletread"],
           "fg": 4149
         },
@@ -30065,7 +30250,7 @@
           "fg": 4690,
           "rotates": false
         },	
-				{
+		{
           "id": "stick_long",
           "fg": 1943,
           "rotates": false
@@ -30095,7 +30280,7 @@
           "fg": 4695,
           "rotates": false
         },
-				{
+		{
           "id": "gelrazor",
           "fg": 4696,
           "rotates": false
@@ -30230,7 +30415,7 @@
           "fg": 2960,
           "rotates": false
         },
-		        {
+		{
           "id": "lighting_boomered_dark",
           "fg": 2960,
           "rotates": false
@@ -30325,7 +30510,7 @@
           "fg": 4736,
           "rotates": true
         }, 
-		        {
+		{
           "id": "f_autodoc",
           "fg": 4737,
           "rotates": true
@@ -30350,25 +30535,25 @@
           "fg": 4741,
           "rotates": false
         },
-				        {
+		{
           "id": "surv_sniper",
           "fg": 4742
         },
-				        {
+		{
           "id": "overlay_wielded_surv_sniper",
           "fg": 4743,
           "rotates": false
-        },				        {
+        },				     
+		{
           "id": "staff_druidic",
           "fg": 4744
         },
-				        {
+		{
           "id": "overlay_wielded_staff_druidic",
           "fg": 4745,
           "rotates": false
         },
-
-		{
+        {
           "id": "orb_veil",
           "fg": 4746
         },		
@@ -30376,7 +30561,7 @@
           "id": "light_carb",
           "fg": 4747
         },
-				        {
+		{
           "id": "overlay_wielded_light_carb",
           "fg": 4748,
           "rotates": false
@@ -30385,7 +30570,7 @@
           "id": "unbio_chain_lightning",
           "fg": 4747
         },
-				        {
+		{
           "id": "overlay_wielded_unbio_chain_lightning",
           "fg": 4748,
           "rotates": false
@@ -30414,7 +30599,8 @@
           "id": "catan",
           "fg": 4753,
           "rotates": false
-        },		{
+        },		
+		{
           "id": "chess",
           "fg": 4754,
           "rotates": false
@@ -30423,11 +30609,13 @@
           "id": "checkers",
           "fg": 4755,
           "rotates": false
-        },		{
+        },		
+		{
           "id": "4pronged_stick",
           "fg": 4756,
           "rotates": false
-        },		{
+        },		
+		{
           "id": "overlay_wielded_4pronged_stick",
           "fg": 4757,
           "rotates": false
@@ -30471,7 +30659,7 @@
           "fg": 4765,
           "rotates": false
         },
-				{
+		{
           "id": "surcan",
           "fg": 4766,
           "rotates": false
@@ -30484,71 +30672,85 @@
 		{
           "id": "mon_grouse_chick",
           "fg": 4768,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_crow_chick",
           "fg": 4769,
+		  "bg": 967,
           "rotates": false
         },	
 		{
           "id": "mon_turkey_chick",
           "fg": 4770,
+		  "bg": 967,
           "rotates": false
         },			
 		{
           "id": "mon_pheasant_chick",
           "fg": 4771,
+		  "bg": 967,
           "rotates": false
         },	
 		{
           "id": "mon_cockatrice_chick",
           "fg": 4772,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_duck_chick",
           "fg": 4773,
+		  "bg": 967,
           "rotates": false
         },				
 		{
           "id": "mon_goose_canadian_chick",
           "fg": 4774,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_bear_cub",
           "fg": 4775,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_cockatrice",
           "fg": 4776,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_pheasant",
           "fg": 4777,
+		  "bg": 967,
           "rotates": false
         },				
 		{
           "id": "mon_grouse",
           "fg": 4778,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_goose_canadian",
           "fg": 4779,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_biollante_sprout",
           "fg": 4780,
+		  "bg": 967,
           "rotates": false
         },		
 		{
           "id": "mon_biollante_sprig",
           "fg": 4781,
+		  "bg": 967,
           "rotates": false
         },		
 		{
@@ -30556,22 +30758,22 @@
           "fg": 4782,
           "rotates": false
         },
-				{
+		{
           "id": "feces_roach",
           "fg": 4783,
           "rotates": false
         },
-				{
+		{
           "id": "feces_bird",
           "bg": 4784,
           "rotates": false
         },
-				{
+		{
           "id": "feces_cow",
           "fg": 4785,
           "rotates": false
         },
-						{
+		{
           "id": "egg_chicken",
           "fg": [
             { "weight":1, "sprite":1182},
@@ -30584,12 +30786,12 @@
           "fg": 4787,
           "rotates": false
         },
-				{
+		{
           "id": "egg_crow",
           "fg": 4788,
           "rotates": false
         },
-						{
+		{
           "id": "egg_duck",
           "fg": 4789,
           "rotates": false
@@ -30619,7 +30821,7 @@
           "fg": 4794,
           "rotates": false
         },
-				{
+		{
           "id": "egg_locust",
           "fg": 4795,
           "rotates": false
@@ -30627,10 +30829,13 @@
 		{
           "id": "mon_locust",
           "fg": 4796,
+		  "bg": 967,
           "rotates": false
-        },					{
+        },					
+		{
           "id": "mon_locust_nymph",
           "fg": 4797,
+		  "bg": 967,
           "rotates": false
         },	
 		{
@@ -30665,7 +30870,8 @@
               "bg": 4802
             }
           ]
-        },	        {
+        },	        
+		{
           "id": "vp_hdstowboard_vertical",
           "fg": 4803,
           "rotates": true,
@@ -30790,16 +30996,19 @@
 		{
           "id": "mon_cow_calf",
           "fg": 4813,
+		  "bg": 967,
           "rotates": false
         },			
 		{
           "id": "mon_pig_piglet",
           "fg": 4814,
+		  "bg": 967,
           "rotates": false
         },			
 		{
           "id": "mon_sheep_lamb",
           "fg": 4815,
+		  "bg": 967,
           "rotates": false
         },		
 		{
@@ -30882,7 +31091,7 @@
           "fg": 4829,
           "rotates": false
         },
-				{
+		{
           "id": ["bow_powerlimbs", "bow_powerriser", "bow_powerstring", "bow_stabilizer_set"],
           "fg": 4830,
           "rotates": false
@@ -30898,7 +31107,7 @@
           "rotates": true
         },		
 		{ "id": "t_dirt",
-	"fg": [
+	      "fg": [
             { "weight":40, "sprite":1012},
             { "weight":30, "sprite":4833},
             { "weight":30, "sprite":4834},
@@ -30945,36 +31154,43 @@
 		{
           "id": "mon_zombie_rot_pk",
           "fg": 2739,
+		  "bg": 967,
           "rotates": false
         },			
 		{
           "id": "mon_zombie_rot_worms",
           "fg": 4848,
+		  "bg": 967,
           "rotates": false
         },			
 		{
           "id": "mon_zombie_rot_pk_worms",
           "fg": 4849,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_zombie_rot_flu",
           "fg": 4850,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_zombie_rot_pk_flu",
           "fg": 4851,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_zombie_rot_pain",
           "fg": 4852,
+		  "bg": 967,
           "rotates": false
         },	
 		{
           "id": "mon_zombie_rot_pk_pain",
           "fg": 4853,
+		  "bg": 967,
           "rotates": false
         },	
 		{
@@ -31001,19 +31217,19 @@
           "bg": 967,
           "rotates": false
         },
-			    {
+		{
           "id": "overlay_worn_pants_leather",
           "fg": 4857,
           "bg": 967,
           "rotates": false
         },
-			    {
+		{
           "id": "overlay_wielded_mjolnir_replica",
           "fg": 4858,
           "bg": 0,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_punch_dagger",
           "fg": 4859,
           "rotates": false
@@ -31047,7 +31263,7 @@
 			{ "weight":1, "sprite":4867}
 			],"rotates": true
         },		
-			 {
+		{
           "id": "t_flat_roof",
           "bg": 		    [
             { "weight":1111, "sprite":985}
@@ -31055,7 +31271,7 @@
           "rotates": false
         },
 			          
-		        {
+		{
           "id": "t_pavement_y",
           "fg": 3147,
           "bg":
@@ -31072,7 +31288,6 @@
 			],
           "rotates": false
         },        
-		       
 		{
           "id": "t_column",
           "fg":	4868,
@@ -31111,7 +31326,7 @@
 		{
           "id": "mon_lemming",
           "fg": 4877,
-          "bg": 0,
+          "bg": 967,
           "rotates": false
         },        
 		{
@@ -31143,7 +31358,7 @@
           "fg": 4586,
           "rotates": false
         },		
-				{
+		{
           "id": ["solarpack_on", "q_solarpack_on"],
           "fg": 4587,
           "rotates": false
@@ -31188,17 +31403,17 @@
           "fg": 4595,
           "rotates": false
         },		
-				{
+		{
           "id": ["bundle_rag"],
           "fg": 4596,
           "rotates": false
         },	
-				{
+		{
           "id": ["bundle_wool"],
           "fg": 4597,
           "rotates": false
         },	
-				{
+		{
           "id": ["bundle_leather"],
           "fg": 4598,
           "rotates": false
@@ -31208,7 +31423,7 @@
           "fg": 4599,
           "rotates": false
         },	
-						{
+		{
           "id": ["hide_bag"],
           "fg": 4600,
           "rotates": false
@@ -31218,7 +31433,7 @@
           "fg": 4601,
           "rotates": false
         },	
-								{
+		{
           "id": ["overlay_worn_hide_bag", "overlay_wielded_hide_bag"],
           "fg": 4602,
           "rotates": false
@@ -31228,7 +31443,7 @@
           "fg": 4603,
           "rotates": false
         },	
-				{
+		{
           "id": ["electrolysis_kit"],
           "fg": 4604,
           "rotates": false
@@ -31241,14 +31456,16 @@
 		{
           "id": ["mon_skeleton"],
           "fg": 4606,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": ["mon_dog_skeleton"],
           "fg": 4607,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": ["tr_firewood_source"],
           "fg": 4882,
           "rotates": false
@@ -31304,19 +31521,19 @@
 		  "bg": 3192,
           "rotates": false
         },
-				{
+		{
           "id": "t_rock_galena",
           "fg": 4890,
 		  "bg": 3192,
           "rotates": false
         },
-						{
+		{
           "id": "t_rock_cassiterite",
           "fg": 4891,
 		  "bg": 3192,
           "rotates": false
         },
-								{
+		{
           "id": "t_rock_aluminum",
           "fg": 4892,
 		  "bg": 3192,
@@ -31328,7 +31545,7 @@
 		  "bg": 3192,
           "rotates": false
         },
-				{
+		{
           "id": "t_rock_silver",
           "fg": 4894,
 		  "bg": 3192,
@@ -31340,7 +31557,7 @@
 		  "bg": 3192,
           "rotates": false
         },
-				{
+		{
           "id": "t_rock_brimstone",
           "fg": 4896,
 		  "bg": 3192,
@@ -31352,7 +31569,7 @@
 		  "bg": 3192,
           "rotates": false
         },
-				{
+		{
           "id": "t_rock_halite",
           "fg": 4898,
 		  "bg": 3192,
@@ -31409,7 +31626,7 @@
           "fg": 4908,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_pickaxe_bone",
           "fg": 4909,
           "rotates": false
@@ -31419,7 +31636,7 @@
           "fg": 4910,
           "rotates": false
         },
-				{
+		{
           "id": "spearsling",
           "fg": 4911,
           "rotates": false
@@ -31449,7 +31666,7 @@
           "fg": 4916,
           "rotates": false
         },
-				{
+		{
           "id": "464spx",
           "fg": 4917,
           "rotates": false
@@ -31469,7 +31686,7 @@
           "fg": 4920,
           "rotates": false
         },
-				{
+		{
           "id": "hs_semi",
           "fg": 4921,
           "rotates": false
@@ -31489,12 +31706,12 @@
           "fg": 4923,
           "rotates": false
         },
-				{
+		{
           "id": ["livestock_carrier", "vp_livestock_stall"],
           "fg": 4924,
           "rotates": true
         },
-						{
+		{
           "id": "monster_tear",
           "fg": 4925,
           "rotates": false
@@ -31524,7 +31741,7 @@
           "fg": 4930,
           "rotates": false
         },
-				{
+		{
           "id": "amulet_exotic",
           "fg": 4931,
           "rotates": false
@@ -31534,7 +31751,7 @@
           "fg": 4932,
           "rotates": false
         },
-						{
+		{
           "id": "brooch_iridescent",
           "fg": 4933,
           "rotates": false
@@ -31544,12 +31761,12 @@
           "fg": 4934,
           "rotates": false
         },
-				{
+		{
           "id": "charm_bone",
           "fg": 4935,
           "rotates": false
         },
-						{
+		{
           "id": "graboid_fang",
           "fg": 4936,
           "rotates": false
@@ -31599,7 +31816,7 @@
           "fg": 4945,
           "rotates": false
         },
-				{
+		{
           "id": "hazardous_waste_drum",
           "fg": 4946,
           "rotates": false
@@ -31614,7 +31831,7 @@
           "fg": 4948,
           "rotates": false
         },
-				{
+		{
           "id": "laser_rifle_cheap",
           "fg": 4949,
           "rotates": false
@@ -31634,7 +31851,7 @@
           "fg": 4952,
           "rotates": false
         },	
-				{
+		{
           "id": ["mon_turret_bmg", "mon_milturret_50bmg"],
           "fg": 4953,
 		  "bg": 967,
@@ -31745,13 +31962,13 @@
 		  "bg": 0,
           "rotates": false
         },		
-				{
+		{
           "id": "basket_laundry",
           "fg": 4973,
 		  "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "feces_dog",
           "fg": 4974,
 		  "bg": 0,
@@ -31763,25 +31980,25 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_wielded_M24",
           "fg": 4976,
 		  "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "cheek_pad",
           "fg": 4977,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "golf_ball",
           "fg": 4978,
 		  "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "golf_tee",
           "fg": 4979,
 		  "bg": 0,
@@ -31812,12 +32029,12 @@
           "fg": 4984,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_worn_hat_golf",
           "fg": 4985,
           "rotates": false
         },
-						{
+		{
           "id": "mon_dog",
           "fg": [
             { "weight":3, "sprite":4986},
@@ -31825,119 +32042,142 @@
             ],
           "rotates": false
         },
-								{
+		{
           "id": "mon_dog_pup",
           "fg": 4987,
+		  "bg": 967,
           "rotates": false
         },
-								{
+		{
           "id": "mon_dog_bull",
           "fg": 4988,
+		  "bg": 967,
           "rotates": false
         },
-								{
+		{
           "id": "mon_dog_bull_pup",
           "fg": 4989,
+		  "bg": 967,
           "rotates": false
         },
-										{
+		{
           "id": "mon_dog_pitbullmix",
           "fg": 4990,
+		  "bg": 967,
           "rotates": false
         },
-								{
+		{
           "id": "mon_dog_pitbullmix_pup",
           "fg": 4991,
+		  "bg": 967,
           "rotates": false
         },
-												{
+		{
           "id": "mon_dog_beagle",
           "fg": 4992,
+		  "bg": 967,
           "rotates": false
         },
-								{
+		{
           "id": "mon_dog_beagle_pup",
           "fg": 4993,
+		  "bg": 967,
           "rotates": false
         },												
 		{
           "id": "mon_dog_bcollie",
           "fg": 4994,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_bcollie_pup",
           "fg": 4995,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_dog_boxer",
           "fg": 4996,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_boxer_pup",
           "fg": 4997,
+		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "mon_dog_chihuahua",
           "fg": 4998,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_chihuahua_pup",
           "fg": 4999,
+		  "bg": 967,
           "rotates": false
         },
-								{
+		{
           "id": "mon_dog_dachshund",
           "fg": 5000,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_dachshund_pup",
           "fg": 5001,
+		  "bg": 967,
           "rotates": false
         },
-										{
+		{
           "id": "mon_dog_gshepherd",
           "fg": 5002,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_gshepherd_pup",
           "fg": 5003,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_gpyrenees",
           "fg": 5004,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_gpyrenees_pup",
           "fg": 5005,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_dog_rottweiler",
           "fg": 5006,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_rottweiler_pup",
           "fg": 5007,
+		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "mon_dog_auscattle",
           "fg": 5008,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_dog_auscattle_pup",
           "fg": 5009,
+		  "bg": 967,
           "rotates": false
         },
 		{
@@ -31945,7 +32185,7 @@
           "fg": 5010,
           "rotates": false
         },
-				{
+		{
           "id": "t_thconc_floor_olight",
           "fg": 4968,
 		  "bg": 5010,
@@ -31982,22 +32222,25 @@
           "fg": 5015,
           "rotates": false
         },
-				{
+		{
           "id": "mon_insect_saddler",
           "fg": 5016,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_saddler_brood",
           "fg": 5017,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_saddler_baby",
           "fg": 5018,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": ["frostie_hull","frostie_wheel"],
           "fg": 5019,
           "rotates": false
@@ -32034,7 +32277,7 @@
 		  "bg": 0,
           "rotates": false
         },	
-				        {
+		{
           "id": "t_elevator_control",
           "fg": 5026,
           "rotates": false
@@ -32044,12 +32287,12 @@
           "fg": 5027,
           "rotates": false
         },
-				{
+		{
           "id": "!fancy_sunglasses",
           "fg": 5028,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_worn_iggaak",
           "fg": 5028,
           "rotates": false
@@ -32059,12 +32302,12 @@
           "fg": 5029,
           "rotates": false
         },
-		        {
+		{
           "id": "fitover_sunglasses",
           "fg": 5030,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_fitover_sunglasses",
           "fg": 5031,
           "rotates": false
@@ -32079,12 +32322,12 @@
           "fg": 5033,
           "rotates": false
         },
-				{
+		{
           "id": "f_butcher_rack",
           "fg": 5034,
           "rotates": false
         },
-						{
+		{
           "id": "t_railroad_crossing_signal",
           "fg": 5035,
 		  "bg": 1012,
@@ -32101,7 +32344,7 @@
           "fg": 5036,
           "rotates": true
         },		
-		        {
+		{
           "id": "f_smoking_rack_active",
           "fg": 5037,
           "rotates": false
@@ -32111,30 +32354,30 @@
           "fg": 5038,
           "rotates": false
         },
-				{
+		{
           "id": "sausage_wasteland_raw",
           "fg": 5039,
           "rotates": false
         },
-				{
+		{
           "id": "t_crossbuck_metal",
           "fg": 5040,
 		  "bg": 1012,
           "rotates": false
         },
-				{
+		{
           "id": "t_crossbuck_wood",
           "fg": 5041,
 		  "bg": 1012,
           "rotates": false
         },
-						{
+		{
           "id": "t_crossbuck_metal_season_winter",
           "fg": 5040,
 		  "bg": 992,
           "rotates": false
         },
-				{
+	    {
           "id": "t_crossbuck_wood_season_winter",
           "fg": 5041,
 		  "bg": 992,
@@ -32152,7 +32395,7 @@
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "leather_tarp",
           "fg": 5044,
 		  "bg": 0,
@@ -32164,25 +32407,25 @@
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "mon_zombie_military_pilot",
           "fg": 5046,
 		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "mon_zombie_nullfield",
           "fg": 5047,
 		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "jabberwock_heart",
           "fg": 5048,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "jabberwock_heart_desiccated",
           "fg": 5049,
 		  "bg": 0,
@@ -32194,67 +32437,67 @@
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "woodgreatbow",
           "fg": 5051,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_wielded_woodgreatbow",
           "fg": 5052,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "compgreatbow",
           "fg": 5053,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_wielded_compgreatbow",
           "fg": 5054,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": ["t_hive_young", "t_hive_recovering", "t_hive_regrowing"],
           "fg": 5055,
 		  "bg": 1012,
           "rotates": false
         },	
-						{
+		{
           "id": "t_hive_young_season_winter", 
           "fg": 5055,
 		  "bg": 992,
           "rotates": false
         },	
-						{
+		{
           "id": "beehive_empty", 
           "fg": 5055,
 		  "bg": 0,
           "rotates": false
         },	
-								{
+		{
           "id": "armwrap_fur",
           "fg": 5056,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_armwrap_fur",
           "fg": 5058,
 		  "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "armwrap_leather",
           "fg": 5057,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_armwrap_leather",
           "fg": 5059,
 		  "bg": 0,
@@ -32266,13 +32509,13 @@
 		  "bg": 1012,
           "rotates": false
         },	
-				{
+		{
           "id": "t_hive_ready",
           "fg": 5061,
 		  "bg": 1012,
           "rotates": false
         },	
-						{
+		{
           "id": "seed_potato_raw",
           "fg": 5062,
 		  "bg": 0,
@@ -32284,19 +32527,19 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_mushroom_seedling",
           "fg": 5064,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_mushroom_mature",
           "fg": 5065,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_mushroom_mature_harvest",
           "fg": 5066,
 		  "bg": 0,
@@ -32308,55 +32551,55 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_shrub_blueberry_harvest",
           "fg": 5068,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": ["f_shrub_blackberry", "f_shrub_raspberry"],
           "fg": 5069,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_shrub_blackberry_harvest",
           "fg": 5070,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "f_shrub_raspberry_harvest",
           "fg": 5071,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_shrub_strawberry_harvest",
           "fg": 5072,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "f_shrub_strawberry",
           "fg": 5073,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "f_shrub_cranberry",
           "fg": 5074,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "f_shrub_cranberry_harvest",
           "fg": 5075,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "icecream_fruit",
           "fg": 5076,
 		  "bg": 0,
@@ -32368,13 +32611,13 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "plastic_bucket",
           "fg": 5078,
 		  "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "styrofoam_cup",
           "fg": 5079,
 		  "bg": 0,
@@ -32386,13 +32629,13 @@
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_shuriken",
           "fg": 5081,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_dshuriken",
           "fg": 5082,
 		  "bg": 0,
@@ -32404,7 +32647,7 @@
 		  "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "cddaxp_envmask",
           "fg": 5084,
 		  "bg": 0,
@@ -32452,60 +32695,61 @@
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_survsrtrenchcoat",
           "fg": 5092,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_survsrtrenchcoat",
           "fg": 5093,
 		  "bg": 0,
           "rotates": false
         },	
-								{
+		{
           "id": "cddaxp_survrcpants",
           "fg": 5094,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_survrcpants",
           "fg": 5095,
 		  "bg": 0,
           "rotates": false
         },	
-										{
+		{
           "id": "cddaxp_rillepack",
           "fg": 5096,
 		  "bg": 0,
           "rotates": false
-        },	
-				{
+        },
+		{
           "id": "overlay_worn_cddaxp_rillepack",
           "fg": 5097,
 		  "bg": 0,
           "rotates": false
         },
-												{
+		{
           "id": "cddaxp_lamessrtrenchcoat",
           "fg": 5098,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_lamessrtrenchcoat",
           "fg": 5099,
 		  "bg": 0,
           "rotates": false
-        },												{
+        },
+		{
           "id": "cddaxp_lamesrcpants",
           "fg": 5100,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_lamesrcpants",
           "fg": 5101,
 		  "bg": 0,
@@ -32517,19 +32761,19 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_longshirt",
           "fg": 5103,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_srbshirt",
           "fg": 5104,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_srbshirt",
           "fg": 5105,
 		  "bg": 0,
@@ -32541,31 +32785,31 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_srshirt",
           "fg": 5107,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_srcshirt",
           "fg": 5108,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_srcshirt",
           "fg": 5109,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_lamessbtrenchcoat",
           "fg": 5110,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_lamessbtrenchcoat",
           "fg": 5111,
 		  "bg": 0,
@@ -32577,79 +32821,79 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_lamesbcpants",
           "fg": 5113,
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_lamessctrenchcoat",
           "fg": 5114,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_lamessctrenchcoat",
           "fg": 5115,
 		  "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_lamesccpants",
           "fg": 5116,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "overlay_worn_cddaxp_lamesccpants",
           "fg": 5117,
 		  "bg": 0,
           "rotates": false
         },
-		        {
+		{
           "id": "t_improvised_shelter_season_autumn",
           "fg": 5118,
           "bg": 1012,
           "rotates": false
         },
-				        {
+		{
           "id": "t_improvised_shelter_season_winter",
           "fg": 5119,
           "bg": 992,
           "rotates": false
         },    
-		        {
+		{
           "id": "sleeping_bag_roll",
           "fg": 5120,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "sleeping_bag_fur_roll",
           "fg": 5121,
           "bg": 0,
           "rotates": false
         },  	
-		        {
+		{
           "id": "overlay_worn_sleeping_bag_roll",
           "fg": 5122,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_worn_sleeping_bag_fur_roll",
           "fg": 5123,
           "bg": 0,
           "rotates": false
         },  
-				        {
+	    {
           "id": "overlay_worn_sleeping_bag_fur",
           "fg": 5124,
           "bg": 0,
           "rotates": false
         },  
-       {
+        {
           "id": "drivebelt",
           "fg": 5125
         },			
@@ -32657,7 +32901,7 @@
           "id": "drivebelt_makeshift",
           "fg": 5126
         },		
-		        {
+		{
           "id": "overlay_worn_robe_shadow_on",
           "fg": 5127,
           "rotates": false
@@ -32668,49 +32912,49 @@
           "bg": 5130,
           "rotates": false
         },
-		        {
+		{
           "id": "fuel_bunker",
           "fg": 5132,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "vp_fuel_bunker",
           "fg": 5132,
           "bg": 0,
           "rotates": false
         },
-				        {
+	    {
           "id": "steam_triple_medium",
           "fg": 5133,
           "bg": 0,
           "rotates": false
         },
-				        {
+	    {
           "id": ["vp_steam_triple_medium", "vp_engine_steam_medium"],
           "fg": 5133,
           "bg": 0,
           "rotates": false
         },
-				        {
+	    {
           "id": "steam_watts_small",
           "fg": 5134,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "vp_engine_steam_makeshift",
           "fg": 5134,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "steam_triple_small",
           "fg": 5135,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "vp_engine_steam_small",
           "fg": 5135,
           "bg": 0,
@@ -32728,7 +32972,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+	    {
           "id": "cddaxp_hlamescpants",
           "fg": 5138,
           "bg": 0,
@@ -32752,7 +32996,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_bplamesstrenchcoat",
           "fg": 5142,
           "bg": 0,
@@ -32764,7 +33008,7 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_bplamescpants",
           "fg": 5144,
           "bg": 0,
@@ -32776,13 +33020,13 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_mrhbar",
           "fg": 5146,
 		  "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "cddaxp_carbonfiber",
           "fg": 5147,
 		  "bg": 0,
@@ -32800,7 +33044,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_nunchaku",
           "fg": 5150,
           "bg": 0,
@@ -32811,7 +33055,8 @@
           "fg": 5151,
           "bg": 0,
           "rotates": false
-        },				{
+        },
+		{
           "id": "cddaxp_sai",
           "fg": 5152,
           "bg": 0,
@@ -32847,7 +33092,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_goggles_artnv",
           "fg": 5158,
           "bg": 0,
@@ -32859,7 +33104,7 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_goggles_artnv_on",
           "fg": 5159,
           "bg": 0,
@@ -32883,7 +33128,7 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_artclocloak_on",
           "fg": 5163,
           "bg": 0,
@@ -32895,7 +33140,7 @@
           "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": ["cddaxp_artesosk", "cddaxp_artesosk_on"],
           "fg": 5166,
           "bg": 0,
@@ -32907,7 +33152,7 @@
           "bg": 0,
           "rotates": false
         },
-										{
+		{
           "id": ["cddaxp_artesosk", "cddaxp_artesosk_on"],
           "fg": 5166,
           "bg": 0,
@@ -32931,7 +33176,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_artgloves_on",
           "fg": 5170,
           "bg": 0,
@@ -32943,7 +33188,7 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_survrbelt",
           "fg": 5172,
           "bg": 0,
@@ -32967,13 +33212,13 @@
           "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "cddaxp_bfclosed",
           "fg": 5176,
 		  "bg": 0,
           "rotates": false
         },	
-				{
+	    {
           "id": "cddaxp_kusarigama",
           "fg": 5177,
           "bg": 0,
@@ -32985,7 +33230,7 @@
           "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "cddaxp_happo",
           "fg": 5179,
           "bg": 0,
@@ -33021,7 +33266,7 @@
           "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "cddaxp_tbomb",
           "fg": 5185,
           "bg": 0,
@@ -33033,13 +33278,13 @@
           "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "cddaxp_vptmeats",
           "fg": 5187,
           "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "purifier_smart_shot",
           "fg": 5188,
           "bg": 0,
@@ -33069,7 +33314,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_cknife",
           "fg": 5193,
           "bg": 0,
@@ -33081,7 +33326,7 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "cddaxp_ckukri",
           "fg": 5195,
           "bg": 0,
@@ -33093,7 +33338,7 @@
           "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "cddaxp_crapier",
           "fg": 5197,
           "bg": 0,
@@ -33111,37 +33356,37 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_cddaxp_cbroadsword",
           "fg": 4870,
           "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "cddaxp_czweihander",
           "fg": 4871,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_cddaxp_czweihander",
           "fg": 4872,
           "bg": 0,
           "rotates": false
         },	
-						{
+		{
           "id": "cddaxp_cwakizashi",
           "fg": 4873,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_cddaxp_cwakizashi",
           "fg": 4874,
           "bg": 0,
           "rotates": false
         },	
-		        {
+		{
           "id": "petticoat",
           "fg": 495,
           "rotates": false
@@ -33177,7 +33422,7 @@
           "fg": 2916,
           "rotates": false
         },
-				{
+		{
           "id": "bomblet_archvile_act",
           "fg": 2916,
           "rotates": false
@@ -33199,7 +33444,7 @@
           "id": "biter",
           "fg": 1988
         },
-		        {
+		{
           "id": "edgegrow",
           "fg": 1988
         },
@@ -33265,7 +33510,7 @@
           "id": "aux_flamer",
           "fg": 1994
         },
-		        {
+		{
           "id": "aux_flamer_diesel",
           "fg": 1994
         },
@@ -33274,7 +33519,7 @@
           "fg": 1996,
           "rotates": false
         },
-		        {
+		{
           "id": "colt_saa",
           "fg": 1996,
           "rotates": false
@@ -33380,8 +33625,7 @@
           "fg": 2024,
           "rotates": false
         },
-
-        {
+		{
           "id": "hk_g3",
           "fg": 2028,
           "rotates": false
@@ -33423,7 +33667,7 @@
           "id": "l_lmg_223",
           "fg": 2035
         },
-		        {
+		{
           "id": ["surv_lmg_308", "kawaii_308AM"],
           "fg": 2035
         },		        
@@ -33467,7 +33711,7 @@
           "id": "m134",
           "fg": 2047
         },
-		 {
+		{
           "id": "bomblet_launcher_rotary",
           "fg": 2054
         },
@@ -33771,12 +34015,12 @@
           "fg": 2079,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_m1991a1_38super",
           "fg": 2079,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_af2011a1_38super",
           "fg": 2079,
           "rotates": false
@@ -34315,8 +34559,7 @@
           "fg": 2103,
           "rotates": false
         },
-				       
-        {
+		{
           "id": "overlay_wielded_hand_of_armok",
           "fg": 2105,
           "rotates": false
@@ -34356,12 +34599,12 @@
           "fg": 2109,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_shockcannon",
           "fg": 2109,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_wielded_shockcannon_ups",
           "fg": 2109,
           "rotates": false
@@ -34371,7 +34614,6 @@
           "fg": 2109,
           "rotates": false
         },
-
         {
           "id": "overlay_wielded_rebar_rifle",
           "fg": 2109,
@@ -34382,7 +34624,7 @@
           "fg": 2110,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_wielded_m6_asw",
           "fg": 2110,
           "rotates": false
@@ -34485,7 +34727,7 @@
           "fg": 2116,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_surv_lmg_762",
           "fg": 2116,
           "rotates": false
@@ -34575,7 +34817,7 @@
           "fg": 2123,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_surv_full_45",
           "fg": 2123,
           "rotates": false
@@ -34720,7 +34962,7 @@
           "fg": 2129,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_colt_saa",
           "fg": 2129,
           "rotates": false
@@ -35110,7 +35352,7 @@
           "fg": 2181,
           "rotates": false
         },
-		        {
+		{
           "id": "surv_full_762",
           "fg": 2181,
           "rotates": false
@@ -35456,7 +35698,7 @@
           "id": "pistol_scope",
           "fg": 2242
         },
-		        {
+		{
           "id": "tele_sight_pistol",
           "fg": 2242
         },
@@ -35468,7 +35710,7 @@
           "id": ["red_dot_sight", "lead_red_dot_sight"],
           "fg": 2243
         },
-		        {
+		{
           "id": "offset_sights",
           "fg": 2243
         },
@@ -35586,7 +35828,7 @@
           "fg": 2264,
           "rotates": false
         },
-{
+		{
           "id": "belt308_surv",
           "fg": 2264,
           "rotates": false
@@ -35603,7 +35845,7 @@
           "id": "surv_belt_308",
           "fg": 2264
         },
-				{
+	    {
           "id": "surv_belt_762",
           "fg": 2264
         },
@@ -35709,12 +35951,12 @@
           "fg": 2268,
           "rotates": false
         },
-		        {
+		{
           "id": "glock17_17",
           "fg": 2268,
           "rotates": false
         },
-		        {
+		{
           "id": "glock17_22",
           "fg": 2268,
           "rotates": false
@@ -35871,7 +36113,7 @@
           "id": "saiga10mag",
           "fg": 2270
         },
-		        {
+		{
           "id": "saiga10mag_410",
           "fg": 2270
         },
@@ -36023,11 +36265,11 @@
           "id": "g3bigmag",
           "fg": 2278
         },
-		        {
+		{
           "id": "glock_drum_50rd",
           "fg": 2278
         },
-				        {
+		{
           "id": "glock_drum_100rd",
           "fg": 2278
         },
@@ -36051,7 +36293,7 @@
           "id": "svs24_robodrum",
           "fg": 2278
         },
-		        {
+		{
           "id": "saiga30mag_410",
           "fg": 2278
         },
@@ -36072,11 +36314,13 @@
         {
           "id": "hulk_weapon",
           "fg": 2282,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_allosaurus",
           "fg": 2284,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36192,41 +36436,49 @@
         {
           "id": "mon_ankylosaurus",
           "fg": 2309,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_kwama",
           "fg": 2312,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_larva_pk",
           "fg": 2314,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_male",
           "fg": 2315,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_queen_firebug",
           "fg": 2317,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_queen_young",
           "fg": 2318,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_scrib",
           "fg": 2319,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_soldier_pk",
           "fg": 2321,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36237,16 +36489,19 @@
         {
           "id": "mon_ant_soldier_terminal",
           "fg": 2323,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_ant_terminal",
           "fg": 2324,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_archon",
           "fg": 2325,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36257,86 +36512,103 @@
         {
           "id": "mon_bear_mega",
           "fg": 2329,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bear_mega_baby",
-          "fg": 2329,
+          "fg": 2330,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bear_mega_kid",
           "fg": 2331,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bear_mega_mating",
           "fg": 2332,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bear_pk",
           "fg": 2333,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bear_smoky_pk",
           "fg": 2335,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bear_weak",
           "fg": 2336,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_beaver",
           "fg": 2337,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_beekeeper_pk",
           "fg": 2340,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bee_king",
           "fg": 2341,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bee_larvae",
           "fg": 2342,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bee_queen",
           "fg": 2343,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bee_scout",
           "fg": 2344,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bee_soldier",
           "fg": 2345,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_biollante_pk",
           "fg": 2347,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_bjay",
           "fg": 2348,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_blob_large",
           "fg": 2352,
+		  "bg": 967,
           "rotates": false
         },
 				{
@@ -36348,61 +36620,73 @@
         {
           "id": "mon_blob_small",
           "fg": 2353,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_boomer_huge_pk",
           "fg": 2359,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_breather",
           "fg": 2360,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_broken_cyborg",
           "fg": 2362,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_butterfly",
           "fg": 2363,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cacodemon",
           "fg": 2365,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cacodemon_revive",
           "fg": 2366,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_caterpillar",
           "fg": 2367,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_centipede",
           "fg": 2368,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_charred_nightmare",
           "fg": 2370,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cherub",
           "fg": 2371,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cherub_fly",
           "fg": 2372,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36418,51 +36702,61 @@
         {
           "id": "mon_coyote_small",
           "fg": 2384,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_coyote_wolf_zerg",
           "fg": 2386,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_creeper_root",
           "fg": 2389,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_creeper_vine_pk",
           "fg": 2391,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_creeper_vine_terminal",
           "fg": 2392,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_creeper_vine_terminal_pk",
           "fg": 2393,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cyberdemon",
           "fg": 2395,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cyborg_cop",
           "fg": 2396,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cyborg_guard",
           "fg": 2397,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dermatik_larva",
           "fg": 2404,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36472,11 +36766,13 @@
         {
           "id": "mon_dionaea",
           "fg": 2406,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dionaea_sprout",
           "fg": 2407,
+		  "bg": 967,
           "rotates": false
         },        
 		{
@@ -36494,11 +36790,13 @@
         {
           "id": "mon_dog_skeleton_pk",
           "fg": 2411,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dog_zombie_cop_pk",
           "fg": 2414,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36530,76 +36828,91 @@
         {
           "id": "mon_doom_archvile_5",
           "fg": 2417,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_doom_archvile_queen",
           "fg": 2418,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_doom_churl",
           "fg": 2419,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_doom_churl_revive",
           "fg": 2420,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_doom_cur",
           "fg": 2421,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_doom_sacrifice",
           "fg": 2422,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_doom_slave",
           "fg": 2423,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dracolich",
           "fg": 2424,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dragonfly",
           "fg": 2425,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_failed_weapon",
           "fg": 2430,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fant",
           "fg": 2431,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fardigrade",
           "fg": 2432,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_feer",
           "fg": 2433,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_finebeast",
           "fg": 2434,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_finecraft",
           "fg": 2435,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36650,6 +36963,7 @@
         {
           "id": "mon_fish_lobster",
           "fg": 2445,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36704,21 +37018,25 @@
         {
           "id": "mon_flying_polyp",
           "fg": 2459,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_folf",
           "fg": 2460,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_foose",
           "fg": 2461,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fougar",
           "fg": 2462,
+		  "bg": 967,
           "rotates": false
         },
 		{
@@ -36809,166 +37127,199 @@
         {
           "id": "mon_fungaloid_pk",
           "fg": 2467,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fungus_boil",
           "fg": 2477,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fungus_failed_weapon",
           "fg": 2478,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fungus_pig",
           "fg": 2479,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_furvivor",
           "fg": 2480,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_furvivor_deagle",
           "fg": 2481,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_furvivor_glock",
           "fg": 2482,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_furvivor_pk",
           "fg": 2483,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_furvivor_shotgun",
           "fg": 2484,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_furvivor_smg",
           "fg": 2485,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_gator",
           "fg": 2488,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_giant_cockroach",
           "fg": 2491,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_giant_cockroach_nymph",
           "fg": 2492,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_gloople",
           "fg": 2494,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_goat",
           "fg": 2495,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_gray",
           "fg": 2499,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_hell_baron",
           "fg": 2507,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_hell_knight",
           "fg": 2508,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_hell_knight_revive",
           "fg": 2509,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_horse_zombie",
           "fg": 2512,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_horse_zombie_scorched",
           "fg": 2513,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_hunting_horror",
           "fg": 2515,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_imp",
           "fg": 2516,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_imp_black",
           "fg": 2517,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_imp_revive",
           "fg": 2518,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_jabberwock_pk",
           "fg": 2524,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_lostsoul",
           "fg": 2527,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_lostsoul_mount",
           "fg": 2528,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_maggot",
           "fg": 2529,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_mancubus",
           "fg": 2530,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_manhack_acid",
           "fg": 2532,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_manhack_fire",
           "fg": 2533,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_manhack_missile",
           "fg": 2534,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36979,51 +37330,61 @@
         {
           "id": "mon_marloss_man",
           "fg": 2536,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_mechaspider",
           "fg": 2537,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_mechaspider_queen",
           "fg": 2538,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_minecraft",
           "fg": 2539,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_minecraft_charged",
           "fg": 2540,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_mi_go_fly",
           "fg": 2543,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_mi_go_terminal",
           "fg": 2544,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_mole_large",
           "fg": 2546,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_moose_pk",
           "fg": 2548,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_moose_weak",
           "fg": 2549,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37034,6 +37395,7 @@
         {
           "id": "mon_moth",
           "fg": 2553,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37049,51 +37411,61 @@
         {
           "id": "mon_oozle",
           "fg": 2557,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_opossum",
           "fg": 2558,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pidgeon",
           "fg": 2560,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pig_saber",
           "fg": 2562,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pinky",
           "fg": 2563,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pinky_revive",
           "fg": 2564,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pregnant_giant_cockroach",
           "fg": 2566,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pupae",
           "fg": 2567,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_pupae_pk",
           "fg": 2568,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_revenant",
           "fg": 2575,
+		  "bg": 967,
           "rotates": false
         },
 		{
@@ -37104,11 +37476,13 @@
         {
           "id": "mon_robin",
           "fg": 2577,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_robot_drone",
           "fg": 2578,
+		  "bg": 967,
           "rotates": false
         },
 		{
@@ -37129,6 +37503,7 @@
         {
           "id": "mon_muskrat",
           "fg": 2581,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37139,41 +37514,49 @@
         {
           "id": "mon_shadow_snake",
           "fg": 2584,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_shoggoth",
           "fg": 2587,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_shrew",
           "fg": 2588,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_skeleton_husk",
           "fg": 2590,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_skeleton_pk",
           "fg": 2591,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_skeleton_scorched",
           "fg": 2592,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_skunk",
           "fg": 2594,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_sludge_crawler_queen",
           "fg": 2596,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37209,71 +37592,85 @@
         {
           "id": "mon_spider_jumping_giant_acid",
           "fg": 2604,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_trapdoor_giant_guardian",
           "fg": 2607,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_trapdoor_giant_pk",
           "fg": 2608,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_trapdoor_giant_s",
           "fg": 2609,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_web_alpha",
           "fg": 2611,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_web_mu",
           "fg": 2612,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_web_omega",
           "fg": 2613,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_web_queen",
           "fg": 2614,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_spider_wolf_giant_pk",
           "fg": 2621,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_stegosaurus",
           "fg": 2626,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_tardigrade",
           "fg": 2628,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_trapdoor_egg",
           "fg": 2631,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_trapdoor_queen",
           "fg": 2632,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_treent",
           "fg": 2633,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37284,6 +37681,7 @@
         {
           "id": "mon_triffid_pk",
           "fg": 2638,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37298,6 +37696,7 @@
 		        {
           "id": "bot_turret_shockcannon",
           "fg": 2646,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37341,11 +37740,13 @@
         {
           "id": "mon_zolf_scorched",
           "fg": 2663,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zolf_shady",
           "fg": 2664,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37369,36 +37770,43 @@
         {
           "id": "mon_zombie_bear_mega",
           "fg": 2672,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_bio_infantry",
           "fg": 2673,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_bio_knight",
           "fg": 2674,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_bio_scout",
           "fg": 2676,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_bio_tool",
           "fg": 2677,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_blind",
           "fg": 2679,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_blind_pk",
           "fg": 2680,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37429,51 +37837,61 @@
         {
           "id": "mon_zombie_child_reaver",
           "fg": 2689,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_child_scorched_2",
           "fg": 2691,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_crawler_pk",
           "fg": 2695,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_crawler_pk_weak",
           "fg": 2696,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_crawler_scorched",
           "fg": 2697,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_cripple",
           "fg": 2699,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_dog_pk",
           "fg": 2702,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_electric_fungal",
           "fg": 2704,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_electric_pk",
           "fg": 2705,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_failed_weapon",
           "fg": 2706,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37502,6 +37920,7 @@
         {
           "id": "mon_zombie_fiend_pk",
           "fg": 2711,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37538,13 +37957,13 @@
           "id": "mon_zombie_master_pk",
           "fg": 2731,
 		  "bg": 967,
-		   "rotates": false
+		  "rotates": false
         },
         {
           "id": "mon_zombie_necro_pk",
           "fg": 2733,
-		  		  "bg": 967,
-		   "rotates": false
+		  "bg": 967,
+		  "rotates": false
         },
         {
           "id": "mon_zombie_pk",
@@ -37579,6 +37998,7 @@
         {
           "id": "mon_zombie_scorched_necro",
           "fg": 2745,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37596,19 +38016,22 @@
         {
           "id": "mon_zombie_shady_ghost",
           "fg": 2750,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_shady_pk",
           "fg": 2751,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zombie_smoker_pk",
           "fg": 2755,
+		  "bg": 967,
           "rotates": false
         },
-		        {
+		{
           "id": "mon_zombie_swimmer",
           "fg": [
             { "weight":3, "sprite":2761},
@@ -37800,7 +38223,7 @@
           "fg": 2967,
           "bg": 3150
         },        
-		        {
+		{
           "id": "blob_pit_season_winter",
           "fg": 2967,
           "bg": 3150
@@ -37810,7 +38233,7 @@
           "fg": 2967,
           "bg": 1012
         },
-				{
+		{
           "id": "blob_pit_slime_season_winter",
           "fg": 2967,
           "bg": 1012
@@ -37906,7 +38329,7 @@
           "fg": 3005,
           "rotates": false
         },
-				{
+		{
           "id": "vp_cam_control",
           "fg": 3005,
           "rotates": true
@@ -37925,7 +38348,7 @@
           "fg": 3006,
           "rotates": false
         },
-		        {
+		{
           "id": "!t_elevator_control",
           "fg": 3005,
           "rotates": false
@@ -38576,7 +38999,7 @@
 		  "bg": 1012,
           "rotates": false
         },
-		        {
+		{
           "id": "t_sandmound_season_winter",
           "fg": 3021,
           "bg": 992
@@ -39361,7 +39784,7 @@
           "fg": 3471,
           "rotates": false
         },
-		        {
+		{
           "id": "cell_phone_flashlight",
           "fg": 3471,
           "rotates": false
@@ -39823,7 +40246,7 @@
           "fg": 3642,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_solar_torch",
           "fg": 3642,
           "rotates": false
@@ -39833,7 +40256,7 @@
           "fg": 3642,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_solar_torch_done",
           "fg": 3642,
           "rotates": false
@@ -39998,7 +40421,7 @@
           "fg": 3652,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_cavalry_sabre",
           "fg": 3652,
           "rotates": false
@@ -40013,7 +40436,7 @@
           "fg": 3652,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_cavalry_sabre_fake",
           "fg": 3652,
           "rotates": false
@@ -40268,7 +40691,7 @@
           "fg": 3672,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_makeshift_sword_bayonet",
           "fg": 3672,
           "rotates": false
@@ -40333,7 +40756,7 @@
           "fg": 3678,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_nodachi_inferior",
           "fg": 3678,
           "rotates": false
@@ -40388,7 +40811,7 @@
           "fg": 3682,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_molded_shovel",
           "fg": 3682,
           "rotates": false
@@ -41263,12 +41686,12 @@
           "fg": 3879,
           "rotates": false
         },
-				{
+		{
           "id": "rebreather_xl_on",
           "fg": 3879,
           "rotates": false
         },
-		        {
+		{
           "id": "revenant_crown",
           "fg": 3896,
           "bg": 957,
@@ -41454,7 +41877,7 @@
           "fg": 3910,
           "rotates": false
         },
-		        {
+		{
           "id": "tr_landmine_buried",
           "fg": 3916,
           "rotates": false
@@ -41505,7 +41928,7 @@
           "id": "tr_engine",
           "fg": 3925
         },
-		        {
+		{
           "id": "tr_engine",
           "fg": 3925
         },
@@ -41627,7 +42050,7 @@
           "fg": 3960,
           "rotates": true
         },
-				{
+		{
           "id": ["vp_cutter", "vp_cutternc", "vp_mcutter"],
           "fg": 3960,
           "rotates": true
@@ -42125,7 +42548,7 @@
           "id": "cargo_rack",
           "fg": 3986
         },
-		        {
+		{
           "id": "blaze_mag_rock",
           "fg": 3986
         },
@@ -43374,11 +43797,12 @@
           "fg": 4106,
           "rotates": true
         },
-		        {
+		{
           "id": ["vp_m107a1", "vp_m107a1nc"],
           "fg": 4106,
           "rotates": true
-        },           {
+        },         
+		{
           "id": ["vp_m60", "vp_m60nc"],
           "fg": 4105,
           "rotates": true
@@ -45740,7 +46164,7 @@
           "fg": 4151,
           "rotates": true
         },
-		        {
+		{
           "id": "turretframe",
           "fg": 4151,
           "rotates": true
@@ -45750,7 +46174,7 @@
           "fg": 4151,
           "rotates": true
         },
-				{
+	    {
           "id": "turret_mount",
           "fg": 4151,
           "rotates": true
@@ -45997,94 +46421,112 @@
           "fg": 4188,
           "rotates": true
         },
-		        {
+		{
           "id": "mon_w11b10",
           "fg": 4190,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_w11b20b4",
           "fg": 4191,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_w12b10",
           "fg": 4192,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_w11h10",
           "fg": 4193,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_w12n10",
           "fg": 4194,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_compsognathus",
           "fg": 4195,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_gallimimus",
           "fg": 4196,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_titanis",
           "fg": 4197,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_eoraptor",
           "fg": 4198,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_velociraptor",
           "fg": 4199,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_deinonychus",
           "fg": 4200,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_utahraptor_to_L",
           "fg": 4201,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dimorphodon",
           "fg": 4202,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_dilophosaurus",
           "fg": 4203,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cult_churl",
           "fg": 4204,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_cult_slave",
           "fg": 4205,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_legion",
           "fg": 4206,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_nuculais",
           "fg": 4207,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -46095,76 +46537,91 @@
         {
           "id": "mon_fish_flying",
           "fg": 4209,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_fish_lobster_giant",
           "fg": 4210,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_thing_head",
           "fg": 4211,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_thing_spider",
           "fg": 4212,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_raphael",
           "fg": 4213,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_donatello",
           "fg": 4214,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_leonardo",
           "fg": 4215,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_michelangelo",
           "fg": 4216,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_ratman_ninja",
           "fg": 4217,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": ["mon_deer_small", "mon_deer_fawn"],
           "fg": 4218,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_deer_rutting",
           "fg": 4219,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_horror_dusk",
           "fg": 4220,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_horror_dusk_queen",
           "fg": 4221,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_thing_swamp",
           "fg": 4222,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_stemcell_nether",
           "fg": 4223,
+		  "bg": 967,
           "rotates": false
         },
 		{
@@ -46175,6 +46632,7 @@
 		{
           "id": "mon_gull",
           "fg": 4224,
+		  "bg": 967,
           "rotates": false
         }
 
@@ -46597,7 +47055,7 @@
           "fg": 5393,
           "rotates": false
         },	
-		        {
+		{
           "id": "t_slope_down",
           "fg": 5394,
           "rotates": false
@@ -46617,37 +47075,37 @@
           "fg": 5397,
           "rotates": false
         },   
-		        {
+		{
           "id": ["corpse_mon_jabberwock", "corpse_mon_jabberwock_pk"],
           "fg": 5398,
           "rotates": false
         },  
-		        {
+		{
           "id": "mon_zombie_hulk",
           "fg": 5399,
           "rotates": false
         },
-				        {
+	    {
           "id": "corpse_mon_zombie_hulk",
           "fg": 5400,
           "rotates": false
         },
-				{
+	    {
           "id": "mon_skeleton_hulk",
           "fg": 5401,
           "rotates": false
         },
-				        {
+		{
           "id": "corpse_mon_skeleton_hulk",
           "fg": 5402,
           "rotates": false
         },
-		        {
+		{
           "id": "mon_zombie_hulk_pk",
           "fg": 5403,
           "rotates": false
         },
-		        {
+		{
           "id": "corpse_mon_zombie_hulk_pk",
           "fg": 5404,
           "rotates": false
@@ -46657,12 +47115,12 @@
           "fg": 5405,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_hulk_weapon",
           "fg": 5406,
           "rotates": false
         },
-				        {
+		{
           "id": "mon_shoggoth",
           "fg": 5407,
           "rotates": false
@@ -46672,47 +47130,87 @@
           "fg": 5408,
           "rotates": false
         },
-				        {
+		{
           "id": "broken_tankbot",
           "fg": 5409,
           "rotates": false
         },			
-		{ "id": "mon_chickenbot", "fg": 5410, "rotates": false },
-		{ "id": "broken_chickenbot", "fg": 5411, "rotates": false },
-				{ "id": "mon_bear_mega", "fg": 5412, "rotates": false },
-				{ "id": "corpse_mon_bear_mega", "fg": 5413, "rotates": false },
-		{ "id": "mon_bear_mega_mating", "fg": 5414, "rotates": false },
-		{ "id": "corpse_mon_bear_mega_mating", "fg": 5413, "rotates": false },
-		{ "id": "mon_bear_mega_kid", "fg": 5415, "rotates": false },
-				{ "id": "corpse_mon_bear_mega_kid", "fg": 5416, "rotates": false },
-		{ "id": "mon_zombie_bear_mega", "fg": 5417, "rotates": false },	
-	{ "id": "corpse_mon_zombie_bear_mega", "fg": 5418, "rotates": false },			
+		{ 
+		 "id": "mon_chickenbot", 
+		 "fg": 5410, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "broken_chickenbot", 
+		 "fg": 5411, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "mon_bear_mega", 
+		 "fg": 5412, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "corpse_mon_bear_mega", 
+		 "fg": 5413, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "mon_bear_mega_mating", 
+		 "fg": 5414, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "corpse_mon_bear_mega_mating", 
+		 "fg": 5413, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "mon_bear_mega_kid", 
+		 "fg": 5415, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "corpse_mon_bear_mega_kid", 
+		 "fg": 5416, 
+		 "rotates": false 
+		},
+		{ 
+		 "id": "mon_zombie_bear_mega", 
+		 "fg": 5417, 
+		 "rotates": false 
+		},	
+	    { 
+		 "id": "corpse_mon_zombie_bear_mega", 
+		 "fg": 5418, 
+		 "rotates": false 
+		},			
 		{
           "id": "mon_treent",
           "fg": 5419,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_treent",
           "fg": 5420,
           "rotates": false
         },
-				{
+		{
           "id": "mon_treent_green",
           "fg": 5421,
           "rotates": false
         },
-						{
+		{
           "id": "corpse_mon_treent_green",
           "fg": 5422,
           "rotates": false
         },
-				{
+		{
           "id": "mon_nakedmolerat_giant",
           "fg": 5424,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_nakedmolerat_giant",
           "fg": 5425,
           "rotates": false
@@ -46742,7 +47240,7 @@
           "fg": 5430,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_fungaloid_queen",
           "fg": 5431,
           "rotates": false
@@ -46770,13 +47268,15 @@
         {
           "id": "mon_blob_brain",
           "fg": 5457,
+		  "bg": 967,
           "rotates": false
         },        
         {
           "id": "mon_triffid_heart",
           "fg": 5461,
           "rotates": false
-        },        {
+        }, 
+		{
           "id": "mon_yugg",
           "fg": 5462,
           "rotates": false
@@ -46786,17 +47286,51 @@
           "fg": 5442,
           "rotates": false
         },
-		
-
-	{ "id": "L dinos", "fg": 0, "rotates": false },
-	{ "id": "mon_spinosaurus",			"fg": 5464, "rotates": false },
-	{ "id": "mon_tyrannosaurus",		"fg": 5465, "rotates": false },
-	{ "id": "mon_triceratops",			"fg": 5466, "rotates": false },
-	{ "id": "mon_stegosaurus",			"fg": 5467, "rotates": false },
-	{ "id": "mon_ankylosaurus",			"fg": 5468, "rotates": false },
-	{ "id": "mon_allosaurus",			"fg": 5469, "rotates": false },
-	{ "id": "mon_parasaurolophus",		"fg": 5470, "rotates": false },
-	{ "id": "mon_utahraptor",			"fg": 5471, "rotates": false }
+		{ 
+		 "id": "L dinos", 
+		 "fg": 0, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_spinosaurus",			
+		 "fg": 5464, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_tyrannosaurus",		
+		 "fg": 5465, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_triceratops",			
+		 "fg": 5466, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_stegosaurus",			
+		 "fg": 5467, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_ankylosaurus",			
+		 "fg": 5468, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_allosaurus",			
+		 "fg": 5469, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_parasaurolophus",		
+		 "fg": 5470, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "mon_utahraptor",			
+		 "fg": 5471, 
+		 "rotates": false 
+		}
 	    
     ]
     },
@@ -47400,19 +47934,19 @@
 		{ "id": "overlay_female_mutation_M_SKIN2", "fg": 10062, "rotates": false },
 		{ "id": "overlay_male_mutation_M_SKIN2", "fg": 10063, "rotates": false },
 		
-				{ "id": "overlay_female_mutation_FEATHERS", "fg": 10064, "rotates": false },
+		{ "id": "overlay_female_mutation_FEATHERS", "fg": 10064, "rotates": false },
 		{ "id": "overlay_male_mutation_FEATHERS", "fg": 10065, "rotates": false },
-						{ "id": "overlay_female_mutation_DOWN", "fg": 10066, "rotates": false },
+		{ "id": "overlay_female_mutation_DOWN", "fg": 10066, "rotates": false },
 		{ "id": "overlay_male_mutation_DOWN", "fg": 10067, "rotates": false },
 		{ "id": "overlay_female_mutation_LIGHTFUR", "fg": 10068, "rotates": false },
 		{ "id": "overlay_male_mutation_LIGHTFUR", "fg": 10069, "rotates": false },
-				{ "id": "overlay_female_mutation_FUR", "fg": 10070, "rotates": false },
+		{ "id": "overlay_female_mutation_FUR", "fg": 10070, "rotates": false },
 		{ "id": "overlay_male_mutation_FUR", "fg": 10071, "rotates": false },
 		{ "id": "overlay_female_mutation_URSINE_FUR", "fg": 10072, "rotates": false },
 		{ "id": "overlay_male_mutation_URSINE_FUR", "fg": 10073, "rotates": false },		
 		{ "id": "overlay_female_mutation_LUPINE_FUR", "fg": 10074, "rotates": false },
 		{ "id": "overlay_male_mutation_LUPINE_FUR", "fg": 10075, "rotates": false },
-				{ "id": "overlay_female_mutation_FELINE_FUR", "fg": 10076, "rotates": false },
+		{ "id": "overlay_female_mutation_FELINE_FUR", "fg": 10076, "rotates": false },
 		{ "id": "overlay_male_mutation_FELINE_FUR", "fg": 10077, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_SPINES", "fg": 10078, "rotates": false },
@@ -47425,7 +47959,7 @@
 		{ "id": "overlay_female_mutation_CHITIN3", "fg": 10084, "rotates": false },
 		{ "id": "overlay_male_mutation_CHITIN3", "fg": 10085, "rotates": false },
 		
-				{ "id": "overlay_female_mutation_CHITIN_FUR", "fg": 10086, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN_FUR", "fg": 10086, "rotates": false },
 		{ "id": "overlay_male_mutation_CHITIN_FUR", "fg": 10087, "rotates": false },
 		{ "id": "overlay_female_mutation_CHITIN_FUR2", "fg": 10088, "rotates": false },
 		{ "id": "overlay_male_mutation_CHITIN_FUR2", "fg": 10089, "rotates": false },
@@ -47440,10 +47974,10 @@
 		{ "id": "overlay_female_mutation_TROGLO3", "fg": 10096, "rotates": false },
 		{ "id": "overlay_male_mutation_TROGLO3", "fg": 10097, "rotates": false },
 		
-				{ "id": "overlay_female_mutation_LYNX_FUR", "fg": 10098, "rotates": false },
+		{ "id": "overlay_female_mutation_LYNX_FUR", "fg": 10098, "rotates": false },
 		{ "id": "overlay_male_mutation_LYNX_FUR", "fg": 10099, "rotates": false },
 		
-		        { "id": "overlay_mutation_TAIL_LONG", "fg": 10100, "rotates": false },
+		{ "id": "overlay_mutation_TAIL_LONG", "fg": 10100, "rotates": false },
 				
         { "id": "overlay_mutation_WHISKERS", "fg": 10101, "rotates": false },
 		
@@ -47452,21 +47986,21 @@
 		
 		{ "id": "overlay_mutation_CLAWS", "fg": 10104, "rotates": false },
 		{ "id": "overlay_mutation_CLAWS_RETRACT", "fg": 10104, "rotates": false },
-				{ "id": "overlay_mutation_CLAWS_TENTACLE", "fg": 10104, "rotates": false },
+		{ "id": "overlay_mutation_CLAWS_TENTACLE", "fg": 10104, "rotates": false },
 		{ "id": "overlay_mutation_CLAWS_ST", "fg": 10105, "rotates": false },
-				{ "id": "overlay_mutation_SHELL", "fg": 10106, "rotates": false },
-				{ "id": "overlay_mutation_SHELL2", "fg": 10107, "rotates": false },
+		{ "id": "overlay_mutation_SHELL", "fg": 10106, "rotates": false },
+		{ "id": "overlay_mutation_SHELL2", "fg": 10107, "rotates": false },
 				
 				
-				{ "id": "overlay_mutation_INSECT_ARMS", "fg": 10108, "rotates": false },
-				{ "id": "overlay_mutation_ARACHNID_ARMS", "fg": 10109, "rotates": false },
+		{ "id": "overlay_mutation_INSECT_ARMS", "fg": 10108, "rotates": false },
+		{ "id": "overlay_mutation_ARACHNID_ARMS", "fg": 10109, "rotates": false },
 				
-				{ "id": "overlay_mutation_MANDIBLES", "fg": 10110, "rotates": false},
+		{ "id": "overlay_mutation_MANDIBLES", "fg": 10110, "rotates": false},
 				
-				{ "id": "overlay_mutation_MOUSE_EARS", "fg": 10111, "rotates": false},
+		{ "id": "overlay_mutation_MOUSE_EARS", "fg": 10111, "rotates": false},
 				
-				{ "id": "overlay_female_mutation_VISCOUS", "fg": 10112, "rotates": false },
-				{ "id": "overlay_male_mutation_VISCOUS", "fg": 10113, "rotates": false },
+		{ "id": "overlay_female_mutation_VISCOUS", "fg": 10112, "rotates": false },
+		{ "id": "overlay_male_mutation_VISCOUS", "fg": 10113, "rotates": false },
 
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
@@ -47591,7 +48125,7 @@
     "sprite_offset_y":-16,
     "tiles":
     [
-			{
+		{
           "id": "overlay_worn_eboshi",
           "fg": 11609,
           "rotates": false
@@ -47730,7 +48264,7 @@
           "id": "effect_onfire",
           "fg": 11639
         },
-				{
+		{
           "id": "onfire",
           "fg": 11639
         },
@@ -48989,7 +49523,6 @@
 			  "bg": 0,
               "id": "end_piece"
             },
-
             {
               "fg": 17027,
 			  "bg": 0,
@@ -49029,7 +49562,6 @@
 			  "bg": 0,
               "id": "end_piece"
             },
-
             {
               "fg": 17043,
 			  "bg": 0,
@@ -49076,7 +49608,6 @@
 			  "bg": 0,
               "id": "end_piece"
             },
-
             {
               "fg": 17059,
 			  "bg": 16899,
@@ -49116,7 +49647,6 @@
 			  "bg": 992,
               "id": "end_piece"
             },
-
             {
               "fg": 17059,
 			  "bg": 992,
@@ -49476,7 +50006,7 @@
           ],
           "rotates": false		  
         },
-				{
+		{
 		  "id": "t_elevator",
           "fg": 17171,
           "bg": 0,
@@ -49749,7 +50279,7 @@
           ],
           "rotates": false		  
         },
-				{
+		{
 		  "id": ["t_grass_dead"],
           "fg": 17236,
           "bg": 0,
@@ -50240,7 +50770,7 @@
           ],
           "rotates": false		  
         },
-				{
+		{
 		  "id": "f_makeshiftfence",
           "fg": 17300,
           "bg": 0,
@@ -50318,7 +50848,7 @@
           ],
           "rotates": false		  
         },
-				{
+		{
 		  "id": "t_fence_season_winter",
           "fg": 17316,
           "bg": 992,
@@ -50721,7 +51251,7 @@
           ],
           "rotates": false		  
         },
-				{
+		{
 		  "id": ["t_woodchips"],
           "fg": 17380,
           "bg": 0,
@@ -51357,7 +51887,7 @@
               "fg": 17453,
               "bg": 5131
             },
-			            {
+			{
               "id": "end_piece",
               "fg": [ 17455, 17456, 17457, 17458 ],
               "bg": 5131
@@ -51368,7 +51898,8 @@
               "bg": 5131
             }
           ]
-        },      {
+        },      
+		{
           "id": ["t_railroad_tie", "t_railroad_tie_d", "t_railroad_tie_v", "t_railroad_tie_h"],
           "fg": 17460,
           "bg": 5131,
@@ -51745,7 +52276,7 @@
 			}
   ]
   },
-{
+  {
 	"file": "10_xfiles_32x32_22052-22195.png",
 	"tiles": [
 		{
@@ -52150,7 +52681,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_cddaxp_cnodachi",
           "fg": 22366,
           "bg": 0,
@@ -52162,7 +52693,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_cddaxp_dkusarigama",
           "fg": 22368,
           "bg": 0,
@@ -52174,37 +52705,37 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_cddaxp_ckusarigama",
           "fg": 22370,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_cbayonet",
           "fg": 22371,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_cpistolbayonet",
           "fg": 22372,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "cddaxp_cswordbayonet",
           "fg": 22373,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "f_flower_tulip",
           "fg": 22374,
           "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "f_flower_spurge",
           "fg": 22375,
           "bg": 0,
@@ -52246,7 +52777,7 @@
           "bg": 1012,
           "rotates": false
         },
-				{
+		{
           "id": "t_shrub_raspberry",
           "fg": 22382,
           "bg": 1012,
@@ -52276,13 +52807,13 @@
           "bg": 1012,
           "rotates": false
         },		
-				{
+		{
           "id": "t_shrub_blackberry_harvested",
           "fg": 22387,
           "bg": 1012,
           "rotates": false
         },
-				{
+		{
           "id": "t_tree_elderberry",
           "fg": 22388,
           "bg": 1012,
@@ -52294,7 +52825,7 @@
           "bg": 1012,
           "rotates": false
         },
-						{
+		{
           "id": "t_tree_mulberry",
           "fg": 22390,
           "bg": 1012,
@@ -52306,49 +52837,49 @@
           "bg": 1012,
           "rotates": false
         },
-				{
+		{
           "id": "t_shrub_hydrangea_season_winter",
           "fg": 22392,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_hydrangea_harvested_season_winter",
           "fg": 22392,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_rose_season_winter",
           "fg": 22393,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_rose_harvested_season_winter",
           "fg": 22393,
           "bg": 992,
           "rotates": false
         },
-								{
+		{
           "id": "t_shrub_grape_season_winter",
           "fg": 22394,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_grape_harvested_season_winter",
           "fg": 22394,
           "bg": 992,
           "rotates": false
         },
-										{
+		{
           "id": "t_shrub_raspberry_season_winter",
           "fg": 22395,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_raspberry_harvested_season_winter",
           "fg": 22395,
           "bg": 992,
@@ -52360,7 +52891,7 @@
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_huckleberry_harvested_season_winter",
           "fg": 22396,
           "bg": 992,
@@ -52372,31 +52903,31 @@
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_shrub_blackberry_harvested_season_winter",
           "fg": 22396,
           "bg": 992,
           "rotates": false
         },
-				{
+		{
           "id": "t_tree_elderberry_season_winter",
           "fg": 22397,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_tree_elderberry_harvested_season_winter",
           "fg": 22397,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_tree_mulberry_season_winter",
           "fg": 22398,
           "bg": 992,
           "rotates": false
         },
-						{
+		{
           "id": "t_tree_mulberry_harvested_season_winter",
           "fg": 22398,
           "bg": 992,
@@ -52408,7 +52939,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "plastic_pot_flower",
           "fg": 22400,
           "bg": 0,
@@ -52420,7 +52951,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_worn_grenadebandolier",
           "fg": 22402,
           "bg": 0,
@@ -52432,7 +52963,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": ["v_motorcycle_kickstand_item", "vp_motorcycle_kickstand"],
           "fg": 22404,
           "bg": 0,
@@ -52444,43 +52975,43 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "irradiated_elderberries",
           "fg": 22406,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "huckleberries",
           "fg": 22407,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "irradiated_huckleberries",
           "fg": 22408,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "mulberries",
           "fg": 22409,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "irradiated_mulberries",
           "fg": 22410,
           "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "hydrangea_bud",
           "fg": 22411,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "hydrangea_flower",
           "fg": 22412,
           "bg": 0,
@@ -52492,7 +53023,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "irradiated_rose_hips",
           "fg": 22414,
           "bg": 0,
@@ -52504,7 +53035,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "rose_flower",
           "fg": 22416,
           "bg": 0,
@@ -52522,7 +53053,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "seed_huckleberries",
           "fg": 22419,
           "bg": 0,
@@ -52534,7 +53065,7 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "seed_rose",
           "fg": 22421,
           "bg": 0,
@@ -52546,61 +53077,61 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "spurge_flower",
           "fg": 22423,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "tulip_bud",
           "fg": 22424,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "tulip_flower",
           "fg": 22425,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "f_candle_barrier",
           "fg": 22426,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "armor_alloyplate",
           "fg": 22427,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_armor_alloyplate",
           "fg": 22428,
           "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": "armored_pack",
           "fg": 22429,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_armored_pack",
           "fg": 22430,
           "bg": 0,
           "rotates": false
         },
-										{
+		{
           "id": "environmental_skinsuit",
           "fg": 22431,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_environmental_skinsuit",
           "fg": 22432,
           "bg": 0,
@@ -52612,7 +53143,7 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_survivor_skinsuit",
           "fg": 22434,
           "bg": 0,
@@ -52624,19 +53155,19 @@
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_survivor_alloyplate",
           "fg": 22436,
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "survivor_lightplate",
           "fg": 22437,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "overlay_worn_survivor_lightplate",
           "fg": 22438,
           "bg": 0,
@@ -52648,19 +53179,19 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": [".303", "reloaded_.303", "reloaded_303_match"],
           "fg": 22440,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": ".30810mag",
           "fg": 22441,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": ".30820mag",
           "fg": 22442,
           "bg": 0,
@@ -52678,19 +53209,19 @@
           "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": ".460",
           "fg": 22445,
           "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "reloaded_.460",
           "fg": 22446,
           "bg": 0,
           "rotates": false
         },
-		        {
+		{
           "id": "wolfsuit",
           "fg": 22447
         },		
@@ -52699,7 +53230,7 @@
           "fg": 22448,          
           "rotates": false
         },
-		        {
+		{
           "id": ["muzzle_brake", "460_muzzle_brake"],
           "fg": 22449
         },		
@@ -52707,11 +53238,11 @@
           "id": "retool_410",
           "fg": 22450
         },	
-				{
+		{
           "id": ["retool_762", "retool_545x39"],
           "fg": 22451
         },	
-						{
+		{
           "id": "retool_mauser",
           "fg": 22452
         },							
@@ -52727,15 +53258,15 @@
           "id": "50api",
           "fg": 22455
         },	
-				{
+		{
           "id": "7.62x54Rmag",
           "fg": 22456
         },	
-				{
+		{
           "id": "7.62x54Rmag2",
           "fg": 22457
         },	
-						{
+		{
           "id": "762_54R_incendiary",
           "fg": 22458
         },						
@@ -52743,19 +53274,19 @@
           "id": ["8mmMauser", "Match_7.92mm", "reloaded_7.92mm"],
           "fg": 22459
         },
-				{
+		{
           "id": "9r51",
           "fg": 22460
         },
-						{
+		{
           "id": "9x4",
           "fg": 22461
         },
-						{
+	    {
           "id": "Enfield17",
           "fg": 22462
         },
-						{
+		{
           "id": "overlay_wielded_Enfield17",
           "fg": 22463
         },						
@@ -52763,7 +53294,7 @@
           "id": "G98",
           "fg": 22464
         },
-						{
+		{
           "id": "overlay_wielded_G98",
           "fg": 22465
         },		
@@ -52771,23 +53302,23 @@
           "id": "SMLEMK4",
           "fg": 22466
         },
-						{
+		{
           "id": "overlay_wielded_SMLEMK4",
           "fg": 22467
         },
-				{
+		{
           "id": "Type24",
           "fg": 22468
         },
-						{
+		{
           "id": "overlay_wielded_Type24",
           "fg": 22469
         },
-						{
+		{
           "id": "ak101",
           "fg": 22470
         },
-						{
+		{
           "id": "overlay_wielded_ak101",
           "fg": 22471
         },				
@@ -52795,7 +53326,7 @@
           "id": "ak102",
           "fg": 22472
         },
-						{
+		{
           "id": "overlay_wielded_ak102",
           "fg": 22473
         },		
@@ -52803,7 +53334,7 @@
           "id": "ak104",
           "fg": 22474
         },
-						{
+		{
           "id": "overlay_wielded_ak104",
           "fg": 22475
         },		
@@ -52811,7 +53342,7 @@
           "id": "ak12",
           "fg": 22477
         },
-						{
+		{
           "id": "overlay_wielded_ak12",
           "fg": 22478
         },		
@@ -52819,15 +53350,15 @@
           "id": "ak12ussr",
           "fg": 22479
         },
-						{
+		{
           "id": "overlay_wielded_ak12ussr",
           "fg": 22480
         },
-								{
+		{
           "id": ["f_BioCo_Assembly_Machine", "BioCo_Assembly_Machine", "BioCo_Assembly_Machine_USE"],
           "fg": 22481
         },
-										{
+		{
           "id": "Autonmous_Machine_Parts",
           "fg": 22482
         },		
@@ -52835,13 +53366,13 @@
           "id": "BioCo_AutoDoc_Core",
           "fg": 22483
         },			
-				{
+		{
           "id": "mon_zombie_skeltal",
           "fg": 22484,
 		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "mon_zombie_skeltal_minion",
           "fg": 22485,
 		  "bg": 967,
@@ -52877,95 +53408,95 @@
 		  "bg": 0,
           "rotates": false
         },	
-				{
+		{
           "id": "backpack_giant",
           "fg": 22491
         },
-						{
+		{
           "id": "overlay_worn_backpack_giant",
           "fg": 22492
         },
-						{
+		{
           "id": "canteen_birchbark",
           "fg": 22493
         },
-								{
+		{
           "id": "jar_clay",
           "fg": 22494
         },
-						{
+		{
           "id": "jar_clay_sealed",
           "fg": 22495
         },
-						{
+		{
           "id": "legwrap_fur",
           "fg": 22496
         },
-						{
+		{
           "id": "overlay_worn_legwrap_fur",
           "fg": 22497
         },
-						{
+		{
           "id": "legwrap_leather",
           "fg": 22498
         },
-						{
+	    {
           "id": "overlay_worn_legwrap_leather",
           "fg": 22499
         },
-								{
+		{
           "id": ["makeshift_sled_frame_item" , "vp_makeshift_sled_frame_part"],
           "fg": 22500
         },
-										{
+		{
           "id": "log_canoe_item",
           "fg": 22501
         },
-								{
+		{
           "id": "pack_basket",
           "fg": 22502
         },
-						{
+		{
           "id": "overlay_worn_pack_basket",
           "fg": 22503
         },
-								{
+		{
           "id": "makeshift_poultice",
           "fg": 22504
         },
-										{
+		{
           "id": "pitch_wood",
           "fg": 22505
         },
-										{
+		{
           "id": "primitive_hoe",
           "fg": 22506
         },
-						{
+		{
           "id": "overlay_wielded_primitive_hoe",
           "fg": 22507
         },
-										{
+		{
           "id": "sheath_birchbark",
           "fg": 22508
         },
-						{
+		{
           "id": "overlay_worn_sheath_birchbark",
           "fg": 22509
         },
-				{
+		{
           "id": ["makeshift_sled_basket_item", "vp_makeshift_sled_basket_part", "makeshift_sled_item"],
           "fg": 22510,
           "bg": 957,
           "rotates": true
         },
-						{
+		{
           "id": ["makeshift_sled_runners_item", "vp_makeshift_sled_runner_part"],
           "fg": 22511,
           "bg": 957,
           "rotates": true
         },
-								{
+		{
           "id": ["log_frame_item", "vp_log_frame_part"],
           "fg": 22512,
           "bg": 957,
@@ -52979,19 +53510,19 @@
           "id": ["teabag_herbal", "teabag_pine"],
           "fg": 22514
         },		
-										{
+		{
           "id": "backpack_fur",
           "fg": 22515
         },
-						{
+		{
           "id": "overlay_worn_backpack_fur",
           "fg": 22516
         },	
-						{
+		{
           "id": "f_wooden_rollmat",
           "fg": 22517
         },	
-						{
+		{
           "id": "wooden_rollmat",
           "fg": 22518
         },							
@@ -53019,20 +53550,20 @@
           "id": "intestines_processed",
           "fg": 22524
         },		
-				{
+		{
           "id": "large_intestines_processed",
           "fg": 22525
         },	
-						{
+		{
           "id": "bike_rack",
           "fg": 22526
         },	
-								{
+		{
           "id": "vp_bike_rack",
           "fg": 22526,
 		  "rotates": true
         },	
-		        {
+		{
           "id": "overlay_worn_scarf_fur",
           "fg": 22527,
           "rotates": false
@@ -53042,7 +53573,7 @@
           "fg": 22527,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_scarf_fur_long",
           "fg": 22528,
           "rotates": false
@@ -53052,7 +53583,7 @@
           "fg": 22528,
           "rotates": false
         },
-		        {
+		{
           "id": "scarf_long_loose",
           "fg": 22529
         },
@@ -53060,16 +53591,16 @@
           "id": "scarf_long",
           "fg": 22529
         },
-				        {
+	    {
           "id": "patchwork_scarf",
           "fg": 22530,
           "rotates": false
         },
-				        {
+	    {
           "id": "patchwork_scarf_loose",
           "fg": 22530
         },
-		        {
+		{
           "id": "overlay_worn_patchwork_scarf",
           "fg": 22531,
           "rotates": false
@@ -53079,7 +53610,7 @@
           "fg": 22531,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_long_patchwork_scarf",
           "fg": 22532,
           "rotates": false
@@ -53089,7 +53620,7 @@
           "fg": 22532,
           "rotates": false
         },
-				        {
+		{
           "id": "grimrobe",
           "fg": 22549,
           "rotates": false
@@ -53099,7 +53630,7 @@
           "fg": 22548,
           "rotates": false
         },		
-		        {
+		{
           "id": "grimrobe",
           "fg": 22549,
           "rotates": false
@@ -53109,32 +53640,32 @@
           "fg": 22550,
           "rotates": false
         },
-						        {
+		{
           "id": "scythe_bone",
           "fg": 22551,
           "rotates": false
         },
-								        {
+		{
           "id": "overlay_wielded_scythe_bone",
           "fg": 22552,
           "rotates": false
         },
-								        {
+		{
           "id": "scythe_diamond",
           "fg": 22553,
           "rotates": false
         },
-								        {
+		{
           "id": "overlay_wielded_scythe_diamond",
           "fg": 22554,
           "rotates": false
         },
-										        {
+        {
           "id": "scythe_fire_on",
           "fg": 22555,
           "rotates": false
         },
-								        {
+	    {
           "id": "overlay_wielded_scythe_fire_on",
           "fg": 22556,
           "rotates": false
@@ -53144,7 +53675,7 @@
           "fg": 22557,
           "rotates": false
         },
-								        {
+		{
           "id": "overlay_wielded_scythe_ornate",
           "fg": 22558,
           "rotates": false
@@ -53154,7 +53685,7 @@
           "fg": 22559,
           "rotates": false
         },
-								        {
+		{
           "id": "overlay_wielded_scythe_relic",
           "fg": 22560,
           "rotates": false
@@ -53164,7 +53695,7 @@
           "fg": 22561,
           "rotates": false
         },  
-				        {
+		{
           "id": "basicscythes_book",
           "fg": 22562,
           "rotates": false
@@ -53179,12 +53710,12 @@
           "fg": 22564,
           "rotates": false
         },	
-				{
+		{
           "id": "blank_dummy",
           "fg": 22573,
           "rotates": false
         },	
-						{
+		{
           "id": "guy_dummy",
           "fg": 22574,
           "rotates": false
@@ -53199,60 +53730,60 @@
           "fg": 22576,
           "rotates": false
         },
-				{
+		{
           "id": "fancy_gal_dummy",
           "fg": 22577,
           "rotates": false
         },
-				{
+		{
           "id": "sport_guy_dummy",
           "fg": 22578,
           "rotates": false
         },
-				{
+		{
           "id": "sport_gal_dummy",
           "fg": 22579,
           "rotates": false
         },
-						{
+		{
           "id": "volleyball",
           "fg": 22580,
           "rotates": false
         },
-				{
+		{
           "id": "volleyball_buddy",
           "fg": 22581,
           "rotates": false
         },
-				{
+		{
           "id": "f_lily",
           "fg": 22587,
           "rotates": false
         },
-						{
+		{
           "id": "f_black_eyed_susan",
           "fg": 22588,
           "rotates": false
         },
-						{
+		{
           "id": "f_lotus",
           "fg": 22589,
           "rotates": false
         },
-						{
+		{
           "id": "f_lilypad",
           "fg": 22590,
           "rotates": false
         },
-								{
+		{
           "id": "f_sunflower",
           "fg": 22591,
           "rotates": false
         },
-								{
+		{
           "id": "t_shrub_peanut",
           "fg": 22592,
-		  			  "bg": [
+		  "bg": [
             { "weight":40, "sprite":1012},
             { "weight":30, "sprite":4833},
             { "weight":30, "sprite":4834},
@@ -53268,10 +53799,10 @@
             ],
           "rotates": false
         },
-								{
+		{
           "id": "t_shrub_peanut_harvested",
           "fg": 22593,
-		  			  "bg": [
+		  "bg": [
             { "weight":40, "sprite":1012},
             { "weight":30, "sprite":4833},
             { "weight":30, "sprite":4834},
@@ -53293,7 +53824,7 @@
 		  "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "magnesium_tablet", 
           "fg": 22595,
 		  "bg": 0,
@@ -53311,7 +53842,7 @@
 		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "hecu_helmet",
           "fg": 22597
         },
@@ -53391,7 +53922,7 @@
           "id": "overlay_worn_hecu_gloves",
           "fg": 22612
         },
-				{
+		{
           "id": "badge_military",
           "fg": 22617
         },
@@ -53399,7 +53930,7 @@
           "id": "overlay_worn_badge_military",
           "fg": 22618
         },
-				{
+		{
           "id": "m110",
           "fg": 22619
         },			
@@ -53407,7 +53938,7 @@
           "id": "overlay_wielded_m110",
           "fg": 22620
         },
-						{
+		{
           "id": "fn_fnp",
           "fg": 22621
         },			
@@ -53415,11 +53946,11 @@
           "id": "overlay_wielded_fn_fnp",
           "fg": 22622
         },
-				{
+		{
           "id": "fnfnp9mag",
           "fg": 22623
         },
-								{
+		{
           "id": "cz_bren",
           "fg": 22624
         },			
@@ -53427,7 +53958,7 @@
           "id": "overlay_wielded_cz_bren",
           "fg": 22625
         },
-										{
+		{
           "id": "auto_assault12",
           "fg": 22626
         },			
@@ -53451,11 +53982,11 @@
           "id": "overlay_wielded_fg42",
           "fg": 22631
         },
-												{
+		{
           "id": "jamisonmag/fg42mag",
           "fg": 22632
         },
-														{
+		{
           "id": "px4_stormsub",
           "fg": 22633
         },			
@@ -53463,7 +53994,7 @@
           "id": "overlay_wielded_px4_stormsub",
           "fg": 22634
         },
-																{
+		{
           "id": "spas15",
           "fg": 22635
         },			
@@ -53471,7 +54002,7 @@
           "id": "overlay_wielded_spas15",
           "fg": 22636
         },
-																		{
+		{
           "id": "jericho_941",
           "fg": 22637
         },			
@@ -53483,7 +54014,7 @@
           "id": "jerichomagazine",
           "fg": 22639
         },
-																				{
+		{
           "id": "rem_model7600",
           "fg": 22640
         },			
@@ -53499,7 +54030,7 @@
           "id": "overlay_wielded_ruger_blackhawk",
           "fg": 22643
         },	
-				{
+		{
           "id": "sig_p227",
           "fg": 22644
         },			
@@ -53507,35 +54038,35 @@
           "id": "overlay_wielded_sig_p227",
           "fg": 22645
         },	
-				{
+		{
           "id": "p227mag",
           "fg": 22646
         },
-		        {
+		{
           "id": "hat_noise_cancelling",
           "fg": 22647
         },
-		 {
+		{
           "id": "acorn_roasted",
           "fg": 22648
         },
-		        {
+		{
           "id": "acorns_cooked",
           "fg": 22649
         },
-						{
+		{
           "id": "almond_unshelled",
           "fg": 22651
         },
-				 {
+		{
           "id": "almond",
           "fg": 22650
         },
-		        {
+		{
           "id": "almond_roasted",
           "fg": 22652
         },	
-		        {
+		{
           "id": "beech_nuts",
           "fg": 22653
         },		
@@ -53551,92 +54082,96 @@
           "id": "smart_phone_flashlight",
           "fg": 22656
         },
-				{
+		{
           "id": "faux_fur",
           "fg": 22657
         },
-						{
+		{
           "id": "faux_fur_cat_ears",
           "fg": 22658
-        },				{
+        },
+		{
           "id": "overlay_worn_faux_fur_cat_ears",
           "fg": 22659
         },
-								{
+		{
           "id": "faux_fur_cat_tail",
           "fg": 22660
-        },				{
+        },				
+		{
           "id": "overlay_worn_faux_fur_cat_tail",
           "fg": 22661
         },
-								{
+		{
           "id": "faux_fur_collar",
           "fg": 22662
-        },				{
+        },				
+		{
           "id": "overlay_worn_faux_fur_collar",
           "fg": 22663
         },
-										{
+		{
           "id": "coat_faux_fur",
           "fg": 22664
-        },				{
+        },				
+		{
           "id": "overlay_worn_coat_faux_fur",
           "fg": 22665
         },		
 		{
-		"id": ["mon_tengu"],
+		  "id": ["mon_tengu"],
           "fg": 22666,
 		  "bg": 967,
           "rotates": false
 		},
 		{
-		"id": ["mon_tengu_monk"],
+		  "id": ["mon_tengu_monk"],
           "fg": 22667,
 		  "bg": 967,
           "rotates": false
 		},
 		{
-		"id": ["mon_nekomata"],
+		  "id": ["mon_nekomata"],
           "fg": 22668,
 		  "bg": 967,
           "rotates": false
 		},
 		{
-		"id": ["mon_kappa"],
+		  "id": ["mon_kappa"],
           "fg": 22669,
 		  "bg": 967,
           "rotates": false
 		},
 		{
-		"id": ["mon_kappa_engineer"],
+		  "id": ["mon_kappa_engineer"],
           "fg": 22670,
 		  "bg": 967,
           "rotates": false
 		},
 		{
-		"id": ["broken_kappabot"],
+		  "id": ["broken_kappabot"],
           "fg": 22671,
 		  "bg": 967,
           "rotates": false
 		},
 		{
-		"id": ["nekomata_tails"],
+		  "id": ["nekomata_tails"],
           "fg": 22672,
           "rotates": false
 		},
 		{
-		"id": ["mon_kamaitachi"],
+		    "id": ["mon_kamaitachi"],
 			"fg": 22673,
 			"bg": 967,
 			"rotates": false
 		},
 		{
-		"id": ["koji"],
+		    "id": ["koji"],
 			"fg": 22674,
 			"rotates": false
 		},
 		{
-		"id": ["sake_koji_rice"],
+		    "id": ["sake_koji_rice"],
 			"fg": 22675,
 			"rotates": false
 		},
@@ -53660,7 +54195,7 @@
 		  "fg": 22678,
 		  "rotates": false
 		},
-				{
+		{
 		  "id": ["black_eyed_susan_bud"],
 		  "fg" : 22679,
 		  "rotates" : false
@@ -53690,16 +54225,16 @@
           "fg": 22684,
           "rotates": false
         },
-		        {
+		{
           "id": "jedi_cloak",
           "fg": 22685
         },
-		        {
+		{
           "id": "overlay_worn_cloak_fur",
           "fg": 22686,
           "rotates": false
         },
-		        {
+		{
           "id": "chainsaw_off",
           "fg": 22687,
           "rotates": false
@@ -53719,7 +54254,7 @@
           "fg": 22690,
           "rotates": false
         },
-				        {
+		{
           "id": "chainsaw_off",
           "fg": 22687,
           "rotates": false
@@ -53739,7 +54274,7 @@
           "fg": 22690,
           "rotates": false
         },
-						        {
+		{
           "id": "combatsaw_off",
           "fg": 22691,
           "rotates": false
@@ -53759,7 +54294,7 @@
           "fg": 22694,
           "rotates": false
         },
-						        {
+		{
           "id": "elec_chainsaw_off",
           "fg": 22695,
           "rotates": false
@@ -53779,7 +54314,7 @@
           "fg": 22698,
           "rotates": false
         },
-						        {
+		{
           "id": "e_combatsaw_off",
           "fg": 22699,
           "rotates": false
@@ -53799,7 +54334,7 @@
           "fg": 22702,
           "rotates": false
         },
-								        {
+		{
           "id": "cs_lajatang_off",
           "fg": 22703,
           "rotates": false
@@ -53809,7 +54344,7 @@
           "fg": 22704,
           "rotates": false
         },
-										        {
+		{
           "id": "ecs_lajatang_off",
           "fg": 22705,
           "rotates": false
@@ -53843,7 +54378,7 @@
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_trimmer_off",
           "fg": 22711,
           "bg": 957,
@@ -53855,13 +54390,13 @@
           "bg": 957,
           "rotates": false
         },
-				{
+		{
           "id": "t_shrub_lilac",
           "fg": 22713,
           "bg": 1012,
           "rotates": false
         },
-		        {
+		{
           "id": "t_shrub_lilac_harvested",
           "fg": 22714,
           "bg": 1012,
@@ -53878,12 +54413,12 @@
           "fg": 22716,
           "rotates": false
         },	
-				{
+		{
           "id": "pot_canning",
           "fg": 22717,
           "rotates": false
         },	
-						{
+		{
           "id": "pot_xlhelmet",
           "fg": 22718,
           "rotates": false
@@ -53893,7 +54428,7 @@
           "fg": 22719,
           "rotates": false
         },	
-				{
+		{
           "id": "hazelnut",
           "fg": 22720,
           "rotates": false
@@ -53938,13 +54473,13 @@
           "fg": 22728,
           "rotates": false
         },	
-		        {
+		{
           "id": "atomic_coffeepot",
           "fg": 22729,
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "inj_iron",
           "fg": 22730
         },	
@@ -53954,7 +54489,7 @@
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "lilac_flower",
           "fg": 22732
         },	
@@ -53974,7 +54509,7 @@
           "id": "lotus_bud",
           "fg": 22736
         },	    
-				{
+	    {
           "id": "peanut",
           "fg": 22737
         },		
@@ -53982,7 +54517,7 @@
           "id": "peanut_unshelled",
           "fg": 22738
         },	
-						{
+		{
           "id": "pecan",
           "fg": 22739
         },		
@@ -54025,6 +54560,7 @@
 		{
           "id": "mon_turret_gnome",
           "fg": 22748,
+		  "bg": 967,
 		  "rotates": true
         },		
 		{
@@ -54037,12 +54573,12 @@
           "fg": 22750,
 		  "rotates": true
         },	
-				{
+		{
           "id": ["broken_turret_9mm", "broken_turret"],
           "fg": 22751,
 		  "rotates": true
         },	
-						{
+		{
           "id": ["bot_turret_9mm", "bot_turret"],
           "fg": 22752,
 		  "rotates": true
@@ -54050,6 +54586,7 @@
 		{
           "id": "mon_turret_shot",
           "fg": 22753,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54062,9 +54599,10 @@
           "fg": 22755,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_turret_teargas",
           "fg": 22756,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54080,6 +54618,7 @@
 		{
           "id": "mon_turret_beanbag",
           "fg": 22759,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54092,7 +54631,7 @@
           "fg": 22761,
 		  "rotates": true
         },
-				{
+		{
           "id": ["broken_turret_rifle", "broken_milturret_556"],
           "fg": 22762,
 		  "rotates": true
@@ -54102,14 +54641,15 @@
           "fg": 22763,
 		  "rotates": true
         },
-		        {
+		{
           "id": "overlay_wielded_m1918",
           "fg": 22764,
           "rotates": false
         },
-				{
+		{
           "id": "mon_milturret_308",
           "fg": 22765,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54135,6 +54675,7 @@
 		{
           "id": "mon_milturret_8x40mm",
           "fg": 22770,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54147,7 +54688,7 @@
           "fg": 22772,
 		  "rotates": true
         },	
-				{
+		{
           "id": "bodypillow",
           "fg": 22773,
 		  "rotates": true
@@ -54157,9 +54698,10 @@
           "fg": 22774,
 		  "rotates": true
         },	
-				{
+		{
           "id": "mon_milturret_needle",
           "fg": 22775,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54172,9 +54714,10 @@
           "fg": 22777,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_milturret_40mm",
           "fg": 22778,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54187,9 +54730,10 @@
           "fg": 22780,
 		  "rotates": true
         },
-								{
+		{
           "id": "mon_milturret_flame",
           "fg": 22781,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54202,7 +54746,7 @@
           "fg": 22783,
 		  "rotates": true
         },
-				{
+		{
           "id": ["broken_laserturret", "broken_advturret_laser"],
           "fg": 22784,
 		  "rotates": true
@@ -54212,9 +54756,10 @@
           "fg": 22785,
 		  "rotates": true
         },
-										{
+		{
           "id": "mon_advturret_acid",
           "fg": 22786,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54230,6 +54775,7 @@
 		{
           "id": "mon_advturret_plasma",
           "fg": 22789,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54242,9 +54788,10 @@
           "fg": 22791,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_advturret_rail",
           "fg": 22792,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54260,6 +54807,7 @@
 		{
           "id": "mon_advturret_lightning",
           "fg": 22795,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54275,6 +54823,7 @@
 		{
           "id": "mon_advturret_emp",
           "fg": 22798,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54287,9 +54836,10 @@
           "fg": 22800,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_turret_disarmed",
           "fg": 22801,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54302,9 +54852,10 @@
           "fg": 22801,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_milturret_disarmed",
           "fg": 22803,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54317,9 +54868,10 @@
           "fg": 22803,
 		  "rotates": true
         },
-								{
+		{
           "id": "mon_advturret_disarmed",
           "fg": 22805,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54335,6 +54887,7 @@
 		{
           "id": "mon_turret_water",
           "fg": 22807,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54350,6 +54903,7 @@
 		{
           "id": "mon_craftbuddy",
           "fg": 22810,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54362,9 +54916,10 @@
           "fg": 22812,
 		  "rotates": true
         },
-				{
+		{
           "id": ["mon_autoarmor_basic", "mon_autoarmor_base"],
           "fg": 22813,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54377,9 +54932,10 @@
           "fg": 22815,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_autoarmor_heavy",
           "fg": 22816,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54395,6 +54951,7 @@
 		{
           "id": "mon_autoarmor_light",
           "fg": 22819,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54407,9 +54964,10 @@
           "fg": 22821,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_light_hack",
           "fg": 22822,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54422,9 +54980,10 @@
           "fg": 22824,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_distract_hack",
           "fg": 22825,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54437,9 +54996,10 @@
           "fg": 22827,
 		  "rotates": true
         },
-								{
+		{
           "id": "mon_arson_hack",
           "fg": 22829,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54452,9 +55012,10 @@
           "fg": 22831,
 		  "rotates": true
         },
-										{
+		{
           "id": "mon_spore_hack",
           "fg": 22832,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54470,6 +55031,7 @@
 		{
           "id": "mon_eyebot_heater",
           "fg": 22835,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54482,9 +55044,10 @@
           "fg": 22837,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_eyebot_furnace",
           "fg": 22838,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54497,9 +55060,10 @@
           "fg": 22840,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_eyebot_burn",
           "fg": 22841,
+		  "bg": 967,
 		  "rotates": true
         },
 		{
@@ -54512,12 +55076,12 @@
           "fg": 22843,
 		  "rotates": true
         },
-				{
+		{
           "id": "helmet_riot_raised",
           "fg": 22844,
 		  "rotates": true
         },
-								{
+		{
           "id": "mon_utilibot",
           "fg": 22845,
 		  "bg": 967,
@@ -54549,7 +55113,7 @@
           "fg": 22850,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_utilibot_const",
           "fg": 22851,
 		  "bg": 967,
@@ -54565,7 +55129,7 @@
           "fg": 22853,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_utilibot_fire",
           "fg": 22854,
 		  "bg": 967,
@@ -54581,7 +55145,7 @@
           "fg": 22856,
 		  "rotates": true
         },
-								{
+		{
           "id": "mon_utilibot_blob",
           "fg": 22857,
 		  "bg": 967,
@@ -54597,12 +55161,12 @@
           "fg": 22859,
 		  "rotates": true
         },
-				{
+		{
           "id": "overlay_worn_helmet_riot_raised",
           "fg": 22860,
 		  "rotates": true
         },
-								{
+		{
           "id": "mon_utilibot_slimespring",
           "fg": 22861,
 		  "bg": 967,
@@ -54618,7 +55182,7 @@
           "fg": 22863,
 		  "rotates": true
         },
-										{
+		{
           "id": "mon_utilibot_digester",
           "fg": 22864,
 		  "bg": 967,
@@ -54634,7 +55198,7 @@
           "fg": 22866,
 		  "rotates": true
         },
-												{
+		{
           "id": "mon_utilibot_beehive",
           "fg": 22867,
 		  "bg": 967,
@@ -54666,7 +55230,7 @@
           "fg": 22872,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_medibot_assassin",
           "fg": 22873,
 		  "bg": 967,
@@ -54682,12 +55246,12 @@
           "fg": 22875,
 		  "rotates": true
         },
-		        {
+		{
           "id": "overlay_worn_dance_shoes",
           "fg": 22876,
           "rotates": false
         },
-						{
+		{
           "id": "mon_medibot_elixir",
           "fg": 22877,
 		  "bg": 967,
@@ -54751,7 +55315,7 @@
           "fg": 22888,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_skitterbot_hunter",
           "fg": 22889,
 		  "bg": 967,
@@ -54767,12 +55331,12 @@
           "fg": 22891,
 		  "rotates": true
         },
-				{
+		{
           "id": "broken_broken_cyborg",
           "fg": 22892,
 		  "rotates": true
         },	
-						{
+		{
           "id": "mon_cyborg_necro",
           "fg": 22893,
 		  "bg": 967,
@@ -54788,7 +55352,7 @@
           "fg": 22895,
 		  "rotates": true
         },
-								{
+		{
           "id": ["mon_secubot", "mon_defbot_9mm"],
           "fg": 22896,
 		  "bg": 967,
@@ -54820,7 +55384,7 @@
           "fg": 22901,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_defbot_shot",
           "fg": 22902,
 		  "bg": 967,
@@ -54836,7 +55400,7 @@
           "fg": 22904,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_defbot_cowboy",
           "fg": 22905,
 		  "bg": 967,
@@ -54852,12 +55416,12 @@
           "fg": 22907,
 		  "rotates": true
         },
-		        {
+		{
           "id": "overlay_worn_dress_shoes",
           "fg": 22908,
           "rotates": false
         },
-								{
+		{
           "id": "mon_defbot_samurai",
           "fg": 22909,
 		  "bg": 967,
@@ -54894,116 +55458,116 @@
             "fg": 22915,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "t_shrub_helmet_plump_harvested",
             "fg": 22916,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_pod_sweet_season_autumn", "t_shrub_pod_sweet_season_winter" ],
             "fg": 22917,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_pod_sweet", "t_shrub_pod_sweet_season_spring", "t_shrub_pod_sweet_season_summer" ],
             "fg": 22918,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "t_shrub_pod_sweet_harvested",
             "fg": 22919,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_wheat_cave_season_summer", "t_shrub_wheat_cave_season_autumn" ],
             "fg": 22920,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_wheat_cave", "t_shrub_wheat_cave_season_spring", "t_shrub_wheat_cave_season_winter" ],
             "fg": 22921,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "t_shrub_wheat_cave_harvested",
             "fg": 22922,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_tails_pig_season_summer", "t_shrub_tails_pig_season_autumn" ],
             "fg": 22923,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_tails_pig", "t_shrub_tails_pig_season_spring", "t_shrub_tails_pig_season_winter" ],
             "fg": 22924,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "t_shrub_tails_pig_harvested",
             "fg": 22925,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "t_shrub_bush_quarry_season_winter",
             "fg": 22926,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "t_shrub_bush_quarry", "t_shrub_bush_quarry_season_spring", "t_shrub_bush_quarry_season_summer", "t_shrub_bush_quarry_season_autumn" ],
             "fg": 22927,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "t_shrub_bush_quarry_harvested",
             "fg": 22928,
             "bg": 4844,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": [ "caveyot_helmet_plump", "caveyot_helmet_plump_cooked" ],
             "fg": 22929,
             "bg": 0,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "caveyot_pod_sweet",
             "fg": 22930,
             "bg": 0,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "caveyot_wheat_cave",
             "fg": 22931,
             "bg": 0,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": "caveyot_tails_pig",
             "fg": 22932,
             "bg": 0,
             "rotates": false
-          },
-          {
+        },
+        {
             "id": ["caveyot_bush_quarry", "caveyot_bush_quarry_cooked"],
             "fg": 22933,
             "bg": 0,
             "rotates": false
-          },
-		  		{
+        },
+		{
           "id": "mon_milbot_trainer",
           "fg": 22934,
 		  "bg": 967,
@@ -55019,7 +55583,7 @@
           "fg": 22936,
 		  "rotates": true
         },
-				  		{
+		{
           "id": "mon_milbot_556",
           "fg": 22937,
 		  "bg": 967,
@@ -55035,7 +55599,7 @@
           "fg": 22939,
 		  "rotates": true
         },
-		        {
+		{
           "id": "overlay_worn_tux",
           "fg": 22940,
           "rotates": false
@@ -55056,7 +55620,7 @@
           "fg": 22943,
 		  "rotates": true
         },
-				  		{
+		{
           "id": "mon_milbot_50bmg",
           "fg": 22944,
 		  "bg": 967,
@@ -55072,7 +55636,7 @@
           "fg": 22946,
 		  "rotates": true
         },
-						  		{
+		{
           "id": "mon_milbot_8x40mm",
           "fg": 22947,
 		  "bg": 967,
@@ -55088,7 +55652,7 @@
           "fg": 22949,
 		  "rotates": true
         },
-								  		{
+		{
           "id": "mon_milbot_needle",
           "fg": 22950,
 		  "bg": 967,
@@ -55104,7 +55668,7 @@
           "fg": 22952,
 		  "rotates": true
         },
-								  		{
+		{
           "id": "mon_milbot_40mm",
           "fg": 22953,
 		  "bg": 967,
@@ -55120,7 +55684,7 @@
           "fg": 22955,
 		  "rotates": true
         },
-		        {
+		{
           "id": "wool_suit",
           "fg": 22956
         },
@@ -55156,7 +55720,7 @@
           "fg": 22962,
 		  "rotates": true
         },
-								  		{
+		{
           "id": "mon_milbot_deluxe",
           "fg": 22963,
 		  "bg": 967,
@@ -55172,7 +55736,7 @@
           "fg": 22965,
 		  "rotates": true
         },
-		  		{
+		 {
           "id": "mon_milbot_protector",
           "fg": 22966,
 		  "bg": 967,
@@ -55188,7 +55752,7 @@
           "fg": 22968,
 		  "rotates": true
         },
-								  		{
+		{
           "id": "mon_milbot_defender",
           "fg": 22969,
 		  "bg": 967,
@@ -55199,13 +55763,12 @@
           "fg": 22970,
 		  "rotates": true
         },	
-
-		{
+        {
           "id": "bot_milbot_defender",
           "fg": 22971,
 		  "rotates": true
         },
-		 {
+		{
           "id": "overlay_worn_wool_suit",
           "fg": 22972,
           "rotates": false
@@ -55226,7 +55789,7 @@
           "fg": 22975,
 		  "rotates": true
         },
-				{
+	    {
           "id": "mon_advbot_plasma",
           "fg": 22976,
 		  "bg": 967,
@@ -55248,7 +55811,7 @@
 		  "bg": 967,
 		  "rotates": true
         },
-				{
+		{
           "id": "broken_advbot_rail",
           "fg": 22980,
 		  "rotates": true
@@ -55258,7 +55821,7 @@
           "fg": 22981,
 		  "rotates": true
         },
-				{
+		{
           "id": "mon_advbot_lightning",
           "fg": 22982,
 		  "bg": 967,
@@ -55274,7 +55837,7 @@
           "fg": 22984,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_advbot_emp",
           "fg": 22985,
 		  "bg": 967,
@@ -55290,7 +55853,7 @@
           "fg": 22987,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_advbot_glitter",
           "fg": 22989,
 		  "bg": 967,
@@ -55306,7 +55869,7 @@
           "fg": 22991,
 		  "rotates": true
         },
-						{
+		{
           "id": "mon_advbot_bitter",
           "fg": 22992,
 		  "bg": 967,
@@ -55322,7 +55885,7 @@
           "fg": 22994,
 		  "rotates": true
         },
-		        {
+		{
           "id": "crucible",
           "fg": 22995,
           "bg": 0,
@@ -55342,7 +55905,7 @@
           "fg": 22998,
           "rotates": false
         },
-				{
+		{
           "id": "coin_quarter",
           "fg": 22999
         },
@@ -55351,7 +55914,7 @@
           "fg": 23000,
           "rotates": false
         },
-		        {
+		{
           "id": "mask_rioter",
           "fg": 23001
         },
@@ -55360,7 +55923,7 @@
           "fg": 23002,
           "rotates": false
         },
-				        {
+		{
           "id": "keffiyeh",
           "fg": 23003
         },
@@ -55369,7 +55932,7 @@
           "fg": 23004,
           "rotates": false
         },
-				        {
+	    {
           "id": "thermal_mask",
           "fg": 23005,
           "bg": 957,
@@ -55381,7 +55944,7 @@
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_thermal_mask",
           "fg": 23006,
           "rotates": false
@@ -55391,7 +55954,7 @@
           "fg": 23006,
           "rotates": false
         },
-						        {
+		{
           "id": "duster_faux_fur",
           "fg": 23007
         },
@@ -55400,18 +55963,18 @@
           "fg": 23008,
           "rotates": false
         },
-				{
+		{
           "id": "longsword_fake",
           "fg": 23009,
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_longsword_fake",
           "fg": 23010,
           "rotates": false
         },
-		        {
+		{
           "id": "longsword",
           "fg": 23011,
           "bg": 957,
@@ -55433,7 +55996,7 @@
           "fg": 23014,
           "rotates": false
         },
-		        {
+		{
           "id": "katana",
           "fg": 23015,
           "bg": 957,
@@ -55450,7 +56013,7 @@
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_katana_fake",
           "fg": 23018,
           "rotates": false
@@ -55466,7 +56029,7 @@
           "fg": 23020,
           "rotates": false
         },
-		        {
+		{
           "id": "firekatana_off",
           "fg": 23021,
           "bg": 957,
@@ -55483,7 +56046,6 @@
           "bg": 957,
           "rotates": false
         },		
-
         {
           "id": "overlay_wielded_firekatana_on",
           "fg": 23024,
@@ -55498,7 +56060,7 @@
           "fg": 23026,
           "rotates": false
         },
-				{
+		{
           "id": "footrags",
           "fg": 23027,
           "bg": 957
@@ -55508,7 +56070,7 @@
           "fg": 23028,
           "rotates": false
         },
-				        {
+		{
           "id": "flip_flops",
           "fg": 23029,
           "rotates": false
@@ -55518,15 +56080,15 @@
           "fg": 23030,
           "rotates": false
         },
-		        {
+		{
           "id": "ragpouch",
           "fg": 23031
         },
-				        {
+		{
           "id": "overlay_worn_ragpouch",
           "fg": 23032
         },
-				        {
+		{
           "id": "slippers",
           "fg": 23033
         },
@@ -55535,25 +56097,25 @@
           "fg": 23034,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_candle",
           "fg": 23035,
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_candle_lit",
           "fg": 23036,
           "bg": 957,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_worn_mouthpiece",
           "fg": 23037,
           "bg": 957,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_judo_belt_black",
           "fg": 23038,
           "rotates": false
@@ -55588,22 +56150,22 @@
           "fg": 23044,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_backpack_leather",
           "fg": 23045,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_worn_backpack_leather",
           "fg": 23045,
           "rotates": false
         },
-		 {
+		{
           "id": "overlay_worn_survivor_pack",
           "fg": 23046,
           "rotates": false
         },
-				        {
+	    {
           "id": "makeshift_knife",
           "fg": 23047
         },
@@ -55612,15 +56174,15 @@
           "fg": 23048,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_throwing_knife",
           "fg": 23049
         },
-		        {
+		{
           "id": "cassock",
           "fg": 23050
         },
-		        {
+		{
           "id": "geta",
           "fg": 23051
         },
@@ -55628,7 +56190,7 @@
           "id": "eboshi",
           "fg": 23052
         },
-		        {
+		{
           "id": "kariginu",
           "fg": 23053
         },
@@ -55636,15 +56198,15 @@
           "id": "thawb",
           "fg": 23054
         },
-		        {
+		{
           "id": "kufi",
           "fg": 23055
         },
-		        {
+		{
           "id": "kippah",
           "fg": 23056
         },
-		        {
+		{
           "id": "kittel",
           "fg": 23057
         },
@@ -55652,7 +56214,7 @@
           "id": ["bondage_mask", "bondage_mask_zipped"],
           "fg": 23058
         },
-				        {
+	    {
           "id": "overlay_worn_bondage_mask",
           "fg": 544,
           "rotates": false
@@ -55667,7 +56229,7 @@
           "fg": 2001,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_crossbow",
           "fg": 2096,
           "rotates": false
@@ -55677,7 +56239,7 @@
           "fg": 23060,
           "rotates": false
         },	
-				{
+	    {
           "id": "overlay_wielded_crossbow_makeshift",
           "fg": 23061,
           "rotates": false
@@ -55687,22 +56249,22 @@
           "fg": 2007,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_ethereal_crossbow",
           "fg": 23062,
           "rotates": false
         },
-				        {
+		{
           "id": "hand_crossbow",
           "fg": 2025,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_hand_crossbow",
           "fg": 2104,
           "rotates": false
         },
-		        {
+		{
           "id": "bullet_crossbow",
           "fg": 1992,
           "bg": 957,
@@ -55713,7 +56275,7 @@
           "fg": 23063,
           "rotates": false
         },
-		        {
+		{
           "id": "gun_crossbow",
           "fg": 23064
         },
@@ -55722,27 +56284,27 @@
           "fg": 2036,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_huge_crossbow",
           "fg": 2090,
           "rotates": false
         },
-		        {
+		{
           "id": "compcrossbow",
           "fg": 23065,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_compcrossbow",
           "fg": 23066,
           "rotates": false
         },
-				        {
+	    {
           "id": "compositecrossbow",
           "fg": 23067,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_compositecrossbow",
           "fg": 23068,
           "rotates": false
@@ -55752,17 +56314,17 @@
           "fg": 2173,
           "rotates": false
         },
-		        {
+		{
           "id": ["overlay_wielded_rep_crossbow"],
           "fg": 2133,
           "rotates": false
         },
-		        {
+		{
           "id": ["hat_faux_fur"],
           "fg": 23069,
           "rotates": false
         },
-		        {
+		{
           "id": ["overlay_worn_hat_faux_fur"],
           "fg": 23070,
           "rotates": false
@@ -55772,17 +56334,17 @@
           "fg": 23071,
           "rotates": false
         },
-		        {
+		{
           "id": ["overlay_worn_pants_faux_fur"],
           "fg": 23072,
           "rotates": false
         },
-		        {
+		{
           "id": ["trenchcoat_faux_fur"],
           "fg": 23073,
           "rotates": false
         },
-		        {
+		{
           "id": ["overlay_worn_trenchcoat_faux_fur"],
           "fg": 23074,
           "rotates": false
@@ -55792,7 +56354,7 @@
           "fg": 23075,
           "rotates": false
         },
-		        {
+		{
           "id": ["overlay_worn_sleeveless_duster_faux_fur"],
           "fg": 23076,
           "rotates": false
@@ -55802,7 +56364,7 @@
           "fg": 23077,
           "rotates": false
         },
-		        {
+		{
           "id": ["overlay_worn_sleeveless_trenchcoat_faux_fur"],
           "fg": 23078,
           "rotates": false
@@ -55827,22 +56389,22 @@
           "fg": 23082,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_gauntlets_necro",
           "fg": 23083,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_trenchcoat_leather",
           "fg": 23084,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_gloves_wool",
           "fg": 23085,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_wielded_rm103a_pistol",
           "fg": 23086,
           "rotates": false
@@ -55850,74 +56412,88 @@
 		{
           "id": "mon_insect_leech",
           "fg": 23087,
+		  "bg": 967,
           "rotates": false
         },
-				{
+	    {
           "id": "mon_insect_hugeleech",
           "fg": 23088,
+		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "mon_insect_abominableleech",
           "fg": 23089,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_acidicleech",
           "fg": 23090,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_insect_bigleech",
           "fg": 23091,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_bloatedleech",
           "fg": 23092,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_insect_devourerleech",
           "fg": 23093,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_bloodsurgeleech",
           "fg": 23094,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_insect_dreadfulleech",
           "fg": 23095,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_eyedleech",
           "fg": 23096,
+		  "bg": 967,
           "rotates": false
         },
-				{
+	    {
           "id": "mon_insect_sharpshooterleech",
           "fg": 23097,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_spikyleech",
           "fg": 23098,
+		  "bg": 967,
           "rotates": false
         },
-				{
+	    {
           "id": "mon_insect_vampireleech",
           "fg": 23099,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_insect_venomleech",
           "fg": 23100,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_vampbat",
           "fg": 23101,
           "rotates": false
@@ -55927,60 +56503,60 @@
           "fg": 23102,
           "rotates": false
         },
-				{
+		{
           "id": "mon_feralvampbat",
           "fg": 23103,
           "rotates": false
         },
-						{
+		{
           "id": "mon_zombie_bonewraith",
           "fg": 23104,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
-								{
+		{
           "id": "mon_zombie_bloodcompact",
           "fg": 23105,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_zombie_blooddefused",
           "fg": 23106,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
-				{
+		{
           "id": "mon_zombie_bloodinfused",
           "fg": 23107,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "mon_zombie_shapeshifter",
           "fg": 23108,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_zombie_shifter",
           "fg": 23109,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
-				{
+	    {
           "id": "mon_zombie_succumbvampire",
           "fg": 23110,
-		   "bg": 967,
+		  "bg": 967,
           "rotates": false
         },
-						{
+		{
           "id": "nec_teddy",
           "fg": 23111,
 		   "bg": 0,
           "rotates": false
         },
-								{
+		{
           "id": ["overlay_wielded_nec_teddy", "overlay_worn_nec_teddy"],
           "fg": 23112,
 		   "bg": 0,
@@ -55992,7 +56568,7 @@
 		   "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "veggy_salted",
           "fg": 23115,
 		   "bg": 0,
@@ -56004,19 +56580,19 @@
 		   "bg": 0,
           "rotates": false
         },
-				{
+		{
           "id": "meat_salted",
           "fg": 23117,
 		   "bg": 0,
           "rotates": false
         },
-						{
+		{
           "id": "plastic_bag_vac",
           "fg": 23118,
 		   "bg": 0,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_cloak_wool",
           "fg": 23119,
           "rotates": false
@@ -56025,69 +56601,69 @@
           "id": "boots_larmor",
           "fg": 23120
         },
-		        {
+		{
           "id": "overlay_worn_boots_larmor",
           "fg": 23121,
           "rotates": false
         },
-		        {
+		{
           "id": "boots_plate",
           "fg": 23122
         },
-		        {
+		{
           "id": "overlay_worn_boots_plate",
           "fg": 23123,
           "rotates": false
         },
-		        {
+		{
           "id": "panties",
           "fg": 23124,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_female_worn_panties",
           "fg": 23125,
           "rotates": false
         },
-				        {
+	    {
           "id": "overlay_male_worn_panties",
           "fg": 23126,
           "rotates": false
         },
-		        {
+		{
           "id": "bra",
           "fg": 23127,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_female_worn_bra",
           "fg": 23128,
           "rotates": false
         },
-		 {
+		{
           "id": "overlay_male_worn_bra",
           "fg": 23129,
           "rotates": false
         },
-		        {
+		{
           "id": "nomex_gloves",
           "fg": 23130
         },
-		        {
+		{
           "id": "overlay_worn_nomex_gloves",
           "fg": 23131,
           "rotates": false
         },
-		        {
+		{
           "id": "gloves_fsurvivor",
           "fg": 23132
         },
-		        {
+		{
           "id": "overlay_worn_gloves_fsurvivor",
           "fg": 23133,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_gloves_medical",
           "fg": 23134,
           "rotates": false
@@ -56096,16 +56672,16 @@
           "id": "long_glove_white",
           "fg": 23135
         },
-		        {
+		{
           "id": "glove_jackson",
           "fg": 23136
         },
-		 {
+		{
           "id": "overlay_worn_glove_jackson",
           "fg": 23137,
           "rotates": false
         },
-				        {
+        {
           "id": "anbc_suit",
           "fg": 23138
         },
@@ -56119,39 +56695,39 @@
           "fg": 23140,
           "rotates": false
         },
-		        {
+		{
           "id": "ai_core_blank",
           "fg": 23141
         },
-		        {
+		{
           "id": "ai_core",
           "fg": 23142
         },
-				        {
+	    {
           "id": "nanite_core_1",
           "fg": 23143
         },
-		        {
+		{
           "id": "nanite_core_2",
           "fg": 23144
         },
-				        {
+	    {
           "id": "nanite_core_3",
           "fg": 23145
         },
-		        {
+		{
           "id": "nanite_core_4",
           "fg": 23146
         },
-		  {
+		{
           "id": "nanite_guide",
           "fg": 23147
         },
-				  {
+	    {
           "id": "nano_storage",
           "fg": 23148
         },
-				{
+		{
           "id": "overlay_worn_nano_storage",
           "fg": 23149,
           "rotates": false
@@ -56160,25 +56736,25 @@
           "id": "nanosuit",
           "fg": 23150
         },
-						{
+		{
           "id": "overlay_worn_nanosuit",
           "fg": 23151,
           "rotates": false
         },
-				{
+		{
           "id": "nano_container",
           "fg": 23152
         },
-						{
+		{
           "id": "overlay_worn_nano_container",
           "fg": 23153,
           "rotates": false
         },
-						{
+		{
           "id": "nano_shredder",
           "fg": 23154
         },
-						{
+		{
           "id": "overlay_wielded_nano_shredder",
           "fg": 23155,
           "rotates": false
@@ -56187,15 +56763,15 @@
           "id": "draconic_heart",
           "fg": 23158
         },
-				{
+		{
           "id": "draconic_heart_mutator",
           "fg": 23159
         },
-						{
+		{
           "id": "essence_pure",
           "fg": 23160
         },
-				{
+		{
           "id": "meteoric_talisman_on",
           "fg": 23161,
           "rotates": false
@@ -56215,7 +56791,7 @@
           "fg": 23164,
           "rotates": false
         },
-				{
+		{
           "id": "atomic_earthquake_generator",
           "fg": 23165,
           "rotates": false
@@ -56225,28 +56801,28 @@
           "fg": 23166,
           "rotates": false
         },
-						{
+	    {
           "id": "atomic_entity_scanner",
           "fg": 23167,
           "rotates": false
         },	
-								{
+		{
           "id": "t_hidden_door_c",
           "fg": 23168,
 		            "bg": 987,
           "rotates": false
         },	
-										{
+		{
           "id": "t_hidden_door_o",
           "fg": 23169,
 		            "bg": 987,
           "rotates": false
         },	
-		        {
+		{
           "id": "multitool",
           "fg": 23170
         },
-				        {
+		{
           "id": "programming_laptop",
           "fg": 23171
         },		     
@@ -56270,7 +56846,7 @@
           "id": "nanofactory_exp",
           "fg": 23176
         },
-				        {
+		{
           "id": "nanofactory_1",
           "fg": 23177
         },		     
@@ -56290,19 +56866,19 @@
           "id": "nano_programmer_1",
           "fg": 23181
         },
-				{
+	    {
           "id": "nano_programmer_2",
           "fg": 23181
         },
-				{
+		{
           "id": "nanofactory_3",
           "fg": 23182
         },
-				{
+		{
           "id": "nanofactory_4",
           "fg": 23182
         },
-				{
+		{
           "id": "nano_blade",
           "fg": 23183
         },		       
@@ -56318,7 +56894,7 @@
           "id": "overlay_wielded_nano_dagger",
           "fg": 23186
         },
-				{
+		{
           "id": "nano_spear",
           "fg": 23187
         },		       
@@ -56330,31 +56906,31 @@
           "id": "mre_accessory",
           "fg": 23189
         },
-				 {
+	    {
           "id": "mre_asianbeef",
           "fg": 23190
         },
-						 {
+		{
           "id": "mre_asianbeef_box",
           "fg": 23191
         },
-						 {
+		{
           "id": "mre_bbqbeef",
           "fg": 23192
         },
-						 {
+		{
           "id": "mre_bbqbeef_box",
           "fg": 23193
         },
-								 {
+		{
           "id": "mre_beefstew",
           "fg": 23194
         },
-						 {
+		{
           "id": "mre_beefstew_box",
           "fg": 23195
         },
-		        {
+		{
           "id": "luigilasagne",
           "fg": 23196
         },		
@@ -56362,27 +56938,27 @@
           "id": "lung",
           "fg": 23197
         },
-						 {
+		{
           "id": "lung_cooked",
           "fg": 23198
         },
-						 {
+		{
           "id": "kidney",
           "fg": 23199
         },
-						 {
+		{
           "id": "kidney_cooked",
           "fg": 23200
         },
-								 {
+		{
           "id": "liver",
           "fg": 23201
         },
-						 {
+		{
           "id": "liver_cooked",
           "fg": 23202
         },
-		        {
+		{
           "id": "brain",
           "fg": 23203
         },  
@@ -56390,7 +56966,7 @@
           "id": "brain_cooked",
           "fg": 23204
         },
-				        {
+		{
           "id": "sweetbread",
           "fg": 23205
         },  
@@ -56398,7 +56974,7 @@
           "id": "sweetbread_cooked",
           "fg": 23206
         },
-						        {
+		{
           "id": "mre_beeftaco",
           "fg": 23207
         },  
@@ -56406,7 +56982,7 @@
           "id": "mre_beeftaco_box",
           "fg": 23208
         },
-								        {
+		{
           "id": "mre_cheesetort",
           "fg": 23209
         },  
@@ -56414,7 +56990,7 @@
           "id": "mre_cheesetort_box",
           "fg": 23210
         },
-										        {
+		{
           "id": "mre_chickenburritobowl",
           "fg": 23211
         },  
@@ -56422,7 +56998,7 @@
           "id": "mre_chickenburritobowl_box",
           "fg": 23212
         },
-										        {
+		{
           "id": "mre_chickennoodle",
           "fg": 23213
         },  
@@ -56466,11 +57042,11 @@
           "id": "mre_hashbrownbacon_box",
           "fg": 23223
         },
-								          {
+		{
           "id": "mre_hotdog",
           "fg": 23224
         },
-										        {
+		{
           "id": "mre_lemontuna",
           "fg": 23225
         },  
@@ -56478,7 +57054,7 @@
           "id": "mre_lemontuna_box",
           "fg": 23226
         },
-										        {
+		{
           "id": "mre_macaronimarinara",
           "fg": 23227
         },  
@@ -56518,7 +57094,7 @@
           "id": "mre_mushroomfettuccine_box",
           "fg": 23236
         },
-										        {
+	    {
           "id": "mre_pepperjackbeef",
           "fg": 23237
         },  
@@ -56542,26 +57118,26 @@
           "id": "mre_spaghetti_box",
           "fg": 23242
         },
-		        {
+		{
           "id": "overlay_worn_goggles_ski",
           "fg": 23243,
           "rotates": false
         },
-		        {
+		{
           "id": "overlay_worn_glasses_bal",
           "fg": 23244,
           "rotates": false
         },
-				        {
+	    {
           "id": "survivor_goggles",
           "fg": 23245
         },
-		        {
+		{
           "id": "overlay_worn_survivor_goggles",
           "fg": 23246,
           "rotates": false
         },
-		        {
+		{
           "id": "glasses_bifocal",
           "fg": 23247
         },
@@ -56570,12 +57146,12 @@
           "fg": 23248,
           "rotates": false
         },
-				        {
+		{
           "id": "overlay_worn_eclipse_glasses",
           "fg": 23249,
           "rotates": false
         },
-				{
+	    {
           "id": "goggles_nv_clairvoyance",
           "fg": 23250,
           "rotates": false
@@ -56585,12 +57161,12 @@
           "fg": 23251,
           "rotates": false
         },
-				{
+		{
           "id": "canned_liver",
           "fg": 23252,
           "rotates": false
         },
-						{
+		{
           "id": "deviled_kidney",
           "fg": 23253,
           "rotates": false
@@ -56600,22 +57176,22 @@
           "fg": 23254,
           "rotates": false
         },
-				{
+		{
           "id": "fried_brain",
           "fg": 23255,
           "rotates": false
         },
-						{
+		{
           "id": "fried_livers",
           "fg": 23256,
           "rotates": false
         },
-								{
+		{
           "id": "fried_tripe",
           "fg": 23257,
           "rotates": false
         },
-										{
+		{
           "id": "grilled_sweetbread",
           "fg": 23258,
           "rotates": false
@@ -56630,12 +57206,12 @@
           "fg": 23260,
           "rotates": false
         },
-				{
+		{
           "id": "liver_onion",
           "fg": 23261,
           "rotates": false
         },
-						{
+		{
           "id": "metal_tank",
           "fg": 23262,
           "rotates": false
@@ -56645,7 +57221,7 @@
           "fg": 23263,
           "rotates": false
         },
-								{
+		{
           "id": "bio_nanite_spawned",
           "fg": 23264,
           "rotates": false
@@ -56665,7 +57241,7 @@
           "fg": 23267,
           "rotates": false
         },
-				{
+		{
           "id": "bio_nanites",
           "fg": 23268,
           "rotates": false
@@ -56675,7 +57251,7 @@
           "fg": 23269,
           "rotates": false
         },
-						{
+		{
           "id": "nanite_cluster",
           "fg": 23270,
           "rotates": false
@@ -56685,12 +57261,12 @@
           "fg": 23271,
           "rotates": false
         },
-				{
+	    {
           "id": "xl_nanite_ai",
           "fg": 23272,
           "rotates": false
         },
-						{
+		{
           "id": "nano_shield",
           "fg": 23273,
           "rotates": false
@@ -56700,12 +57276,12 @@
           "fg": 23274,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_nano_shield",
           "fg": 23274,
           "rotates": false
         },
-								{
+		{
           "id": "nano_shield_active",
           "fg": 23275,
           "rotates": false
@@ -56715,62 +57291,62 @@
           "fg": 23276,
           "rotates": false
         },
-				{
+		{
           "id": "overlay_wielded_nano_shield_active",
           "fg": 23276,
           "rotates": false
         },
-						{
+		{
           "id": "nanite_blade",
           "fg": 23277,
           "rotates": false
         },
-								{
+		{
           "id": "nanite_wire",
           "fg": 23278,
           "rotates": false
         },
-										{
+		{
           "id": "nanite_deathcloud",
           "fg": 23279,
           "rotates": false
         },
-												{
+		{
           "id": "nano_crawler",
           "fg": 23280,
           "rotates": false
         },
-														{
+		{
           "id": "nanotech_generator",
           "fg": 23281,
           "rotates": false
         },
-																{
+		{
           "id": "nanotech_battery",
           "fg": 23282,
           "rotates": false
         },
-																		{
+		{
           "id": "tr_practice_target",
           "fg": 23283,
           "rotates": false
         },
-																				{
+		{
           "id": "note_soa_mission",
           "fg": 23284,
           "rotates": false
         },
-																				{
+		{
           "id": "note_starry_missive",
           "fg": 23285,
           "rotates": false
         },
-																						{
+		{
           "id": "evil_invitation",
           "fg": 23286,
           "rotates": false
         },
-										{
+		{
           "id": "flesh_knife",
           "fg": 23287,
           "rotates": false
@@ -56780,7 +57356,7 @@
           "fg": 23288,
           "rotates": false
         },	
-												{
+		{
           "id": "flesh_blade",
           "fg": 23289,
           "rotates": false
@@ -56790,7 +57366,7 @@
           "fg": 23290,
           "rotates": false
         },	
-														{
+	    {
           "id": "flesh_blade_on",
           "fg": 23291,
           "rotates": false
@@ -56815,12 +57391,12 @@
           "fg": 23295,
           "rotates": false
         },
-				{
+		{
           "id": "sourdough_bread",
           "fg": 23296,
           "rotates": false
         },
-						{
+		{
           "id": "sourdough_young",
           "fg": 23297,
           "rotates": false
@@ -56835,42 +57411,42 @@
           "fg": 23299,
           "rotates": false
         },
-				{
+		{
           "id": "ether",
           "fg": 23300,
           "rotates": false
         },
-						{
+		{
           "id": "mag_porn",
           "fg": 23301,
           "rotates": false
         },
-								{
+		{
           "id": "trailmap",
           "fg": 23302,
           "rotates": false
         },
-										{
+		{
           "id": "test_tube",
           "fg": 23309,
           "rotates": false
         },
-												{
+		{
           "id": "alternator_bicycle",
           "fg": 23310,
           "rotates": false
         },
-														{
+		{
           "id": "vp_alternator_bicycle",
           "fg": 23310,
           "rotates": false
         },
-																{
+		{
           "id": "corpse_mon_zombie",
           "fg": 23311,
           "rotates": false
         },
-																		{
+		{
           "id": "corpse_mon_mi_go",
           "fg": 23312,
           "rotates": false
@@ -56880,27 +57456,27 @@
           "fg": 23313,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_zombie_fat",
           "fg": 23314,
           "rotates": false
         },
-						{
+		{
           "id": "corpse_mon_zombie_tough",
           "fg": 23315,
           "rotates": false
         },
-								{
+		{
           "id": "corpse_mon_zombie_child",
           "fg": 23316,
           "rotates": false
         },
-										{
+		{
           "id": "corpse_mon_sewer_rat",
           "fg": 23317,
           "rotates": false
         },
-												{
+		{
           "id": "corpse_mon_zombie_acidic",
           "fg": 23318,
           "rotates": false
@@ -56910,37 +57486,37 @@
           "fg": 23319,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_zombie_scientist",
           "fg": 23320,
           "rotates": false
         },
-						{
+		{
           "id": "corpse_mon_zombie_grabber",
           "fg": 23321,
           "rotates": false
         },
-								{
+		{
           "id": "corpse_mon_zombie_grappler",
           "fg": 23322,
           "rotates": false
         },
-										{
+		{
           "id": "corpse_mon_zombie_rot",
           "fg": 23323,
           "rotates": false
         },
-												{
+		{
           "id": "corpse_mon_zombie_shrieker",
           "fg": 23324,
           "rotates": false
         },
-														{
+		{
           "id": "corpse_mon_zombie_crawler",
           "fg": 23325,
           "rotates": false
         },
-																{
+		{
           "id": "corpse_mon_zombie_hazmat",
           "fg": 23326,
           "rotates": false
@@ -56950,17 +57526,17 @@
           "fg": 23327,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_dog_skeleton",
           "fg": 23328,
           "rotates": false
         },
-						{
+		{
           "id": "corpse_mon_zombie_technician",
           "fg": 23329,
           "rotates": false
         },
-										{
+		{
           "id": "corpse_mon_zombie_swimmer",
           "fg": 23330,
           "rotates": false
@@ -56970,60 +57546,60 @@
           "fg": 23331,
           "rotates": false
         },
-				{
+		{
           "id": "corpse_mon_zombie_runner",
           "fg": 23332,
           "rotates": false
         },
-						{
+		{
           "id": "corpse_mon_zombie_anklebiter",
           "fg": 23333,
           "rotates": false
         },
-								{
+		{
           "id": "corpse_mon_skeleton",
           "fg": 23334,
           "rotates": false
         },
-										{
+		{
           "id": "corpse_mon_zombie_spitter",
           "fg": 23335,
           "rotates": false
         },
-												{
+		{
           "id": "corpse_mon_zombie_soldier",
           "fg": 23336,
           "rotates": false
         },
-														{
+		{
           "id": "corpse_mon_zombie_cop",
           "fg": 23337,
           "rotates": false
         },
-																{
+		{
           "id": "corpse_mon_zombie_electric",
           "fg": 23338,
           "rotates": false
         },
-		        {
+		{
           "id": "corpse_mon_spider_cellar_giant",
           "fg": 23339,
           "bg": 0,
           "rotates": false
         },
-				        {
+		{
           "id": "corpse_mon_spider_cellar_giant_s",
           "fg": 23340,
           "bg": 0,
           "rotates": false
         },
-		        {
+		{
           "id": "corpse_mon_spider_web",
           "fg": 23341,
           "bg": 967,
           "rotates": false
         },
-				        {
+		{
           "id": "corpse_mon_spider_jumping_giant",
           "fg": 23342,
           "bg": 967,
@@ -57035,19 +57611,19 @@
           "bg": 967,
           "rotates": false
         },
-		        {
+		{
           "id": "corpse_mon_zombie_brute_shocker",
           "fg": 23344,
           "bg": 967,
           "rotates": false
         },
-		        {
+		{
           "id": "corpse_mon_zombie_dog",
           "fg": 23345,
           "bg": 967,
           "rotates": false
         },
-		        {
+		{
           "id": "corpse_mon_zombie_hunter",
           "fg": 23346,
           "bg": 967,
@@ -57092,22 +57668,22 @@
             }
           ]
         },
-				        {
+	    {
           "id": "condensor_coil",
           "fg": 23350,
           "rotates": false
         },
-						        {
+		{
           "id": "evaporator_coil",
           "fg": 23351,
           "rotates": false
         },
-								        {
+		{
           "id": "refrigerant_tank",
           "fg": 23352,
           "rotates": false
         },
-										        {
+		{
           "id": "t_rock_floor_no_roof",
           "fg": 23353,
           "rotates": false
@@ -57159,9 +57735,9 @@
 		{
 		"file": "16_tiles_trees_64x80_32765-33165.png",
 		    "sprite_width":64,
-    "sprite_height":80,
-    "sprite_offset_x":-16,
-    "sprite_offset_y":-48,
+            "sprite_height":80,
+            "sprite_offset_x":-16,
+            "sprite_offset_y":-48,
 		"tiles":
 	[
 		{
