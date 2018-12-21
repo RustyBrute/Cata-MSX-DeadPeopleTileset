@@ -46747,6 +46747,9 @@
           "fg": 5431,
           "rotates": false
         },
+		{ "id": "mon_albino_penguin", "fg": 5432, "rotates": false },
+		{ "id": "corpse_mon_albino_penguin", "fg": 5433, "rotates": false },
+		{ "id": "mon_boomer_huge", "fg": 5434, "rotates": false },
         {
           "id": "mon_oni",
           "fg": 5449,
@@ -47579,7 +47582,7 @@
 		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false },
 		{ "id": "mon_ant_acid_ultralisk", "fg": 11580, "rotates": false },
 		{ "id": "!broken_tankbot", "fg": 11581, "rotates": false },
-		{ "id": "mon_albino_penguin", "fg": 11582, "rotates": false },
+		{ "id": "!mon_albino_penguin", "fg": 11582, "rotates": false },
 		{ "id": "!mon_skeleton_hulk", "fg": 11583, "rotates": false },
 		{ "id": "mon_revenant", "fg": 11584, "rotates": false },
 		{ "id": "mon_zombie_bonetitan", "fg": 11587, "rotates": false }
@@ -57135,7 +57138,66 @@
               "bg": 23356
             }
           ]
-        },       
+        },    
+        {
+          "id": "corpse_mon_dog_zombie_cop",
+          "fg": 23357,
+          "bg": 0,
+          "rotates": false
+        },  		
+		        {
+          "id": "corpse_mon_zombie_mancroc",
+          "fg": 23358,
+          "bg": 0,
+          "rotates": false
+        },  
+				        {
+          "id": "corpse_mon_gracke",
+          "fg": 23359,
+          "bg": 0,
+          "rotates": false
+        },				        {
+          "id": "corpse_mon_zombie_shriekling",
+          "fg": 23360,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_screecher",
+          "fg": 23361,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_predator",
+          "fg": 23362,
+          "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "corpse_mon_zombie_survivor",
+          "fg": 23363,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_beekeeper",
+          "fg": 23364,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_zombie_rot",
+          "fg": 23365,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_zombie_master",
+          "fg": 23366,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
