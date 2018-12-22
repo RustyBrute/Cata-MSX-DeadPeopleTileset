@@ -25506,7 +25506,8 @@
         },
         {
           "id": "mon_hallu_mannequin",
-          "fg": 1543
+          "fg": 1543,
+		  "bg": 967,
         },
         {
           "id": "f_mutpoppy",
@@ -32040,6 +32041,7 @@
             { "weight":3, "sprite":4986},
             { "weight":3, "sprite":2408}
             ],
+		  "bg": 967,	
           "rotates": false
         },
 		{
@@ -36484,6 +36486,7 @@
         {
           "id": "mon_ant_soldier_pk_weak",
           "fg": 2322,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -36761,7 +36764,9 @@
         },
         {
           "id": "mon_wasp_larvae",
-          "fg": 2404
+          "fg": 2404,
+		  "bg": 967,
+		  "rotates": false
         },
         {
           "id": "mon_dionaea",
@@ -37013,7 +37018,9 @@
         },
         {
           "id": "mon_EMP_hack",
-          "fg": 2456
+          "fg": 2456,
+		  "bg": 967,
+		  "rotates": false
         },
         {
           "id": "mon_flying_polyp",
@@ -37042,31 +37049,37 @@
 		{
           "id": "mon_zombie_child_fungus",
           "fg": 4233,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_nakedmolerat_giant",
           "fg": 4234,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_ant_acid_larva",
           "fg": 4235,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_ant_acid",
           "fg": 4236,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_ant_acid_queen",
           "fg": 4237,
+		  "bg": 967,
           "rotates": false
         },
 		{
           "id": "mon_ant_acid_soldier",
           "fg": 4238,
+		  "bg": 967,
           "rotates": false
         },
 		{
@@ -37493,11 +37506,13 @@
         {
           "id": "mon_black_rat",
           "fg": 2581,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_deer_mouse",
           "fg": 2581,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37676,6 +37691,7 @@
         {
           "id": "mon_treent_green",
           "fg": 5437,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37686,32 +37702,38 @@
         },
         {
           "id": "!mon_turret_bmg",
-          "fg": 2644
+          "fg": 2644,
+		  "bg": 967,
+		  "rotates": false
         },
         {
           "id": "mon_turret_shockcannon",
           "fg": 2646,
+		  "bg": 967,
           "rotates": false
         },
 		        {
           "id": "bot_turret_shockcannon",
           "fg": 2646,
-		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_vinebeast_pk",
           "fg": 2651,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_vinebeast_terminal",
           "fg": 2651,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_wasp_queen",
-          "fg": 2655
+          "fg": 2655,
+		  "bg": 967,
+		  "rotates": false
         },
         {
           "id": "mon_wasp_small",
@@ -37721,11 +37743,13 @@
         {
           "id": "mon_zanimal_scorched",
           "fg": 2660,
+		  "bg": 967,
           "rotates": false
         },
         {
           "id": "mon_zanimal_skeleton",
           "fg": 2660,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37756,6 +37780,7 @@
             { "weight":3, "sprite":2667},
 			{ "weight":3, "sprite":2668}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37765,6 +37790,7 @@
             { "weight":3, "sprite":2667},
 			{ "weight":3, "sprite":2668}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37816,6 +37842,7 @@
             { "weight":1, "sprite":2686},
 			{ "weight":3, "sprite":2687}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37825,6 +37852,7 @@
             { "weight":3, "sprite":2686},
 			{ "weight":1, "sprite":2687}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37832,6 +37860,7 @@
           "fg": [
             { "weight":1, "sprite":2688}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37906,6 +37935,7 @@
             { "weight":3, "sprite":2708},
 			{ "weight":3, "sprite":2709}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -37915,6 +37945,7 @@
             { "weight":3, "sprite":2708},
 			{ "weight":3, "sprite":2709}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -38046,6 +38077,7 @@
             { "weight":3, "sprite":2761},
             { "weight":3, "sprite":2762}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -38055,6 +38087,7 @@
             { "weight":3, "sprite":2765},
 			{ "weight":3, "sprite":2766}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -38064,6 +38097,7 @@
             { "weight":3, "sprite":2765},
 			{ "weight":3, "sprite":2766}
             ],
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -47245,6 +47279,9 @@
           "fg": 5431,
           "rotates": false
         },
+		{ "id": "mon_albino_penguin", "fg": 5432, "rotates": false },
+		{ "id": "corpse_mon_albino_penguin", "fg": 5433, "rotates": false },
+		{ "id": "mon_boomer_huge", "fg": 5434, "rotates": false },
         {
           "id": "mon_oni",
           "fg": 5449,
@@ -47263,6 +47300,7 @@
         {
           "id": "mon_turret_searchlight",
           "fg": 5456,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -48113,7 +48151,7 @@
 		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false },
 		{ "id": "mon_ant_acid_ultralisk", "fg": 11580, "rotates": false },
 		{ "id": "!broken_tankbot", "fg": 11581, "rotates": false },
-		{ "id": "mon_albino_penguin", "fg": 11582, "rotates": false },
+		{ "id": "!mon_albino_penguin", "fg": 11582, "rotates": false },
 		{ "id": "!mon_skeleton_hulk", "fg": 11583, "rotates": false },
 		{ "id": "mon_revenant", "fg": 11584, "rotates": false },
 		{ "id": "mon_zombie_bonetitan", "fg": 11587, "rotates": false }
@@ -57711,7 +57749,66 @@
               "bg": 23356
             }
           ]
-        },       
+        },    
+        {
+          "id": "corpse_mon_dog_zombie_cop",
+          "fg": 23357,
+          "bg": 0,
+          "rotates": false
+        },  		
+		        {
+          "id": "corpse_mon_zombie_mancroc",
+          "fg": 23358,
+          "bg": 0,
+          "rotates": false
+        },  
+				        {
+          "id": "corpse_mon_gracke",
+          "fg": 23359,
+          "bg": 0,
+          "rotates": false
+        },				        {
+          "id": "corpse_mon_zombie_shriekling",
+          "fg": 23360,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_screecher",
+          "fg": 23361,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_predator",
+          "fg": 23362,
+          "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "corpse_mon_zombie_survivor",
+          "fg": 23363,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_beekeeper",
+          "fg": 23364,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_zombie_rot",
+          "fg": 23365,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_zombie_master",
+          "fg": 23366,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
