@@ -40212,21 +40212,6 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_battleaxe",
-          "fg": 3640,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_battleaxe_inferior",
-          "fg": 3640,
-          "rotates": false
-        },
-        {
-          "id": "overlay_wielded_battleaxe_fake",
-          "fg": 3640,
-          "rotates": false
-        },
-        {
           "id": "overlay_wielded_banjo",
           "fg": 3641,
           "rotates": false
@@ -52271,6 +52256,231 @@
             }
 			],
 			"rotates": false
+			},
+		{
+          "id": "t_trunk",
+          "fg": 17582,
+		  "bg": 1012,
+		  "multitile": true,
+          "additional_tiles": [            
+		  {
+              "id": "corner",
+              "fg": [17583, 17584, 17585, 17586],
+			  "bg": 1012
+            },
+					  {
+              "id": "t_connection",
+              "fg": [17584, 17585, 17584, 17585],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [17581, 17582],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [17583, 17584, 17585, 17586],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": [
+            { "weight":1, "sprite":17587},
+            { "weight":1, "sprite":27676},
+            { "weight":1, "sprite":27677},
+            { "weight":1, "sprite":27678},
+            { "weight":1, "sprite":27679},
+            { "weight":1, "sprite":27680},
+            { "weight":1, "sprite":27681},
+            { "weight":1, "sprite":27682},
+            { "weight":1, "sprite":27683}
+            ],
+			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+		{
+          "id": "t_trunk_season_winter",
+          "fg": 17582,
+		  "bg": 992,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "edge",
+              "fg": [17581, 17582],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [17583, 17584, 17585, 17586],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": [
+            { "weight":1, "sprite":17587},
+            { "weight":1, "sprite":27676},
+            { "weight":1, "sprite":27677},
+            { "weight":1, "sprite":27678},
+            { "weight":1, "sprite":27679},
+            { "weight":1, "sprite":27680},
+            { "weight":1, "sprite":27681},
+            { "weight":1, "sprite":27682},
+            { "weight":1, "sprite":27683}
+            ],
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "f_pillow_fort",
+          "fg": 17588,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17588
+            },
+            {
+              "id": "corner",
+              "fg": [17589, 17590, 17591, 17592]
+            },
+            {
+              "id": "t_connection",
+              "fg": [17593, 17594, 17595, 17596]
+            },
+            {
+              "id": "edge",
+              "fg": [17597, 17598]
+            },
+            {
+              "id": "end_piece",
+              "fg": [17599, 17600, 17601, 17602]
+            },
+            {
+              "id": "unconnected",
+              "fg": 17603
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_junk_wall",
+          "fg": 17604,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17604,
+			  "bg": 23384
+            },
+            {
+              "id": "corner",
+              "fg": [17605, 17606, 17607, 17608],
+			  "bg": 23384
+            },
+            {
+              "id": "t_connection",
+              "fg": [17609, 17610, 17611, 17612],
+			  "bg": 23384
+            },
+            {
+              "id": "edge",
+              "fg": [17613, 17614],
+			  "bg": 23384
+            },
+            {
+              "id": "end_piece",
+              "fg": [17615, 17616, 17617, 17618],
+			  "bg": 23384
+            },
+            {
+              "id": "unconnected",
+              "fg": 17619,
+			  "bg": 23384
+            }
+			],
+			"rotates": false
+			}
+			,
+			{
+          "id": "t_junk_palisade",
+          "fg": 17620,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17620,
+			  "bg": 23384
+            },
+            {
+              "id": "corner",
+              "fg": [17621, 17622, 17623, 17624],
+			  "bg": 23384
+            },
+            {
+              "id": "t_connection",
+              "fg": [17625, 17626, 17627, 17628],
+			  "bg": 23384
+            },
+            {
+              "id": "edge",
+              "fg": [17629, 17630],
+			  "bg": 23384
+            },
+            {
+              "id": "end_piece",
+              "fg": [17631, 17632, 17633, 17634],
+			  "bg": 23384
+            },
+            {
+              "id": "unconnected",
+              "fg": 17635,
+			  "bg": 23384
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_nanofab_body",
+          "fg": 17636,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17636,
+			  "bg": 23383
+            },
+            {
+              "id": "corner",
+              "fg": [17637, 17638, 17639, 17640],
+			  "bg": 23383
+            },
+            {
+              "id": "t_connection",
+              "fg": [17641, 17642, 17643, 17644],
+			  "bg": 23383
+            },
+            {
+              "id": "edge",
+              "fg": [17645, 17646],
+			  "bg": 23383
+            },
+            {
+              "id": "end_piece",
+              "fg": [17647, 17648, 17649, 17650],
+			  "bg": 23383
+            },
+            {
+              "id": "unconnected",
+              "fg": 17651,
+			  "bg": 23383
+            }
+			],
+			"rotates": false
 			}
   ]
   },
@@ -57852,6 +58062,105 @@
           "id": "corpse_mon_blank",
           "fg": 23382,
           "bg": 0
+        },
+				{
+          "id": "t_metal_floor",
+          "fg": 23383,
+          "bg": 0
+        },
+		{
+          "id": "t_junk_floor",
+          "fg": 23384,
+          "bg": 0
+        },
+				{
+          "id": "t_nanofab",
+          "fg": 23385,
+          "bg": 0
+        },
+		{
+          "id": "chem_formaldehyde",
+          "fg": 23386,
+          "bg": 0
+        },
+				{
+          "id": "chem_methanol",
+          "fg": 23387,
+          "bg": 0
+        },
+		{
+          "id": "fluid_preserved_brain",
+          "fg": 23388,
+          "bg": 0
+        },
+				{
+          "id": "human_brain_embalmed",
+          "fg": 23389,
+          "bg": 0
+        },{
+          "id": "meat_scrap",
+          "fg": 23390,
+          "bg": 0
+        },
+		{
+          "id": "meat_scrap_cooked",
+          "fg": 23391,
+          "bg": 0
+        },
+				{
+          "id": "nanomaterial",
+          "fg": 23392,
+          "bg": 0
+        },
+		{
+          "id": "standard_template_construct",
+          "fg": 23393,
+          "bg": 0
+        },
+		{
+          "id": "ruined_chunks",
+          "fg": 23394,
+          "bg": 0
+        },
+		{
+          "id": "steel_grille",
+          "fg": 23395,
+          "bg": 0
+        },
+		{
+          "id": "platinum_grille",
+          "fg": 23396,
+          "bg": 0
+        },
+				{
+          "id": "platinum_small",
+          "fg": 23397,
+          "bg": 0
+        },
+		{
+          "id": "pressure_cooker",
+          "fg": 23398,
+          "bg": 0
+        },	
+		{
+          "id": "stick_fiber",
+          "fg": 23399,
+          "bg": 0
+        },
+        {
+          "id": "overlay_wielded_battleaxe",
+          "fg": 23400,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_battleaxe_inferior",
+          "fg": 23401,
+          "rotates": false
+        },
+        {
+          "id": "overlay_wielded_battleaxe_fake",
+          "fg": 23401,
+          "rotates": false
         },
 		{
           "id": "atlatl",
