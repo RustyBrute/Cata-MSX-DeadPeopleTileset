@@ -2054,12 +2054,6 @@
           "rotates": false
         },
         {
-          "id": "armor_samurai",
-          "fg": 268,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "hood_wsurvivor",
           "fg": 268
         },
@@ -3187,11 +3181,6 @@
         {
           "id": "helmet_xlsurvivor",
           "fg": 426
-        },
-        {
-          "id": "helmet_kabuto",
-          "fg": 427,
-          "bg": 957
         },
         {
           "id": "helmet_larmor",
@@ -47227,6 +47216,7 @@
 		{ "id": "mon_boomer_huge", "fg": 5434, "rotates": false },
 		{ "id": "mon_amigara_horror", "fg": 5435, "rotates": false },
 		{ "id": "corpse_mon_amigara_horror", "fg": 5436, "rotates": false },
+		{ "id": "mon_darkman", "fg": 5437, "rotates": false },
         {
           "id": "mon_oni",
           "fg": 5449,
@@ -47251,7 +47241,7 @@
         {
           "id": "mon_blob_brain",
           "fg": 5457,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },        
         {
@@ -48829,7 +48819,48 @@
             ],
           "bg": 967,
           "rotates": false
+        },
+		{
+          "id": "mon_shadow",
+          "fg": [
+            { "weight":1, "sprite":2583},
+			{ "weight":1, "sprite":12100},
+			{ "weight":1, "sprite":12101},
+			{ "weight":1, "sprite":12102},
+			{ "weight":1, "sprite":12103},		
+			{ "weight":1, "sprite":12104},
+			{ "weight":1, "sprite":12105},
+			{ "weight":1, "sprite":12106},
+			{ "weight":1, "sprite":12107},
+			{ "weight":1, "sprite":12108},
+			{ "weight":1, "sprite":12109},
+			{ "weight":1, "sprite":12110},		
+			{ "weight":1, "sprite":12111},
+			{ "weight":1, "sprite":12112},
+			{ "weight":1, "sprite":12113},
+			{ "weight":1, "sprite":12114},
+			{ "weight":1, "sprite":12115},
+			{ "weight":1, "sprite":12116},
+			{ "weight":1, "sprite":12117},
+			{ "weight":1, "sprite":12118},		
+			{ "weight":1, "sprite":12119},
+			{ "weight":1, "sprite":12120},
+			{ "weight":1, "sprite":12121},
+			{ "weight":1, "sprite":12122},
+			{ "weight":1, "sprite":12123},
+			{ "weight":1, "sprite":12124},
+			{ "weight":1, "sprite":12125},		
+			{ "weight":1, "sprite":12126},
+			{ "weight":1, "sprite":12127},
+			{ "weight":1, "sprite":12128},
+			{ "weight":1, "sprite":12129},
+			{ "weight":1, "sprite":12130},
+			{ "weight":1, "sprite":12131}
+            ],
+          "bg": 0,
+          "rotates": false
         }
+		
   ]
   },
   	{
@@ -58244,6 +58275,59 @@
           "rotates": false
         },
 		{
+          "id": "corpse_mon_bat",
+          "fg": 23406,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "corpse_mon_blood_sacrifice",
+          "fg": 23407,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_boomer_fungus",
+          "fg": 23408,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_broken_cyborg",
+          "fg": 23409,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_chud",
+          "fg": 23410,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_crawler",
+          "fg": 23411,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_dark_wyrm",
+          "fg": 23412,
+          "bg": 0,
+          "rotates": false
+        },      
+		{
+          "id": "helmet_kabuto",
+          "fg": 23413,
+          "bg": 0
+        }, 
+		{
+          "id": "armor_samurai",
+          "fg": 23414,
+          "bg": 957,
+          "rotates": false
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
@@ -59626,6 +59710,11 @@
 		{
           "id": "overlay_worn_firehelmet",
           "fg": 33170,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_helmet_kabuto",
+          "fg": 33171,
           "rotates": false
         }
 	]
