@@ -37675,6 +37675,12 @@
           "fg": 2644
         },
 		        {
+          "id": "mon_turret_shockcannon",
+          "fg": 2646,
+		  "bg": 5239,
+          "rotates": false
+        },
+		        {
           "id": "bot_turret_shockcannon",
           "fg": 2646,
 		  "bg": 5239,
@@ -58327,6 +58333,18 @@
           "bg": 957,
           "rotates": false
         },
+		{
+          "id": "corpse_mon_dementia",
+          "fg": 23415,
+          "bg": 0,
+          "rotates": false
+        }, 
+				{
+          "id": "corpse_mon_zombie_flamer",
+          "fg": 23416,
+          "bg": 0,
+          "rotates": false
+        }, 
 		{
           "id": "atlatl",
           "fg": 1986,
