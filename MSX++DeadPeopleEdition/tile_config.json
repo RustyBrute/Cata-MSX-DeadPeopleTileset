@@ -15303,7 +15303,7 @@
         {
           "id": "mon_giant_crayfish",
           "fg": 2493,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -15327,7 +15327,7 @@
         {
           "id": "mon_halfworm",
           "fg": 2501,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -15518,13 +15518,13 @@
         {
           "id": "mon_sludge_crawler",
           "fg": 2595,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
           "id": "mon_slug_giant",
           "fg": 2598,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -33383,12 +33383,6 @@
           "id": "maid_point",
           "bg": 978,
           "rotates": false
-        },
-		{
-          "id": "atlatl",
-          "fg": 1986,
-		  "bg": 967,
-          "rotates": false
         },	
 		{
           "id": ["bio_shock_absorber", "pseuso_bio_picklock", "null", "mon_null", "tr_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "fd_null", "mon_null", "fd_null", "tr_null", "null", "vp_null", "tr_temple_toggle", "tr_glow", "tr_hum", "tr_shadow", "tr_snake", "TANK", "acid_spit", "candle_barrier_aftermath", "apparatus", "clairvoyance_plus_rod", "fire", "gloople_act", "gray_act", "money", "muscle", "oozle_act", "oxyacetylene", "pseuso_bio_picklock", "software", "toolset", "upstest", "vp_plating_acidchitin", "vp_plating_bone", "vp_plating_chitin", "vp_plating_diamond", "vp_plating_hard", "vp_plating_military", "vp_plating_spiked", "vp_plating_steel", "vp_plating_superalloy", "vp_plating_wood", "vp_gloople_plate", "vp_gray_plate", "vp_oozle_plate", "bog_iron_spot"],
@@ -47177,6 +47171,12 @@
           "fg": 5422,
           "rotates": false
         },
+		        {
+          "id": "mon_flying_polyp",
+          "fg": 5423,
+		  "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "mon_nakedmolerat_giant",
           "fg": 5424,
@@ -47223,6 +47223,28 @@
 		{ "id": "mon_amigara_horror", "fg": 5435, "rotates": false },
 		{ "id": "corpse_mon_amigara_horror", "fg": 5436, "rotates": false },
 		{ "id": "mon_darkman", "fg": 5437, "rotates": false },
+		        {
+          "id": "mon_flesh_angel",
+          "fg": 5438,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_flesh_angel",
+          "fg": 5439,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "mon_yugg",
+          "fg": 5440,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_yugg",
+          "fg": 5441,
+          "rotates": false
+        },
         {
           "id": "mon_oni",
           "fg": 5449,
@@ -47255,11 +47277,6 @@
           "fg": 5461,
           "rotates": false
         }, 
-		{
-          "id": "mon_yugg",
-          "fg": 5462,
-          "rotates": false
-        },
 		{
           "id": "mon_kappabot",
           "fg": 5442,
@@ -58344,7 +58361,103 @@
           "fg": 23416,
           "bg": 0,
           "rotates": false
+        },
+		{
+          "id": "corpse_mon_flaming_eye",
+          "fg": 23417,
+          "bg": 0,
+          "rotates": false
         }, 
+				{
+          "id": "corpse_mon_fungaloid_young",
+          "fg": 23418,
+          "bg": 0,
+          "rotates": false
+        }, 
+		{
+          "id": "corpse_mon_giant_crayfish",
+          "fg": 23419,
+          "bg": 0,
+          "rotates": false
+        }, 
+				{
+          "id": "corpse_mon_gozu",
+          "fg": 23420,
+          "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_halfworm",
+          "fg": 23421,
+          "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "corpse_mon_homunculus",
+          "fg": 23422,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_human_snail",
+          "fg": 23423,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_one_eye",
+          "fg": 23424,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_slug_giant",
+          "fg": 23425,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_twisted_body",
+          "fg": 23426,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zolf",
+          "fg": 23427,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombear",
+          "fg": 23428,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "corpse_mon_zombie_armored",
+          "fg": 23429,
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_bio_op",
+          "fg": 23430,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_brute_ninja",
+          "fg": 23431,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_corrosive",
+          "fg": 23432,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
