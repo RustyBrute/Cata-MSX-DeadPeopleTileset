@@ -3,7 +3,7 @@ Dieser Feldbilder-Satz basiert auf der Arbeit von Xotto, wurde jedoch stark übe
 ------------------------------------------------------------------------------------------------------------------
 
 Ausgelegt, um gut mit der nachfolgenden Mod zur optischen Charakteranpassung zu funktionieren:<br />
-https://github.com/Zetsukaze/Zets-Hair-Extensions
+https://drive.google.com/open?id=104VtAu0lgGjfN8INo1gTXrDGMS2DgTbk
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -13,7 +13,7 @@ Beschreibung:
 https://www.reddit.com/r/cataclysmdda/comments/9gxxoi/whaleys_tattoos_and_scars/
 
 Die eigentliche Tattoo-Mod findest du hier:
-https://nofile.io/f/4nn0f6BPOzC/Whaleys+Tattoos.zip
+https://drive.google.com/drive/folders/1oO1t-EIZtx1q27HxEIav350cXiWc5zaO
 
 ------------------------------------------------------------------------------------------------------------------
 
