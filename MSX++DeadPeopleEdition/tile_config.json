@@ -58457,6 +58457,54 @@
           "fg": 23432,
           "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "corpse_mon_biollante_sprout",
+          "fg": 23433,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_biollante_sprig",
+          "fg": 23434,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_biollante_sprig",
+          "fg": 23434,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_bear_cub",
+          "fg": 23435,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_fiend",
+          "fg": 23436,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_fungus",
+          "fg": 23437,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_pig",
+          "fg": 23438,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_scorched",
+          "fg": 23439,
+          "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
