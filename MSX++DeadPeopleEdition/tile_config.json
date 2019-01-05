@@ -9744,7 +9744,7 @@
           "rotates": false
         },
         {
-          "id": "sausage",
+          "id": ["sausage", "mannwurst"],
           "fg": 1325,
           "bg": 957,
           "rotates": false
@@ -14985,7 +14985,7 @@
         {
           "id": "mon_ant_larva",
           "fg": 2313,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -23338,10 +23338,6 @@
           "fg": 1216
         },
         {
-          "id": "bologna",
-          "fg": 1218
-        },
-        {
           "id": "inj_vitb",
           "fg": 1224
         },
@@ -23514,14 +23510,6 @@
         {
           "id": "frozen_burrito",
           "fg": 1252
-        },
-        {
-          "id": "hfleshbologna",
-          "fg": 1253
-        },
-        {
-          "id": ["mannwurstgravy", "mannwurst_raw"],
-          "fg": 1253
         },
         {
           "id": "mycus_fruit",
@@ -36545,7 +36533,7 @@
         {
           "id": "mon_bee_larvae",
           "fg": 2342,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
         {
@@ -36731,10 +36719,6 @@
           "fg": 2404,
 		  "bg": 0,
           "rotates": false
-        },
-        {
-          "id": "mon_wasp_larvae",
-          "fg": 2404
         },
         {
           "id": "mon_dionaea",
@@ -58505,6 +58489,46 @@
           "fg": 23439,
           "bg": 0,
           "rotates": false
+        },
+				{
+          "id": ["mannwurstgravy", "sausagegravy"],
+          "fg": 23440,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["sausage_raw", "mannwurst_raw"],
+          "fg": 23441,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["sausage_cooked", "mannwurst_cookerd"],
+          "fg": 23442,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["bratwurst_sausage", "mann_bratwurst"],
+          "fg": 23443,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["dias"],
+          "fg": 23444,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": ["bologna", "hfleshbologna"],
+          "fg": 23445
+        },
+		        {
+          "id": "mon_wasp_larvae",
+          "fg": 23446,	
+		  "bg": 0,
+          "rotates": false 
         },
 		{
           "id": "atlatl",
