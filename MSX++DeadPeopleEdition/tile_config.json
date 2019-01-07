@@ -59999,7 +59999,8 @@
           "id": "overlay_worn_helmet_kabuto",
           "fg": 33171,
           "rotates": false
-        }
+        },
+		{ "id": "overlay_mutation_HORNS_POINTED", "fg": 33172, "rotates": false }
 	]
 	}
   ]
