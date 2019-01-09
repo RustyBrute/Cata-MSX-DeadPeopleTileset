@@ -58610,6 +58610,282 @@
           "fg": 23464,
           "rotates": false
         },
+						{
+          "id": "corpse_mon_zoose",
+          "fg": 23465,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_zombie_military_pilot",
+          "fg": 23466,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zougar",
+          "fg": 23467,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_chicken",
+          "fg": 23468,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_skittering_plague",
+          "fg": 23469,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_plague_nymph",
+          "fg": 23470,
+		  "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "corpse_mon_plague_vector",
+          "fg": 23469,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bee",
+          "fg": 23469,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_wasp",
+          "fg": 23469,
+		  "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_jumping",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "!corpse_mon_spider_jumping_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "!corpse_mon_spider_trapdoor",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "!corpse_mon_spider_trapdoor_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_web",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_web_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "corpse_mon_spider_web_s",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_widow",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_widow_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "corpse_mon_spider_widow_giant_s",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_wolf",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_wolf_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	 
+		{
+          "id": "corpse_mon_centipede_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "corpse_mon_dragonfly_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dermatik",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },		
+				{
+          "id": "corpse_mon_dermatik_larva",
+          "fg": 23470,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_fly",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_mosquito_giant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },    
+		{
+          "id": "corpse_mon_ant",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_fungus",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_larva",
+          "fg": 23470,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_queen",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_soldier",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_ant_acid",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_larva_acid",
+          "fg": 23470,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_acid_queen",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_ant_acid_soldier",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_locust",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },					
+		{
+          "id": "corpse_mon_locust_nymph",
+          "fg": 23470,
+          "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "corpse_mon_biollante",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_triffid_sprig",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid_young",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid_queen",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_triffid_heart",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_vinebeast",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_fungal_fighter",
+          "fg": 23469,
+          "bg": 0,
+          "rotates": false
+        },
+		
 		{
           "id": "atlatl",
           "fg": 1986,
