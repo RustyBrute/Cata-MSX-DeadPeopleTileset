@@ -57852,7 +57852,7 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie_soldier",
+          "id": ["corpse_mon_zombie_soldier", "corpse_mon_zombie_grenadier", "corpse_mon_zombie_grenadier_elite"],
           "fg": 23336,
           "rotates": false
         },
@@ -58884,8 +58884,115 @@
           "fg": 23469,
           "bg": 0,
           "rotates": false
-        },
-		
+        },	
+		{
+          "id": "corpse_mon_zombie_child_fungus",
+          "fg": 23471,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_zombie_waif",
+          "fg": 23472,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_zombie_sproglodyte",
+          "fg": 23473,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_creepy",
+          "fg": 23474,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_child_scorched",
+          "fg": 23475,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_fungal_fighter",
+          "fg": 23476,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_vinebeast",
+          "fg": 23477,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid_queen",
+          "fg": 23478,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid",
+          "fg": 23479,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid_young",
+          "fg": 23480,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid_sprig",
+          "fg": 23481,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_biollante",
+          "fg": 23482,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_sewer_snake",
+          "fg": 23483,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_rattlesnake_giant",
+          "fg": 23484,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_rattlesnake",
+          "fg": 23485,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_gator",
+          "fg": 23486,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_frog_giant",
+          "fg": 23487,
+          "bg": 0,
+          "rotates": false
+        },		
+				{
+          "id": "corpse_mon_frog",
+          "fg": 23488,
+          "bg": 0,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -58939,25 +59046,25 @@
           "rotates": false
         },
 		{
-          "id": "t_tree_harvested_season_spring", 
+          "id": ["t_tree_harvested_season_spring", "t_tree_oak_harvested_season_spring"],
           "fg": 32769,
 		  "bg": 32977,
           "rotates": false
         },			
 		{
-          "id": ["t_tree_harvested_season_summer", "t_tree_harvested"], 
+          "id": ["t_tree_harvested_season_summer", "t_tree_harvested", "t_tree_oak_harvested_season_summer", "t_tree_oak_harvested"], 
           "fg": 32770,
 		  "bg": 32977,
           "rotates": false
         },			
 		{
-          "id": "t_tree_harvested_season_autumn", 
+          "id": ["t_tree_harvested_season_autumn", "t_tree_oak_harvested_season_autumn"],
           "fg": 32771,
 		  "bg": 32977,
           "rotates": false
         },			
 		{
-          "id": "t_tree_harvested_season_winter", 
+          "id": ["t_tree_harvested_season_winter", "t_tree_oak_harvested_season_winter"],
           "fg": 32772,
 		  "bg": 32978,
           "rotates": false
