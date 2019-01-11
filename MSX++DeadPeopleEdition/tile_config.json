@@ -28193,6 +28193,11 @@
           "fg": 0,
           "rotates": false
         },
+				{
+          "id": "fake_firestarter",
+          "fg": 0,
+          "rotates": false
+        },
 		{
           "id": "molded_shovel",
           "fg": 4358,
@@ -58993,6 +58998,36 @@
           "bg": 0,
           "rotates": false
         },	
+						{
+          "id": "corpse_mon_wolf",
+          "fg": 23489,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_weasel",
+          "fg": 23490,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_sheep",
+          "fg": 23491,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_sheep_lamb",
+          "fg": 23492,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_raccoon",
+          "fg": 23493,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
