@@ -14080,6 +14080,12 @@
           "bg": 962,
           "rotates": false
         },
+		        {
+          "id": "manual_sojutsu",
+          "fg": 1798,
+          "bg": 962,
+          "rotates": false
+        },
         {
           "id": "manual_pistol",
           "fg": 1045,
@@ -59025,6 +59031,18 @@
 		{
           "id": "corpse_mon_raccoon",
           "fg": 23493,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "coat_gut",
+          "fg": 23494,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "overlay_worn_coat_gut",
+          "fg": 23495,
           "bg": 0,
           "rotates": false
         },
