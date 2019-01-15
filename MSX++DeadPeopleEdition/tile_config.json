@@ -59045,6 +59045,18 @@
           "fg": 23495,
           "bg": 0,
           "rotates": false
+        },			
+		{
+          "id": "helmet_szyszak",
+          "fg": 23496,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "wings_ornamental",
+          "fg": 23497,
+          "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
@@ -60436,7 +60448,9 @@
           "fg": 33171,
           "rotates": false
         },
-		{ "id": "overlay_mutation_HORNS_POINTED", "fg": 33172, "rotates": false }
+		{ "id": "overlay_mutation_HORNS_POINTED", "fg": 33172, "rotates": false },
+		{ "id": "overlay_worn_helmet_szyszak", "fg": 33173, "rotates": false },
+		{ "id": "overlay_worn_wings_ornamental", "fg": 33174, "rotates": false }
 	]
 	}
   ]
