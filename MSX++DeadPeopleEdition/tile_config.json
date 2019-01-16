@@ -59119,6 +59119,42 @@
           "rotates": false
         },
 		{
+          "id": "corpse_mon_grouse",
+          "fg": 23508,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_crow",
+          "fg": 23509,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_duck",
+          "fg": 23510,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_goose_canadian",
+          "fg": 23511,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_turkey",
+          "fg": 23512,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_pheasant",
+          "fg": 23513,
+          "bg": 0,
+          "rotates": false
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
