@@ -36401,7 +36401,7 @@
         {
           "id": "mon_ant_larva_pk",
           "fg": 2314,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
         {
@@ -37003,7 +37003,7 @@
 		{
           "id": "mon_ant_acid_larva",
           "fg": 4235,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
 		{
@@ -59055,6 +59055,66 @@
 		{
           "id": "wings_ornamental",
           "fg": 23497,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_rabbit",
+          "fg": 23498,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_pig",
+          "fg": 23499,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_pig_piglet",
+          "fg": 23500,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_otter",
+          "fg": 23501,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_opossum",
+          "fg": 23502,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_mink",
+          "fg": 23503,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_lemming",
+          "fg": 23504,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_horse",
+          "fg": 23505,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_hare",
+          "fg": 23506,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_groundhog",
+          "fg": 23507,
           "bg": 0,
           "rotates": false
         },
