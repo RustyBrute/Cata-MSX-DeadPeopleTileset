@@ -59332,6 +59332,97 @@
           "bg": 0,
           "rotates": false
         },
+				{
+          "id": "corpse_mon_fish_lobster",
+          "fg": 23536,
+          "bg": 0,
+          "rotates": false
+        },   
+		{
+          "id": "t_reinforced_door_glass_lab_c",
+          "fg": 23537,
+          "bg": 5010
+        },
+        {
+          "id": "t_reinforced_door_glass_lab_o",
+          "fg": 23538,
+          "bg": 5010
+        },
+		{
+          "id": "t_door_glass_lab_c",
+          "fg": 23539,
+          "bg": 5010
+        },
+        {
+          "id": "t_door_glass_lab_o",
+          "fg": 23540,
+          "bg": 5010
+        },
+		{
+          "id": "t_door_glass_frosted_lab_c",
+          "fg": 23541,
+          "bg": 5010
+        },
+        {
+          "id": "t_door_glass_frosted_lab_o",
+          "fg": 23542,
+          "bg": 5010
+        },	
+		{
+          "id": "t_door_metal_lab_c",
+          "fg": 23543,
+          "bg": 5010
+        },
+        {
+          "id": "t_door_metal_lab_o",
+          "fg": 23544,
+          "bg": 5010
+        },
+				{
+          "id": "t_door_lab_c",
+          "fg": 23545,
+          "bg": 5010
+        },
+        {
+          "id": "t_door_lab_b",
+          "fg": 23546,
+          "bg": 5010
+        },			
+		{
+          "id": "t_door_lab_o",
+          "fg": 23547,
+          "bg": 5010
+        },
+        {
+          "id": "t_door_lab_frame",
+          "fg": 23548,
+          "bg": 5010
+        },  
+		{
+          "id": "t_mdoor_lab_frame",
+          "fg": 23549,
+          "bg": 5010
+        },		
+		{
+          "id": "t_gates_mech_control_lab",
+          "fg": 23550,
+          "bg": 5010
+        },
+				{
+          "id": "t_gates_control_concrete_lab",
+          "fg": 23551,
+          "bg": 5010
+        },
+						{
+          "id": "t_gates_control_brick_lab",
+          "fg": 23552,
+          "bg": 5010
+        },
+		{
+          "id": "t_gates_control_metal_lab",
+          "fg": 23552,
+          "bg": 5010
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
