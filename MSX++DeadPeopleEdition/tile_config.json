@@ -59224,7 +59224,114 @@
           "bg": 0,
           "rotates": true
         },
-		
+		{
+          "id": "corpse_mon_cockatrice",
+          "fg": 23519,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_chicken_chick",
+          "fg": 23520,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_grouse_chick",
+          "fg": 23521,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_crow_chick",
+          "fg": 23522,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_turkey_chick",
+          "fg": 23523,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_pheasant_chick",
+          "fg": 23524,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_cockatrice_chick",
+          "fg": 23525,
+          "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "corpse_mon_duck_chick",
+          "fg": 23526,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_goose_canadian_chick",
+          "fg": 23527,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_fish_blinky",
+          "fg": 23528,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_fish_bluegill",
+          "fg": 23529,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_fish_bowfin",
+          "fg": 23530,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_fish_bullhead",
+          "fg": 23531,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_fish_carp",
+          "fg": 23532,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_fish_crayfish",
+          "fg": 23533,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_fish_eel",
+          "fg": 23534,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_fish_lbass",
+          "fg": 23535,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_fish_lobster",
+          "fg": 23536,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
