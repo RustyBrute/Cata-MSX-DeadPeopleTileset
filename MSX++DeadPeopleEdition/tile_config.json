@@ -15069,7 +15069,7 @@
         {
           "id": "mon_centipede_giant",
           "fg": 2369,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -36622,7 +36622,7 @@
         {
           "id": "mon_centipede",
           "fg": 2368,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
         {
@@ -58726,12 +58726,6 @@
 		  "bg": 0,
           "rotates": false
         },	
-		{
-          "id": "corpse_mon_wasp",
-          "fg": 23469,
-		  "bg": 0,
-          "rotates": false
-        },
         {
           "id": "corpse_mon_spider_jumping",
           "fg": 23469,
@@ -58753,78 +58747,6 @@
         {
           "id": "!corpse_mon_spider_trapdoor_giant",
           "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-        {
-          "id": "corpse_mon_spider_web",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-        {
-          "id": "corpse_mon_spider_web_giant",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-		        {
-          "id": "corpse_mon_spider_web_s",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-        {
-          "id": "corpse_mon_spider_widow",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-        {
-          "id": "corpse_mon_spider_widow_giant",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-		        {
-          "id": "corpse_mon_spider_widow_giant_s",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-        {
-          "id": "corpse_mon_spider_wolf",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-        {
-          "id": "corpse_mon_spider_wolf_giant",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },	 
-		{
-          "id": "corpse_mon_centipede_giant",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-		        {
-          "id": "corpse_mon_dragonfly_giant",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },
-		{
-          "id": "corpse_mon_dermatik",
-          "fg": 23469,
-          "bg": 0,
-          "rotates": false
-        },		
-				{
-          "id": "corpse_mon_dermatik_larva",
-          "fg": 23470,
           "bg": 0,
           "rotates": false
         },		
@@ -59332,12 +59254,6 @@
           "bg": 0,
           "rotates": false
         },
-				{
-          "id": "corpse_mon_fish_lobster",
-          "fg": 23536,
-          "bg": 0,
-          "rotates": false
-        },   
 		{
           "id": "t_reinforced_door_glass_lab_c",
           "fg": 23537,
@@ -59420,9 +59336,185 @@
         },
 		{
           "id": "t_gates_control_metal_lab",
-          "fg": 23552,
+          "fg": 23553,
           "bg": 5010
+        },	
+		{
+          "id": "corpse_mon_fish_pbass",
+          "fg": 23554,
+          "bg": 0,
+          "rotates": false
+        },   
+		{
+          "id": "corpse_mon_fish_perch",
+          "fg": 23555,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_fish_pickerel",
+          "fg": 23556,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_fish_pike",
+          "fg": 23557,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_fish_salmon",
+          "fg": 23558,
+          "bg": 0,
+          "rotates": false
+        }, 
+				{
+          "id": "corpse_mon_fish_sbass",
+          "fg": 23559,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_fish_sunfish",
+          "fg": 23560,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_fish_trout",
+          "fg": 23561,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_fish_whitefish",
+          "fg": 23562,
+          "bg": 0,
+          "rotates": false
+        }, 	
+		{
+          "id": "corpse_mon_sewer_fish",
+          "fg": 23563,
+          "bg": 0,
+          "rotates": false
+        }, 			{
+          "id": "corpse_mon_plague_nymph",
+          "fg": 23564,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_skittering_plague",
+          "fg": 23565,
+		  "bg": 0,
+          "rotates": false
         },
+		
+		{
+          "id": "corpse_mon_plague_vector",
+          "fg": 23566,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bee",
+          "fg": 23567,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_centipede_giant",
+          "fg": 23568,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_dragonfly_giant",
+          "fg": 23569,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_fly",
+          "fg": 23570,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_mosquito_giant",
+          "fg": 23571,
+          "bg": 0,
+          "rotates": false
+        },  
+		{
+          "id": "corpse_mon_spider_web",
+          "fg": 23572,
+          "bg": 0,
+          "rotates": false
+        },	 
+		{
+          "id": "corpse_mon_spider_web_giant",
+          "fg": 23572,
+          "bg": 0,
+          "rotates": false
+        },	
+        {
+          "id": "corpse_mon_spider_web_s",
+          "fg": 23573,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_widow",
+          "fg": 23574,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_widow_giant",
+          "fg": 23574,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "corpse_mon_spider_widow_giant_s",
+          "fg": 23575,
+          "bg": 0,
+          "rotates": false
+        }, 
+		{
+          "id": "corpse_mon_spider_wolf",
+          "fg": 23576,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_spider_wolf_giant",
+          "fg": 23576,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_wasp",
+          "fg": 23577,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_dermatik",
+          "fg": 23578,
+          "bg": 0,
+          "rotates": false
+        },		
+				{
+          "id": "corpse_mon_dermatik_larva",
+          "fg": 23579,
+          "bg": 0,
+          "rotates": false
+        }, 
+
+
 		{
           "id": "atlatl",
           "fg": 1986,
