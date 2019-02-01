@@ -59513,8 +59513,78 @@
           "bg": 0,
           "rotates": false
         }, 
-
-
+						{
+          "id": "corpse_mon_ant_larva",
+          "fg": 23580,
+          "bg": 0,
+          "rotates": false
+        }, 
+		{
+          "id": "corpse_mon_ant",
+          "fg": 23581,
+          "bg": 0,
+          "rotates": false
+        }, 
+				{
+          "id": "corpse_mon_ant_soldier",
+          "fg": 23582,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_ant_queen",
+          "fg": 23583,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_ant_acid_larva",
+          "fg": 23584,
+          "bg": 0,
+          "rotates": false
+        }, 
+		{
+          "id": "corpse_mon_ant_acid",
+          "fg": 23585,
+          "bg": 0,
+          "rotates": false
+        }, 
+				{
+          "id": "corpse_mon_ant_acid_soldier",
+          "fg": 23586,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_ant_acid_queen",
+          "fg": 23587,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_ant_fungus",
+          "fg": 23588,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_locust",
+          "fg": 23589,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_locust_nymph",
+          "fg": 23590,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_bear",
+          "fg": 23591,
+          "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
