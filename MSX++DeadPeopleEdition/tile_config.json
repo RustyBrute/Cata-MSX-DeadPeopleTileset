@@ -59584,6 +59584,54 @@
           "fg": 23591,
           "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "corpse_mon_beaver",
+          "fg": 23592,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bobcat",
+          "fg": 23593,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_chipmunk",
+          "fg": 23594,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_cougar",
+          "fg": 23595,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_cow_calf",
+          "fg": 23596,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_cow",
+          "fg": 23597,
+          "bg": 0,
+          "rotates": false
+        },    
+		{
+          "id": "corpse_mon_coyote",
+          "fg": 23598,
+          "bg": 0,
+          "rotates": false
+        },
+        {
+          "id": "corpse_mon_coyote_wolf",
+          "fg": 23599,
+          "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
