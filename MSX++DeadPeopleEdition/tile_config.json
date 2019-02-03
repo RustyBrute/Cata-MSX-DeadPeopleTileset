@@ -31996,7 +31996,6 @@
 		{
           "id": "mon_dog",
           "fg": [
-            { "weight":3, "sprite":4986},
             { "weight":3, "sprite":2408}
             ],
           "rotates": false
@@ -59630,6 +59629,42 @@
         {
           "id": "corpse_mon_coyote_wolf",
           "fg": 23599,
+          "bg": 0,
+          "rotates": false
+        },  
+		{
+          "id": "corpse_mon_deer_fawn",
+          "fg": 23600,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_deer",
+          "fg": 23601,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_dog",
+          "fg": 23602,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_pup",
+          "fg": 23603,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_dog_bull",
+          "fg": 23604,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_bull_pup",
+          "fg": 23605,
           "bg": 0,
           "rotates": false
         },
