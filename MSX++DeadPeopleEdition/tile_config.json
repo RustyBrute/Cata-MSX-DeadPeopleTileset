@@ -59667,6 +59667,30 @@
           "fg": 23605,
           "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "FMCNote",
+          "fg": 23606,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "FlatCoin",
+          "fg": 23607,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "reading_light",
+          "fg": 23608,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "reading_light_on",
+          "fg": 23609,
+          "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
