@@ -37731,25 +37731,25 @@
           "rotates": false
         },
         {
-          "id": "mon_zombie_bio_infantry",
+          "id": ["mon_zombie_bio_infantry", "mon_zombie_bio_infantry_rifle"],
           "fg": 2673,
 		  "bg": 967,
           "rotates": false
         },
         {
-          "id": "mon_zombie_bio_knight",
+          "id": ["mon_zombie_bio_knight", "mon_zombie_bio_knight_lmg"],
           "fg": 2674,
 		  "bg": 967,
           "rotates": false
         },
         {
-          "id": "mon_zombie_bio_scout",
+          "id": ["mon_zombie_bio_scout", "mon_zombie_bio_scout_sniper"],
           "fg": 2676,
 		  "bg": 967,
           "rotates": false
         },
         {
-          "id": "mon_zombie_bio_tool",
+          "id": ["mon_zombie_bio_tool", "mon_zombie_bio_tool_pistol"],
           "fg": 2677,
 		  "bg": 967,
           "rotates": false
@@ -37852,7 +37852,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_panties_on",
+          "id": "!overlay_worn_panties_on",
           "fg": 2706,
           "rotates": false
         },
@@ -59691,7 +59691,25 @@
           "fg": 23609,
           "bg": 0,
           "rotates": false
-        },
+        },      
+		{
+          "id": "mon_zombie_bio_tool_smg",
+          "fg": 23610,
+		  "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "mon_zombie_bio_infantry_shotgun",
+          "fg": 23611,
+		  "bg": 967,
+          "rotates": false
+        },		
+		{
+          "id": "mon_zombie_bio_knight_lauhcher",
+          "fg": 23612,
+		  "bg": 967,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
