@@ -59709,7 +59709,127 @@
           "fg": 23612,
 		  "bg": 967,
           "rotates": false
-        },	
+        },
+		{
+          "id": "corpse_mon_dog_pitbullmix",
+          "fg": 23613,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_pitbullmix_pup",
+          "fg": 23614,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_beagle",
+          "fg": 23615,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_beagle_pup",
+          "fg": 23616,
+		  "bg": 0,
+          "rotates": false
+        },												
+		{
+          "id": "corpse_mon_dog_bcollie",
+          "fg": 23617,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_bcollie_pup",
+           "fg": 23618,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_boxer",
+          "fg": 23619,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_boxer_pup",
+          "fg": 23620,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_chihuahua",
+          "fg": 23621,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_chihuahua_pup",
+          "fg": 23622,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_dachshund",
+          "fg": 23623,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_dachshund_pup",
+          "fg": 23624,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_gshepherd",
+          "fg": 23625,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_gshepherd_pup",
+          "fg": 23626,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_gpyrenees",
+          "fg": 23627,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_gpyrenees_pup",
+          "fg": 23628,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_rottweiler",
+          "fg": 23629,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_rottweiler_pup",
+          "fg": 23630,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_auscattle",
+          "fg": 23631,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_auscattle_pup",
+          "fg": 23632,
+		  "bg": 0,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
