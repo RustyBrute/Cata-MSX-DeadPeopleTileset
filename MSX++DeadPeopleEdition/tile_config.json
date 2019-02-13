@@ -59965,6 +59965,90 @@
           "fg": 23643,
 		  "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_carrot_harvested"],
+          "fg": 23644,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_carrot"],
+          "fg": 23645,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["t_hydrop_celery_harvested"],
+          "fg": 23646,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_celery"],
+          "fg": 23647,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_corn_harvested"],
+          "fg": 23648,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_corn"],
+          "fg": 23649,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["t_hydrop_cucumber_harvested"],
+          "fg": 23650,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_cucumber"],
+          "fg": 23651,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["t_hydrop_onion_harvested"],
+          "fg": 23652,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_onion"],
+          "fg": 23653,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["t_hydrop_weed_harvested"],
+          "fg": 23656,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_weed"],
+          "fg": 23657,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["t_hydrop_potato_harvested"],
+          "fg": 23654,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_potato"],
+          "fg": 23655,
+		  "bg": 0,
+          "rotates": false
         },
 		
 		{
