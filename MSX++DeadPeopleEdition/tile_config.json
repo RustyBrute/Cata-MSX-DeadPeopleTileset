@@ -17572,7 +17572,7 @@
         {
           "id": ["motor_enhanced", "vp_engine_electric_enhanced", "motor_large", "vp_engine_electric_large", "vp_engine_electric"],
           "fg": 1812,
-          "bg": 984
+          "bg": 0
         },
         {
           "id": "sheet_metal_lit",
@@ -46335,7 +46335,7 @@
           "rotates": true
         },
         {
-          "id": ["vp_wheel_motorbike", "vp_wheel_bicycle_or", "vp_wheel_motorbike_or", "vp_wheel_slick", "vp_wheel_wide_or"],
+          "id": ["vp_wheel_motorbike", "vp_wheel_bicycle_or", "vp_wheel_wide_or_steerable", "vp_wheel_bicycle_or_steerable", "vp_wheel_motorbike_or_steerable", "vp_wheel_slick_steerable", "vp_wheel_motorbike_or", "vp_wheel_slick", "vp_wheel_wide_or"],
           "fg": 4187,
           "rotates": true
         },
@@ -59899,7 +59899,74 @@
           "fg": 23632,
 		  "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "large_space_heater",
+          "fg": 23633,
+		  "bg": 0,
+          "rotates": false
         },
+				{
+          "id": "large_space_heater_on",
+          "fg": 23634,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "small_space_heater",
+          "fg": 23635,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "small_space_heater_on",
+          "fg": 23636,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["motor_super", "vp_engine_electric_super"],
+          "fg": 23637,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_tomato_harvested"],
+          "fg": 23638,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_tomato"],
+          "fg": 23639,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_bean_harvested"],
+          "fg": 23640,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_bean"],
+          "fg": 23641,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["t_hydrop_cabbage_harvested"],
+          "fg": 23642,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["t_hydrop_cabbage"],
+          "fg": 23643,
+		  "bg": 0,
+          "rotates": false
+        },
+		
 		{
           "id": "atlatl",
           "fg": 1986,
