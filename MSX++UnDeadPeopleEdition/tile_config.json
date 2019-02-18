@@ -4075,40 +4075,10 @@
           "rotates": false
         },
         {
-          "id": "overlay_worn_blanket",
-          "fg": 541,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_down_blanket",
-          "fg": 541,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_fur_blanket",
-          "fg": 541,
-          "rotates": false
-        },
-        {
           "id": "overlay_worn_sheet",
           "fg": 541,
           "rotates": false
-        },
-        {
-          "id": "overlay_worn_emer_blanket_on",
-          "fg": 541,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_tarp",
-          "fg": 541,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_emer_blanket",
-          "fg": 541,
-          "rotates": false
-        },
+        },		
         {
           "id": "overlay_worn_blazer",
           "fg": 542,
@@ -6726,10 +6696,6 @@
           "id": "sheet",
           "fg": 872,
           "rotates": false
-        },
-        {
-          "id": "v_curtain_item",
-          "fg": 872
         },
         {
           "id": "sheriffshirt",
@@ -60142,6 +60108,45 @@
 		{
           "id": "overlay_worn_nomex_hood",
           "fg": 23678,
+          "rotates": false
+        },
+				{
+          "id": "lens_small",
+          "fg": 23679,
+          "rotates": false
+        },   
+		{
+          "id": "overlay_worn_blanket",
+          "fg": 23680,
+          "rotates": false
+        }, 
+		{
+          "id": "overlay_worn_fur_blanket",
+          "fg": 23681,
+          "rotates": false
+        },
+				{
+          "id": "overlay_worn_down_blanket",
+          "fg": 23682,
+          "rotates": false
+        },   
+		{
+          "id": "overlay_worn_emer_blanket_on",
+          "fg": 23683,
+          "rotates": false
+        },
+				{
+          "id": "emer_blanket",
+          "fg": 23684,
+          "rotates": false
+        }, 
+		{
+          "id": "v_curtain_item",
+          "fg": 23685
+        },  
+		{
+          "id": "overlay_worn_tarp",
+          "fg": 23686,
           "rotates": false
         },
 		{
