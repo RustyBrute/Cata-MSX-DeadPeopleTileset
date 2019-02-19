@@ -13785,7 +13785,7 @@
           "rotates": false
         },
         {
-          "id": "family_cookbook",
+          "id": ["family_cookbook", "morlock_cookbook"],
           "fg": 1030,
           "bg": 962,
           "rotates": false
@@ -60147,6 +60147,88 @@
 		{
           "id": "overlay_worn_tarp",
           "fg": 23686,
+          "rotates": false
+        },
+				{
+          "id": "t_door_curtain_leather_c",
+          "fg": 23687
+        },  
+		{
+          "id": "t_door_curtain_leather_o",
+          "fg": 23688,
+          "rotates": false
+        },	
+		{
+          "id": "carbonfiber_boat_hull",
+          "fg": 23689
+        },  
+		{
+          "id": "vp_carbonfiber_boat_hull",
+          "fg": 23690,
+          "rotates": false
+        },	
+		{
+          "id": "plastic_boat_hull",
+          "fg": 23691
+        },  
+		{
+          "id": "vp_plastic_boat_hull",
+          "fg": 23692,
+          "rotates": false
+        },
+				{
+          "id": "vp_metal_boat_hull",
+          "fg": 23693,
+          "rotates": false
+        },
+						{
+          "id": "f_char_purifier",
+          "fg": 23694,
+          "rotates": false
+        },	
+		{
+          "id": "vp_drone_interface",
+          "fg": 23695,
+          "rotates": false
+        },
+				{
+          "id": "vp_insulated_box",
+          "fg": 23696,
+          "rotates": false
+        },
+		{
+          "id": "insulated_box",
+          "fg": 23697,
+          "rotates": false
+        },
+		{
+          "id": "t_tree_mushroom",
+          "fg": 23698,
+          "bg": 1012,
+          "rotates": false
+        },    
+		{
+          "id": "mon_pig_mutant_cave",
+          "fg": 23699,
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "mon_pig_piglet_mutant_cave",
+          "fg": 23700,
+          "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_pig_mutant_cave",
+          "fg": 23701,
+          "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_pig_piglet_mutant_cave",
+          "fg": 23702,
+          "bg": 967,
           "rotates": false
         },
 		{
