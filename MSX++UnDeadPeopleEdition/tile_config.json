@@ -2049,10 +2049,6 @@
           "fg": 268
         },
         {
-          "id": "armor_scavenger",
-          "fg": 269
-        },
-        {
           "id": "overlay_worn_armor_scavenger",
           "fg": 269,
           "rotates": false
@@ -2118,16 +2114,7 @@
           "rotates": false
         },
         {
-          "id": "beekeeping_hood",
-          "fg": 281
-        },
-        {
           "id": "overlay_worn_beekeeping_hood",
-          "fg": 281,
-          "rotates": false
-        },
-        {
-          "id": "overlay_worn_hat_hooded",
           "fg": 281,
           "rotates": false
         },
@@ -2524,16 +2511,7 @@
           "fg": 341
         },
         {
-          "id": "dragonskin",
-          "fg": 342
-        },
-        {
-          "id": "overlay_worn_dragonskin",
-          "fg": 342,
-          "rotates": false
-        },
-        {
-          "id": ["overlay_worn_kevlar", "overlay_worn_kevlar_tee"],
+          "id": ["overlay_worn_kevlar"],
           "fg": 342,
           "rotates": false
         },
@@ -4951,10 +4929,6 @@
           "id": "overlay_worn_helmet_scavenger",
           "fg": 649,
           "rotates": false
-        },
-        {
-          "id": "helmet_scavenger",
-          "fg": 649
         },
         {
           "id": "overlay_worn_helmet_skid",
@@ -20879,32 +20853,38 @@
           "id": ["t_wall", "t_secretdoor_onetime", "t_secretdoor_wall_c", "t_sliding_wall_c"],
           "fg": 3324,
           "bg": 1012,
-          "rotates": false,
+          "rotates": true,
           "multitile": true,
           "additional_tiles": [
             {
               "id": "center",
-              "fg": 3324
+              "fg": 3324,
+			  "bg": 1012
             },
             {
               "id": "corner",
-              "fg": 3331
+              "fg": 3331,
+			  "bg": 1012
             },
             {
               "id": "edge",
-              "fg": 3332
+              "fg": 3332,
+			  "bg": 1012
             },
             {
               "id": "end_piece",
-              "fg": 3333
+              "fg": 3333,
+			  "bg": 3324
             },
             {
               "id": "t_connection",
-              "fg": 3383
+              "fg": 3383,
+			  "bg": 3324
             },
             {
               "id": "unconnected",
-              "fg": 3384
+              "fg": 3384,
+			  "bg": 1012
             }
           ]
 		 },
@@ -60351,6 +60331,37 @@
           "id": "t_door_glass_gray_o",
           "fg": 23726,
 		  "bg": 3109,
+          "rotates": false
+        },   
+		{
+          "id": "armor_scavenger",
+          "fg": 23727
+        },
+		        {
+          "id": "helmet_scavenger",
+          "fg": 23728
+        },
+		        {
+          "id": "overlay_worn_hat_hooded",
+          "fg": 23729,
+          "rotates": false
+        },    
+		{
+          "id": "beekeeping_hood",
+          "fg": 23730
+        },  
+		{
+          "id": "dragonskin",
+          "fg": 23731
+        },
+        {
+          "id": "overlay_worn_dragonskin",
+          "fg": 23732,
+          "rotates": false
+        },    
+		{
+          "id": "overlay_worn_kevlar_tee",
+          "fg": 23733,
           "rotates": false
         },
 		{
