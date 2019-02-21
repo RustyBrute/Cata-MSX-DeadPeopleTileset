@@ -17593,7 +17593,6 @@
           "id": "t_swater_dp",
           "fg": 3266,
           "bg": 985,
-          "rotates": false,
           "multitile": true,
           "additional_tiles": [
             {
@@ -17616,7 +17615,8 @@
               "id": "unconnected",
               "fg": 3274
             }
-          ]
+          ],
+		            "rotates": false
         },
         {
           "id": "t_swater_dp_season_winter",
@@ -17644,7 +17644,8 @@
               "id": "unconnected",
               "fg": 3273
             }
-          ]
+          ],
+		            "rotates": false
         },
         {
           "id": "t_little_column",
@@ -18523,7 +18524,8 @@
               "id": "unconnected",
               "fg": 3417
             }
-          ]
+          ],
+		  "rotates": false
         },
         {
           "id": "t_swater_sh_season_winter",
@@ -18555,7 +18557,8 @@
               "id": "unconnected",
               "fg": 3417
             }
-          ]
+          ],
+		            "rotates": false
         },
         {
           "id": "t_dirtmound_season_winter",
@@ -18618,7 +18621,8 @@
 			{ "weight":1, "sprite":23306},
 			{ "weight":1, "sprite":23307},
 			{ "weight":1, "sprite":23308}
-            ]
+            ],
+			"rotates": false
         },
         {
           "id": "t_barndoor_season_winter",
@@ -18652,7 +18656,8 @@
         {
           "id": ["t_shrub_season_winter", "t_shrub_peanut_season_winter", "t_shrub_peanut_harvested_season_winter"],
           "fg": 3245,
-          "bg": 992
+          "bg": 992,
+		            "rotates": false
         },
         {
           "id": "t_palisade_pulley_season_winter",
@@ -18715,10 +18720,23 @@
         },
         {
           "id": ["t_grass_season_winter", "t_grass_golf_season_winter", "t_grass_long_season_winter", "t_grass_tall_season_winter", "t_grass_dead_season_winter"],
-          "fg": 3079,
+          "fg": [
+            { "weight":300, "sprite":992},
+			{ "weight":300, "sprite":3080},
+			{ "weight":300, "sprite":3081},
+			{ "weight":300, "sprite":3082},
+			{ "weight":300, "sprite":3083},
+			{ "weight":300, "sprite":3084},
+			{ "weight":300, "sprite":3085},
+			{ "weight":10, "sprite":23303},
+			{ "weight":10, "sprite":23304},
+			{ "weight":10, "sprite":23305},
+			{ "weight":10, "sprite":23306},
+			{ "weight":10, "sprite":23307},
+			{ "weight":10, "sprite":23308}
+            ],
           "bg": 992,
-          "rotates": false,
-          "multitile": true,
+          "multitile": false,
           "additional_tiles": [
             {
               "id": "center",
@@ -18828,7 +18846,8 @@
 			{ "weight":10, "sprite":23308}
             ]
             }
-          ]
+          ],
+		            "rotates": false
         },
         {
           "id": "t_fencegate_o_season_winter",
@@ -20680,7 +20699,7 @@
           "id": "t_grass",
           "fg": 3074,
           "bg": 1012,
-          "rotates": true,
+          "rotates": false,
           "multitile": true,
           "additional_tiles": [
             {
@@ -21067,7 +21086,6 @@
           "id": "t_swater_sh",
           "fg": 3412,
           "bg": 1012,
-          "rotates": false,
           "multitile": true,
           "additional_tiles": [
             {
@@ -21094,7 +21112,8 @@
               "id": "unconnected",
               "fg": 3418
             }
-          ]
+          ],
+		            "rotates": false
         },
         {
           "id": "t_tree_pine",
@@ -29637,7 +29656,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },  
 		{
           "id": "t_grass_season_summer",
@@ -29677,7 +29696,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },    		
 		{
           "id": "t_grass_season_autumn",
@@ -29717,7 +29736,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },		
 		{
           "id": "mon_bandit_looter",
@@ -31012,7 +31031,7 @@
             { "weight":1, "sprite":4842},
             { "weight":1, "sprite":4843}
             ], 
-		   "rotates": true
+		   "rotates": false
 	    },        
 		{
           "id": "!f_rubble",
@@ -48939,7 +48958,7 @@
         {
           "id": ["t_water_sh", "t_swater_sh"],
           "fg": 16852,
-          "bg": 1012,
+          "bg": 16852,
           "multitile": true,
           "additional_tiles": [            
 		    {
@@ -48974,17 +48993,9 @@
             },            
 			{
               "fg": [
-			{ "weight":30, "sprite":16854},
-            { "weight":30, "sprite":27629},
-            { "weight":30, "sprite":27630},
-            { "weight":30, "sprite":27631},
-			{ "weight":30, "sprite":27632},            
-			{ "weight":30, "sprite":27633},
-            { "weight":30, "sprite":27634},
-            { "weight":30, "sprite":27635},
-			{ "weight":30, "sprite":27636}
+			{ "weight":30, "sprite":16852}
 			],
-			  "bg": 1012,
+			  "bg": 16852,
               "id": "t_connection"
             },
             {
@@ -49034,7 +49045,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },           
 		{
           "id": ["t_water_sh_season_winter", "t_swater_sh_season_winter"],
@@ -49074,17 +49085,9 @@
             },            
 			{
               "fg": [
-			{ "weight":30, "sprite":16854},
-            { "weight":30, "sprite":27629},
-            { "weight":30, "sprite":27630},
-            { "weight":30, "sprite":27631},
-			{ "weight":30, "sprite":27632},            
-			{ "weight":30, "sprite":27633},
-            { "weight":30, "sprite":27634},
-            { "weight":30, "sprite":27635},
-			{ "weight":30, "sprite":27636}
+			{ "weight":30, "sprite":16852}
 			],
-			  "bg": 992,
+			  "bg": 16852,
               "id": "t_connection"
             },
             {
@@ -49134,7 +49137,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },
 		{
           "id": ["t_water_dp", "t_swater_dp"],
@@ -49174,17 +49177,9 @@
             },            
 			{
               "fg": [
-			{ "weight":30, "sprite":16860},
-            { "weight":30, "sprite":27581},
-            { "weight":30, "sprite":27582},
-            { "weight":30, "sprite":27583},
-			{ "weight":30, "sprite":27584},            
-			{ "weight":30, "sprite":27585},
-            { "weight":30, "sprite":27586},
-            { "weight":30, "sprite":27587},
-			{ "weight":30, "sprite":27588}
+			{ "weight":30, "sprite":16858}
 			],
-			  "bg": 1012,
+			  "bg": 16858,
               "id": "t_connection"
             },
             {
@@ -49233,7 +49228,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },	     
 		{
           "id": ["t_water_dp_season_winter", "t_swater_dp_season_winter"],
@@ -49273,17 +49268,9 @@
             },            
 			{
               "fg": [
-			{ "weight":30, "sprite":16860},
-            { "weight":30, "sprite":27581},
-            { "weight":30, "sprite":27582},
-            { "weight":30, "sprite":27583},
-			{ "weight":30, "sprite":27584},            
-			{ "weight":30, "sprite":27585},
-            { "weight":30, "sprite":27586},
-            { "weight":30, "sprite":27587},
-			{ "weight":30, "sprite":27588}
+			{ "weight":30, "sprite":16858}
 			],
-			  "bg": 992,
+			  "bg": 16858,
               "id": "t_connection"
             },
             {
@@ -49333,7 +49320,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },		
 		{
           "id": ["t_grass", "t_grass_long", "t_grass_golf"],
@@ -49373,7 +49360,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },		
 		{
           "id": ["t_grass_season_summer", "t_grass_golf_season_summer"],
@@ -49413,7 +49400,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },		
 		{
           "id": ["t_grass_season_autumn", "t_grass_golf_season_autumn"],
@@ -49453,7 +49440,7 @@
               "id": "unconnected"
             }
           ],
-          "rotates": true		  
+          "rotates": false		  
         },		
 		{
           "id": "f_rubble",
@@ -51658,9 +51645,9 @@
         },
 		{
 		  "id": ["t_moss_season_winter"],
-          "fg": 17396,
-          "bg": 0,
-          "multitile": true,
+          "fg": 992,
+          "bg": 992,
+          "multitile": false,
           "additional_tiles": [            
 		    {
               "fg": [
@@ -51819,7 +51806,6 @@
               "id": "unconnected"
             }
           ],
-		  
           "rotates": false		  
         },
 		{
