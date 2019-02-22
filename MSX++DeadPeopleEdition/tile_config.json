@@ -60363,6 +60363,42 @@
           "id": "overlay_worn_kevlar_tee",
           "fg": 23733,
           "rotates": false
+        },    
+		{
+          "id": "corpse_mon_ant_queen_firebug",
+          "fg": 23734,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_ant_queen_young",
+          "fg": 23735,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "corpse_mon_ant_male",
+          "fg": 23736,
+		  "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": "corpse_mon_ant_scrib",
+          "fg": 23737,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_ant_soldier_terminal",
+          "fg": 23738,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_ant_terminal",
+          "fg": 23739,
+		  "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
