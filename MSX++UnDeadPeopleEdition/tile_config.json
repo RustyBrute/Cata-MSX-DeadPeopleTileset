@@ -14712,41 +14712,42 @@
         },
         {
           "id": "t_fungus",
-          "bg": 966,
-		  "rotates": false,
+		  "fg": 4534,
+          "bg": 1012,
           "multitile": true,
           "additional_tiles": [
             {
               "id": "center",
               "fg": 4534,
-              "bg": 974
+              "bg": 1012
             },
             {
               "id": "corner",
               "fg": 4535,
-              "bg": 974
+              "bg": 1012
             },
             {
               "id": "edge",
               "fg": 4536,
-              "bg": 974
+              "bg": 1012
             },
             {
               "id": "t_connection",
               "fg": 4538,
-              "bg": 974
+              "bg": 1012
             },
             {
               "id": "end_piece",
               "fg": 4537,
-              "bg": 974
+              "bg": 1012
             },
             {
               "id": "unconnected",
               "fg": 4539,
-              "bg": 974
+              "bg": 1012
             }
-          ]
+          ],
+		  		  "rotates": false
         },        
 		{
           "id": "t_fungus_season_winter",
@@ -38187,7 +38188,8 @@
               "fg": 2987,
               "bg": 3060
             }
-          ]
+          ],
+		  "rotates": false
         },
         {
           "id": "t_claymound",
