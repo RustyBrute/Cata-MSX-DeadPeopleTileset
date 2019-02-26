@@ -47937,7 +47937,9 @@
 		{ "id": "overlay_female_mutation_CHITIN_FUR", "fg": 10086, "rotates": false },
 		{ "id": "overlay_male_mutation_CHITIN_FUR", "fg": 10087, "rotates": false },
 		{ "id": "overlay_female_mutation_CHITIN_FUR2", "fg": 10088, "rotates": false },
-		{ "id": "overlay_male_mutation_CHITIN_FUR2", "fg": 10089, "rotates": false },
+		{ "id": "overlay_male_mutation_6", "fg": 10089, "rotates": false },
+		{ "id": "overlay_female_mutation_CHITIN_FUR3", "fg": 10088, "rotates": false },
+		{ "id": "overlay_male_mutation_CHITIN_FUR3", "fg": 10089, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_THORNS", "fg": 10090, "rotates": false },
 		{ "id": "overlay_male_mutation_THORNS", "fg": 10091, "rotates": false },
