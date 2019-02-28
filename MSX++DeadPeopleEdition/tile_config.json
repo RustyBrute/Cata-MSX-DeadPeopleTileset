@@ -27396,11 +27396,6 @@
           "rotates": false
         },
         {
-          "id": "stick",
-          "fg": 4690,
-          "rotates": false
-        },
-        {
           "id": "straw_doll",
           "fg": 1944
         },
@@ -30137,13 +30132,8 @@
           "rotates": false
         },		
 		{
-          "id": ["l_staff", "stick_long"],
+          "id": ["l_staff"],
           "fg": 4690,
-          "rotates": false
-        },	
-		{
-          "id": "stick_long",
-          "fg": 1943,
           "rotates": false
         },	
 		{
@@ -60403,7 +60393,27 @@
           "fg": 23739,
 		  "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "stick_long",
+          "fg": 23740,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_stick_long",
+          "fg": 23741
+        },	
+				        {
+          "id": "stick",
+          "fg": 23742,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_stick",
+          "fg": 23743,
+          "rotates": false
         },
+
 		{
           "id": "atlatl",
           "fg": 1986,
