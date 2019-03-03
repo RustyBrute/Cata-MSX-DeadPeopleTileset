@@ -52872,6 +52872,120 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": ["fd_blood_insect"],
+          "fg": 17796,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17796,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17797, 17798, 17799, 17800],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17801, 17802, 17803, 17804],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17805, 17806],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17807, 17808, 17809, 17810],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17811,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_gibs_insect"],
+          "fg": 17812,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17812,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17813, 17814, 17815, 17816],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17817, 17818, 17819, 17820],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17821, 17822],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17823, 17824, 17825, 17826],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17827,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_sap"],
+          "fg": 17828,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17828,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17829, 17830, 17831, 17832],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17833, 17834, 17835, 17836],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17837, 17838],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17839, 17840, 17841, 17842],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17843,
+			  "bg": 972
+            }
+			],
+			"rotates": false
 			}
   ]
   },
