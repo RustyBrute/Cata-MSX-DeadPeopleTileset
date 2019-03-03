@@ -52791,7 +52791,83 @@
             },
             {
               "id": "unconnected",
+              "fg": 17763,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_blood_invertebrate"],
+          "fg": 17764,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
               "fg": 17764,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17765, 17766, 17767, 17768],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17769, 17770, 17771, 17772],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17773, 17774],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17775, 17776, 17777, 17778],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17779,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_gibs_invertebrate"],
+          "fg": 17780,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17780,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17781, 17782, 17783, 17784],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17785, 17786, 17787, 17788],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17789, 17790],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17791, 17792, 17793, 17794],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17795,
 			  "bg": 972
             }
 			],
