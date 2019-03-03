@@ -31130,10 +31130,7 @@
           "id": "t_pavement",
           "bg":
 		    [
-            { "weight":1111, "sprite":985},
-			{ "weight":111, "sprite":27661},
-			{ "weight":111, "sprite":27662},
-			{ "weight":111, "sprite":27663},
+			{ "weight":1111, "sprite":27661},
             { "weight":1, "sprite":4860},
 			{ "weight":1, "sprite":4861},
 			{ "weight":1, "sprite":4862},
