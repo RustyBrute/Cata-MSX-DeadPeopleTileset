@@ -48963,15 +48963,13 @@
               "id": "corner"
             },            
 			{
-              "fg": [
-			{ "weight":30, "sprite":16852}
-			],
-			  "bg": 16852,
+              "fg": [16857, 16858, 16859, 16860],
+			  "bg": 1012,
               "id": "t_connection"
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16855},
+			{ "weight":30, "sprite":16861},
             { "weight":30, "sprite":27637},
             { "weight":30, "sprite":27638},
             { "weight":30, "sprite":27639},
@@ -48986,7 +48984,7 @@
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16856},
+			{ "weight":30, "sprite":16863},
             { "weight":30, "sprite":27645},
             { "weight":30, "sprite":27646},
             { "weight":30, "sprite":27647},
@@ -49002,7 +49000,7 @@
 
             {
               "fg": [
-			{ "weight":30, "sprite":16857},
+			{ "weight":30, "sprite":16867},
             { "weight":30, "sprite":27653},
             { "weight":30, "sprite":27654},
             { "weight":30, "sprite":27655},
@@ -49055,15 +49053,13 @@
               "id": "corner"
             },            
 			{
-              "fg": [
-			{ "weight":30, "sprite":16852}
-			],
-			  "bg": 16852,
+              "fg": [16857, 16858, 16859, 16860],
+			  "bg": 992,
               "id": "t_connection"
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16855},
+			{ "weight":30, "sprite":16861},
             { "weight":30, "sprite":27637},
             { "weight":30, "sprite":27638},
             { "weight":30, "sprite":27639},
@@ -49078,7 +49074,7 @@
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16856},
+			{ "weight":30, "sprite":16863},
             { "weight":30, "sprite":27645},
             { "weight":30, "sprite":27646},
             { "weight":30, "sprite":27647},
@@ -49094,7 +49090,7 @@
 
             {
               "fg": [
-			{ "weight":30, "sprite":16857},
+			{ "weight":30, "sprite":16867},
             { "weight":30, "sprite":27653},
             { "weight":30, "sprite":27654},
             { "weight":30, "sprite":27655},
@@ -49112,13 +49108,13 @@
         },
 		{
           "id": ["t_water_dp", "t_swater_dp"],
-          "fg": 16858,
+          "fg": 16868,
           "bg": 1012,
           "multitile": true,
           "additional_tiles": [            
 		    {
               "fg": [
-            { "weight":30, "sprite":16858},
+            { "weight":30, "sprite":16868},
             { "weight":30, "sprite":27565},
             { "weight":30, "sprite":27566},
             { "weight":30, "sprite":27567},
@@ -49133,7 +49129,7 @@
             },
 			{
               "fg": [
-            { "weight":30, "sprite":16859},
+            { "weight":30, "sprite":16869},
             { "weight":30, "sprite":27573},
             { "weight":30, "sprite":27574},
             { "weight":30, "sprite":27575},
@@ -49147,15 +49143,13 @@
               "id": "corner"
             },            
 			{
-              "fg": [
-			{ "weight":30, "sprite":16858}
-			],
-			  "bg": 16858,
+              "fg": [16873, 16874, 16875, 16876],
+			  "bg": 1012,
               "id": "t_connection"
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16861},
+			{ "weight":30, "sprite":16877},
             { "weight":30, "sprite":27589},
             { "weight":30, "sprite":27590},
             { "weight":30, "sprite":27591},
@@ -49170,7 +49164,7 @@
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16862},
+			{ "weight":30, "sprite":16879},
             { "weight":30, "sprite":27597},
             { "weight":30, "sprite":27598},
             { "weight":30, "sprite":27599},
@@ -49185,7 +49179,7 @@
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16863},
+			{ "weight":30, "sprite":16883},
             { "weight":30, "sprite":27605},
             { "weight":30, "sprite":27606},
             { "weight":30, "sprite":27607},
@@ -49209,7 +49203,7 @@
           "additional_tiles": [            
 		    {
               "fg": [
-            { "weight":30, "sprite":16858},
+            { "weight":30, "sprite":16868},
             { "weight":30, "sprite":27565},
             { "weight":30, "sprite":27566},
             { "weight":30, "sprite":27567},
@@ -49218,13 +49212,13 @@
             { "weight":30, "sprite":27570},
             { "weight":30, "sprite":27571},
 			{ "weight":30, "sprite":27572}
-            ],
+            ], 
 			  "bg": 992,
               "id": "center"
             },
 			{
               "fg": [
-            { "weight":30, "sprite":16859},
+            { "weight":30, "sprite":16869},
             { "weight":30, "sprite":27573},
             { "weight":30, "sprite":27574},
             { "weight":30, "sprite":27575},
@@ -49238,15 +49232,13 @@
               "id": "corner"
             },            
 			{
-              "fg": [
-			{ "weight":30, "sprite":16858}
-			],
-			  "bg": 16858,
+              "fg": [16873, 16874, 16875, 16876],
+			  "bg": 992,
               "id": "t_connection"
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16861},
+			{ "weight":30, "sprite":16877},
             { "weight":30, "sprite":27589},
             { "weight":30, "sprite":27590},
             { "weight":30, "sprite":27591},
@@ -49261,7 +49253,7 @@
             },
             {
               "fg": [
-			{ "weight":30, "sprite":16862},
+			{ "weight":30, "sprite":16879},
             { "weight":30, "sprite":27597},
             { "weight":30, "sprite":27598},
             { "weight":30, "sprite":27599},
@@ -49277,7 +49269,7 @@
 
             {
               "fg": [
-			{ "weight":30, "sprite":16863},
+			{ "weight":30, "sprite":16883},
             { "weight":30, "sprite":27605},
             { "weight":30, "sprite":27606},
             { "weight":30, "sprite":27607},
@@ -52573,6 +52565,234 @@
               "id": "unconnected",
               "fg": 17667,
 			  "bg": 23383
+            }
+			],
+			"rotates": false
+			},
+						{
+          "id": ["fd_smoke", "fd_smoke_vent"],
+          "fg": 17668,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17668,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17669, 17670, 17671, 17672],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17673, 17674, 17675, 17676],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17677, 17678],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17679, 17680, 17681, 17682],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17683,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_toxic_gas"],
+          "fg": 17684,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17684,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17685, 17686, 17687, 17688],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17689, 17690, 17691, 17692],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17693, 17694],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17695, 17696, 17697, 17698],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17699,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_bile"],
+          "fg": 17700,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17700,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17701, 17702, 17703, 17704],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17705, 17706, 17707, 17708],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17709, 17710],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17711, 17712, 17713, 17714],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17715,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_gibs_veggy"],
+          "fg": 17716,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17716,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17717, 17718, 17719, 17720],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17721, 17722, 17723, 17724],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17725, 17726],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17727, 17728, 17729, 17730],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17731,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_blood_veggy"],
+          "fg": 17732,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17732,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17733, 17734, 17735, 17736],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17737, 17738, 17739, 17740],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17741, 17742],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17743, 17744, 17745, 17746],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17747,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_acid"],
+          "fg": 17748,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17748,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17749, 17750, 17751, 17752],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17753, 17754, 17755, 17756],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17757, 17758],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17759, 17760, 17761, 17762],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17764,
+			  "bg": 972
             }
 			],
 			"rotates": false
@@ -60432,7 +60652,7 @@
 	]
 	},
 		{
-		"file": "16_tiles_trees_64x80_32765-33165.png",
+		"file": "16_tiles_trees_64x80_32765-33164.png",
 		    "sprite_width":64,
             "sprite_height":80,
             "sprite_offset_x":-16,
@@ -61762,7 +61982,7 @@
 	]
 	},	
 	{
-		"file": "17_top_hats_32x32.png",
+		"file": "17_top_hats_32x32-33165-35756.png",
 		"sprite_offset_y":-16,
 		"tiles":
 	[
