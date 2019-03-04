@@ -47141,9 +47141,9 @@
           "fg": 5441,
           "rotates": false
         },
-        {
-          "id": "mon_oni",
-          "fg": 5449,
+				{
+          "id": "mon_sludge_crawler",
+          "fg": 5442,
           "rotates": false
         },
         {
@@ -52982,6 +52982,44 @@
             {
               "id": "unconnected",
               "fg": 17843,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["fd_sludge"],
+          "fg": 17844,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 17844,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [17845, 17846, 17847, 17848],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [17849, 17850, 17851, 17852],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [17853, 17854],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [17855, 17856, 17857, 17858],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 17859,
 			  "bg": 972
             }
 			],
