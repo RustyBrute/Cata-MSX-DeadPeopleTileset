@@ -53524,6 +53524,158 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": [ "t_sandbox"],
+          "fg": 18068,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18068,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18069, 18070, 18071, 18072],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18073, 18074, 18075, 18076],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18077, 18078],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [18079, 18080, 18081, 18082],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18083,
+			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": [ "t_monkey_bars"],
+          "fg": 18084,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18084,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18085, 18086, 18087, 18088],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18089, 18090, 18091, 18092],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18093, 18094],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18095, 18096, 18097, 18098],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18099,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": [ "t_monkey_bars_season_winter"],
+          "fg": 18084,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18084,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18085, 18086, 18087, 18088],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18089, 18090, 18091, 18092],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18093, 18094],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18095, 18096, 18097, 18098],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18099,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": [ "t_sandbox_season_winter"],
+          "fg": 18100,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18100,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18101, 18102, 18103, 18104],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18105, 18106, 18107, 18108],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18109, 18110],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18111, 18112, 18113, 18114],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18115,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
 			}
   ]
   },
