@@ -53676,6 +53676,44 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": [ "t_concrete_wall"],
+          "fg": 18116,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18116,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18117, 18118, 18119, 18120],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18121, 18122, 18123, 18124],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18125, 18126],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18127, 18128, 18129, 18130],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18131,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
 			}
   ]
   },
