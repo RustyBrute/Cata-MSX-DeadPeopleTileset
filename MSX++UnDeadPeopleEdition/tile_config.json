@@ -54109,7 +54109,8 @@
 		{ "id": "overlay_wielded_cs_lajatang_off",				"fg": 22346, "rotates": false },
 		{ "id": "overlay_wielded_cs_lajatang_on",			"fg": 22347, "rotates": false },
 		{ "id": "overlay_wielded_ecs_lajatang_off",				"fg": 22348, "rotates": false },
-		{ "id": "overlay_wielded_ecs_lajatang_on",				"fg": 22349, "rotates": false }
+		{ "id": "overlay_wielded_ecs_lajatang_on",				"fg": 22349, "rotates": false },
+		{ "id": "overlay_wielded_bio_sword_weapon",				"fg": 22350, "rotates": false }
 	]
 	},
 	{
