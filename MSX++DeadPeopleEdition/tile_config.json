@@ -47145,7 +47145,28 @@
           "id": "mon_sludge_crawler",
           "fg": 5442,
           "rotates": false
+        },	
+		{
+          "id": "mon_zombie_corrosive",
+          "fg": 5443,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_corrosive",
+          "fg": 5444,
+          "rotates": false
         },
+				{
+          "id": "mon_mi_go",
+          "fg": 5445,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_mi_go",
+          "fg": 5446,
+          "rotates": false
+        },
+		
         {
           "id": "!mon_shoggoth",
           "fg": 5452,
@@ -58908,7 +58929,7 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_mi_go",
+          "id": "!corpse_mon_mi_go",
           "fg": 23312,
           "rotates": false
         },   
@@ -59595,7 +59616,7 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie_corrosive",
+          "id": "!corpse_mon_zombie_corrosive",
           "fg": 23432,
           "bg": 0,
           "rotates": false
