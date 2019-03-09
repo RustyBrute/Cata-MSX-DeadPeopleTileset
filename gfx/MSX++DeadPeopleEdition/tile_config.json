@@ -53735,6 +53735,82 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": [ "f_canvas_wall"],
+          "fg": 18132,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18132,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18133, 18134, 18135, 18136],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18137, 18138, 18139, 18140],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18141, 18142],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18143, 18144, 18145, 18146],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18147,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": [ "f_canvas_floor"],
+          "fg": 18148,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18148,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18149, 18150, 18151, 18152],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18153, 18154, 18155, 18156],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18157, 18158],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18159, 18160, 18161, 18162],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18163,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
 			}
   ]
   },
@@ -61570,7 +61646,26 @@
           "fg": 23743,
           "rotates": false
         },
-
+				        {
+          "id": "mon_science_bot",
+          "fg": 23744,
+          "rotates": false
+        },		
+		{
+          "id": "broken_science_bot",
+          "fg": 23745,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_labsecurity",
+          "fg": 23746,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_zombie_labsecurity",
+          "fg": 23747,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
