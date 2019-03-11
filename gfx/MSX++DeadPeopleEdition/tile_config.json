@@ -53811,6 +53811,44 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": [ "t_chickenwire_fence"],
+          "fg": 18164,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18164,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18165, 18166, 18167, 18168],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18169, 18170, 18171, 18172],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18173, 18174],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18175, 18176, 18177, 18178],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18179,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
 			}
   ]
   },
@@ -61664,6 +61702,24 @@
 		{
           "id": "corpse_mon_zombie_labsecurity",
           "fg": 23747,
+          "rotates": false
+        },
+				{
+          "id": "t_chickenwire_fence_post",
+          "fg": 23748,
+		  "bg": 1012,
+          "rotates": false
+        },
+						{
+          "id": "t_chickenwire_gate_c",
+          "fg": 23749,
+		  "bg": 1012,
+          "rotates": false
+        },
+		{
+          "id": "t_chickenwire_gate_o",
+          "fg": 23750,
+		  "bg": 1012,
           "rotates": false
         },
 		{
