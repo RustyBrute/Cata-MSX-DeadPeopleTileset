@@ -47166,6 +47166,16 @@
           "fg": 5446,
           "rotates": false
         },
+		{
+          "id": "mon_zombie_kevlar_2",
+          "fg": 5447,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_kevlar_2",
+          "fg": 5448,
+          "rotates": false
+        },
 		
         {
           "id": "!mon_shoggoth",
@@ -61720,6 +61730,66 @@
           "id": "t_chickenwire_gate_o",
           "fg": 23750,
 		  "bg": 1012,
+          "rotates": false
+        },
+				{
+          "id": "mon_zombie_soldier_acid_1",
+          "fg": 23751,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_soldier_acid_1",
+          "fg": 23752,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_soldier_blackops_1",
+          "fg": 23753,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_soldier_blackops_1",
+          "fg": 23754,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_zombie_soldier_blackops_2",
+          "fg": 23755,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_soldier_blackops_2",
+          "fg": 23756,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_zombie_soldier_acid_2",
+          "fg": 23757,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_soldier_acid_2",
+          "fg": 23758,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_zombie_kevlar_1",
+          "fg": 23759,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_kevlar_1",
+          "fg": 23760,
+		  "bg": 0,
           "rotates": false
         },
 		{
