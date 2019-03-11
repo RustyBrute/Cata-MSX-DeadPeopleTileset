@@ -48145,16 +48145,16 @@
 		{ "id": "overlay_female_mutation_active_bio_night", "fg": 10519, "rotates": false },
 		{ "id": "overlay_male_mutation_bio_surgical_razor", "fg": 10520, "rotates": false },
 		{ "id": "overlay_female_mutation_bio_surgical_razor", "fg": 10521, "rotates": false },
-		{ "id": "overlay_male_mutation_bio_claws", "fg": 10521, "rotates": false },
-		{ "id": "overlay_female_mutation_bio_claws", "fg": 10522, "rotates": false },
-		{ "id": "overlay_male_mutation_bio_blood_anal", "fg": 10523, "rotates": false },
-		{ "id": "overlay_female_mutation_bio_blood_anal", "fg": 10524, "rotates": false },
-		{ "id": "overlay_male_mutation_bio_blood_filter", "fg": 10525, "rotates": false },
-		{ "id": "overlay_female_mutation_bio_blood_filter", "fg": 10526, "rotates": false },	
-		{ "id": "overlay_male_mutation_bio_cable", "fg": 10527, "rotates": false },
-		{ "id": "overlay_female_mutation_bio_cable", "fg": 10528, "rotates": false },	
-		{ "id": "overlay_male_mutation_active_bio_cable", "fg": 10529, "rotates": false },
-		{ "id": "overlay_female_mutation_bio_active_cable", "fg": 10530, "rotates": false }
+		{ "id": "overlay_male_mutation_bio_claws", "fg": 10520, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_claws", "fg": 10521, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_blood_anal", "fg": 10522, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_blood_anal", "fg": 10523, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_blood_filter", "fg": 10524, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_blood_filter", "fg": 10525, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_cable", "fg": 10526, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_cable", "fg": 10527, "rotates": false },	
+		{ "id": "overlay_male_mutation_active_bio_cable", "fg": 10528, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_cable", "fg": 10529, "rotates": false }
 		
     ]
     },
