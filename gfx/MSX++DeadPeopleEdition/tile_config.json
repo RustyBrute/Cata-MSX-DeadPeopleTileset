@@ -61791,6 +61791,42 @@
           "fg": 23760,
 		  "bg": 0,
           "rotates": false
+        },		
+		{
+          "id": "mon_zombie_skull",
+          "fg": 23761,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_skull",
+          "fg": 23762,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "mon_zombie_ears",
+          "fg": 23763,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_ears",
+          "fg": 23764,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "mon_zombie_brainless",
+          "fg": 23765,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_zombie_brainless",
+          "fg": 23766,
+		  "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
