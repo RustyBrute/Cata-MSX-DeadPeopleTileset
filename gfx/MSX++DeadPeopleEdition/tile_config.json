@@ -52366,8 +52366,7 @@
             {
               "id": "unconnected",
               "fg": [
-            { "weight":1, "sprite":17587},
-            { "weight":1, "sprite":27676},
+            { "weight":100, "sprite":17587},
             { "weight":1, "sprite":27677},
             { "weight":1, "sprite":27678},
             { "weight":1, "sprite":27679},
@@ -53856,6 +53855,44 @@
               "id": "unconnected",
               "fg": 18179,
 			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": [ "t_gutter_south", "t_gutter_north", "t_gutter_west", "t_gutter_east"],
+          "fg": 18180,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18180,
+			  "bg": 985
+            },
+            {
+              "id": "corner",
+              "fg": [18181, 18182, 18183, 18184],
+			  "bg": 985
+            },
+            {
+              "id": "t_connection",
+              "fg": [18185, 18186, 18187, 18189],
+			  "bg": 985
+            },
+            {
+              "id": "edge",
+              "fg": [18189, 18190],
+			  "bg": 985
+            },
+            {
+              "id": "end_piece",
+              "fg": [18191, 18192, 18193, 18194],
+			  "bg": 985
+            },
+            {
+              "id": "unconnected",
+              "fg": 18196,
+			  "bg": 985
             }
 			],
 			"rotates": false
@@ -61826,6 +61863,18 @@
           "id": "corpse_mon_zombie_brainless",
           "fg": 23766,
 		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "t_gutter_drop",
+          "fg": 23767,
+		  "bg": 985,
+          "rotates": false
+        },	
+		{
+          "id": "t_gutter_downspout",
+          "fg": 23768,
+		  "bg": 985,
           "rotates": false
         },
 		{
