@@ -18581,7 +18581,7 @@
           "bg": 992
         },
         {
-          "id": "t_dirt_season_winter",
+          "id": ["t_dirt_season_winter", "t_flat_roof_season_winter"],
 		  "fg": [
             { "weight":300, "sprite":992},
 			{ "weight":300, "sprite":3080},
@@ -20706,7 +20706,7 @@
         {
           "id": "t_ladder_down",
           "fg": 3104,
-          "bg": 1012,
+          "bg": 985,
           "rotates": false
         },
         {
@@ -53829,32 +53829,32 @@
             {
 			  "id": "center",
               "fg": 18164,
-			  "bg": 1012
+			  "bg": 985
             },
             {
               "id": "corner",
               "fg": [18165, 18166, 18167, 18168],
-			  "bg": 1012
+			  "bg": 985
             },
             {
               "id": "t_connection",
               "fg": [18169, 18170, 18171, 18172],
-			  "bg": 1012
+			  "bg": 985
             },
             {
               "id": "edge",
               "fg": [18173, 18174],
-			  "bg": 1012
+			  "bg": 985
             },
             {
               "id": "end_piece",
               "fg": [18175, 18176, 18177, 18178],
-			  "bg": 1012
+			  "bg": 985
             },
             {
               "id": "unconnected",
               "fg": 18179,
-			  "bg": 1012
+			  "bg": 985
             }
 			],
 			"rotates": false
@@ -53893,6 +53893,44 @@
               "id": "unconnected",
               "fg": 18196,
 			  "bg": 985
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": [ "t_gutter_south_season_winter", "t_gutter_north_season_winter", "t_gutter_west_season_winter", "t_gutter_east_season_winter"],
+          "fg": 18180,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18180,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18181, 18182, 18183, 18184],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18185, 18186, 18187, 18189],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18189, 18190],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18191, 18192, 18193, 18194],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18196,
+			  "bg": 992
             }
 			],
 			"rotates": false
@@ -61754,19 +61792,19 @@
 				{
           "id": "t_chickenwire_fence_post",
           "fg": 23748,
-		  "bg": 1012,
+		  "bg": 985,
           "rotates": false
         },
 						{
           "id": "t_chickenwire_gate_c",
           "fg": 23749,
-		  "bg": 1012,
+		  "bg": 985,
           "rotates": false
         },
 		{
           "id": "t_chickenwire_gate_o",
           "fg": 23750,
-		  "bg": 1012,
+		  "bg": 985,
           "rotates": false
         },
 				{
@@ -61876,7 +61914,67 @@
           "fg": 23768,
 		  "bg": 985,
           "rotates": false
+        },	
+		{
+          "id": "f_roof_turbine_vent",
+          "fg": 23769,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "f_small_satelitte_dish",
+          "fg": 23770,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_cellphone_booster",
+          "fg": 23771,
+		  "bg": 0,
+          "rotates": false
         },
+		{
+          "id": "frisbee",
+          "fg": 23772,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_frisbee",
+          "fg": 23773,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_solar_unit",
+          "fg": 23774,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "f_solar_unit",
+          "fg": 23774,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_TV_antenna",
+          "fg": 23775,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "disc_golf",
+          "fg": 23776,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "overlay_wielded_disc_golf",
+          "fg": 23777,
+		  "bg": 0,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
