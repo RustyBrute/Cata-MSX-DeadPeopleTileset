@@ -54390,8 +54390,7 @@
             }
 			],
 			"rotates": false
-			}
-			,
+			},
 			{
           "id": "t_strconc_wall",
           "fg": 18372,
@@ -54426,6 +54425,196 @@
               "id": "unconnected",
               "fg": 18387,
 			  "bg": 993
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_ponywall",
+          "fg": 18388,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18388,
+			  "bg": 17140
+            },
+            {
+              "id": "corner",
+              "fg": [18389, 18390, 18391, 18392],
+			  "bg": 17140
+            },
+            {
+              "id": "t_connection",
+              "fg": [18393, 18394, 18395, 18396],
+			  "bg": 17140
+            },
+            {
+              "id": "edge",
+              "fg": [18397, 18398],
+			  "bg": 17140
+            },
+            {
+              "id": "end_piece",
+              "fg": [18399, 18400, 18401, 18402],
+			  "bg": 17140
+            },
+            {
+              "id": "unconnected",
+              "fg": 18403,
+			  "bg": 17140
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_water_moving_sh",
+          "fg": 18404,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18404,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18405, 18406, 18407, 18408],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18409, 18410, 18411, 18412],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18413, 18414],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18415, 18416, 18417, 18418],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18419,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_water_moving_dp",
+          "fg": 18420,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18420,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18421, 18422, 18423, 18424],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18425, 18426, 18427, 18428],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18429, 18430],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18431, 18432, 18433, 18434],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18435,
+			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_water_moving_sh_season_winter",
+          "fg": 18404,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18404,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18405, 18406, 18407, 18408],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18409, 18410, 18411, 18412],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18413, 18414],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18415, 18416, 18417, 18418],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18419,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_water_moving_dp_season_winter",
+          "fg": 18420,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18420,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18421, 18422, 18423, 18424],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18425, 18426, 18427, 18428],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18429, 18430],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18431, 18432, 18433, 18434],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18435,
+			  "bg": 992
             }
 			],
 			"rotates": false
