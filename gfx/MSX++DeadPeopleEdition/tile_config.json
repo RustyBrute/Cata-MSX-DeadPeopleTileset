@@ -32133,7 +32133,7 @@
           "rotates": false
         },	
 		{
-          "id": "t_dock",
+          "id": ["t_dock", "t_sh_bridge", "t_riverbridge_dp"],
           "fg": 5022,
           "rotates": false
         },
@@ -53876,7 +53876,7 @@
             },
             {
               "id": "t_connection",
-              "fg": [18185, 18186, 18187, 18189],
+              "fg": [18185, 18186, 18187, 18188],
 			  "bg": 985
             },
             {
@@ -53891,7 +53891,7 @@
             },
             {
               "id": "unconnected",
-              "fg": 18196,
+              "fg": 18195,
 			  "bg": 985
             }
 			],
@@ -54615,6 +54615,196 @@
               "id": "unconnected",
               "fg": 18435,
 			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_tar_flat_roof",
+          "fg": 18436,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18436,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18437, 18438, 18439, 18440],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18441, 18442, 18443, 18444],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18445, 18446],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18447, 18448, 18449, 18450],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18451,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_shingle_flat_roof",
+          "fg": 18452,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18452,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18453, 18454, 18455, 18456],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18457, 18458, 18459, 18460],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18461, 18462],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18463, 18464, 18465, 18466],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18467,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_metal_flat_roof",
+          "fg": 18468,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18468,
+			  "bg": 985
+            },
+            {
+              "id": "corner",
+              "fg": [18469, 18470, 18471, 18472],
+			  "bg": 985
+            },
+            {
+              "id": "t_connection",
+              "fg": [18473, 18474, 18475, 18476],
+			  "bg": 985
+            },
+            {
+              "id": "edge",
+              "fg": [18477, 18478],
+			  "bg": 985
+            },
+            {
+              "id": "end_piece",
+              "fg": [18479, 18480, 18481, 18482],
+			  "bg": 985
+            },
+            {
+              "id": "unconnected",
+              "fg": 18483,
+			  "bg": 985
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_tile_flat_roof",
+          "fg": 18484,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18484,
+			  "bg": 985
+            },
+            {
+              "id": "corner",
+              "fg": [18485, 18486, 18487, 18488],
+			  "bg": 985
+            },
+            {
+              "id": "t_connection",
+              "fg": [18489, 18490, 18491, 18492],
+			  "bg": 985
+            },
+            {
+              "id": "edge",
+              "fg": [18493, 18494],
+			  "bg": 985
+            },
+            {
+              "id": "end_piece",
+              "fg": [18495, 18496, 18497, 18498],
+			  "bg": 985
+            },
+            {
+              "id": "unconnected",
+              "fg": 18499,
+			  "bg": 985
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_glass_roof",
+          "fg": 18500,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18500,
+			  "bg": 985
+            },
+            {
+              "id": "corner",
+              "fg": [18501, 18502, 18503, 18504],
+			  "bg": 985
+            },
+            {
+              "id": "t_connection",
+              "fg": [18505, 18506, 18507, 18508],
+			  "bg": 985
+            },
+            {
+              "id": "edge",
+              "fg": [18509, 18510],
+			  "bg": 985
+            },
+            {
+              "id": "end_piece",
+              "fg": [18511, 18512, 18513, 18514],
+			  "bg": 985
+            },
+            {
+              "id": "unconnected",
+              "fg": 18515,
+			  "bg": 985
             }
 			],
 			"rotates": false
@@ -62029,7 +62219,7 @@
           "rotates": false
         },	
 		{
-          "id": ["f_filling_cabinet"],
+          "id": ["f_filing_cabinet"],
           "fg": 23664,
 		  "bg": 0,
           "rotates": false
@@ -62662,6 +62852,24 @@
 		{
           "id": "scorecard",
           "fg": 23778,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "t_column_halfway",
+          "fg": 23779,
+		  "bg": 4844,
+          "rotates": false
+        },			
+		{
+          "id": "f_dishwasher",
+          "fg": 23780,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_eyewash",
+          "fg": 23781,
 		  "bg": 0,
           "rotates": false
         },	
