@@ -54808,6 +54808,82 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": "f_lab_bench",
+          "fg": 18516,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18516,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18517, 18518, 18519, 18520],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18521, 18522, 18523, 18524],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18525, 18526],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [18527, 18528, 18529, 18530],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18531,
+			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "f_lab_bench",
+          "fg": 18516,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18516,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18517, 18518, 18519, 18520],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18521, 18522, 18523, 18524],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18525, 18526],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [18527, 18528, 18529, 18530],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18531,
+			  "bg": 0
+            }
+			],
+			"rotates": false
 			}
   ]
   },
@@ -62870,6 +62946,18 @@
 		{
           "id": "f_eyewash",
           "fg": 23781,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_fume_hood",
+          "fg": 23782,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_camp_chair",
+          "fg": 23783,
 		  "bg": 0,
           "rotates": false
         },	
