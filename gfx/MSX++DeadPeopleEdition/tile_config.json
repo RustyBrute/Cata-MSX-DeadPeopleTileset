@@ -62962,6 +62962,60 @@
           "rotates": false
         },	
 		{
+          "id": "f_HPLC",
+          "fg": 23784,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_HPLC",
+          "fg": 23784,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_GC",
+          "fg": 23785,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_shaker",
+          "fg": 23786,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "f_electron_microscope",
+          "fg": 23787,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "f_autoclave",
+          "fg": 23788,
+		  "bg": 0,
+          "rotates": false
+        },		
+				{
+          "id": "f_sample_freezer",
+          "fg": 23789,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "f_MS",
+          "fg": 23790,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_NMR",
+          "fg": 23791,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
