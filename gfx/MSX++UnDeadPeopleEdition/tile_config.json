@@ -22838,7 +22838,7 @@
           "rotates": false
         },
         {
-          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood"],
+          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood", "almond_milk", "soy_milk"],
           "fg": 1153,
           "rotates": false
         },
@@ -28688,7 +28688,7 @@
           "rotates": false
         },
 						{
-          "id": "acid_spit",
+          "id": ["acid_spit", "acid_sniper", "acid_spray"],
           "fg": 4449,
           "rotates": false
         },	
@@ -63039,6 +63039,36 @@
 				{
           "id": "f_NMR",
           "fg": 23791,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "camp_chair",
+          "fg": 23792,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "classic_literature",
+          "fg": 23793,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "collector_book",
+          "fg": 23794,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "dry_lentils",
+          "fg": 23795,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "lentils_cooked",
+          "fg": 23796,
 		  "bg": 0,
           "rotates": false
         },	
