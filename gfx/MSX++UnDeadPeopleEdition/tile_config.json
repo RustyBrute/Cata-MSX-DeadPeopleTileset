@@ -63072,6 +63072,12 @@
 		  "bg": 0,
           "rotates": false
         },	
+				{
+          "id": "f_birdbath",
+          "fg": 23797,
+		  "bg": 0,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
