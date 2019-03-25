@@ -54911,6 +54911,44 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": "f_arcade_machine",
+          "fg": 18532,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18532,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18533, 18534, 18535, 18536],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18537, 18538, 18539, 18540],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18541, 18542],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [18543, 18544, 18545, 18546],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18547,
+			  "bg": 0
+            }
+			],
+			"rotates": false
 			}
   ]
   },
@@ -63076,6 +63114,46 @@
           "id": "f_birdbath",
           "fg": 23797,
 		  "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "f_rotary_clothesline",
+          "fg": 23798,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_chimney",
+          "fg": 23799,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_vent_pipe",
+          "fg": 23800,
+		  "bg": 0,
+          "rotates": false
+        },	
+				{
+          "id": "f_beaded_door",
+          "fg": 23801,
+		  "bg": 0,
+          "rotates": false
+        },	
+						{
+          "id": "f_beaded_door_o",
+          "fg": 23802,
+		  "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "f_curtain",
+          "fg": 23803,
+          "rotates": false
+        },	
+						{
+          "id": "f_curtain_open",
+          "fg": 23804,
           "rotates": false
         },	
 		{
