@@ -63155,6 +63155,11 @@
           "id": "f_curtain_open",
           "fg": 23804,
           "rotates": false
+        },		
+		{
+          "id": "corpse",
+          "fg": 23805,
+          "rotates": false
         },	
 		{
           "id": "atlatl",
