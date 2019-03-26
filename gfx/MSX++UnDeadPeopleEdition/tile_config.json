@@ -21692,7 +21692,7 @@
           "rotates": false
         },
         {
-          "id": "bio_flashlight",
+          "id": ["bio_flashlight", "bio_tattoo_led"],
           "fg": 1016,
           "rotates": false
         },
@@ -54949,6 +54949,44 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": "t_fungus",
+          "fg": 18548,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18548,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18549, 18550, 18551, 18552],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18553, 18554, 18555, 18556],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18557, 18558],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [18559, 18560, 18561, 18562],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18563,
+			  "bg": 0
+            }
+			],
+			"rotates": false
 			}
   ]
   },
@@ -55345,7 +55383,8 @@
 		{ "id": "overlay_wielded_cs_lajatang_on",			"fg": 22347, "rotates": false },
 		{ "id": "overlay_wielded_ecs_lajatang_off",				"fg": 22348, "rotates": false },
 		{ "id": "overlay_wielded_ecs_lajatang_on",				"fg": 22349, "rotates": false },
-		{ "id": "overlay_wielded_bio_sword_weapon",				"fg": 22350, "rotates": false }
+		{ "id": "overlay_wielded_bio_sword_weapon",				"fg": 22350, "rotates": false },
+		{ "id": "overlay_wielded_makeshift_scythe_war",				"fg": 22351, "rotates": false }
 	]
 	},
 	{
@@ -63099,7 +63138,7 @@
           "rotates": false
         },	
 		{
-          "id": "dry_lentils",
+          "id": ["dry_lentils", "raw_lentils"],
           "fg": 23795,
 		  "bg": 0,
           "rotates": false
@@ -63161,6 +63200,66 @@
           "fg": 23805,
           "rotates": false
         },	
+				{
+          "id": "wooden_bead",
+          "fg": 23806,
+          "rotates": false
+        },	
+						{
+          "id": "bead_necklace",
+          "fg": 23807,
+          "rotates": false
+        },	
+		{
+          "id": "bead_bracelet",
+          "fg": 23808,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_worn_bead_necklace",
+          "fg": 23809,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_worn_bead_bracelet",
+          "fg": 23810,
+          "rotates": false
+        },	
+				{
+          "id": "overlay_worn_bead_bracelet",
+          "fg": 23810,
+          "rotates": false
+        },
+		{
+          "id": ["bio_ankles", "bio_deformity", "bio_itchy", "bio_jointservo", "bio_leaky", "bio_nostril", "bio_pokedeye", "bio_shakes","bio_sleepy", "bio_spasm", "bio_thumbs", "bio_trip", "bio_voice"],
+          "fg": 23811,
+          "rotates": false
+        },
+		{
+          "id": "blade_scythe",
+          "fg": 23812,
+          "rotates": false
+        },
+				{
+          "id": "lock",
+          "fg": 23813,
+          "rotates": false
+        },
+						{
+          "id": "bottle_suppressor",
+          "fg": 23814,
+          "rotates": false
+        },
+		{
+          "id": "filter_suppressor",
+          "fg": 23815,
+          "rotates": false
+        },	
+		{
+          "id": "makeshift_scythe_war",
+          "fg": 23816,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
