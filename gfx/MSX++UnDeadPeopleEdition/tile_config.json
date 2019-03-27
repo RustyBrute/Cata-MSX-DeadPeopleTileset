@@ -47175,6 +47175,16 @@
           "id": "corpse_mon_zombie_kevlar_2",
           "fg": 5448,
           "rotates": false
+        },		
+		{
+          "id": "bot_tankbot",
+          "fg": 5449,
+          "rotates": false
+        },
+		{
+          "id": "bot_chickenbot",
+          "fg": 5450,
+          "rotates": false
         },
 		
         {
@@ -52369,15 +52379,20 @@
           "fg": 17582,
 		  "bg": 1012,
 		  "multitile": true,
-          "additional_tiles": [            
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 17572,
+			  "bg": 1012
+            },		  
 		  {
               "id": "corner",
-              "fg": [17583, 17584, 17585, 17586],
+              "fg": [17573, 17574, 17575, 17576],
 			  "bg": 1012
             },
 					  {
               "id": "t_connection",
-              "fg": [17584, 17585, 17584, 17585],
+              "fg": [17577, 17578, 17579, 17580],
 			  "bg": 1012
             },
             {
@@ -54984,6 +54999,132 @@
               "id": "unconnected",
               "fg": 18563,
 			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_fungus_season_winter",
+          "fg": 18564,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18564,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18565, 18566, 18567, 18568],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18569, 18570, 18571, 18572],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18573, 18574],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18575, 18576, 18577, 18578],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18579,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_water_pool",
+          "fg": 18580,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18580,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [18581, 18582, 18583, 18584],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [18585, 18586, 18587, 18588],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [18589, 18590],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [18591, 18592, 18593, 18594],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 18595,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_sewage",
+          "fg": 18596,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": [
+            { "weight":2000, "sprite":18596},
+            { "weight":16, "sprite":27689},
+            { "weight":150, "sprite":27690},
+            { "weight":140, "sprite":27691},
+            { "weight":130, "sprite":27692},     
+			{ "weight":130, "sprite":27693},
+            { "weight":130, "sprite":27694},
+            { "weight":5, "sprite":27695},
+            { "weight":130, "sprite":27696},
+			{ "weight":1, "sprite":27697},
+			{ "weight":1, "sprite":27698}
+            ],
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [18597, 18598, 18599, 18600],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18601, 18602, 18603, 18604],
+			  "bg": 1012
+            },
+            {
+              "id": "edge",
+              "fg": [18605, 18606],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [18607, 18608, 18609, 18610],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18611,
+			  "bg": 1012
             }
 			],
 			"rotates": false
@@ -62393,7 +62534,7 @@
           "rotates": false
         },
 				{
-          "id": ["f_hydralic_press"],
+          "id": ["f_hydraulic_press"],
           "fg": 23663,
 		  "bg": 0,
           "rotates": false
@@ -63258,6 +63399,107 @@
 		{
           "id": "makeshift_scythe_war",
           "fg": 23816,
+          "rotates": false
+        },	
+		{
+          "id": "bot_turret_searchlight",
+          "fg": 23817,
+          "rotates": false
+        },
+		        {
+          "id": "t_fungus_mound_season_winter",
+          "fg": 23818,
+          "bg": 966,
+          "rotates": false
+        },
+				{
+          "id": "bot_broken_cyborg",
+          "fg": 23819,
+          "rotates": false
+        },
+						{
+          "id": "bot_hazmatbot",
+          "fg": 23820,
+          "rotates": false
+        },
+		{
+          "id": "bot_eyebot",
+          "fg": 23821,
+          "rotates": false
+        },		
+		{
+          "id": "bot_molebot",
+          "fg": 23822,
+          "rotates": false
+        },	
+		{
+          "id": "bot_tripod",
+          "fg": 23823,
+          "rotates": false
+        },	
+		{
+          "id": "bot_skitterbot",
+          "fg": 23824,
+          "rotates": false
+        },
+				{
+          "id": "bot_science_bot",
+          "fg": 23825,
+          "rotates": false
+        },
+						{
+          "id": "mut_quills",
+          "fg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "ruger30",
+          "fg": 23826,
+          "rotates": false
+        },
+				{
+          "id": "ruger5",
+          "fg": 23827,
+          "rotates": false
+        },
+				{
+          "id": "vp_mountable_heater",
+          "fg": 23828,
+          "rotates": false
+        },
+						{
+          "id": "mountable_heater",
+          "fg": 23829,
+          "rotates": false
+        },
+		{
+          "id": "xl_wind_turbine",
+          "fg": 23830,
+          "rotates": false
+        },
+		{
+          "id": "vp_xl_wind_turbine",
+          "fg": 23831,
+          "rotates": false
+        },
+		{
+          "id": "water_wheel",
+          "fg": 23832,
+          "rotates": false
+        },
+		{
+          "id": "xl_water_wheel",
+          "fg": 23833,
+          "rotates": false
+        },
+		{
+          "id": "vp_water_wheel",
+          "fg": 23834,
+          "rotates": false
+        },
+		{
+          "id": "vp_xl_water_wheel",
+          "fg": 23835,
           "rotates": false
         },
 		{
