@@ -63559,7 +63559,7 @@
           "rotates": false
         },		
 		{
-          "id": "hydrogen_tank",
+          "id": ["hydrogen_tank", "nitrogen_tank"],
           "fg": 23847,
           "rotates": false
         },	
@@ -63578,6 +63578,41 @@
           "fg": [
             { "weight":3, "sprite":23850}
             ],
+          "rotates": false
+        },	
+		{
+          "id": "f_server",
+          "fg": 23851,
+          "rotates": false
+        },		
+		{
+          "id": "f_MRI",
+          "fg": 23852,
+          "rotates": false
+        },		
+		{
+          "id": "f_CTscan",
+          "fg": 23853,
+          "rotates": false
+        },	
+		{
+          "id": "f_scan_bed",
+          "fg": 23854,
+          "rotates": false
+        },
+				{
+          "id": "f_anesthetic",
+          "fg": 23855,
+          "rotates": false
+        },
+		{
+          "id": "f_dialysis",
+          "fg": 23856,
+          "rotates": false
+        },
+				{
+          "id": "f_ventilator",
+          "fg": 23857,
           "rotates": false
         },
 		{
