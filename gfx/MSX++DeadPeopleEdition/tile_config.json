@@ -48211,6 +48211,7 @@
 		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false },
 		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false },
 		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false },
+		{ "id": "mon_dragon_dummy", "fg": 11576, "rotates": false },
 		{ "id": "mon_ant_acid_ultralisk", "fg": 11580, "rotates": false },
 		{ "id": "!broken_tankbot", "fg": 11581, "rotates": false },
 		{ "id": "!mon_albino_penguin", "fg": 11582, "rotates": false },
@@ -63500,6 +63501,83 @@
 		{
           "id": "vp_xl_water_wheel",
           "fg": 23835,
+          "rotates": false
+        },	
+		{
+          "id": "beaker",
+          "fg": 23836,
+          "rotates": false
+        },	
+		{
+          "id": "burette",
+          "fg": 23837,
+          "rotates": false
+        },	
+		{
+          "id": "character_sheet",
+          "fg": 23838,
+          "rotates": false
+        },		
+		{
+          "id": ["chem_DMSO", "chem_chloroform", "chem_glycerol"],
+          "fg": 23839,
+          "rotates": false
+        },		
+		{
+          "id": "chem_acrylamide",
+          "fg": 23840,
+          "rotates": false
+        },	
+		{
+          "id": "chem_agar",
+          "fg": 23841,
+          "rotates": false
+        },	
+		{
+          "id": "chem_peptone_broth",
+          "fg": 23842,
+          "rotates": false
+        },	
+		{
+          "id": "chem_phenol",
+          "fg": 23843,
+          "rotates": false
+        },	
+		{
+          "id": "funnel_separation",
+          "fg": 23844,
+          "rotates": false
+        },		
+		{
+          "id": "gelbox",
+          "fg": 23845,
+          "rotates": false
+        },
+				{
+          "id": "gradcylinder",
+          "fg": 23846,
+          "rotates": false
+        },		
+		{
+          "id": "hydrogen_tank",
+          "fg": 23847,
+          "rotates": false
+        },	
+		{
+          "id": "material_soil",
+          "fg": 23848,
+          "rotates": false
+        },	
+		{
+          "id": "microcentrifuge",
+          "fg": 23849,
+          "rotates": false
+        },
+				{
+          "id": "graffiti",
+          "fg": [
+            { "weight":3, "sprite":23850}
+            ],
           "rotates": false
         },
 		{
