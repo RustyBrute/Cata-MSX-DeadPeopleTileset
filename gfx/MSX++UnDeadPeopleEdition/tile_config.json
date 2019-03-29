@@ -19167,7 +19167,12 @@
           "additional_tiles": [
             {
               "id": "center",
-              "fg": 3167,
+              "fg": 5450,
+              "bg": 985
+            },
+			            {
+              "id": "unconnected",
+              "fg": 5450,
               "bg": 985
             }
           ]
@@ -47186,7 +47191,6 @@
           "fg": 5450,
           "rotates": false
         },
-		
         {
           "id": "!mon_shoggoth",
           "fg": 5452,
@@ -55126,6 +55130,44 @@
               "id": "unconnected",
               "fg": 18611,
 			  "bg": 1012
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "f_satellite",
+          "fg": 17571,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 17571,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18613, 18614, 18615, 18616],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [17571, 17571, 17571, 17571],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [17571, 17571],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [17571, 17571, 17571, 17571],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 23770,
+			  "bg": 0
             }
 			],
 			"rotates": false
@@ -63148,12 +63190,6 @@
           "rotates": false
         },		
 		{
-          "id": "f_solar_unit",
-          "fg": 23774,
-		  "bg": 0,
-          "rotates": false
-        },	
-		{
           "id": "f_TV_antenna",
           "fg": 23775,
 		  "bg": 0,
@@ -63613,6 +63649,41 @@
 				{
           "id": "f_ventilator",
           "fg": 23857,
+          "rotates": false
+        },	
+		{
+          "id": "microscope",
+          "fg": 23858,
+          "rotates": false
+        },	
+		{
+          "id": "microscope_dissecting",
+          "fg": 23859,
+          "rotates": false
+        },
+				{
+          "id": "rack_test_tube_micro",
+          "fg": 23860,
+          "rotates": false
+        },	
+		{
+          "id": "test_tube_micro",
+          "fg": 23861,
+          "rotates": false
+        },	
+		{
+          "id": "vortex",
+          "fg": 23862,
+          "rotates": false
+        },
+				{
+          "id": "voltmeter",
+          "fg": 23863,
+          "rotates": false
+        },		
+		{
+          "id": "f_shredder",
+          "fg": 23864,
           "rotates": false
         },
 		{
@@ -65009,6 +65080,55 @@
 		{ "id": "overlay_worn_helmet_szyszak", "fg": 33173, "rotates": false },
 		{ "id": "overlay_worn_wings_ornamental", "fg": 33174, "rotates": false }
 	]
-	}
+	},
+    {
+    "file": "18_big_things_64x80_35757.png",
+    "sprite_width":64,
+    "sprite_height":80,
+    "sprite_offset_x":-16,
+    "sprite_offset_y":-48,
+    "tiles":
+    [   
+        {
+          "id": "t_radio_tower",
+          "fg": 35758,
+          "bg": 35759,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "fg": 35757,
+			  "bg": 35759,
+              "id": "center"
+            },
+			{
+              "fg": [ 35758, 35758, 35758, 35758 ],
+			  "bg": 35759,
+              "id": "corner"
+            },            
+			{
+              "fg": [ 35758, 35758, 35758, 35758],
+			  "bg": 35759,
+              "id": "t_connection"
+            },
+            {
+              "fg": [ 35758, 35758],
+	          "bg": 35759,		  
+              "id": "edge"
+            },
+            {
+              "fg": [ 35758, 35758, 35758, 35758],
+			  "bg": 35759,
+              "id": "end_piece"
+            },
+            {
+              "fg": 35757,
+			  "bg": 35759,
+              "id": "unconnected"
+            }
+          ]
+        }
+	    
+    ]
+    }
   ]
 }
