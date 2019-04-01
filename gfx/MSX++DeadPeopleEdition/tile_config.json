@@ -47190,39 +47190,24 @@
           "id": "bot_chickenbot",
           "fg": 5450,
           "rotates": false
-        },
-        {
-          "id": "!mon_shoggoth",
-          "fg": 5452,
-          "rotates": false
-        },
-        {
-          "id": "!mon_tankbot",
-          "fg": 5453,
-          "rotates": false
-        },
-        {
+        },   
+		{
           "id": "mon_turret_searchlight",
-          "fg": 5456,
+          "fg": 5451,
 		  "bg": 0,
           "rotates": false
         },
         {
           "id": "mon_blob_brain",
-          "fg": 5457,
+          "fg": 5452,
 		  "bg": 0,
           "rotates": false
         },        
         {
           "id": "mon_triffid_heart",
-          "fg": 5461,
+          "fg": 5453,
           "rotates": false
         }, 
-		{
-          "id": "mon_kappabot",
-          "fg": 5442,
-          "rotates": false
-        },
 		{ 
 		 "id": "L dinos", 
 		 "fg": 0, 
@@ -47230,42 +47215,42 @@
 		},
 	    { 
 		 "id": "mon_spinosaurus",			
-		 "fg": 5464, 
+		 "fg": 5456, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_tyrannosaurus",		
-		 "fg": 5465, 
+		 "fg": 5458, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_triceratops",			
-		 "fg": 5466, 
+		 "fg": 5460, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_stegosaurus",			
-		 "fg": 5467, 
+		 "fg": 5462, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_ankylosaurus",			
-		 "fg": 5468, 
+		 "fg": 5464, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_allosaurus",			
-		 "fg": 5469, 
+		 "fg": 5466, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_parasaurolophus",		
-		 "fg": 5470, 
+		 "fg": 5468, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_utahraptor",			
-		 "fg": 5471, 
+		 "fg": 5470, 
 		 "rotates": false 
 		}
 	    
@@ -63684,6 +63669,56 @@
 		{
           "id": "f_shredder",
           "fg": 23864,
+          "rotates": false
+        },
+		{
+          "id": "f_IV_pole",
+          "fg": 23865,
+          "rotates": false
+        },	
+		{
+          "id": "f_arc_furnace",
+          "fg": 23866,
+          "rotates": false
+        },		
+		{
+          "id": "f_tablesaw",
+          "fg": 23867,
+          "rotates": false
+        },
+				{
+          "id": "f_mitresaw",
+          "fg": 23868,
+          "rotates": false
+        },
+						{
+          "id": "f_bandsaw",
+          "fg": 23869,
+          "rotates": false
+        },	
+		{
+          "id": "f_router",
+          "fg": 23870,
+          "rotates": false
+        },
+				{
+          "id": "f_planer",
+          "fg": 23871,
+          "rotates": false
+        },
+						{
+          "id": "f_jointer",
+          "fg": 23872,
+          "rotates": false
+        },
+								{
+          "id": "f_robotic_assembler",
+          "fg": 23873,
+          "rotates": false
+        },
+										{
+          "id": "f_chemical_mixer",
+          "fg": 23874,
           "rotates": false
         },
 		{
