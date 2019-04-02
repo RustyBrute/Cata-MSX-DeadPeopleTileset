@@ -52366,7 +52366,7 @@
 			},
 		{
           "id": "t_trunk",
-          "fg": 17582,
+          "fg": 17572,
 		  "bg": 1012,
 		  "multitile": true,
           "additional_tiles": [ 
@@ -55156,6 +55156,162 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": "t_wall_metal",
+          "fg": 18628,
+          "bg": 993,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18628,
+              "bg": 993
+            },
+            {
+              "id": "corner",
+              "fg": [18629, 18630, 18631, 18632],
+              "bg": 993
+            },
+            {
+              "id": "t_connection",
+              "fg": [18633, 18634, 18635, 18636],
+              "bg": 993
+            },
+            {
+              "id": "edge",
+              "fg": [18637, 18638],
+              "bg": 993
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18639, 18640, 18641, 18642],
+              "bg": 993
+            },
+            {
+              "id": "unconnected",
+              "fg": 18643,
+              "bg": 993
+            }
+          ]
+        },
+			{
+          "id": "t_generator_broken",
+          "fg": 18644,
+          "bg": 993,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18644,
+              "bg": 993
+            },
+            {
+              "id": "corner",
+              "fg": [18645, 18646, 18647, 18648],
+              "bg": 993
+            },
+            {
+              "id": "t_connection",
+              "fg": [18649, 18650, 18651, 18652],
+              "bg": 993
+            },
+            {
+              "id": "edge",
+              "fg": [18653, 18654],
+              "bg": 993
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18655, 18656, 18657, 18658],
+              "bg": 993
+            },
+            {
+              "id": "unconnected",
+              "fg": 18659,
+              "bg": 993
+            }
+							 ]
+			},
+			{
+          "id": "t_sewage_pump",
+          "fg": 18660,
+          "bg": 5012,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18660,
+              "bg": 5012
+            },
+            {
+              "id": "corner",
+              "fg": [18661, 18662, 18663, 18664],
+              "bg": 5012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18665, 18666, 18667, 18668],
+              "bg": 5012
+            },
+            {
+              "id": "edge",
+              "fg": [18669, 18670],
+              "bg": 5012
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18671, 18672, 18673, 18674],
+              "bg": 5012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18675,
+              "bg": 5012
+            }
+							 ]
+			},
+			{
+          "id": "t_sewage_pipe",
+          "fg": 18676,
+          "bg": 5012,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18676,
+              "bg": 5012
+            },
+            {
+              "id": "corner",
+              "fg": [18677, 18678, 18679, 18680],
+              "bg": 5012
+            },
+            {
+              "id": "t_connection",
+              "fg": [18681, 18682, 18683, 18684],
+              "bg": 5012
+            },
+            {
+              "id": "edge",
+              "fg": [18685, 18686],
+              "bg": 5012
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18687, 18688, 18689, 18690],
+              "bg": 5012
+            },
+            {
+              "id": "unconnected",
+              "fg": 18691,
+              "bg": 5012
+            }
+							 ]
 			}
   ]
   },
