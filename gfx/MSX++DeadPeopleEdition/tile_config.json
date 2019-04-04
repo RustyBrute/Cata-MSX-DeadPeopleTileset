@@ -65317,6 +65317,54 @@
               "id": "unconnected"
             }
           ]
+        },
+	{
+          "id": "mon_triffid_queen",
+          "fg": 35760,
+          "bg": 0,
+          "rotates": false
+        },
+			{
+          "id": "mon_vinebeast",
+          "fg": 35761,
+          "bg": 0,
+          "rotates": false
+        },
+	{
+          "id": "mon_dispatch_military",
+          "fg": 35762,
+          "bg": 0,
+          "rotates": false
+        },
+			{
+          "id": "mon_dispatch",
+          "fg": 35763,
+          "bg": 0,
+          "rotates": false
+        },
+	{
+          "id": "bot_dispatch_military",
+          "fg": 35764,
+          "bg": 0,
+          "rotates": false
+        },
+			{
+          "id": "bot_dispatch",
+          "fg": 35765,
+          "bg": 0,
+          "rotates": false
+        },
+	{
+          "id": "broken_dispatch_military",
+          "fg": 35766,
+          "bg": 0,
+          "rotates": false
+        },
+			{
+          "id": "broken_dispatch",
+          "fg": 35767,
+          "bg": 0,
+          "rotates": false
         }
 	    
     ]
