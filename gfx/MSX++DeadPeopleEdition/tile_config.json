@@ -63736,7 +63736,7 @@
           "rotates": false
         },		
 		{
-          "id": ["hydrogen_tank", "nitrogen_tank"],
+          "id": ["nitrogen_tank"],
           "fg": 23847,
           "rotates": false
         },	
@@ -63940,6 +63940,11 @@
 				{
           "id": "t_dirtfloor_thatchroof",
           "fg": 23887,
+          "rotates": false
+        },	
+		{
+          "id": "hydrogen_tank",
+          "fg": 23888,
           "rotates": false
         },
 		{
