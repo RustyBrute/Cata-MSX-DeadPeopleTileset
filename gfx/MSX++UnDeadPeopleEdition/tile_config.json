@@ -63893,7 +63893,7 @@
           "rotates": false
         },	
 		{
-          "id": "rack_test_tube_micro",
+          "id": "rack_test_tube",
           "fg": 23878,
           "rotates": false
         },	
@@ -63920,6 +63920,26 @@
 		{
           "id": "stopcock",
           "fg": 23883,
+          "rotates": false
+        },
+				{
+          "id": "t_grave",
+          "fg": 23884,
+          "rotates": false
+        },	
+		{
+          "id": "t_grave_season_winter",
+          "fg": 23885,
+          "rotates": false
+        },	
+		{
+          "id": "t_thatch_roof",
+          "fg": 23886,
+          "rotates": false
+        },
+				{
+          "id": "t_dirtfloor_thatchroof",
+          "fg": 23887,
           "rotates": false
         },
 		{
