@@ -63877,6 +63877,51 @@
           "fg": 23874,
           "rotates": false
         },
+												{
+          "id": "f_air_filter",
+          "fg": 23875,
+          "rotates": false
+        },	
+		{
+          "id": "f_water_purifier",
+          "fg": 23876,
+          "rotates": false
+        },
+				{
+          "id": "f_air_compressor",
+          "fg": 23877,
+          "rotates": false
+        },	
+		{
+          "id": "rack_test_tube_micro",
+          "fg": 23878,
+          "rotates": false
+        },	
+		{
+          "id": "rotovap",
+          "fg": 23879,
+          "rotates": false
+        },		
+		{
+          "id": "stand_ring",
+          "fg": 23880,
+          "rotates": false
+        },	
+		{
+          "id": "stand_ring_clamps",
+          "fg": 23881,
+          "rotates": false
+        },		
+		{
+          "id": "still_lab",
+          "fg": 23882,
+          "rotates": false
+        },	
+		{
+          "id": "stopcock",
+          "fg": 23883,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
