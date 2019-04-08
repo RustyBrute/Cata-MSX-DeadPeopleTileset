@@ -63946,6 +63946,66 @@
           "id": "hydrogen_tank",
           "fg": 23888,
           "rotates": false
+        },		
+		{
+          "id": "tofu",
+          "fg": 23889,
+          "rotates": false
+        },
+				{
+          "id": "tofu_fried",
+          "fg": 23890,
+          "rotates": false
+        },		
+		{
+          "id": "dry_tofu",
+          "fg": 23891,
+          "rotates": false
+        },	
+		{
+          "id": "tofu_rice",
+          "fg": 23892,
+          "rotates": false
+        },	
+		{
+          "id": "tofu_stirfry",
+          "fg": 23893,
+          "rotates": false
+        },
+				{
+          "id": "nitrox",
+          "fg": 23894,
+          "rotates": false
+        },	
+		{
+          "id": "raw_edamame",
+          "fg": 23895,
+          "rotates": false
+        },	
+		{
+          "id": "edamame_roasted",
+          "fg": 23896,
+          "rotates": false
+        },
+				{
+          "id": "cooking_oil2",
+          "fg": 23897,
+          "rotates": false
+        },	
+		{
+          "id": "bag_body_bag",
+          "fg": 23898,
+          "rotates": false
+        },
+				{
+          "id": "wind",
+          "fg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "wheel_tricycle",
+          "fg": 23899,
+          "rotates": false
         },
 		{
           "id": "atlatl",
