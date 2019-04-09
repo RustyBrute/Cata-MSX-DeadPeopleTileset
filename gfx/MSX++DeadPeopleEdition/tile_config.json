@@ -9,6 +9,15 @@
     {
       "file": "1_tiles_32x32_0-5199.png",
       "tiles": [
+	          {
+          "id": [
+		  "tear_gas_payload",
+		  "tear_gas_payload_act"
+		  ],
+          "fg": 0,
+          "bg": 0,
+          "rotates": false
+        },
         {
           "id": "10mm",
           "fg": 1,
@@ -7730,7 +7739,7 @@
           "rotates": false
         },
         {
-          "id": "bio_drain",
+          "id": ["bio_drain", "bio_shotgun", "bio_soporific", "bio_taste_blocker"],
           "fg": 1016,
           "bg": 957,
           "rotates": false
@@ -47416,15 +47425,15 @@
         { "id": "overlay_mutation_CANINE_EARS","fg": 2813, "rotates": false },
         { "id": "overlay_mutation_LUPINE_EARS", "fg": 2813, "rotates": false },
         { "id": "overlay_mutation_CENOBITE", "fg": 2814, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_CLOAK", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_HS", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_LS", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_MIND_CONTROL", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NODMG", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NOSCENT", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NOTEMP", "fg": 2815, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_SILENT", "fg": 2815, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_CLOAK", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_HS", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_LS", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_MIND_CONTROL", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NODMG", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NOSCENT", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_NOTEMP", "fg": 0, "rotates": false },
+        { "id": "overlay_mutation_DEBUG_SILENT", "fg": 0, "rotates": false },
         { "id": "overlay_mutation_ELFA_EARS", "fg": 2816, "rotates": false },
         { "id": "overlay_mutation_FELINE_EARS",  "fg": 2817, "rotates": false },
         { "id": "overlay_worn_fur_cat_ears",  "fg": 2817,  "rotates": false },
@@ -47915,7 +47924,7 @@
 		{ "id": "overlay_mutation_BEE", "fg": 10024, "rotates": false },
 		{ "id": "overlay_mutation_MUTE", "fg": 10025, "rotates": false },
 		
-		{ "id": ["overlay_mutation_DEBUG_NIGHTVISION", "overlay_DEBUG_CLOAK", "overlay_mutation_DEBUG_LS", "overlay_mutation_DEBUG_NOSCENT", "overlay_mutation_DEBUG_SILENT", "overlay_mutation_DEBUG_NOTEMP", "overlay_mutation_DEBUG_NODMG", "overlay_mutation_DEBUG_HS", "overlay_mutation_DEBUG_CBM_SLOTS", "overlay_mutation_DEBUG_MIND_CONTROL", "overlay_mutation_DEBUG_STORAGE"], "fg": 10026, "rotates": false },
+		{ "id": ["overlay_mutation_DEBUG_NIGHTVISION", "overlay_DEBUG_CLOAK", "overlay_mutation_DEBUG_LS", "overlay_mutation_DEBUG_NOSCENT", "overlay_mutation_DEBUG_SILENT", "overlay_mutation_DEBUG_NOTEMP", "overlay_mutation_DEBUG_NODMG", "overlay_mutation_DEBUG_HS", "overlay_mutation_DEBUG_CBM_SLOTS", "overlay_mutation_DEBUG_MIND_CONTROL", "overlay_mutation_DEBUG_STORAGE"], "fg": 0, "rotates": false },
 		
 		{ "id": "overlay_mutation_NPC_BRANDY", "fg": 10027, "rotates": false },
 		{ "id": "overlay_mutation_NPC_RUM", "fg": 10028, "rotates": false },
@@ -48023,15 +48032,15 @@
 		{ "id": "overlay_female_mutation_VISCOUS", "fg": 10112, "rotates": false },
 		{ "id": "overlay_male_mutation_VISCOUS", "fg": 10113, "rotates": false },
 		
-		{ "id": "overlay_mutation_DEBUG_NODMG", "fg": 10116, "rotates": false },
-		{ "id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": 10117, "rotates": false },
-		{ "id": "overlay_female_mutation_DEBUG_CLOAK", "fg": 10118, "rotates": false },
-		{ "id": "overlay_male_mutation_DEBUG_CLOAK", "fg": 10119, "rotates": false },
-		{ "id": "overlay_female_mutation_DEBUG_LS", "fg": 10120, "rotates": false },
-		{ "id": "overlay_male_mutation_DEBUG_LS", "fg": 10121, "rotates": false },
-		{ "id": "overlay_female_mutation_DEBUG_NOSCENT", "fg": 10122, "rotates": false },
-		{ "id": "overlay_male_mutation_DEBUG_NOSCENT", "fg": 10123, "rotates": false },
-		{ "id": "overlay_mutation_DEBUG_SILENT", "fg": 10124, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_NODMG", "fg": 0, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": 0, "rotates": false },
+		{ "id": "overlay_female_mutation_DEBUG_CLOAK", "fg": 0, "rotates": false },
+		{ "id": "overlay_male_mutation_DEBUG_CLOAK", "fg": 0, "rotates": false },
+		{ "id": "overlay_female_mutation_DEBUG_LS", "fg": 0, "rotates": false },
+		{ "id": "overlay_male_mutation_DEBUG_LS", "fg": 0, "rotates": false },
+		{ "id": "overlay_female_mutation_DEBUG_NOSCENT", "fg": 0, "rotates": false },
+		{ "id": "overlay_male_mutation_DEBUG_NOSCENT", "fg": 0, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_SILENT", "fg": 0, "rotates": false },
 
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
@@ -48385,6 +48394,26 @@
         {
           "id": "overlay_effect_haslight",
           "fg": 11646
+        },
+		        {
+          "id": ["overlay_effect_deaf"],
+          "fg": 11647
+        },
+		{
+          "id": ["overlay_effect_happy"],
+          "fg": 11648
+        },
+		{
+          "id": ["overlay_effect_sad"],
+          "fg": 11649
+        },	
+		{
+          "id": ["overlay_effect_no"],
+          "fg": 11650
+        },		
+		{
+          "id": ["overlay_effect_pain"],
+          "fg": 11651
         }
     ]
 	},
@@ -64005,6 +64034,81 @@
 		{
           "id": "wheel_tricycle",
           "fg": 23899,
+          "rotates": false
+        },
+						{
+          "id": "scuba_tank",
+          "fg": 23900,
+          "rotates": false
+        },	
+		{
+          "id": "small_scuba_tank",
+          "fg": 23901,
+          "rotates": false
+        },
+								{
+          "id": "scuba_tank_on",
+          "fg": 23902,
+          "rotates": false
+        },	
+		{
+          "id": "small_scuba_tank_on",
+          "fg": 23903,
+          "rotates": false
+        },
+								{
+          "id": "overlay_worn_scuba_tank",
+          "fg": 23904,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_worn_small_scuba_tank",
+          "fg": 23905,
+          "rotates": false
+        },
+								{
+          "id": "overlay_worn_scuba_tank_on",
+          "fg": 23906,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_worn_small_scuba_tank_on",
+          "fg": 23907,
+          "rotates": false
+        },
+				{
+          "id": "seed_beans",
+          "fg": 23908,
+          "rotates": false
+        },	
+		{
+          "id": "seed_lentils",
+          "fg": 23909,
+          "rotates": false
+        },
+						{
+          "id": "soybean",
+          "fg": 23910,
+          "rotates": false
+        },	
+		{
+          "id": "soybean_seed",
+          "fg": 23911,
+          "rotates": false
+        },	
+		{
+          "id": "soy_nuts",
+          "fg": 23912,
+          "rotates": false
+        },
+				{
+          "id": "sponge_cake",
+          "fg": 23913,
+          "rotates": false
+        },	
+		{
+          "id": "space_cake",
+          "fg": 23914,
           "rotates": false
         },
 		{
