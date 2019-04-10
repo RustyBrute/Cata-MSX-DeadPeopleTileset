@@ -12,7 +12,10 @@
 	          {
           "id": [
 		  "tear_gas_payload",
-		  "tear_gas_payload_act"
+		  "tear_gas_payload_act",
+		  "nectar",
+		  "grass",
+		  "underbrush"
 		  ],
           "fg": 0,
           "bg": 0,
@@ -28562,7 +28565,7 @@
           "rotates": false
         },
 		{
-          "id": "38_speedloader",
+          "id": ["38_speedloader", "40_speedloader6", "44_speedloader6", "454_speedloader5", "460_speedloader6", "500_speedloader5", "223_speedloader5", "9mm_speedloader7"],
           "fg": 4436,
           "rotates": false
         },        
@@ -48407,12 +48410,12 @@
           "id": ["overlay_effect_sad"],
           "fg": 11649
         },	
+				{
+          "id": ["overlay_effect_normal"],
+          "fg": 11649
+        },	
 		{
-          "id": ["overlay_effect_no"],
-          "fg": 11650
-        },		
-		{
-          "id": ["overlay_effect_pain"],
+          "id": ["overlay_effect_bouldering"],
           "fg": 11651
         }
     ]
@@ -64110,6 +64113,50 @@
           "id": "space_cake",
           "fg": 23914,
           "rotates": false
+        },	
+		{
+          "id": "8x40_speedloader5",
+          "fg": 23915,
+          "rotates": false
+        },
+				{
+          "id": "22_speedloader8",
+          "fg": 23916,
+          "rotates": false
+        },
+						{
+          "id": "38_speedloader5",
+          "fg": 23917,
+          "rotates": false
+        },	
+		{
+          "id": "marlin_tubeloader",
+          "fg": 23918,
+          "rotates": false
+        },
+				{
+          "id": ["overlay_effect_laserlocked"],
+          "fg": 23919
+        },	
+		{
+          "id": ["overlay_effect_boomered"],
+          "fg": 23920
+        },
+				{
+          "id": ["overlay_effect_winded"],
+          "fg": 23921
+        },
+						{
+          "id": ["overlay_effect_glare"],
+          "fg": 23922
+        },	
+		{
+          "id": ["overlay_effect_snow_glare"],
+          "fg": 23923
+        },	
+		{
+          "id": ["craft"],
+          "fg": 23924
         },
 		{
           "id": "atlatl",
@@ -65599,6 +65646,10 @@
           "fg": 35767,
           "bg": 0,
           "rotates": false
+        },		
+		{
+          "id": "overlay_effect_glowing",
+          "fg": 35768
         }
 	    
     ]
