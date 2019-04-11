@@ -15,7 +15,9 @@
 		  "tear_gas_payload_act",
 		  "nectar",
 		  "grass",
-		  "underbrush"
+		  "underbrush",
+		  "bio_shotgun_gun",
+		  "toolset_extended"
 		  ],
           "fg": 0,
           "bg": 0,
@@ -2582,6 +2584,10 @@
         },
 		{
           "id": "bandolier_shotgun",
+          "fg": 348
+        },	
+		{
+          "id": "torso_bandolier_shotgun",
           "fg": 348
         },
 				{
@@ -26447,7 +26453,7 @@
           "fg": 1760
         },
         {
-          "id": "vp_wheel_wheelchair",
+          "id": ["vp_wheel_wheelchair", "vp_wheel_tricycle"],
           "fg": 1760,
           "rotates": true
         },
@@ -48403,17 +48409,17 @@
           "fg": 11647
         },
 		{
-          "id": ["overlay_effect_happy"],
+          "id": ["overlay_effect_dazed"],
           "fg": 11648
         },
 		{
-          "id": ["overlay_effect_sad"],
+          "id": ["overlay_effect_drunk"],
           "fg": 11649
         },	
-				{
-          "id": ["overlay_effect_normal"],
-          "fg": 11649
-        },	
+		{
+          "id": ["overlay_effect_high"],
+          "fg": 11650
+        },
 		{
           "id": ["overlay_effect_bouldering"],
           "fg": 11651
@@ -64158,11 +64164,122 @@
           "id": ["craft"],
           "fg": 23924
         },
+				{
+          "id": ["linuxtshirt"],
+          "fg": 23925
+        },
+		{
+          "id": ["overlay_male_worn_linuxtshirt"],
+          "fg": 23926
+        },		
+		{
+          "id": ["overlay_female_worn_linuxtshirt"],
+          "fg": 23927
+        },	{
+          "id": ["technician_shirt_gray"],
+          "fg": 23928
+        },
+		{
+          "id": ["overlay_male_worn_technician_shirt_gray"],
+          "fg": 23929
+        },		
+		{
+          "id": ["overlay_female_worn_technician_shirt_gray"],
+          "fg": 23930
+        },
+		{
+          "id": ["tshirt"],
+          "fg": 23931
+        },
+		{
+          "id": ["overlay_male_worn_tshirt"],
+          "fg": 23932
+        },		
+		{
+          "id": ["overlay_female_worn_tshirt"],
+          "fg": 23933
+        },		
+		{
+          "id": ["thermostat"],
+          "fg": 23934
+        },
+		{
+          "id": ["overlay_effect_happy"],
+          "fg": 23935
+        },
+		{
+          "id": ["overlay_effect_sad"],
+          "fg": 23936
+        },	
+				{
+          "id": ["overlay_effect_normal"],
+          "fg": 23937
+        },	
+		{
+          "id": ["string_6"],
+          "fg": 23938
+        },	
+		{
+          "id": ["string_36"],
+          "fg": 23939
+        },
+				{
+          "id": ["sleeveless_duster_leather"],
+          "fg": 23940
+        },		
+		{
+          "id": ["leather_harness_dog"],
+          "fg": 23941
+        },
+				{
+          "id": ["leatherbone_harness_dog"],
+          "fg": 23942
+        },
+		{
+          "id": ["rubber_harness_dog"],
+          "fg": 23943
+        },
+				{
+          "id": ["chitin_harness_dog"],
+          "fg": 23944
+        },
+						{
+          "id": ["acidchitin_harness_dog"],
+          "fg": 23945
+        },
+		{
+          "id": ["chainmail_harness_dog"],
+          "fg": 23946
+        },
+						{
+          "id": ["superalloy_harness_dog"],
+          "fg": 23947
+        },
+		{
+          "id": ["overlay_wielded_toolset_extended"],
+          "fg": 23948
+        },
+				{
+          "id": ["overlay_wielded_bio_shotgun_gun"],
+          "fg": 23949
+        },
+		{
+          "id": ["mon_afs_headless_zombie"],
+          "fg": 23950,
+		   "bg": 967, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["corpse_mon_afs_headless_zombie"],
+          "fg": 23951,
+		   "bg": 0, 
+		   "rotates": false 
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
-          "rotates": false 
+"rotates": false 
         }		
 	]
 	},
@@ -65650,6 +65767,18 @@
 		{
           "id": "overlay_effect_glowing",
           "fg": 35768
+        },
+		{
+          "id": "mon_afs_headless_horror",
+          "fg": 35769,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_afs_headless_horror",
+          "fg": 35770,
+          "bg": 0,
+          "rotates": false
         }
 	    
     ]
