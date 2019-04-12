@@ -25255,7 +25255,7 @@
           "rotates": false
         },
         {
-          "id": "f_fridge",
+          "id": ["f_fridge"],
           "fg": 1516,
           "rotates": false
         },
@@ -25275,7 +25275,7 @@
           "rotates": false
         },
         {
-          "id": ["vp_minifridge", "vp_minifreezer"],
+          "id": ["vp_minifridge", "vp_minifreezer", "f_afs_fridge_vehicle", "f_afs_freezer_vehicle", "vp_afs_freezer", "afs_fridge"],
           "fg": 1516,
           "rotates": false,
           "multitile": true,
@@ -27679,7 +27679,7 @@
           "bg": 978
         },		
 		{
-          "id": ["spell_lightning", "spell_acidarmor", "spell_acidarmor_on", "spell_acidspray", "spell_acidspray_on", "spell_agile", "spell_agile_on", "spell_clairvoyance", "spell_clairvoyance_on", "spell_confusion", "spell_confusion_on", "spell_light", "spell_light_on", "spell_psyshield", "spell_psyshield_on", "spell_drainlife", "spell_drainlife_on", "spell_elecresist", "spell_elecresist_on", "spell_invis", "spell_invis_on"],
+          "id": ["spell_summonshadow", "spell_summonshadowsnake", "spell_lightning", "spell_acidarmor", "spell_acidarmor_on", "spell_acidspray", "spell_acidspray_on", "spell_agile", "spell_agile_on", "spell_clairvoyance", "spell_clairvoyance_on", "spell_confusion", "spell_confusion_on", "spell_light", "spell_light_on", "spell_psyshield", "spell_psyshield_on", "spell_drainlife", "spell_drainlife_on", "spell_elecresist", "spell_elecresist_on", "spell_invis", "spell_invis_on"],
           "bg": 4306
         },			
 		{
@@ -47677,33 +47677,33 @@
 		{ "id": "overlay_male_mutation_hair7pink", "fg": 9693, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_hair8blond", "fg": 9696, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_blond_medium", "fg": 9696, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_blond_medium", "fg": 9713, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8blond", "fg": 9697, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_blond_long", "fg": 9697, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_blond_long", "fg": 9729, "rotates": false },
 		{ "id": "overlay_female_mutation_hair8red", "fg": 9698, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_red_medium", "fg": 9698, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_red_medium", "fg": 9715, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8red", "fg": 9699, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_red_long", "fg": 9699, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_red_long", "fg": 9731, "rotates": false },
 		{ "id": "overlay_female_mutation_hair8brown", "fg": 9700, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_brown_medium", "fg": 9700, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_brown_medium", "fg": 9717, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8brown", "fg": 9701, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_brown_long", "fg": 9701, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_brown_long", "fg": 9733, "rotates": false },
 		{ "id": "overlay_female_mutation_hair8black", "fg": 9702, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_black_medium", "fg": 9702, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_black_medium", "fg": 9719, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8black", "fg": 9703, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_black_long", "fg": 9703, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_black_long", "fg": 9735, "rotates": false },
 		{ "id": "overlay_female_mutation_hair8white", "fg": 9704, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_white_medium", "fg": 9704, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_white_medium", "fg": 9721, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8white", "fg": 9705, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_white_long", "fg": 9705, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_white_long", "fg": 9737, "rotates": false },
 		{ "id": "overlay_female_mutation_hair8gray", "fg": 9706, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_gray_medium", "fg": 9706, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_gray_medium", "fg": 9723, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8gray", "fg": 9707, "rotates": false },	
-		{ "id": "overlay_male_mutation_hair_gray_long", "fg": 9707, "rotates": false },		
+		{ "id": "overlay_male_mutation_hair_gray_long", "fg": 9739, "rotates": false },		
 		{ "id": "overlay_female_mutation_hair8pink", "fg": 9708, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_blond_medium", "fg": 9708, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_pink_medium", "fg": 9725, "rotates": false },
 		{ "id": "overlay_male_mutation_hair8pink", "fg": 9709, "rotates": false },
-		{ "id": "overlay_male_mutation_hair_pink_long", "fg": 9709, "rotates": false },
+		{ "id": "overlay_male_mutation_hair_pink_long", "fg": 9741, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_hair9blond", "fg": 9712, "rotates": false },
 		{ "id": "overlay_mutation_hair_blond_fro", "fg": 9712, "rotates": false },
@@ -48976,7 +48976,7 @@
           "rotates": false
         },
 		{
-          "id": "mon_shadow",
+          "id": ["mon_shadow", "mon_shadow_summoned"],
           "fg": [
             { "weight":1, "sprite":2583},
 			{ "weight":1, "sprite":12100},
@@ -55349,7 +55349,46 @@
               "fg": 18691,
               "bg": 5012
             }
-							 ]
+			]
+			},
+			{
+          "id": "f_spires_arcana",
+          "fg": 18692,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18692,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18693, 18694, 18695, 18696],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18697, 18698, 18699, 18700],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18701, 18702],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18703, 18704, 18705, 18706],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18707,
+              "bg": 0
+            }
+			]
 			}
   ]
   },
@@ -61537,7 +61576,7 @@
           "rotates": false
         },		
 		{
-          "id": "corpse_mon_ant_acid",
+          "id": ["corpse_mon_ant_acid"],
           "fg": 23469,
           "bg": 0,
           "rotates": false
@@ -62288,7 +62327,7 @@
           "rotates": false
         }, 
 		{
-          "id": "corpse_mon_ant_acid",
+          "id": ["corpse_mon_ant_acid", "corpse_mon_ant_acid_terminal"],
           "fg": 23585,
           "bg": 0,
           "rotates": false
@@ -64274,6 +64313,126 @@
           "fg": 23951,
 		   "bg": 0, 
 		   "rotates": false 
+        },		
+		{
+          "id": ["afs_atomic_reading_light"],
+          "fg": 23952,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["afs_atomic_reading_light_on"],
+          "fg": 23953,
+		   "bg": 0, 
+		   "rotates": false 
+        },		
+		{
+          "id": ["afs_atomic_smartphone"],
+          "fg": 23954,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["afs_atomic_smartphone_flashlight"],
+          "fg": 23955,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_zombie_fiend_summoned"],
+          "fg": 23956,
+		   "bg": 0, 
+		   "rotates": false 
+        },		
+		{
+          "id": ["mon_homunculus_summoned"],
+          "fg": 23957,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_dog_skeleton_summoned"],
+          "fg": 23958,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_skeleton_summoned"],
+          "fg": 23959,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_vortex_summoned"],
+          "fg": 23960,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_kreck_summoned"],
+          "fg": 23961,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_triffid_summoned"],
+          "fg": 23962,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_hunting_horror_summoned"],
+          "fg": 23963,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["mon_shadow_snake_summoned"],
+          "fg": 23964,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["dragonblood_mutagen"],
+          "fg": 23965,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["f_door_arcana_c"],
+          "fg": 23966,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["f_door_arcana_o"],
+          "fg": 23967,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["f_altar_arcana"],
+          "fg": 23968,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["f_pozdol_arcana"],
+          "fg": 23969,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["corpse_mon_ant_soldier_pk_weak", "corpse_mon_ant_soldier_pk"],
+          "fg": 23970,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["corpse_mon_ant_acid_kwama"],
+          "fg": 23971,
+		   "bg": 0, 
+		   "rotates": false 
         },
 		{
           "id": "atlatl",
@@ -65777,6 +65936,84 @@
 		{
           "id": "corpse_mon_afs_headless_horror",
           "fg": 35770,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "mon_dark_wyrm",
+          "fg": 35771,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_dark_wyrm",
+          "fg": 35772,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_dark_wyrm_summoned",
+          "fg": 35773,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_jabberwock_summoned",
+          "fg": 35774,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_thing",
+          "fg": 35775,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_thing_summoned",
+          "fg": 35776,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_yugg_summoned",
+          "fg": 35777,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_flesh_angel_summoned",
+          "fg": 35778,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_mi_go_summoned",
+          "fg": 35779,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_flying_polyp_summoned",
+          "fg": 35780,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_shoggoth_summoned",
+          "fg": 35781,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_ant_acid_ultralisk",
+          "fg": 35782,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_ant_acid_ultralisk",
+          "fg": 35783,
           "bg": 0,
           "rotates": false
         }
