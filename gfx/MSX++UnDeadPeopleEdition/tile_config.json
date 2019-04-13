@@ -55389,6 +55389,45 @@
               "bg": 0
             }
 			]
+			},
+			{
+          "id": "t_fault",
+          "fg": 18708,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18708,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18709, 18710, 18711, 18712],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18713, 18714, 18715, 18716],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18717, 18718],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18719, 18720, 18721, 18722],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18723,
+              "bg": 0
+            }
+			]
 			}
   ]
   },
