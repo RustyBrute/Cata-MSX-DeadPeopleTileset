@@ -64472,6 +64472,18 @@
           "fg": 23971,
 		   "bg": 0, 
 		   "rotates": false 
+        },	
+		{
+          "id": ["mon_skeleton_brute"],
+          "fg": 23972,
+		   "bg": 967, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["corpse_mon_skeleton_brute"],
+          "fg": 23973,
+		   "bg": 967, 
+		   "rotates": false 
         },
 		{
           "id": "atlatl",
