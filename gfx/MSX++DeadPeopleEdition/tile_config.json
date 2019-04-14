@@ -64485,6 +64485,30 @@
 		   "bg": 967, 
 		   "rotates": false 
         },
+				{
+          "id": ["mon_gas_zombie"],
+          "fg": 23974,
+		   "bg": 967, 
+		   "rotates": false 
+        },
+						{
+          "id": ["mon_prototype_cyborg"],
+          "fg": 23975,
+		   "bg": 967, 
+		   "rotates": false 
+        },
+								{
+          "id": ["bot_prototype_cyborg"],
+          "fg": 23976,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["corpse_mon_prototype_cyborg"],
+          "fg": 23977,
+		   "bg": 0, 
+		   "rotates": false 
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
