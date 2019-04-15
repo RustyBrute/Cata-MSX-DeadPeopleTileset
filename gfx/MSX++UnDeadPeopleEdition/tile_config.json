@@ -7736,7 +7736,7 @@
           "rotates": false
         },
         {
-          "id": "bio_dis_acid",
+          "id": ["bio_dis_acid", "bio_glowy"],
           "fg": 1016,
           "bg": 957,
           "rotates": false
@@ -50064,7 +50064,19 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 17140,
+              "fg":[ 
+			{  "weight":999, "sprite": 17140},         
+			{ "weight":1, "sprite":27699},
+            { "weight":1, "sprite":27700},
+            { "weight":1, "sprite":27701},
+            { "weight":1, "sprite":27702},     
+			{ "weight":1, "sprite":27703},
+            { "weight":1, "sprite":27704},
+            { "weight":1, "sprite":27705},
+            { "weight":1, "sprite":27706},
+			{ "weight":1, "sprite":27707},
+			{ "weight":1, "sprite":27708},
+			{ "weight":1, "sprite":27709}],
 		      "bg": 1012,
               "id": "center"
             },
@@ -55425,6 +55437,45 @@
             {
               "id": "unconnected",
               "fg": 18723,
+              "bg": 0
+            }
+			]
+			},
+			{
+          "id": "!t_floor_waxed_y",
+          "fg": 18724,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18724,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18725, 18726, 18727, 18728],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18729, 18730, 18731, 18732],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18733, 18734],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18735, 18736, 18737, 18738],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18739,
               "bg": 0
             }
 			]
@@ -64508,6 +64559,42 @@
           "fg": 23977,
 		   "bg": 0, 
 		   "rotates": false 
+        },	
+		{
+          "id": ["electric_blanket"],
+          "fg": 23978,
+		   "bg": 0, 
+		   "rotates": false 
+        },		
+		{
+          "id": ["electric_blanket_on"],
+          "fg": 23979,
+		   "bg": 0, 
+		   "rotates": false 
+        },		
+		{
+          "id": ["overlay_worn_electric_blanket"],
+          "fg": 23980,
+		   "bg": 0, 
+		   "rotates": false 
+        },		
+		{
+          "id": ["overlay_worn_electric_blanket_on"],
+          "fg": 23981,
+		   "bg": 0, 
+		   "rotates": false 
+        },	
+		{
+          "id": ["t_floor_waxed_y"],
+          "fg": 23982,
+		   "bg": 0, 
+		   "rotates": false 
+        },
+		        {
+          "id": "f_plant_harvest_cannabis",
+          "fg": 23982,
+          "bg": 3020,
+          "rotates": false
         },
 		{
           "id": "atlatl",
