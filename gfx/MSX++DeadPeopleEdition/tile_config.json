@@ -94538,7 +94538,7 @@
 		{ "id": "overlay_female_mutation_DEBUG_NOSCENT", "fg": 0, "rotates": false },
 		{ "id": "overlay_male_mutation_DEBUG_NOSCENT", "fg": 0, "rotates": false },
 		{ "id": "overlay_mutation_DEBUG_SILENT", "fg": 0, "rotates": false },
-
+		
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
 		
 		{ "id": "overlay_female_mutation_PLANTSKIN", "fg": 10038, "rotates": false },
@@ -94686,7 +94686,14 @@
 		{ "id": "overlay_male_mutation_bio_cable", "fg": 10526, "rotates": false },
 		{ "id": "overlay_female_mutation_bio_cable", "fg": 10527, "rotates": false },	
 		{ "id": "overlay_male_mutation_active_bio_cable", "fg": 10528, "rotates": false },
-		{ "id": "overlay_female_mutation_active_bio_cable", "fg": 10529, "rotates": false }
+		{ "id": "overlay_female_mutation_active_bio_cable", "fg": 10529, "rotates": false },
+				
+		{ "id": "overlay_mutation_TAIL_THICK", "fg": 10116, "rotates": false },
+		{ "id": "overlay_mutation_CLAWS", "fg": 10117, "rotates": false },
+		{ "id": "overlay_mutation_RAP_TALONS", "fg": 10118, "rotates": false },
+		{ "id": "overlay_mutation_FEET_TALONS", "fg": 10118, "rotates": false },
+		{ "id": "overlay_female_mutation_LIZ_EYE", "fg": 10119, "rotates": false },
+		{ "id": "overlay_mutation_MUZZLE_LONG", "fg": 10120, "rotates": false }
 		
     ]
     },
