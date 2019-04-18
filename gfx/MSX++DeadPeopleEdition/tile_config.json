@@ -73698,6 +73698,11 @@
           "id": "overlay_wielded_sword_crude",
           "fg": 1868,
           "rotates": false
+        },   
+		{
+          "id": "overlay_wielded_sword_bayonet",
+          "fg": 1868,
+          "rotates": false
         },
         {
           "id": "overlay_wielded_sword_forged",
@@ -87057,7 +87062,7 @@
           "id": "overlay_wielded_knife_butcher",
           "fg": 3671,
           "rotates": false
-        },
+        },     
         {
           "id": "overlay_wielded_knife_rm42",
           "fg": 3672,
@@ -95485,7 +95490,20 @@
             ],
           "bg": 0,
           "rotates": false
-        }
+        },	
+		{
+          "id": "mon_zombie_labsecurity",
+          "fg": [
+            { "weight":111, "sprite":23746},
+			{ "weight":111, "sprite":12132},
+			{ "weight":111, "sprite":12133},
+			{ "weight":111, "sprite":12134},
+			{ "weight":111, "sprite":12135},
+			{ "weight":10, "sprite":12136},
+			{ "weight":1, "sprite":12137}
+            ],
+          "rotates": false
+        }	
 		
   ]
   },
@@ -101913,7 +101931,7 @@
 			]
 			},
 			{
-          "id": "!t_floor_waxed_y",
+          "id": "fd_fungal_haze",
           "fg": 18724,
           "bg": 0,
           "rotates": false,
@@ -101947,6 +101965,45 @@
             {
               "id": "unconnected",
               "fg": 18739,
+              "bg": 0
+            }
+			]
+			},
+			{
+          "id": "fd_nuke_gas",
+          "fg": 187240,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18740,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18741, 18742, 18743, 18744],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18745, 18746, 18747, 18748],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18749, 18750],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18751, 18752, 18753, 18754],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18755,
               "bg": 0
             }
 			]
@@ -118542,7 +118599,7 @@
           "rotates": false
         },
 		{
-          "id": "mon_zombie_labsecurity",
+          "id": "!mon_zombie_labsecurity",
           "fg": 23746,
           "rotates": false
         },		
@@ -119903,6 +119960,18 @@
 		{
           "id": [ "overlay_wielded_control_laptop"],
           "fg": 24003
+        },	
+		{
+          "id": [ "overlay_wielded_rebar"],
+          "fg": 24004
+        },		
+		{
+          "id": [ "overlay_wielded_matchbomb"],
+          "fg": 24005
+        },		
+		{
+          "id": [ "overlay_wielded_matchbomb_act"],
+          "fg": 24006
         },
 		{
           "id": "atlatl",
