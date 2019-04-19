@@ -17,7 +17,9 @@
 		  "grass",
 		  "underbrush",
 		  "bio_shotgun_gun",
-		  "toolset_extended"
+		  "toolset_extended",
+		  "f_fake_bench_hands",
+		  "f_fake_bench_ground"
 		  ],
           "fg": 0,
           "bg": 0,
@@ -93927,15 +93929,6 @@
         { "id": "overlay_mutation_CANINE_EARS","fg": 2813, "rotates": false },
         { "id": "overlay_mutation_LUPINE_EARS", "fg": 2813, "rotates": false },
         { "id": "overlay_mutation_CENOBITE", "fg": 2814, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_CLOAK", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_HS", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_LS", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_MIND_CONTROL", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NIGHTVISION", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NODMG", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NOSCENT", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_NOTEMP", "fg": 0, "rotates": false },
-        { "id": "overlay_mutation_DEBUG_SILENT", "fg": 0, "rotates": false },
         { "id": "overlay_mutation_ELFA_EARS", "fg": 2816, "rotates": false },
         { "id": "overlay_mutation_FELINE_EARS",  "fg": 2817, "rotates": false },
         { "id": "overlay_worn_fur_cat_ears",  "fg": 2817,  "rotates": false },
@@ -94426,8 +94419,6 @@
 		{ "id": "overlay_mutation_BEE", "fg": 10024, "rotates": false },
 		{ "id": "overlay_mutation_MUTE", "fg": 10025, "rotates": false },
 		
-		{ "id": ["overlay_mutation_DEBUG_NIGHTVISION", "overlay_DEBUG_CLOAK", "overlay_mutation_DEBUG_LS", "overlay_mutation_DEBUG_NOSCENT", "overlay_mutation_DEBUG_SILENT", "overlay_mutation_DEBUG_NOTEMP", "overlay_mutation_DEBUG_NODMG", "overlay_mutation_DEBUG_HS", "overlay_mutation_DEBUG_CBM_SLOTS", "overlay_mutation_DEBUG_MIND_CONTROL", "overlay_mutation_DEBUG_STORAGE"], "fg": 0, "rotates": false },
-		
 		{ "id": "overlay_mutation_NPC_BRANDY", "fg": 10027, "rotates": false },
 		{ "id": "overlay_mutation_NPC_RUM", "fg": 10028, "rotates": false },
 		{ "id": "overlay_mutation_NPC_WHISKEY", "fg": 10029, "rotates": false },
@@ -94731,15 +94722,18 @@
           "id": "overlay_effect_teleglow",
           "bg": 11609
         },
-		{ "id": "overlay_mutation_DEBUG_NODMG", "bg": 11610, "rotates": false },
 		{ "id": "overlay_mutation_DEBUG_NIGHTVISION", "bg": 11610, "rotates": false },
-		{ "id": "overlay_female_mutation_DEBUG_CLOAK", "bg": 11610, "rotates": false },
-		{ "id": "overlay_male_mutation_DEBUG_CLOAK", "bg": 11610, "rotates": false },
-		{ "id": "overlay_female_mutation_DEBUG_LS", "bg": 11610, "rotates": false },
-		{ "id": "overlay_male_mutation_DEBUG_LS", "bg": 11610, "rotates": false },
-		{ "id": "overlay_female_mutation_DEBUG_NOSCENT", "bg": 11610, "rotates": false },
-		{ "id": "overlay_male_mutation_DEBUG_NOSCENT", "bg": 11610, "rotates": false },
-		{ "id": "overlay_mutation_DEBUG_SILENT", "bg": 11610, "rotates": false },	
+		{ "id": "overlay_mutation_DEBUG_CLOAK", "bg": 11610, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_LS", "bg": 11610, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_NOSCENT", "bg": 11610, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_SILENT", "bg": 11610, "rotates": false },
+		{ "id": "overlay_mutation_DEBUG_NOTEMP", "bg": 11610, "rotates": false },		
+		{ "id": "overlay_mutation_DEBUG_NODMG", "bg": 11610, "rotates": false },	
+		{ "id": "overlay_mutation_DEBUG_HS", "bg": 11610, "rotates": false },		
+		{ "id": "overlay_mutation_DEBUG_MIND_CONTROL", "bg": 11610, "rotates": false },	
+		{ "id": "overlay_mutation_DEBUG_STORAGE", "bg": 11610, "rotates": false },		
+		{ "id": "overlay_mutation_DEBUG_BIONICS", "bg": 11610, "rotates": false },		
+		{ "id": "overlay_mutation_DEBUG_BIONIC_POWER", "bg": 11610, "rotates": false },		
 		{
           "id": "overlay_effect_wet",
           "bg": 11611
@@ -99790,7 +99784,13 @@
             { "weight":1, "sprite":27685},
             { "weight":1, "sprite":27686},
             { "weight":1, "sprite":27687},
-            { "weight":1, "sprite":27688}
+            { "weight":1, "sprite":27688}, 
+			{ "weight":1, "sprite":27710},
+            { "weight":1, "sprite":27711},
+            { "weight":1, "sprite":27712},
+            { "weight":1, "sprite":27713},
+            { "weight":1, "sprite":27714},
+            { "weight":1, "sprite":27715}
             ],
 			  "bg": 4844
             },
@@ -101971,7 +101971,7 @@
 			},
 			{
           "id": "fd_nuke_gas",
-          "fg": 187240,
+          "fg": 18740,
           "bg": 0,
           "rotates": false,
           "multitile": true,
@@ -102004,6 +102004,84 @@
             {
               "id": "unconnected",
               "fg": 18755,
+              "bg": 0
+            }
+			]
+			},
+			{
+          "id": "f_workbench",
+          "fg": 18756,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18756,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18757, 18758, 18759, 18760],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18761, 18762, 18763, 18764],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18765, 18766],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18767, 18768, 18769, 18770],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18771,
+              "bg": 0
+            }
+			]
+			},
+			{
+          "id": "!t_door_metal_c",
+          "fg": 18772,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18772,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18773, 18774, 18775, 18776],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18777, 18778, 18779, 18780],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18781, 18782],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18783, 18784, 18785, 18786],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18787,
               "bg": 0
             }
 			]
@@ -119972,6 +120050,47 @@
 		{
           "id": [ "overlay_wielded_matchbomb_act"],
           "fg": 24006
+        },	
+		{
+          "id": "workbench",
+          "fg": 24007
+        },		
+		{
+          "id": "vp_workbench",
+          "fg": 18771,
+		  "bg": 1005,
+		  "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_workbench",
+          "fg": 24007
+        },	
+        {
+          "id": "t_door_metal_c",
+          "fg": 24008,
+          "rotates": false
+        }, 
+		{
+          "id": "t_door_metal_o",
+          "fg": 24009,
+		  "bg": 993,
+          "rotates": false
+        },  
+		{
+          "id": "t_door_metal_c_peep",
+          "fg": 24010,
+          "rotates": false
+        }, 
+		{
+          "id": "t_door_metal_o_peep",
+          "fg": 24011,
+		  "bg": 993,
+          "rotates": false
+        },	
+		{
+          "id": "t_door_metal_pickable",
+          "fg": 24012,
+          "rotates": false
         },
 		{
           "id": "atlatl",
