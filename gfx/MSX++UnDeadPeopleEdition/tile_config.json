@@ -120091,6 +120091,17 @@
           "id": "t_door_metal_pickable",
           "fg": 24012,
           "rotates": false
+        },	
+		{
+          "id": "mon_zombie_thorny",
+          "fg": 24013,
+		  "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_thorny",
+          "fg": 24014,
+          "rotates": false
         },
 		{
           "id": "atlatl",
