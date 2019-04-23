@@ -9252,7 +9252,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_potato_raw",
+          "id": ["overlay_wielded_potato_raw", "overlay_wielded_potato"],
           "fg": 1303,
           "bg": 957,
           "rotates": false
@@ -55745,7 +55745,7 @@
           "rotates": false
         },
         {
-          "id": "potato_raw",
+          "id": ["potato_raw", "potato"],
           "fg": 1303,
           "bg": 957,
           "rotates": false
@@ -94639,8 +94639,8 @@
 
 		{ "id": "overlay_male_mutation_bio_adrenaline", "fg": 10496, "rotates": false },
 		{ "id": "overlay_female_mutation_bio_adrenaline", "fg": 10497, "rotates": false },
-		{ "id": "overlay_male_mutation_bio_advreactor", "fg": 10498, "rotates": false },
-		{ "id": "overlay_female_mutation_bio_advreactor", "fg": 10499, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_advreactor", "bg": 10498, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_advreactor", "bg": 10499, "rotates": false },	
 		{ "id": "overlay_male_mutation_bio_evap", "fg": 10500, "rotates": false },
 		{ "id": "overlay_female_mutation_bio_evap", "fg": 10501, "rotates": false },	
 		{ "id": "overlay_male_mutation_bio_purifier", "fg": 10502, "rotates": false },
@@ -94672,7 +94672,53 @@
 		{ "id": "overlay_male_mutation_bio_cable", "fg": 10526, "rotates": false },
 		{ "id": "overlay_female_mutation_bio_cable", "fg": 10527, "rotates": false },	
 		{ "id": "overlay_male_mutation_active_bio_cable", "fg": 10528, "rotates": false },
-		{ "id": "overlay_female_mutation_active_bio_cable", "fg": 10529, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_cable", "fg": 10529, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_ankles", "fg": 10530, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_ankles", "fg": 10531, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_armor_eyes", "fg": 10532, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_armor_eyes", "fg": 10533, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_armor_head", "fg": 10534, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_armor_head", "fg": 10535, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_armor_legs", "fg": 10536, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_armor_legs", "fg": 10537, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_armor_torso", "fg": 10538, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_armor_torso", "fg": 10539, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_batteries", "fg": 10540, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_batteries", "fg": 10541, "rotates": false },	
+		{ "id": "overlay_male_mutation_active_bio_batteries", "fg": 10542, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_batteries", "fg": 10543, "rotates": false },
+		{ "id": "overlay_male_mutation_active_bio_advreactor", "bg": 10544, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_advreactor", "bg": 10545, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_blade", "fg": 10546, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_blade", "fg": 10547, "rotates": false },	
+		{ "id": "overlay_male_wielded_bio_blade_weapon", "fg": 10548, "rotates": false },
+		{ "id": "overlay_female_wielded_bio_blade_weapon", "fg": 10549, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_blaster", "fg": 10550, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_blaster", "fg": 10551, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_shotgun", "fg": 10552, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_shotgun", "fg": 10553, "rotates": false },
+		{ "id": "overlay_male_mutation_active_bio_shotgun", "fg": 10554, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_shotgun", "fg": 10555, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_carbon", "fg": 10556, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_carbon", "fg": 10557, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_chain_lightning", "fg": 10558, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_chain_lightning", "fg": 10559, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_claws", "fg": 0, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_claws", "fg": 0, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_climate", "fg": 10560, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_climate", "fg": 10561, "rotates": false },		
+		{ "id": "overlay_male_mutation_bio_cloak", "fg": 10562, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_cloak", "fg": 10563, "rotates": false },	
+		{ "id": "overlay_male_mutation_active_bio_cloak", "fg": 10564, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_cloak", "fg": 10565, "rotates": false },
+		{ "id": "overlay_male_mutation_bio_cqb", "fg": 10566, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_cqb", "fg": 10567, "rotates": false },	
+		{ "id": "overlay_male_mutation_active_bio_cqb", "fg": 10568, "rotates": false },
+		{ "id": "overlay_female_mutation_active_bio_cqb", "fg": 10569, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_deformity", "fg": 10570, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_deformity", "fg": 10571, "rotates": false },	
+		{ "id": "overlay_male_mutation_bio_dis_acid", "fg": 10572, "rotates": false },
+		{ "id": "overlay_female_mutation_bio_dis_acid", "fg": 10573, "rotates": false },
 				
 		{ "id": "overlay_mutation_TAIL_THICK", "fg": 10116, "rotates": false },
 		{ "id": "overlay_mutation_CLAWS", "fg": 10117, "rotates": false },
@@ -95278,11 +95324,16 @@
 		{
           "id": "mon_zombie_scientist",
           "fg": [
-            { "weight":1, "sprite":2586},
-            { "weight":1, "sprite":11924}, 
-			{ "weight":1, "sprite":11925},
-			{ "weight":1, "sprite":11926},
-			{ "weight":1, "sprite":11927}
+            { "weight":10, "sprite":2586},
+            { "weight":10, "sprite":11924}, 
+			{ "weight":10, "sprite":11925},
+			{ "weight":10, "sprite":11926},
+			{ "weight":10, "sprite":11927},    
+			{ "weight":1, "sprite":11928}, 
+			{ "weight":10, "sprite":11929},
+			{ "weight":10, "sprite":11930},
+			{ "weight":10, "sprite":11931},
+			{ "weight":10, "sprite":11932}
             ],
           "bg": 967,
           "rotates": false
@@ -95496,6 +95547,18 @@
 			{ "weight":10, "sprite":12136},
 			{ "weight":1, "sprite":12137}
             ],
+			"bg": 967,
+          "rotates": false
+        },
+		{	
+          "id": "mon_zombie_technician",
+          "fg": [
+            { "weight":111, "sprite":2763},
+			{ "weight":111, "sprite":12148},
+			{ "weight":111, "sprite":12149},
+			{ "weight":111, "sprite":12150}
+            ],
+			"bg": 967,
           "rotates": false
         }	
 		
@@ -100578,6 +100641,44 @@
               "id": "unconnected",
               "fg": 18227,
 			  "bg": 993
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_guardrail",
+          "fg": 18212,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+			  "id": "center",
+              "fg": 18212,
+			  "bg": 5010
+            },
+            {
+              "id": "corner",
+              "fg": [18213, 18214, 18215, 18216],
+			  "bg": 5010
+            },
+            {
+              "id": "t_connection",
+              "fg": [18217, 18218, 18219, 18220],
+			  "bg": 5010
+            },
+            {
+              "id": "edge",
+              "fg": [18221, 18222],
+			  "bg": 5010
+            },
+            {
+              "id": "end_piece",
+              "fg": [18223, 18224, 18225, 18226],
+			  "bg": 5010
+            },
+            {
+              "id": "unconnected",
+              "fg": 18227,
+			  "bg": 5010
             }
 			],
 			"rotates": false
@@ -120102,6 +120203,30 @@
           "id": "corpse_mon_zombie_thorny",
           "fg": 24014,
           "rotates": false
+        },	
+		{
+          "id": "t_rad_platform",
+          "fg": 24015,
+          "rotates": false
+        },	
+		{
+          "id": "condom",
+          "fg": 24016,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_condom",
+          "fg": 24017,
+          "rotates": false
+        },	
+		{
+          "id": "t_card_industrial",
+          "fg": 24018,
+          "rotates": false
+        },		
+		{
+          "id": "id_industrial",
+          "fg": 24019
         },
 		{
           "id": "atlatl",

@@ -19,6 +19,8 @@
 		"overlay_mutation_DEBUG_CBM_SLOTS", 
 		"overlay_mutation_DEBUG_MIND_CONTROL", 
 		"overlay_mutation_DEBUG_STORAGE",
+		"overlay_mutation_DEBUG_BIONICS", 
+		"overlay_mutation_DEBUG_BIONIC_POWER",
 		"overlay_male_mutation_DEBUG_NIGHTVISION", 
 		"overlay_male_mutation_DEBUG_CLOAK", 
 		"overlay_male_mutation_DEBUG_LS", 
@@ -30,6 +32,8 @@
 		"overlay_male_mutation_DEBUG_CBM_SLOTS", 
 		"overlay_male_mutation_DEBUG_MIND_CONTROL", 
 		"overlay_male_mutation_DEBUG_STORAGE",	
+		"overlay_male_mutation_DEBUG_BIONICS", 
+		"overlay_male_mutation_DEBUG_BIONIC_POWER",	
 		"overlay_female_mutation_DEBUG_NIGHTVISION", 
 		"overlay_female_mutation_DEBUG_CLOAK", 
 		"overlay_female_mutation_DEBUG_LS", 
@@ -40,7 +44,9 @@
 		"overlay_female_mutation_DEBUG_HS", 
 		"overlay_female_mutation_DEBUG_CBM_SLOTS", 
 		"overlay_female_mutation_DEBUG_MIND_CONTROL", 
-		"overlay_female_mutation_DEBUG_STORAGE"
+		"overlay_female_mutation_DEBUG_STORAGE",
+		"overlay_female_mutation_DEBUG_BIONICS", 
+		"overlay_female_mutation_DEBUG_BIONIC_POWER"
 		],
 		"fg": 0, 
 		"bg": 0,
