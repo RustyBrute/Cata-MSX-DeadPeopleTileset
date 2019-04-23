@@ -93907,7 +93907,7 @@
         { "id": "overlay_male_mutation_M_SKIN", "fg": 2799, "rotates": false },
         { "id": "overlay_male_mutation_SCALES", "fg": 2800, "rotates": false },
         { "id": "overlay_male_mutation_SLEEK_SCALES", "fg": 2800, "rotates": false },
-        { "id": "overlay_male_mutation_SUNBURN", "fg": 2801, "rotates": false },
+        { "id": "overlay_male_mutation_SUNBURN", "fg": 0, "rotates": false },
         { "id": "overlay_male_mutation_TROGLO2", "fg": 2801, "rotates": false },
         { "id": "overlay_male_mutation_TROGLO3", "fg": 2802, "rotates": false },
         { "id": "overlay_male_mutation_VISCOUS", "fg": 2803, "rotates": false },
@@ -93930,7 +93930,6 @@
         { "id": "overlay_mutation_LUPINE_EARS", "fg": 2813, "rotates": false },
         { "id": "overlay_mutation_CENOBITE", "fg": 2814, "rotates": false },
         { "id": "overlay_mutation_ELFA_EARS", "fg": 2816, "rotates": false },
-        { "id": "overlay_mutation_FELINE_EARS",  "fg": 2817, "rotates": false },
         { "id": "overlay_worn_fur_cat_ears",  "fg": 2817,  "rotates": false },
         { "id": "overlay_worn_leather_cat_ears", "fg": 2817,  "rotates": false },
         { "id": "overlay_mutation_FLOWERS",  "fg": 2818, "rotates": false },
@@ -93954,16 +93953,15 @@
         { "id": "overlay_mutation_SABER_TEETH", "fg": 2831, "rotates": false },
         { "id": "overlay_mutation_SORES", "fg": 2832, "rotates": false },
         { "id": "overlay_mutation_SPOTS", "fg": 2832, "rotates": false },
-        { "id": "overlay_mutation_TAIL_CATTLE", "fg": 2833, "rotates": false },
-        { "id": "overlay_mutation_TAIL_FLUFFY", "fg": 2834, "rotates": false },
-        { "id": "overlay_mutation_TAIL_CLUB", "fg": 2834, "rotates": false },
-        { "id": "overlay_mutation_TAIL_RAPTOR", "fg": 2835, "rotates": false },
-        { "id": "overlay_mutation_TAIL_RAT", "fg": 2836, "rotates": false },
-        { "id": "overlay_mutation_TAIL_STING", "fg": 2837, "rotates": false },
-        { "id": "overlay_mutation_TAIL_STUB", "fg": 2838, "rotates": false },
-        { "id": "overlay_mutation_TAIL_THICK", "fg": 2838, "rotates": false },
-        { "id": "overlay_mutation_TAIL_LONG", "fg": 2838, "rotates": false },
-        { "id": "overlay_mutation_TAIL_FIN", "fg": 2838, "rotates": false },
+        { "id": "overlay_mutation_TAIL_CATTLE", "bg": 2833, "rotates": false },
+        { "id": "overlay_mutation_TAIL_FLUFFY", "bg": 2834, "rotates": false },
+        { "id": "overlay_mutation_TAIL_CLUB", "bg": 2834, "rotates": false },
+        { "id": "overlay_mutation_TAIL_RAPTOR", "bg": 2835, "rotates": false },
+        { "id": "overlay_mutation_TAIL_RAT", "bg": 2836, "rotates": false },
+        { "id": "overlay_mutation_TAIL_STING", "bg": 2837, "rotates": false },
+        { "id": "overlay_mutation_TAIL_STUB", "bg": 2838, "rotates": false },
+        { "id": "overlay_mutation_TAIL_THICK", "bg": 2838, "rotates": false },
+        { "id": "overlay_mutation_TAIL_LONG", "bg": 2838, "rotates": false },
         { "id": "overlay_mutation_THRESH_ALPHA", "fg": 2839, "rotates": false },
         { "id": "overlay_mutation_URSINE_EARS", "fg": 2840, "rotates": false },
         { "id": "overlay_mutation_VINES1", "fg": 2841, "rotates": false },
@@ -94725,7 +94723,11 @@
 		{ "id": "overlay_mutation_RAP_TALONS", "fg": 10118, "rotates": false },
 		{ "id": "overlay_mutation_FEET_TALONS", "fg": 10118, "rotates": false },
 		{ "id": "overlay_female_mutation_LIZ_EYE", "fg": 10119, "rotates": false },
-		{ "id": "overlay_mutation_MUZZLE_LONG", "fg": 10120, "rotates": false }
+		{ "id": "overlay_mutation_MUZZLE_LONG", "fg": 10120, "rotates": false },
+		{ "id": "overlay_mutation_HOOVES",    "fg": 10121,   "rotates": false },
+		{ "id": "overlay_female_mutation_FELINE_EARS",  "fg": 10122, "rotates": false },	
+		{ "id": "overlay_male_mutation_FELINE_EARS",  "fg": 10123, "rotates": false },
+		{ "id": "overlay_mutation_TAIL_FIN", "fg": 10124, "rotates": false }
 		
     ]
     },
@@ -120227,7 +120229,87 @@
 		{
           "id": "id_industrial",
           "fg": 24019
-        },
+        },	
+		{
+          "id": "m16a1",
+          "fg": 24020
+        },	
+		{
+          "id": "overlay_wielded_m16a1",
+          "fg": 24021
+        },	
+		{
+          "id": "m16a2",
+          "fg": 24022
+        },	
+		{
+          "id": "overlay_wielded_m16a2",
+          "fg": 24023
+        },	
+		{
+          "id": "m16a3",
+          "fg": 24024
+        },	
+		{
+          "id": "overlay_wielded_m16a3",
+          "fg": 24025
+        },	
+		{
+          "id": "m16a4",
+          "fg": 24026
+        },	
+		{
+          "id": "overlay_wielded_m16a4",
+          "fg": 24027
+        },	
+		{
+          "id": "ithacam37",
+          "fg": 24029
+        },	
+		{
+          "id": "overlay_wielded_ithacam37",
+          "fg": 24030
+        },	
+		{
+          "id": "overlay_wielded_usas10mag",
+          "fg": 24031
+        },	
+				{
+          "id": "usas10mag",
+          "fg": 24031
+        },			
+		{
+          "id": "sig_p224",
+          "fg": 24032
+        },	
+		{
+          "id": "overlay_wielded_sig_p224",
+          "fg": 24033
+        },	
+		{
+          "id": "sig_p226",
+          "fg": 24034
+        },	
+		{
+          "id": "overlay_wielded_sig_p226",
+          "fg": 24035
+        },		
+		{
+          "id": "sig_p220stb",
+          "fg": 24036
+        },	
+		{
+          "id": "overlay_wielded_sig_p220stb",
+          "fg": 24037
+        },	
+		{
+          "id": "sig_p220",
+          "fg": 24038
+        },	
+		{
+          "id": "overlay_wielded_sig_p220",
+          "fg": 24039
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
