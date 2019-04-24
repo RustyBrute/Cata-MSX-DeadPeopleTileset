@@ -12611,7 +12611,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_potato_irradiated",
+          "id": ["overlay_wielded_potato_irradiated", "overlay_wielded_irradiated_potato"],
           "fg": 1303,
           "bg": 957
         },
@@ -59104,7 +59104,7 @@
           "rotates": false
         },
         {
-          "id": "potato_irradiated",
+          "id": ["potato_irradiated", "irradiated_potato"],
           "fg": 1303,
           "bg": 957
         },
@@ -120263,6 +120263,10 @@
           "fg": 24027
         },	
 		{
+          "id": "highlight",
+          "fg": 24028
+        },	
+		{
           "id": "ithacam37",
           "fg": 24029
         },	
@@ -120310,6 +120314,122 @@
           "id": "overlay_wielded_sig_p220",
           "fg": 24039
         },	
+		{
+          "id": "family_photo",
+          "fg": 24040
+        },	
+		{
+          "id": "overlay_wielded_family_photo",
+          "fg": 24040
+        },	
+		{
+          "id": "bolt_steel",
+          "fg": 24041
+        },	
+		{
+          "id": "overlay_wielded_bolt_steel",
+          "fg": 24041
+        },		
+		{
+          "id": "bolt_wood_small_game",
+          "fg": 24042
+        },	
+		{
+          "id": "overlay_wielded_bolt_wood_small_game",
+          "fg": 24042
+        },	
+		{
+          "id": "bolt_wood_bodkin",
+          "fg": 24043
+        },	
+		{
+          "id": "overlay_wielded_bolt_wood_bodkin",
+          "fg": 24043
+        },		
+		{
+          "id": "bolt_simple_small_game",
+          "fg": 24044
+        },	
+		{
+          "id": "overlay_wielded_bolt_simple_small_game",
+          "fg": 24044
+        },		
+		{
+          "id": "bolt_simple_wood",
+          "fg": 24045
+        },	
+		{
+          "id": "overlay_wielded_bolt_simple_wood",
+          "fg": 24045
+        },		
+		{
+          "id": "bolt_makeshift",
+          "fg": 24046
+        },	
+		{
+          "id": "overlay_wielded_bolt_makeshift",
+          "fg": 24046
+        },			
+		{
+          "id": "bolt_crude",
+          "fg": 24047
+        },	
+		{
+          "id": "overlay_wielded_bolt_crude",
+          "fg": 24047
+        },		
+		{
+          "id": "headscarf",
+          "fg": 24048
+        },	
+		{
+          "id": "overlay_wielded_headscarf",
+          "fg": 24048
+        },	
+		{
+          "id": "overlay_worn_headscarf",
+          "fg": 24049
+        },		
+		{
+          "id": "cobalt_60",
+          "fg": 24050
+        },	
+		{
+          "id": "overlay_wielded_cobalt_60",
+          "fg": 24050
+        },	
+		{
+          "id": "kirpan",
+          "fg": 24051
+        },	
+		{
+          "id": "overlay_wielded_kirpan",
+          "fg": 24052
+        },	
+		{
+          "id": "kirpan_cheap",
+          "fg": 24053
+        },	
+		{
+          "id": "overlay_wielded_kirpan_cheap",
+          "fg": 24054
+        },	
+		{
+          "id": "makeshift_grenade",
+          "fg": 24055
+        },	
+		{
+          "id": "overlay_wielded_makeshift_grenade",
+          "fg": 24055
+        },	
+		{
+          "id": "makeshift_grenade_act",
+          "fg": 24056
+        },	
+		{
+          "id": "overlay_wielded_makeshift_grenade_act",
+          "fg": 24056
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
