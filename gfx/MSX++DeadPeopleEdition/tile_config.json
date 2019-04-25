@@ -99846,7 +99846,7 @@
               "id": "center",
               "fg": [
             { "weight":10, "sprite":17924},
-            { "weight":1, "sprite":27685},
+			 { "weight":1, "sprite":27685},
             { "weight":1, "sprite":27686},
             { "weight":1, "sprite":27687},
             { "weight":1, "sprite":27688}, 
@@ -111043,11 +111043,11 @@
         },
 		{
           "id": ["overlay_effect_happy"],
-          "fg": 23935
+          "fg": 0
         },
 		{
           "id": ["overlay_effect_sad"],
-          "fg": 23936
+          "fg": 0
         },	
 				{
           "id": ["overlay_effect_normal"],
@@ -119788,15 +119788,15 @@
         },
 		{
           "id": ["overlay_effect_happy"],
-          "fg": 23935
+          "fg": 0
         },
 		{
           "id": ["overlay_effect_sad"],
-          "fg": 23936
+          "fg": 0
         },	
 				{
           "id": ["overlay_effect_normal"],
-          "fg": 23937
+          "fg": 0
         },	
 		{
           "id": ["string_6"],
@@ -120429,7 +120429,35 @@
 		{
           "id": "overlay_wielded_makeshift_grenade_act",
           "fg": 24056
+        },	
+		{
+          "id": "stewed_tripe",
+          "fg": 24057
+        },	
+		{
+          "id": "overlay_wielded_stewed_tripe",
+          "fg": 24057
         },
+				{
+          "id": "spare_tire_carrier",
+          "fg": 24058
+        },	
+		{
+          "id": "overlay_wielded_spare_tire_carrier",
+          "fg": 24058
+        },	
+		{
+          "id": "mounted_spare_tire",
+          "fg": 24059
+        },	
+		{
+          "id": "overlay_wielded_mounted_spare_tire",
+          "fg": 24059
+        },
+				{
+          "id": "vp_mounted_spare_tire",
+          "fg": 24059
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -122080,6 +122108,12 @@
 		{
           "id": ["overlay_effect_attention"],
           "fg": 35785
+        },	
+		{
+          "id": "mon_headless_dog_thing",
+          "fg": 35786,
+          "bg": 0,
+          "rotates": false
         }
 	    
     ]
