@@ -25842,6 +25842,11 @@
           "id": "overlay_wielded_45_casing",
           "fg": 1617,
           "rotates": false
+        }, 
+		{
+          "id": "overlay_wielded_380_casing",
+          "fg": 1617,
+          "rotates": false
         },
         {
           "id": "overlay_wielded_46mm_casing",
@@ -72335,6 +72340,11 @@
           "id": "45_casing",
           "fg": 1617,
           "rotates": false
+        },  
+		{
+          "id": ["45_casing", "380_casing"],
+          "fg": 1617,
+          "rotates": false
         },
         {
           "id": "46mm_casing",
@@ -116123,7 +116133,7 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie",
+          "id": ["corpse_mon_zombie", "corpse_mon_zombie_2", "corpse_mon_zombie_3", "corpse_mon_zombie_pk"],
           "fg": 23311,
           "rotates": false
         },
@@ -116148,7 +116158,7 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie_child",
+          "id": ["corpse_mon_zombie_child", "corpse_mon_zombie_child_2", "corpse_mon_zombie_child_3"],
           "fg": 23316,
           "rotates": false
         },
@@ -120459,6 +120469,218 @@
           "fg": 24059
         },	
 		{
+          "id": "mon_bear_mega_baby",
+          "fg": 24060,
+		  "bg": 967
+        },		
+		{
+          "id": "corpse_mon_bear_mega_baby",
+          "fg": 24061
+        },	
+		{
+          "id": "corpse_mon_zombie_runner_pk",
+          "fg": 24062
+        },	
+		{
+          "id": "corpse_mon_zombie_hollow",
+          "fg": 24063
+        },			{
+          "id": "corpse_mon_zhark",
+          "fg": 24064
+        },
+		{
+          "id": "corpse_mon_mutant_carp",
+          "fg": 24065
+        },	
+		{
+          "id": "corpse_mon_mutant_salmon",
+          "fg": 24066
+        },	
+		{
+          "id": "corpse_mon_cult_slave",
+          "fg": 24067
+        },		
+		{
+          "id": "corpse_mon_imp",
+          "fg": 24068
+        },	
+		{
+          "id": "corpse_mon_imp_revive",
+          "fg": 24069
+        },		
+		{
+          "id": "corpse_mon_imp_black",
+          "fg": 24070
+        },
+		{
+          "id": "corpse_mon_pinky",
+          "fg": 24071
+        },	
+		{
+          "id": "corpse_mon_pinky_revive",
+          "fg": 24072
+        },	
+		{
+          "id": ["380_FMJ","380_JHP","380_p","reloaded_380_FMJ","reloaded_380_JHP","reloaded_380_p"],
+          "fg": 24073
+        },	
+		{
+          "id": ["overlay_wielded_380_FMJ","overlay_wielded_380_JHP","overlay_wielded_380_p","overlay_wielded_reloaded_380_FMJ","overlay_wielded_reloaded_380_JHP","overlay_wielded_reloaded_380_p"],
+          "fg": 24073
+        },	
+		{
+          "id": "light_battery_cell",
+          "fg": 24074
+        },	
+		{
+          "id": "overlay_wielded_light_battery_cell",
+          "fg": 24074
+        },		
+		{
+          "id": "medium_battery_cell",
+          "fg": 24075
+        },	
+		{
+          "id": "overlay_wielded_medium_battery_cell",
+          "fg": 24075
+        },	
+		{
+          "id": "heavy_battery_cell",
+          "fg": 24076
+        },	
+		{
+          "id": "overlay_wielded_heavy_battery_cell",
+          "fg": 24076
+        },		
+		{
+          "id": "light_plus_battery_cell",
+          "fg": 24077
+        },	
+		{
+          "id": "overlay_wielded_light_plus_battery_cell",
+          "fg": 24077
+        },		
+		{
+          "id": "medium_plus_battery_cell",
+          "fg": 24078
+        },	
+		{
+          "id": "overlay_wielded_medium_plus_battery_cell",
+          "fg": 24078
+        },	
+		{
+          "id": "heavy_plus_battery_cell",
+          "fg": 24079
+        },	
+		{
+          "id": "overlay_wielded_heavy_plus_battery_cell",
+          "fg": 24079
+        },	
+		{
+          "id": "light_minus_battery_cell",
+          "fg": 24080
+        },	
+		{
+          "id": "overlay_wielded_light_minus_battery_cell",
+          "fg": 24080
+        },	
+		{
+          "id": "magazine_battery_light_mod",
+          "fg": 24081
+        },	
+		{
+          "id": "overlay_wielded_magazine_battery_light_mod",
+          "fg": 24081
+        },		
+		{
+          "id": "magazine_battery_medium_mod",
+          "fg": 24082
+        },	
+		{
+          "id": "overlay_wielded_magazine_battery_medium_mod",
+          "fg": 24082
+        },		
+		{
+          "id": "magazine_battery_heavy_mod",
+          "fg": 24083
+        },	
+		{
+          "id": "overlay_wielded_magazine_battery_heavy_mod",
+          "fg": 24083
+        },	
+		{
+          "id": "wire_stock",
+          "fg": 24084
+        },	
+		{
+          "id": "overlay_wielded_wire_stock",
+          "fg": 24084
+        },	
+		{
+          "id": "belt_clip",
+          "fg": 24085
+        },	
+		{
+          "id": "overlay_wielded_belt_clip",
+          "fg": 24085
+        },	
+		{
+          "id": "bholster",
+          "fg": 24086
+        },	
+		{
+          "id": "overlay_wielded_bholster",
+          "fg": 24086
+        },		
+		{
+          "id": "fn1910",
+          "fg": 24087
+        },	
+		{
+          "id": "overlay_wielded_fn1910",
+          "fg": 24088
+        },	
+		{
+          "id": "fn1910mag",
+          "fg": 24089
+        },	
+		{
+          "id": "overlay_wielded_fn1910mag",
+          "fg": 24089
+        },			
+		{
+          "id": "j22",
+          "fg": 24090
+        },	
+		{
+          "id": "overlay_wielded_j22",
+          "fg": 24091
+        },	
+		{
+          "id": "j22mag",
+          "fg": 24092
+        },	
+		{
+          "id": "overlay_wielded_j22mag",
+          "fg": 24092
+        },		
+		{
+          "id": "kp32",
+          "fg": 24093
+        },	
+		{
+          "id": "overlay_wielded_kp32",
+          "fg": 24094
+        },	
+		{
+          "id": "kp32mag",
+          "fg": 24095
+        },	
+		{
+          "id": "overlay_wielded_kp32mag",
+          "fg": 24095
+        },	
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
@@ -122112,6 +122334,18 @@
 		{
           "id": "mon_headless_dog_thing",
           "fg": 35786,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_cult_churl",
+          "fg": 35787,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_cult_churl",
+          "fg": 35788,
           "bg": 0,
           "rotates": false
         }
