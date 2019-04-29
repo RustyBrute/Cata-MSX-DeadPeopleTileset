@@ -19,7 +19,8 @@
 		  "bio_shotgun_gun",
 		  "toolset_extended",
 		  "f_fake_bench_hands",
-		  "f_fake_bench_ground"
+		  "f_fake_bench_ground",
+		  "fake_milling_item"
 		  ],
           "fg": 0,
           "bg": 0,
@@ -94755,6 +94756,7 @@
 		{ "id": "mon_generator_SCINET", "fg": 11571, "rotates": false },
 		{ "id": "!mon_treent_green", "fg": 11572, "rotates": false },
 		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false },
+		{ "id": "corpse_mon_cyberdemon", "fg": 11577, "rotates": false },
 		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false },
 		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false },
 		{ "id": "mon_dragon_dummy", "fg": 11576, "rotates": false },
@@ -116106,6 +116108,11 @@
           "id": "ether",
           "fg": 23300,
           "rotates": false
+        },	
+		{
+          "id": "anesthetic",
+          "fg": 23300,
+          "rotates": false
         },
 		{
           "id": "mag_porn",
@@ -120679,13 +120686,162 @@
 		{
           "id": "overlay_wielded_kp32mag",
           "fg": 24095
+        },		
+		{
+          "id": "anesthetic_kit",
+          "fg": 24096
         },	
+		{
+          "id": "overlay_wielded_anesthetic_kit",
+          "fg": 24096
+        },	
+		{
+          "id": "f_wind_mill",
+          "fg": 24097
+        },	
+		{
+          "id": "f_wind_mill_active",
+          "fg": 24098
+        },		
+		{
+          "id": "f_water_mill",
+          "fg": 24099
+        },	
+		{
+          "id": "f_water_mill_active",
+          "fg": 24100
+        },
+		{
+          "id": "wind_mill",
+          "fg": 24101
+        },	
+		{
+          "id": "overlay_wielded_wind_mill",
+          "fg": 24101
+        },	
+		{
+          "id": "water_mill",
+          "fg": 24102
+        },	
+		{
+          "id": "overlay_wielded_water_mill",
+          "fg": 24102
+        },	
+		{
+          "id": "kp3at",
+          "fg": 24103
+        },	
+		{
+          "id": "overlay_wielded_kp3at",
+          "fg": 24104
+        },	
+		{
+          "id": "kp3atmag",
+          "fg": 24105
+        },	
+		{
+          "id": "overlay_wielded_kp3atmag",
+          "fg": 24105
+        },			
+		{
+          "id": "kpf9",
+          "fg": 24106
+        },	
+		{
+          "id": "overlay_wielded_kpf9",
+          "fg": 24107
+        },	
+		{
+          "id": "kpf9mag",
+          "fg": 24108
+        },	
+		{
+          "id": "overlay_wielded_kpf9mag",
+          "fg": 24108
+        },		
+		{
+          "id": "mac_11",
+          "fg": 24109
+        },	
+		{
+          "id": "overlay_wielded_mac_11",
+          "fg": 24110
+        },	
+		{
+          "id": "mac11mag",
+          "fg": 24111
+        },	
+		{
+          "id": "overlay_wielded_mac11mag",
+          "fg": 24111
+        },		
+		{
+          "id": "rugerlcp",
+          "fg": 24112
+        },	
+		{
+          "id": "overlay_wielded_rugerlcp",
+          "fg": 24113
+        },	
+		{
+          "id": "rugerlcpmag",
+          "fg": 24114
+        },	
+		{
+          "id": "overlay_wielded_rugerlcpmag",
+          "fg": 24114
+        },	
+		{
+          "id": "corpse_mon_lostsoul",
+          "fg": 24115
+        },	
+		{
+          "id": "corpse_mon_lostsoul_mount",
+          "fg": 24116
+        },	
+		{
+          "id": "corpse_mon_revenant",
+          "fg": 24117
+        },	
+		{
+          "id": "corpse_mon_hell_knight",
+          "fg": 24118
+        },	
+		{
+          "id": "corpse_mon_hell_knight_revive",
+          "fg": 24119
+        },	
+		{
+          "id": "corpse_mon_hell_baron",
+          "fg": 24120
+        },	
+		{
+          "id": "corpse_mon_mancubus",
+          "fg": 24121
+        },		
+		{
+          "id": "corpse_mon_cacodemon",
+          "fg": 24122
+        },	
+		{
+          "id": "corpse_mon_cacodemon_revive",
+          "fg": 24123
+        },	
+		{
+          "id": "corpse_mon_doom_churl",
+          "fg": 24124
+        },	
+		{
+          "id": "corpse_mon_doom_churl_revive",
+          "fg": 24125
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
 		  "rotates": false 
         },
+
         {
           "id": "overlay_wielded_corpse",
           "fg": 1840,

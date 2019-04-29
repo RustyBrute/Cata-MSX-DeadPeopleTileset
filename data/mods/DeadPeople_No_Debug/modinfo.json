@@ -1,8 +1,8 @@
 [
   {
     "type": "MOD_INFO",
-    "ident": "No_Debug_Tile",
-    "name": "Hide DEBUG",
+    "ident": "DP_No_Debug_Tile",
+    "name": "[DP_MOD] Hide DEBUG",
     "authors": [ "SomeDeadGuy" ],
     "description": "Hides DEBUG graphic above character head when he has debug mutations.",
     "category": "none",
