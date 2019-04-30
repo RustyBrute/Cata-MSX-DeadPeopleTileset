@@ -69361,7 +69361,7 @@
           "rotates": false
         },
         {
-          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood", "almond_milk", "soy_milk"],
+          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood", "almond_milk", "soy_milk", "milk_reconstituted"],
           "fg": 1153,
           "rotates": false
         },
@@ -92928,7 +92928,7 @@
         {
           "id": "mon_fish_flying",
           "fg": 4209,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
         {
@@ -94757,6 +94757,7 @@
 		{ "id": "!mon_treent_green", "fg": 11572, "rotates": false },
 		{ "id": "mon_cyberdemon", "fg": 11573, "rotates": false },
 		{ "id": "corpse_mon_cyberdemon", "fg": 11577, "rotates": false },
+		{ "id": "corpse_mon_doom_archdemon", "fg": 11578, "rotates": false },
 		{ "id": "mon_doom_archdemon", "fg": 11574, "rotates": false },
 		{ "id": "arachnotron_guts", "fg": 11575, "rotates": false },
 		{ "id": "mon_dragon_dummy", "fg": 11576, "rotates": false },
@@ -120834,6 +120835,94 @@
 		{
           "id": "corpse_mon_doom_churl_revive",
           "fg": 24125
+        },
+				{
+          "id": "corpse_mon_doom_slave",
+          "fg": 24126
+        },		
+		{
+          "id": "corpse_mon_doom_cur",
+          "fg": 24127
+        },	
+		{
+          "id": "corpse_mon_doom_sacrifice",
+          "fg": 24128
+        },	
+		{
+          "id": ["corpse_mon_doom_archvile", "corpse_mon_doom_archvile_2", "corpse_mon_doom_archvile_3", "corpse_mon_doom_archvile_4", "corpse_mon_doom_archvile_5"],
+          "fg": 24129
+        },	
+		{
+          "id": ["corpse_mon_doom_archvile_queen"],
+          "fg": 24130
+        },	
+		{
+          "id": ["corpse_mon_fish_eel_large"],
+          "fg": 24131
+        },		
+		{
+          "id": ["corpse_mon_fish_flying"],
+          "fg": 24132
+        },   	
+		{
+          "id": "overlay_wielded_arrow_metal_bodkin",
+          "fg": 24133,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "arrow_metal_bodkin",
+          "fg": 24133,
+          "bg": 957,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_arrow_metal_sharpened_fletched",
+          "fg": 24134,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "arrow_metal_sharpened_fletched",
+          "fg": 24134,
+          "bg": 957,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_arrow_field_point_fletched",
+          "fg": 24135,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "arrow_field_point_fletched",
+          "fg": 24135,
+          "bg": 957,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_arrow_wood",
+          "fg": 24136,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "arrow_wood",
+          "fg": 24136,
+          "bg": 957,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_arrow_flamming",
+          "fg": 24137,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "arrow_flamming",
+          "fg": 24137,
+          "bg": 957,
+          "rotates": false
         },
 		{
           "id": "atlatl",
