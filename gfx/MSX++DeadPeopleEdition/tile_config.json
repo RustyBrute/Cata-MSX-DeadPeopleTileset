@@ -83702,7 +83702,7 @@
         {
           "id": "mon_maggot",
           "fg": 2529,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
         {
@@ -95575,6 +95575,20 @@
             ],
 			"bg": 967,
           "rotates": false
+        },	
+		{	
+          "id": "mon_furvivor",
+          "fg": [
+            { "weight":111, "sprite":2480},
+			{ "weight":111, "sprite":12164},
+			{ "weight":111, "sprite":12165},
+			{ "weight":111, "sprite":12166},	
+			{ "weight":111, "sprite":12167},
+			{ "weight":111, "sprite":12168},
+			{ "weight":111, "sprite":12169}
+            ],
+			"bg": 967,
+          "rotates": false
         }	
 		
   ]
@@ -96149,7 +96163,11 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 16996,
+              "fg": [{ "weight":1, "sprite":16996},
+					{ "weight":1, "sprite":27716},
+					{ "weight":1, "sprite":27717},
+					{ "weight":1, "sprite":27718},
+					{ "weight":1, "sprite":27719}],
 		      "bg": 985,
               "id": "center"
             },
@@ -102164,7 +102182,7 @@
 			]
 			},
 			{
-          "id": "!t_door_metal_c",
+          "id": "t_wall_w",
           "fg": 18772,
           "bg": 0,
           "rotates": false,
@@ -102201,7 +102219,398 @@
               "bg": 0
             }
 			]
+			},		
+			{
+          "id": "t_rock_red",
+          "fg": 18788,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18788,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18789, 18790, 18791, 18792],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18793, 18794, 18795, 18796],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18797, 18798],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18799, 18800, 18801, 18802],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18803,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_rock_green",
+          "fg": 18804,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18804,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18805, 18806, 18807, 18808],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18809, 18810, 18811, 18812],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18813, 18814],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18815, 18816, 18817, 18818],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18819,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_rock_blue",
+          "fg": 18820,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18820,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18821, 18822, 18823, 18824],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18825, 18826, 18827, 18828],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18829, 18830],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18831, 18832, 18833, 18834],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18835,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_wall_r",
+          "fg": 18836,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18836,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18837, 18838, 18839, 18840],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18841, 18842, 18843, 18844],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18845, 18846],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18847, 18848, 18849, 18850],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18851,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_wall_b",
+          "fg": 18852,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18852,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18853, 18854, 18855, 18856],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18857, 18858, 18859, 18860],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18861, 18862],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18863, 18864, 18865, 18866],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18867,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_wall_g",
+          "fg": 18868,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18868,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18869, 18870, 18871, 18872],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18873, 18874, 18875, 18876],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18877, 18878],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18879, 18880, 18881, 18882],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18883,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_wall_p",
+          "fg": 18884,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18884,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18885, 18886, 18887, 18888],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18889, 18890, 18891, 18892],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18893, 18894],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18895, 18896, 18897, 18898],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18899,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_wall_y",
+          "fg": 18900,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18900,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18901, 18902, 18903, 18904],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18905, 18906, 18907, 18908],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18909, 18910],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18911, 18912, 18913, 18914],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18915,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_rock_wall",
+          "fg": 18916,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18916,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18917, 18918, 18919, 18920],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18921, 18922, 18923, 18924],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18925, 18926],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18927, 18928, 18929, 18930],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18931,
+              "bg": 0
+            }
+			]
+			},		
+			{
+          "id": "t_rock_wall_half",
+          "fg": 18932,
+          "bg": 985,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18932,
+              "bg": 985
+            },
+            {
+              "id": "corner",
+              "fg": [18933, 18934, 18935, 18936],
+              "bg": 985
+            },
+            {
+              "id": "t_connection",
+              "fg": [18937, 18938, 18939, 18940],
+              "bg": 985
+            },
+            {
+              "id": "edge",
+              "fg": [18941, 18942],
+              "bg": 985
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18943, 18944, 18945, 18946],
+              "bg": 985
+            },
+            {
+              "id": "unconnected",
+              "fg": 18947,
+              "bg": 985
+            }
+			]
 			}
+			
   ]
   },
   {
@@ -120988,14 +121397,81 @@
           "fg": 24142,
           "bg": 957,
           "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_fish_lobster_giant"],
+          "fg": 24143
+        },  	
+		{
+          "id": ["corpse_mon_fougar"],
+          "fg": 24144
+        },  		
+		{
+          "id": ["corpse_mon_feer"],
+          "fg": 24145
+        },  
+		{
+          "id": ["corpse_mon_foose"],
+          "fg": 24146
+        }, 	
+		{
+          "id": ["corpse_mon_folf"],
+          "fg": 24147
+        }, 
+		{
+          "id": ["corpse_mon_fant"],
+          "fg": 24148
+        },	
+		{
+          "id": ["corpse_mon_fungaloid_pk"],
+          "fg": 24149
+        },
+				{
+          "id": ["corpse_mon_fardigrade"],
+          "fg": 24150
         },		
+		{
+          "id": ["corpse_mon_furvivor", "corpse_mon_furvivor_glock", "corpse_mon_furvivor_shotgun", "corpse_mon_furvivor_deagle", "corpse_mon_furvivor_smg", "corpse_mon_furvivor_pk"],
+          "fg": 24151
+        },	
+		{
+          "id": ["corpse_mon_finebeast"],
+          "fg": 24152
+        },	
+		{
+          "id": ["corpse_mon_fionaea"],
+          "fg": 24153
+        },	
+		{
+          "id": ["corpse_mon_zombie_electric_fungal"],
+          "fg": 24154
+        },	
+		{
+          "id": ["corpse_mon_fungus_pig"],
+          "fg": 24155
+        },	
+		{
+          "id": ["corpse_mon_maggot"],
+          "fg": 24156
+        },		
+		{
+          "id": ["corpse_mon_caterpillar"],
+          "fg": 24157
+        },		
+		{
+          "id": ["corpse_mon_pupae"],
+          "fg": 24158
+        },		
+		{
+          "id": ["corpse_mon_pupae_pk"],
+          "fg": 24159
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
 		  "rotates": false 
         },
-
         {
           "id": "overlay_wielded_corpse",
           "fg": 1840,
