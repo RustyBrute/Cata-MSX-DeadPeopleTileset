@@ -84066,7 +84066,7 @@
         {
           "id": "mon_trapdoor_egg",
           "fg": 2631,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
         {
@@ -102607,6 +102607,45 @@
               "id": "unconnected",
               "fg": 18947,
               "bg": 985
+            }
+			]
+			},		
+			{
+          "id": "f_makeshift_bed",
+          "fg": 18948,
+          "bg": 0,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+		    {
+              "id": "center",
+              "fg": 18948,
+              "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [18949, 18950, 18951, 18952],
+              "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [18953, 18954, 18955, 18956],
+              "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [18957, 18958],
+              "bg": 0
+            },	
+			{
+              "id": "end_piece",
+              "fg": [18959, 18960, 18961, 18962],
+              "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 18963,
+              "bg": 0
             }
 			]
 			}
@@ -121465,6 +121504,24 @@
 		{
           "id": ["corpse_mon_pupae_pk"],
           "fg": 24159
+        },	
+		{
+          "id": ["corpse_mon_butterfly"],
+          "fg": 24160
+        },		
+		{
+          "id": ["corpse_mon_moth"],
+          "fg": 24161
+        },		
+		{
+          "id": ["mon_zombeaver"],
+		  "fg": 24162,
+          "bg": 967
+        },		
+		{
+          "id": ["corpse_mon_zombeaver"],
+		  "fg": 24163,
+          "bg": 967
         },	
 		{
           "id": "atlatl",
