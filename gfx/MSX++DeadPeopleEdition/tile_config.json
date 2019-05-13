@@ -61452,7 +61452,7 @@
         {
           "id": "mon_blob",
           "fg": 2350,
-          "bg": 967,
+          "bg": 0,
           "rotates": false
         },
         {
@@ -121524,7 +121524,194 @@
           "bg": 967
         },	
 		{
-          "id": "atlatl",
+          "id": ["bag_zipper"],
+		  "fg": 24164,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_bag_zipper"],
+		  "fg": 24164,
+          "bg": 0
+        },	
+		{
+          "id": ["base_ceramic_dish"],
+		  "fg": 24165,
+          "bg": 0
+        },			
+		{
+          "id": ["overlay_wielded_base_ceramic_dish"],
+		  "fg": 24165,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_base_plastic_dish"],
+		  "fg": 24166,
+          "bg": 0
+        },	
+		{
+          "id": ["base_plastic_dish"],
+		  "fg": 24166,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_base_tin_dish"],
+		  "fg": 24167,
+          "bg": 0
+        },	
+		{
+          "id": ["base_tin_dish"],
+		  "fg": 24167,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_base_glass_dish"],
+		  "fg": 24168,
+          "bg": 0
+        },	
+		{
+          "id": ["base_glass_dish"],
+		  "fg": 24168,
+          "bg": 0
+        },	
+		{
+          "id": ["t_grave_new"],
+		  "fg": 24169,
+          "bg": 0
+        },		
+		{
+          "id": ["t_grave_new_season_winter"],
+		  "fg": 24170,
+          "bg": 0
+        },
+				{
+          "id": ["f_metal_smoking_rack"],
+		  "fg": 24171,
+          "bg": 0
+        },		
+		{
+          "id": ["f_metal_smoking_rack_active"],
+		  "fg": 24172,
+          "bg": 0
+        },
+				{
+          "id": ["overlay_wielded_bscabbard", "overlay_wielded_scabbard"],
+		  "fg": 24173,
+          "bg": 0
+        },		
+		{
+          "id": ["brush"],
+		  "fg": 24174,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_brush"],
+		  "fg": 24174,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_can_opener"],
+		  "fg": 24175,
+          "bg": 0
+        },	
+		{
+          "id": ["can_opener"],
+		  "fg": 24175,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_bottle_opener"],
+		  "fg": 24176,
+          "bg": 0
+        },	
+		{
+          "id": ["bottle_opener"],
+		  "fg": 24176,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_corkscrew"],
+		  "fg": 24177,
+          "bg": 0
+        },	
+		{
+          "id": ["corkscrew"],
+		  "fg": 24177,
+          "bg": 0
+        },			
+		{
+          "id": ["overlay_wielded_peeler"],
+		  "fg": 24178,
+          "bg": 0
+        },	
+		{
+          "id": ["peeler"],
+		  "fg": 24178,
+          "bg": 0
+        },		
+		{
+          "id": ["overlay_wielded_kettle"],
+		  "fg": 24179,
+          "bg": 0
+        },	
+		{
+          "id": ["kettle"],
+		  "fg": 24179,
+          "bg": 0
+        },	
+		{
+          "id": ["knife_bread"],
+		  "fg": 24180,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_knife_bread"],
+		  "fg": 24181,
+          "bg": 0
+        },		
+		{
+          "id": ["knife_carving"],
+		  "fg": 24182,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_knife_carving"],
+		  "fg": 24183,
+          "bg": 0
+        },	
+		{
+          "id": ["whisk"],
+		  "fg": 24184,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_whisk"],
+		  "fg": 24184,
+          "bg": 0
+        },	
+		{
+          "id": ["ladle"],
+		  "fg": 24185,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_ladle"],
+		  "fg": 24185,
+          "bg": 0
+        },	
+		{
+          "id": ["cutting_board"],
+		  "fg": 24186,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_cutting_board"],
+		  "fg": 24186,
+          "bg": 0
+        },	
+
+
+		{
+          "id": "atlatl", 
           "fg": 1986,
 		  "bg": 0,
 		  "rotates": false 
