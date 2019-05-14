@@ -53301,11 +53301,6 @@
           "rotates": false
         },
         {
-          "id": "sleeveless_trenchcoat",
-          "fg": 891,
-          "bg": 957
-        },
-        {
           "id": "sleeveless_duster",
           "fg": 891,
           "bg": 957
@@ -53318,11 +53313,6 @@
         {
           "id": "sleeveless_duster_fur",
           "fg": 892,
-          "bg": 957
-        },
-        {
-          "id": "sleeveless_trenchcoat_survivor",
-          "fg": 893,
           "bg": 957
         },
         {
@@ -53628,19 +53618,8 @@
           "fg": 931
         },
         {
-          "id": "trenchcoat",
-          "fg": 932,
-          "rotates": false
-        },
-        {
           "id": "duster",
           "fg": 932,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "trenchcoat_fur",
-          "fg": 933,
           "bg": 957,
           "rotates": false
         },
@@ -53651,19 +53630,7 @@
           "rotates": false
         },
         {
-          "id": "trenchcoat_leather",
-          "fg": 934,
-          "bg": 957,
-          "rotates": false
-        },
-        {
           "id": "duster_leather",
-          "fg": 934,
-          "bg": 957,
-          "rotates": false
-        },
-        {
-          "id": "sleeveless_trenchcoat_leather",
           "fg": 934,
           "bg": 957,
           "rotates": false
@@ -53673,11 +53640,6 @@
           "fg": 934,
           "bg": 957,
           "rotates": false
-        },
-        {
-          "id": "trenchcoat_survivor",
-          "fg": 935,
-          "bg": 957
         },
         {
           "id": "duster_survivor",
@@ -120920,10 +120882,7 @@
           "id": "overlay_wielded_mounted_spare_tire",
           "fg": 24059
         },
-				{
-          "id": "vp_mounted_spare_tire",
-          "fg": 24059
-        },	
+
 		{
           "id": "mon_bear_mega_baby",
           "fg": 24060,
@@ -121708,8 +121667,213 @@
 		  "fg": 24186,
           "bg": 0
         },	
-
-
+		{
+          "id": "vp_mounted_spare_tire",
+          "fg": 24187
+        },		
+		{
+          "id": ["base_utensil"],
+		  "fg": 24188,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_base_utensil"],
+		  "fg": 24188,
+          "bg": 0
+        },		
+		{
+          "id": ["base_silverware"],
+		  "fg": 24189,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_base_plastic_silverware"],
+		  "fg": 24189,
+          "bg": 0
+        },	
+		{
+          "id": ["base_plastic_silverware"],
+		  "fg": 24190,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_base_silverware"],
+		  "fg": 24190,
+          "bg": 0
+        },	
+		{
+          "id": ["base_cookpot"],
+		  "fg": 24191,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_base_cookpot"],
+		  "fg": 24191,
+          "bg": 0
+        },	
+		{
+          "id": ["carving_fork"],
+		  "fg": 24192,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_wielded_carving_fork"],
+		  "fg": 24192,
+          "bg": 0
+        },	
+		{
+          "id": ["plastic_fork"],
+		  "fg": 24193,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_plastic_fork"],
+		  "fg": 24193,
+          "bg": 0
+        },	
+		{
+          "id": ["casserole"],
+		  "fg": 24194,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_casserole"],
+		  "fg": 24194,
+          "bg": 0
+        },	
+		{
+          "id": ["base_kitchen_knife"],
+		  "fg": 24195,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_base_kitchen_knife"],
+		  "fg": 24195,
+          "bg": 0
+        },	
+		{
+          "id": ["ceramic_mug"],
+		  "fg": 24196,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_ceramic_mug"],
+		  "fg": 24196,
+          "bg": 0
+        },	
+		{
+          "id": ["chopsticks"],
+		  "fg": 24197,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_chopsticks"],
+		  "fg": 24197,
+          "bg": 0
+        },	
+		{
+          "id": ["copper_pan"],
+		  "fg": 24198,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_copper_pan"],
+		  "fg": 24198,
+          "bg": 0
+        },	
+		{
+          "id": ["steel_pan"],
+		  "fg": 24199,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_steel_pan"],
+		  "fg": 24199,
+          "bg": 0
+        },
+				{
+          "id": ["spatula"],
+		  "fg": 24200,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_spatula"],
+		  "fg": 24200,
+          "bg": 0
+        },	
+		{
+          "id": ["rolling_pin"],
+		  "fg": 24201,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_rolling_pin"],
+		  "fg": 24201,
+          "bg": 0
+        },	
+		{
+          "id": ["potato_masher"],
+		  "fg": 24202,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_potato_masher"],
+		  "fg": 24202,
+          "bg": 0
+        },		
+		{
+          "id": ["tin_cup"],
+		  "fg": 24203,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_wielded_tin_cup"],
+		  "fg": 24203,
+          "bg": 0
+        },       
+		{
+          "id": "trenchcoat",
+          "fg": 24204,
+          "rotates": false
+        },   
+        {
+          "id": "trenchcoat_fur",
+          "fg": 24205,
+          "bg": 957,
+          "rotates": false
+        }, 
+        {
+          "id": "trenchcoat_leather",
+          "fg": 24206,
+          "bg": 957,
+          "rotates": false
+        }, 
+        {
+          "id": "trenchcoat_survivor",
+          "fg": 24207,
+          "bg": 957
+        },  
+	   {
+          "id": "sleeveless_trenchcoat",
+          "fg": 24208,
+          "bg": 957
+        },      
+		{
+          "id": "sleeveless_trenchcoat_fur",
+          "fg": 24209,
+          "bg": 957
+        },  
+		{
+          "id": "sleeveless_trenchcoat_leather",
+          "fg": 24210,
+          "bg": 957,
+          "rotates": false
+        },
+		{
+          "id": "sleeveless_trenchcoat_survivor",
+          "fg": 24211,
+          "bg": 957
+        },
 		{
           "id": "atlatl", 
           "fg": 1986,
