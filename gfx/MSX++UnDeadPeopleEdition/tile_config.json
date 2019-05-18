@@ -102608,7 +102608,120 @@
               "bg": 0
             }
 			]
-			}
+			},
+		{
+          "id": "t_sludge",
+		  "fg": 18964,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 18964,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [18965, 18966, 18967, 18968],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [18969, 18970, 18971, 18972],
+			  "bg": 972
+            },    
+			{
+              "id": "edge",
+              "fg": [18973, 18974],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [18975, 18976, 18977, 18978],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 18979,
+			  "bg": 972
+            }
+          ]
+        },
+		{
+          "id": "t_tar",
+		  "fg": 18980,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 18980,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [18981, 18982, 18983, 18984],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [18985, 18986, 18987, 18988],
+			  "bg": 972
+            },    
+			{
+              "id": "edge",
+              "fg": [18989, 18990],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [18991, 18992, 18993, 18994],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 18995,
+			  "bg": 972
+            }
+          ]
+        },		{
+          "id": "t_rock_smooth",
+		  "fg": 18996,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 18996,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [18997, 18998, 18999, 19000],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [19001, 19002, 19003, 19004],
+			  "bg": 972
+            },    
+			{
+              "id": "edge",
+              "fg": [19005, 19006],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [19007, 19008, 19009, 19010],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 19011,
+			  "bg": 972
+            }
+          ]
+        }
 			
   ]
   },
@@ -122324,6 +122437,155 @@
           "id": "overlay_wielded_wheel_rail",
           "fg": 24253,
           "bg": 957,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_homewrecker",
+          "fg": 24254,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_tardigrade",
+          "fg": 24255,
+          "bg": 0,
+          "rotates": false
+        },				
+		{
+          "id": "corpse_mon_spider_wolf_giant_pk",
+          "fg": 24256,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_spider_trapdoor_giant_s",
+          "fg": 24257,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_spider_trapdoor_giant_guardian",
+          "fg": 24258,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_spider_trapdoor_giant_pk",
+          "fg": 24259,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_spider_web_alpha",
+          "fg": 24260,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_spider_web_mu",
+          "fg": 24261,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_spider_web_omega",
+          "fg": 24262,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_spider_jumping_giant_acid",
+          "fg": 24263,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_bee_scout",
+          "fg": 24264,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bee_soldier",
+          "fg": 24265,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bee_king",
+          "fg": 24266,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_bee_queen",
+          "fg": 24267,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bee_larvae",
+          "fg": 24268,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_wasp_queen",
+          "fg": 24269,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_wasp_larvae",
+          "fg": 24270,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bear_pk",
+          "fg": 24271,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_bear_weak",
+          "fg": 24272,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_cougar_pk",
+          "fg": 24273,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_cougar_weak",
+          "fg": 24274,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_dog_large",
+          "fg": 24275,
+          "bg": 0,
+          "rotates": false
+        },		{
+          "id": "corpse_mon_moose_pk",
+          "fg": 24276,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_moose_weak",
+          "fg": 24277,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_skunk",
+          "fg": 24278,
+          "bg": 0,
           "rotates": false
         },
 		{
