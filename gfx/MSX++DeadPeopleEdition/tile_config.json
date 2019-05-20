@@ -102721,6 +102721,80 @@
 			  "bg": 972
             }
           ]
+        },{
+          "id": "t_conveyor",
+		  "fg": 19012,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19012,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [19013, 19014, 19015, 19016],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [19017, 19018, 19019, 19020],
+			  "bg": 972
+            },    
+			{
+              "id": "edge",
+              "fg": [19021, 19022],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [19023, 19024, 19025, 19026],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 19027,
+			  "bg": 972
+            }
+          ]
+        },{
+          "id": "t_machinery_heavy",
+		  "fg": 19028,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19028,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [19029, 19030, 19031, 19032],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [19033, 19034, 19035, 19036],
+			  "bg": 972
+            },    
+			{
+              "id": "edge",
+              "fg": [19037, 19038],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [19039, 19040, 19041, 19042],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 19043,
+			  "bg": 972
+            }
+          ]
         }
 			
   ]
@@ -122587,6 +122661,48 @@
           "fg": 24278,
           "bg": 0,
           "rotates": false
+        },	
+		{
+          "id": "mon_robofac_prototype",
+          "fg": 24279,
+          "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "broken_robofac_prototype",
+          "fg": 24280,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_broken_robofac_prototype",
+          "fg": 24280,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_nursebot",
+          "fg": 24281,
+          "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "mon_nursebot_defective",
+          "fg": 24282,
+          "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "mon_marloss_zealot_f",
+          "fg": 24283,
+          "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "mon_marloss_zealot_m",
+          "fg": 24284,
+          "bg": 967,
+          "rotates": false
         },
 		{
           "id": "atlatl", 
@@ -124254,6 +124370,30 @@
 		{
           "id": "corpse_mon_cult_churl",
           "fg": 35788,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_flesh_golem",
+          "fg": 35789,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_fleshy_shambler",
+          "fg": 35790,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_flesh_golem",
+          "fg": 35791,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_fleshy_shambler",
+          "fg": 35792,
           "bg": 0,
           "rotates": false
         }
