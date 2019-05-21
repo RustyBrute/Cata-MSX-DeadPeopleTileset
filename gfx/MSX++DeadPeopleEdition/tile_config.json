@@ -98555,25 +98555,25 @@
               "id": "corner",
               "fg": [ 17445, 17446, 17447, 17448 ],
               "bg": 5131
-            },
-            {
-              "id": "edge",
+            }, 
+			{
+              "id": "t_connection",
               "fg": [ 17449, 17450, 17451, 17452 ],
               "bg": 5131
             },
             {
-              "id": "t_connection",
-              "fg": 17453,
+              "id": "edge",
+              "fg": [ 17453, 17454 ],
               "bg": 5131
             },
-			{
+            {
               "id": "end_piece",
               "fg": [ 17455, 17456, 17457, 17458 ],
               "bg": 5131
             },
             {
               "id": "unconnected",
-              "fg": 17444,
+              "fg": 17459,
               "bg": 5131
             }
           ]
@@ -98592,27 +98592,27 @@
             },
             {
               "id": "corner",
-              "fg": 17461,
+              "fg": [ 17461, 17462, 17463, 17464 ],
+              "bg": 5131
+            }, 
+			{
+              "id": "t_connection",
+              "fg": [ 17465, 17466, 17467, 17468 ],
               "bg": 5131
             },
             {
               "id": "edge",
-              "fg": 17465,
+              "fg": [ 17469, 17470 ],
               "bg": 5131
             },
             {
               "id": "end_piece",
-              "fg": 17465,
-              "bg": 5131
-            },
-            {
-              "id": "t_connection",
-              "fg": 17469,
+              "fg": [ 17471, 17472, 17473, 17474 ],
               "bg": 5131
             },
             {
               "id": "unconnected",
-              "fg": 0,
+              "fg": 17475,
               "bg": 5131
             }
           ]
@@ -98631,27 +98631,27 @@
             },
             {
               "id": "corner",
-              "fg": 17476,
+              "fg": [ 17477, 17478, 17479, 17480 ],
               "bg": 5131
-            },
-            {
-              "id": "edge",
+            }, 
+			{
+              "id": "t_connection",
               "fg": [ 17481, 17482, 17483, 17484 ],
               "bg": 5131
             },
             {
-              "id": "t_connection",
-              "fg": 17485,
+              "id": "edge",
+              "fg": [ 17485, 17486 ],
               "bg": 5131
             },
-			            {
+            {
               "id": "end_piece",
               "fg": [ 17487, 17488, 17489, 17490 ],
               "bg": 5131
             },
             {
               "id": "unconnected",
-              "fg": 17476,
+              "fg": 17491,
               "bg": 5131
             }
           ]
@@ -102793,6 +102793,158 @@
               "id": "unconnected",
               "fg": 19043,
 			  "bg": 972
+            }
+          ]
+        },
+		{
+          "id": "t_wall_rammed_earth",
+		  "fg": 19044,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19044,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [19045, 19046, 19047, 19048],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [19049, 19050, 19051, 19052],
+			  "bg": 972
+            },    
+			{
+              "id": "edge",
+              "fg": [19053, 19054],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [19055, 19056, 19057, 19058],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 19059,
+			  "bg": 972
+            }
+          ]
+        },
+		{
+          "id": "t_concrete_railing",
+		  "fg": 19060,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19060,
+			  "bg": 5010
+            },
+            {
+              "id": "corner",
+              "fg": [19061, 19062, 19063, 19064],
+			  "bg": 5010
+            },
+            {
+              "id": "t_connection",
+              "fg": [19065, 19066, 19067, 19068],
+			  "bg": 5010
+            },    
+			{
+              "id": "edge",
+              "fg": [19069, 19070],
+			  "bg": 5010
+            },
+            {
+              "id": "end_piece",
+              "fg": [19071, 19072, 19073, 19074],
+			  "bg": 5010
+            },
+            {
+              "id": "unconnected",
+              "fg": 19075,
+			  "bg": 5010
+            }
+          ]
+        },
+		{
+          "id": ["!t_railroad_tie", "!t_railroad_tie_d", "!t_railroad_tie_v", "!t_railroad_tie_h"],
+		  "fg": 19076,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19076,
+			  "bg": 5131
+            },
+            {
+              "id": "corner",
+              "fg": [19077, 19078, 19079, 19080],
+			  "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": [19081, 19082, 19083, 19084],
+			  "bg": 5131
+            },    
+			{
+              "id": "edge",
+              "fg": [19085, 19086],
+			  "bg": 5131
+            },
+            {
+              "id": "end_piece",
+              "fg": [19087, 19088, 19089, 19090],
+			  "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 19091,
+			  "bg": 5131
+            }
+          ]
+        },
+		{
+          "id": "!t_railroad_track_on_tie",
+		  "fg": 19092,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19092,
+			  "bg": 5010
+            },
+            {
+              "id": "corner",
+              "fg": [19093, 19094, 19095, 19096],
+			  "bg": 5010
+            },
+            {
+              "id": "t_connection",
+              "fg": [19097, 19098, 19099, 19100],
+			  "bg": 5010
+            },    
+			{
+              "id": "edge",
+              "fg": [19101, 19102],
+			  "bg": 5010
+            },
+            {
+              "id": "end_piece",
+              "fg": [19103, 19104, 19105, 19106],
+			  "bg": 5010
+            },
+            {
+              "id": "unconnected",
+              "fg": 19107,
+			  "bg": 5010
             }
           ]
         }
@@ -122704,8 +122856,50 @@
           "bg": 967,
           "rotates": false
         },
+				{
+          "id": "f_sign_warning",
+          "fg": 24285,
+          "bg": 0,
+          "rotates": false
+        },	
 		{
-          "id": "atlatl", 
+          "id": "t_water_dispenser",
+          "fg": 24286,
+          "bg": 5010,
+          "rotates": false
+        },
+				{
+          "id": "t_card_robofac",
+          "fg": 24287,
+          "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "t_intercom",
+          "fg": 24288,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "t_thconc_y",
+          "fg": 24289,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "vp_rail_wheel",
+          "fg": 24290,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "vp_rail_wheel_steerable",
+          "fg": 24290,
+          "bg": 0,
+          "rotates": true
+        },
+		{
+          "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
 		  "rotates": false 
