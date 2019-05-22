@@ -21,7 +21,9 @@
 		  "f_fake_bench_hands",
 		  "f_fake_bench_ground",
 		  "fake_milling_item",
-		  "fake_burrowing"
+		  "fake_burrowing",
+		  "f_lilypad_season_winter",
+		  "f_lotus_season_winter"
 		  
 		  ],
           "fg": 0,
@@ -54897,7 +54899,7 @@
           "rotates": false
         },
         {
-          "id": "hammer_sledge",
+          "id": ["hammer_sledge", "fake_drop_hammer"],
           "fg": 1757,
           "bg": 957,
           "rotates": false
@@ -59343,7 +59345,7 @@
           "rotates": false
         },
         {
-          "id": "esbit_stove",
+          "id": ["esbit_stove", "fake_stove"],
           "fg": 3509,
           "bg": 957,
           "rotates": false
@@ -71696,7 +71698,7 @@
           "rotates": false
         },
         {
-          "id": "f_fireplace",
+          "id": ["f_fireplace", "fake_fireplace"],
           "fg": 1512,
           "rotates": false
         },
@@ -71965,7 +71967,7 @@
           "rotates": false
         },
         {
-          "id": "f_sandbag_half",
+          "id": ["f_sandbag_half", "f_earthbag_half"],
           "fg": 1561,
           "rotates": true,
           "multitile": true,
@@ -71997,7 +71999,7 @@
           ]
         },
         {
-          "id": "f_sandbag_wall",
+          "id": ["f_sandbag_wall", "f_earthbag_wall"],
           "fg": 1561,
           "rotates": true,
           "multitile": true,
@@ -86160,7 +86162,7 @@
           "rotates": false
         },
         {
-          "id": "char_smoker",
+          "id": ["char_smoker", "fake_char_smoker"],
           "fg": 3475,
           "rotates": false
         },
@@ -86792,7 +86794,7 @@
           "rotates": false
         },
 		{
-          "id": "overlay_wielded_cavalry_sabre_fake",
+          "id": ["overlay_wielded_cavalry_sabre_fake", "overlay_wielded_cavalry_sabre"],
           "fg": 3652,
           "rotates": false
         },
@@ -120872,7 +120874,7 @@
           "fg": 23994
         },
 		{
-          "id": ["overlay_wielded_mag_archery", "overlay_wielded_book_archery", "overlay_wielded_manual_archery", "overlay_wielded_mag_barter", "overlay_wielded_manual_business", "overlay_wielded_textbook_business", "overlay_wielded_mag_bashing", "overlay_wielded_manual_bashing", "overlay_wielded_SICP", "overlay_wielded_computer_science", "overlay_wielded_howto_computer", "overlay_wielded_mag_computer", "overlay_wielded_manual_computers", "overlay_wielded_textbook_computer", "overlay_wielded_adv_chemistry", "overlay_wielded_brewing_cookbook", "overlay_wielded_cookbook", "overlay_wielded_cookbook_human", "overlay_wielded_cookbook_italian", "overlay_wielded_cookbook_sushi", "overlay_wielded_family_cookbook", "overlay_wielded_mag_cooking", "overlay_wielded_mag_glam", "overlay_wielded_modern_tanner", "overlay_wielded_recipe_alpha", "overlay_wielded_", "overlay_wielded_recipe_animal", "overlay_wielded_recipe_labchem", "overlay_wielded_recipe_chimera", "overlay_wielded_recipe_creepy", "overlay_wielded_recipe_elfa", "overlay_wielded_recipe_maiar", "overlay_wielded_recipe_medicalmut", "overlay_wielded_recipe_raptor", "overlay_wielded_recipe_serum", "overlay_wielded_scots_cookbook", "overlay_wielded_textbook_chemistry", "overlay_wielded_mag_cutting", "overlay_wielded_manual_cutting", "overlay_wielded_manual_knives", "overlay_wielded_mag_dodge", "overlay_wielded_manual_dodge", "overlay_wielded_manual_dodge_kid", "overlay_wielded_textbook_anarch", "overlay_wielded_advanced_electronics", "overlay_wielded_mag_electronics", "overlay_wielded_decoy_anarch", "overlay_wielded_mag_cars", "overlay_wielded_manual_driving", "overlay_wielded_manual_electronics", "overlay_wielded_radio_book", "overlay_wielded_recipe_atomic_battery", "overlay_wielded_recipe_augs", "overlay_wielded_recipe_lab_elec", "overlay_wielded_recipe_mil_augs", "overlay_wielded_repeater_mod_guide", "overlay_wielded_textbook_electronics", "overlay_wielded_textbook_robots", "overlay_wielded_glassblowing_book", "overlay_wielded_jewelry_book", "overlay_wielded_mag_fabrication", "overlay_wielded_manual_fabrication", "overlay_wielded_recipe_arrows", "overlay_wielded_recipe_bows", "overlay_wielded_recipe_bullets", "overlay_wielded_recipe_caseless", "overlay_wielded_recipe_lab_cvd", "overlay_wielded_recipe_melee", "overlay_wielded_recipe_mininuke_launch", "overlay_wielded_textbook_armeast", "overlay_wielded_textbook_armschina", "overlay_wielded_textbook_armwest", "overlay_wielded_textbook_fabrication", "overlay_wielded_textbook_fireman", "overlay_wielded_textbook_gaswarfare", "overlay_wielded_welding_book", "overlay_wielded_101_carpentry", "overlay_wielded_carpentry_book", "overlay_wielded_textbook_weapeast", "overlay_wielded_textbook_weapwest", "overlay_wielded_mag_guns", "overlay_wielded_mag_carpentry", "overlay_wielded_manual_carpentry", "overlay_wielded_textbook_carpentry", "overlay_wielded_emergency_book", "overlay_wielded_mag_firstaid", "overlay_wielded_manual_first_aid", "overlay_wielded_pocket_firstaid", "overlay_wielded_textbook_firstaid", "overlay_wielded_booklet_firstaid", "overlay_wielded_manual_gun", "overlay_wielded_pocket_firearms", "overlay_wielded_mag_launcher", "overlay_wielded_manual_launcher", "overlay_wielded_manual_aikido", "overlay_wielded_manual_boxing", "overlay_wielded_manual_capoeira", "overlay_wielded_manual_centipede", "overlay_wielded_manual_crane", "overlay_wielded_manual_dragon", "overlay_wielded_manual_eskrima", "overlay_wielded_manual_fencing", "overlay_wielded_manual_judo", "overlay_wielded_manual_karate", "overlay_wielded_manual_krav_maga", "overlay_wielded_manual_leopard", "overlay_wielded_manual_lizard", "overlay_wielded_manual_muay_thai", "overlay_wielded_manual_ninjutsu", "overlay_wielded_manual_niten", "overlay_wielded_manual_scorpion", "overlay_wielded_manual_silat", "overlay_wielded_manual_snake", "overlay_wielded_manual_taekwondo", "overlay_wielded_manual_tai_chi", "overlay_wielded_manual_tiger", "overlay_wielded_manual_toad", "overlay_wielded_manual_venom_snake", "overlay_wielded_manual_zui_quan", "overlay_wielded_manual_sojutsu", "overlay_wielded_book_icef", "overlay_wielded_mag_mechanics", "overlay_wielded_manual_mechanics", "overlay_wielded_mag_melee", "overlay_wielded_manual_melee", "overlay_wielded_mag_smg", "overlay_wielded_mag_fieldrepair", "overlay_wielded_textbook_biodiesel", "overlay_wielded_textbook_mechanics", "overlay_wielded_ZSG", "overlay_wielded_black_box_transcript", "overlay_wielded_child_book", "overlay_wielded_commune_prospectus", "overlay_wielded_decoy_elfa", "overlay_wielded_essay_book", "overlay_wielded_fairy_tales", "overlay_wielded_guidebook", "overlay_wielded_manual_smg", "overlay_wielded_mag_tv", "overlay_wielded_dnd_handbook", "overlay_wielded_textbook_speech", "overlay_wielded_holybook_bible1", "overlay_wielded_holybook_bible2", "overlay_wielded_manual_stabbing", "overlay_wielded_holybook_bible3", "overlay_wielded_manual_speech", "overlay_wielded_mag_stabbing", "overlay_wielded_atomic_survival", "overlay_wielded_holybook_hadith", "overlay_wielded_holybook_granth", "overlay_wielded_holybook_kojiki", "overlay_wielded_holybook_kallisti", "overlay_wielded_holybook_mormon", "overlay_wielded_holybook_pastafarian", "overlay_wielded_holybook_quran", "overlay_wielded_holybook_scientology", "overlay_wielded_holybook_slack", "overlay_wielded_holybook_sutras", "overlay_wielded_holybook_talmud", "overlay_wielded_holybook_tanakh", "overlay_wielded_holybook_tripitaka", "overlay_wielded_holybook_upanishads", "overlay_wielded_holybook_vedas", "overlay_wielded_mag_comic", "overlay_wielded_mag_gaming", "overlay_wielded_mag_porn", "overlay_wielded_necropolis_freq", "overlay_wielded_news_regional", "overlay_wielded_novel_adventure", "overlay_wielded_novel_buddy", "overlay_wielded_mag_news", "overlay_wielded_novel_crime", "overlay_wielded_novel_crime2", "overlay_wielded_novel_drama", "overlay_wielded_fun_survival", "overlay_wielded_novel_coa", "overlay_wielded_novel_coa2", "overlay_wielded_mag_dude", "overlay_wielded_novel_erotic", "overlay_wielded_novel_experimental", "overlay_wielded_novel_fantasy", "overlay_wielded_novel_horror", "overlay_wielded_novel_mystery", "overlay_wielded_novel_pulp", "overlay_wielded_mag_survival", "overlay_wielded_manual_survival", "overlay_wielded_pocket_survival", "overlay_wielded_survival_book", "overlay_wielded_novel_road", "overlay_wielded_novel_romance", "overlay_wielded_novel_samurai", "overlay_wielded_novel_satire", "overlay_wielded_novel_scifi", "overlay_wielded_textbook_survival", "overlay_wielded_mag_swimming", "overlay_wielded_novel_sports", "overlay_wielded_novel_spy", "overlay_wielded_novel_swash", "overlay_wielded_novel_thriller", "overlay_wielded_novel_tragedy", "overlay_wielded_novel_war", "overlay_wielded_novel_war2", "overlay_wielded_novel_western", "overlay_wielded_philosophy_book", "overlay_wielded_phonebook", "overlay_wielded_photo_album", "overlay_wielded_plays_book", "overlay_wielded_manual_swimming", "overlay_wielded_poetry_book", "overlay_wielded_priest_diary", "overlay_wielded_record_accounting", "overlay_wielded_record_patient", "overlay_wielded_record_weather", "overlay_wielded_story_book", "overlay_wielded_tall_tales", "overlay_wielded_visions_solitude", "overlay_wielded_holybook_havamal", "overlay_wielded_classic_literature", "overlay_wielded_collector_book", "overlay_wielded_mag_pistol", "overlay_wielded_manual_pistol", "overlay_wielded_mag_rifle", "overlay_wielded_manual_rifle", "overlay_wielded_mag_shotgun", "overlay_wielded_manual_shotgun", "overlay_wielded_manual_swimming", "overlay_wielded_mag_animecon", "overlay_wielded_mag_beauty", "overlay_wielded_mag_tailor", "overlay_wielded_manual_tailor", "overlay_wielded_tailor_portfolio", "overlay_wielded_recipe_fauxfur", "overlay_wielded_textbook_tailor", "overlay_wielded_mag_throwing", "overlay_wielded_manual_throw", "overlay_wielded_howto_traps", "overlay_wielded_mag_traps", "overlay_wielded_manual_traps", "overlay_wielded_textbook_traps", "overlay_wielded_trappers_companion", "overlay_wielded_mag_unarmed", "overlay_wielded_manual_brawl", "overlay_wielded_afs_librarian_book", "overlay_wielded_recipe_lab_cvd", "overlay_wielded_afs_textbook_shotguns", "overlay_wielded_afs_textbook_handguns", "overlay_wielded_afs_textbook_rifles", "overlay_wielded_afs_textbook_launchers", "overlay_wielded_manual_surv", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_encyclopedia_mechanics", "overlay_wielded_encyclopedia_fabrication", "overlay_wielded_encyclopedia_archery", "overlay_wielded_encyclopedia_barter", "overlay_wielded_encyclopedia_bashing", "overlay_wielded_encyclopedia_computer", "overlay_wielded_encyclopedia_cooking", "overlay_wielded_encyclopedia_cutting", "overlay_wielded_encyclopedia_dodge", "overlay_wielded_encyclopedia_driving", "overlay_wielded_encyclopedia_electronics", "overlay_wielded_encyclopedia_firstaid", "overlay_wielded_encyclopedia_gun", "overlay_wielded_encyclopedia_launcher", "overlay_wielded_encyclopedia_melee", "overlay_wielded_encyclopedia_pistol", "overlay_wielded_encyclopedia_rifle", "overlay_wielded_encyclopedia_shotgun", "overlay_wielded_encyclopedia_smg", "overlay_wielded_encyclopedia_speech", "overlay_wielded_encyclopedia_stabbing", "overlay_wielded_encyclopedia_survival", "overlay_wielded_encyclopedia_swimming", "overlay_wielded_encyclopedia_tailor", "overlay_wielded_encyclopedia_throw", "overlay_wielded_encyclopedia_traps", "overlay_wielded_encyclopedia_unarmed", "overlay_wielded_encyclopedia_mechanics_advance", "overlay_wielded_encyclopedia_fabrication_advance", "overlay_wielded_encyclopedia_archery_advance", "overlay_wielded_encyclopedia_barter_advance", "overlay_wielded_encyclopedia_bashing_advance", "overlay_wielded_encyclopedia_computer_advance", "overlay_wielded_encyclopedia_cooking_advance", "overlay_wielded_encyclopedia_cutting_advance", "overlay_wielded_encyclopedia_dodge_advance", "overlay_wielded_encyclopedia_driving_advance", "overlay_wielded_encyclopedia_electronics_advance", "overlay_wielded_encyclopedia_firstaid_advance", "overlay_wielded_encyclopedia_gun_advance", "overlay_wielded_encyclopedia_launcher_advance", "overlay_wielded_encyclopedia_melee_advance", "overlay_wielded_encyclopedia_pistol_advance", "overlay_wielded_encyclopedia_rifle_advance", "overlay_wielded_encyclopedia_shotgun_advance", "overlay_wielded_encyclopedia_smg_advance", "overlay_wielded_encyclopedia_speech_advance", "overlay_wielded_encyclopedia_stabbing_advance", "overlay_wielded_encyclopedia_survival_advance", "overlay_wielded_encyclopedia_swimming_advance", "overlay_wielded_encyclopedia_tailor_advance", "overlay_wielded_encyclopedia_throw_advance", "overlay_wielded_encyclopedia_traps_advance", "overlay_wielded_encyclopedia_unarmed_advance", "overlay_wielded_evil_invitation", "overlay_wielded_note_apophis", "overlay_wielded_tailor_japanese", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_"],
+          "id": ["overlay_wielded_mag_archery", "overlay_wielded_book_archery", "overlay_wielded_manual_archery", "overlay_wielded_mag_barter", "overlay_wielded_manual_business", "overlay_wielded_textbook_business", "overlay_wielded_mag_bashing", "overlay_wielded_manual_bashing", "overlay_wielded_SICP", "overlay_wielded_computer_science", "overlay_wielded_howto_computer", "overlay_wielded_mag_computer", "overlay_wielded_manual_computers", "overlay_wielded_textbook_computer", "overlay_wielded_adv_chemistry", "overlay_wielded_brewing_cookbook", "overlay_wielded_cookbook", "overlay_wielded_cookbook_human", "overlay_wielded_cookbook_italian", "overlay_wielded_cookbook_sushi", "overlay_wielded_family_cookbook", "overlay_wielded_mag_cooking", "overlay_wielded_mag_glam", "overlay_wielded_modern_tanner", "overlay_wielded_recipe_alpha", "overlay_wielded_mycenacean_hymns", "overlay_wielded_recipe_animal", "overlay_wielded_recipe_labchem", "overlay_wielded_recipe_chimera", "overlay_wielded_recipe_creepy", "overlay_wielded_recipe_elfa", "overlay_wielded_recipe_maiar", "overlay_wielded_recipe_medicalmut", "overlay_wielded_recipe_raptor", "overlay_wielded_recipe_serum", "overlay_wielded_scots_cookbook", "overlay_wielded_textbook_chemistry", "overlay_wielded_mag_cutting", "overlay_wielded_manual_cutting", "overlay_wielded_manual_knives", "overlay_wielded_mag_dodge", "overlay_wielded_manual_dodge", "overlay_wielded_manual_dodge_kid", "overlay_wielded_textbook_anarch", "overlay_wielded_advanced_electronics", "overlay_wielded_mag_electronics", "overlay_wielded_decoy_anarch", "overlay_wielded_mag_cars", "overlay_wielded_manual_driving", "overlay_wielded_manual_electronics", "overlay_wielded_radio_book", "overlay_wielded_recipe_atomic_battery", "overlay_wielded_recipe_augs", "overlay_wielded_recipe_lab_elec", "overlay_wielded_recipe_mil_augs", "overlay_wielded_repeater_mod_guide", "overlay_wielded_textbook_electronics", "overlay_wielded_textbook_robots", "overlay_wielded_glassblowing_book", "overlay_wielded_jewelry_book", "overlay_wielded_mag_fabrication", "overlay_wielded_manual_fabrication", "overlay_wielded_recipe_arrows", "overlay_wielded_recipe_bows", "overlay_wielded_recipe_bullets", "overlay_wielded_recipe_caseless", "overlay_wielded_recipe_lab_cvd", "overlay_wielded_recipe_melee", "overlay_wielded_recipe_mininuke_launch", "overlay_wielded_textbook_armeast", "overlay_wielded_textbook_armschina", "overlay_wielded_textbook_armwest", "overlay_wielded_textbook_fabrication", "overlay_wielded_textbook_fireman", "overlay_wielded_textbook_gaswarfare", "overlay_wielded_welding_book", "overlay_wielded_101_carpentry", "overlay_wielded_carpentry_book", "overlay_wielded_textbook_weapeast", "overlay_wielded_textbook_weapwest", "overlay_wielded_mag_guns", "overlay_wielded_mag_carpentry", "overlay_wielded_manual_carpentry", "overlay_wielded_textbook_carpentry", "overlay_wielded_emergency_book", "overlay_wielded_mag_firstaid", "overlay_wielded_manual_first_aid", "overlay_wielded_pocket_firstaid", "overlay_wielded_textbook_firstaid", "overlay_wielded_booklet_firstaid", "overlay_wielded_manual_gun", "overlay_wielded_pocket_firearms", "overlay_wielded_mag_launcher", "overlay_wielded_manual_launcher", "overlay_wielded_manual_aikido", "overlay_wielded_manual_boxing", "overlay_wielded_manual_capoeira", "overlay_wielded_manual_centipede", "overlay_wielded_manual_crane", "overlay_wielded_manual_dragon", "overlay_wielded_manual_eskrima", "overlay_wielded_manual_fencing", "overlay_wielded_manual_judo", "overlay_wielded_manual_karate", "overlay_wielded_manual_krav_maga", "overlay_wielded_manual_leopard", "overlay_wielded_manual_lizard", "overlay_wielded_manual_muay_thai", "overlay_wielded_manual_ninjutsu", "overlay_wielded_manual_niten", "overlay_wielded_manual_scorpion", "overlay_wielded_manual_silat", "overlay_wielded_manual_snake", "overlay_wielded_manual_taekwondo", "overlay_wielded_manual_tai_chi", "overlay_wielded_manual_tiger", "overlay_wielded_manual_toad", "overlay_wielded_manual_venom_snake", "overlay_wielded_manual_zui_quan", "overlay_wielded_manual_sojutsu", "overlay_wielded_book_icef", "overlay_wielded_mag_mechanics", "overlay_wielded_manual_mechanics", "overlay_wielded_mag_melee", "overlay_wielded_manual_melee", "overlay_wielded_mag_smg", "overlay_wielded_mag_fieldrepair", "overlay_wielded_textbook_biodiesel", "overlay_wielded_textbook_mechanics", "overlay_wielded_ZSG", "overlay_wielded_black_box_transcript", "overlay_wielded_child_book", "overlay_wielded_commune_prospectus", "overlay_wielded_decoy_elfa", "overlay_wielded_essay_book", "overlay_wielded_fairy_tales", "overlay_wielded_guidebook", "overlay_wielded_manual_smg", "overlay_wielded_mag_tv", "overlay_wielded_dnd_handbook", "overlay_wielded_textbook_speech", "overlay_wielded_holybook_bible1", "overlay_wielded_holybook_bible2", "overlay_wielded_manual_stabbing", "overlay_wielded_holybook_bible3", "overlay_wielded_manual_speech", "overlay_wielded_mag_stabbing", "overlay_wielded_atomic_survival", "overlay_wielded_holybook_hadith", "overlay_wielded_holybook_granth", "overlay_wielded_holybook_kojiki", "overlay_wielded_holybook_kallisti", "overlay_wielded_holybook_mormon", "overlay_wielded_holybook_pastafarian", "overlay_wielded_holybook_quran", "overlay_wielded_holybook_scientology", "overlay_wielded_holybook_slack", "overlay_wielded_holybook_sutras", "overlay_wielded_holybook_talmud", "overlay_wielded_holybook_tanakh", "overlay_wielded_holybook_tripitaka", "overlay_wielded_holybook_upanishads", "overlay_wielded_holybook_vedas", "overlay_wielded_mag_comic", "overlay_wielded_mag_gaming", "overlay_wielded_mag_porn", "overlay_wielded_necropolis_freq", "overlay_wielded_news_regional", "overlay_wielded_novel_adventure", "overlay_wielded_novel_buddy", "overlay_wielded_mag_news", "overlay_wielded_novel_crime", "overlay_wielded_novel_crime2", "overlay_wielded_novel_drama", "overlay_wielded_fun_survival", "overlay_wielded_novel_coa", "overlay_wielded_novel_coa2", "overlay_wielded_mag_dude", "overlay_wielded_novel_erotic", "overlay_wielded_novel_experimental", "overlay_wielded_novel_fantasy", "overlay_wielded_novel_horror", "overlay_wielded_novel_mystery", "overlay_wielded_novel_pulp", "overlay_wielded_mag_survival", "overlay_wielded_manual_survival", "overlay_wielded_pocket_survival", "overlay_wielded_survival_book", "overlay_wielded_novel_road", "overlay_wielded_novel_romance", "overlay_wielded_novel_samurai", "overlay_wielded_novel_satire", "overlay_wielded_novel_scifi", "overlay_wielded_textbook_survival", "overlay_wielded_mag_swimming", "overlay_wielded_novel_sports", "overlay_wielded_novel_spy", "overlay_wielded_novel_swash", "overlay_wielded_novel_thriller", "overlay_wielded_novel_tragedy", "overlay_wielded_novel_war", "overlay_wielded_novel_war2", "overlay_wielded_novel_western", "overlay_wielded_philosophy_book", "overlay_wielded_phonebook", "overlay_wielded_photo_album", "overlay_wielded_plays_book", "overlay_wielded_manual_swimming", "overlay_wielded_poetry_book", "overlay_wielded_priest_diary", "overlay_wielded_record_accounting", "overlay_wielded_record_patient", "overlay_wielded_record_weather", "overlay_wielded_story_book", "overlay_wielded_tall_tales", "overlay_wielded_visions_solitude", "overlay_wielded_holybook_havamal", "overlay_wielded_classic_literature", "overlay_wielded_collector_book", "overlay_wielded_mag_pistol", "overlay_wielded_manual_pistol", "overlay_wielded_mag_rifle", "overlay_wielded_manual_rifle", "overlay_wielded_mag_shotgun", "overlay_wielded_manual_shotgun", "overlay_wielded_manual_swimming", "overlay_wielded_mag_animecon", "overlay_wielded_mag_beauty", "overlay_wielded_mag_tailor", "overlay_wielded_manual_tailor", "overlay_wielded_tailor_portfolio", "overlay_wielded_recipe_fauxfur", "overlay_wielded_textbook_tailor", "overlay_wielded_mag_throwing", "overlay_wielded_manual_throw", "overlay_wielded_howto_traps", "overlay_wielded_mag_traps", "overlay_wielded_manual_traps", "overlay_wielded_textbook_traps", "overlay_wielded_trappers_companion", "overlay_wielded_mag_unarmed", "overlay_wielded_manual_brawl", "overlay_wielded_afs_librarian_book", "overlay_wielded_recipe_lab_cvd", "overlay_wielded_afs_textbook_shotguns", "overlay_wielded_afs_textbook_handguns", "overlay_wielded_afs_textbook_rifles", "overlay_wielded_afs_textbook_launchers", "overlay_wielded_manual_surv", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_encyclopedia_mechanics", "overlay_wielded_encyclopedia_fabrication", "overlay_wielded_encyclopedia_archery", "overlay_wielded_encyclopedia_barter", "overlay_wielded_encyclopedia_bashing", "overlay_wielded_encyclopedia_computer", "overlay_wielded_encyclopedia_cooking", "overlay_wielded_encyclopedia_cutting", "overlay_wielded_encyclopedia_dodge", "overlay_wielded_encyclopedia_driving", "overlay_wielded_encyclopedia_electronics", "overlay_wielded_encyclopedia_firstaid", "overlay_wielded_encyclopedia_gun", "overlay_wielded_encyclopedia_launcher", "overlay_wielded_encyclopedia_melee", "overlay_wielded_encyclopedia_pistol", "overlay_wielded_encyclopedia_rifle", "overlay_wielded_encyclopedia_shotgun", "overlay_wielded_encyclopedia_smg", "overlay_wielded_encyclopedia_speech", "overlay_wielded_encyclopedia_stabbing", "overlay_wielded_encyclopedia_survival", "overlay_wielded_encyclopedia_swimming", "overlay_wielded_encyclopedia_tailor", "overlay_wielded_encyclopedia_throw", "overlay_wielded_encyclopedia_traps", "overlay_wielded_encyclopedia_unarmed", "overlay_wielded_encyclopedia_mechanics_advance", "overlay_wielded_encyclopedia_fabrication_advance", "overlay_wielded_encyclopedia_archery_advance", "overlay_wielded_encyclopedia_barter_advance", "overlay_wielded_encyclopedia_bashing_advance", "overlay_wielded_encyclopedia_computer_advance", "overlay_wielded_encyclopedia_cooking_advance", "overlay_wielded_encyclopedia_cutting_advance", "overlay_wielded_encyclopedia_dodge_advance", "overlay_wielded_encyclopedia_driving_advance", "overlay_wielded_encyclopedia_electronics_advance", "overlay_wielded_encyclopedia_firstaid_advance", "overlay_wielded_encyclopedia_gun_advance", "overlay_wielded_encyclopedia_launcher_advance", "overlay_wielded_encyclopedia_melee_advance", "overlay_wielded_encyclopedia_pistol_advance", "overlay_wielded_encyclopedia_rifle_advance", "overlay_wielded_encyclopedia_shotgun_advance", "overlay_wielded_encyclopedia_smg_advance", "overlay_wielded_encyclopedia_speech_advance", "overlay_wielded_encyclopedia_stabbing_advance", "overlay_wielded_encyclopedia_survival_advance", "overlay_wielded_encyclopedia_swimming_advance", "overlay_wielded_encyclopedia_tailor_advance", "overlay_wielded_encyclopedia_throw_advance", "overlay_wielded_encyclopedia_traps_advance", "overlay_wielded_encyclopedia_unarmed_advance", "overlay_wielded_evil_invitation", "overlay_wielded_note_apophis", "overlay_wielded_tailor_japanese", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_", "overlay_wielded_"],
           "fg": 23995
         },		
 		{
@@ -122577,7 +122579,7 @@
           "rotates": false
         },			
 		{
-          "id": "vp_small_turbine_engine",
+          "id": "vp_engine_turbine_small",
           "fg": 24247,
           "bg": 957,
           "rotates": false
@@ -122594,7 +122596,7 @@
           "rotates": false
         },	
 		{
-          "id": "vp_medium_turbine_engine",
+          "id": "vp_engine_turbine_medium",
           "fg": 24248,
           "bg": 957,
           "rotates": false
@@ -122612,7 +122614,7 @@
           "rotates": false
         },	
 		{
-          "id": "vp_large_turbine_engine",
+          "id": "vp_engine_turbine_large",
           "fg": 24249,
           "bg": 957,
           "rotates": false
@@ -122898,6 +122900,378 @@
           "bg": 0,
           "rotates": true
         },
+		{
+          "id": "caltrops_glass",
+          "fg": 24291,
+          "bg": 0,
+          "rotates": true
+        },		{
+          "id": "overlay_wielded_caltrops_glass",
+          "fg": 24291,
+          "bg": 0,
+          "rotates": true
+        },
+		{
+          "id": "tr_caltrops_glass",
+          "fg": 24292,
+          "bg": 0,
+          "rotates": true
+        },
+				{
+          "id": "tr_glass",
+          "fg": 24293,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "sandbag",
+          "fg": 24294,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_sandbag",
+          "fg": 24294,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "earthbag",
+          "fg": 24295,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_earthbag",
+          "fg": 24295,
+          "bg": 0,
+          "rotates": true
+        },			{
+          "id": "flesh_golem_heart",
+          "fg": 24296,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_flesh_golem_heart",
+          "fg": 24296,
+          "bg": 0,
+          "rotates": true
+        },	{
+          "id": "marloss_scarf",
+          "fg": 24297,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_marloss_scarf",
+          "fg": 24297,
+          "bg": 0,
+          "rotates": true
+        },		
+		{
+          "id": "overlay_worn_marloss_scarf",
+          "fg": 24298,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "broken_nursebot",
+          "fg": 24299,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_broken_nursebot",
+          "fg": 24299,
+          "bg": 0,
+          "rotates": true
+        },		
+		{
+          "id": "broken_nursebot_defective",
+          "fg": 24300,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_broken_nursebot_defective",
+          "fg": 24300,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "bot_nursebot",
+          "fg": 24301,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_bot_nursebot",
+          "fg": 24301,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "badge_doctor",
+          "fg": 24302,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_badge_doctor",
+          "fg": 24302,
+          "bg": 0,
+          "rotates": true
+        },		{
+          "id": "mycenacean_hymns",
+          "fg": 24303,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "phonebook",
+          "fg": 24304,
+          "bg": 0,
+          "rotates": true
+        },		
+		{
+          "id": "ar10",
+          "fg": 24305,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_ar10",
+          "fg": 24306,
+          "bg": 0,
+          "rotates": true
+        },		
+		{
+          "id": "ar10mag_20rd",
+          "fg": 24307,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_wielded_ar10mag_20rd",
+          "fg": 24307,
+          "bg": 0,
+          "rotates": true
+        },	
+				{
+          "id": "glock_18c",
+          "fg": 24308,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_glock_18c",
+          "fg": 24309,
+          "bg": 0,
+          "rotates": true
+        },				{
+          "id": "m110a1",
+          "fg": 24310,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_m110a1",
+          "fg": 24311,
+          "bg": 0,
+          "rotates": true
+        },{
+          "id": "hk417_13",
+          "fg": 24312,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_hk417_13",
+          "fg": 24313,
+          "bg": 0,
+          "rotates": true
+        },
+		{
+          "id": "hk417mag_10rd",
+          "fg": 24314,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_hk417mag_10rd",
+          "fg": 24314,
+          "bg": 0,
+          "rotates": true
+        },		{
+          "id": "hk417mag_20rd",
+          "fg": 24315,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_hk417mag_20rd",
+          "fg": 24315,
+          "bg": 0,
+          "rotates": true
+        },
+		{
+          "id": "light_minus_disposable_cell",
+          "fg": 24316,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_light_minus_disposable_cell",
+          "fg": 24316,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "light_disposable_cell",
+          "fg": 24317,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_light_disposable_cell",
+          "fg": 24317,
+          "bg": 0,
+          "rotates": true
+        },		
+		{
+          "id": "medium_disposable_cell",
+          "fg": 24318,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_medium_disposable_cell",
+          "fg": 24318,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "heavy_disposable_cell",
+          "fg": 24319,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_heavy_disposable_cell",
+          "fg": 24319,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "robofac_enviro_suit",
+          "fg": 24320,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_robofac_enviro_suit",
+          "fg": 24320,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "overlay_worn_robofac_enviro_suit",
+          "fg": 24321,
+          "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "robofac_test_data",
+          "fg": 24322,
+          "bg": 0,
+          "rotates": true
+        },			
+		{
+          "id": "overlay_wielded_robofac_test_data",
+          "fg": 24322,
+          "bg": 0,
+          "rotates": true
+        },       
+        {
+          "id": "f_planter",
+          "fg": 24323,
+          "bg": 24323,
+          "rotates": false
+        },
+        {
+          "id": "f_planter_seed",
+          "fg": 1550,
+          "bg": 24323,
+          "rotates": false
+        },
+        {
+          "id": "f_planter_seedling",
+          "fg": 1551,
+          "bg": 24323,
+          "rotates": false
+        },	     
+		{
+          "id": "f_planter_mature",
+          "fg": 1549,
+          "bg": 24323,
+          "rotates": false
+        },
+		{
+          "id": "f_planter_harvest",
+          "fg": 1548,
+          "bg": 24323,
+          "rotates": false
+        },	
+		{
+          "id": "f_ground_crafting_spot",
+          "fg": 24324,
+          "rotates": false
+        },	
+		{
+          "id": "30gal_firebarrel",
+          "fg": 24325,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_30gal_firebarrel",
+          "fg": 24325,
+          "rotates": false
+        },	
+		{
+          "id": "f_30gal_firebarrel",
+          "fg": 24325,
+		  "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": "55gal_firebarrel",
+          "fg": 24326,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_55gal_firebarrel",
+          "fg": 24326,
+          "rotates": false
+        },	
+		{
+          "id": "f_55gal_firebarrel",
+          "fg": 24326,
+		  "bg": 967,
+          "rotates": false
+        },	
+				{
+          "id": ["f_bluebell_season_winter", "f_dahlia_season_winter", "f_datura_season_winter", "f_flower_marloss_season_winter", "f_dandelion_season_winter", "f_chamomile_season_winter", "f_flower_tulip_season_winter", "f_flower_spurge_season_winter", "f_cattails_season_winter", "f_black_eyed_susan_season_winter", "f_lily_season_winter", "f_sunflower_season_winter", "f_mutpoppy_season_winter"],
+          "fg": 24327,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "f_cattails_season_winter",
+          "fg": 24328,
+		  "bg": 0,
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
