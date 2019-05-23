@@ -84071,11 +84071,6 @@
           "rotates": false
         },
         {
-          "id": "mon_vinebeast_pk",
-          "fg": 2651,
-          "rotates": false
-        },
-        {
           "id": "mon_vinebeast_terminal",
           "fg": 2651,
           "rotates": false
@@ -92974,7 +92969,7 @@
 		{
           "id": "mon_stemcell_nether",
           "fg": 4223,
-		  "bg": 967,
+		  "bg": 0,
           "rotates": false
         },
 		{
@@ -123273,6 +123268,147 @@
           "rotates": false
         },	
 		{
+          "id": "corpse_mon_goat",
+          "fg": 24329,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_robin",
+          "fg": 24330,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_pidgeon",
+          "fg": 24331,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "corpse_mon_bjay",
+          "fg": 24332,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_gull",
+          "fg": 24333,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_coyote_small",
+          "fg": 24334,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_mole_large",
+          "fg": 24335,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": ["corpse_mon_deer_small", "corpse_mon_deer_rutting"],
+          "fg": 24336,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_pig_saber",
+          "fg": 24337,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_cyborg_guard",
+          "fg": 24338,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_cyborg_cop",
+          "fg": 24339,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_biollante_pk",
+          "fg": 24340,
+		  "bg": 0,
+          "rotates": false
+        },	
+		        {
+          "id": "mon_vinebeast_pk",
+          "fg": 24341,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_vinebeast_pk",
+          "fg": 24342,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_creeper_root",
+          "fg": 24343,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_triffid_pk",
+          "fg": 24344,
+          "rotates": false
+        },
+		{
+          "id": "mon_vinebeast_terminal",
+          "fg": 24345,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_vinebeast_terminal",
+          "fg": 24346,
+          "rotates": false
+        },		{
+          "id": "corpse_mon_dionaea_sprout",
+          "fg": 24347,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dionaea",
+          "fg": 24348,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_dog_zombie_rot_worms",
+          "fg": 24349,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_dog_zombie_rot_pain",
+          "fg": 24350,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zolf_shady",
+          "fg": 24351,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_horse_zombie",
+          "fg": 24352,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_zombie_dog_pk",
+          "fg": 24353,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_dog_skeleton_pk",
+          "fg": 24354,
+          "rotates": false
+        },
+		{
           "id": "atlatl",
           "fg": 1986,
 		  "bg": 0,
@@ -124962,6 +125098,41 @@
 		{
           "id": "corpse_mon_fleshy_shambler",
           "fg": 35792,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_pig_saber",
+          "fg": 35793,
+          "bg": 0,
+          "rotates": false
+        },		{
+          "id": "mon_gelatin",
+          "fg": 35794,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "mon_mi_go_terminal",
+          "fg": 35795,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "mon_mi_go_fly",
+          "fg": 35796,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_mi_go_terminal",
+          "fg": 35797,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "corpse_mon_mi_go_fly",
+          "fg": 35798,
           "bg": 0,
           "rotates": false
         }
