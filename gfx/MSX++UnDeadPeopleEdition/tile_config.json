@@ -102870,7 +102870,7 @@
           ]
         },
 		{
-          "id": ["!t_railroad_tie", "!t_railroad_tie_d", "!t_railroad_tie_v", "!t_railroad_tie_h"],
+          "id": ["t_water_pool_shallow"],
 		  "fg": 19076,
           "rotates": false,
           "multitile": true,
@@ -102908,7 +102908,7 @@
           ]
         },
 		{
-          "id": "!t_railroad_track_on_tie",
+          "id": "t_adobe_brick_wall",
 		  "fg": 19092,
           "rotates": false,
           "multitile": true,
@@ -102942,6 +102942,158 @@
               "id": "unconnected",
               "fg": 19107,
 			  "bg": 5010
+            }
+          ]
+        },
+		{
+          "id": "t_privacy_fence",
+		  "fg": 19108,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19108,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [19109, 19110, 19111, 19112],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [19113, 19114, 19115, 19116],
+			  "bg": 1012
+            },    
+			{
+              "id": "edge",
+              "fg": [19117, 19118],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [19119, 19120, 19121, 19122],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 19123,
+			  "bg": 1012
+            }
+          ]
+        },
+		{
+          "id": "t_splitrail_fence",
+		  "fg": 19124,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19124,
+			  "bg": 1012
+            },
+            {
+              "id": "corner",
+              "fg": [19125, 19126, 19127, 19128],
+			  "bg": 1012
+            },
+            {
+              "id": "t_connection",
+              "fg": [19129, 19130, 19131, 19132],
+			  "bg": 1012
+            },    
+			{
+              "id": "edge",
+              "fg": [19133, 19134],
+			  "bg": 1012
+            },
+            {
+              "id": "end_piece",
+              "fg": [19135, 19136, 19137, 19138],
+			  "bg": 1012
+            },
+            {
+              "id": "unconnected",
+              "fg": 19139,
+			  "bg": 1012
+            }
+          ]
+        },
+		{
+          "id": "f_cardboard_fort",
+		  "fg": 19140,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19140,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [19141, 19142, 19143, 19144],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [19145, 19146, 19147, 19148],
+			  "bg": 0
+            },    
+			{
+              "id": "edge",
+              "fg": [19149, 19150],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19151, 19152, 19153, 19154],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19155,
+			  "bg": 0
+            }
+          ]
+        },
+		{
+          "id": "f_plastic_groundsheet",
+		  "fg": 19156,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19156,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [19157, 19158, 19159, 19160],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [19161, 19162, 19163, 19164],
+			  "bg": 0
+            },    
+			{
+              "id": "edge",
+              "fg": [19165, 19166],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19167, 19168, 19169, 19170],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19171,
+			  "bg": 0
             }
           ]
         }
@@ -123407,6 +123559,226 @@
           "id": "corpse_mon_dog_skeleton_pk",
           "fg": 24354,
           "rotates": false
+        },		
+		{
+          "id": "mon_mutant_experimental",
+          "fg": 24355,
+		  "bg": 957,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_mutant_experimental",
+          "fg": 24356,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "t_adobe_brick_wall_halfway",
+          "fg": 24357,
+		  "bg": 1012,
+          "rotates": false
+        },	
+		{
+          "id": "t_privacy_fencegate_c",
+          "fg": 24358,
+		  "bg": 1012,
+          "rotates": false
+        },	
+		{
+          "id": "t_privacy_fencegate_o",
+          "fg": 24359,
+		  "bg": 1012,
+          "rotates": false
+        },	
+		{
+          "id": "t_splitrail_fencegate_c",
+          "fg": 24360,
+		  "bg": 1012,
+          "rotates": false
+        },	
+		{
+          "id": "t_splitrail_fencegate_o",
+          "fg": 24361,
+		  "bg": 1012,
+          "rotates": false
+        },	
+		{
+          "id": "f_cardboard_box",
+          "fg": 24362,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["vp_wheel_wide_or", "vp_wheel_wide_or_steerable"],
+          "fg": 24363,
+		  "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": ["schematics_antimateriel", 
+				"schematics_chickenbot", 
+				"schematics_copbot", 
+				"schematics_dispatch", 
+				"schematics_dispatch_military", 	
+				"schematics_eyebot", 	
+				"schematics_hazmatbot", 	
+				"schematics_molebot", 	
+				"schematics_nursebot", 		
+				"schematics_riotbot", 
+				"schematics_sciencebot", 
+				"schematics_searchlight", 
+				"schematics_secubot", 	
+				"schematics_skitterbot", 	
+				"schematics_tankbot", 	
+				"schematics_tripod"
+		  ],
+          "fg": 24364,
+		  "bg": 0,
+          "rotates": true
+        },	
+		{
+          "id": "AT4",
+          "fg": 24365,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_AT4",
+          "fg": 24366,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "overlay_wielded_ax",
+          "fg": 24367,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "RTG_coffee",
+          "fg": 24368,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "adobe_brick",
+          "fg": 24369,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "soft_adobe_brick",
+          "fg": 24370,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "ai_module",
+          "fg": 24371,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "ai_module_advanced",
+          "fg": 24372,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "ai_module_basic",
+          "fg": 24373,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "spidery_legs_big",
+          "fg": 24374,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "spidery_legs_small",
+          "fg": 24375,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "adobe_pallet_full",
+          "fg": 24376,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "adobe_pallet_done",
+          "fg": 24377,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "android_chassis",
+          "fg": 24378,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "android_arms",
+          "fg": 24379,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "android_legs",
+          "fg": 24380,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "betavoltaic",
+          "fg": 24381,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "box_medium",
+          "fg": 24382,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "box_large",
+          "fg": 24383,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mortar_adobe",
+          "fg": 24384,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "wood_panel",
+          "fg": 24385,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": "wood_sheet",
+          "fg": 24386,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "sail",
+          "fg": 24387,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "vp_sail",
+          "fg": 24388,
+		  "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
@@ -125134,6 +125506,33 @@
           "id": "corpse_mon_mi_go_fly",
           "fg": 35798,
           "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "mon_mutant_evolved",
+          "fg": 35799,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "corpse_mon_mutant_evolved",
+          "fg": 35800,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "f_counter_gate_c",
+          "fg": 35801,
+          "rotates": false
+        },
+		{
+          "id": "f_counter_gate_o",
+          "fg": 35802,
+          "rotates": false
+        },
+		{
+          "id": "f_cardboard_wall",
+          "fg": 35803,
           "rotates": false
         }
 	    
