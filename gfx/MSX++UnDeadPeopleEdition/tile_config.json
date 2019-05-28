@@ -62405,12 +62405,6 @@
           "rotates": false
         },
         {
-          "id": "mon_zombie_acidic",
-          "fg": 2669,
-          "bg": 967,
-          "rotates": false
-        },
-        {
           "id": "mon_zombie_acidic_pk",
           "fg": 2669,
           "bg": 967,
@@ -71066,7 +71060,7 @@
           "rotates": false
         },
         {
-          "id": ["jerrycan_big", "vp_tank_medium"],
+          "id": ["jerrycan_big", "vp_tank_medium", "vp_tank_30gal_drum", "vp_tank_55gal_drum"],
           "fg": 1416,
           "rotates": false
         },
@@ -103096,6 +103090,82 @@
 			  "bg": 0
             }
           ]
+        },
+		{
+          "id": "f_floor_mattress",
+		  "fg": 19172,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19172,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [19173, 19174, 19175, 19176],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [19177, 19178, 19179, 19180],
+			  "bg": 0
+            },    
+			{
+              "id": "edge",
+              "fg": [19181, 19182],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19183, 19184, 19185, 19186],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19187,
+			  "bg": 0
+            }
+          ]
+        },
+		{
+          "id": "f_bed_frame",
+		  "fg": 19188,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19188,
+			  "bg": 0
+            },
+            {
+              "id": "corner",
+              "fg": [19189, 19190, 19191, 19192],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [19193, 19194, 19195, 19196],
+			  "bg": 0
+            },    
+			{
+              "id": "edge",
+              "fg": [19197, 19198],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19199, 19200, 19201, 19202],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19203,
+			  "bg": 0
+            }
+          ]
         }
 			
   ]
@@ -117052,12 +117122,12 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie_fat",
+          "id": ["corpse_mon_zombie_fat", "corpse_mon_zombie_fat_2", "corpse_mon_zombie_fat_3"],
           "fg": 23314,
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie_tough",
+          "id": ["corpse_mon_zombie_tough", "corpse_mon_zombie_tough_2", "corpse_mon_zombie_tough_3"],
           "fg": 23315,
           "rotates": false
         },
@@ -117072,7 +117142,7 @@
           "rotates": false
         },
 		{
-          "id": "corpse_mon_zombie_acidic",
+          "id": "corpse_mon_zombie_acidic_pk",
           "fg": 23318,
           "rotates": false
         },	
@@ -123607,7 +123677,13 @@
           "fg": 24362,
 		  "bg": 0,
           "rotates": false
-        },	
+        },
+		{
+          "id": ["wheel_wide_or", "wheel_wide_or_steerable"],
+          "fg": 24363,
+		  "bg": 0,
+          "rotates": true
+        },		
 		{
           "id": ["vp_wheel_wide_or", "vp_wheel_wide_or_steerable"],
           "fg": 24363,
@@ -123777,6 +123853,306 @@
 		{
           "id": "vp_sail",
           "fg": 24388,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "turret_chassis",
+          "fg": 24389,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "tripod_chassis",
+          "fg": 24390,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "copbot_chassis",
+          "fg": 24391,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "gun_module",
+          "fg": 24392,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "identification_module",
+          "fg": 24393,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "memory_module",
+          "fg": 24394,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "self_monitoring_module",
+          "fg": 24395,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "sensor_module",
+          "fg": 24396,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "targeting_module",
+          "fg": 24397,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "mountable_cooler",
+          "fg": 24398,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "vp_mountable_cooler",
+          "fg": 24398,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "omni_wheel",
+          "fg": 24399,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": "plastic_sheet",
+          "fg": 24400,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "quad_rotors",
+          "fg": 24401,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "smartphone_music",
+          "fg": 24402,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["fd_cold_air1", "fd_cold_air2", "fd_cold_air3", "fd_cold_air4"],
+          "fg": 24403,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["pathfinding_module"],
+          "fg": 24404,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_bat_vampire"],
+          "fg": 24405,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_coyote_wolf_zerg"],
+          "fg": 24406,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_raphael"],
+          "fg": 24407,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_donatello"],
+          "fg": 24408,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["corpse_mon_leonardo"],
+          "fg": 24409,
+		  "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_michelangelo"],
+          "fg": 24410,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_ratman_ninja"],
+          "fg": 24411,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_bear_smoky_pk"],
+          "fg": 24412,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_scorched"],
+          "fg": 24413,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["corpse_mon_zombie_scorched_pk"],
+          "fg": 24413,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_scorched_shocker"],
+          "fg": 24414,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_fiend_pk"],
+          "fg": 24415,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_fiend_shocker"],
+          "fg": 24416,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_crawler_scorched"],
+          "fg": 24417,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_child_scorched_2"],
+          "fg": 24418,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_horse_zombie_scorched"],
+          "fg": 24419,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_rot_pk", "corpse_mon_zombie_rot_pk_flu", "corpse_mon_zombie_rot_pk_worms", "corpse_mon_zombie_rot_pk_pain"],
+          "fg": 24420,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_rot_flu", "corpse_mon_zombie_rot_worms", "corpse_mon_zombie_rot_pain"],
+          "fg": 24421,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_zombie_acidic"],
+          "fg": 24422,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_acidic"],
+          "fg": 24423,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": ["corpse_mon_zombie_cripple"],
+          "fg": 24424,
+		  "bg": 0,
+          "rotates": false
+        },
+								{
+          "id": ["corpse_mon_zombie_blind", "corpse_mon_zombie_blind_pk"],
+          "fg": 24425,
+		  "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": ["corpse_mon_zombie_pk"],
+          "fg": 24426,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_hollow_pk"],
+          "fg": 24427,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["corpse_mon_beekeeper_pk"],
+          "fg": 24428,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_child_pk"],
+          "fg": 24429,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_child_reaver"],
+          "fg": 24430,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_electric_pk"],
+          "fg": 24431,
+		  "bg": 0,
+          "rotates": false
+        },		
+		{
+          "id": ["corpse_mon_zombie_shady_pk"],
+          "fg": 24432,
+		  "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_shady_ghost"],
+          "fg": 24433,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": ["corpse_mon_zombie_master_pk"],
+          "fg": 24434,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_zombie_necro_pk"],
+          "fg": 24435,
+		  "bg": 0,
+          "rotates": false
+        },
+						{
+          "id": ["mattress", "overlay_wielded_mattress"],
+          "fg": 24436,
 		  "bg": 0,
           "rotates": false
         },
@@ -125533,6 +125909,26 @@
 		{
           "id": "f_cardboard_wall",
           "fg": 35803,
+          "rotates": false
+        },
+		{
+          "id": "chickenbot_chassis",
+          "fg": 35804,
+          "rotates": false
+        },	
+		{
+          "id": "tankbot_chassis",
+          "fg": 35805,
+          "rotates": false
+        },	
+		{
+          "id": "reverse_jointed_legs",
+          "fg": 35806,
+          "rotates": false
+        },	
+		{
+          "id": "tank_tread",
+          "fg": 35807,
           "rotates": false
         }
 	    
