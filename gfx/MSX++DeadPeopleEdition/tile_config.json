@@ -95540,7 +95540,21 @@
             ],
 			"bg": 967,
           "rotates": false
-        }	
+        },	
+		{	
+          "id": "mon_zombie_prisoner",
+          "fg": [
+            { "weight":111, "sprite":22534},
+			{ "weight":111, "sprite":12180},
+			{ "weight":111, "sprite":12181},
+			{ "weight":111, "sprite":12182},	
+			{ "weight":111, "sprite":12183},
+			{ "weight":111, "sprite":12184},
+			{ "weight":111, "sprite":12185}
+            ],
+			"bg": 967,
+          "rotates": false
+        }		
 		
   ]
   },
@@ -113261,11 +113275,11 @@
           "fg": 22532,
           "rotates": false
         },
-		{
-          "id": "grimrobe",
-          "fg": 22549,
+		        {
+          "id": "overlay_worn_long_patchwork_scarf_loose",
+          "fg": 22532,
           "rotates": false
-        },   	 				      
+        },	 				      
 		{
           "id": "manual_shinigami",
           "fg": 22548,
@@ -124155,7 +124169,356 @@
           "fg": 24436,
 		  "bg": 0,
           "rotates": false
+        },		
+		{
+          "id": "corpse_mon_zombie_prisoner",
+          "fg": 24437,
+          "rotates": false
+        },	
+		{
+          "id": ["data_card", "mind_scan_robofac"],
+          "fg": 24438,
+          "rotates": false
+        },	
+		{
+          "id": ["mind_splicer"],
+          "fg": 24439,
+          "rotates": false
         },
+				{
+          "id": ["rmi2_corpse"],
+          "fg": 24440,
+          "rotates": false
+        },	
+		{
+          "id": ["seed_cactus"],
+          "fg": 24441,
+          "rotates": false
+        },
+				{
+          "id": ["seed_cattail"],
+          "fg": 24442,
+          "rotates": false
+        },
+		{
+          "id": ["seed_dahlia"],
+          "fg": 24443,
+          "rotates": false
+        },
+		{
+          "id": ["seed_flower"],
+          "fg": 24444,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_crawler_pk_weak"],
+          "fg": 24445,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_scales"],
+          "fg": 24446,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_zombie_swimmer_pk"],
+          "fg": 24447,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_lord"],
+          "fg": 24448,
+          "rotates": false
+        },
+		{
+          "id": ["mon_fish_tiny"],
+          "fg": 24449,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_small"],
+          "fg": 24450,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_medium"],
+          "fg": 24451,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_large"],
+          "fg": 24452,
+          "rotates": false
+        },
+				{
+          "id": ["mon_fish_huge"],
+          "fg": 24453,
+          "rotates": false
+        },		{
+          "id": ["corpse_mon_fish_tiny"],
+          "fg": 24454,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_fish_small"],
+          "fg": 24455,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_fish_medium"],
+          "fg": 24456,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_fish_large"],
+          "fg": 24457,
+          "rotates": false
+        },
+				{
+          "id": ["corpse_mon_fish_huge"],
+          "fg": 24458,
+          "rotates": false
+        },				{
+          "id": ["mon_fish_lake_trout"],
+          "fg": 24459,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_lake_trout"],
+          "fg": 24460,
+          "rotates": false
+        },
+		{
+          "id": ["mon_fish_brown_trout"],
+          "fg": 24461,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_brown_trout"],
+          "fg": 24462,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_brook_trout"],
+          "fg": 24463,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_brook_trout"],
+          "fg": 24464,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_rainbow_trout"],
+          "fg": 24465,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_rainbow_trout"],
+          "fg": 24466,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_steelhead_trout"],
+          "fg": 24467,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_steelhead_trout"],
+          "fg": 24468,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_kokanee_salmon"],
+          "fg": 24469,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_kokanee_salmon"],
+          "fg": 24470,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_chinook_salmon"],
+          "fg": 24471,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_chinook_salmon"],
+          "fg": 24472,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_coho_salmon"],
+          "fg": 24473,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_coho_salmon"],
+          "fg": 24474,
+          "rotates": false
+        },
+				{
+          "id": ["mon_fish_white_bass"],
+          "fg": 24475,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_white_bass"],
+          "fg": 24476,
+          "rotates": false
+        },
+		{
+          "id": ["mon_fish_walleye"],
+          "fg": 24477,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_walleye"],
+          "fg": 24478,
+          "rotates": false
+        },		
+		{
+          "id": ["mon_fish_pumpkinseed"],
+          "fg": 24479,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_pumpkinseed"],
+          "fg": 24480,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_redbreast"],
+          "fg": 24481,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_redbreast"],
+          "fg": 24482,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_longear_sunfish"],
+          "fg": 24483,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_longear_sunfish"],
+          "fg": 24484,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_green_sunfish"],
+          "fg": 24485,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_green_sunfish"],
+          "fg": 24486,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_redear_sunfish"],
+          "fg": 24487,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_redear_sunfish"],
+          "fg": 24488,
+          "rotates": false
+        },		
+		{
+          "id": ["mon_fish_calico_bass"],
+          "fg": 24489,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_calico_bass"],
+          "fg": 24490,
+          "rotates": false
+        },		
+		{
+          "id": ["mon_fish_rock_bass"],
+          "fg": 24491,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_rock_bass"],
+          "fg": 24492,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_warmouth"],
+          "fg": 24493,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_warmouth"],
+          "fg": 24494,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_channel_catfish"],
+          "fg": 24495,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_channel_catfish"],
+          "fg": 24496,
+          "rotates": false
+        },
+				{
+          "id": ["mon_fish_white_catfish"],
+          "fg": 24497,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_white_catfish"],
+          "fg": 24498,
+          "rotates": false
+        },			
+		{
+          "id": ["mon_fish_muskellunge"],
+          "fg": 24499,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_muskellunge"],
+          "fg": 24500,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_white_sucker"],
+          "fg": 24501,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_white_sucker"],
+          "fg": 24502,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_grass_carp"],
+          "fg": 24503,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_grass_carp"],
+          "fg": 24504,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_fish_fallfish"],
+          "fg": 24505,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_fish_fallfish"],
+          "fg": 24506,
+          "rotates": false
+        },
+		
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -124163,7 +124526,7 @@
 		  "rotates": false 
         },
         {
-          "id": "overlay_wielded_corpse",
+          "id": ["overlay_wielded_corpse", "overlay_wielded_rmi2_corpse"],
           "fg": 1840,
           "rotates": false
         }		
@@ -125929,6 +126292,14 @@
 		{
           "id": "tank_tread",
           "fg": 35807,
+          "rotates": false
+        },		{
+          "id": "mon_zombie_crawler_pk",
+          "fg": 35808,
+          "rotates": false
+        },		{
+          "id": "corpse_mon_zombie_crawler_pk",
+          "fg": 35809,
           "rotates": false
         }
 	    
