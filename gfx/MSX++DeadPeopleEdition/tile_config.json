@@ -18605,25 +18605,6 @@
           "bg": 992
         },
         {
-          "id": ["t_dirt_season_winter", "t_flat_roof_season_winter"],
-		  "fg": [
-            { "weight":300, "sprite":992},
-			{ "weight":300, "sprite":3080},
-			{ "weight":300, "sprite":3081},
-			{ "weight":300, "sprite":3082},
-			{ "weight":300, "sprite":3083},
-			{ "weight":300, "sprite":3084},
-			{ "weight":300, "sprite":3085},
-			{ "weight":1, "sprite":23303},
-			{ "weight":1, "sprite":23304},
-			{ "weight":1, "sprite":23305},
-			{ "weight":1, "sprite":23306},
-			{ "weight":1, "sprite":23307},
-			{ "weight":1, "sprite":23308}
-            ],
-			"rotates": false
-        },
-        {
           "id": "overlay_wielded_t_barndoor_season_winter",
           "fg": 2970,
           "bg": 992
@@ -65055,7 +65036,7 @@
           "bg": 992
         },
         {
-          "id": ["t_dirt_season_winter", "t_flat_roof_season_winter"],
+          "id": ["!t_dirt_season_winter", "t_flat_roof_season_winter"],
 		  "fg": [
             { "weight":300, "sprite":992},
 			{ "weight":300, "sprite":3080},
@@ -70648,6 +70629,10 @@
         },
         {
           "id": "herbal_tea",
+          "fg": 1358
+        },  
+		{
+          "id": "chamomile_tea",
           "fg": 1358
         },
         {
@@ -98464,7 +98449,14 @@
           "multitile": true,
           "additional_tiles": [            
 		    {
-              "fg": 17428,
+              "fg": 			[
+			{ "weight":300, "sprite":17428},
+			{ "weight":3, "sprite":23303},
+			{ "weight":3, "sprite":23304},
+			{ "weight":3, "sprite":23305},	
+			{ "weight":3, "sprite":23306},
+			{ "weight":3, "sprite":23307},
+			{ "weight":3, "sprite":23308}],
 		      "bg": [
             { "weight":3, "sprite":992},
 			{ "weight":3, "sprite":3080},
@@ -102990,6 +102982,43 @@
 			  "bg": 1012
             }
           ]
+        },		{
+          "id": "t_privacy_fence_season_winter",
+		  "fg": 19108,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19108,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [19109, 19110, 19111, 19112],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [19113, 19114, 19115, 19116],
+			  "bg": 992
+            },    
+			{
+              "id": "edge",
+              "fg": [19117, 19118],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [19119, 19120, 19121, 19122],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 19123,
+			  "bg": 992
+            }
+          ]
         },
 		{
           "id": "t_splitrail_fence",
@@ -103026,6 +103055,44 @@
               "id": "unconnected",
               "fg": 19139,
 			  "bg": 1012
+            }
+          ]
+        },
+		{
+          "id": "t_splitrail_fence_season_winter",
+		  "fg": 19124,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 19124,
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [19125, 19126, 19127, 19128],
+			  "bg": 992
+            },
+            {
+              "id": "t_connection",
+              "fg": [19129, 19130, 19131, 19132],
+			  "bg": 992
+            },    
+			{
+              "id": "edge",
+              "fg": [19133, 19134],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [19135, 19136, 19137, 19138],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 19139,
+			  "bg": 992
             }
           ]
         },
@@ -103178,6 +103245,60 @@
               "id": "unconnected",
               "fg": 19203,
 			  "bg": 0
+            }
+          ]
+        },
+		{
+          "id": ["t_dirt_season_winter", "t_grass_season_winter", "t_grass_dead_season_winter"],
+		  "fg": 19204,
+          "rotates": false,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": [
+            { "weight":300, "sprite":19204},
+			{ "weight":3, "sprite":23303},
+			{ "weight":3, "sprite":23304},
+			{ "weight":3, "sprite":23305},	
+			{ "weight":3, "sprite":23306},
+			{ "weight":3, "sprite":23307},
+			{ "weight":3, "sprite":23308}
+            ],
+			  "bg": 992
+            },
+            {
+              "id": "corner",
+              "fg": [19205, 19206, 19207, 19208],
+			  "bg": 0
+            },
+            {
+              "id": "t_connection",
+              "fg": [19209, 19210, 19211, 19212],
+			  "bg": 0
+            },    
+			{
+              "id": "edge",
+              "fg": [19213, 19214],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19215, 19216, 19217, 19218],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": [
+            { "weight":300, "sprite":19219},
+			{ "weight":3, "sprite":23303},
+			{ "weight":3, "sprite":23304},
+			{ "weight":3, "sprite":23305},	
+			{ "weight":3, "sprite":23306},
+			{ "weight":3, "sprite":23307},
+			{ "weight":3, "sprite":23308}
+            ],
+			  "bg": 992
             }
           ]
         }
@@ -120905,7 +121026,7 @@
 		   "rotates": false 
         },	
 		{
-          "id": ["mon_vortex_summoned"],
+          "id": ["mon_vortex_summoned", "bot_vortex"],
           "fg": 23960,
 		   "bg": 0, 
 		   "rotates": false 
@@ -124518,7 +124639,184 @@
           "fg": 24506,
           "rotates": false
         },
-		
+				{
+          "id": ["encyclopedia_archery_advance"],
+          "fg": 24507,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_barter_advance"],
+          "fg": 24508,
+          "rotates": false
+        },
+		{
+          "id": ["encyclopedia_bashing_advance"],
+          "fg": 24509,
+          "rotates": false
+        },		{
+          "id": ["encyclopedia_computer_advance"],
+          "fg": 24510,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_cooking_advance"],
+          "fg": 24511,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_cutting_advance"],
+          "fg": 24512,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_dodge_advance"],
+          "fg": 24513,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_driving_advance"],
+          "fg": 24514,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_electronics_advance"],
+          "fg": 24515,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_fabrication_advance"],
+          "fg": 24516,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_firstaid_advance"],
+          "fg": 24517,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_gun_advance"],
+          "fg": 24518,
+          "rotates": false
+        },
+		{
+          "id": ["encyclopedia_launcher_advance"],
+          "fg": 24519,
+          "rotates": false
+        },		{
+          "id": ["encyclopedia_mechanics_advance"],
+          "fg": 24520,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_melee_advance"],
+          "fg": 24521,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_pistol_advance"],
+          "fg": 24522,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_rifle_advance"],
+          "fg": 24523,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_shotgun_advance"],
+          "fg": 24524,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_smg_advance"],
+          "fg": 24525,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_speech_advance"],
+          "fg": 24526,
+          "rotates": false
+        },		
+		{
+          "id": ["encyclopedia_stabbing_advance"],
+          "fg": 24527,
+          "rotates": false
+        },		
+		{
+          "id": ["encyclopedia_survival_advance"],
+          "fg": 24528,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_swimming_advance"],
+          "fg": 24529,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_tailor_advance"],
+          "fg": 24530,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_throw_advance"],
+          "fg": 24531,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_traps_advance"],
+          "fg": 24532,
+          "rotates": false
+        },{
+          "id": ["encyclopedia_unarmed_advance"],
+          "fg": 24533,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_failed_weapon"],
+          "fg": 24534,
+          "rotates": false
+        },			{
+          "id": ["corpse_mon_failed_weapon"],
+          "fg": 24535,
+          "rotates": false
+        },	{
+          "id": ["corpse_mon_fungus_failed_weapon"],
+          "fg": 24536,
+          "rotates": false
+        },	
+{
+          "id": ["corpse_mon_zombie_bio_infantry_rifle", "corpse_mon_zombie_bio_infantry_shotgun", "corpse_mon_zombie_bio_infantry"],
+          "fg": 24537,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_bio_knight_lmg", "corpse_mon_zombie_bio_knight_lauhcher", "corpse_mon_zombie_bio_knight"],
+          "fg": 24538,
+          "rotates": false
+        },			
+		{
+          "id": ["corpse_mon_zombie_bio_scout_sniper", "corpse_mon_zombie_bio_scout"],
+          "fg": 24539,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_zombie_bio_tool_pistol", "corpse_mon_zombie_bio_tool_smg", "corpse_mon_zombie_bio_tool"],
+          "fg": 24540,
+          "rotates": false
+        },			{
+          "id": ["corpse_mon_moruboru"],
+          "fg": 24541,
+          "rotates": false
+        },	{
+          "id": ["corpse_mon_archon"],
+          "fg": 24542,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_dracolich"],
+          "fg": 24543,
+          "rotates": false
+        },        {
+          "id": "f_boulder_medium_season_winter",
+          "fg": 24544,
+          "rotates": false
+        },
+        {
+          "id": "f_boulder_small_season_winter",
+          "fg": 24545,
+          "rotates": false
+        },   
+		{
+          "id": "chamomile",
+          "fg": 24546,
+          "rotates": false
+        },
+				{
+          "id": "seed_chamomile",
+          "fg": 24547,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -126300,6 +126598,11 @@
         },		{
           "id": "corpse_mon_zombie_crawler_pk",
           "fg": 35809,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_ayenel"],
+          "fg": 35810,
           "rotates": false
         }
 	    
