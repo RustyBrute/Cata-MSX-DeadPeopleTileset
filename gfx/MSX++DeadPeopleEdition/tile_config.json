@@ -68767,7 +68767,7 @@
           "rotates": false
         },
         {
-          "id": "gin",
+          "id": ["gin", "brew_gin", "gin_mash"],
           "fg": 1094,
           "rotates": false
         },
@@ -98998,40 +98998,6 @@
 			],
 			"rotates": false
 			},
-		{
-          "id": "t_trunk_season_winter",
-          "fg": 17582,
-		  "bg": 992,
-		  "multitile": true,
-          "additional_tiles": [
-            {
-              "id": "edge",
-              "fg": [17581, 17582],
-			  "bg": 992
-            },
-            {
-              "id": "end_piece",
-              "fg": [17583, 17584, 17585, 17586],
-			  "bg": 992
-            },
-            {
-              "id": "unconnected",
-              "fg": [
-            { "weight":1, "sprite":17587},
-            { "weight":1, "sprite":27676},
-            { "weight":1, "sprite":27677},
-            { "weight":1, "sprite":27678},
-            { "weight":1, "sprite":27679},
-            { "weight":1, "sprite":27680},
-            { "weight":1, "sprite":27681},
-            { "weight":1, "sprite":27682},
-            { "weight":1, "sprite":27683}
-            ],
-			  "bg": 992
-            }
-			],
-			"rotates": false
-			},
 			{
           "id": "f_pillow_fort",
           "fg": 17588,
@@ -103301,7 +103267,85 @@
 			  "bg": 992
             }
           ]
-        }
+        },
+				{
+          "id": "t_trunk_season_winter",
+          "fg": 19220,
+		  "bg": 992,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19220,
+			  "bg": 992
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19221, 19222, 19223, 19224],
+			  "bg": 992
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19225, 19226, 19227, 19228],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [19229, 19230],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [19231, 19232, 19233, 19234],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 19235,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			},
+				{
+          "id": "t_floor_noroof",
+          "fg": 19236,
+		  "bg": 992,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19236,
+			  "bg": 992
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19237, 19238, 19239, 19240],
+			  "bg": 992
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19241, 19242, 19243, 19244],
+			  "bg": 992
+            },
+            {
+              "id": "edge",
+              "fg": [19245, 19246],
+			  "bg": 992
+            },
+            {
+              "id": "end_piece",
+              "fg": [19247, 19248, 19249, 19250],
+			  "bg": 992
+            },
+            {
+              "id": "unconnected",
+              "fg": 19251,
+			  "bg": 992
+            }
+			],
+			"rotates": false
+			}
 			
   ]
   },
@@ -124816,7 +124860,98 @@
           "id": "seed_chamomile",
           "fg": 24547,
           "rotates": false
+        },	
+		{
+          "id": "wheel_wood",
+          "fg": 24548,
+          "rotates": false
+        },		{
+          "id": "wheel_wood_b",
+          "fg": 24549,
+          "rotates": false
         },
+		{
+          "id": "wheel",
+          "fg": 24550,
+          "rotates": false
+        },		
+		{
+          "id": "wheel_armor",
+          "fg": 24551,
+          "rotates": false
+        },
+				{
+          "id": "wheel_wide",
+          "fg": 24552,
+          "rotates": false
+        },
+		{
+          "id": "wheel_wheelchair",
+          "fg": 24553,
+          "rotates": false
+        },	
+		{
+          "id": "wheel_bicycle",
+          "fg": 24554,
+          "rotates": false
+        },
+				{
+          "id": "wheel_motorbike",
+          "fg": 24555,
+          "rotates": false
+        },{
+          "id": "wheel_motorbike_or",
+          "fg": 24556,
+          "rotates": false
+        },
+		{
+          "id": "wheel_bicycle_or",
+          "fg": 24557,
+          "rotates": false
+        },		{
+          "id": "wheel_wide_or",
+          "fg": 24558,
+          "rotates": false
+        },
+		{
+          "id": "wheel_metal",
+          "fg": 24559,
+          "rotates": false
+        },
+				{
+          "id": "wheel_slick",
+          "fg": 24560,
+          "rotates": false
+        },
+		{
+          "id": "wheel_small",
+          "fg": 24561,
+          "rotates": false
+        },		
+		{
+          "id": "wheel_barrow",
+          "fg": 24562,
+          "rotates": false
+        },		{
+          "id": "juniper",
+          "fg": 24563,
+          "rotates": false
+        },
+		{
+          "id": "tarp_raincatcher",
+          "fg": 24564,
+          "rotates": false
+        },
+	        {
+          "id": "t_sidewalk",
+          "fg": [
+            { "weight":3000, "sprite":993},
+            { "weight":1, "sprite":24565},
+			{ "weight":1, "sprite":24566},
+			{ "weight":1, "sprite":24567}
+            ],
+          "rotates": false
+        },	
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -126167,6 +126302,54 @@
 		{
           "id": "f_boulder_large_season_winter", 
           "fg": 32988,
+		  "bg": 32978,
+          "rotates": false
+        },		
+		{
+          "id": ["t_tree_juniper_season_spring"], 
+          "fg": 32989,
+		  "bg": 32977,
+          "rotates": false
+        },			
+		{
+          "id": ["t_tree_juniper_season_summer", "t_tree_juniper"], 
+          "fg": 32990,
+		  "bg": 32977,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_juniper_season_autumn", 
+          "fg": 32991,
+		  "bg": 32977,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_juniper_season_winter", 
+          "fg": 32992,
+		  "bg": 32978,
+          "rotates": false
+        },		
+		{
+          "id": ["t_tree_juniper_harvested_season_spring"], 
+          "fg": 32993,
+		  "bg": 32977,
+          "rotates": false
+        },			
+		{
+          "id": ["t_tree_juniper_harvested_season_summer", "t_tree_juniper_harvested"], 
+          "fg": 32994,
+		  "bg": 32977,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_juniper_harvested_season_autumn", 
+          "fg": 32995,
+		  "bg": 32977,
+          "rotates": false
+        },			
+		{
+          "id": "t_tree_juniper_harvested_season_winter", 
+          "fg": 32996,
 		  "bg": 32978,
           "rotates": false
         }
