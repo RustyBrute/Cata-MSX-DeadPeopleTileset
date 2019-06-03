@@ -48238,7 +48238,7 @@
           "bg": 957
         },
         {
-          "id": "shot_00",
+          "id": ["shot_00", "bp_shot_00"],
           "fg": 223,
           "bg": 957,
           "rotates": false
@@ -48256,13 +48256,13 @@
           "rotates": false
         },
         {
-          "id": "shot_bird",
+          "id": ["shot_bird", "bp_shot_bird"],
           "fg": 225,
           "bg": 957,
           "rotates": false
         },
         {
-          "id": "shot_flechette",
+          "id": ["shot_flechette", "bp_shot_flechette"],
           "fg": 226,
           "bg": 957,
           "rotates": false
@@ -48274,7 +48274,7 @@
           "rotates": false
         },
         {
-          "id": "shot_slug",
+          "id": ["shot_slug", "bp_shot_slug"],
           "fg": 227,
           "bg": 957
         },
@@ -72304,7 +72304,7 @@
           "rotates": false
         },
         {
-          "id": "57mm_casing",
+          "id": ["57mm_casing", "4570_casing"],
           "fg": 1620,
           "rotates": false
         },
@@ -124950,6 +124950,128 @@
 			{ "weight":1, "sprite":24566},
 			{ "weight":1, "sprite":24567}
             ],
+          "rotates": false
+        },		
+        {
+          "id": "1895sbl",
+          "fg": 24568,
+          "rotates": false
+        },	  
+		{
+          "id": "overlay_wielded_1895sbl",
+          "fg": 24569,
+          "rotates": false
+        },			{
+          "id": "40mm_slug",
+          "fg": 24570,
+          "rotates": false
+        },{
+          "id": ["4570_sp", "reloaded_4570_sp"],
+          "fg": 24571,
+          "rotates": false
+        },{
+          "id": ["4570_pen", "reloaded_4570_pen"],
+          "fg": 24572,
+          "rotates": false
+        },
+		{
+          "id": ["4570_low", "reloaded_4570_low"],
+          "fg": 24573,
+          "rotates": false
+        },
+				{
+          "id": "bfr",
+          "fg": 24574,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_bfr",
+          "fg": 24575,
+          "rotates": false
+        },		{
+          "id": "bp_38_special",
+          "fg": 24576,
+          "rotates": false
+        },{
+          "id": "bp_44magnum",
+          "fg": 24577,
+          "rotates": false
+        },{
+          "id": "bp_454_Casull",
+          "fg": 24578,
+          "rotates": false
+        },
+		{
+          "id": "reloaded_4570_bp",
+          "fg": 24579,
+          "rotates": false
+        },	
+		{
+          "id": ["roller_shoes_on", "roller_shoes_off"],
+          "fg": 24580,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_worn_roller_shoes_off"],
+          "fg": 24581,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_worn_roller_shoes_on"],
+          "fg": 24582,
+          "rotates": false
+        },	
+		{
+          "id": ["rosin"],
+          "fg": 24583,
+          "rotates": false
+        },	
+		{
+          "id": ["sharps"],
+          "fg": 24584,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_wielded_sharps"],
+          "fg": 24585,
+          "rotates": false
+        },	
+		{
+          "id": ["DEBUG_spellbook"],
+          "fg": 24586,
+          "rotates": false
+        },	
+		{
+          "id": ["armor_stonefist"],
+          "fg": 24588,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_worn_armor_stonefist"],
+          "fg": 24589,
+          "rotates": false
+        },		{
+          "id": ["crystallized_mana"],
+          "fg": 24590,
+          "rotates": false
+        },{
+          "id": ["generic_spellbook"],
+          "fg": 24591,
+          "rotates": false
+        },
+		{
+          "id": ["ice_gliders"],
+          "fg": 24592,
+          "rotates": false
+        },	
+		{
+          "id": ["overlay_worn_ice_gliders"],
+          "fg": 24593,
+          "rotates": false
+        },
+				{
+          "id": ["magic_lamp"],
+          "fg": 24594,
           "rotates": false
         },	
 		{
