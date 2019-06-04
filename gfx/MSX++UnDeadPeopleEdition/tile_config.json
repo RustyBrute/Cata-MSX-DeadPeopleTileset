@@ -103345,6 +103345,84 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": "f_sandbag_half",
+          "fg": 19252,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19252,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19253, 19254, 19255, 19256],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19257, 19258, 19259, 19260],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19261, 19262],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19263, 19264, 19265, 19266],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19267,
+			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "f_sandbag_wall",
+          "fg": 19268,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19268,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19269, 19270, 19271, 19272],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19273, 19274, 19275, 19276],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19277, 19278],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19279, 19280, 19281, 19282],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19283,
+			  "bg": 0
+            }
+			],
+			"rotates": false
 			}
 			
   ]
@@ -125042,38 +125120,131 @@
           "rotates": false
         },	
 		{
-          "id": ["armor_stonefist"],
-          "fg": 24588,
+          "id": ["armor_stonefist", "stonefist"],
+          "fg": 24587,
           "rotates": false
         },	
 		{
-          "id": ["overlay_worn_armor_stonefist"],
-          "fg": 24589,
+          "id": ["overlay_worn_armor_stonefist", "overlay_wielded_stonefist"],
+          "fg": 24588,
           "rotates": false
         },		{
           "id": ["crystallized_mana"],
-          "fg": 24590,
+          "fg": 24589,
           "rotates": false
         },{
           "id": ["generic_spellbook"],
-          "fg": 24591,
+          "fg": 24590,
           "rotates": false
         },
 		{
           "id": ["ice_gliders"],
-          "fg": 24592,
+          "fg": 24591,
           "rotates": false
         },	
 		{
           "id": ["overlay_worn_ice_gliders"],
+          "fg": 24592,
+          "rotates": false
+        },		{
+          "id": ["magic_lamp"],
           "fg": 24593,
           "rotates": false
         },
 				{
-          "id": ["magic_lamp"],
+          "id": ["afs_welding_mask"],
           "fg": 24594,
           "rotates": false
         },	
+		{
+          "id": ["overlay_worn_afs_welding_mask"],
+          "fg": 24595,
+          "rotates": false
+        },
+		{
+          "id": ["afs_welding_mask_makeshift"],
+          "fg": 24596,
+          "rotates": false
+        },	{
+          "id": ["overlay_worn_afs_welding_mask_makeshift"],
+          "fg": 24597,
+          "rotates": false
+        },	
+		{
+          "id": ["magic_light"],
+          "fg": 24598,
+          "rotates": false
+        },	
+				{
+          "id": ["priest_beginner"],
+          "fg": 24599,
+          "rotates": false
+        },	
+		{
+          "id": ["priest_advanced"],
+          "fg": 24600,
+          "rotates": false
+        },	
+		{
+          "id": ["pyro"],
+          "fg": 24601,
+          "rotates": false
+        },	
+				{
+          "id": ["shield_ice"],
+          "fg": 24602,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_worn_shield_ice"],
+          "fg": 24603,
+          "rotates": false
+        },
+		{
+          "id": ["small_mana_crystal"],
+          "fg": 24604,
+          "rotates": false
+        },		{
+          "id": ["stormglove"],
+          "fg": 24605,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_stormglove"],
+          "fg": 24606,
+          "rotates": false
+        },
+		{
+          "id": ["stormhammer"],
+          "fg": 24607,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_stormhammer"],
+          "fg": 24608,
+          "rotates": false
+        },
+		{
+          "id": ["tome_of_storms"],
+          "fg": 24609,
+          "rotates": false
+        },{
+          "id": ["wand_fireball"],
+          "fg": 24610,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_wand_fireball"],
+          "fg": 24611,
+          "rotates": false
+        },{
+          "id": ["wand_magic_missile"],
+          "fg": 24612,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_wand_magic_missile"],
+          "fg": 24613,
+          "rotates": false
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -126908,6 +127079,15 @@
 		{
           "id": ["corpse_mon_ayenel"],
           "fg": 35810,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_worn_magic_lamp"],
+          "fg": 35811,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_magic_light"],
+          "fg": 35812,
           "rotates": false
         }
 	    
