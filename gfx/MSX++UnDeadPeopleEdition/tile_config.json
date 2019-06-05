@@ -23,7 +23,8 @@
 		  "fake_milling_item",
 		  "fake_burrowing",
 		  "f_lilypad_season_winter",
-		  "f_lotus_season_winter"
+		  "f_lotus_season_winter",
+		  "animal"
 		  
 		  ],
           "fg": 0,
@@ -93678,39 +93679,73 @@
 		 "fg": 5456, 
 		 "rotates": false 
 		},
+			    { 
+		 "id": "corpse_mon_spinosaurus",			
+		 "fg": 5457, 
+		 "rotates": false 
+		},
 	    { 
 		 "id": "mon_tyrannosaurus",		
 		 "fg": 5458, 
+		 "rotates": false 
+		},	    { 
+		 "id": "corpse_mon_tyrannosaurus",		
+		 "fg": 5459, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_triceratops",			
 		 "fg": 5460, 
 		 "rotates": false 
+		},	    { 
+		 "id": "corpse_mon_triceratops",			
+		 "fg": 5461, 
+		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_stegosaurus",			
 		 "fg": 5462, 
+		 "rotates": false 
+		},	    { 
+		 "id": "corpse_mon_stegosaurus",			
+		 "fg": 5463, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_ankylosaurus",			
 		 "fg": 5464, 
 		 "rotates": false 
+		},	    { 
+		 "id": "corpse_mon_ankylosaurus",			
+		 "fg": 5465, 
+		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_allosaurus",			
 		 "fg": 5466, 
+		 "rotates": false 
+		},	    { 
+		 "id": "corpse_mon_allosaurus",			
+		 "fg": 5467, 
 		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_parasaurolophus",		
 		 "fg": 5468, 
 		 "rotates": false 
+		},	    { 
+		 "id": "corpse_mon_parasaurolophus",		
+		 "fg": 5469, 
+		 "rotates": false 
 		},
 	    { 
 		 "id": "mon_utahraptor",			
 		 "fg": 5470, 
+		 "rotates": false 
+		},
+	    { 
+		 "id": "corpse_mon_utahraptor",			
+		 "fg": 5471, 
 		 "rotates": false 
 		}
 	    
@@ -125244,9 +125279,104 @@
           "id": ["overlay_wielded_wand_magic_missile"],
           "fg": 24613,
           "rotates": false
+        },	
+		{
+          "id": ["RobofacCoin"],
+          "fg": 24614,
+          "rotates": false
+        },	
+		{
+          "id": ["riding_saddle"],
+          "fg": 24615,
+          "rotates": false
+        },		{
+          "id": ["yoke_harness"],
+          "fg": 24616,
+          "rotates": false
+        },{
+          "id": ["vp_yoke_harness"],
+          "fg": 24617,
+          "rotates": true
+        },{
+          "id": ["biomancer_spellbook"],
+          "fg": 24618,
+          "rotates": true
+        },{
+          "id": ["bonespear"],
+          "fg": 24619,
+          "rotates": true
+        },{
+          "id": ["overlay_wielded_bonespear"],
+          "fg": 24620,
+          "rotates": true
+        },{
+          "id": ["druid_recurve"],
+          "fg": 24621,
+          "rotates": true
+        },{
+          "id": ["overlay_wielded_druid_recurve"],
+          "fg": 24622,
+          "rotates": true
+        },{
+          "id": ["druid_spellbook"],
+          "fg": 24623,
+          "rotates": true
+        },{
+          "id": ["fleshpouch"],
+          "fg": 24624,
+          "rotates": true
+        },{
+          "id": ["overlay_worn_fleshpouch"],
+          "fg": 24625,
+          "rotates": true
+        },{
+          "id": ["tentacle_whip"],
+          "fg": 24626,
+          "rotates": true
+        },{
+          "id": ["overlay_wielded_tentacle_whip"],
+          "fg": 24627,
+          "rotates": true
+        },{
+          "id": ["winter_grasp"],
+          "fg": 24628,
+          "rotates": true
+        },{
+          "id": ["wizard_beginner"],
+          "fg": 24629,
+          "rotates": true
+        },{
+          "id": ["wizard_advanced"],
+          "fg": 24630,
+          "rotates": true
+        },{
+          "id": ["wizard_utility"],
+          "fg": 24631,
+          "rotates": true
+        },{
+          "id": ["afs_atompot"],
+          "fg": 24632,
+          "rotates": true
         },
 		{
-          "id": "atlatl",
+          "id": ["corpse_mon_compsognathus"],
+          "fg": 24633,
+          "rotates": true
+        },		{
+          "id": ["corpse_mon_gallimimus"],
+          "fg": 24634,
+          "rotates": true
+        },{
+          "id": ["corpse_mon_titanis"],
+          "fg": 24635,
+          "rotates": true
+        },{
+          "id": ["corpse_mon_eoraptor"],
+          "fg": 24636,
+          "rotates": true
+        },
+		{
+          "id": "atlatl", 
           "fg": 1986,
 		  "bg": 0,
 		  "rotates": false 
