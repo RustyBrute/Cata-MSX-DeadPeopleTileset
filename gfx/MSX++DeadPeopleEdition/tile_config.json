@@ -103458,6 +103458,84 @@
             }
 			],
 			"rotates": false
+			},
+			{
+          "id": "t_breach_stone_fake",
+          "fg": 19284,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19284,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19285, 19286, 19287, 19288],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19289, 19290, 19291, 19292],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19293, 19294],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19295, 19296, 19297, 19298],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19299,
+			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_breach_concrete_fake_c",
+          "fg": 19300,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19300,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19301, 19302, 19303, 19304],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19305, 19306, 19307, 19308],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19309, 19310],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19311, 19312, 19313, 19314],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19315,
+			  "bg": 0
+            }
+			],
+			"rotates": false
 			}
 			
   ]
@@ -125374,6 +125452,68 @@
           "id": ["corpse_mon_eoraptor"],
           "fg": 24636,
           "rotates": true
+        },{
+          "id": ["corpse_mon_velociraptor"],
+          "fg": 24637,
+          "rotates": true
+        },{
+          "id": ["corpse_mon_deinonychus"],
+          "fg": 24638,
+          "rotates": true
+        },{
+          "id": ["corpse_mon_dimorphodon"],
+          "fg": 24639,
+          "rotates": true
+        },{
+          "id": ["corpse_mon_dilophosaurus"],
+          "fg": 24640,
+          "rotates": true
+        },
+		{
+          "id": ["t_breach_stone_fake_lowered"],
+          "fg": 24641,
+          "rotates": false
+        },
+				{
+          "id": ["t_breach_lever"],
+          "fg": 24642,
+		  "bg": 24641,
+          "rotates": false
+        },
+		{
+          "id": ["t_breach_concrete_fake_o"],
+          "fg": 24643,
+		  "bg": 24641,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_leaper"],
+          "fg": 24644,
+		  "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_pack"],
+          "fg": 24645,
+		  "bg": 967,
+          "rotates": false
+        },		{
+          "id": ["mon_puker"],
+          "fg": 24646,
+		  "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": ["mon_dullahan"],
+          "fg": 24647,
+		  "bg": 967,
+          "rotates": false
+        },	
+		{
+          "id": ["mon_animate_arm"],
+          "fg": 24648,
+		  "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl", 
@@ -127219,9 +127359,21 @@
           "id": ["overlay_worn_magic_light"],
           "fg": 35812,
           "rotates": false
+        },		{
+          "id": ["mon_slasher"],
+          "fg": 35813,
+          "rotates": false
+        },		{
+          "id": ["mon_waster"],
+          "fg": 35814,
+          "rotates": false
+        },		{
+          "id": ["mon_twitcher"],
+          "fg": 35815,
+          "rotates": false
         }
 	    
     ]
-    }
+    } 
   ]
 }
