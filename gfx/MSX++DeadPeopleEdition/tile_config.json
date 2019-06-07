@@ -95574,7 +95574,30 @@
             ],
 			"bg": 967,
           "rotates": false
-        }		
+        },		  
+		{
+          "id": "mon_zombie_dancer",
+          "fg": [
+            { "weight":111, "sprite":2700},
+			{ "weight":111, "sprite":12196},
+			{ "weight":111, "sprite":12197},	
+			{ "weight":111, "sprite":12198},
+			{ "weight":111, "sprite":12199},
+			{ "weight":111, "sprite":12200},
+			{ "weight":111, "sprite":12201},
+			{ "weight":111, "sprite":12202},
+			{ "weight":111, "sprite":12203},	
+			{ "weight":111, "sprite":12205},
+			{ "weight":111, "sprite":12206},
+			{ "weight":111, "sprite":12207},	
+			{ "weight":111, "sprite":12208},	
+			{ "weight":111, "sprite":12209},
+			{ "weight":111, "sprite":12210},
+			{ "weight":111, "sprite":12211}
+            ],
+          "bg": 967,
+          "rotates": false
+        }
 		
   ]
   },
@@ -103532,6 +103555,45 @@
             {
               "id": "unconnected",
               "fg": 19315,
+			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "f_leaves_pile",
+          "fg": 19316,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19316,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19317, 19318, 19319, 19320],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19321, 19322, 19323, 19324],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19325, 19326],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19327, 19328, 19329, 19330],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19331,
 			  "bg": 0
             }
 			],
@@ -125513,6 +125575,12 @@
           "id": ["mon_animate_arm"],
           "fg": 24648,
 		  "bg": 0,
+          "rotates": false
+        },  
+		{
+          "id": "overlay_wielded_cestus",
+          "fg": 24649,
+          "bg": 0,
           "rotates": false
         },
 		{
