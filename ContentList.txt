@@ -1,0 +1,201 @@
+On June 13 2019
+
+----------------------------------------------------------------------------
+
+Main Game Package:
+
+
+---[Core Content Packs]---
+
+Dark Days Ahead - full support, unique corpses
+
+Aftershock - partial support, unique corpses
+
+C.R.I.T Expansion Mod - partial supports
+
+Desert Region - full support
+
+Magiclysm - full support
+
+
+
+---[Item Addition Mods]---
+
+Bens GF recipes - full support
+
+Craftable Gun Pack - full support
+
+DeadLeaves' Fictional Guns - partial support
+
+Extended Realistic Guns - full support
+
+Garden Pots - partial support
+
+Generic Guns - full support
+
+Icecoon's Arsenal - full support
+
+Makeshift Items Mod - full support
+
+Medieval and Historic Content - full support
+
+More Survival Tools - full support		
+
+Mythological Replicas - full support
+
+
+
+
+---[Creature Mods]---
+
+DinoMod - full support, unique corpses
+
+Modular Turrets - partial support
+
+Salvaged Robots - partial support
+
+
+
+
+---[Misc Additions]---
+
+Alternative Map Key - full supports
+
+Crazy Cataclysm - full supports, NO unique corpses
+
+Fast Healing - full supports
+
+Hydroponics - partial support
+
+Mutant NPCs - full supports
+
+Mythical Martial Arts - full supports
+
+
+
+
+---[Buildings Mods]---
+
+Beta National Guard Camp - full supports
+
+Fuji's More Buildings - full supports
+
+Mapgen Demo - full supports
+
+More Locations - full supports
+
+Urban Development - full supports
+
+
+
+---[Vehicle Mods]---
+
+Folding Parts pack - full supports
+
+Tanks and Other Vehicles - full supports
+
+Vehicle Additions Pack - full supports
+
+
+
+---[Magical Mods]---
+
+Necromancy - full supports
+
+
+
+---[Graphical Mods]---
+
+All graphical mods has Dead People support IF they are designed to work with it. (graphical mod for RetroDays will not work with Dead People and vice versa)
+information about it should be present in title of the mod (DP_ - this graphical mod is for Dead People tilese) or in mod description
+
+
+----------------------------------------------------------------------------
+
+Other Mods:
+
+
+---[Core Content Packs]---
+
+
+
+---[Item Addition Mods]---
+
+Advanced Gear - partial support
+
+Battery Packs - NO support
+
+Dried Fruits - NO support
+
+Lighting Ammo - NO support
+
+More Survival Tools EXTRA - full supports
+
+Pizza Delivery - full supports
+
+Space Heater - full supports
+
+Artyom' Gun Emporium-Reloaded - partial support
+
+Modern Weapon Pack Expanded - partial support
+
+Xtal Gems - NO support
+
+---[Creature Mods]---
+
+Draco's Dog Mod - NO support
+
+PKs Rebalancing - full support, unique corpses
+
+Secronom - partial support, mod tileset
+
+Youkai Enemies - partial support, mod tileset
+
+
+
+---[Misc Additions]---
+
+Cataclysm++ - partial support, unique corpses
+
+Food Irradiator - NO support
+
+Locked Locker - NO support
+
+Mining Mod - full support
+
+NPC Recruitment Options - full support
+
+Book Scanner Mod - full support
+
+Jury-Rigged Robots - NO support
+
+
+
+---[Buildings Mods]---
+
+Dorf Life - full support
+
+Morlock Village - partial support
+
+Randomized Mall - NO support
+
+
+
+---[Vehicle Mods]---
+
+
+
+---[Magical Mods]---
+
+Arcana and Magic Items - partial support, mod tileset
+
+
+
+---------------------------------------------------------------------------------------------------------------
+
+full support - means what there is no missing graphics in the mod according to debug.log (this file do not count mutations, installed bionics or effects as missing even if they do not have appropriate tile assigned for it)
+partial support - some of the objects in the module has graphics some of them still do not
+NO support - none of the objects in the module was covered by this tileset
+unique corpses - all creatures in this module has appropriate "dead body" graphics assigned to them
+NO unique corpses - all or some creatures in this module do not have appropriate "dead body" graphics and will use default "mangled human corpse" as their remains
+mod tileset - mod has it's own tileset what will work alongside mine and will add missing graphics or even change some graphics what already covered by Dead People tileset. If mod has tileset what will not made to work with Dead People when it will not be mention.

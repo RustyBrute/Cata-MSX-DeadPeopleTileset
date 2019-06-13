@@ -61322,6 +61322,12 @@
           "bg": 967,
           "rotates": false
         },
+		        {
+          "id": "t_cactus",
+          "fg": 1544,
+          "bg": 3215,
+          "rotates": false
+        },
         {
           "id": "mon_amigara_horror",
           "fg": 2286,
@@ -85293,7 +85299,7 @@
           ]
         },
         {
-          "id": "t_searth_test",
+          "id": ["t_searth_test", "t_searth"],
           "fg": 3227,
           "bg": 3215,
           "rotates": false,
@@ -98860,7 +98866,7 @@
           "rotates": false		  
         },
 		{
-		  "id": ["t_sand"],
+		  "id": ["t_sand", "t_sand_singing", "t_sanddune"],
           "fg": 17540,
           
           "multitile": true,
@@ -103596,6 +103602,84 @@
               "id": "unconnected",
               "fg": 19331,
 			  "bg": 0
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_outcrop",
+          "fg": 19332,
+		  "bg": 3215,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19332,
+			  "bg": 3215
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19333, 19334, 19335, 19336],
+			  "bg": 3215
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19337, 19338, 19339, 19340],
+			  "bg": 3215
+            },
+            {
+              "id": "edge",
+              "fg": [19341, 19342],
+			  "bg": 3215
+            },
+            {
+              "id": "end_piece",
+              "fg": [19343, 19344, 19345, 19346],
+			  "bg": 3215
+            },
+            {
+              "id": "unconnected",
+              "fg": 19347,
+			  "bg": 3215
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": "t_desertpavement",
+          "fg": 19348,
+		  "bg": 3215,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19348,
+			  "bg": 3215
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19349, 19350, 19351, 19352],
+			  "bg": 3215
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19353, 19354, 19355, 19356],
+			  "bg": 3215
+            },
+            {
+              "id": "edge",
+              "fg": [19357, 19358],
+			  "bg": 3215
+            },
+            {
+              "id": "end_piece",
+              "fg": [19359, 19360, 19361, 19362],
+			  "bg": 3215
+            },
+            {
+              "id": "unconnected",
+              "fg": 19363,
+			  "bg": 3215
             }
 			],
 			"rotates": false
@@ -125621,6 +125705,84 @@
           "fg": 24656,
           "bg": 0,
           "rotates": false
+        },{
+          "id": "wood_beam",
+          "fg": 24657,
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": "cholla_bud",
+          "fg": 24658,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "mon_scorpion_giant",
+          "fg": 24659,
+          "bg": 967,
+          "rotates": false
+        },		{
+          "id": "mon_kangaroo_hook",
+          "fg": 24660,
+          "bg": 967,
+          "rotates": false
+        },
+		{
+          "id": "mon_zandcrawler",
+          "fg": 24661,
+          "bg": 967,
+          "rotates": false
+        },		{
+          "id": "mon_gilamon",
+          "fg": 24662,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "f_bitts",
+          "fg": 24663,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "RPG_die",
+          "fg": 24664,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "metal_RPG_die",
+          "fg": 24665,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": "pneumatic_shotgun",
+          "fg": 24666,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_pneumatic_shotgun",
+          "fg": 24667,
+          "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": ["shotcanister_bearing", "shotcanister_flechette", "shotcanister_pebble", "shotcanister_scrap" ],
+          "fg": 24668,
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": ["mana_potion_lesser" ],
+          "fg": 24669,
+          "bg": 0,
+          "rotates": false
+        },{
+          "id": ["recovery_spellbook" ],
+          "fg": 24670,
+          "bg": 0,
+          "rotates": false
         },
 		{
           "id": "atlatl",
@@ -127477,6 +127639,14 @@
         },		{
           "id": ["mon_twitcher"],
           "fg": 35815,
+          "rotates": false
+        },		{
+          "id": ["mon_bushelephant"],
+          "fg": 35816,
+          "rotates": false
+        },		{
+          "id": ["mon_bushelephant_fungal"],
+          "fg": 35817,
           "rotates": false
         }
 	    
