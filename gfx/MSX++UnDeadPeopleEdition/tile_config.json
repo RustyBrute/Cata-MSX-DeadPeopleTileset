@@ -46660,7 +46660,7 @@
           "rotates": false
         },
 		{
-          "id": ["357", "357_mag", "357_magn"],
+          "id": ["357", "357_mag", "357_magn", "357mag_fmj", "357mag_jhp"],
           "fg": 18,
           "bg": 957,
           "rotates": false
@@ -53817,7 +53817,7 @@
           "rotates": false
         },	
 		{
-          "id": ["357sig_casing", "357_casing"],
+          "id": ["357sig_casing", "357_casing", "357mag_casing"],
           "fg": 1612,
           "bg": 957,
           "rotates": false
@@ -80203,10 +80203,6 @@
           "id": "moss_brownie",
           "fg": 2070,
           "rotates": false
-        },
-        {
-          "id": "rm11b_sniper_rifle",
-          "fg": 2073
         },
         {
           "id": ["overlay_wielded_2_shot_special", "overlay_wielded_hs_semi"],
@@ -125783,6 +125779,31 @@
           "fg": 24670,
           "bg": 0,
           "rotates": false
+        },
+		{
+          "id": ["glock_31" ],
+          "fg": 24671,
+          "bg": 0,
+          "rotates": false
+        },		{
+          "id": ["overlay_wielded_glock_31" ],
+          "fg": 24672,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["needlepistol" ],
+          "fg": 24673,
+          "bg": 0,
+          "rotates": false
+        },   
+		{
+          "id": "rm11b_sniper_rifle",
+          "fg": 24674
+        },	
+		{
+          "id": "overlay_wielded_rm11b_sniper_rifle",
+          "fg": 24675
         },
 		{
           "id": "atlatl",
