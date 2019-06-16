@@ -127669,6 +127669,14 @@
           "id": ["mon_bushelephant_fungal"],
           "fg": 35817,
           "rotates": false
+        },		{
+          "id": ["overlay_male_crouch", "overlay_female_crouch"],
+          "bg": 35818,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_run", "overlay_female_run"],
+          "fg": 35819,
+          "rotates": false
         }
 	    
     ]
