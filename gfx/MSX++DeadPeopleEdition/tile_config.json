@@ -47155,7 +47155,7 @@
           "rotates": false
         },
         {
-          "id": "9mmfmj",
+          "id": ["9mmfmj", "bp_9mm", "bp_9mmfmj"],
           "fg": 86,
           "bg": 957,
           "rotates": false
@@ -47781,7 +47781,7 @@
           "fg": 169
         },
         {
-          "id": "reloaded_10mm",
+          "id": ["reloaded_10mm", "10mm_fmj"], 
           "fg": 170,
           "bg": 957,
           "rotates": false
@@ -71694,7 +71694,7 @@
           "fg": 1512
         },
         {
-          "id": "f_floor_canvas",
+          "id": ["f_floor_canvas", "f_punching_bag"],
           "fg": 1513,
           "rotates": false
         },
@@ -72331,7 +72331,7 @@
           "fg": 1622
         },
         {
-          "id": ["9mm_casing", ".380_casing"],
+          "id": ["9mm_casing", ".380_casing", "10mm_casing"],
           "fg": 1623,
           "rotates": false
         },
@@ -101815,7 +101815,7 @@
 			"rotates": false
 			},
 			{
-          "id": "t_wall_metal",
+          "id": ["t_wall_metal", "t_secretdoor_metal_c"],
           "fg": 18628,
           "bg": 993,
           "rotates": false,
@@ -103676,6 +103676,240 @@
               "id": "unconnected",
               "fg": 19363,
 			  "bg": 3215
+            }
+			],
+			"rotates": false
+			},			
+			{
+          "id": "t_carpet_red",
+          "fg": 19364,
+		  "bg": 987,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19364,
+			  "bg": 987
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19365, 19366, 19367, 19368],
+			  "bg": 987
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19369, 19370, 19371, 19372],
+			  "bg": 987
+            },
+            {
+              "id": "edge",
+              "fg": [19373, 19374],
+			  "bg": 987
+            },
+            {
+              "id": "end_piece",
+              "fg": [19375, 19376, 19377, 19378],
+			  "bg": 987
+            },
+            {
+              "id": "unconnected",
+              "fg": 19379,
+			  "bg": 987
+            }
+			],
+			"rotates": false
+			},			
+			{
+          "id": "t_carpet_yellow",
+          "fg": 19380,
+		  "bg": 987,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19380,
+			  "bg": 987
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19381, 19382, 19383, 19384],
+			  "bg": 987
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19385, 19386, 19387, 19388],
+			  "bg": 987
+            },
+            {
+              "id": "edge",
+              "fg": [19389, 19390],
+			  "bg": 987
+            },
+            {
+              "id": "end_piece",
+              "fg": [19391, 19392, 19393, 19394],
+			  "bg": 987
+            },
+            {
+              "id": "unconnected",
+              "fg": 19395,
+			  "bg": 987
+            }
+			],
+			"rotates": false
+			},			
+			{
+          "id": "t_carpet_green",
+          "fg": 19396,
+		  "bg": 987,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19396,
+			  "bg": 987
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19397, 19398, 19399, 19400],
+			  "bg": 987
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19401, 19402, 19403, 19404],
+			  "bg": 987
+            },
+            {
+              "id": "edge",
+              "fg": [19405, 19406],
+			  "bg": 987
+            },
+            {
+              "id": "end_piece",
+              "fg": [19407, 19408, 19409, 19410],
+			  "bg": 987
+            },
+            {
+              "id": "unconnected",
+              "fg": 19411,
+			  "bg": 987
+            }
+			],
+			"rotates": false
+			},			
+			{
+          "id": "t_carpet_purple",
+          "fg": 19412,
+		  "bg": 987,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19412,
+			  "bg": 987
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19413, 19414, 19415, 19416],
+			  "bg": 987
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19417, 19418, 19419, 19420],
+			  "bg": 987
+            },
+            {
+              "id": "edge",
+              "fg": [19421, 19422],
+			  "bg": 987
+            },
+            {
+              "id": "end_piece",
+              "fg": [19423, 19424, 19425, 19426],
+			  "bg": 987
+            },
+            {
+              "id": "unconnected",
+              "fg": 19427,
+			  "bg": 987
+            }
+			],
+			"rotates": false
+			},			
+			{
+          "id": "t_carpet_concrete",
+          "fg": 19428,
+		  "bg": 5010,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19428,
+			  "bg": 5010
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19429, 19430, 19431, 19432],
+			  "bg": 5010
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19433, 19434, 19435, 19436],
+			  "bg": 5010
+            },
+            {
+              "id": "edge",
+              "fg": [19437, 19438],
+			  "bg": 5010
+            },
+            {
+              "id": "end_piece",
+              "fg": [19439, 19440, 19441, 19442],
+			  "bg": 5010
+            },
+            {
+              "id": "unconnected",
+              "fg": 19443,
+			  "bg": 5010
+            }
+			],
+			"rotates": false
+			},			
+			{
+          "id": "t_carpet_metal",
+          "fg": 19444,
+		  "bg": 23383,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19444,
+			  "bg": 23383
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19445, 19446, 19447, 19448],
+			  "bg": 23383
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19449, 19450, 19451, 19452],
+			  "bg": 23383
+            },
+            {
+              "id": "edge",
+              "fg": [19453, 19454],
+			  "bg": 23383
+            },
+            {
+              "id": "end_piece",
+              "fg": [19455, 19456, 19457, 19458],
+			  "bg": 23383
+            },
+            {
+              "id": "unconnected",
+              "fg": 19459,
+			  "bg": 23383
             }
 			],
 			"rotates": false
@@ -118034,7 +118268,7 @@
           "bg": 0
         },
 				{
-          "id": "t_metal_floor",
+          "id": ["t_metal_floor", "t_secretdoor_metal_o"],
           "fg": 23383,
           "bg": 0
         },
@@ -125805,6 +126039,121 @@
           "id": "overlay_wielded_rm11b_sniper_rifle",
           "fg": 24675
         },
+				{
+          "id": "t_card_fp",
+          "fg": 24676
+        },
+		{
+          "id": "fp_loyalty_card",
+          "fg": 24677
+        },
+				{
+          "id": "m17",
+          "fg": 24678
+        },
+		{
+          "id": "overlay_wielded_m17",
+          "fg": 24679
+        },	
+		{
+          "id": "angular_grinder",
+          "fg": 24680
+        },        
+		{
+          "id": "overlay_wielded_polisher",
+          "fg": 24681,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "overlay_wielded_angular_grinder",
+          "fg": 24682,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": "badge_foodkid",
+          "fg": 24683,
+          "bg": 0,
+          "rotates": false
+        },
+		        {
+          "id": "overlay_worn_badge_cybercop",
+          "fg": 24684,
+          "bg": 0
+        },{
+          "id": "overlay_worn_badge_deputy",
+          "fg": 24685,
+          "bg": 0
+        },{
+          "id": "overlay_worn_badge_detective",
+          "fg": 24686,
+          "bg": 0
+        },{
+          "id": "overlay_worn_badge_marshal",
+          "fg": 24687,
+          "bg": 0
+        },{
+          "id": "badge_swat",
+          "fg": 24688,
+          "bg": 0
+        },{
+          "id": "overlay_worn_badge_swat",
+          "fg": 24689,
+          "bg": 0
+        },
+		{
+          "id": "overlay_worn_badge_foodkid",
+          "fg": 24690,
+          "bg": 0
+        },		{
+          "id": "overlay_worn_badge_doctor",
+          "fg": 24691,
+          "bg": 0
+        },
+		{
+          "id": "butterfly_swords",
+          "fg": 24692,
+          "bg": 0
+        },
+				{
+          "id": "overlay_wielded_butterfly_swords",
+          "fg": 24693,
+          "bg": 0
+        },{
+          "id": "cape_fp",
+          "fg": 24694,
+          "bg": 0
+        },{
+          "id": "overlay_worn_cape_fp",
+          "fg": 24695,
+          "bg": 0
+        },{
+          "id": "foodperson_mask",
+          "fg": 24696,
+          "bg": 0
+        },{
+          "id": "overlay_worn_foodperson_mask",
+          "fg": 24697,
+          "bg": 0
+        },
+		{
+          "id": "foodperson_mask_on",
+          "fg": 24698,
+          "bg": 0
+        },{
+          "id": "overlay_worn_foodperson_mask_on",
+          "fg": 24699,
+          "bg": 0
+        },		{
+          "id": "chestguard_hard",
+          "fg": 24700,
+          "bg": 0
+        },{
+          "id": "overlay_worn_chestguard_hard",
+          "fg": 24701,
+          "bg": 0
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -127671,7 +128020,7 @@
           "rotates": false
         },		{
           "id": ["overlay_male_crouch", "overlay_female_crouch"],
-          "bg": 35818,
+          "fg": 35818,
           "rotates": false
         },		{
           "id": ["overlay_male_run", "overlay_female_run"],
