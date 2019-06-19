@@ -126221,7 +126221,7 @@
           "additional_tiles": [
             {
               "id": "broken",
-              "fg": 24713,
+              "fg": 24712,
               "bg": 0
             }
           ]
@@ -126235,7 +126235,7 @@
           "additional_tiles": [
             {
               "id": "broken",
-              "fg": 24714,
+              "fg": 24713,
               "bg": 0
             }
           ]
@@ -126266,8 +126266,7 @@
               "bg": 0
             }
           ]
-        },	
-		       
+        },	    
 		{
           "id": "vp_basketsm",
           "fg": 24702,
@@ -126328,7 +126327,81 @@
               "bg": 0
             }
           ]
-        },	
+        },
+		{
+          "id": "armor_scrapsuit",
+          "fg": 24714,
+          "bg": 0
+        },		
+		{
+          "id": "cuirass_scrap",
+          "fg": 24715,
+          "bg": 0
+        },
+				{
+          "id": "overlay_worn_cuirass_scrap",
+          "fg": 24716,
+          "bg": 0
+        },		{
+          "id": "armguard_scrap",
+          "fg": 24717,
+          "bg": 0
+        },
+				{
+          "id": "overlay_worn_armguard_scrap",
+          "fg": 24718,
+          "bg": 0
+        },{
+          "id": "helmet_scrap",
+          "fg": 24719,
+          "bg": 0
+        },
+				{
+          "id": "overlay_worn_helmet_scrap",
+          "fg": 24720,
+          "bg": 0
+        },{
+          "id": "legguard_scrap",
+          "fg": 24721,
+          "bg": 0
+        },
+				{
+          "id": "overlay_worn_legguard_scrap",
+          "fg": 24722,
+          "bg": 0
+        },{
+          "id": "boots_scrap",
+          "fg": 24723,
+          "bg": 0
+        },
+				{
+          "id": "overlay_worn_boots_scrap",
+          "fg": 24724,
+          "bg": 0
+        },{
+          "id": "hand_vice",
+          "fg": 24725,
+          "bg": 0
+        },
+		{
+          "id": "robofac_jumpsuit",
+          "fg": 24726,
+          "bg": 0
+        },
+				{
+          "id": "overlay_male_worn_robofac_jumpsuit",
+          "fg": 24727,
+          "bg": 0
+        },{
+          "id": "overlay_female_worn_robofac_jumpsuit",
+          "fg": 24728,
+          "bg": 0
+        },{
+          "id": "hinge",
+          "fg": 24729,
+          "bg": 0
+        },
+		
 		{
           "id": "atlatl",
           "fg": 1986,
@@ -128218,6 +128291,47 @@
         },		{
           "id": ["overlay_wielded_long_pole"],
           "fg": 35821,
+          "rotates": false
+        },
+		{
+          "id": ["t_wood_stairs_down"],
+          "fg": 35822,
+          "rotates": false
+        },
+		{
+          "id": ["t_wood_stairs_up_half"],
+          "fg": 35823,
+          "rotates": false
+        },
+		{
+          "id": ["t_wood_stairs_up_broken"],
+          "fg": 35824,
+          "rotates": false
+        },
+		{
+          "id": ["t_wood_stairs_up"],
+          "fg": 35825,
+		  "bg": 0,		  
+          "rotates": false
+        },		{
+          "id": ["2h_flail_steel"],
+          "fg": 35826,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_2h_flail_steel"],
+          "fg": 35827,
+		  "bg": 0,		  
+          "rotates": false
+        },		{
+          "id": ["2h_flail_wood"],
+          "fg": 35828,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_2h_flail_wood"],
+          "fg": 35829,
+		  "bg": 0,		  
           "rotates": false
         }
 	    
