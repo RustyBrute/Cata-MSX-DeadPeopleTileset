@@ -47781,7 +47781,7 @@
           "fg": 169
         },
         {
-          "id": ["reloaded_10mm", "10mm_fmj"], 
+          "id": ["reloaded_10mm", "10mm_fmj", "reloaded_10mm_fmj"], 
           "fg": 170,
           "bg": 957,
           "rotates": false
@@ -126401,6 +126401,43 @@
           "fg": 24729,
           "bg": 0
         },
+		{
+          "id": "homemade_burrito",
+          "fg": 24730,
+          "bg": 0
+        },{
+          "id": "junk_burrito",
+          "fg": 24731,
+          "bg": 0
+        },{
+          "id": "pin_reamer",
+          "fg": 24732,
+          "bg": 0
+        },
+		{
+          "id": "saddlebag",
+          "fg": 24733,
+          "bg": 0
+        },
+		{
+          "id": "overlay_worn_saddlebag",
+          "fg": 24734,
+          "bg": 0
+        },	
+		{
+          "id": ["shot_dragon", "reloaded_shot_dragon"],
+          "fg": 24735,
+          "bg": 0
+        },	
+		{
+          "id": ["p320_357sig"],
+          "fg": 24736,
+          "bg": 0
+        },		{
+          "id": ["overlay_wielded_p320_357sig"],
+          "fg": 24737,
+          "bg": 0
+        },
 		
 		{
           "id": "atlatl",
@@ -128333,7 +128370,83 @@
           "fg": 35829,
 		  "bg": 0,		  
           "rotates": false
-        }
+        },
+			{
+          "id": ["t_slope_up"],
+          "fg": 35837,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 35837,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [35838, 35839, 35840, 35841],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [35842, 35843, 35844, 35845],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [35846, 35847],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [35848, 35849, 35850, 35851],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 35852,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			},
+			{
+          "id": ["t_slope_down"],
+          "fg": 35853,
+		  "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "center",
+              "fg": 35853,
+			  "bg": 972
+            },
+            {
+              "id": "corner",
+              "fg": [35854, 35855, 35856, 35857],
+			  "bg": 972
+            },
+            {
+              "id": "t_connection",
+              "fg": [35858, 35859, 35860, 35861],
+			  "bg": 972
+            },
+            {
+              "id": "edge",
+              "fg": [35858, 35863],
+			  "bg": 972
+            },
+            {
+              "id": "end_piece",
+              "fg": [35864, 35865, 35866, 35867],
+			  "bg": 972
+            },
+            {
+              "id": "unconnected",
+              "fg": 35868,
+			  "bg": 972
+            }
+			],
+			"rotates": false
+			}
 	    
     ]
     } 
