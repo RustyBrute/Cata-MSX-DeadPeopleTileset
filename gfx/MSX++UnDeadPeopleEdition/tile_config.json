@@ -25,7 +25,8 @@
 		  "f_lilypad_season_winter",
 		  "f_lotus_season_winter",
 		  "animal",
-		  "bio_powershot"
+		  "bio_powershot",
+		  "f_no_item"
 		  
 		  ],
           "fg": 0,
@@ -46660,7 +46661,7 @@
           "rotates": false
         },
 		{
-          "id": ["357", "357_mag", "357_magn", "357mag_fmj", "357mag_jhp"],
+          "id": ["357", "357_mag", "357_magn", "357mag_fmj", "357mag_jhp", "reloaded_357mag_fmj", "reloaded_357mag_jhp"],
           "fg": 18,
           "bg": 957,
           "rotates": false
@@ -46796,7 +46797,7 @@
           "bg": 957
         },
         {
-          "id": "38_fmj",
+          "id": ["38_fmj", "38super_fmj", "reloaded_38super_fmj"],
           "fg": 33,
           "bg": 957,
           "rotates": false
@@ -46904,7 +46905,7 @@
           "rotates": false
         },
 		{
-          "id": "45_long_colt",
+          "id": ["45_long_colt", "45colt_jhp", "reloaded_45colt_jhp"],
           "fg": 49,
           "bg": 957,
           "rotates": false
@@ -48122,7 +48123,7 @@
           "rotates": false
         },
 				{
-          "id": "410_shot",
+          "id": ["410_shot", "410shot_000", "reloaded_410shot_000"],
           "fg": 9,
           "bg": 957,
           "rotates": false
@@ -53805,13 +53806,13 @@
           "rotates": false
         },
         {
-          "id": ["38_casing", "3030_casing"],
+          "id": ["38_casing", "3030_casing", "38super_casing"],
           "fg": 1612,
           "bg": 957,
           "rotates": false
         },
 		{
-          "id": ["45lc_casing", "460_casing"],
+          "id": ["45lc_casing", "460_casing", "45colt_casing"],
           "fg": 1612,
           "bg": 957,
           "rotates": false
@@ -69306,7 +69307,7 @@
           "rotates": false
         },
         {
-          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood", "almond_milk", "soy_milk", "milk_reconstituted"],
+          "id": ["milk", "rice_milk", "milkshake", "milkshake_deluxe", "milkshake_fastfood", "almond_milk", "soy_milk", "milk_reconstituted", "milk_raw", "milk_evap", "milk_UHT"],
           "fg": 1153,
           "rotates": false
         },
@@ -73833,7 +73834,7 @@
           "rotates": false
         },
         {
-          "id": "shot_hull",
+          "id": ["shot_hull", "410shot_hull"],
           "fg": 1917,
           "rotates": false
         },
@@ -126438,7 +126439,202 @@
           "fg": 24737,
           "bg": 0
         },
-		
+		{
+          "id": ["f_hanging_meathook"],
+          "fg": 24738,
+          "bg": 0
+        },		{
+          "id": ["f_speaker_cabinet"],
+          "fg": 24739,
+          "bg": 0
+        },		{
+          "id": ["carton_sealed"],
+          "fg": 24740,
+          "bg": 0
+        },		{
+          "id": ["carton_unsealed"],
+          "fg": 24741,
+          "bg": 0
+        },
+		{
+          "id": ["amplifier_head"],
+          "fg": 24742,
+          "bg": 0
+        },		{
+          "id": ["butter"],
+          "fg": 24743,
+          "bg": 0
+        },{
+          "id": ["buttermilk"],
+          "fg": 24744,
+          "bg": 0
+        },
+		{
+          "id": ["grip_hook"],
+          "fg": 24745,
+          "bg": 0
+        },		{
+          "id": ["overlay_wielded_grip_hook"],
+          "fg": 24746,
+          "bg": 0
+        },		{
+          "id": ["tshirt_tour"],
+          "fg": 24747,
+          "bg": 0
+        },		{
+          "id": ["overlay_female_worn_tshirt_tour"],
+          "fg": 24748,
+          "bg": 0
+        },{
+          "id": ["overlay_male_worn_tshirt_tour"],
+          "fg": 24749,
+          "bg": 0
+        },
+		{
+          "id": ["ghee"],
+          "fg": 24750,
+          "bg": 0
+        },		{
+          "id": ["gloves_cut_resistant"],
+          "fg": 24751,
+          "bg": 0
+        },		{
+          "id": ["overlay_worn_gloves_cut_resistant"],
+          "fg": 24752,
+          "bg": 0
+        },
+		{
+          "id": ["manual_wingchun"],
+          "fg": 24753,
+          "bg": 0
+        },		{
+          "id": ["metal_file"],
+          "fg": 24754,
+          "bg": 0
+        },{
+          "id": ["pipe_cleaner"],
+          "fg": 24755,
+          "bg": 0
+        },		{
+          "id": ["guitar_electric"],
+          "fg": 24756,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_guitar_electric"],
+          "fg": 24757,
+          "bg": 0
+        },
+		{
+          "id": ["overlay_worn_acoustic_guitar"],
+          "fg": 24758,
+          "bg": 0
+        },		{
+          "id": ["overlay_worn_guitar_electric"],
+          "fg": 24759,
+          "bg": 0
+        },
+		{
+          "id": ["xlhsurvivor_suit"],
+          "fg": 24760,
+          "bg": 0
+        },		{
+          "id": ["overlay_worn_xlhsurvivor_suit"],
+          "fg": 24761,
+          "bg": 0
+        },		{
+          "id": ["xlkevlar"],
+          "fg": 24762,
+          "bg": 0
+        },		{
+          "id": ["overlay_worn_xlkevlar"],
+          "fg": 24763,
+          "bg": 0
+        },
+				{
+          "id": ["eshaper_spellbook"],
+          "fg": 24764,
+          "bg": 0
+        },
+		{
+          "id": ["kevlar_armor_horse"],
+          "fg": 24765,
+          "bg": 0
+        },		{
+          "id": ["acidchitin_armor_horse"],
+          "fg": 24766,
+          "bg": 0
+        },		{
+          "id": ["chitin_armor_horse"],
+          "fg": 24767,
+          "bg": 0
+        },		{
+          "id": ["chainmail_armor_horse"],
+          "fg": 24768,
+          "bg": 0
+        },		{
+          "id": ["leather_armor_horse"],
+          "fg": 24769,
+          "bg": 0
+        },		{
+          "id": ["leatherbone_armor_horse"],
+          "fg": 24770,
+          "bg": 0
+        },		{
+          "id": ["rubber_armor_horse"],
+          "fg": 24771,
+          "bg": 0
+        },		{
+          "id": ["superalloy_armor_horse"],
+          "fg": 24772,
+          "bg": 0
+        },{
+          "id": ["saiga410mag_10rd"],
+          "fg": 24773,
+          "bg": 0
+        },{
+          "id": ["saiga410mag_30rd"],
+          "fg": 24774,
+          "bg": 0
+        },
+		{
+          "id": ["m1911a1_38super"],
+          "fg": 24775,
+          "bg": 0
+        },
+				{
+          "id": ["overlay_wielded_m1911a1_38super"],
+          "fg": 24776,
+          "bg": 0
+        },{
+          "id": ["m1911mag_10rd_38super"],
+          "fg": 24777,
+          "bg": 0
+        },{
+          "id": ["p320mag_14rd_357sig"],
+          "fg": 24778,
+          "bg": 0
+        },{
+          "id": ["p320mag_17rd_9x19mm"],
+          "fg": 24779,
+          "bg": 0
+        },{
+          "id": ["magus_spellbook"],
+          "fg": 24780,
+          "bg": 0
+        },
+		{
+          "id": ["magus_spellbook_move"],
+          "fg": 24781,
+          "bg": 0
+        },		{
+          "id": ["summon_undead_spellbook"],
+          "fg": 24782,
+          "bg": 0
+        },{
+          "id": ["summon_scroll_smudged"],
+          "fg": 24783,
+          "bg": 0
+        },
 		{
           "id": "atlatl",
           "fg": 1986,
