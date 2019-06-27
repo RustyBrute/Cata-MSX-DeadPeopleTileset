@@ -53830,7 +53830,7 @@
           "rotates": false
         },
         {
-          "id": "8mm_bootleg_jsp",
+          "id": ["8mm_bootleg_jsp", "270win_jsp", "reloaded_270win_jsp"], 
           "fg": 3937,
           "bg": 957,
           "rotates": false
@@ -57518,7 +57518,7 @@
           "rotates": false
         },
         {
-          "id": "estoc",
+          "id": ["estoc", "estoc_inferior"], 
           "fg": 1727,
           "bg": 957,
           "rotates": false
@@ -72214,7 +72214,7 @@
           "rotates": false
         },
         {
-          "id": "22_casing",
+          "id": ["22_casing", "270win_casing"], 
           "fg": 1605,
           "rotates": false
         },
@@ -73368,7 +73368,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_estoc",
+          "id": ["overlay_wielded_estoc", "overlay_wielded_estoc_inferior"],
           "fg": 1844,
           "rotates": false
         },
@@ -103915,7 +103915,7 @@
 			],
 			"rotates": false
 			},{
-          "id": "free_realestate",
+          "id": "t_concrete",
           "fg": 19460,
 		  "bg": 0,
 		  "multitile": true,
@@ -103948,6 +103948,44 @@
             {
               "id": "unconnected",
               "fg": 19475,
+			  "bg": 0
+            }
+			],
+			"rotates": true
+			},{
+          "id": "fd_tear_gas",
+          "fg": 19476,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19476,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19477, 19478, 19479, 19480],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19481, 19482, 19483, 19484],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19485, 19486],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19487, 19488, 19489, 19490],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19491,
 			  "bg": 0
             }
 			],
@@ -126634,6 +126672,139 @@
           "id": ["summon_scroll_smudged"],
           "fg": 24783,
           "bg": 0
+        },{
+          "id": ["grip_mount"],
+          "fg": 24784,
+          "bg": 0
+        },{
+          "id": ["personal_gobag"],
+          "fg": 24785,
+          "bg": 0
+        },{
+          "id": ["overlay_worn_personal_gobag"],
+          "fg": 24786,
+          "bg": 0
+        },{
+          "id": ["rail_mount"],
+          "fg": 24787,
+          "bg": 0
+        },
+		{
+          "id": ["remington700_270"],
+          "fg": 24788,
+          "bg": 0
+        },	
+		{
+          "id": ["overlay_weilded_remington700_270"],
+          "fg": 24789,
+          "bg": 0
+        },		{
+          "id": ["sights_mount"],
+          "fg": 24790,
+          "bg": 0
+        },{
+          "id": ["sights_mount_launcher"],
+          "fg": 24791,
+          "bg": 0
+        },{
+          "id": ["sights_mount_pistol"],
+          "fg": 24792,
+          "bg": 0
+        },{
+          "id": ["stock_mount"],
+          "fg": 24793,
+          "bg": 0
+        },{
+          "id": ["underbarrel_mount"],
+          "fg": 24794,
+          "bg": 0
+        },{
+          "id": ["mon_owlbear"],
+          "fg": 24795,
+          "bg": 0
+        },{
+          "id": ["mon_owlbear_cub"],
+          "fg": 24796,
+          "bg": 0
+        },{
+          "id": ["corpse_mon_owlbear"],
+          "fg": 24797,
+          "bg": 0
+        },{
+          "id": ["corpse_mon_owlbear_cub"],
+          "fg": 24798,
+          "bg": 0
+        },{
+          "id": ["f_magiclysm_translocator_gate"],
+          "fg": 24799,
+          "bg": 0
+        },{
+          "id": ["egg_owlbear_rock"],
+          "fg": 24800,
+          "bg": 0
+        },{
+          "id": ["egg_owlbear"],
+          "fg": 24801,
+          "bg": 0
+        },
+		{
+          "id": ["owlbear_stone"],
+          "fg": 24802,
+          "bg": 0
+        },	
+		{
+          "id": ["finger_firelighter"],
+          "fg": 24803,
+          "bg": 0
+        },		{
+          "id": ["overlay_wielded_finger_firelighter"],
+          "fg": 24804,
+          "bg": 0
+        },{
+          "id": ["stone_shell"],
+          "fg": 24805,
+          "bg": 0
+        },{
+          "id": ["translocate_spellbook"],
+          "fg": 24806,
+          "bg": 0
+        },{
+          "id": ["rune_alchemist"],
+          "fg": 24807,
+          "bg": 0
+        },{
+          "id": ["rune_animist"],
+          "fg": 24808,
+          "bg": 0
+        },{
+          "id": ["rune_biomancer"],
+          "fg": 24809,
+          "bg": 0
+        },
+		{
+          "id": ["rune_druid"],
+          "fg": 24810,
+          "bg": 0
+        },		{
+          "id": ["rune_earthshaper"],
+          "fg": 24811,
+          "bg": 0
+        },{
+          "id": ["rune_kelvinist"], 
+          "fg": 24812,
+          "bg": 0
+        },{
+          "id": ["rune_magus"],
+          "fg": 24813,
+          "bg": 0
+        },{
+          "id": ["rune_stormshaper"],
+          "fg": 24814,
+          "bg": 0
+        },{
+          "id": ["rune_technomancer"],
+          "fg": 24815,
+          "bg": 0
         },
 		{
           "id": "atlatl",
@@ -128568,7 +128739,7 @@
           "rotates": false
         },
 			{
-          "id": ["t_slope_up"],
+          "id": ["!t_slope_up"],
           "fg": 35837,
 		  "multitile": true,
           "additional_tiles": [
@@ -128606,7 +128777,7 @@
 			"rotates": false
 			},
 			{
-          "id": ["t_slope_down"],
+          "id": ["!t_slope_down"],
           "fg": 35853,
 		  "multitile": true,
           "additional_tiles": [
