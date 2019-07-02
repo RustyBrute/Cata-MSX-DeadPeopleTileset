@@ -26,7 +26,11 @@
 		  "f_lotus_season_winter",
 		  "animal",
 		  "bio_powershot",
-		  "f_no_item"
+		  "f_no_item",
+		  "nano_turret_pistol_weapon",
+		  "nano_turret_rifle_weapon",
+		  "nano_turret_shredder_weapon",
+		  "nano_turret_smg_weapon"
 		  
 		  ],
           "fg": 0,
@@ -91784,6 +91788,11 @@
           "id": "vp_roof",
           "fg": 4095,
           "rotates": true
+        },  
+		{
+          "id": "vp_nano_roof",
+          "fg": 4095,
+          "rotates": true
         },
         {
           "id": "vp_inflatable_section",
@@ -103984,6 +103993,44 @@
             {
               "id": "unconnected",
               "fg": 19491,
+			  "bg": 0
+            }
+			],
+			"rotates": true
+			},{
+          "id": "t_nano_wall",
+          "fg": 19492,
+		  "bg": 0,
+		  "multitile": true,
+          "additional_tiles": [ 
+			{
+              "id": "center",
+              "fg": 19492,
+			  "bg": 0
+            },		  
+		  {
+              "id": "corner",
+              "fg": [19493, 19494, 19495, 19496],
+			  "bg": 0
+            },
+					  {
+              "id": "t_connection",
+              "fg": [19497, 19498, 19499, 19500],
+			  "bg": 0
+            },
+            {
+              "id": "edge",
+              "fg": [19501, 19502],
+			  "bg": 0
+            },
+            {
+              "id": "end_piece",
+              "fg": [19503, 19504, 19505, 19506],
+			  "bg": 0
+            },
+            {
+              "id": "unconnected",
+              "fg": 19507,
 			  "bg": 0
             }
 			],
@@ -117215,17 +117262,22 @@
           "rotates": false
         },
 		{
-          "id": "nanosuit",
+          "id": ["nanosuit", "nanosuit_heated", "nanosuit_heated_2", "nanosuit_heated_3", "nanosuit_heated_4", "nanosuit_heated_5"],
           "fg": 23150
         },
 		{
-          "id": "overlay_worn_nanosuit",
+          "id": ["overlay_worn_nanosuit", "overlay_worn_nanosuit_heated", "overlay_worn_nanosuit_heated_2", "overlay_worn_nanosuit_heated_3", "overlay_worn_nanosuit_heated_4", "overlay_worn_nanosuit_heated_5"],
           "fg": 23151,
           "rotates": false
         },
 		{
           "id": "nano_container",
           "fg": 23152
+        },	
+		{
+          "id": "nt_fluid_tank_1",
+          "fg": 23152,
+          "rotates": false
         },
 		{
           "id": "overlay_worn_nano_container",
@@ -126846,6 +126898,495 @@
         },{
           "id": ["corpse_mon_skeleton_scorched"],
           "fg": 24826,
+          "bg": 0
+        },{
+          "id": ["t_nano_floor"],
+          "fg": 24827,
+          "bg": 0
+        },{
+          "id": ["t_nano_door_c"],
+          "fg": 24828,
+          "bg": 0
+        },{
+          "id": ["t_nano_door_o"],
+          "fg": 24829,
+          "bg": 0
+        },{
+          "id": ["t_nano_roof"],
+          "fg": 24830,
+          "bg": 0
+        },{
+          "id": ["nanite_dart"],
+          "fg": 24831,
+          "bg": 0
+        },{
+          "id": ["nanite_multitool_large"],
+          "fg": 24832,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nanite_multitool_large"],
+          "fg": 24833,
+          "bg": 0
+        },{
+          "id": ["nanite_multitool_small"],
+          "fg": 24834,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nanite_multitool_small"],
+          "fg": 24835,
+          "bg": 0
+        },{
+          "id": ["nanite_multitool_weld"],
+          "fg": 24836,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nanite_multitool_weld"],
+          "fg": 24837,
+          "bg": 0
+        },
+		{
+          "id": ["nano_blade_mag", "nano_dart_mag", "nano_wire_mag", "nano_deathcloud_mag"],
+          "fg": 24838,
+          "bg": 0
+        },
+		{
+          "id": ["nano_frame"],
+          "fg": 24839,
+          "bg": 0
+        },		{
+          "id": ["nano_holster"],
+          "fg": 24840,
+          "bg": 0
+        },{
+          "id": ["overlay_worn_nano_holster"],
+          "fg": 24841,
+          "bg": 0
+        },{
+          "id": ["nano_sheath"],
+          "fg": 24842,
+          "bg": 0
+        },{
+          "id": ["overlay_worn_nano_sheath"],
+          "fg": 24843,
+          "bg": 0
+        },{
+          "id": ["nano_mag_holder"],
+          "fg": 24844,
+          "bg": 0
+        },{
+          "id": ["overlay_worn_nano_mag_holder"],
+          "fg": 24845,
+          "bg": 0
+        },{
+          "id": ["nano_launcher"],
+          "fg": 24846,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nano_launcher"],
+          "fg": 24847,
+          "bg": 0
+        },{
+          "id": ["nano_mag_empty"],
+          "fg": 24848,
+          "bg": 0
+        },{
+          "id": ["nano_pistol"],
+          "fg": 24849,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nano_pistol"],
+          "fg": 24850,
+          "bg": 0
+        },{
+          "id": ["nano_rifle"],
+          "fg": 24851,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nano_rifle"],
+          "fg": 24852,
+          "bg": 0
+        },{
+          "id": ["nano_smg"],
+          "fg": 24853,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nano_smg"],
+          "fg": 24854,
+          "bg": 0
+        },{
+          "id": ["vp_nt_solar_1"],
+          "fg": 24855,
+          "bg": 0,
+		  "rotates": true
+        },{
+          "id": ["vp_nt_armor_1"],
+          "fg": 24856,
+          "bg": 0,
+		  "rotates": true
+        },{
+          "id": ["vp_nt_armor_2"],
+          "fg": 24857,
+          "bg": 0,
+		  "rotates": true
+        },{
+          "id": ["vp_nt_storage"],
+          "fg": 24858,
+          "bg": 0,
+		  "rotates": true
+        },{
+          "id": ["vp_nt_crafter"],
+          "fg": 24859,
+          "bg": 0,
+		  "rotates": true
+        },      
+		{
+          "id": "vp_nanoboard_horizontal",
+          "fg": 24861,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24862}]
+        },		
+		{
+          "id": "vp_nanoboard_ne",
+          "fg": 24863,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24864}]
+        },	
+		{
+          "id": "vp_nanoboard_nw",
+          "fg": 24865,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24866}]
+        },	
+		{
+          "id": "vp_nanoboard_se",
+          "fg": 24867,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24868}]
+        },	
+		{
+          "id": "vp_nanoboard_sw",
+          "fg": 24869,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24870}]
+        },	
+		{
+          "id": "vp_nanoboard_vertical",
+          "fg": 24871,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24872}]
+        },		
+		
+		{
+          "id": "vp_nanohalfboard_horizontal",
+          "fg": 24861,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24862}]
+        },	
+		{
+          "id": "vp_nanohalfboard_horizontal_2",
+          "fg": 24861,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24862}]
+        },	
+		
+		{
+          "id": "vp_nanohalfboard_ne",
+          "fg": 24873,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24874}]
+        },	
+		{
+          "id": "vp_nanohalfboard_nw",
+          "fg": 24875,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24876}]
+        },	
+		{
+          "id": "vp_nanohalfboard_se",
+          "fg": 24867,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24868}]
+        },	
+		{
+          "id": "vp_nanohalfboard_sw",
+          "fg": 24869,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24870}]
+        },	
+		{
+          "id": "vp_nanohalfboard_vertical",
+          "fg": 24871,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24872}]
+        },		{
+          "id": "vp_nanohalfboard_vertical_2",
+          "fg": 24871,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24872}]
+        },   
+		{
+          "id": "vp_nano_door",
+          "fg": 24877,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [   
+		  {"id": "open", "fg": 24878},
+		  {"id": "broken", "fg": 24879}
+		  ]
+        },	
+		{
+          "id": "vp_nano_door_opaque",
+          "fg": 24880,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [   
+		  {"id": "open", "fg": 24881},
+		  {"id": "broken", "fg": 24882}
+		  ]
+        },	
+		{
+          "id": "vp_nanotech_frame_cover",
+          "fg": 24883,
+          "rotates": true
+		},		{
+          "id": "vp_nanotech_frame_cross",
+          "fg": 24884,
+          "rotates": true
+		},		{
+          "id": "vp_nanotech_frame_horizontal",
+          "fg": 24885,
+          "rotates": true
+		},		{
+          "id": "vp_nanotech_frame_horizontal_2",
+          "fg": 24885,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame_ne",
+          "fg": 24886,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame_nw",
+          "fg": 24887,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame_se",
+          "fg": 24888,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame_sw",
+          "fg": 24889,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame_vertical",
+          "fg": 24890,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame_vertical_2",
+          "fg": 24890,
+          "rotates": true
+		},	
+		
+		{
+          "id": "vp_nanotech_frame2_cover",
+          "fg": 24891,
+          "rotates": true
+		},		
+		{
+          "id": "vp_nanotech_frame2_cross",
+          "fg": 24892,
+          "rotates": true
+		},		{
+          "id": "vp_nanotech_frame2_horizontal",
+          "fg": 24893,
+          "rotates": true
+		},		{
+          "id": "vp_nanotech_frame2_horizontal_2",
+          "fg": 24893,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame2_ne",
+          "fg": 24894,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame2_nw",
+          "fg": 24895,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame2_se",
+          "fg": 24896,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame2_sw",
+          "fg": 24897,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame2_vertical",
+          "fg": 24898,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_frame2_vertical_2",
+          "fg": 24898,
+          "rotates": true
+		},{
+          "id": "vp_nanotech_anima",
+          "fg": 24899,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24900}]
+        },
+		{
+          "id": "vp_nanotech_battery",
+          "fg": 24901,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24902}]
+        }, 	
+		{
+          "id": "vp_nanotech_control",
+          "fg": 24903,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24904}]
+        }, 		{
+          "id": "vp_nanotech_crawler",
+          "fg": 24905,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24906}]
+        },{
+          "id": "vp_nano_aisle",
+          "fg": 24907,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24908}]
+        },{
+          "id": "vp_nano_boat",
+          "fg": 24909,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24910}]
+        },{
+          "id": ["vp_nano_freezer", "vp_nano_fridge"],
+          "fg": 24911,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24912}]
+        },{
+          "id": ["vp_nanocam"],
+          "fg": 24913,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24914}]
+        },{
+          "id": ["vp_nanofactory_vehicle_1", "vp_nanofactory_vehicle_2", "vp_nt_fluid_tank_1"],
+          "fg": 24915,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24916}]
+        },
+		{
+          "id": ["vp_nanotech_generator"],
+          "fg": 23281,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24917}]
+        },{
+          "id": ["vp_nanotech_shockmesh"],
+          "fg": 24918,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24919}]
+        },
+		{
+          "id": ["mon_nano_turret_pistol"],
+          "fg": 24920,
+          "bg": 0
+        },		{
+          "id": ["mon_nano_turret_shredder"],
+          "fg": 24921,
+          "bg": 0
+        },		{
+          "id": ["mon_nano_turret_rifle"],
+          "fg": 24922,
+          "bg": 0
+        },		{
+          "id": ["mon_nano_turret_smg"],
+          "fg": 24923,
+          "bg": 0
+        },{
+          "id": ["corpse_mon_nano_turret_smg", "corpse_mon_nano_turret_rifle", "corpse_mon_nano_turret_shredder", "corpse_mon_nano_turret_pistol"],
+          "fg": 24924,
+          "bg": 0
+        },{
+          "id": ["vp_nano_turret_pistol"],
+          "fg": 24925,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24926}]
+        },{
+          "id": ["vp_nano_turret_rifle"],
+          "fg": 24927,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24928}]
+        },{
+          "id": ["vp_nano_turret_shredder"],
+          "fg": 24929,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24930}]
+        },{
+          "id": ["vp_nano_turret_smg"],
+          "fg": 24931,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [{ "id": "broken", "fg": 24932}]
+        },	
+		{
+          "id": ["nano_turret_pistol", "nanoturret_pistol"],
+          "fg": 24933,
+          "bg": 0
+        },		{
+          "id": ["nano_turret_rifle", "nanoturret_rifle"],
+          "fg": 24934,
+          "bg": 0
+        },		{
+          "id": ["nano_turret_shredder", "nanoturret_shredder"],
+          "fg": 24935,
+          "bg": 0
+        },{
+          "id": ["nano_turret_smg", "nanoturret_smg"],
+          "fg": 24936,
+          "bg": 0
+        },		{
+          "id": ["overlay_wielded_nano_turret_pistol"],
+          "fg": 24937,
+          "bg": 0
+        },		{
+          "id": ["overlay_wielded_nano_turret_rifle"],
+          "fg": 24938,
+          "bg": 0
+        },		{
+          "id": ["overlay_wielded_nano_turret_shredder"],
+          "fg": 24939,
+          "bg": 0
+        },{
+          "id": ["overlay_wielded_nano_turret_smg"],
+          "fg": 24940,
           "bg": 0
         },
 		{
